@@ -1,20 +1,173 @@
 [
-  {"id":"coleman-instant-up-4p-tent","name":"Coleman Instant Up 4P Tent","brand":"Coleman","category":"tents","image":"https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=900&q=80","summary":"Fast setup family tent for weekend trips and car camping.","keywords":"Coleman Instant Up 4P Tent camping tent 4 person australia","storesQuery":"Coleman Instant Up 4P Tent"},
-  {"id":"oztrail-fast-frame-6p","name":"Oztrail Fast Frame 6P Tent","brand":"Oztrail","category":"tents","image":"https://images.unsplash.com/photo-1504851149312-7a075b496cc7?auto=format&fit=crop&w=900&q=80","summary":"Large fast-frame tent aimed at families wanting quick pitch times.","keywords":"Oztrail Fast Frame 6P Tent family tent australia","storesQuery":"Oztrail Fast Frame 6P Tent"},
-  {"id":"blackwolf-turbo-lite-300","name":"BlackWolf Turbo Lite 300 Tent","brand":"BlackWolf","category":"tents","image":"https://images.unsplash.com/photo-1523987355523-c7b5b0723c6f?auto=format&fit=crop&w=900&q=80","summary":"Premium touring tent with roomy interior and easier pitching.","keywords":"BlackWolf Turbo Lite 300 Tent touring tent australia","storesQuery":"BlackWolf Turbo Lite 300 Tent"},
-  {"id":"jetboil-flash-stove","name":"Jetboil Flash Cooking System","brand":"Jetboil","category":"stoves","image":"https://images.unsplash.com/photo-1522163182402-834f871fd851?auto=format&fit=crop&w=900&q=80","summary":"Fast-boil integrated stove ideal for hiking and simple meals.","keywords":"Jetboil Flash Cooking System camping stove australia","storesQuery":"Jetboil Flash Cooking System"},
-  {"id":"companion-propane-stove","name":"Companion 2 Burner Propane Stove","brand":"Companion","category":"stoves","image":"https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=900&q=80","summary":"Classic campsite stove for family cooking with two burners.","keywords":"Companion 2 Burner Propane Stove camp stove australia","storesQuery":"Companion 2 Burner Propane Stove"},
-  {"id":"msr-pocketrocket-2","name":"MSR PocketRocket 2 Stove","brand":"MSR","category":"stoves","image":"https://images.unsplash.com/photo-1511884642898-4c92249e20b6?auto=format&fit=crop&w=900&q=80","summary":"Tiny backpacking stove for hikers chasing light pack weight.","keywords":"MSR PocketRocket 2 Stove hiking stove australia","storesQuery":"MSR PocketRocket 2 Stove"},
-  {"id":"helinox-chair-one","name":"Helinox Chair One","brand":"Helinox","category":"chairs","image":"https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80","summary":"Lightweight premium folding chair for camp and travel.","keywords":"Helinox Chair One camping chair australia","storesQuery":"Helinox Chair One"},
-  {"id":"coleman-deluxe-chair","name":"Coleman Deluxe Camp Chair","brand":"Coleman","category":"chairs","image":"https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=900&q=80","summary":"Padded car-camping chair with arm rests and cup holder.","keywords":"Coleman Deluxe Camp Chair australia","storesQuery":"Coleman Deluxe Camp Chair"},
-  {"id":"wanderer-moon-chair","name":"Wanderer Moon Chair","brand":"Wanderer","category":"chairs","image":"https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?auto=format&fit=crop&w=900&q=80","summary":"Wide cozy camp chair popular for relaxed campsite setups.","keywords":"Wanderer Moon Chair camping chair australia","storesQuery":"Wanderer Moon Chair"},
-  {"id":"yeti-tundra-45","name":"YETI Tundra 45 Cooler","brand":"YETI","category":"coolers","image":"https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?auto=format&fit=crop&w=900&q=80","summary":"Heavy-duty roto cooler for longer trips and ice retention.","keywords":"YETI Tundra 45 Cooler australia","storesQuery":"YETI Tundra 45 Cooler"},
-  {"id":"dometic-ci-42","name":"Dometic CI 42 Cooler","brand":"Dometic","category":"coolers","image":"https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=80","summary":"Premium hard cooler for car campers and overlanding setups.","keywords":"Dometic CI 42 Cooler australia","storesQuery":"Dometic CI 42 Cooler"},
-  {"id":"evakool-down-under-50","name":"EvaKool Down Under 50L Cooler","brand":"EvaKool","category":"coolers","image":"https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=900&q=80","summary":"Australian-made icebox cooler built for rugged local conditions.","keywords":"EvaKool Down Under 50L Cooler","storesQuery":"EvaKool Down Under 50L Cooler"},
-  {"id":"bio-lite-alpen-glow-500","name":"BioLite AlpenGlow 500 Lantern","brand":"BioLite","category":"lanterns","image":"https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=900&q=80","summary":"Rechargeable camp lantern with multiple light modes.","keywords":"BioLite AlpenGlow 500 Lantern australia","storesQuery":"BioLite AlpenGlow 500 Lantern"},
-  {"id":"coleman-500l-led-lantern","name":"Coleman 500L LED Lantern","brand":"Coleman","category":"lanterns","image":"https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?auto=format&fit=crop&w=900&q=80","summary":"Simple bright lantern for family campsites and backup light.","keywords":"Coleman 500L LED Lantern australia","storesQuery":"Coleman 500L LED Lantern"},
-  {"id":"black-diamond-moji-r-plus","name":"Black Diamond Moji R+ Lantern","brand":"Black Diamond","category":"lanterns","image":"https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=900&q=80","summary":"Compact rechargeable lantern for hiking and tent use.","keywords":"Black Diamond Moji R Plus Lantern australia","storesQuery":"Black Diamond Moji R Plus Lantern"},
-  {"id":"sea-to-summit-trek-down-bag","name":"Sea to Summit Trek Down Sleeping Bag","brand":"Sea to Summit","category":"sleeping-bags","image":"https://images.unsplash.com/photo-1522069213448-443a614da9b6?auto=format&fit=crop&w=900&q=80","summary":"Versatile down sleeping bag for three-season outdoor use.","keywords":"Sea to Summit Trek Down Sleeping Bag australia","storesQuery":"Sea to Summit Trek Down Sleeping Bag"},
-  {"id":"oztrail-summer-sleeper","name":"Oztrail Summer Sleeper Bag","brand":"Oztrail","category":"sleeping-bags","image":"https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=900&q=80","summary":"Affordable warm-weather sleeping bag for casual camping.","keywords":"Oztrail Summer Sleeper sleeping bag australia","storesQuery":"Oztrail Summer Sleeper"},
-  {"id":"blackwolf-mantis-ii","name":"BlackWolf Mantis II Sleeping Bag","brand":"BlackWolf","category":"sleeping-bags","image":"https://images.unsplash.com/photo-1517821099601-6ad0f4f60853?auto=format&fit=crop&w=900&q=80","summary":"Roomy synthetic sleeping bag for cooler overnight camps.","keywords":"BlackWolf Mantis II sleeping bag australia","storesQuery":"BlackWolf Mantis II Sleeping Bag"}
+  {
+    "slug": "coleman-instant-up-4p-tent",
+    "name": "Coleman Instant Up 4P Tent",
+    "brand": "Coleman",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=1200&q=80",
+    "description": "Fast setup family tent for weekend trips and car camping.",
+    "compare_query": "Coleman Instant Up Tent"
+  },
+  {
+    "slug": "oztrail-fast-frame-6p-tent",
+    "name": "OZtrail Fast Frame 6P Tent",
+    "brand": "OZtrail",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?auto=format&fit=crop&w=1200&q=80",
+    "description": "Large fast-frame family tent with roomy interior.",
+    "compare_query": "OZtrail Fast Frame Tent"
+  },
+  {
+    "slug": "blackwolf-turbo-lite-240",
+    "name": "BlackWolf Turbo Lite 240",
+    "brand": "BlackWolf",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1523987355523-c7b5b84d31f3?auto=format&fit=crop&w=1200&q=80",
+    "description": "Premium touring tent with quick pitch design.",
+    "compare_query": "BlackWolf Turbo Lite Tent"
+  },
+  {
+    "slug": "naturehike-cloud-up-2",
+    "name": "Naturehike Cloud Up 2",
+    "brand": "Naturehike",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1510312305653-8ed496efae75?auto=format&fit=crop&w=1200&q=80",
+    "description": "Lightweight backpacking tent for two people.",
+    "compare_query": "Naturehike Cloud Up 2 tent"
+  },
+  {
+    "slug": "jetboil-flash-cooking-system",
+    "name": "Jetboil Flash Cooking System",
+    "brand": "Jetboil",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=1200&q=80",
+    "description": "Fast boil integrated stove system for hiking and camping.",
+    "compare_query": "Jetboil Flash stove"
+  },
+  {
+    "slug": "msr-pocketrocket-2",
+    "name": "MSR PocketRocket 2",
+    "brand": "MSR",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?auto=format&fit=crop&w=1200&q=80",
+    "description": "Compact canister stove for backpacking trips.",
+    "compare_query": "MSR PocketRocket 2 stove"
+  },
+  {
+    "slug": "butane-cassette-stove",
+    "name": "Portable Butane Cassette Stove",
+    "brand": "Companion",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1495195134817-aeb325a55b65?auto=format&fit=crop&w=1200&q=80",
+    "description": "Easy tabletop stove for campsite cooking.",
+    "compare_query": "butane cassette stove camping"
+  },
+  {
+    "slug": "coleman-queen-double-high-airbed",
+    "name": "Coleman Queen Double High Airbed",
+    "brand": "Coleman",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80",
+    "description": "Comfort-focused inflatable bed for car camping.",
+    "compare_query": "Coleman queen airbed camping"
+  },
+  {
+    "slug": "sea-to-summit-trek-tkii",
+    "name": "Sea to Summit Trek TkII Sleeping Bag",
+    "brand": "Sea to Summit",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1522770179533-24471fcdba45?auto=format&fit=crop&w=1200&q=80",
+    "description": "Versatile synthetic sleeping bag for cool conditions.",
+    "compare_query": "Sea to Summit Trek sleeping bag"
+  },
+  {
+    "slug": "blackwolf-hexatherm-350",
+    "name": "BlackWolf Hexatherm 350",
+    "brand": "BlackWolf",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1455642305367-68834a98c9df?auto=format&fit=crop&w=1200&q=80",
+    "description": "Warm sleeping bag built for cooler nights.",
+    "compare_query": "BlackWolf Hexatherm sleeping bag"
+  },
+  {
+    "slug": "helinox-chair-one",
+    "name": "Helinox Chair One",
+    "brand": "Helinox",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Lightweight folding chair with compact packed size.",
+    "compare_query": "Helinox Chair One"
+  },
+  {
+    "slug": "coleman-deluxe-chair",
+    "name": "Coleman Deluxe Camp Chair",
+    "brand": "Coleman",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1200&q=80",
+    "description": "Classic padded camp chair with cup holder.",
+    "compare_query": "Coleman camp chair"
+  },
+  {
+    "slug": "wanderer-directors-chair",
+    "name": "Wanderer Director's Chair",
+    "brand": "Wanderer",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?auto=format&fit=crop&w=1200&q=80",
+    "description": "Stable folding chair with side table for campsite lounging.",
+    "compare_query": "Wanderer directors chair"
+  },
+  {
+    "slug": "yeti-tundra-45",
+    "name": "YETI Tundra 45 Cooler",
+    "brand": "YETI",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1461354464878-ad92f492a5a0?auto=format&fit=crop&w=1200&q=80",
+    "description": "Heavy-duty premium cooler with long ice retention.",
+    "compare_query": "YETI Tundra 45 cooler"
+  },
+  {
+    "slug": "evakool-down-under-50l",
+    "name": "EvaKool Down Under 50L",
+    "brand": "EvaKool",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1502740479091-635887520276?auto=format&fit=crop&w=1200&q=80",
+    "description": "Rugged Australian-made cooler for long weekends away.",
+    "compare_query": "EvaKool cooler 50L"
+  },
+  {
+    "slug": "icebox-55l-cooler",
+    "name": "55L Rotomoulded Icebox Cooler",
+    "brand": "Icebox",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1200&q=80",
+    "description": "Value-focused hard cooler for fishing and camping trips.",
+    "compare_query": "rotomoulded cooler 55L"
+  },
+  {
+    "slug": "black-diamond-moji-lantern",
+    "name": "Black Diamond Moji Lantern",
+    "brand": "Black Diamond",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=1200&q=80",
+    "description": "Compact LED lantern for tent and campsite use.",
+    "compare_query": "Black Diamond Moji lantern"
+  },
+  {
+    "slug": "coleman-northstar-lantern",
+    "name": "Coleman Northstar Lantern",
+    "brand": "Coleman",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bright lantern for larger campsites and family setups.",
+    "compare_query": "Coleman Northstar lantern"
+  },
+  {
+    "slug": "barebones-forest-lantern",
+    "name": "Barebones Forest Lantern",
+    "brand": "Barebones",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=1200&q=80",
+    "description": "Stylish rechargeable lantern with warm light output.",
+    "compare_query": "Barebones Forest lantern"
+  }
 ]
