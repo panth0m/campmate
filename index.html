@@ -1,46 +1,164 @@
-<!doctype html><html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>CampMate Australia</title>
-<meta name="description" content="CampMate Australia compares camping gear with live eBay pricing and direct store search links.">
-<link rel="stylesheet" href="/assets/styles.css"></head>
-<body data-page="home">
-<header class="topbar"><div class="nav">
-<a class="brand" href="/index.html"><div class="logo">⛺</div><div><h1>CampMate Australia</h1><p>Danawa-style camping gear compare</p></div></a>
-<nav class="navlinks"><a href="/index.html">Home</a><a href="/#categories">Categories</a><a href="/#popular">Popular</a><a href="/guides/best-family-tents-australia.html">Guides</a></nav>
-</div></header><main class="wrap">
-<section class="hero">
-  <div class="hero-box hero-copy">
-    <span class="kicker">Danawa-style v1</span>
-    <h2>Compare camping gear by product page, not just a search box.</h2>
-    <p>Browse tents, stoves, chairs, coolers, lanterns and sleep systems. Open a product page to check live eBay pricing and jump straight to matching searches at major Australian stores.</p>
-    <div class="hero-actions">
-      <a class="btn" href="#popular">See popular products</a>
-      <a class="ghost" href="#categories">Browse categories</a>
-    </div>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CampMate Australia</title>
+  <meta name="description" content="CampMate Australia - compare camping gear in Australia with category pages, product pages and live eBay pricing.">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container nav">
+    <a class="logo" href="index.html">
+      <span class="logo-badge">⛺</span>
+      <span>CampMate Australia</span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="categories.html">Categories</a>
+      <a href="popular.html">Popular</a>
+      <a href="guides.html">Guides</a>
+    </nav>
+    <form class="nav-search" data-search-form>
+      <input class="input" name="q" placeholder="Search tents, coolers, stoves..." />
+      <button class="btn" type="submit">Search</button>
+    </form>
   </div>
-  <div class="hero-box hero-side">
-    <div class="searchbar">
-      <input value="Coleman Instant Up Tent" readonly>
-      <a class="btn" href="/products/coleman-instant-up-4p-tent.html">Open compare</a>
+</header>
+
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-card hero-copy">
+        <div class="eyebrow">Danawa-style camping gear compare</div>
+        <h1>Compare camping gear by product page, not just a search box.</h1>
+        <p>Browse tents, stoves, chairs, coolers, lanterns and sleep systems. Open a product page to check live eBay pricing and jump straight to matching searches at major Australian stores.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#popular-products">See popular products</a>
+          <a class="btn secondary" href="categories.html">Browse categories</a>
+        </div>
+        <div class="pillbar">
+          <span class="pill">Category pages 6</span>
+          <span class="pill">Product pages 19</span>
+          <span class="pill">eBay live On</span>
+          <span class="pill">Store compare 7 links</span>
+        </div>
+      </div>
+      <div class="glass">
+        <div class="stat-grid">
+          <div class="stat"><strong>6</strong><span class="muted">Category pages</span></div>
+          <div class="stat"><strong>19</strong><span class="muted">Product pages</span></div>
+          <div class="stat"><strong>Live</strong><span class="muted">eBay AU results</span></div>
+          <div class="stat"><strong>SEO</strong><span class="muted">Guide pages included</span></div>
+        </div>
+      </div>
     </div>
-    <div class="mini-grid">
-      <div class="stat"><span class="muted">Category pages</span><b>6</b></div>
-      <div class="stat"><span class="muted">Product pages</span><b>19</b></div>
-      <div class="stat"><span class="muted">eBay live</span><b>On</b></div>
-      <div class="stat"><span class="muted">Store compare</span><b>7 links</b></div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Categories</h2>
+          <p>Start from a category, then open a product page for comparison.</p>
+        </div>
+        <a class="btn secondary small" href="categories.html">View all</a>
+      </div>
+      <div id="category-grid" class="grid-3"></div>
     </div>
-    <div class="notice small">This version is built to be upload-ready and stable: eBay prices are live, and other stores open the same product search directly.</div>
-  </div>
-</section>
-<section class="section" id="categories"><div class="section-head"><div><h3>Categories</h3><p>Start from a category, then open a product page for comparison.</p></div></div><div class="cat-grid" id="categoryGrid"></div></section>
-<section class="section" id="popular"><div class="section-head"><div><h3>Popular products</h3><p>These become your SEO landing pages and product comparison pages.</p></div></div><div class="product-grid" id="popularGrid"></div></section>
-<section class="section"><div class="section-head"><div><h3>SEO guides</h3><p>Extra pages help Google understand what the site is about.</p></div></div>
-  <div class="guide-grid">
-    <a class="guide-card" href="/guides/best-family-tents-australia.html"><span class="tag">Guide</span><h4>Best Family Tents in Australia</h4><p class="muted">Compare family tent picks and jump into live pricing pages.</p></a>
-    <a class="guide-card" href="/guides/best-camping-stoves-australia.html"><span class="tag">Guide</span><h4>Best Camping Stoves in Australia</h4><p class="muted">Fast boil, table stoves and hiking options.</p></a>
-    <a class="guide-card" href="/guides/best-camp-chairs-australia.html"><span class="tag">Guide</span><h4>Best Camp Chairs in Australia</h4><p class="muted">Lightweight and comfort-first seating picks.</p></a>
-  </div>
-</section>
+  </section>
+
+  <section class="section" id="popular-products">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Popular products</h2>
+          <p>These become your SEO landing pages and product comparison pages.</p>
+        </div>
+        <a class="btn secondary small" href="popular.html">All products</a>
+      </div>
+      <div id="popular-grid" class="grid-4"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>SEO guides</h2>
+          <p>Extra pages help Google understand what the site is about.</p>
+        </div>
+        <a class="btn secondary small" href="guides.html">All guides</a>
+      </div>
+      <div id="guide-grid" class="grid-3"></div>
+    </div>
+  </section>
 </main>
-<footer class="footer">CampMate Australia · eBay live pricing + direct store search compare. Other stores are direct search links unless official APIs become available.</footer>
-<script src="/assets/app.js"></script></body></html>
+
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="logo" style="margin-bottom:12px">
+        <span class="logo-badge">⛺</span>
+        <span>CampMate Australia</span>
+      </div>
+      <p>Danawa-style camping gear compare for Australia. Browse category pages, open product pages, then jump to live eBay pricing and search links for major local stores.</p>
+    </div>
+    <div>
+      <strong>Browse</strong>
+      <div class="list" style="margin-top:12px">
+        <a href="categories.html">All categories</a>
+        <a href="popular.html">Popular products</a>
+        <a href="guides.html">SEO guides</a>
+      </div>
+    </div>
+    <div>
+      <strong>Deploy</strong>
+      <div class="list" style="margin-top:12px">
+        <span class="muted">Cloudflare Pages ready</span>
+        <span class="muted">eBay live via /api/ebay-search</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/common.js"></script>
+
+<script>
+setupSearchForm();
+Promise.all([
+  getJson('data/categories.json'),
+  getJson('data/products.json'),
+  getJson('data/guides.json')
+]).then(([categories, products, guides]) => {
+  const categoryGrid = document.getElementById('category-grid');
+  categoryGrid.innerHTML = categories.map(cat => {
+    const count = products.filter(p => p.category === cat.slug).length;
+    return categoryCard(cat, count);
+  }).join('');
+
+  const popular = [...products].sort((a,b)=> b.rating - a.rating || b.reviews - a.reviews).slice(0,8);
+  document.getElementById('popular-grid').innerHTML = popular.map(productCard).join('');
+
+  document.getElementById('guide-grid').innerHTML = guides.map(g => `
+    <article class="card">
+      <div class="card-body">
+        <div class="badge">Guide</div>
+        <a class="title" href="guides/${g.slug}.html">${g.title}</a>
+        <p>${g.excerpt}</p>
+        <a class="btn small" href="guides/${g.slug}.html">Read guide</a>
+      </div>
+    </article>`).join('');
+}).catch(err => {
+  console.error(err);
+  document.getElementById('popular-grid').innerHTML = '<div class="empty">Could not load product data.</div>';
+});
+</script>
+
+</body>
+</html>
