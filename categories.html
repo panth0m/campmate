@@ -1,21 +1,8 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CampMate Australia Categories</title>
-  <meta name="description" content="CampMate Australia - compare camping gear in Australia with category pages, product pages and live eBay pricing.">
-  <link rel="preconnect" href="https://images.unsplash.com">
-  <link rel="stylesheet" href="assets/style.css">
-</head>
-<body>
-
-<header class="topbar">
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Categories | CampMate Australia</title><meta name="description" content="Browse camping gear categories.">
+<link rel="stylesheet" href="assets/style.css"></head><body><header class="topbar">
   <div class="container nav">
-    <a class="logo" href="index.html">
-      <span class="logo-badge">⛺</span>
-      <span>CampMate Australia</span>
-    </a>
+    <a class="logo" href="index.html"><span class="logo-badge">⛺</span><span>CampMate Australia</span></a>
     <nav class="nav-links">
       <a href="index.html">Home</a>
       <a href="categories.html">Categories</a>
@@ -23,61 +10,37 @@
       <a href="guides.html">Guides</a>
     </nav>
     <form class="nav-search" data-search-form>
-      <input class="input" name="q" placeholder="Search tents, coolers, stoves..." />
+      <input class="input" name="q" placeholder="Search tents, coolers, chairs..." />
       <button class="btn" type="submit">Search</button>
     </form>
   </div>
 </header>
-
-
-<main class="section">
-  <div class="container">
-    <div class="section-head">
-      <div>
-        <h1 style="font-size:clamp(2rem, 3vw, 3rem); margin-bottom:10px">Browse camping gear categories</h1>
-        <p>Open a category page to compare hand-picked products and jump to live pricing pages.</p>
-      </div>
-    </div>
-    <div id="all-categories" class="grid-3"></div>
-  </div>
-</main>
-
-
+<main class="section"><div class="container"><div class="center-copy"><div class="badge">Browse categories</div><h1 style="font-size:clamp(2rem,3vw,3.1rem)">Start from the category that matches the trip.</h1><p>Each category card leads into compare-friendly product pages with store links ready for affiliate monetisation.</p></div><div style="height:18px"></div><div id="all-categories" class="grid-3"></div></div></main>
 <footer class="footer">
   <div class="container footer-grid">
     <div>
-      <div class="logo" style="margin-bottom:12px">
-        <span class="logo-badge">⛺</span>
-        <span>CampMate Australia</span>
-      </div>
-      <p>Danawa-style camping gear compare for Australia. Browse category pages, open product pages, then jump to live eBay pricing and search links for major local stores.</p>
+      <div class="logo" style="margin-bottom:12px"><span class="logo-badge">⛺</span><span>CampMate Australia</span></div>
+      <p>Danawa-style camping gear comparison for Australia. Browse category pages, compare product pages, then jump to store listings and affiliate-ready links.</p>
     </div>
     <div>
       <strong>Browse</strong>
       <div class="list" style="margin-top:12px">
         <a href="categories.html">All categories</a>
         <a href="popular.html">Popular products</a>
-        <a href="guides.html">SEO guides</a>
+        <a href="guides.html">Guides</a>
       </div>
     </div>
     <div>
-      <strong>Deploy</strong>
+      <strong>Monetise</strong>
       <div class="list" style="margin-top:12px">
-        <span class="muted">Cloudflare Pages ready</span>
-        <span class="muted">eBay live via /api/ebay-search</span>
+        <span class="muted">eBay live search route</span>
+        <span class="muted">Swap store links to affiliate IDs</span>
       </div>
     </div>
   </div>
-</footer>
-
-<script src="assets/common.js"></script>
-
-<script>
+</footer><script src="assets/common.js"></script><script>
 setupSearchForm();
 Promise.all([getJson('data/categories.json'), getJson('data/products.json')]).then(([categories, products]) => {
-  document.getElementById('all-categories').innerHTML = categories.map(cat => categoryCard(cat, products.filter(p => p.category === cat.slug).length)).join('');
+document.getElementById('all-categories').innerHTML = categories.map(cat => categoryCard(cat, products.filter(p => p.category === cat.slug).length)).join('');
 });
-</script>
-
-</body>
-</html>
+</script></body></html>

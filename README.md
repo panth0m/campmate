@@ -1,83 +1,44 @@
+# CampMate Australia – Cloudflare Pages version
 
-# CampMate Australia — Cloudflare Pages version
+This package is the **one-shot Cloudflare-ready version** with:
 
-This is a Cloudflare-ready version of your camping gear compare site.
+- 300 comparison-ready products
+- 6 clearer category hero images
+- 6 buying guides
+- affiliate-ready store links
+- eBay live search route at `/api/ebay-search`
 
-## What is included
+## Upload to GitHub
+Replace your current repo contents with the files in this folder.
 
-- Static Pages site
-- Category pages
-- Product pages
-- Guide pages
-- Live eBay AU pricing through `functions/api/ebay-search.js`
-- Clean relative paths so CSS/JS load correctly on Cloudflare Pages
+## Cloudflare settings
+Use these project settings:
 
-## File structure
+- Framework preset: `None`
+- Build command: leave empty
+- Build output directory: leave empty
+- Root directory: repository root
 
-```text
-.
-├─ index.html
-├─ categories.html
-├─ category.html
-├─ popular.html
-├─ product.html
-├─ search.html
-├─ guides.html
-├─ guides/
-├─ assets/
-├─ data/
-└─ functions/api/ebay-search.js
-```
-
-## Deploy on Cloudflare Pages
-
-### 1. Push this folder to GitHub
-Upload all files to your GitHub repo.
-
-### 2. In Cloudflare Pages
-Use these settings:
-
-- **Framework preset:** None
-- **Build command:** leave empty
-- **Build output directory:** `/`
-
-### 3. Add environment variables in Cloudflare
-Go to your project → Settings → Environment variables
-
-Add:
+## Environment variables
+Add these in Cloudflare if you want live eBay results:
 
 - `EBAY_CLIENT_ID`
 - `EBAY_CLIENT_SECRET`
-- `EBAY_ENV` = `production`
 
-Use `sandbox` only if you are testing with sandbox credentials.
+## Important affiliate note
+Store links are included as **clean search links** so the site works immediately.
+To monetise fully, replace store URLs with your affiliate-tagged versions for:
 
-## Important
+- eBay Partner Network
+- Amazon Associates AU
+- Commission Factory / Impact links for AU retailers
 
-This site uses **relative paths** like:
+## Files you can edit quickly
+- `data/products.json` → product catalogue and store links
+- `data/categories.json` → category cards and hero images
+- `assets/images/categories/*.svg` → category visuals
+- `assets/style.css` → styling
+- `product.html` → compare table + conversion layout
 
-- `assets/style.css`
-- `assets/common.js`
-- `data/products.json`
-
-So it should load CSS/JS correctly on Cloudflare Pages.
-
-## eBay live API route
-
-The product page fetches:
-
-```text
-/api/ebay-search?q=product name
-```
-
-Cloudflare Pages Functions will handle that automatically from:
-
-```text
-/functions/api/ebay-search.js
-```
-
-## Notes
-
-- Product images are using remote image URLs for convenience.
-- If you want local images later, replace image URLs in `data/products.json`.
-- If eBay credentials are missing, the site still works, but live eBay pricing will show as unavailable.
+## Remove from old repo
+Delete old Netlify-only files like `netlify.toml`.

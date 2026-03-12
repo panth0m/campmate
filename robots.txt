@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://YOUR-NETLIFY-DOMAIN.netlify.app/sitemap.xml
+
+Sitemap: https://YOUR-DOMAIN.com/sitemap.xml

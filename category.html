@@ -1,21 +1,8 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Category | CampMate Australia</title>
-  <meta name="description" content="CampMate Australia - compare camping gear in Australia with category pages, product pages and live eBay pricing.">
-  <link rel="preconnect" href="https://images.unsplash.com">
-  <link rel="stylesheet" href="assets/style.css">
-</head>
-<body>
-
-<header class="topbar">
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Category | CampMate Australia</title><meta name="description" content="Browse category products.">
+<link rel="stylesheet" href="assets/style.css"></head><body><header class="topbar">
   <div class="container nav">
-    <a class="logo" href="index.html">
-      <span class="logo-badge">⛺</span>
-      <span>CampMate Australia</span>
-    </a>
+    <a class="logo" href="index.html"><span class="logo-badge">⛺</span><span>CampMate Australia</span></a>
     <nav class="nav-links">
       <a href="index.html">Home</a>
       <a href="categories.html">Categories</a>
@@ -23,72 +10,42 @@
       <a href="guides.html">Guides</a>
     </nav>
     <form class="nav-search" data-search-form>
-      <input class="input" name="q" placeholder="Search tents, coolers, stoves..." />
+      <input class="input" name="q" placeholder="Search tents, coolers, chairs..." />
       <button class="btn" type="submit">Search</button>
     </form>
   </div>
 </header>
-
-
-<main class="page-hero">
-  <div class="container">
-    <div class="breadcrumb"><a href="index.html">Home</a> · <a href="categories.html">Categories</a> · <span id="crumb-name">Category</span></div>
-    <section id="category-banner" class="banner">
-      <div>
-        <div class="badge">Category page</div>
-        <h1 id="category-title">Loading…</h1>
-        <p id="category-desc"></p>
-      </div>
-    </section>
-
-    <div class="filters">
-      <input id="search-in-category" class="input" placeholder="Filter products in this category">
-      <select id="sort-select" class="select">
-        <option value="featured">Featured</option>
-        <option value="price-low">Lowest price</option>
-        <option value="price-high">Highest price</option>
-        <option value="rating">Highest rating</option>
-      </select>
-    </div>
-
-    <div id="category-products" class="grid-3"></div>
-  </div>
-</main>
-
-
-<footer class="footer">
+<main class="page-hero"><div class="container">
+<div class="breadcrumb"><a href="index.html">Home</a> · <a href="categories.html">Categories</a> · <span id="crumb-name">Category</span></div>
+<section id="category-banner" class="banner"><div><div class="badge">Category page</div><h1 id="category-title">Loading…</h1><p id="category-desc"></p></div></section>
+<div class="filters"><input id="search-in-category" class="input" placeholder="Filter products in this category"><select id="sort-select" class="select"><option value="featured">Featured</option><option value="price-low">Lowest price</option><option value="price-high">Highest price</option><option value="rating">Highest rating</option></select></div>
+<div id="category-products" class="grid-3"></div>
+</div></main><footer class="footer">
   <div class="container footer-grid">
     <div>
-      <div class="logo" style="margin-bottom:12px">
-        <span class="logo-badge">⛺</span>
-        <span>CampMate Australia</span>
-      </div>
-      <p>Danawa-style camping gear compare for Australia. Browse category pages, open product pages, then jump to live eBay pricing and search links for major local stores.</p>
+      <div class="logo" style="margin-bottom:12px"><span class="logo-badge">⛺</span><span>CampMate Australia</span></div>
+      <p>Danawa-style camping gear comparison for Australia. Browse category pages, compare product pages, then jump to store listings and affiliate-ready links.</p>
     </div>
     <div>
       <strong>Browse</strong>
       <div class="list" style="margin-top:12px">
         <a href="categories.html">All categories</a>
         <a href="popular.html">Popular products</a>
-        <a href="guides.html">SEO guides</a>
+        <a href="guides.html">Guides</a>
       </div>
     </div>
     <div>
-      <strong>Deploy</strong>
+      <strong>Monetise</strong>
       <div class="list" style="margin-top:12px">
-        <span class="muted">Cloudflare Pages ready</span>
-        <span class="muted">eBay live via /api/ebay-search</span>
+        <span class="muted">eBay live search route</span>
+        <span class="muted">Swap store links to affiliate IDs</span>
       </div>
     </div>
   </div>
 </footer>
-
-<script src="assets/common.js"></script>
-
-<script>
+<script src="assets/common.js"></script><script>
 setupSearchForm();
-let rawProducts = [];
-let current = [];
+let rawProducts = []; let current = [];
 Promise.all([getJson('data/categories.json'), getJson('data/products.json')]).then(([categories, products]) => {
   const slug = categoryParam() || 'tents';
   const cat = categories.find(c => c.slug === slug) || categories[0];
@@ -100,7 +57,6 @@ Promise.all([getJson('data/categories.json'), getJson('data/products.json')]).th
   document.getElementById('category-desc').textContent = cat.description;
   document.getElementById('category-banner').style.backgroundImage = `url(${cat.hero})`;
   render();
-
   document.getElementById('search-in-category').addEventListener('input', e => {
     const q = e.target.value.trim().toLowerCase();
     current = rawProducts.filter(p => `${p.name} ${p.brand} ${p.summary}`.toLowerCase().includes(q));
@@ -108,20 +64,10 @@ Promise.all([getJson('data/categories.json'), getJson('data/products.json')]).th
   });
   document.getElementById('sort-select').addEventListener('change', applySort);
 });
-function applySort(){
-  const val = document.getElementById('sort-select').value;
-  if (val === 'price-low') current.sort((a,b)=> a.salePrice - b.salePrice);
-  else if (val === 'price-high') current.sort((a,b)=> b.salePrice - a.salePrice);
-  else if (val === 'rating') current.sort((a,b)=> b.rating - a.rating || b.reviews - a.reviews);
-  else current.sort((a,b)=> b.rating - a.rating || a.salePrice - b.salePrice);
-  render();
-}
-function render(){
+function applySort() { current = sortProducts(current, document.getElementById('sort-select').value); render(); }
+function render() {
   const el = document.getElementById('category-products');
   if (!current.length) { el.innerHTML = '<div class="empty">No products match this filter.</div>'; return; }
   el.innerHTML = current.map(productCard).join('');
 }
-</script>
-
-</body>
-</html>
+</script></body></html>
