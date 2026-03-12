@@ -648,7 +648,7 @@ async function loadEbay(append = false) {
 
   try {
     const data = await fetchEbay(currentQuery, ebaySort, PAGE_SIZE * ebayPage);
-    const items = data.products || [];
+    const items = data.items || [];
 
     if (!append) {
       if (items.length === 0) {
