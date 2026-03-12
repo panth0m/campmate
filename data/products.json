@@ -1,2448 +1,1802 @@
 [
   {
-    "id": 1,
-    "name": "Oztrail Tents Model 1",
-    "brand": "Oztrail",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Oztrail tents"
-  },
-  {
-    "id": 2,
-    "name": "Naturehike Tents Model 2",
-    "brand": "Naturehike",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Naturehike tents"
-  },
-  {
-    "id": 3,
-    "name": "MSR Tents Model 3",
-    "brand": "MSR",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "MSR tents"
-  },
-  {
-    "id": 4,
-    "name": "BlackWolf Tents Model 4",
-    "brand": "BlackWolf",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "BlackWolf tents"
-  },
-  {
-    "id": 5,
-    "name": "Zempire Tents Model 5",
-    "brand": "Zempire",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Zempire tents"
-  },
-  {
-    "id": 6,
-    "name": "Wanderer Tents Model 6",
-    "brand": "Wanderer",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Wanderer tents"
-  },
-  {
-    "id": 7,
-    "name": "Coleman Tents Model 7",
-    "brand": "Coleman",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Coleman tents"
-  },
-  {
-    "id": 8,
-    "name": "MSR Tents Model 8",
-    "brand": "MSR",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "MSR tents"
-  },
-  {
-    "id": 9,
-    "name": "Sea to Summit Tents Model 9",
-    "brand": "Sea to Summit",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Sea to Summit tents"
-  },
-  {
-    "id": 10,
-    "name": "BlackWolf Tents Model 10",
-    "brand": "BlackWolf",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "BlackWolf tents"
-  },
-  {
-    "id": 11,
-    "name": "Coleman Tents Model 11",
-    "brand": "Coleman",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Coleman tents"
-  },
-  {
-    "id": 12,
-    "name": "Wanderer Tents Model 12",
-    "brand": "Wanderer",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Wanderer tents"
-  },
-  {
-    "id": 13,
-    "name": "MSR Tents Model 13",
-    "brand": "MSR",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "MSR tents"
-  },
-  {
-    "id": 14,
-    "name": "Zempire Tents Model 14",
-    "brand": "Zempire",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Zempire tents"
-  },
-  {
-    "id": 15,
-    "name": "Naturehike Tents Model 15",
-    "brand": "Naturehike",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Naturehike tents"
-  },
-  {
-    "id": 16,
-    "name": "Zempire Tents Model 16",
-    "brand": "Zempire",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Zempire tents"
-  },
-  {
-    "id": 17,
-    "name": "Zempire Tents Model 17",
-    "brand": "Zempire",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Zempire tents"
-  },
-  {
-    "id": 18,
-    "name": "Wanderer Tents Model 18",
-    "brand": "Wanderer",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Wanderer tents"
-  },
-  {
-    "id": 19,
-    "name": "Naturehike Tents Model 19",
-    "brand": "Naturehike",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Naturehike tents"
-  },
-  {
-    "id": 20,
-    "name": "Sea to Summit Tents Model 20",
-    "brand": "Sea to Summit",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Sea to Summit tents"
-  },
-  {
-    "id": 21,
-    "name": "MSR Tents Model 21",
-    "brand": "MSR",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "MSR tents"
-  },
-  {
-    "id": 22,
-    "name": "BlackWolf Tents Model 22",
-    "brand": "BlackWolf",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "BlackWolf tents"
-  },
-  {
-    "id": 23,
-    "name": "Zempire Tents Model 23",
-    "brand": "Zempire",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Zempire tents"
-  },
-  {
-    "id": 24,
-    "name": "MSR Tents Model 24",
-    "brand": "MSR",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "MSR tents"
-  },
-  {
-    "id": 25,
-    "name": "Naturehike Tents Model 25",
-    "brand": "Naturehike",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Naturehike tents"
-  },
-  {
-    "id": 26,
-    "name": "Wanderer Tents Model 26",
-    "brand": "Wanderer",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Wanderer tents"
-  },
-  {
-    "id": 27,
-    "name": "Wanderer Tents Model 27",
-    "brand": "Wanderer",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Wanderer tents"
-  },
-  {
-    "id": 28,
-    "name": "BlackWolf Tents Model 28",
-    "brand": "BlackWolf",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "BlackWolf tents"
-  },
-  {
-    "id": 29,
-    "name": "Sea to Summit Tents Model 29",
-    "brand": "Sea to Summit",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Sea to Summit tents"
-  },
-  {
-    "id": 30,
-    "name": "Wanderer Tents Model 30",
-    "brand": "Wanderer",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Wanderer tents"
-  },
-  {
-    "id": 31,
-    "name": "Wanderer Tents Model 31",
-    "brand": "Wanderer",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Wanderer tents"
-  },
-  {
-    "id": 32,
-    "name": "MSR Tents Model 32",
-    "brand": "MSR",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "MSR tents"
-  },
-  {
-    "id": 33,
-    "name": "Wanderer Tents Model 33",
-    "brand": "Wanderer",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Wanderer tents"
-  },
-  {
-    "id": 34,
-    "name": "MSR Tents Model 34",
-    "brand": "MSR",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "MSR tents"
-  },
-  {
-    "id": 35,
-    "name": "Sea to Summit Tents Model 35",
-    "brand": "Sea to Summit",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Sea to Summit tents"
-  },
-  {
-    "id": 36,
-    "name": "Sea to Summit Tents Model 36",
-    "brand": "Sea to Summit",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Sea to Summit tents"
-  },
-  {
-    "id": 37,
-    "name": "Coleman Tents Model 37",
-    "brand": "Coleman",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Coleman tents"
-  },
-  {
-    "id": 38,
-    "name": "Oztrail Tents Model 38",
-    "brand": "Oztrail",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Oztrail tents"
-  },
-  {
-    "id": 39,
-    "name": "Wanderer Tents Model 39",
-    "brand": "Wanderer",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Wanderer tents"
-  },
-  {
-    "id": 40,
-    "name": "Zempire Tents Model 40",
-    "brand": "Zempire",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Zempire tents"
-  },
-  {
-    "id": 41,
-    "name": "Coleman Tents Model 41",
-    "brand": "Coleman",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Coleman tents"
-  },
-  {
-    "id": 42,
-    "name": "MSR Tents Model 42",
-    "brand": "MSR",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "MSR tents"
-  },
-  {
-    "id": 43,
-    "name": "Naturehike Tents Model 43",
-    "brand": "Naturehike",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Naturehike tents"
-  },
-  {
-    "id": 44,
-    "name": "Coleman Tents Model 44",
-    "brand": "Coleman",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Coleman tents"
-  },
-  {
-    "id": 45,
-    "name": "Sea to Summit Tents Model 45",
-    "brand": "Sea to Summit",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Sea to Summit tents"
-  },
-  {
-    "id": 46,
-    "name": "Oztrail Tents Model 46",
-    "brand": "Oztrail",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Oztrail tents"
-  },
-  {
-    "id": 47,
-    "name": "Naturehike Tents Model 47",
-    "brand": "Naturehike",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Naturehike tents"
-  },
-  {
-    "id": 48,
-    "name": "Wanderer Tents Model 48",
-    "brand": "Wanderer",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Wanderer tents"
-  },
-  {
-    "id": 49,
-    "name": "Wanderer Tents Model 49",
-    "brand": "Wanderer",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Wanderer tents"
-  },
-  {
-    "id": 50,
-    "name": "Wanderer Tents Model 50",
-    "brand": "Wanderer",
-    "category": "tents",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Wanderer tents"
-  },
-  {
-    "id": 51,
-    "name": "Coleman Stoves Model 1",
-    "brand": "Coleman",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Coleman stoves"
-  },
-  {
-    "id": 52,
-    "name": "Jetboil Stoves Model 2",
-    "brand": "Jetboil",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Jetboil stoves"
-  },
-  {
-    "id": 53,
-    "name": "Coleman Stoves Model 3",
-    "brand": "Coleman",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Coleman stoves"
-  },
-  {
-    "id": 54,
-    "name": "MSR Stoves Model 4",
-    "brand": "MSR",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "MSR stoves"
-  },
-  {
-    "id": 55,
-    "name": "Jetboil Stoves Model 5",
-    "brand": "Jetboil",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Jetboil stoves"
-  },
-  {
-    "id": 56,
-    "name": "Jetboil Stoves Model 6",
-    "brand": "Jetboil",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Jetboil stoves"
-  },
-  {
-    "id": 57,
-    "name": "Trangia Stoves Model 7",
-    "brand": "Trangia",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Trangia stoves"
-  },
-  {
-    "id": 58,
-    "name": "Jetboil Stoves Model 8",
-    "brand": "Jetboil",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Jetboil stoves"
-  },
-  {
-    "id": 59,
-    "name": "MSR Stoves Model 9",
-    "brand": "MSR",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "MSR stoves"
-  },
-  {
-    "id": 60,
-    "name": "Coleman Stoves Model 10",
-    "brand": "Coleman",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Coleman stoves"
-  },
-  {
-    "id": 61,
-    "name": "Jetboil Stoves Model 11",
-    "brand": "Jetboil",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Jetboil stoves"
-  },
-  {
-    "id": 62,
-    "name": "MSR Stoves Model 12",
-    "brand": "MSR",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "MSR stoves"
-  },
-  {
-    "id": 63,
-    "name": "Coleman Stoves Model 13",
-    "brand": "Coleman",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Coleman stoves"
-  },
-  {
-    "id": 64,
-    "name": "Trangia Stoves Model 14",
-    "brand": "Trangia",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Trangia stoves"
-  },
-  {
-    "id": 65,
-    "name": "Trangia Stoves Model 15",
-    "brand": "Trangia",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Trangia stoves"
-  },
-  {
-    "id": 66,
-    "name": "Coleman Stoves Model 16",
-    "brand": "Coleman",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Coleman stoves"
-  },
-  {
-    "id": 67,
-    "name": "Jetboil Stoves Model 17",
-    "brand": "Jetboil",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Jetboil stoves"
-  },
-  {
-    "id": 68,
-    "name": "Coleman Stoves Model 18",
-    "brand": "Coleman",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Coleman stoves"
-  },
-  {
-    "id": 69,
-    "name": "Trangia Stoves Model 19",
-    "brand": "Trangia",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Trangia stoves"
-  },
-  {
-    "id": 70,
-    "name": "Trangia Stoves Model 20",
-    "brand": "Trangia",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Trangia stoves"
-  },
-  {
-    "id": 71,
-    "name": "Trangia Stoves Model 21",
-    "brand": "Trangia",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Trangia stoves"
-  },
-  {
-    "id": 72,
-    "name": "Coleman Stoves Model 22",
-    "brand": "Coleman",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Coleman stoves"
-  },
-  {
-    "id": 73,
-    "name": "Trangia Stoves Model 23",
-    "brand": "Trangia",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Trangia stoves"
-  },
-  {
-    "id": 74,
-    "name": "Coleman Stoves Model 24",
-    "brand": "Coleman",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Coleman stoves"
-  },
-  {
-    "id": 75,
-    "name": "Coleman Stoves Model 25",
-    "brand": "Coleman",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Coleman stoves"
-  },
-  {
-    "id": 76,
-    "name": "MSR Stoves Model 26",
-    "brand": "MSR",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "MSR stoves"
-  },
-  {
-    "id": 77,
-    "name": "Trangia Stoves Model 27",
-    "brand": "Trangia",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Trangia stoves"
-  },
-  {
-    "id": 78,
-    "name": "Trangia Stoves Model 28",
-    "brand": "Trangia",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Trangia stoves"
-  },
-  {
-    "id": 79,
-    "name": "MSR Stoves Model 29",
-    "brand": "MSR",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "MSR stoves"
-  },
-  {
-    "id": 80,
-    "name": "Coleman Stoves Model 30",
-    "brand": "Coleman",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Coleman stoves"
-  },
-  {
-    "id": 81,
-    "name": "Trangia Stoves Model 31",
-    "brand": "Trangia",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Trangia stoves"
-  },
-  {
-    "id": 82,
-    "name": "Trangia Stoves Model 32",
-    "brand": "Trangia",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Trangia stoves"
-  },
-  {
-    "id": 83,
-    "name": "Coleman Stoves Model 33",
-    "brand": "Coleman",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Coleman stoves"
-  },
-  {
-    "id": 84,
-    "name": "Companion Stoves Model 34",
-    "brand": "Companion",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Companion stoves"
-  },
-  {
-    "id": 85,
-    "name": "Companion Stoves Model 35",
-    "brand": "Companion",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Companion stoves"
-  },
-  {
-    "id": 86,
-    "name": "MSR Stoves Model 36",
-    "brand": "MSR",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "MSR stoves"
-  },
-  {
-    "id": 87,
-    "name": "Companion Stoves Model 37",
-    "brand": "Companion",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Companion stoves"
-  },
-  {
-    "id": 88,
-    "name": "Trangia Stoves Model 38",
-    "brand": "Trangia",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Trangia stoves"
-  },
-  {
-    "id": 89,
-    "name": "Primus Stoves Model 39",
-    "brand": "Primus",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Primus stoves"
-  },
-  {
-    "id": 90,
-    "name": "Companion Stoves Model 40",
-    "brand": "Companion",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Companion stoves"
-  },
-  {
-    "id": 91,
-    "name": "Companion Stoves Model 41",
-    "brand": "Companion",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Companion stoves"
-  },
-  {
-    "id": 92,
-    "name": "MSR Stoves Model 42",
-    "brand": "MSR",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "MSR stoves"
-  },
-  {
-    "id": 93,
-    "name": "Jetboil Stoves Model 43",
-    "brand": "Jetboil",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Jetboil stoves"
-  },
-  {
-    "id": 94,
-    "name": "Jetboil Stoves Model 44",
-    "brand": "Jetboil",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Jetboil stoves"
-  },
-  {
-    "id": 95,
-    "name": "Trangia Stoves Model 45",
-    "brand": "Trangia",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Trangia stoves"
-  },
-  {
-    "id": 96,
-    "name": "Jetboil Stoves Model 46",
-    "brand": "Jetboil",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Jetboil stoves"
-  },
-  {
-    "id": 97,
-    "name": "MSR Stoves Model 47",
-    "brand": "MSR",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "MSR stoves"
-  },
-  {
-    "id": 98,
-    "name": "Coleman Stoves Model 48",
-    "brand": "Coleman",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Coleman stoves"
-  },
-  {
-    "id": 99,
-    "name": "MSR Stoves Model 49",
-    "brand": "MSR",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "MSR stoves"
-  },
-  {
-    "id": 100,
-    "name": "Trangia Stoves Model 50",
-    "brand": "Trangia",
-    "category": "stoves",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Trangia stoves"
-  },
-  {
-    "id": 101,
-    "name": "Coleman Chairs Model 1",
-    "brand": "Coleman",
+    "name": "Helinox Camping Product 1",
     "category": "chairs",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Coleman chairs"
+    "compare_query": "camping gear"
   },
   {
-    "id": 102,
-    "name": "Wanderer Chairs Model 2",
-    "brand": "Wanderer",
+    "name": "Jetboil Camping Product 2",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 3",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "MSR Camping Product 4",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Helinox Camping Product 5",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Naturehike Camping Product 6",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Naturehike Camping Product 7",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Jetboil Camping Product 8",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Helinox Camping Product 9",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 10",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "MSR Camping Product 11",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 12",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Helinox Camping Product 13",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Jetboil Camping Product 14",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 15",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 16",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Jetboil Camping Product 17",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Jetboil Camping Product 18",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Jetboil Camping Product 19",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Naturehike Camping Product 20",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Naturehike Camping Product 21",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "MSR Camping Product 22",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Naturehike Camping Product 23",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 24",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Jetboil Camping Product 25",
     "category": "chairs",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Wanderer chairs"
+    "compare_query": "camping gear"
   },
   {
-    "id": 103,
-    "name": "Helinox Chairs Model 3",
-    "brand": "Helinox",
+    "name": "BlackWolf Camping Product 26",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Helinox Camping Product 27",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Oztrail Camping Product 28",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "MSR Camping Product 29",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Naturehike Camping Product 30",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 31",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "MSR Camping Product 32",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 33",
     "category": "chairs",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Helinox chairs"
+    "compare_query": "camping gear"
   },
   {
-    "id": 104,
-    "name": "Companion Chairs Model 4",
-    "brand": "Companion",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Companion chairs"
+    "name": "Helinox Camping Product 34",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 105,
-    "name": "Coleman Chairs Model 5",
-    "brand": "Coleman",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Coleman chairs"
+    "name": "Naturehike Camping Product 35",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 106,
-    "name": "Oztrail Chairs Model 6",
-    "brand": "Oztrail",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Oztrail chairs"
+    "name": "BlackWolf Camping Product 36",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 107,
-    "name": "Helinox Chairs Model 7",
-    "brand": "Helinox",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Helinox chairs"
+    "name": "BlackWolf Camping Product 37",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 108,
-    "name": "Companion Chairs Model 8",
-    "brand": "Companion",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Companion chairs"
+    "name": "Jetboil Camping Product 38",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 109,
-    "name": "Oztrail Chairs Model 9",
-    "brand": "Oztrail",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Oztrail chairs"
+    "name": "Naturehike Camping Product 39",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 110,
-    "name": "Helinox Chairs Model 10",
-    "brand": "Helinox",
+    "name": "MSR Camping Product 40",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Oztrail Camping Product 41",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "MSR Camping Product 42",
     "category": "chairs",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Helinox chairs"
+    "compare_query": "camping gear"
   },
   {
-    "id": 111,
-    "name": "Wanderer Chairs Model 11",
-    "brand": "Wanderer",
+    "name": "MSR Camping Product 43",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 44",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 45",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 46",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Helinox Camping Product 47",
     "category": "chairs",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Wanderer chairs"
+    "compare_query": "camping gear"
   },
   {
-    "id": 112,
-    "name": "Coleman Chairs Model 12",
-    "brand": "Coleman",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Coleman chairs"
-  },
-  {
-    "id": 113,
-    "name": "Companion Chairs Model 13",
-    "brand": "Companion",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Companion chairs"
-  },
-  {
-    "id": 114,
-    "name": "Companion Chairs Model 14",
-    "brand": "Companion",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Companion chairs"
-  },
-  {
-    "id": 115,
-    "name": "Coleman Chairs Model 15",
-    "brand": "Coleman",
-    "category": "chairs",
+    "name": "Oztrail Camping Product 48",
+    "category": "lanterns",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Coleman chairs"
+    "compare_query": "camping gear"
   },
   {
-    "id": 116,
-    "name": "Helinox Chairs Model 16",
-    "brand": "Helinox",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Helinox chairs"
-  },
-  {
-    "id": 117,
-    "name": "Oztrail Chairs Model 17",
-    "brand": "Oztrail",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Oztrail chairs"
-  },
-  {
-    "id": 118,
-    "name": "Wanderer Chairs Model 18",
-    "brand": "Wanderer",
-    "category": "chairs",
+    "name": "Oztrail Camping Product 49",
+    "category": "lanterns",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Wanderer chairs"
+    "compare_query": "camping gear"
   },
   {
-    "id": 119,
-    "name": "Wanderer Chairs Model 19",
-    "brand": "Wanderer",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Wanderer chairs"
-  },
-  {
-    "id": 120,
-    "name": "Wanderer Chairs Model 20",
-    "brand": "Wanderer",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Wanderer chairs"
-  },
-  {
-    "id": 121,
-    "name": "Oztrail Chairs Model 21",
-    "brand": "Oztrail",
-    "category": "chairs",
+    "name": "Naturehike Camping Product 50",
+    "category": "sleeping-bags",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Oztrail chairs"
+    "compare_query": "camping gear"
   },
   {
-    "id": 122,
-    "name": "Wanderer Chairs Model 22",
-    "brand": "Wanderer",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Wanderer chairs"
+    "name": "Naturehike Camping Product 51",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 123,
-    "name": "Wanderer Chairs Model 23",
-    "brand": "Wanderer",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Wanderer chairs"
+    "name": "BlackWolf Camping Product 52",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 124,
-    "name": "Companion Chairs Model 24",
-    "brand": "Companion",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Companion chairs"
+    "name": "Helinox Camping Product 53",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 125,
-    "name": "Companion Chairs Model 25",
-    "brand": "Companion",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Companion chairs"
+    "name": "Oztrail Camping Product 54",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 126,
-    "name": "Coleman Chairs Model 26",
-    "brand": "Coleman",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Coleman chairs"
+    "name": "MSR Camping Product 55",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 127,
-    "name": "Wanderer Chairs Model 27",
-    "brand": "Wanderer",
+    "name": "Oztrail Camping Product 56",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 57",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Naturehike Camping Product 58",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 59",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Helinox Camping Product 60",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 61",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 62",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "MSR Camping Product 63",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Jetboil Camping Product 64",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "MSR Camping Product 65",
     "category": "chairs",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Wanderer chairs"
+    "compare_query": "camping gear"
   },
   {
-    "id": 128,
-    "name": "Coleman Chairs Model 28",
-    "brand": "Coleman",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Coleman chairs"
-  },
-  {
-    "id": 129,
-    "name": "Helinox Chairs Model 29",
-    "brand": "Helinox",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Helinox chairs"
-  },
-  {
-    "id": 130,
-    "name": "Companion Chairs Model 30",
-    "brand": "Companion",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Companion chairs"
-  },
-  {
-    "id": 131,
-    "name": "Helinox Chairs Model 31",
-    "brand": "Helinox",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Helinox chairs"
-  },
-  {
-    "id": 132,
-    "name": "Helinox Chairs Model 32",
-    "brand": "Helinox",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Helinox chairs"
-  },
-  {
-    "id": 133,
-    "name": "Oztrail Chairs Model 33",
-    "brand": "Oztrail",
-    "category": "chairs",
+    "name": "MSR Camping Product 66",
+    "category": "sleeping-bags",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Oztrail chairs"
+    "compare_query": "camping gear"
   },
   {
-    "id": 134,
-    "name": "Coleman Chairs Model 34",
-    "brand": "Coleman",
+    "name": "Coleman Camping Product 67",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 68",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "MSR Camping Product 69",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "MSR Camping Product 70",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Oztrail Camping Product 71",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Helinox Camping Product 72",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 73",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 74",
     "category": "chairs",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Coleman chairs"
+    "compare_query": "camping gear"
   },
   {
-    "id": 135,
-    "name": "Helinox Chairs Model 35",
-    "brand": "Helinox",
+    "name": "Naturehike Camping Product 75",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Helinox Camping Product 76",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "MSR Camping Product 77",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Helinox Camping Product 78",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Jetboil Camping Product 79",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 80",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Oztrail Camping Product 81",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Oztrail Camping Product 82",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "MSR Camping Product 83",
     "category": "chairs",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Helinox chairs"
+    "compare_query": "camping gear"
   },
   {
-    "id": 136,
-    "name": "Companion Chairs Model 36",
-    "brand": "Companion",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Companion chairs"
+    "name": "Jetboil Camping Product 84",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 137,
-    "name": "Wanderer Chairs Model 37",
-    "brand": "Wanderer",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Wanderer chairs"
+    "name": "MSR Camping Product 85",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 138,
-    "name": "Helinox Chairs Model 38",
-    "brand": "Helinox",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Helinox chairs"
-  },
-  {
-    "id": 139,
-    "name": "Companion Chairs Model 39",
-    "brand": "Companion",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Companion chairs"
-  },
-  {
-    "id": 140,
-    "name": "Helinox Chairs Model 40",
-    "brand": "Helinox",
+    "name": "Coleman Camping Product 86",
     "category": "chairs",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Helinox chairs"
+    "compare_query": "camping gear"
   },
   {
-    "id": 141,
-    "name": "Oztrail Chairs Model 41",
-    "brand": "Oztrail",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Oztrail chairs"
+    "name": "Helinox Camping Product 87",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 142,
-    "name": "Oztrail Chairs Model 42",
-    "brand": "Oztrail",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Oztrail chairs"
-  },
-  {
-    "id": 143,
-    "name": "Coleman Chairs Model 43",
-    "brand": "Coleman",
-    "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Coleman chairs"
-  },
-  {
-    "id": 144,
-    "name": "Companion Chairs Model 44",
-    "brand": "Companion",
+    "name": "Naturehike Camping Product 88",
     "category": "chairs",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Companion chairs"
+    "compare_query": "camping gear"
   },
   {
-    "id": 145,
-    "name": "Oztrail Chairs Model 45",
-    "brand": "Oztrail",
+    "name": "Naturehike Camping Product 89",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Helinox Camping Product 90",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Oztrail Camping Product 91",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Oztrail Camping Product 92",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Helinox Camping Product 93",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Helinox Camping Product 94",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Jetboil Camping Product 95",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 96",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Jetboil Camping Product 97",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 98",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "MSR Camping Product 99",
     "category": "chairs",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Oztrail chairs"
+    "compare_query": "camping gear"
   },
   {
-    "id": 146,
-    "name": "Helinox Chairs Model 46",
-    "brand": "Helinox",
+    "name": "Helinox Camping Product 100",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Oztrail Camping Product 101",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 102",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "MSR Camping Product 103",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "MSR Camping Product 104",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Oztrail Camping Product 105",
     "category": "chairs",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Helinox chairs"
+    "compare_query": "camping gear"
   },
   {
-    "id": 147,
-    "name": "Companion Chairs Model 47",
-    "brand": "Companion",
+    "name": "Naturehike Camping Product 106",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 107",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Naturehike Camping Product 108",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Jetboil Camping Product 109",
     "category": "chairs",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Companion chairs"
+    "compare_query": "camping gear"
   },
   {
-    "id": 148,
-    "name": "Wanderer Chairs Model 48",
-    "brand": "Wanderer",
+    "name": "Helinox Camping Product 110",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Naturehike Camping Product 111",
     "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Wanderer chairs"
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 149,
-    "name": "Coleman Chairs Model 49",
-    "brand": "Coleman",
+    "name": "Coleman Camping Product 112",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 113",
     "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Coleman chairs"
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 150,
-    "name": "Companion Chairs Model 50",
-    "brand": "Companion",
+    "name": "Oztrail Camping Product 114",
     "category": "chairs",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Companion chairs"
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 151,
-    "name": "Coleman Coolers Model 1",
-    "brand": "Coleman",
-    "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Coleman coolers"
+    "name": "Oztrail Camping Product 115",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 152,
-    "name": "Wanderer Coolers Model 2",
-    "brand": "Wanderer",
+    "name": "Jetboil Camping Product 116",
     "category": "coolers",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Wanderer coolers"
+    "compare_query": "camping gear"
   },
   {
-    "id": 153,
-    "name": "Yeti Coolers Model 3",
-    "brand": "Yeti",
-    "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Yeti coolers"
-  },
-  {
-    "id": 154,
-    "name": "Engel Coolers Model 4",
-    "brand": "Engel",
-    "category": "coolers",
+    "name": "Jetboil Camping Product 117",
+    "category": "sleeping-bags",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Engel coolers"
+    "compare_query": "camping gear"
   },
   {
-    "id": 155,
-    "name": "Dometic Coolers Model 5",
-    "brand": "Dometic",
-    "category": "coolers",
+    "name": "Jetboil Camping Product 118",
+    "category": "lanterns",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Dometic coolers"
+    "compare_query": "camping gear"
   },
   {
-    "id": 156,
-    "name": "Wanderer Coolers Model 6",
-    "brand": "Wanderer",
-    "category": "coolers",
+    "name": "BlackWolf Camping Product 119",
+    "category": "sleeping-bags",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Wanderer coolers"
+    "compare_query": "camping gear"
   },
   {
-    "id": 157,
-    "name": "Engel Coolers Model 7",
-    "brand": "Engel",
-    "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Engel coolers"
+    "name": "Jetboil Camping Product 120",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 158,
-    "name": "Yeti Coolers Model 8",
-    "brand": "Yeti",
-    "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Yeti coolers"
+    "name": "Jetboil Camping Product 121",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 159,
-    "name": "Dometic Coolers Model 9",
-    "brand": "Dometic",
+    "name": "MSR Camping Product 122",
     "category": "coolers",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Dometic coolers"
+    "compare_query": "camping gear"
   },
   {
-    "id": 160,
-    "name": "Yeti Coolers Model 10",
-    "brand": "Yeti",
-    "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Yeti coolers"
-  },
-  {
-    "id": 161,
-    "name": "Wanderer Coolers Model 11",
-    "brand": "Wanderer",
-    "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Wanderer coolers"
-  },
-  {
-    "id": 162,
-    "name": "Engel Coolers Model 12",
-    "brand": "Engel",
-    "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Engel coolers"
-  },
-  {
-    "id": 163,
-    "name": "Yeti Coolers Model 13",
-    "brand": "Yeti",
-    "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Yeti coolers"
-  },
-  {
-    "id": 164,
-    "name": "Engel Coolers Model 14",
-    "brand": "Engel",
-    "category": "coolers",
+    "name": "Oztrail Camping Product 123",
+    "category": "stoves",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Engel coolers"
+    "compare_query": "camping gear"
   },
   {
-    "id": 165,
-    "name": "Coleman Coolers Model 15",
-    "brand": "Coleman",
-    "category": "coolers",
+    "name": "Oztrail Camping Product 124",
+    "category": "stoves",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Coleman coolers"
+    "compare_query": "camping gear"
   },
   {
-    "id": 166,
-    "name": "Wanderer Coolers Model 16",
-    "brand": "Wanderer",
-    "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Wanderer coolers"
-  },
-  {
-    "id": 167,
-    "name": "Coleman Coolers Model 17",
-    "brand": "Coleman",
-    "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Coleman coolers"
-  },
-  {
-    "id": 168,
-    "name": "Yeti Coolers Model 18",
-    "brand": "Yeti",
-    "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Yeti coolers"
-  },
-  {
-    "id": 169,
-    "name": "Coleman Coolers Model 19",
-    "brand": "Coleman",
-    "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Coleman coolers"
-  },
-  {
-    "id": 170,
-    "name": "Coleman Coolers Model 20",
-    "brand": "Coleman",
-    "category": "coolers",
+    "name": "Jetboil Camping Product 125",
+    "category": "chairs",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Coleman coolers"
+    "compare_query": "camping gear"
   },
   {
-    "id": 171,
-    "name": "Dometic Coolers Model 21",
-    "brand": "Dometic",
-    "category": "coolers",
+    "name": "Helinox Camping Product 126",
+    "category": "stoves",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Dometic coolers"
+    "compare_query": "camping gear"
   },
   {
-    "id": 172,
-    "name": "Dometic Coolers Model 22",
-    "brand": "Dometic",
-    "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Dometic coolers"
-  },
-  {
-    "id": 173,
-    "name": "Yeti Coolers Model 23",
-    "brand": "Yeti",
-    "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Yeti coolers"
-  },
-  {
-    "id": 174,
-    "name": "Dometic Coolers Model 24",
-    "brand": "Dometic",
-    "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Dometic coolers"
-  },
-  {
-    "id": 175,
-    "name": "Wanderer Coolers Model 25",
-    "brand": "Wanderer",
-    "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Wanderer coolers"
-  },
-  {
-    "id": 176,
-    "name": "Wanderer Coolers Model 26",
-    "brand": "Wanderer",
-    "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Wanderer coolers"
-  },
-  {
-    "id": 177,
-    "name": "Wanderer Coolers Model 27",
-    "brand": "Wanderer",
-    "category": "coolers",
+    "name": "MSR Camping Product 127",
+    "category": "chairs",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Wanderer coolers"
+    "compare_query": "camping gear"
   },
   {
-    "id": 178,
-    "name": "Dometic Coolers Model 28",
-    "brand": "Dometic",
-    "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Dometic coolers"
-  },
-  {
-    "id": 179,
-    "name": "Dometic Coolers Model 29",
-    "brand": "Dometic",
-    "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Dometic coolers"
-  },
-  {
-    "id": 180,
-    "name": "Yeti Coolers Model 30",
-    "brand": "Yeti",
-    "category": "coolers",
+    "name": "Coleman Camping Product 128",
+    "category": "tents",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Yeti coolers"
+    "compare_query": "camping gear"
   },
   {
-    "id": 181,
-    "name": "Wanderer Coolers Model 31",
-    "brand": "Wanderer",
-    "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Wanderer coolers"
+    "name": "Helinox Camping Product 129",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 182,
-    "name": "Yeti Coolers Model 32",
-    "brand": "Yeti",
-    "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Yeti coolers"
+    "name": "MSR Camping Product 130",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 183,
-    "name": "Wanderer Coolers Model 33",
-    "brand": "Wanderer",
+    "name": "Naturehike Camping Product 131",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 132",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "MSR Camping Product 133",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 134",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 135",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 136",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Naturehike Camping Product 137",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Oztrail Camping Product 138",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Jetboil Camping Product 139",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Helinox Camping Product 140",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 141",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 142",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Naturehike Camping Product 143",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 144",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 145",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Jetboil Camping Product 146",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Jetboil Camping Product 147",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 148",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Helinox Camping Product 149",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "MSR Camping Product 150",
     "category": "coolers",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Wanderer coolers"
+    "compare_query": "camping gear"
   },
   {
-    "id": 184,
-    "name": "Wanderer Coolers Model 34",
-    "brand": "Wanderer",
+    "name": "Oztrail Camping Product 151",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 152",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Naturehike Camping Product 153",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Helinox Camping Product 154",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 155",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Jetboil Camping Product 156",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 157",
     "category": "coolers",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Wanderer coolers"
+    "compare_query": "camping gear"
   },
   {
-    "id": 185,
-    "name": "Coleman Coolers Model 35",
-    "brand": "Coleman",
+    "name": "BlackWolf Camping Product 158",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 159",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Jetboil Camping Product 160",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Naturehike Camping Product 161",
     "category": "coolers",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Coleman coolers"
+    "compare_query": "camping gear"
   },
   {
-    "id": 186,
-    "name": "Wanderer Coolers Model 36",
-    "brand": "Wanderer",
-    "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Wanderer coolers"
-  },
-  {
-    "id": 187,
-    "name": "Engel Coolers Model 37",
-    "brand": "Engel",
-    "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Engel coolers"
-  },
-  {
-    "id": 188,
-    "name": "Dometic Coolers Model 38",
-    "brand": "Dometic",
-    "category": "coolers",
+    "name": "Jetboil Camping Product 162",
+    "category": "lanterns",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Dometic coolers"
+    "compare_query": "camping gear"
   },
   {
-    "id": 189,
-    "name": "Wanderer Coolers Model 39",
-    "brand": "Wanderer",
+    "name": "Coleman Camping Product 163",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 164",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Helinox Camping Product 165",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Oztrail Camping Product 166",
     "category": "coolers",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Wanderer coolers"
+    "compare_query": "camping gear"
   },
   {
-    "id": 190,
-    "name": "Coleman Coolers Model 40",
-    "brand": "Coleman",
+    "name": "Jetboil Camping Product 167",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 168",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 169",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 170",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Helinox Camping Product 171",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 172",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Helinox Camping Product 173",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Jetboil Camping Product 174",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Naturehike Camping Product 175",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Oztrail Camping Product 176",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Jetboil Camping Product 177",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 178",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 179",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 180",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Naturehike Camping Product 181",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 182",
     "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Coleman coolers"
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 191,
-    "name": "Coleman Coolers Model 41",
-    "brand": "Coleman",
+    "name": "BlackWolf Camping Product 183",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "MSR Camping Product 184",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Naturehike Camping Product 185",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Naturehike Camping Product 186",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 187",
     "category": "coolers",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Coleman coolers"
+    "compare_query": "camping gear"
   },
   {
-    "id": 192,
-    "name": "Coleman Coolers Model 42",
-    "brand": "Coleman",
-    "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Coleman coolers"
-  },
-  {
-    "id": 193,
-    "name": "Wanderer Coolers Model 43",
-    "brand": "Wanderer",
+    "name": "MSR Camping Product 188",
     "category": "coolers",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Wanderer coolers"
+    "compare_query": "camping gear"
   },
   {
-    "id": 194,
-    "name": "Yeti Coolers Model 44",
-    "brand": "Yeti",
+    "name": "Naturehike Camping Product 189",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Oztrail Camping Product 190",
     "category": "coolers",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Yeti coolers"
+    "compare_query": "camping gear"
   },
   {
-    "id": 195,
-    "name": "Engel Coolers Model 45",
-    "brand": "Engel",
-    "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Engel coolers"
+    "name": "Oztrail Camping Product 191",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 196,
-    "name": "Coleman Coolers Model 46",
-    "brand": "Coleman",
-    "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Coleman coolers"
-  },
-  {
-    "id": 197,
-    "name": "Yeti Coolers Model 47",
-    "brand": "Yeti",
+    "name": "Oztrail Camping Product 192",
     "category": "coolers",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Yeti coolers"
+    "compare_query": "camping gear"
   },
   {
-    "id": 198,
-    "name": "Engel Coolers Model 48",
-    "brand": "Engel",
+    "name": "MSR Camping Product 193",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 194",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 195",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Naturehike Camping Product 196",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 197",
     "category": "coolers",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Engel coolers"
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 199,
-    "name": "Engel Coolers Model 49",
-    "brand": "Engel",
+    "name": "MSR Camping Product 198",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Helinox Camping Product 199",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Jetboil Camping Product 200",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Oztrail Camping Product 201",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Helinox Camping Product 202",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 203",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 204",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Jetboil Camping Product 205",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Jetboil Camping Product 206",
     "category": "coolers",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Engel coolers"
+    "compare_query": "camping gear"
   },
   {
-    "id": 200,
-    "name": "Yeti Coolers Model 50",
-    "brand": "Yeti",
+    "name": "Jetboil Camping Product 207",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Naturehike Camping Product 208",
     "category": "coolers",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Yeti coolers"
+    "compare_query": "camping gear"
   },
   {
-    "id": 201,
-    "name": "Black Diamond Lanterns Model 1",
-    "brand": "Black Diamond",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Black Diamond lanterns"
-  },
-  {
-    "id": 202,
-    "name": "Coleman Lanterns Model 2",
-    "brand": "Coleman",
-    "category": "lanterns",
+    "name": "Naturehike Camping Product 209",
+    "category": "stoves",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Coleman lanterns"
+    "compare_query": "camping gear"
   },
   {
-    "id": 203,
-    "name": "Coleman Lanterns Model 3",
-    "brand": "Coleman",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Coleman lanterns"
-  },
-  {
-    "id": 204,
-    "name": "BioLite Lanterns Model 4",
-    "brand": "BioLite",
-    "category": "lanterns",
+    "name": "BlackWolf Camping Product 210",
+    "category": "tents",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "BioLite lanterns"
+    "compare_query": "camping gear"
   },
   {
-    "id": 205,
-    "name": "Oztrail Lanterns Model 5",
-    "brand": "Oztrail",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Oztrail lanterns"
-  },
-  {
-    "id": 206,
-    "name": "Goal Zero Lanterns Model 6",
-    "brand": "Goal Zero",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Goal Zero lanterns"
-  },
-  {
-    "id": 207,
-    "name": "Black Diamond Lanterns Model 7",
-    "brand": "Black Diamond",
-    "category": "lanterns",
+    "name": "BlackWolf Camping Product 211",
+    "category": "coolers",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Black Diamond lanterns"
+    "compare_query": "camping gear"
   },
   {
-    "id": 208,
-    "name": "Goal Zero Lanterns Model 8",
-    "brand": "Goal Zero",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Goal Zero lanterns"
-  },
-  {
-    "id": 209,
-    "name": "Black Diamond Lanterns Model 9",
-    "brand": "Black Diamond",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Black Diamond lanterns"
-  },
-  {
-    "id": 210,
-    "name": "Oztrail Lanterns Model 10",
-    "brand": "Oztrail",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Oztrail lanterns"
-  },
-  {
-    "id": 211,
-    "name": "Coleman Lanterns Model 11",
-    "brand": "Coleman",
-    "category": "lanterns",
+    "name": "Helinox Camping Product 212",
+    "category": "coolers",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Coleman lanterns"
+    "compare_query": "camping gear"
   },
   {
-    "id": 212,
-    "name": "Coleman Lanterns Model 12",
-    "brand": "Coleman",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Coleman lanterns"
-  },
-  {
-    "id": 213,
-    "name": "BioLite Lanterns Model 13",
-    "brand": "BioLite",
-    "category": "lanterns",
+    "name": "Helinox Camping Product 213",
+    "category": "stoves",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "BioLite lanterns"
+    "compare_query": "camping gear"
   },
   {
-    "id": 214,
-    "name": "Oztrail Lanterns Model 14",
-    "brand": "Oztrail",
-    "category": "lanterns",
+    "name": "Helinox Camping Product 214",
+    "category": "tents",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Oztrail lanterns"
+    "compare_query": "camping gear"
   },
   {
-    "id": 215,
-    "name": "BioLite Lanterns Model 15",
-    "brand": "BioLite",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "BioLite lanterns"
-  },
-  {
-    "id": 216,
-    "name": "Oztrail Lanterns Model 16",
-    "brand": "Oztrail",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Oztrail lanterns"
-  },
-  {
-    "id": 217,
-    "name": "Oztrail Lanterns Model 17",
-    "brand": "Oztrail",
-    "category": "lanterns",
+    "name": "Helinox Camping Product 215",
+    "category": "tents",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Oztrail lanterns"
+    "compare_query": "camping gear"
   },
   {
-    "id": 218,
-    "name": "Black Diamond Lanterns Model 18",
-    "brand": "Black Diamond",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Black Diamond lanterns"
-  },
-  {
-    "id": 219,
-    "name": "Oztrail Lanterns Model 19",
-    "brand": "Oztrail",
-    "category": "lanterns",
+    "name": "Oztrail Camping Product 216",
+    "category": "chairs",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Oztrail lanterns"
+    "compare_query": "camping gear"
   },
   {
-    "id": 220,
-    "name": "Goal Zero Lanterns Model 20",
-    "brand": "Goal Zero",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Goal Zero lanterns"
-  },
-  {
-    "id": 221,
-    "name": "Coleman Lanterns Model 21",
-    "brand": "Coleman",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Coleman lanterns"
-  },
-  {
-    "id": 222,
-    "name": "Coleman Lanterns Model 22",
-    "brand": "Coleman",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Coleman lanterns"
-  },
-  {
-    "id": 223,
-    "name": "Black Diamond Lanterns Model 23",
-    "brand": "Black Diamond",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Black Diamond lanterns"
-  },
-  {
-    "id": 224,
-    "name": "Oztrail Lanterns Model 24",
-    "brand": "Oztrail",
-    "category": "lanterns",
+    "name": "Oztrail Camping Product 217",
+    "category": "tents",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Oztrail lanterns"
+    "compare_query": "camping gear"
   },
   {
-    "id": 225,
-    "name": "Oztrail Lanterns Model 25",
-    "brand": "Oztrail",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Oztrail lanterns"
-  },
-  {
-    "id": 226,
-    "name": "BioLite Lanterns Model 26",
-    "brand": "BioLite",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "BioLite lanterns"
-  },
-  {
-    "id": 227,
-    "name": "Black Diamond Lanterns Model 27",
-    "brand": "Black Diamond",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Black Diamond lanterns"
-  },
-  {
-    "id": 228,
-    "name": "BioLite Lanterns Model 28",
-    "brand": "BioLite",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "BioLite lanterns"
-  },
-  {
-    "id": 229,
-    "name": "BioLite Lanterns Model 29",
-    "brand": "BioLite",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "BioLite lanterns"
-  },
-  {
-    "id": 230,
-    "name": "Coleman Lanterns Model 30",
-    "brand": "Coleman",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Coleman lanterns"
-  },
-  {
-    "id": 231,
-    "name": "BioLite Lanterns Model 31",
-    "brand": "BioLite",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "BioLite lanterns"
-  },
-  {
-    "id": 232,
-    "name": "Coleman Lanterns Model 32",
-    "brand": "Coleman",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Coleman lanterns"
-  },
-  {
-    "id": 233,
-    "name": "Goal Zero Lanterns Model 33",
-    "brand": "Goal Zero",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Goal Zero lanterns"
-  },
-  {
-    "id": 234,
-    "name": "Oztrail Lanterns Model 34",
-    "brand": "Oztrail",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Oztrail lanterns"
-  },
-  {
-    "id": 235,
-    "name": "Oztrail Lanterns Model 35",
-    "brand": "Oztrail",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Oztrail lanterns"
-  },
-  {
-    "id": 236,
-    "name": "Goal Zero Lanterns Model 36",
-    "brand": "Goal Zero",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Goal Zero lanterns"
-  },
-  {
-    "id": 237,
-    "name": "Black Diamond Lanterns Model 37",
-    "brand": "Black Diamond",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Black Diamond lanterns"
-  },
-  {
-    "id": 238,
-    "name": "Coleman Lanterns Model 38",
-    "brand": "Coleman",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Coleman lanterns"
-  },
-  {
-    "id": 239,
-    "name": "Goal Zero Lanterns Model 39",
-    "brand": "Goal Zero",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Goal Zero lanterns"
-  },
-  {
-    "id": 240,
-    "name": "Goal Zero Lanterns Model 40",
-    "brand": "Goal Zero",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Goal Zero lanterns"
-  },
-  {
-    "id": 241,
-    "name": "Goal Zero Lanterns Model 41",
-    "brand": "Goal Zero",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Goal Zero lanterns"
-  },
-  {
-    "id": 242,
-    "name": "Goal Zero Lanterns Model 42",
-    "brand": "Goal Zero",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Goal Zero lanterns"
-  },
-  {
-    "id": 243,
-    "name": "BioLite Lanterns Model 43",
-    "brand": "BioLite",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "BioLite lanterns"
-  },
-  {
-    "id": 244,
-    "name": "Oztrail Lanterns Model 44",
-    "brand": "Oztrail",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Oztrail lanterns"
-  },
-  {
-    "id": 245,
-    "name": "Black Diamond Lanterns Model 45",
-    "brand": "Black Diamond",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Black Diamond lanterns"
-  },
-  {
-    "id": 246,
-    "name": "Black Diamond Lanterns Model 46",
-    "brand": "Black Diamond",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Black Diamond lanterns"
-  },
-  {
-    "id": 247,
-    "name": "BioLite Lanterns Model 47",
-    "brand": "BioLite",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "BioLite lanterns"
-  },
-  {
-    "id": 248,
-    "name": "BioLite Lanterns Model 48",
-    "brand": "BioLite",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "BioLite lanterns"
-  },
-  {
-    "id": 249,
-    "name": "Coleman Lanterns Model 49",
-    "brand": "Coleman",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Coleman lanterns"
-  },
-  {
-    "id": 250,
-    "name": "BioLite Lanterns Model 50",
-    "brand": "BioLite",
-    "category": "lanterns",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "BioLite lanterns"
-  },
-  {
-    "id": 251,
-    "name": "Mountain Designs Sleeping-bags Model 1",
-    "brand": "Mountain Designs",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Mountain Designs sleeping-bags"
-  },
-  {
-    "id": 252,
-    "name": "Mountain Designs Sleeping-bags Model 2",
-    "brand": "Mountain Designs",
+    "name": "MSR Camping Product 218",
     "category": "sleeping-bags",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Mountain Designs sleeping-bags"
+    "compare_query": "camping gear"
   },
   {
-    "id": 253,
-    "name": "Oztrail Sleeping-bags Model 3",
-    "brand": "Oztrail",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Oztrail sleeping-bags"
+    "name": "BlackWolf Camping Product 219",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 254,
-    "name": "Coleman Sleeping-bags Model 4",
-    "brand": "Coleman",
+    "name": "Helinox Camping Product 220",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "MSR Camping Product 221",
     "category": "sleeping-bags",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Coleman sleeping-bags"
+    "compare_query": "camping gear"
   },
   {
-    "id": 255,
-    "name": "Sea to Summit Sleeping-bags Model 5",
-    "brand": "Sea to Summit",
+    "name": "Oztrail Camping Product 222",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Oztrail Camping Product 223",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 224",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "MSR Camping Product 225",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 226",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Helinox Camping Product 227",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Helinox Camping Product 228",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Naturehike Camping Product 229",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Oztrail Camping Product 230",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 231",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 232",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Helinox Camping Product 233",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Oztrail Camping Product 234",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Jetboil Camping Product 235",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 236",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "MSR Camping Product 237",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Naturehike Camping Product 238",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Oztrail Camping Product 239",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 240",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Naturehike Camping Product 241",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Jetboil Camping Product 242",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 243",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "MSR Camping Product 244",
     "category": "sleeping-bags",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Sea to Summit sleeping-bags"
+    "compare_query": "camping gear"
   },
   {
-    "id": 256,
-    "name": "Mountain Designs Sleeping-bags Model 6",
-    "brand": "Mountain Designs",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Mountain Designs sleeping-bags"
+    "name": "Jetboil Camping Product 245",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 257,
-    "name": "BlackWolf Sleeping-bags Model 7",
-    "brand": "BlackWolf",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "BlackWolf sleeping-bags"
+    "name": "Jetboil Camping Product 246",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 258,
-    "name": "Oztrail Sleeping-bags Model 8",
-    "brand": "Oztrail",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Oztrail sleeping-bags"
+    "name": "Naturehike Camping Product 247",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 259,
-    "name": "Sea to Summit Sleeping-bags Model 9",
-    "brand": "Sea to Summit",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Sea to Summit sleeping-bags"
+    "name": "BlackWolf Camping Product 248",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 260,
-    "name": "Coleman Sleeping-bags Model 10",
-    "brand": "Coleman",
+    "name": "Oztrail Camping Product 249",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Jetboil Camping Product 250",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Oztrail Camping Product 251",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "MSR Camping Product 252",
     "category": "sleeping-bags",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Coleman sleeping-bags"
+    "compare_query": "camping gear"
   },
   {
-    "id": 261,
-    "name": "Mountain Designs Sleeping-bags Model 11",
-    "brand": "Mountain Designs",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Mountain Designs sleeping-bags"
+    "name": "Helinox Camping Product 253",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 262,
-    "name": "BlackWolf Sleeping-bags Model 12",
-    "brand": "BlackWolf",
+    "name": "Naturehike Camping Product 254",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Naturehike Camping Product 255",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 256",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Naturehike Camping Product 257",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Jetboil Camping Product 258",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Oztrail Camping Product 259",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 260",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 261",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Naturehike Camping Product 262",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 263",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 264",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Helinox Camping Product 265",
     "category": "sleeping-bags",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "BlackWolf sleeping-bags"
+    "compare_query": "camping gear"
   },
   {
-    "id": 263,
-    "name": "Oztrail Sleeping-bags Model 13",
-    "brand": "Oztrail",
+    "name": "Naturehike Camping Product 266",
     "category": "sleeping-bags",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Oztrail sleeping-bags"
+    "compare_query": "camping gear"
   },
   {
-    "id": 264,
-    "name": "Mountain Designs Sleeping-bags Model 14",
-    "brand": "Mountain Designs",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Mountain Designs sleeping-bags"
+    "name": "MSR Camping Product 267",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 265,
-    "name": "BlackWolf Sleeping-bags Model 15",
-    "brand": "BlackWolf",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "BlackWolf sleeping-bags"
+    "name": "Naturehike Camping Product 268",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 266,
-    "name": "Coleman Sleeping-bags Model 16",
-    "brand": "Coleman",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Coleman sleeping-bags"
+    "name": "Jetboil Camping Product 269",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 267,
-    "name": "Mountain Designs Sleeping-bags Model 17",
-    "brand": "Mountain Designs",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Mountain Designs sleeping-bags"
+    "name": "BlackWolf Camping Product 270",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 268,
-    "name": "Coleman Sleeping-bags Model 18",
-    "brand": "Coleman",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Coleman sleeping-bags"
+    "name": "BlackWolf Camping Product 271",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 269,
-    "name": "Mountain Designs Sleeping-bags Model 19",
-    "brand": "Mountain Designs",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Mountain Designs sleeping-bags"
+    "name": "Jetboil Camping Product 272",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   },
   {
-    "id": 270,
-    "name": "BlackWolf Sleeping-bags Model 20",
-    "brand": "BlackWolf",
+    "name": "Helinox Camping Product 273",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "MSR Camping Product 274",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 275",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Jetboil Camping Product 276",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Oztrail Camping Product 277",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 278",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Oztrail Camping Product 279",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Helinox Camping Product 280",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "BlackWolf Camping Product 281",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Oztrail Camping Product 282",
     "category": "sleeping-bags",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "BlackWolf sleeping-bags"
+    "compare_query": "camping gear"
   },
   {
-    "id": 271,
-    "name": "Oztrail Sleeping-bags Model 21",
-    "brand": "Oztrail",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Oztrail sleeping-bags"
-  },
-  {
-    "id": 272,
-    "name": "Mountain Designs Sleeping-bags Model 22",
-    "brand": "Mountain Designs",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Mountain Designs sleeping-bags"
-  },
-  {
-    "id": 273,
-    "name": "Mountain Designs Sleeping-bags Model 23",
-    "brand": "Mountain Designs",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Mountain Designs sleeping-bags"
-  },
-  {
-    "id": 274,
-    "name": "BlackWolf Sleeping-bags Model 24",
-    "brand": "BlackWolf",
-    "category": "sleeping-bags",
+    "name": "Coleman Camping Product 283",
+    "category": "coolers",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "BlackWolf sleeping-bags"
+    "compare_query": "camping gear"
   },
   {
-    "id": 275,
-    "name": "Coleman Sleeping-bags Model 25",
-    "brand": "Coleman",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Coleman sleeping-bags"
-  },
-  {
-    "id": 276,
-    "name": "Oztrail Sleeping-bags Model 26",
-    "brand": "Oztrail",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Oztrail sleeping-bags"
-  },
-  {
-    "id": 277,
-    "name": "Mountain Designs Sleeping-bags Model 27",
-    "brand": "Mountain Designs",
-    "category": "sleeping-bags",
+    "name": "Helinox Camping Product 284",
+    "category": "coolers",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Mountain Designs sleeping-bags"
+    "compare_query": "camping gear"
   },
   {
-    "id": 278,
-    "name": "Oztrail Sleeping-bags Model 28",
-    "brand": "Oztrail",
-    "category": "sleeping-bags",
+    "name": "Coleman Camping Product 285",
+    "category": "stoves",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Oztrail sleeping-bags"
+    "compare_query": "camping gear"
   },
   {
-    "id": 279,
-    "name": "Mountain Designs Sleeping-bags Model 29",
-    "brand": "Mountain Designs",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Mountain Designs sleeping-bags"
-  },
-  {
-    "id": 280,
-    "name": "BlackWolf Sleeping-bags Model 30",
-    "brand": "BlackWolf",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "BlackWolf sleeping-bags"
-  },
-  {
-    "id": 281,
-    "name": "Sea to Summit Sleeping-bags Model 31",
-    "brand": "Sea to Summit",
-    "category": "sleeping-bags",
+    "name": "MSR Camping Product 286",
+    "category": "lanterns",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Sea to Summit sleeping-bags"
+    "compare_query": "camping gear"
   },
   {
-    "id": 282,
-    "name": "Coleman Sleeping-bags Model 32",
-    "brand": "Coleman",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Coleman sleeping-bags"
-  },
-  {
-    "id": 283,
-    "name": "Sea to Summit Sleeping-bags Model 33",
-    "brand": "Sea to Summit",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Sea to Summit sleeping-bags"
-  },
-  {
-    "id": 284,
-    "name": "Oztrail Sleeping-bags Model 34",
-    "brand": "Oztrail",
-    "category": "sleeping-bags",
+    "name": "Coleman Camping Product 287",
+    "category": "chairs",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Oztrail sleeping-bags"
+    "compare_query": "camping gear"
   },
   {
-    "id": 285,
-    "name": "Mountain Designs Sleeping-bags Model 35",
-    "brand": "Mountain Designs",
-    "category": "sleeping-bags",
+    "name": "Helinox Camping Product 288",
+    "category": "lanterns",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Mountain Designs sleeping-bags"
+    "compare_query": "camping gear"
   },
   {
-    "id": 286,
-    "name": "Sea to Summit Sleeping-bags Model 36",
-    "brand": "Sea to Summit",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Sea to Summit sleeping-bags"
-  },
-  {
-    "id": 287,
-    "name": "Coleman Sleeping-bags Model 37",
-    "brand": "Coleman",
-    "category": "sleeping-bags",
+    "name": "MSR Camping Product 289",
+    "category": "stoves",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Coleman sleeping-bags"
+    "compare_query": "camping gear"
   },
   {
-    "id": 288,
-    "name": "Coleman Sleeping-bags Model 38",
-    "brand": "Coleman",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Coleman sleeping-bags"
-  },
-  {
-    "id": 289,
-    "name": "BlackWolf Sleeping-bags Model 39",
-    "brand": "BlackWolf",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "BlackWolf sleeping-bags"
-  },
-  {
-    "id": 290,
-    "name": "Oztrail Sleeping-bags Model 40",
-    "brand": "Oztrail",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Oztrail sleeping-bags"
-  },
-  {
-    "id": 291,
-    "name": "Sea to Summit Sleeping-bags Model 41",
-    "brand": "Sea to Summit",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Sea to Summit sleeping-bags"
-  },
-  {
-    "id": 292,
-    "name": "Oztrail Sleeping-bags Model 42",
-    "brand": "Oztrail",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Oztrail sleeping-bags"
-  },
-  {
-    "id": 293,
-    "name": "Sea to Summit Sleeping-bags Model 43",
-    "brand": "Sea to Summit",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Sea to Summit sleeping-bags"
-  },
-  {
-    "id": 294,
-    "name": "Sea to Summit Sleeping-bags Model 44",
-    "brand": "Sea to Summit",
-    "category": "sleeping-bags",
+    "name": "Helinox Camping Product 290",
+    "category": "chairs",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Sea to Summit sleeping-bags"
+    "compare_query": "camping gear"
   },
   {
-    "id": 295,
-    "name": "BlackWolf Sleeping-bags Model 45",
-    "brand": "BlackWolf",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "BlackWolf sleeping-bags"
-  },
-  {
-    "id": 296,
-    "name": "Mountain Designs Sleeping-bags Model 46",
-    "brand": "Mountain Designs",
-    "category": "sleeping-bags",
+    "name": "Naturehike Camping Product 291",
+    "category": "coolers",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Mountain Designs sleeping-bags"
+    "compare_query": "camping gear"
   },
   {
-    "id": 297,
-    "name": "BlackWolf Sleeping-bags Model 47",
-    "brand": "BlackWolf",
-    "category": "sleeping-bags",
+    "name": "Jetboil Camping Product 292",
+    "category": "stoves",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "BlackWolf sleeping-bags"
+    "compare_query": "camping gear"
   },
   {
-    "id": 298,
-    "name": "Mountain Designs Sleeping-bags Model 48",
-    "brand": "Mountain Designs",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
-    "compare_query": "Mountain Designs sleeping-bags"
-  },
-  {
-    "id": 299,
-    "name": "Sea to Summit Sleeping-bags Model 49",
-    "brand": "Sea to Summit",
-    "category": "sleeping-bags",
+    "name": "Naturehike Camping Product 293",
+    "category": "coolers",
     "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
-    "compare_query": "Sea to Summit sleeping-bags"
+    "compare_query": "camping gear"
   },
   {
-    "id": 300,
-    "name": "Coleman Sleeping-bags Model 50",
-    "brand": "Coleman",
-    "category": "sleeping-bags",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "compare_query": "Coleman sleeping-bags"
+    "name": "Coleman Camping Product 294",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Oztrail Camping Product 295",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Helinox Camping Product 296",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Coleman Camping Product 297",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Jetboil Camping Product 298",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "Naturehike Camping Product 299",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
+  },
+  {
+    "name": "MSR Camping Product 300",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "camping gear"
   }
-]"category":"chairs",
-"image":"https://cdn.snowys.com.au/media/catalog/product/o/z/oztrail_big_boy_arm_chair.jpg",
-"compare_query":"Oztrail Big Boy Chair"
-},
-{
-"name":"Yeti Tundra 45 Cooler",
-"brand":"Yeti",
-"category":"coolers",
-"image":"https://m.media-amazon.com/images/I/71wVvL0i5DL._AC_SL1500_.jpg",
-"compare_query":"Yeti Tundra 45 Cooler"
-},
-{
-"name":"Engel MT45 Fridge",
-"brand":"Engel",
-"category":"coolers",
-"image":"https://cdn.snowys.com.au/media/catalog/product/e/n/engel_mt45.jpg",
-"compare_query":"Engel MT45 Fridge"
-},
-{
-"name":"Goal Zero Lighthouse Lantern",
-"brand":"Goal Zero",
-"category":"lanterns",
-"image":"https://m.media-amazon.com/images/I/71Fq+9X1GJL._AC_SL1500_.jpg",
-"compare_query":"Goal Zero Lighthouse Lantern"
-},
-{
-"name":"Coleman Northstar Lantern",
-"brand":"Coleman",
-"category":"lanterns",
-"image":"https://m.media-amazon.com/images/I/81V8G1H0fQL._AC_SL1500_.jpg",
-"compare_query":"Coleman Northstar Lantern"
-},
-{
-"name":"Sea to Summit Spark Sleeping Bag",
-"brand":"Sea to Summit",
-"category":"sleeping-bags",
-"image":"https://cdn.snowys.com.au/media/catalog/product/s/e/sea_to_summit_spark_sleeping_bag.jpg",
-"compare_query":"Sea to Summit Spark Sleeping Bag"
-},
-{
-"name":"BlackWolf Grasshopper Sleeping Bag",
-"brand":"BlackWolf",
-"category":"sleeping-bags",
-"image":"https://cdn.snowys.com.au/media/catalog/product/b/l/blackwolf_grasshopper_sleeping_bag.jpg",
-"compare_query":"BlackWolf Grasshopper Sleeping Bag"
-}
 ]
