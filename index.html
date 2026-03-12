@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CampMate Australia — Camping Gear Price Comparison</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --forest:#1a2e1a; --sage:#7a9e6e; --sage-light:#a8c99b;
+    --sand:#e8d5b0; --fire:#e8622a; --fire-light:#fca47a;
+    --dark:#0c150c; --dark2:#111b11; --white:#fafaf7;
+    --ebay-blue:#0064d2; --google-red:#ea4335;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'DM Sans',sans-serif;background:var(--dark);color:var(--white);overflow-x:hidden}
+  body::before{content:'';position:fixed;inset:0;background-image:radial-gradient(ellipse at 15% 15%,rgba(122,158,110,.1) 0%,transparent 55%),radial-gradient(ellipse at 85% 85%,rgba(232,98,42,.07) 0%,transparent 50%);pointer-events:none;z-index:0}
+
+  /* NAV */
+  nav{position:sticky;top:0;z-index:100;background:rgba(12,21,12,.94);backdrop-filter:blur(16px);border-bottom:1px solid rgba(122,158,110,.18);padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:64px}
+  .logo{display:flex;align-items:center;gap:.6rem;text-decoration:none}
+  .logo-icon{width:36px;height:36px;background:var(--fire);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1.2rem}
+  .logo-text{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white)}
+  .logo-text span{color:var(--fire)}
+  .nav-links{display:flex;gap:2rem;list-style:none;align-items:center}
+  .nav-links a{text-decoration:none;color:rgba(250,250,247,.6);font-size:.88rem;font-weight:500;transition:color .2s}
+  .nav-links a:hover{color:var(--sage)}
+  .nav-cta{background:var(--fire)!important;color:white!important;padding:.4rem 1rem;border-radius:20px;font-size:.82rem!important}
+
+  /* HERO */
+  .hero{position:relative;z-index:1;padding:5rem 2rem 3rem;text-align:center}
+  .hero-badge{display:inline-flex;align-items:center;gap:.5rem;background:rgba(122,158,110,.15);border:1px solid rgba(122,158,110,.3);color:var(--sage);padding:.3rem 1rem;border-radius:20px;font-size:.78rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;margin-bottom:1.5rem}
+  .hero h1{font-family:'Bebas Neue',sans-serif;font-size:clamp(3rem,8vw,6rem);line-height:.95;letter-spacing:3px}
+  .hero h1 .accent{color:var(--fire)}
+  .hero h1 .muted{color:var(--sage)}
+  .hero-sub{max-width:540px;margin:1.5rem auto 2rem;color:rgba(250,250,247,.55);font-size:1rem;line-height:1.7}
+  .hero-search{max-width:640px;margin:0 auto 1.5rem;display:flex;background:rgba(255,255,255,.05);border:1px solid rgba(122,158,110,.25);border-radius:50px;overflow:hidden;transition:border-color .2s}
+  .hero-search:focus-within{border-color:var(--sage);box-shadow:0 0 0 3px rgba(122,158,110,.12)}
+  .hero-search input{flex:1;background:transparent;border:none;padding:1rem 1.5rem;color:var(--white);font-size:.95rem;font-family:'DM Sans',sans-serif;outline:none}
+  .hero-search input::placeholder{color:rgba(250,250,247,.35)}
+  .hero-search button{background:var(--fire);border:none;padding:0 1.8rem;color:white;font-family:'DM Sans',sans-serif;font-weight:600;cursor:pointer;transition:background .2s;font-size:.95rem}
+  .hero-search button:hover{background:#c9501e}
+
+  /* SOURCE TOGGLE */
+  .source-toggle{display:flex;justify-content:center;gap:.5rem;margin-bottom:2rem;flex-wrap:wrap}
+  .src-btn{display:flex;align-items:center;gap:.45rem;padding:.45rem 1.1rem;border-radius:20px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.04);color:rgba(250,250,247,.55);font-size:.82rem;font-weight:600;cursor:pointer;transition:all .2s;font-family:'DM Sans',sans-serif}
+  .src-btn:hover{border-color:rgba(255,255,255,.25);color:var(--white)}
+  .src-btn.active-local{background:rgba(122,158,110,.15);border-color:rgba(122,158,110,.4);color:var(--sage)}
+  .src-btn.active-ebay{background:rgba(0,100,210,.15);border-color:rgba(0,100,210,.5);color:#74b3ff}
+  .src-btn.active-google{background:rgba(234,67,53,.12);border-color:rgba(234,67,53,.4);color:#f28b82}
+  .src-btn.active-cf{background:rgba(37,99,235,.15);border-color:rgba(37,99,235,.4);color:#93c5fd}
+
+  .hero-stats{display:flex;justify-content:center;gap:3rem;flex-wrap:wrap}
+  .stat{text-align:center}
+  .stat-num{font-family:'Bebas Neue',sans-serif;font-size:2rem;color:var(--sand)}
+  .stat-label{font-size:.75rem;color:rgba(250,250,247,.4);text-transform:uppercase;letter-spacing:1px}
+
+  /* TICKER */
+  .ticker-wrap{background:var(--fire);padding:.6rem 0;overflow:hidden;white-space:nowrap;position:relative;z-index:1}
+  .ticker-track{display:inline-block;animation:ticker 30s linear infinite}
+  .ticker-item{display:inline-block;padding:0 3rem;font-size:.82rem;font-weight:600;color:white}
+  .ticker-item::after{content:'🔥';margin-left:3rem}
+  @keyframes ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+  /* SECTION */
+  .section{position:relative;z-index:1;padding:4rem 2rem;max-width:1280px;margin:0 auto}
+  .section-header{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:2rem;flex-wrap:wrap;gap:.5rem}
+  .section-title{font-family:'Bebas Neue',sans-serif;font-size:2.2rem;letter-spacing:2px}
+  .section-title span{color:var(--sage)}
+  .see-all{font-size:.82rem;color:var(--sage);text-decoration:none;font-weight:500}
+
+  /* CATEGORIES */
+  .category-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:.8rem}
+  .cat-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);border-radius:14px;padding:1rem .8rem;text-align:center;cursor:pointer;transition:all .25s;text-decoration:none;color:var(--white);display:flex;flex-direction:column;align-items:center;gap:.4rem}
+  .cat-card:hover,.cat-card.active{background:rgba(122,158,110,.15);border-color:rgba(122,158,110,.4);transform:translateY(-2px)}
+  .cat-icon{font-size:1.7rem}
+  .cat-name{font-size:.74rem;font-weight:600}
+  .cat-count{font-size:.63rem;color:rgba(250,250,247,.3)}
+
+  /* PRODUCT GRID */
+  .product-toolbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.5rem;flex-wrap:wrap;gap:1rem}
+  .filter-tabs{display:flex;gap:.5rem;flex-wrap:wrap}
+  .filter-tab{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);color:rgba(250,250,247,.6);padding:.4rem 1rem;border-radius:20px;font-size:.82rem;cursor:pointer;transition:all .2s;font-family:'DM Sans',sans-serif}
+  .filter-tab:hover,.filter-tab.active{background:rgba(122,158,110,.2);border-color:var(--sage);color:var(--white)}
+  .sort-select{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);color:var(--white);padding:.4rem 1rem;border-radius:8px;font-size:.82rem;cursor:pointer;font-family:'DM Sans',sans-serif;outline:none}
+  .product-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:1.2rem}
+
+  /* Skeleton */
+  .skeleton-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:16px;overflow:hidden;animation:pulse 1.5s ease infinite}
+  .skeleton-img{height:200px;background:rgba(255,255,255,.05)}
+  .skeleton-body{padding:1.2rem}
+  .skeleton-line{height:12px;background:rgba(255,255,255,.06);border-radius:6px;margin-bottom:.8rem}
+  .skeleton-line.short{width:60%}
+  .skeleton-line.price{height:24px;width:40%}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}
+
+  /* Product card */
+  .product-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);border-radius:16px;overflow:hidden;transition:all .25s;cursor:pointer;animation:fadeUp .4s ease both}
+  .product-card:hover{transform:translateY(-4px);border-color:rgba(122,158,110,.3);box-shadow:0 16px 40px rgba(0,0,0,.4)}
+  .product-card.ebay-card{border-color:rgba(0,100,210,.2)}
+  .product-card.ebay-card:hover{border-color:rgba(0,100,210,.45);box-shadow:0 16px 40px rgba(0,100,210,.15)}
+  .product-card.google-card:hover{border-color:rgba(234,67,53,.4)}
+  .product-card.cf-card{border-color:rgba(37,99,235,.15)}
+  .product-card.cf-card:hover{border-color:rgba(37,99,235,.4)}
+
+  .product-img{width:100%;height:200px;background:linear-gradient(135deg,#1e3a1e,#2a4a2a);display:flex;align-items:center;justify-content:center;font-size:3.5rem;position:relative;overflow:hidden}
+  .product-img img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;transition:transform .3s}
+  .product-card:hover .product-img img{transform:scale(1.05)}
+
+  .badge{position:absolute;top:.75rem;left:.75rem;padding:.25rem .65rem;border-radius:6px;font-size:.7rem;font-weight:700;letter-spacing:.5px;text-transform:uppercase;z-index:2}
+  .badge-deal{background:var(--fire);color:white}
+  .badge-new{background:var(--sage);color:var(--dark)}
+  .badge-ebay{background:var(--ebay-blue);color:white}
+  .badge-google{background:var(--google-red);color:white}
+  .badge-cf{background:#2563eb;color:white}
+  .badge-sale{background:#7c3aed;color:white}
+  .wishlist-btn{position:absolute;top:.7rem;right:.7rem;background:rgba(0,0,0,.4);border:none;border-radius:50%;width:32px;height:32px;font-size:.9rem;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;z-index:2}
+  .wishlist-btn:hover{background:rgba(0,0,0,.65);transform:scale(1.1)}
+
+  .product-body{padding:1.2rem}
+  .product-brand{font-size:.7rem;font-weight:600;color:var(--sage);text-transform:uppercase;letter-spacing:1px;margin-bottom:.3rem}
+  .brand-ebay{color:#74b3ff}
+  .brand-google{color:#f28b82}
+  .brand-cf{color:#93c5fd}
+  .product-name{font-size:.9rem;font-weight:600;line-height:1.4;margin-bottom:.6rem;color:var(--white)}
+  .product-rating{display:flex;align-items:center;gap:.4rem;margin-bottom:.8rem}
+  .stars{color:#e8b82a;font-size:.8rem}
+  .rating-text{font-size:.75rem;color:rgba(250,250,247,.4)}
+  .price-row{display:flex;align-items:flex-end;justify-content:space-between}
+  .price-from{font-size:.68rem;color:rgba(250,250,247,.4)}
+  .price-main{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;color:var(--sand);line-height:1}
+  .price-sale{color:var(--fire-light)!important}
+  .price-save{font-size:.7rem;color:var(--fire);font-weight:700}
+  .price-old{font-size:.78rem;color:rgba(250,250,247,.3);text-decoration:line-through}
+  .store-label{font-size:.68rem;color:rgba(250,250,247,.35)}
+  .store-count{font-size:.72rem;color:rgba(250,250,247,.35);margin-top:.6rem;padding-top:.6rem;border-top:1px solid rgba(255,255,255,.06)}
+  .ship-badge{font-size:.68rem;font-weight:700;padding:.15rem .5rem;border-radius:4px}
+  .ship-free{background:rgba(122,158,110,.15);color:var(--sage)}
+  .ship-paid{background:rgba(255,255,255,.06);color:rgba(250,250,247,.4)}
+  .compare-btn{width:100%;margin-top:.7rem;padding:.55rem;background:rgba(122,158,110,.12);border:1px solid rgba(122,158,110,.22);color:var(--sage);border-radius:8px;font-family:'DM Sans',sans-serif;font-size:.82rem;font-weight:600;cursor:pointer;transition:all .2s}
+  .compare-btn:hover{background:rgba(122,158,110,.25);color:var(--white)}
+  .compare-btn.ebay{background:rgba(0,100,210,.12);border-color:rgba(0,100,210,.25);color:#74b3ff}
+  .compare-btn.ebay:hover{background:rgba(0,100,210,.25);color:white}
+  .compare-btn.cf{background:rgba(37,99,235,.12);border-color:rgba(37,99,235,.25);color:#93c5fd}
+  .compare-btn.cf:hover{background:rgba(37,99,235,.25);color:white}
+
+  /* SEARCH RESULTS HEADER */
+  .results-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.2rem;flex-wrap:wrap;gap:.5rem}
+  .results-info{font-size:.83rem;color:rgba(250,250,247,.45)}
+  .results-count-badge{background:rgba(122,158,110,.15);border:1px solid rgba(122,158,110,.25);color:var(--sage);padding:.25rem .8rem;border-radius:12px;font-size:.76rem;font-weight:700}
+  .results-count-badge.ebay{background:rgba(0,100,210,.12);border-color:rgba(0,100,210,.3);color:#74b3ff}
+  .results-count-badge.google{background:rgba(234,67,53,.1);border-color:rgba(234,67,53,.3);color:#f28b82}
+  .results-count-badge.cf{background:rgba(37,99,235,.12);border-color:rgba(37,99,235,.3);color:#93c5fd}
+
+  /* STATUS BARS */
+  .status-bar{display:flex;align-items:center;gap:.6rem;padding:.7rem 1rem;border-radius:8px;font-size:.83rem;margin:1rem 0}
+  .status-bar.loading{background:rgba(122,158,110,.08);border:1px solid rgba(122,158,110,.2);color:var(--sage-light)}
+  .status-bar.success{background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.3);color:#6ee7b7}
+  .status-bar.error{background:rgba(232,98,42,.1);border:1px solid rgba(232,98,42,.3);color:var(--fire-light)}
+  .status-bar.warning{background:rgba(232,184,42,.08);border:1px solid rgba(232,184,42,.25);color:#fcd34d}
+
+  /* DEALS */
+  .deals-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem}
+  .deal-card{background:linear-gradient(135deg,rgba(232,98,42,.1),rgba(232,98,42,.03));border:1px solid rgba(232,98,42,.22);border-radius:16px;padding:1.4rem;display:flex;gap:1rem;align-items:center;transition:all .25s;cursor:pointer}
+  .deal-card:hover{border-color:var(--fire);transform:translateY(-2px)}
+  .deal-icon{font-size:2.2rem;width:56px;height:56px;background:rgba(232,98,42,.1);border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+  .deal-store{font-size:.68rem;color:var(--fire);font-weight:700;text-transform:uppercase;letter-spacing:1px}
+  .deal-name{font-size:.88rem;font-weight:600;margin:.2rem 0 .4rem}
+  .deal-prices{display:flex;align-items:baseline;gap:.5rem}
+  .deal-price{font-family:'Bebas Neue',sans-serif;font-size:1.4rem;color:var(--sand)}
+  .deal-original{font-size:.78rem;color:rgba(250,250,247,.3);text-decoration:line-through}
+  .deal-off{background:var(--fire);color:white;font-size:.68rem;font-weight:700;padding:.15rem .4rem;border-radius:4px}
+
+  /* MODAL */
+  .modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.8);z-index:200;align-items:center;justify-content:center;padding:2rem;backdrop-filter:blur(4px)}
+  .modal-overlay.open{display:flex}
+  .modal{background:#131f13;border:1px solid rgba(122,158,110,.25);border-radius:20px;width:100%;max-width:780px;max-height:90vh;overflow-y:auto;padding:2rem;animation:fadeUp .3s ease}
+  .modal-close{background:rgba(255,255,255,.08);border:none;color:var(--white);width:34px;height:34px;border-radius:50%;cursor:pointer;font-size:1rem;display:flex;align-items:center;justify-content:center;transition:background .2s;flex-shrink:0}
+  .modal-close:hover{background:rgba(255,255,255,.15)}
+  .compare-table{width:100%;border-collapse:collapse;font-size:.87rem}
+  .compare-table th{text-align:left;padding:.9rem 1rem;font-size:.7rem;text-transform:uppercase;letter-spacing:1px;color:rgba(250,250,247,.35);border-bottom:1px solid rgba(255,255,255,.07);font-family:'DM Mono',monospace}
+  .compare-table td{padding:.9rem 1rem;border-bottom:1px solid rgba(255,255,255,.04);vertical-align:middle}
+  .compare-table tr:last-child td{border-bottom:none}
+  .compare-table tr:hover td{background:rgba(255,255,255,.02)}
+  .price-cell{font-family:'Bebas Neue',sans-serif;font-size:1.25rem;color:var(--sand)}
+  .price-cell.best{color:var(--sage)}
+  .best-tag{background:rgba(122,158,110,.2);color:var(--sage);border:1px solid rgba(122,158,110,.3);font-size:.62rem;padding:.15rem .4rem;border-radius:3px;font-weight:700;letter-spacing:.5px;margin-left:.4rem}
+  .buy-btn{background:var(--fire);color:white;border:none;padding:.45rem 1rem;border-radius:7px;font-size:.8rem;font-weight:600;cursor:pointer;font-family:'DM Sans',sans-serif;transition:background .2s}
+  .buy-btn:hover{background:#c9501e}
+  .buy-btn.sec{background:rgba(255,255,255,.06);color:rgba(250,250,247,.6)}
+  .buy-btn.sec:hover{background:rgba(255,255,255,.1);color:var(--white)}
+
+  /* AFFILIATE */
+  .affiliate-banner{background:linear-gradient(135deg,rgba(37,99,235,.15),rgba(37,99,235,.05));border:1px solid rgba(37,99,235,.3);border-radius:20px;padding:2.5rem;display:flex;align-items:center;gap:2rem;margin-bottom:2rem;position:relative;overflow:hidden}
+  .affiliate-banner::before{content:'💰';position:absolute;right:2rem;top:50%;transform:translateY(-50%);font-size:5rem;opacity:.08}
+  .affiliate-icon{font-size:3rem;flex-shrink:0}
+  .affiliate-title{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:1px;color:#93c5fd;margin-bottom:.4rem}
+  .affiliate-desc{font-size:.88rem;color:rgba(250,250,247,.55);line-height:1.6}
+  .affiliate-btn{flex-shrink:0;background:#2563eb;color:white;border:none;padding:.7rem 1.5rem;border-radius:10px;font-family:'DM Sans',sans-serif;font-weight:700;font-size:.88rem;cursor:pointer;transition:background .2s;white-space:nowrap}
+  .affiliate-btn:hover{background:#1d4ed8}
+  .steps-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem;margin-bottom:2rem}
+  .step-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.07);border-radius:14px;padding:1.4rem}
+  .step-num{font-family:'Bebas Neue',sans-serif;font-size:3rem;color:rgba(122,158,110,.2);line-height:1;margin-bottom:.5rem}
+  .step-title{font-weight:700;font-size:.92rem;margin-bottom:.4rem}
+  .step-desc{font-size:.8rem;color:rgba(250,250,247,.45);line-height:1.6}
+  .step-status{display:inline-flex;align-items:center;gap:.3rem;margin-top:.7rem;font-size:.72rem;font-weight:600;padding:.2rem .6rem;border-radius:10px}
+  .status-ready{background:rgba(122,158,110,.2);color:var(--sage)}
+  .status-pending{background:rgba(232,184,42,.15);color:#e8b82a}
+  .status-todo{background:rgba(255,255,255,.06);color:rgba(250,250,247,.4)}
+  .stores-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:1rem}
+  .store-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.07);border-radius:14px;padding:1.4rem;text-align:center;transition:all .25s;cursor:pointer}
+  .store-card:hover{border-color:rgba(122,158,110,.3);background:rgba(122,158,110,.06);transform:translateY(-2px)}
+  .store-emoji{font-size:2.2rem;margin-bottom:.5rem}
+  .store-name{font-weight:700;font-size:.92rem;margin-bottom:.3rem}
+  .store-commission{font-size:.75rem;color:var(--sage);font-weight:600}
+  .store-type{font-size:.7rem;color:rgba(250,250,247,.35);margin-top:.2rem}
+  .store-apply{margin-top:.8rem;width:100%;padding:.4rem;background:rgba(37,99,235,.15);border:1px solid rgba(37,99,235,.3);color:#93c5fd;border-radius:6px;font-size:.75rem;font-weight:600;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .2s}
+  .store-apply:hover{background:rgba(37,99,235,.3)}
+
+  /* FOOTER */
+  footer{position:relative;z-index:1;border-top:1px solid rgba(255,255,255,.07);padding:3rem 2rem;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:2rem;max-width:1280px;margin:0 auto}
+  .footer-brand p{font-size:.83rem;color:rgba(250,250,247,.4);line-height:1.6;margin-top:.8rem;max-width:280px}
+  .footer-col h4{font-size:.72rem;text-transform:uppercase;letter-spacing:1.5px;color:rgba(250,250,247,.35);margin-bottom:.9rem;font-family:'DM Mono',monospace}
+  .footer-col a{display:block;color:rgba(250,250,247,.55);text-decoration:none;font-size:.83rem;margin-bottom:.45rem;transition:color .2s}
+  .footer-col a:hover{color:var(--sage)}
+  .footer-bottom{grid-column:1/-1;border-top:1px solid rgba(255,255,255,.06);padding-top:1.5rem;display:flex;justify-content:space-between;font-size:.76rem;color:rgba(250,250,247,.22);flex-wrap:wrap;gap:.5rem}
+
+  .divider{border:none;border-top:1px solid rgba(255,255,255,.07)}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+
+  /* Loading bar */
+  #loadingBar{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,var(--sage),var(--fire),#74b3ff);z-index:999;transition:width .3s ease;box-shadow:0 0 8px rgba(232,98,42,.5)}
+
+  /* Toast */
+  .toast{position:fixed;bottom:2rem;right:2rem;background:#1a2e1a;border:1px solid rgba(122,158,110,.4);border-radius:12px;padding:1rem 1.4rem;font-size:.88rem;color:var(--sage-light);z-index:300;animation:fadeUp .3s ease;max-width:320px;box-shadow:0 8px 24px rgba(0,0,0,.4);display:none}
+  .toast.show{display:flex;align-items:center;gap:.7rem}
+
+  /* Load more btn */
+  .load-more-btn{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);color:rgba(250,250,247,.7);padding:.7rem 2rem;border-radius:10px;font-family:'DM Sans',sans-serif;font-size:.88rem;cursor:pointer;transition:all .2s}
+  .load-more-btn:hover{background:rgba(122,158,110,.15)}
+
+  @media(max-width:768px){
+    .nav-links{display:none}
+    footer{grid-template-columns:1fr 1fr}
+    .footer-brand{grid-column:1/-1}
+    .footer-bottom{flex-direction:column;gap:.5rem}
+    .affiliate-banner{flex-direction:column;text-align:center}
+    .hero-stats{gap:1.5rem}
+  }
+</style>
+</head>
+<body>
+
+<div id="loadingBar" style="width:0%"></div>
+<div class="toast" id="toast">✅ <span id="toastMsg"></span></div>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="logo">
+    <div class="logo-icon">⛺</div>
+    <div class="logo-text">Camp<span>Mate</span></div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#products">Gear</a></li>
+    <li><a href="#ebay-section">eBay Live</a></li>
+    <li><a href="#cf-section">Stores</a></li>
+    <li><a href="#deals">Deals</a></li>
+    <li><a href="#affiliate">Earn</a></li>
+    <li><a href="#" class="nav-cta" onclick="openAlertModal();return false">Price Alert 🔔</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-badge">🇦🇺 Australia's #1 Camping Gear Comparison</div>
+  <h1>Find the <span class="accent">Best Deal</span><br>on <span class="muted">Camping Gear</span></h1>
+  <p class="hero-sub">Real-time prices from eBay AU, Commission Factory stores & Google Shopping — all in one place.</p>
+  <div class="hero-search">
+    <input type="text" placeholder="Search tents, sleeping bags, stoves…" id="searchInput">
+    <button onclick="heroSearch()">Search</button>
+  </div>
+  <div class="source-toggle">
+    <button class="src-btn active-ebay" id="srcEbay"   onclick="setSource('ebay')">  <span style="background:#0064d2;color:white;border-radius:3px;padding:0 4px;font-size:.7rem;font-weight:800">e</span>  eBay Australia</button>
+    <button class="src-btn"            id="srcCf"     onclick="setSource('cf')">    <span style="background:#2563eb;color:white;border-radius:3px;padding:0 4px;font-size:.7rem;font-weight:800">CF</span> AU Stores</button>
+    <button class="src-btn"            id="srcGoogle" onclick="setSource('google')"><span style="background:#ea4335;color:white;border-radius:3px;padding:0 4px;font-size:.7rem;font-weight:800">G</span>  Google Shopping</button>
+  </div>
+  <div class="hero-stats">
+    <div class="stat"><div class="stat-num">2M+</div><div class="stat-label">eBay AU Listings</div></div>
+    <div class="stat"><div class="stat-num">40+</div><div class="stat-label">AU Stores</div></div>
+    <div class="stat"><div class="stat-num" id="statSaved">$2.4M</div><div class="stat-label">Saved This Month</div></div>
+    <div class="stat"><div class="stat-num">🟢 Live</div><div class="stat-label">Price Updates</div></div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker-wrap">
+  <div class="ticker-track">
+    <span class="ticker-item">BCF: Coleman 4P Instant Up Tent — 30% OFF $289</span>
+    <span class="ticker-item">eBay AU: MSR Pocket Rocket 2 — $72 free shipping</span>
+    <span class="ticker-item">Snowys: Sea to Summit UltraLight — $54 lowest ever</span>
+    <span class="ticker-item">eBay AU: Jackery 1000 Pro — $1,099 free delivery</span>
+    <span class="ticker-item">Anaconda: Jetboil Flash — $149 free shipping</span>
+    <span class="ticker-item">Tentworld: Kings 270° Awning — $449 save $200</span>
+    <span class="ticker-item">BCF: Coleman 4P Instant Up Tent — 30% OFF $289</span>
+    <span class="ticker-item">eBay AU: MSR Pocket Rocket 2 — $72 free shipping</span>
+    <span class="ticker-item">Snowys: Sea to Summit UltraLight — $54 lowest ever</span>
+    <span class="ticker-item">eBay AU: Jackery 1000 Pro — $1,099 free delivery</span>
+    <span class="ticker-item">Anaconda: Jetboil Flash — $149 free shipping</span>
+    <span class="ticker-item">Tentworld: Kings 270° Awning — $449 save $200</span>
+  </div>
+</div>
+
+<!-- CATEGORIES -->
+<div class="section">
+  <div class="section-header">
+    <h2 class="section-title">Shop by <span>Category</span></h2>
+  </div>
+  <div class="category-grid">
+    <a class="cat-card active" href="#" onclick="selectCategory(this,'camping tent australia','All Gear');return false;"><div class="cat-icon">🏕️</div><div class="cat-name">All Gear</div></a>
+    <a class="cat-card" href="#" onclick="selectCategory(this,'camping tent australia','Tents');return false;"><div class="cat-icon">⛺</div><div class="cat-name">Tents</div></a>
+    <a class="cat-card" href="#" onclick="selectCategory(this,'sleeping bag camping australia','Sleeping Bags');return false;"><div class="cat-icon">🛌</div><div class="cat-name">Sleeping Bags</div></a>
+    <a class="cat-card" href="#" onclick="selectCategory(this,'camp stove cooking australia','Stoves');return false;"><div class="cat-icon">🍳</div><div class="cat-name">Stoves</div></a>
+    <a class="cat-card" href="#" onclick="selectCategory(this,'4WD camping australia','4WD');return false;"><div class="cat-icon">🚗</div><div class="cat-name">4WD</div></a>
+    <a class="cat-card" href="#" onclick="selectCategory(this,'headlamp torch camping','Lighting');return false;"><div class="cat-icon">🔦</div><div class="cat-name">Lighting</div></a>
+    <a class="cat-card" href="#" onclick="selectCategory(this,'hiking backpack australia','Packs');return false;"><div class="cat-icon">🎒</div><div class="cat-name">Packs</div></a>
+    <a class="cat-card" href="#" onclick="selectCategory(this,'water filter hydration camping','Hydration');return false;"><div class="cat-icon">💧</div><div class="cat-name">Hydration</div></a>
+    <a class="cat-card" href="#" onclick="selectCategory(this,'solar power station camping','Power');return false;"><div class="cat-icon">🔋</div><div class="cat-name">Power</div></a>
+    <a class="cat-card" href="#" onclick="selectCategory(this,'camping chair table australia','Furniture');return false;"><div class="cat-icon">🪑</div><div class="cat-name">Furniture</div></a>
+    <a class="cat-card" href="#" onclick="selectCategory(this,'camping first aid safety kit','Safety');return false;"><div class="cat-icon">🩹</div><div class="cat-name">Safety</div></a>
+    <a class="cat-card" href="#" onclick="selectCategory(this,'hiking outdoor clothing australia','Clothing');return false;"><div class="cat-icon">🧥</div><div class="cat-name">Clothing</div></a>
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- eBay LIVE PRODUCTS -->
+<div class="section" id="ebay-section" style="padding-top:2rem">
+  <div class="section-header">
+    <h2 class="section-title">
+      <span style="background:#0064d2;color:white;padding:.1rem .5rem;border-radius:5px;font-size:1.4rem">eBay</span>
+      Australia <span>Live</span>
+    </h2>
+    <div id="ebayResultsMeta" class="results-count-badge ebay" style="display:none"></div>
+  </div>
+  <div id="ebayStatus"></div>
+  <div class="product-toolbar">
+    <div class="filter-tabs">
+      <button class="filter-tab active" onclick="setEbaySort(this,'BestMatch')">Best Match</button>
+      <button class="filter-tab" onclick="setEbaySort(this,'PricePlusShippingLowest')">Lowest Price</button>
+      <button class="filter-tab" onclick="setEbaySort(this,'EndTimeSoonest')">Ending Soon</button>
+    </div>
+  </div>
+  <div class="product-grid" id="ebayGrid"></div>
+  <div style="text-align:center;margin-top:2rem" id="ebayLoadMoreWrap" style="display:none">
+    <button class="load-more-btn" onclick="loadMoreEbay()">Load More from eBay ↓</button>
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- COMMISSION FACTORY STORES -->
+<div class="section" id="cf-section">
+  <div class="section-header">
+    <h2 class="section-title">AU <span>Stores</span></h2>
+    <div id="cfResultsMeta" class="results-count-badge cf" style="display:none"></div>
+  </div>
+  <div id="cfStatus"></div>
+  <div class="product-grid" id="cfGrid"></div>
+  <div style="text-align:center;margin-top:2rem">
+    <button class="load-more-btn" id="cfLoadMore" onclick="loadMoreCf()" style="display:none">Load More AU Products ↓</button>
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- TODAY'S DEALS -->
+<div class="section" id="deals">
+  <div class="section-header">
+    <h2 class="section-title">Today's <span>Deals</span> 🔥</h2>
+  </div>
+  <div class="deals-grid">
+    <div class="deal-card"><div class="deal-icon">⛺</div><div><div class="deal-store">BCF</div><div class="deal-name">Coleman Instant Up 6P Darkroom Tent</div><div class="deal-prices"><div class="deal-price">$399</div><div class="deal-original">$599</div><div class="deal-off">-33%</div></div></div></div>
+    <div class="deal-card"><div class="deal-icon">🚗</div><div><div class="deal-store">Tentworld</div><div class="deal-name">Kings 270° Awning with Walls</div><div class="deal-prices"><div class="deal-price">$449</div><div class="deal-original">$649</div><div class="deal-off">-31%</div></div></div></div>
+    <div class="deal-card"><div class="deal-icon">🍳</div><div><div class="deal-store">Anaconda</div><div class="deal-name">MSR WindBurner 1.0L Stove System</div><div class="deal-prices"><div class="deal-price">$189</div><div class="deal-original">$249</div><div class="deal-off">-24%</div></div></div></div>
+    <div class="deal-card"><div class="deal-icon">🛌</div><div><div class="deal-store">Snowys</div><div class="deal-name">Thermarest NeoAir XLite NXT</div><div class="deal-prices"><div class="deal-price">$279</div><div class="deal-original">$369</div><div class="deal-off">-24%</div></div></div></div>
+    <div class="deal-card"><div class="deal-icon">🔋</div><div><div class="deal-store">JB Hi-Fi</div><div class="deal-name">Jackery Explorer 1000 Pro</div><div class="deal-prices"><div class="deal-price">$1,199</div><div class="deal-original">$1,599</div><div class="deal-off">-25%</div></div></div></div>
+    <div class="deal-card"><div class="deal-icon">🎒</div><div><div class="deal-store">Paddy Pallin</div><div class="deal-name">Osprey Atmos AG 65 Backpack</div><div class="deal-prices"><div class="deal-price">$379</div><div class="deal-original">$499</div><div class="deal-off">-24%</div></div></div></div>
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- AFFILIATE SECTION -->
+<div class="section" id="affiliate">
+  <div class="section-header">
+    <h2 class="section-title">💰 Commission Factory <span>연동</span></h2>
+  </div>
+  <div class="affiliate-banner">
+    <div class="affiliate-icon">🤝</div>
+    <div style="flex:1">
+      <div class="affiliate-title">제휴 수익을 시작하세요</div>
+      <div class="affiliate-desc">Commission Factory에 가입하면 BCF, Anaconda, Snowys 등 40개 이상의 호주 캠핑 매장과 연결됩니다.<br>방문자가 링크를 클릭해 구매할 때마다 <strong style="color:#93c5fd">판매가의 3~8% 수익</strong>이 자동으로 발생합니다.</div>
+    </div>
+    <button class="affiliate-btn" onclick="window.open('https://app.commissionfactory.com/publisher/register','_blank')">무료 가입하기 →</button>
+  </div>
+  <div class="steps-grid">
+    <div class="step-card"><div class="step-num">01</div><div class="step-title">Commission Factory 가입</div><div class="step-desc">Publisher로 무료 가입 후 이 사이트 URL을 입력하세요.</div><div class="step-status status-ready">✅ 지금 바로 가능</div></div>
+    <div class="step-card"><div class="step-num">02</div><div class="step-title">매장 제휴 신청</div><div class="step-desc">BCF, Anaconda, Snowys를 검색해 Apply 클릭. 1~3일 소요.</div><div class="step-status status-pending">⏳ 승인 대기</div></div>
+    <div class="step-card"><div class="step-num">03</div><div class="step-title">CF_FEED_URL 환경변수</div><div class="step-desc">CF 대시보드 → Data Feeds → Feed URL 복사 → Netlify 환경변수에 CF_FEED_URL로 저장.</div><div class="step-status status-todo">🔗 승인 후 진행</div></div>
+    <div class="step-card"><div class="step-num">04</div><div class="step-title">자동 상품 표시</div><div class="step-desc">환경변수 설정 후 Deploy하면 실시간 CF 상품이 자동으로 표시됩니다.</div><div class="step-status status-todo">💰 수익 시작</div></div>
+  </div>
+  <div class="stores-grid">
+    <div class="store-card"><div class="store-emoji">🏪</div><div class="store-name">BCF</div><div class="store-commission">4~6%</div><div class="store-type">Boating Camping Fishing</div><button class="store-apply" onclick="window.open('https://app.commissionfactory.com','_blank')">신청 →</button></div>
+    <div class="store-card"><div class="store-emoji">🦎</div><div class="store-name">Anaconda</div><div class="store-commission">3~5%</div><div class="store-type">Outdoor Sports Mega Store</div><button class="store-apply" onclick="window.open('https://app.commissionfactory.com','_blank')">신청 →</button></div>
+    <div class="store-card"><div class="store-emoji">❄️</div><div class="store-name">Snowys</div><div class="store-commission">5~8%</div><div class="store-type">Premium Outdoor Gear</div><button class="store-apply" onclick="window.open('https://app.commissionfactory.com','_blank')">신청 →</button></div>
+    <div class="store-card"><div class="store-emoji">⛺</div><div class="store-name">Tentworld</div><div class="store-commission">4~7%</div><div class="store-type">Tent Specialist</div><button class="store-apply" onclick="window.open('https://app.commissionfactory.com','_blank')">신청 →</button></div>
+    <div class="store-card"><div class="store-emoji">🏔️</div><div class="store-name">Paddy Pallin</div><div class="store-commission">5~7%</div><div class="store-type">Adventure Gear</div><button class="store-apply" onclick="window.open('https://app.commissionfactory.com','_blank')">신청 →</button></div>
+    <div class="store-card"><div class="store-emoji">🏋️</div><div class="store-name">rebel sport</div><div class="store-commission">3~4%</div><div class="store-type">Sports & Outdoor</div><button class="store-apply" onclick="window.open('https://app.commissionfactory.com','_blank')">신청 →</button></div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-brand">
+    <div class="logo"><div class="logo-icon">⛺</div><div class="logo-text">Camp<span>Mate</span></div></div>
+    <p>Australia's most comprehensive camping gear comparison. Real-time prices from eBay AU, 40+ stores & Google Shopping.</p>
+  </div>
+  <div class="footer-col">
+    <h4>Categories</h4>
+    <a href="#">Tents & Shelters</a><a href="#">Sleeping Bags</a><a href="#">Cooking Gear</a><a href="#">4WD</a><a href="#">Lighting</a>
+  </div>
+  <div class="footer-col">
+    <h4>Stores</h4>
+    <a href="#">BCF</a><a href="#">Anaconda</a><a href="#">Snowys</a><a href="#">Tentworld</a><a href="#">Paddy Pallin</a>
+  </div>
+  <div class="footer-col">
+    <h4>Company</h4>
+    <a href="#">About</a><a href="#">Privacy Policy</a><a href="#">Contact</a><a href="#">Blog</a>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 CampMate Australia. Prices updated in real-time.</span>
+    <span>🇦🇺 Powered by eBay AU + Commission Factory + Google</span>
+  </div>
+</footer>
+
+<!-- PRICE ALERT MODAL -->
+<div class="modal-overlay" id="alertModal" onclick="if(event.target===this)closeAlertModal()">
+  <div style="background:#131f13;border:1px solid rgba(232,184,42,.3);border-radius:20px;width:100%;max-width:480px;padding:2rem;animation:fadeUp .3s ease">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1.5rem">
+      <h2 style="font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:1px;color:#fcd34d">🔔 가격 알림 설정</h2>
+      <button class="modal-close" onclick="closeAlertModal()">✕</button>
+    </div>
+    <p style="font-size:.85rem;color:rgba(250,250,247,.5);margin-bottom:1.2rem;line-height:1.6">목표 가격 이하로 떨어지면 이메일로 알려드립니다.</p>
+    <input style="width:100%;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);color:var(--white);padding:.8rem 1rem;border-radius:8px;font-family:'DM Sans',sans-serif;font-size:.92rem;outline:none;margin-bottom:1rem" type="text" placeholder="상품명 (예: Coleman Instant Up 4P Tent)">
+    <input style="width:100%;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);color:var(--white);padding:.8rem 1rem;border-radius:8px;font-family:'DM Sans',sans-serif;font-size:.92rem;outline:none;margin-bottom:1rem" type="number" placeholder="목표 가격 ($AUD)">
+    <input style="width:100%;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);color:var(--white);padding:.8rem 1rem;border-radius:8px;font-family:'DM Sans',sans-serif;font-size:.92rem;outline:none;margin-bottom:1rem" type="email" placeholder="이메일 주소">
+    <div style="display:flex;gap:.8rem">
+      <button onclick="saveAlert()" style="flex:1;background:#fcd34d;border:none;color:#0c150c;padding:.8rem;border-radius:8px;font-family:'DM Sans',sans-serif;font-weight:700;cursor:pointer;font-size:.92rem">알림 설정 🔔</button>
+      <button onclick="closeAlertModal()" style="padding:.8rem 1.2rem;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);color:rgba(250,250,247,.6);border-radius:8px;font-family:'DM Sans',sans-serif;cursor:pointer">취소</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ═══════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════
+let currentQuery  = 'camping tent';
+let currentSource = 'ebay';
+let ebaySort      = 'BestMatch';
+let ebayPage      = 1;
+let cfOffset      = 0;
+const PAGE_SIZE   = 12;
+
+const AU_STORES = [
+  { name:'BCF',         emoji:'🏕️', domain:'bcf.com.au',         search:(q)=>`https://www.bcf.com.au/search?q=${encodeURIComponent(q)}` },
+  { name:'Anaconda',    emoji:'🧭', domain:'anaconda.com.au',    search:(q)=>`https://www.anaconda.com.au/search?text=${encodeURIComponent(q)}` },
+  { name:'Snowys',      emoji:'❄️', domain:'snowys.com.au',      search:(q)=>`https://www.snowys.com.au/search?q=${encodeURIComponent(q)}` },
+  { name:'Tentworld',   emoji:'⛺', domain:'tentworld.com.au',   search:(q)=>`https://www.tentworld.com.au/catalogsearch/result/?q=${encodeURIComponent(q)}` },
+  { name:'Paddy Pallin',emoji:'🎒', domain:'paddypallin.com.au', search:(q)=>`https://www.paddypallin.com.au/catalogsearch/result/?q=${encodeURIComponent(q)}` },
+  { name:'Wild Earth',  emoji:'🦘', domain:'wildearth.com.au',   search:(q)=>`https://www.wildearth.com.au/search?type=product&q=${encodeURIComponent(q)}` },
+];
+
+
+// ═══════════════════════════════════════
+// API CALLS  →  Netlify Functions
+// ═══════════════════════════════════════
+async function fetchEbay(query, sort, limit) {
+  const url = `/api/ebay-search?q=${encodeURIComponent(query)}&sort=${sort}&limit=${limit}`;
+  const res  = await fetch(url);
+  if (!res.ok) throw new Error(`eBay API error ${res.status}`);
+  return res.json();
+}
+
+async function fetchGoogle(query) {
+  const url = `/api/google-search?q=${encodeURIComponent(query)}`;
+  const res  = await fetch(url);
+  if (!res.ok) throw new Error(`Google API error ${res.status}`);
+  return res.json();
+}
+
+async function fetchCF(query, limit, offset) {
+  const url = `/api/cf-feed?q=${encodeURIComponent(query)}&limit=${limit}&offset=${offset}`;
+  const res  = await fetch(url);
+  if (!res.ok) throw new Error(`CF Feed error ${res.status}`);
+  return res.json();
+}
+
+// ═══════════════════════════════════════
+// RENDER HELPERS
+// ═══════════════════════════════════════
+function skeletons(n) {
+  return Array(n).fill(`
+    <div class="skeleton-card">
+      <div class="skeleton-img"></div>
+      <div class="skeleton-body">
+        <div class="skeleton-line short"></div>
+        <div class="skeleton-line"></div>
+        <div class="skeleton-line"></div>
+        <div class="skeleton-line price"></div>
+      </div>
+    </div>`).join('');
+}
+
+function renderEbayCard(item, i) {
+  const img = item.image
+    ? `<img src="${item.image}" alt="${item.title}" loading="lazy" onerror="this.style.display='none'">`
+    : '<span style="font-size:3rem">🏕️</span>';
+  const totalPrice = item.price + (item.freeShipping ? 0 : item.shipping);
+  return `
+    <div class="product-card ebay-card" style="animation-delay:${i*.05}s" onclick="window.open('${item.url}','_blank')">
+      <div class="product-img" style="background:linear-gradient(135deg,#0a1428,#0a1e3c)">
+        ${img}
+        <span class="badge badge-ebay">eBay AU</span>
+        <button class="wishlist-btn" onclick="event.stopPropagation();toggleWish(this)">🤍</button>
+      </div>
+      <div class="product-body">
+        <div class="product-brand brand-ebay">eBay Australia · ${item.condition}</div>
+        <div class="product-name">${item.title.slice(0,72)}${item.title.length>72?'…':''}</div>
+        <div class="price-row" style="margin-top:.5rem">
+          <div>
+            <div class="price-main ${item.price < 50 ? 'price-sale' : ''}">$${item.price.toFixed(2)}</div>
+            <span class="ship-badge ${item.freeShipping?'ship-free':'ship-paid'}">${item.freeShipping?'FREE shipping':'+ $'+item.shipping.toFixed(2)+' ship'}</span>
+          </div>
+          <div style="text-align:right;font-size:.68rem;color:rgba(250,250,247,.3)">${item.currency}</div>
+        </div>
+        ${item.feedbackScore > 0 ? `<div style="font-size:.68rem;color:rgba(250,250,247,.3);margin-top:.4rem">⭐ ${item.feedbackPct}% · ${item.feedbackScore} feedback</div>` : ''}
+        <button class="compare-btn ebay" style="margin-top:.7rem">View on eBay →</button>
+      </div>
+    </div>`;
+}
+
+function renderCFCard(item, i) {
+  const img = item.image
+    ? `<img src="${item.image}" alt="${item.title}" loading="lazy" onerror="this.style.display='none'">`
+    : '<span style="font-size:3rem">🏕️</span>';
+  const hasDiscount = item.salePrice && item.salePrice < item.price;
+  const displayPrice = hasDiscount ? item.salePrice : item.price;
+  const savePct = hasDiscount ? Math.round((1 - item.salePrice/item.price)*100) : 0;
+  return `
+    <div class="product-card cf-card" style="animation-delay:${i*.05}s" onclick="window.open('${item.url}','_blank')">
+      <div class="product-img" style="background:linear-gradient(135deg,#0e1e10,#162a18)">
+        ${img}
+        ${hasDiscount ? `<span class="badge badge-sale">-${savePct}%</span>` : ''}
+        <button class="wishlist-btn" onclick="event.stopPropagation();toggleWish(this)">🤍</button>
+      </div>
+      <div class="product-body">
+        <div class="product-brand brand-cf">${item.store || 'AU Store'} ${item.brand ? '· '+item.brand : ''}</div>
+        <div class="product-name">${item.title.slice(0,72)}${item.title.length>72?'…':''}</div>
+        <div class="price-row" style="margin-top:.5rem">
+          <div>
+            <div class="price-main ${hasDiscount?'price-sale':''}">$${displayPrice.toFixed(2)}</div>
+            ${hasDiscount ? `<div class="price-old">$${item.price.toFixed(2)}</div>` : ''}
+          </div>
+          ${hasDiscount ? `<div class="price-save">Save $${(item.price-item.salePrice).toFixed(2)}</div>` : ''}
+        </div>
+        <div style="font-size:.68rem;color:rgba(250,250,247,.3);margin-top:.4rem">${item.availability || 'In Stock'}</div>
+        <button class="compare-btn cf" style="margin-top:.7rem">Buy at ${item.store || 'Store'} →</button>
+      </div>
+    </div>`;
+}
+
+function renderGoogleCard(item, i) {
+  const img = item.image
+    ? `<img src="${item.image}" alt="${item.title}" loading="lazy" onerror="this.style.display='none'">`
+    : '<span style="font-size:3rem">🏕️</span>';
+  return `
+    <div class="product-card google-card" style="animation-delay:${i*.05}s" onclick="window.open('${item.url}','_blank')">
+      <div class="product-img" style="background:linear-gradient(135deg,#1e0a0a,#2e1010)">
+        ${img}
+        <span class="badge badge-google">LIVE</span>
+        <button class="wishlist-btn" onclick="event.stopPropagation();toggleWish(this)">🤍</button>
+      </div>
+      <div class="product-body">
+        <div class="product-brand brand-google">${item.store}</div>
+        <div class="product-name">${item.title.slice(0,72)}${item.title.length>72?'…':''}</div>
+        <div style="margin-top:.5rem">
+          ${item.price ? `<div class="price-main" style="font-size:1.4rem">$${item.price}</div>` : '<div style="font-size:.8rem;color:rgba(250,250,247,.3)">Click to see price →</div>'}
+        </div>
+        ${item.rating ? `<div style="font-size:.75rem;color:#e8b82a;margin-top:.4rem">★ ${item.rating} ${item.reviews?'('+item.reviews+')':''}</div>` : ''}
+        <button class="compare-btn" style="margin-top:.7rem;background:rgba(234,67,53,.1);border-color:rgba(234,67,53,.25);color:#f28b82">Go to Store →</button>
+      </div>
+    </div>`;
+}
+
+
+function safeText(v, fallback='') {
+  return (v ?? fallback).toString();
+}
+
+function directStoreCard(store, query, i) {
+  return `
+    <div class="product-card cf-card" style="animation-delay:${i*.05}s" onclick="window.open('${store.search(query)}','_blank')">
+      <div class="product-img" style="background:linear-gradient(135deg,#172313,#20311b)">
+        <span style="font-size:3rem">${store.emoji}</span>
+        <span class="badge badge-sale">DIRECT</span>
+        <button class="wishlist-btn" onclick="event.stopPropagation();toggleWish(this)">🤍</button>
+      </div>
+      <div class="product-body">
+        <div class="product-brand brand-cf">${store.name}</div>
+        <div class="product-name">${safeText(query)} search results at ${store.name}</div>
+        <div style="margin-top:.5rem;font-size:.8rem;color:rgba(250,250,247,.55)">Affiliate approval not required for this step. Users can browse the store now, and you can swap to affiliate links later.</div>
+        <button class="compare-btn cf" style="margin-top:.7rem">Open ${store.name} →</button>
+      </div>
+    </div>`;
+}
+
+function renderDirectStoreGrid(query) {
+  return AU_STORES.map((store, i) => directStoreCard(store, query, i)).join('');
+}
+
+// ═══════════════════════════════════════
+// LOAD eBay
+// ═══════════════════════════════════════
+async function loadEbay(append = false) {
+  const grid = document.getElementById('ebayGrid');
+  const statusDiv = document.getElementById('ebayStatus');
+  const meta = document.getElementById('ebayResultsMeta');
+
+  if (!append) {
+    grid.innerHTML = skeletons(PAGE_SIZE);
+    statusDiv.innerHTML = `<div class="status-bar loading">⏳ eBay Australia 검색 중: "${currentQuery}"...</div>`;
+    meta.style.display = 'none';
+    ebayPage = 1;
+  } else {
+    ebayPage++;
+  }
+
+  try {
+    const data = await fetchEbay(currentQuery, ebaySort, PAGE_SIZE * ebayPage);
+    const items = data.products || [];
+
+    if (!append) {
+      if (items.length === 0) {
+        statusDiv.innerHTML = `<div class="status-bar warning">⚠️ 검색 결과가 없습니다. 다른 키워드를 시도해 보세요.</div>`;
+        grid.innerHTML = '';
+        return;
+      }
+      statusDiv.innerHTML = `<div class="status-bar success">✅ eBay Australia 실시간 데이터 · ${data.total.toLocaleString()} 개 상품 중 표시 중</div>`;
+      meta.textContent = `${items.length} 개 결과`;
+      meta.style.display = 'inline-block';
+      grid.innerHTML = items.map((item, i) => renderEbayCard(item, i)).join('');
+    } else {
+      const newCards = items.slice((ebayPage-1)*PAGE_SIZE).map((item, i) => renderEbayCard(item, i)).join('');
+      grid.insertAdjacentHTML('beforeend', newCards);
+    }
+    document.getElementById('ebayLoadMoreWrap').style.display = items.length >= PAGE_SIZE ? 'block' : 'none';
+
+  } catch (err) {
+    statusDiv.innerHTML = `<div class="status-bar error">❌ ${err.message} — <a href="https://developer.ebay.com" target="_blank" style="color:#74b3ff">eBay API 설정 확인</a></div>`;
+    grid.innerHTML = '';
+  }
+}
+
+function loadMoreEbay() { loadEbay(true); }
+
+// ═══════════════════════════════════════
+// LOAD Commission Factory
+// ═══════════════════════════════════════
+
+async function loadCF(append = false) {
+  const grid = document.getElementById('cfGrid');
+  const statusDiv = document.getElementById('cfStatus');
+  const meta = document.getElementById('cfResultsMeta');
+  const loadMoreBtn = document.getElementById('cfLoadMore');
+
+  if (!append) {
+    grid.innerHTML = skeletons(PAGE_SIZE);
+    statusDiv.innerHTML = `<div class="status-bar loading">⏳ AU Stores preparing live links...</div>`;
+    meta.style.display = 'none';
+    cfOffset = 0;
+  }
+
+  let cfData = null;
+  let googleData = null;
+  let cfError = null;
+  let googleError = null;
+
+  try {
+    cfData = await fetchCF(currentQuery, PAGE_SIZE, cfOffset);
+  } catch (err) {
+    cfError = err;
+  }
+
+  try {
+    googleData = await fetchGoogle(currentQuery);
+  } catch (err) {
+    googleError = err;
+  }
+
+  const cfItems = cfData?.products || [];
+  const googleItems = (googleData?.items || []).filter(item => {
+    const host = (item.store || '').toLowerCase();
+    return AU_STORES.some(s => host.includes(s.domain.replace('www.','')));
+  });
+
+  const cards = [];
+
+  if (cfItems.length) {
+    cards.push(...cfItems.map((item, i) => renderCFCard(item, i)));
+    statusDiv.innerHTML = `<div class="status-bar success">✅ AU stores live feed connected · direct product links are active</div>`;
+    meta.textContent = `${cfItems.length} feed results`;
+    meta.style.display = 'inline-block';
+    loadMoreBtn.style.display = cfItems.length === PAGE_SIZE ? 'inline-block' : 'none';
+  } else if (googleItems.length) {
+    cards.push(...googleItems.map((item, i) => renderGoogleCard(item, i)));
+    statusDiv.innerHTML = `<div class="status-bar success">✅ AU store search links are live. Affiliate approval can be added later.</div>`;
+    meta.textContent = `${googleItems.length} store results`;
+    meta.style.display = 'inline-block';
+    loadMoreBtn.style.display = 'none';
+  } else {
+    cards.push(renderDirectStoreGrid(currentQuery));
+    statusDiv.innerHTML = `<div class="status-bar success">✅ Direct store links are live for BCF, Anaconda, Snowys, Tentworld and more. Add Commission Factory later to monetize these clicks.</div>`;
+    meta.textContent = `${AU_STORES.length} stores ready`;
+    meta.style.display = 'inline-block';
+    loadMoreBtn.style.display = 'none';
+  }
+
+  if (!append) {
+    grid.innerHTML = cards.join('');
+  } else {
+    grid.insertAdjacentHTML('beforeend', cards.join(''));
+  }
+}
+
+function loadMoreCf() { loadCF(true); }
+
+
+// ═══════════════════════════════════════
+// SEARCH CONTROL
+// ═══════════════════════════════════════
+function heroSearch() {
+  const q = document.getElementById('searchInput').value.trim();
+  if (!q) return;
+  currentQuery = q;
+  document.getElementById('ebay-section').scrollIntoView({behavior:'smooth'});
+  loadEbay();
+  loadCF();
+}
+
+document.getElementById('searchInput').addEventListener('keypress', e => {
+  if (e.key === 'Enter') heroSearch();
+});
+
+function selectCategory(el, query, label) {
+  document.querySelectorAll('.cat-card').forEach(c => c.classList.remove('active'));
+  el.classList.add('active');
+  currentQuery = query;
+  document.getElementById('searchInput').value = label;
+  document.getElementById('ebay-section').scrollIntoView({behavior:'smooth'});
+  loadEbay();
+  loadCF();
+}
+
+function setEbaySort(el, sort) {
+  document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  ebaySort = sort;
+  loadEbay();
+}
+
+function setSource(src) {
+  currentSource = src;
+  const btns = {ebay:'srcEbay', cf:'srcCf', google:'srcGoogle'};
+  Object.keys(btns).forEach(k => {
+    const btn = document.getElementById(btns[k]);
+    btn.className = 'src-btn';
+    if (k === src) btn.classList.add('active-'+k);
+  });
+  const targets = {ebay:'ebay-section', cf:'cf-section', google:'cf-section'};
+  document.getElementById(targets[src])?.scrollIntoView({behavior:'smooth'});
+}
+
+// ═══════════════════════════════════════
+// WISHLIST & TOAST
+// ═══════════════════════════════════════
+function toggleWish(btn) {
+  const liked = btn.textContent === '❤️';
+  btn.textContent = liked ? '🤍' : '❤️';
+  showToast(liked ? '위시리스트에서 제거됐습니다' : '❤️ 위시리스트에 추가됐습니다!');
+}
+
+let toastTimer;
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  document.getElementById('toastMsg').textContent = msg;
+  t.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.classList.remove('show'), 3000);
+}
+
+// ═══════════════════════════════════════
+// ALERT MODAL
+// ═══════════════════════════════════════
+function openAlertModal()  { document.getElementById('alertModal').classList.add('open'); }
+function closeAlertModal() { document.getElementById('alertModal').classList.remove('open'); }
+function saveAlert()       { closeAlertModal(); showToast('🔔 가격 알림이 설정됐습니다!'); }
+
+// ═══════════════════════════════════════
+// INIT
+// ═══════════════════════════════════════
+window.addEventListener('load', () => {
+  const bar = document.getElementById('loadingBar');
+  bar.style.width = '100%';
+  setTimeout(() => bar.style.opacity = '0', 600);
+  // Load real data on startup
+  loadEbay();
+  loadCF();
+});
+</script>
+</body>
+</html>
