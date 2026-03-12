@@ -9,8 +9,8 @@
   <circle cx="1020" cy="150" r="180" fill="rgba(255,255,255,.09)"/>
   <circle cx="170" cy="780" r="120" fill="rgba(255,255,255,.08)"/>
   <text x="80" y="140" font-size="86">🏮</text>
-  <text x="80" y="280" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" fill="#ffffff"><tspan x="80" dy="0">Barebones Area</tspan><tspan x="80" dy="58">Light Lantern 25</tspan></text>
-  <text x="80" y="420" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="rgba(255,255,255,.88)">Barebones · Lanterns</text>
+  <text x="80" y="280" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" fill="#ffffff"><tspan x="80" dy="0">Coleman Area Light</tspan><tspan x="80" dy="58">Lantern 40</tspan></text>
+  <text x="80" y="420" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="rgba(255,255,255,.88)">Coleman · Lanterns</text>
   <rect x="80" y="760" width="270" height="56" rx="28" fill="rgba(8,15,30,.24)" stroke="rgba(255,255,255,.18)"/>
   <text x="112" y="798" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#ffffff">CampMate Australia</text>
 </svg>
