@@ -1,71 +1,2405 @@
 [
-{
-"name":"Coleman Instant Up 4P Tent",
-"brand":"Coleman",
-"category":"tents",
-"image":"https://m.media-amazon.com/images/I/81lY0N1k5LL._AC_SL1500_.jpg",
-"compare_query":"Coleman Instant Up Tent"
-},
-{
-"name":"Oztrail Fast Frame 4P Tent",
-"brand":"Oztrail",
-"category":"tents",
-"image":"https://cdn.shopify.com/s/files/1/0257/6087/0096/products/Oztrail-Fast-Frame-4P-Tent.jpg",
-"compare_query":"Oztrail Fast Frame Tent"
-},
-{
-"name":"BlackWolf Turbo Lite 300 Tent",
-"brand":"BlackWolf",
-"category":"tents",
-"image":"https://cdn.snowys.com.au/media/catalog/product/b/l/blackwolf_turbo_lite_300.jpg",
-"compare_query":"BlackWolf Turbo Lite Tent"
-},
-{
-"name":"MSR Hubba Hubba NX Tent",
-"brand":"MSR",
-"category":"tents",
-"image":"https://m.media-amazon.com/images/I/71w3j5Y6sTL._AC_SL1500_.jpg",
-"compare_query":"MSR Hubba Hubba Tent"
-},
-{
-"name":"Naturehike Cloud Up 2 Tent",
-"brand":"Naturehike",
-"category":"tents",
-"image":"https://m.media-amazon.com/images/I/71cW5nCj2AL._AC_SL1500_.jpg",
-"compare_query":"Naturehike Cloud Up Tent"
-},
-{
-"name":"Jetboil Flash Cooking System",
-"brand":"Jetboil",
-"category":"stoves",
-"image":"https://m.media-amazon.com/images/I/61gM4qjC9NL._AC_SL1500_.jpg",
-"compare_query":"Jetboil Flash Stove"
-},
-{
-"name":"MSR Pocket Rocket 2 Stove",
-"brand":"MSR",
-"category":"stoves",
-"image":"https://m.media-amazon.com/images/I/71Xy1p9Z8HL._AC_SL1500_.jpg",
-"compare_query":"MSR Pocket Rocket Stove"
-},
-{
-"name":"Coleman Fyrelite Stove",
-"brand":"Coleman",
-"category":"stoves",
-"image":"https://m.media-amazon.com/images/I/71YxS0h6K1L._AC_SL1500_.jpg",
-"compare_query":"Coleman Fyrelite Stove"
-},
-{
-"name":"Helinox Chair One",
-"brand":"Helinox",
-"category":"chairs",
-"image":"https://m.media-amazon.com/images/I/71+N8nq9QIL._AC_SL1500_.jpg",
-"compare_query":"Helinox Chair One"
-},
-{
-"name":"Oztrail Big Boy Arm Chair",
-"brand":"Oztrail",
-"category":"chairs",
+  {
+    "id": 1,
+    "name": "Oztrail Tents Model 1",
+    "brand": "Oztrail",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Oztrail tents"
+  },
+  {
+    "id": 2,
+    "name": "Naturehike Tents Model 2",
+    "brand": "Naturehike",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Naturehike tents"
+  },
+  {
+    "id": 3,
+    "name": "MSR Tents Model 3",
+    "brand": "MSR",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "MSR tents"
+  },
+  {
+    "id": 4,
+    "name": "BlackWolf Tents Model 4",
+    "brand": "BlackWolf",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "BlackWolf tents"
+  },
+  {
+    "id": 5,
+    "name": "Zempire Tents Model 5",
+    "brand": "Zempire",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Zempire tents"
+  },
+  {
+    "id": 6,
+    "name": "Wanderer Tents Model 6",
+    "brand": "Wanderer",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Wanderer tents"
+  },
+  {
+    "id": 7,
+    "name": "Coleman Tents Model 7",
+    "brand": "Coleman",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Coleman tents"
+  },
+  {
+    "id": 8,
+    "name": "MSR Tents Model 8",
+    "brand": "MSR",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "MSR tents"
+  },
+  {
+    "id": 9,
+    "name": "Sea to Summit Tents Model 9",
+    "brand": "Sea to Summit",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Sea to Summit tents"
+  },
+  {
+    "id": 10,
+    "name": "BlackWolf Tents Model 10",
+    "brand": "BlackWolf",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "BlackWolf tents"
+  },
+  {
+    "id": 11,
+    "name": "Coleman Tents Model 11",
+    "brand": "Coleman",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Coleman tents"
+  },
+  {
+    "id": 12,
+    "name": "Wanderer Tents Model 12",
+    "brand": "Wanderer",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Wanderer tents"
+  },
+  {
+    "id": 13,
+    "name": "MSR Tents Model 13",
+    "brand": "MSR",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "MSR tents"
+  },
+  {
+    "id": 14,
+    "name": "Zempire Tents Model 14",
+    "brand": "Zempire",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Zempire tents"
+  },
+  {
+    "id": 15,
+    "name": "Naturehike Tents Model 15",
+    "brand": "Naturehike",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Naturehike tents"
+  },
+  {
+    "id": 16,
+    "name": "Zempire Tents Model 16",
+    "brand": "Zempire",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Zempire tents"
+  },
+  {
+    "id": 17,
+    "name": "Zempire Tents Model 17",
+    "brand": "Zempire",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Zempire tents"
+  },
+  {
+    "id": 18,
+    "name": "Wanderer Tents Model 18",
+    "brand": "Wanderer",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Wanderer tents"
+  },
+  {
+    "id": 19,
+    "name": "Naturehike Tents Model 19",
+    "brand": "Naturehike",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Naturehike tents"
+  },
+  {
+    "id": 20,
+    "name": "Sea to Summit Tents Model 20",
+    "brand": "Sea to Summit",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Sea to Summit tents"
+  },
+  {
+    "id": 21,
+    "name": "MSR Tents Model 21",
+    "brand": "MSR",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "MSR tents"
+  },
+  {
+    "id": 22,
+    "name": "BlackWolf Tents Model 22",
+    "brand": "BlackWolf",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "BlackWolf tents"
+  },
+  {
+    "id": 23,
+    "name": "Zempire Tents Model 23",
+    "brand": "Zempire",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Zempire tents"
+  },
+  {
+    "id": 24,
+    "name": "MSR Tents Model 24",
+    "brand": "MSR",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "MSR tents"
+  },
+  {
+    "id": 25,
+    "name": "Naturehike Tents Model 25",
+    "brand": "Naturehike",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Naturehike tents"
+  },
+  {
+    "id": 26,
+    "name": "Wanderer Tents Model 26",
+    "brand": "Wanderer",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Wanderer tents"
+  },
+  {
+    "id": 27,
+    "name": "Wanderer Tents Model 27",
+    "brand": "Wanderer",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Wanderer tents"
+  },
+  {
+    "id": 28,
+    "name": "BlackWolf Tents Model 28",
+    "brand": "BlackWolf",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "BlackWolf tents"
+  },
+  {
+    "id": 29,
+    "name": "Sea to Summit Tents Model 29",
+    "brand": "Sea to Summit",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Sea to Summit tents"
+  },
+  {
+    "id": 30,
+    "name": "Wanderer Tents Model 30",
+    "brand": "Wanderer",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Wanderer tents"
+  },
+  {
+    "id": 31,
+    "name": "Wanderer Tents Model 31",
+    "brand": "Wanderer",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Wanderer tents"
+  },
+  {
+    "id": 32,
+    "name": "MSR Tents Model 32",
+    "brand": "MSR",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "MSR tents"
+  },
+  {
+    "id": 33,
+    "name": "Wanderer Tents Model 33",
+    "brand": "Wanderer",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Wanderer tents"
+  },
+  {
+    "id": 34,
+    "name": "MSR Tents Model 34",
+    "brand": "MSR",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "MSR tents"
+  },
+  {
+    "id": 35,
+    "name": "Sea to Summit Tents Model 35",
+    "brand": "Sea to Summit",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Sea to Summit tents"
+  },
+  {
+    "id": 36,
+    "name": "Sea to Summit Tents Model 36",
+    "brand": "Sea to Summit",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Sea to Summit tents"
+  },
+  {
+    "id": 37,
+    "name": "Coleman Tents Model 37",
+    "brand": "Coleman",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Coleman tents"
+  },
+  {
+    "id": 38,
+    "name": "Oztrail Tents Model 38",
+    "brand": "Oztrail",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Oztrail tents"
+  },
+  {
+    "id": 39,
+    "name": "Wanderer Tents Model 39",
+    "brand": "Wanderer",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Wanderer tents"
+  },
+  {
+    "id": 40,
+    "name": "Zempire Tents Model 40",
+    "brand": "Zempire",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Zempire tents"
+  },
+  {
+    "id": 41,
+    "name": "Coleman Tents Model 41",
+    "brand": "Coleman",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Coleman tents"
+  },
+  {
+    "id": 42,
+    "name": "MSR Tents Model 42",
+    "brand": "MSR",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "MSR tents"
+  },
+  {
+    "id": 43,
+    "name": "Naturehike Tents Model 43",
+    "brand": "Naturehike",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Naturehike tents"
+  },
+  {
+    "id": 44,
+    "name": "Coleman Tents Model 44",
+    "brand": "Coleman",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Coleman tents"
+  },
+  {
+    "id": 45,
+    "name": "Sea to Summit Tents Model 45",
+    "brand": "Sea to Summit",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Sea to Summit tents"
+  },
+  {
+    "id": 46,
+    "name": "Oztrail Tents Model 46",
+    "brand": "Oztrail",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Oztrail tents"
+  },
+  {
+    "id": 47,
+    "name": "Naturehike Tents Model 47",
+    "brand": "Naturehike",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Naturehike tents"
+  },
+  {
+    "id": 48,
+    "name": "Wanderer Tents Model 48",
+    "brand": "Wanderer",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Wanderer tents"
+  },
+  {
+    "id": 49,
+    "name": "Wanderer Tents Model 49",
+    "brand": "Wanderer",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Wanderer tents"
+  },
+  {
+    "id": 50,
+    "name": "Wanderer Tents Model 50",
+    "brand": "Wanderer",
+    "category": "tents",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Wanderer tents"
+  },
+  {
+    "id": 51,
+    "name": "Coleman Stoves Model 1",
+    "brand": "Coleman",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Coleman stoves"
+  },
+  {
+    "id": 52,
+    "name": "Jetboil Stoves Model 2",
+    "brand": "Jetboil",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Jetboil stoves"
+  },
+  {
+    "id": 53,
+    "name": "Coleman Stoves Model 3",
+    "brand": "Coleman",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Coleman stoves"
+  },
+  {
+    "id": 54,
+    "name": "MSR Stoves Model 4",
+    "brand": "MSR",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "MSR stoves"
+  },
+  {
+    "id": 55,
+    "name": "Jetboil Stoves Model 5",
+    "brand": "Jetboil",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Jetboil stoves"
+  },
+  {
+    "id": 56,
+    "name": "Jetboil Stoves Model 6",
+    "brand": "Jetboil",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Jetboil stoves"
+  },
+  {
+    "id": 57,
+    "name": "Trangia Stoves Model 7",
+    "brand": "Trangia",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Trangia stoves"
+  },
+  {
+    "id": 58,
+    "name": "Jetboil Stoves Model 8",
+    "brand": "Jetboil",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Jetboil stoves"
+  },
+  {
+    "id": 59,
+    "name": "MSR Stoves Model 9",
+    "brand": "MSR",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "MSR stoves"
+  },
+  {
+    "id": 60,
+    "name": "Coleman Stoves Model 10",
+    "brand": "Coleman",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Coleman stoves"
+  },
+  {
+    "id": 61,
+    "name": "Jetboil Stoves Model 11",
+    "brand": "Jetboil",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Jetboil stoves"
+  },
+  {
+    "id": 62,
+    "name": "MSR Stoves Model 12",
+    "brand": "MSR",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "MSR stoves"
+  },
+  {
+    "id": 63,
+    "name": "Coleman Stoves Model 13",
+    "brand": "Coleman",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Coleman stoves"
+  },
+  {
+    "id": 64,
+    "name": "Trangia Stoves Model 14",
+    "brand": "Trangia",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Trangia stoves"
+  },
+  {
+    "id": 65,
+    "name": "Trangia Stoves Model 15",
+    "brand": "Trangia",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Trangia stoves"
+  },
+  {
+    "id": 66,
+    "name": "Coleman Stoves Model 16",
+    "brand": "Coleman",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Coleman stoves"
+  },
+  {
+    "id": 67,
+    "name": "Jetboil Stoves Model 17",
+    "brand": "Jetboil",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Jetboil stoves"
+  },
+  {
+    "id": 68,
+    "name": "Coleman Stoves Model 18",
+    "brand": "Coleman",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Coleman stoves"
+  },
+  {
+    "id": 69,
+    "name": "Trangia Stoves Model 19",
+    "brand": "Trangia",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Trangia stoves"
+  },
+  {
+    "id": 70,
+    "name": "Trangia Stoves Model 20",
+    "brand": "Trangia",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Trangia stoves"
+  },
+  {
+    "id": 71,
+    "name": "Trangia Stoves Model 21",
+    "brand": "Trangia",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Trangia stoves"
+  },
+  {
+    "id": 72,
+    "name": "Coleman Stoves Model 22",
+    "brand": "Coleman",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Coleman stoves"
+  },
+  {
+    "id": 73,
+    "name": "Trangia Stoves Model 23",
+    "brand": "Trangia",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Trangia stoves"
+  },
+  {
+    "id": 74,
+    "name": "Coleman Stoves Model 24",
+    "brand": "Coleman",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Coleman stoves"
+  },
+  {
+    "id": 75,
+    "name": "Coleman Stoves Model 25",
+    "brand": "Coleman",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Coleman stoves"
+  },
+  {
+    "id": 76,
+    "name": "MSR Stoves Model 26",
+    "brand": "MSR",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "MSR stoves"
+  },
+  {
+    "id": 77,
+    "name": "Trangia Stoves Model 27",
+    "brand": "Trangia",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Trangia stoves"
+  },
+  {
+    "id": 78,
+    "name": "Trangia Stoves Model 28",
+    "brand": "Trangia",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Trangia stoves"
+  },
+  {
+    "id": 79,
+    "name": "MSR Stoves Model 29",
+    "brand": "MSR",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "MSR stoves"
+  },
+  {
+    "id": 80,
+    "name": "Coleman Stoves Model 30",
+    "brand": "Coleman",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Coleman stoves"
+  },
+  {
+    "id": 81,
+    "name": "Trangia Stoves Model 31",
+    "brand": "Trangia",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Trangia stoves"
+  },
+  {
+    "id": 82,
+    "name": "Trangia Stoves Model 32",
+    "brand": "Trangia",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Trangia stoves"
+  },
+  {
+    "id": 83,
+    "name": "Coleman Stoves Model 33",
+    "brand": "Coleman",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Coleman stoves"
+  },
+  {
+    "id": 84,
+    "name": "Companion Stoves Model 34",
+    "brand": "Companion",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Companion stoves"
+  },
+  {
+    "id": 85,
+    "name": "Companion Stoves Model 35",
+    "brand": "Companion",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Companion stoves"
+  },
+  {
+    "id": 86,
+    "name": "MSR Stoves Model 36",
+    "brand": "MSR",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "MSR stoves"
+  },
+  {
+    "id": 87,
+    "name": "Companion Stoves Model 37",
+    "brand": "Companion",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Companion stoves"
+  },
+  {
+    "id": 88,
+    "name": "Trangia Stoves Model 38",
+    "brand": "Trangia",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Trangia stoves"
+  },
+  {
+    "id": 89,
+    "name": "Primus Stoves Model 39",
+    "brand": "Primus",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Primus stoves"
+  },
+  {
+    "id": 90,
+    "name": "Companion Stoves Model 40",
+    "brand": "Companion",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Companion stoves"
+  },
+  {
+    "id": 91,
+    "name": "Companion Stoves Model 41",
+    "brand": "Companion",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Companion stoves"
+  },
+  {
+    "id": 92,
+    "name": "MSR Stoves Model 42",
+    "brand": "MSR",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "MSR stoves"
+  },
+  {
+    "id": 93,
+    "name": "Jetboil Stoves Model 43",
+    "brand": "Jetboil",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Jetboil stoves"
+  },
+  {
+    "id": 94,
+    "name": "Jetboil Stoves Model 44",
+    "brand": "Jetboil",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Jetboil stoves"
+  },
+  {
+    "id": 95,
+    "name": "Trangia Stoves Model 45",
+    "brand": "Trangia",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Trangia stoves"
+  },
+  {
+    "id": 96,
+    "name": "Jetboil Stoves Model 46",
+    "brand": "Jetboil",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Jetboil stoves"
+  },
+  {
+    "id": 97,
+    "name": "MSR Stoves Model 47",
+    "brand": "MSR",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "MSR stoves"
+  },
+  {
+    "id": 98,
+    "name": "Coleman Stoves Model 48",
+    "brand": "Coleman",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Coleman stoves"
+  },
+  {
+    "id": 99,
+    "name": "MSR Stoves Model 49",
+    "brand": "MSR",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "MSR stoves"
+  },
+  {
+    "id": 100,
+    "name": "Trangia Stoves Model 50",
+    "brand": "Trangia",
+    "category": "stoves",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Trangia stoves"
+  },
+  {
+    "id": 101,
+    "name": "Coleman Chairs Model 1",
+    "brand": "Coleman",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Coleman chairs"
+  },
+  {
+    "id": 102,
+    "name": "Wanderer Chairs Model 2",
+    "brand": "Wanderer",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Wanderer chairs"
+  },
+  {
+    "id": 103,
+    "name": "Helinox Chairs Model 3",
+    "brand": "Helinox",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Helinox chairs"
+  },
+  {
+    "id": 104,
+    "name": "Companion Chairs Model 4",
+    "brand": "Companion",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Companion chairs"
+  },
+  {
+    "id": 105,
+    "name": "Coleman Chairs Model 5",
+    "brand": "Coleman",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Coleman chairs"
+  },
+  {
+    "id": 106,
+    "name": "Oztrail Chairs Model 6",
+    "brand": "Oztrail",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Oztrail chairs"
+  },
+  {
+    "id": 107,
+    "name": "Helinox Chairs Model 7",
+    "brand": "Helinox",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Helinox chairs"
+  },
+  {
+    "id": 108,
+    "name": "Companion Chairs Model 8",
+    "brand": "Companion",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Companion chairs"
+  },
+  {
+    "id": 109,
+    "name": "Oztrail Chairs Model 9",
+    "brand": "Oztrail",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Oztrail chairs"
+  },
+  {
+    "id": 110,
+    "name": "Helinox Chairs Model 10",
+    "brand": "Helinox",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Helinox chairs"
+  },
+  {
+    "id": 111,
+    "name": "Wanderer Chairs Model 11",
+    "brand": "Wanderer",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Wanderer chairs"
+  },
+  {
+    "id": 112,
+    "name": "Coleman Chairs Model 12",
+    "brand": "Coleman",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Coleman chairs"
+  },
+  {
+    "id": 113,
+    "name": "Companion Chairs Model 13",
+    "brand": "Companion",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Companion chairs"
+  },
+  {
+    "id": 114,
+    "name": "Companion Chairs Model 14",
+    "brand": "Companion",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Companion chairs"
+  },
+  {
+    "id": 115,
+    "name": "Coleman Chairs Model 15",
+    "brand": "Coleman",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Coleman chairs"
+  },
+  {
+    "id": 116,
+    "name": "Helinox Chairs Model 16",
+    "brand": "Helinox",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Helinox chairs"
+  },
+  {
+    "id": 117,
+    "name": "Oztrail Chairs Model 17",
+    "brand": "Oztrail",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Oztrail chairs"
+  },
+  {
+    "id": 118,
+    "name": "Wanderer Chairs Model 18",
+    "brand": "Wanderer",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Wanderer chairs"
+  },
+  {
+    "id": 119,
+    "name": "Wanderer Chairs Model 19",
+    "brand": "Wanderer",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Wanderer chairs"
+  },
+  {
+    "id": 120,
+    "name": "Wanderer Chairs Model 20",
+    "brand": "Wanderer",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Wanderer chairs"
+  },
+  {
+    "id": 121,
+    "name": "Oztrail Chairs Model 21",
+    "brand": "Oztrail",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Oztrail chairs"
+  },
+  {
+    "id": 122,
+    "name": "Wanderer Chairs Model 22",
+    "brand": "Wanderer",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Wanderer chairs"
+  },
+  {
+    "id": 123,
+    "name": "Wanderer Chairs Model 23",
+    "brand": "Wanderer",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Wanderer chairs"
+  },
+  {
+    "id": 124,
+    "name": "Companion Chairs Model 24",
+    "brand": "Companion",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Companion chairs"
+  },
+  {
+    "id": 125,
+    "name": "Companion Chairs Model 25",
+    "brand": "Companion",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Companion chairs"
+  },
+  {
+    "id": 126,
+    "name": "Coleman Chairs Model 26",
+    "brand": "Coleman",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Coleman chairs"
+  },
+  {
+    "id": 127,
+    "name": "Wanderer Chairs Model 27",
+    "brand": "Wanderer",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Wanderer chairs"
+  },
+  {
+    "id": 128,
+    "name": "Coleman Chairs Model 28",
+    "brand": "Coleman",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Coleman chairs"
+  },
+  {
+    "id": 129,
+    "name": "Helinox Chairs Model 29",
+    "brand": "Helinox",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Helinox chairs"
+  },
+  {
+    "id": 130,
+    "name": "Companion Chairs Model 30",
+    "brand": "Companion",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Companion chairs"
+  },
+  {
+    "id": 131,
+    "name": "Helinox Chairs Model 31",
+    "brand": "Helinox",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Helinox chairs"
+  },
+  {
+    "id": 132,
+    "name": "Helinox Chairs Model 32",
+    "brand": "Helinox",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Helinox chairs"
+  },
+  {
+    "id": 133,
+    "name": "Oztrail Chairs Model 33",
+    "brand": "Oztrail",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Oztrail chairs"
+  },
+  {
+    "id": 134,
+    "name": "Coleman Chairs Model 34",
+    "brand": "Coleman",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Coleman chairs"
+  },
+  {
+    "id": 135,
+    "name": "Helinox Chairs Model 35",
+    "brand": "Helinox",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Helinox chairs"
+  },
+  {
+    "id": 136,
+    "name": "Companion Chairs Model 36",
+    "brand": "Companion",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Companion chairs"
+  },
+  {
+    "id": 137,
+    "name": "Wanderer Chairs Model 37",
+    "brand": "Wanderer",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Wanderer chairs"
+  },
+  {
+    "id": 138,
+    "name": "Helinox Chairs Model 38",
+    "brand": "Helinox",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Helinox chairs"
+  },
+  {
+    "id": 139,
+    "name": "Companion Chairs Model 39",
+    "brand": "Companion",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Companion chairs"
+  },
+  {
+    "id": 140,
+    "name": "Helinox Chairs Model 40",
+    "brand": "Helinox",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Helinox chairs"
+  },
+  {
+    "id": 141,
+    "name": "Oztrail Chairs Model 41",
+    "brand": "Oztrail",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Oztrail chairs"
+  },
+  {
+    "id": 142,
+    "name": "Oztrail Chairs Model 42",
+    "brand": "Oztrail",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Oztrail chairs"
+  },
+  {
+    "id": 143,
+    "name": "Coleman Chairs Model 43",
+    "brand": "Coleman",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Coleman chairs"
+  },
+  {
+    "id": 144,
+    "name": "Companion Chairs Model 44",
+    "brand": "Companion",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Companion chairs"
+  },
+  {
+    "id": 145,
+    "name": "Oztrail Chairs Model 45",
+    "brand": "Oztrail",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Oztrail chairs"
+  },
+  {
+    "id": 146,
+    "name": "Helinox Chairs Model 46",
+    "brand": "Helinox",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Helinox chairs"
+  },
+  {
+    "id": 147,
+    "name": "Companion Chairs Model 47",
+    "brand": "Companion",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Companion chairs"
+  },
+  {
+    "id": 148,
+    "name": "Wanderer Chairs Model 48",
+    "brand": "Wanderer",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Wanderer chairs"
+  },
+  {
+    "id": 149,
+    "name": "Coleman Chairs Model 49",
+    "brand": "Coleman",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Coleman chairs"
+  },
+  {
+    "id": 150,
+    "name": "Companion Chairs Model 50",
+    "brand": "Companion",
+    "category": "chairs",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Companion chairs"
+  },
+  {
+    "id": 151,
+    "name": "Coleman Coolers Model 1",
+    "brand": "Coleman",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Coleman coolers"
+  },
+  {
+    "id": 152,
+    "name": "Wanderer Coolers Model 2",
+    "brand": "Wanderer",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Wanderer coolers"
+  },
+  {
+    "id": 153,
+    "name": "Yeti Coolers Model 3",
+    "brand": "Yeti",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Yeti coolers"
+  },
+  {
+    "id": 154,
+    "name": "Engel Coolers Model 4",
+    "brand": "Engel",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Engel coolers"
+  },
+  {
+    "id": 155,
+    "name": "Dometic Coolers Model 5",
+    "brand": "Dometic",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Dometic coolers"
+  },
+  {
+    "id": 156,
+    "name": "Wanderer Coolers Model 6",
+    "brand": "Wanderer",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Wanderer coolers"
+  },
+  {
+    "id": 157,
+    "name": "Engel Coolers Model 7",
+    "brand": "Engel",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Engel coolers"
+  },
+  {
+    "id": 158,
+    "name": "Yeti Coolers Model 8",
+    "brand": "Yeti",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Yeti coolers"
+  },
+  {
+    "id": 159,
+    "name": "Dometic Coolers Model 9",
+    "brand": "Dometic",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Dometic coolers"
+  },
+  {
+    "id": 160,
+    "name": "Yeti Coolers Model 10",
+    "brand": "Yeti",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Yeti coolers"
+  },
+  {
+    "id": 161,
+    "name": "Wanderer Coolers Model 11",
+    "brand": "Wanderer",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Wanderer coolers"
+  },
+  {
+    "id": 162,
+    "name": "Engel Coolers Model 12",
+    "brand": "Engel",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Engel coolers"
+  },
+  {
+    "id": 163,
+    "name": "Yeti Coolers Model 13",
+    "brand": "Yeti",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Yeti coolers"
+  },
+  {
+    "id": 164,
+    "name": "Engel Coolers Model 14",
+    "brand": "Engel",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Engel coolers"
+  },
+  {
+    "id": 165,
+    "name": "Coleman Coolers Model 15",
+    "brand": "Coleman",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Coleman coolers"
+  },
+  {
+    "id": 166,
+    "name": "Wanderer Coolers Model 16",
+    "brand": "Wanderer",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Wanderer coolers"
+  },
+  {
+    "id": 167,
+    "name": "Coleman Coolers Model 17",
+    "brand": "Coleman",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Coleman coolers"
+  },
+  {
+    "id": 168,
+    "name": "Yeti Coolers Model 18",
+    "brand": "Yeti",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Yeti coolers"
+  },
+  {
+    "id": 169,
+    "name": "Coleman Coolers Model 19",
+    "brand": "Coleman",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Coleman coolers"
+  },
+  {
+    "id": 170,
+    "name": "Coleman Coolers Model 20",
+    "brand": "Coleman",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Coleman coolers"
+  },
+  {
+    "id": 171,
+    "name": "Dometic Coolers Model 21",
+    "brand": "Dometic",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Dometic coolers"
+  },
+  {
+    "id": 172,
+    "name": "Dometic Coolers Model 22",
+    "brand": "Dometic",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Dometic coolers"
+  },
+  {
+    "id": 173,
+    "name": "Yeti Coolers Model 23",
+    "brand": "Yeti",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Yeti coolers"
+  },
+  {
+    "id": 174,
+    "name": "Dometic Coolers Model 24",
+    "brand": "Dometic",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Dometic coolers"
+  },
+  {
+    "id": 175,
+    "name": "Wanderer Coolers Model 25",
+    "brand": "Wanderer",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Wanderer coolers"
+  },
+  {
+    "id": 176,
+    "name": "Wanderer Coolers Model 26",
+    "brand": "Wanderer",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Wanderer coolers"
+  },
+  {
+    "id": 177,
+    "name": "Wanderer Coolers Model 27",
+    "brand": "Wanderer",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Wanderer coolers"
+  },
+  {
+    "id": 178,
+    "name": "Dometic Coolers Model 28",
+    "brand": "Dometic",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Dometic coolers"
+  },
+  {
+    "id": 179,
+    "name": "Dometic Coolers Model 29",
+    "brand": "Dometic",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Dometic coolers"
+  },
+  {
+    "id": 180,
+    "name": "Yeti Coolers Model 30",
+    "brand": "Yeti",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Yeti coolers"
+  },
+  {
+    "id": 181,
+    "name": "Wanderer Coolers Model 31",
+    "brand": "Wanderer",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Wanderer coolers"
+  },
+  {
+    "id": 182,
+    "name": "Yeti Coolers Model 32",
+    "brand": "Yeti",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Yeti coolers"
+  },
+  {
+    "id": 183,
+    "name": "Wanderer Coolers Model 33",
+    "brand": "Wanderer",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Wanderer coolers"
+  },
+  {
+    "id": 184,
+    "name": "Wanderer Coolers Model 34",
+    "brand": "Wanderer",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Wanderer coolers"
+  },
+  {
+    "id": 185,
+    "name": "Coleman Coolers Model 35",
+    "brand": "Coleman",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Coleman coolers"
+  },
+  {
+    "id": 186,
+    "name": "Wanderer Coolers Model 36",
+    "brand": "Wanderer",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Wanderer coolers"
+  },
+  {
+    "id": 187,
+    "name": "Engel Coolers Model 37",
+    "brand": "Engel",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Engel coolers"
+  },
+  {
+    "id": 188,
+    "name": "Dometic Coolers Model 38",
+    "brand": "Dometic",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Dometic coolers"
+  },
+  {
+    "id": 189,
+    "name": "Wanderer Coolers Model 39",
+    "brand": "Wanderer",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Wanderer coolers"
+  },
+  {
+    "id": 190,
+    "name": "Coleman Coolers Model 40",
+    "brand": "Coleman",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Coleman coolers"
+  },
+  {
+    "id": 191,
+    "name": "Coleman Coolers Model 41",
+    "brand": "Coleman",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Coleman coolers"
+  },
+  {
+    "id": 192,
+    "name": "Coleman Coolers Model 42",
+    "brand": "Coleman",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Coleman coolers"
+  },
+  {
+    "id": 193,
+    "name": "Wanderer Coolers Model 43",
+    "brand": "Wanderer",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Wanderer coolers"
+  },
+  {
+    "id": 194,
+    "name": "Yeti Coolers Model 44",
+    "brand": "Yeti",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Yeti coolers"
+  },
+  {
+    "id": 195,
+    "name": "Engel Coolers Model 45",
+    "brand": "Engel",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Engel coolers"
+  },
+  {
+    "id": 196,
+    "name": "Coleman Coolers Model 46",
+    "brand": "Coleman",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Coleman coolers"
+  },
+  {
+    "id": 197,
+    "name": "Yeti Coolers Model 47",
+    "brand": "Yeti",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Yeti coolers"
+  },
+  {
+    "id": 198,
+    "name": "Engel Coolers Model 48",
+    "brand": "Engel",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Engel coolers"
+  },
+  {
+    "id": 199,
+    "name": "Engel Coolers Model 49",
+    "brand": "Engel",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Engel coolers"
+  },
+  {
+    "id": 200,
+    "name": "Yeti Coolers Model 50",
+    "brand": "Yeti",
+    "category": "coolers",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Yeti coolers"
+  },
+  {
+    "id": 201,
+    "name": "Black Diamond Lanterns Model 1",
+    "brand": "Black Diamond",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Black Diamond lanterns"
+  },
+  {
+    "id": 202,
+    "name": "Coleman Lanterns Model 2",
+    "brand": "Coleman",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Coleman lanterns"
+  },
+  {
+    "id": 203,
+    "name": "Coleman Lanterns Model 3",
+    "brand": "Coleman",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Coleman lanterns"
+  },
+  {
+    "id": 204,
+    "name": "BioLite Lanterns Model 4",
+    "brand": "BioLite",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "BioLite lanterns"
+  },
+  {
+    "id": 205,
+    "name": "Oztrail Lanterns Model 5",
+    "brand": "Oztrail",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Oztrail lanterns"
+  },
+  {
+    "id": 206,
+    "name": "Goal Zero Lanterns Model 6",
+    "brand": "Goal Zero",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Goal Zero lanterns"
+  },
+  {
+    "id": 207,
+    "name": "Black Diamond Lanterns Model 7",
+    "brand": "Black Diamond",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Black Diamond lanterns"
+  },
+  {
+    "id": 208,
+    "name": "Goal Zero Lanterns Model 8",
+    "brand": "Goal Zero",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Goal Zero lanterns"
+  },
+  {
+    "id": 209,
+    "name": "Black Diamond Lanterns Model 9",
+    "brand": "Black Diamond",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Black Diamond lanterns"
+  },
+  {
+    "id": 210,
+    "name": "Oztrail Lanterns Model 10",
+    "brand": "Oztrail",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Oztrail lanterns"
+  },
+  {
+    "id": 211,
+    "name": "Coleman Lanterns Model 11",
+    "brand": "Coleman",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Coleman lanterns"
+  },
+  {
+    "id": 212,
+    "name": "Coleman Lanterns Model 12",
+    "brand": "Coleman",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Coleman lanterns"
+  },
+  {
+    "id": 213,
+    "name": "BioLite Lanterns Model 13",
+    "brand": "BioLite",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "BioLite lanterns"
+  },
+  {
+    "id": 214,
+    "name": "Oztrail Lanterns Model 14",
+    "brand": "Oztrail",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Oztrail lanterns"
+  },
+  {
+    "id": 215,
+    "name": "BioLite Lanterns Model 15",
+    "brand": "BioLite",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "BioLite lanterns"
+  },
+  {
+    "id": 216,
+    "name": "Oztrail Lanterns Model 16",
+    "brand": "Oztrail",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Oztrail lanterns"
+  },
+  {
+    "id": 217,
+    "name": "Oztrail Lanterns Model 17",
+    "brand": "Oztrail",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Oztrail lanterns"
+  },
+  {
+    "id": 218,
+    "name": "Black Diamond Lanterns Model 18",
+    "brand": "Black Diamond",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Black Diamond lanterns"
+  },
+  {
+    "id": 219,
+    "name": "Oztrail Lanterns Model 19",
+    "brand": "Oztrail",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Oztrail lanterns"
+  },
+  {
+    "id": 220,
+    "name": "Goal Zero Lanterns Model 20",
+    "brand": "Goal Zero",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Goal Zero lanterns"
+  },
+  {
+    "id": 221,
+    "name": "Coleman Lanterns Model 21",
+    "brand": "Coleman",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Coleman lanterns"
+  },
+  {
+    "id": 222,
+    "name": "Coleman Lanterns Model 22",
+    "brand": "Coleman",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Coleman lanterns"
+  },
+  {
+    "id": 223,
+    "name": "Black Diamond Lanterns Model 23",
+    "brand": "Black Diamond",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Black Diamond lanterns"
+  },
+  {
+    "id": 224,
+    "name": "Oztrail Lanterns Model 24",
+    "brand": "Oztrail",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Oztrail lanterns"
+  },
+  {
+    "id": 225,
+    "name": "Oztrail Lanterns Model 25",
+    "brand": "Oztrail",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Oztrail lanterns"
+  },
+  {
+    "id": 226,
+    "name": "BioLite Lanterns Model 26",
+    "brand": "BioLite",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "BioLite lanterns"
+  },
+  {
+    "id": 227,
+    "name": "Black Diamond Lanterns Model 27",
+    "brand": "Black Diamond",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Black Diamond lanterns"
+  },
+  {
+    "id": 228,
+    "name": "BioLite Lanterns Model 28",
+    "brand": "BioLite",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "BioLite lanterns"
+  },
+  {
+    "id": 229,
+    "name": "BioLite Lanterns Model 29",
+    "brand": "BioLite",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "BioLite lanterns"
+  },
+  {
+    "id": 230,
+    "name": "Coleman Lanterns Model 30",
+    "brand": "Coleman",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Coleman lanterns"
+  },
+  {
+    "id": 231,
+    "name": "BioLite Lanterns Model 31",
+    "brand": "BioLite",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "BioLite lanterns"
+  },
+  {
+    "id": 232,
+    "name": "Coleman Lanterns Model 32",
+    "brand": "Coleman",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Coleman lanterns"
+  },
+  {
+    "id": 233,
+    "name": "Goal Zero Lanterns Model 33",
+    "brand": "Goal Zero",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Goal Zero lanterns"
+  },
+  {
+    "id": 234,
+    "name": "Oztrail Lanterns Model 34",
+    "brand": "Oztrail",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Oztrail lanterns"
+  },
+  {
+    "id": 235,
+    "name": "Oztrail Lanterns Model 35",
+    "brand": "Oztrail",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Oztrail lanterns"
+  },
+  {
+    "id": 236,
+    "name": "Goal Zero Lanterns Model 36",
+    "brand": "Goal Zero",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Goal Zero lanterns"
+  },
+  {
+    "id": 237,
+    "name": "Black Diamond Lanterns Model 37",
+    "brand": "Black Diamond",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Black Diamond lanterns"
+  },
+  {
+    "id": 238,
+    "name": "Coleman Lanterns Model 38",
+    "brand": "Coleman",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Coleman lanterns"
+  },
+  {
+    "id": 239,
+    "name": "Goal Zero Lanterns Model 39",
+    "brand": "Goal Zero",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Goal Zero lanterns"
+  },
+  {
+    "id": 240,
+    "name": "Goal Zero Lanterns Model 40",
+    "brand": "Goal Zero",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Goal Zero lanterns"
+  },
+  {
+    "id": 241,
+    "name": "Goal Zero Lanterns Model 41",
+    "brand": "Goal Zero",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Goal Zero lanterns"
+  },
+  {
+    "id": 242,
+    "name": "Goal Zero Lanterns Model 42",
+    "brand": "Goal Zero",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Goal Zero lanterns"
+  },
+  {
+    "id": 243,
+    "name": "BioLite Lanterns Model 43",
+    "brand": "BioLite",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "BioLite lanterns"
+  },
+  {
+    "id": 244,
+    "name": "Oztrail Lanterns Model 44",
+    "brand": "Oztrail",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Oztrail lanterns"
+  },
+  {
+    "id": 245,
+    "name": "Black Diamond Lanterns Model 45",
+    "brand": "Black Diamond",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Black Diamond lanterns"
+  },
+  {
+    "id": 246,
+    "name": "Black Diamond Lanterns Model 46",
+    "brand": "Black Diamond",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Black Diamond lanterns"
+  },
+  {
+    "id": 247,
+    "name": "BioLite Lanterns Model 47",
+    "brand": "BioLite",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "BioLite lanterns"
+  },
+  {
+    "id": 248,
+    "name": "BioLite Lanterns Model 48",
+    "brand": "BioLite",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "BioLite lanterns"
+  },
+  {
+    "id": 249,
+    "name": "Coleman Lanterns Model 49",
+    "brand": "Coleman",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Coleman lanterns"
+  },
+  {
+    "id": 250,
+    "name": "BioLite Lanterns Model 50",
+    "brand": "BioLite",
+    "category": "lanterns",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "BioLite lanterns"
+  },
+  {
+    "id": 251,
+    "name": "Mountain Designs Sleeping-bags Model 1",
+    "brand": "Mountain Designs",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Mountain Designs sleeping-bags"
+  },
+  {
+    "id": 252,
+    "name": "Mountain Designs Sleeping-bags Model 2",
+    "brand": "Mountain Designs",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Mountain Designs sleeping-bags"
+  },
+  {
+    "id": 253,
+    "name": "Oztrail Sleeping-bags Model 3",
+    "brand": "Oztrail",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Oztrail sleeping-bags"
+  },
+  {
+    "id": 254,
+    "name": "Coleman Sleeping-bags Model 4",
+    "brand": "Coleman",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Coleman sleeping-bags"
+  },
+  {
+    "id": 255,
+    "name": "Sea to Summit Sleeping-bags Model 5",
+    "brand": "Sea to Summit",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Sea to Summit sleeping-bags"
+  },
+  {
+    "id": 256,
+    "name": "Mountain Designs Sleeping-bags Model 6",
+    "brand": "Mountain Designs",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Mountain Designs sleeping-bags"
+  },
+  {
+    "id": 257,
+    "name": "BlackWolf Sleeping-bags Model 7",
+    "brand": "BlackWolf",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "BlackWolf sleeping-bags"
+  },
+  {
+    "id": 258,
+    "name": "Oztrail Sleeping-bags Model 8",
+    "brand": "Oztrail",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Oztrail sleeping-bags"
+  },
+  {
+    "id": 259,
+    "name": "Sea to Summit Sleeping-bags Model 9",
+    "brand": "Sea to Summit",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Sea to Summit sleeping-bags"
+  },
+  {
+    "id": 260,
+    "name": "Coleman Sleeping-bags Model 10",
+    "brand": "Coleman",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Coleman sleeping-bags"
+  },
+  {
+    "id": 261,
+    "name": "Mountain Designs Sleeping-bags Model 11",
+    "brand": "Mountain Designs",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Mountain Designs sleeping-bags"
+  },
+  {
+    "id": 262,
+    "name": "BlackWolf Sleeping-bags Model 12",
+    "brand": "BlackWolf",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "BlackWolf sleeping-bags"
+  },
+  {
+    "id": 263,
+    "name": "Oztrail Sleeping-bags Model 13",
+    "brand": "Oztrail",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Oztrail sleeping-bags"
+  },
+  {
+    "id": 264,
+    "name": "Mountain Designs Sleeping-bags Model 14",
+    "brand": "Mountain Designs",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Mountain Designs sleeping-bags"
+  },
+  {
+    "id": 265,
+    "name": "BlackWolf Sleeping-bags Model 15",
+    "brand": "BlackWolf",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "BlackWolf sleeping-bags"
+  },
+  {
+    "id": 266,
+    "name": "Coleman Sleeping-bags Model 16",
+    "brand": "Coleman",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Coleman sleeping-bags"
+  },
+  {
+    "id": 267,
+    "name": "Mountain Designs Sleeping-bags Model 17",
+    "brand": "Mountain Designs",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Mountain Designs sleeping-bags"
+  },
+  {
+    "id": 268,
+    "name": "Coleman Sleeping-bags Model 18",
+    "brand": "Coleman",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Coleman sleeping-bags"
+  },
+  {
+    "id": 269,
+    "name": "Mountain Designs Sleeping-bags Model 19",
+    "brand": "Mountain Designs",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Mountain Designs sleeping-bags"
+  },
+  {
+    "id": 270,
+    "name": "BlackWolf Sleeping-bags Model 20",
+    "brand": "BlackWolf",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "BlackWolf sleeping-bags"
+  },
+  {
+    "id": 271,
+    "name": "Oztrail Sleeping-bags Model 21",
+    "brand": "Oztrail",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Oztrail sleeping-bags"
+  },
+  {
+    "id": 272,
+    "name": "Mountain Designs Sleeping-bags Model 22",
+    "brand": "Mountain Designs",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Mountain Designs sleeping-bags"
+  },
+  {
+    "id": 273,
+    "name": "Mountain Designs Sleeping-bags Model 23",
+    "brand": "Mountain Designs",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Mountain Designs sleeping-bags"
+  },
+  {
+    "id": 274,
+    "name": "BlackWolf Sleeping-bags Model 24",
+    "brand": "BlackWolf",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "BlackWolf sleeping-bags"
+  },
+  {
+    "id": 275,
+    "name": "Coleman Sleeping-bags Model 25",
+    "brand": "Coleman",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Coleman sleeping-bags"
+  },
+  {
+    "id": 276,
+    "name": "Oztrail Sleeping-bags Model 26",
+    "brand": "Oztrail",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Oztrail sleeping-bags"
+  },
+  {
+    "id": 277,
+    "name": "Mountain Designs Sleeping-bags Model 27",
+    "brand": "Mountain Designs",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Mountain Designs sleeping-bags"
+  },
+  {
+    "id": 278,
+    "name": "Oztrail Sleeping-bags Model 28",
+    "brand": "Oztrail",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Oztrail sleeping-bags"
+  },
+  {
+    "id": 279,
+    "name": "Mountain Designs Sleeping-bags Model 29",
+    "brand": "Mountain Designs",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Mountain Designs sleeping-bags"
+  },
+  {
+    "id": 280,
+    "name": "BlackWolf Sleeping-bags Model 30",
+    "brand": "BlackWolf",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "BlackWolf sleeping-bags"
+  },
+  {
+    "id": 281,
+    "name": "Sea to Summit Sleeping-bags Model 31",
+    "brand": "Sea to Summit",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Sea to Summit sleeping-bags"
+  },
+  {
+    "id": 282,
+    "name": "Coleman Sleeping-bags Model 32",
+    "brand": "Coleman",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Coleman sleeping-bags"
+  },
+  {
+    "id": 283,
+    "name": "Sea to Summit Sleeping-bags Model 33",
+    "brand": "Sea to Summit",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Sea to Summit sleeping-bags"
+  },
+  {
+    "id": 284,
+    "name": "Oztrail Sleeping-bags Model 34",
+    "brand": "Oztrail",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Oztrail sleeping-bags"
+  },
+  {
+    "id": 285,
+    "name": "Mountain Designs Sleeping-bags Model 35",
+    "brand": "Mountain Designs",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Mountain Designs sleeping-bags"
+  },
+  {
+    "id": 286,
+    "name": "Sea to Summit Sleeping-bags Model 36",
+    "brand": "Sea to Summit",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Sea to Summit sleeping-bags"
+  },
+  {
+    "id": 287,
+    "name": "Coleman Sleeping-bags Model 37",
+    "brand": "Coleman",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Coleman sleeping-bags"
+  },
+  {
+    "id": 288,
+    "name": "Coleman Sleeping-bags Model 38",
+    "brand": "Coleman",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Coleman sleeping-bags"
+  },
+  {
+    "id": 289,
+    "name": "BlackWolf Sleeping-bags Model 39",
+    "brand": "BlackWolf",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "BlackWolf sleeping-bags"
+  },
+  {
+    "id": 290,
+    "name": "Oztrail Sleeping-bags Model 40",
+    "brand": "Oztrail",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Oztrail sleeping-bags"
+  },
+  {
+    "id": 291,
+    "name": "Sea to Summit Sleeping-bags Model 41",
+    "brand": "Sea to Summit",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Sea to Summit sleeping-bags"
+  },
+  {
+    "id": 292,
+    "name": "Oztrail Sleeping-bags Model 42",
+    "brand": "Oztrail",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Oztrail sleeping-bags"
+  },
+  {
+    "id": 293,
+    "name": "Sea to Summit Sleeping-bags Model 43",
+    "brand": "Sea to Summit",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Sea to Summit sleeping-bags"
+  },
+  {
+    "id": 294,
+    "name": "Sea to Summit Sleeping-bags Model 44",
+    "brand": "Sea to Summit",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Sea to Summit sleeping-bags"
+  },
+  {
+    "id": 295,
+    "name": "BlackWolf Sleeping-bags Model 45",
+    "brand": "BlackWolf",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "BlackWolf sleeping-bags"
+  },
+  {
+    "id": 296,
+    "name": "Mountain Designs Sleeping-bags Model 46",
+    "brand": "Mountain Designs",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Mountain Designs sleeping-bags"
+  },
+  {
+    "id": 297,
+    "name": "BlackWolf Sleeping-bags Model 47",
+    "brand": "BlackWolf",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "BlackWolf sleeping-bags"
+  },
+  {
+    "id": 298,
+    "name": "Mountain Designs Sleeping-bags Model 48",
+    "brand": "Mountain Designs",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d",
+    "compare_query": "Mountain Designs sleeping-bags"
+  },
+  {
+    "id": 299,
+    "name": "Sea to Summit Sleeping-bags Model 49",
+    "brand": "Sea to Summit",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1504280390368-3972c3b6e1b4",
+    "compare_query": "Sea to Summit sleeping-bags"
+  },
+  {
+    "id": 300,
+    "name": "Coleman Sleeping-bags Model 50",
+    "brand": "Coleman",
+    "category": "sleeping-bags",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "compare_query": "Coleman sleeping-bags"
+  }
+]"category":"chairs",
 "image":"https://cdn.snowys.com.au/media/catalog/product/o/z/oztrail_big_boy_arm_chair.jpg",
 "compare_query":"Oztrail Big Boy Chair"
 },
