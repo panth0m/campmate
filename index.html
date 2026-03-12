@@ -1,78 +1,146 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CampMate Australia</title>
+  <title>CampMate Australia | Camping Gear Price Compare</title>
+  <meta name="description" content="Compare camping gear prices in Australia with eBay live results and direct store search links for tents, stoves, chairs, coolers, lanterns and sleeping bags." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
-  <header class="topbar">
-    <div class="brand-wrap">
-      <div class="brand-badge">⛺</div>
-      <div class="brand-text">CAMP<span>MATE</span></div>
-    </div>
-    <div class="top-links">
-      <a href="#compare">Compare</a>
-      <a href="#ebay">eBay Live</a>
-      <a href="#stores">Stores</a>
-    </div>
-  </header>
-
-  <main class="page-shell">
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">Australia camping gear search</p>
-        <h1>Search eBay live prices and compare against Aussie outdoor stores.</h1>
-        <p class="hero-sub">This version shows live eBay prices and store search results from your Google Custom Search engine. Store prices are extracted when Google snippets include them.</p>
-      </div>
-
-      <section id="compare" class="search-panel">
-        <div class="search-row">
-          <input id="searchInput" type="text" placeholder="Search camping gear... e.g. camping tent" value="camping tent" />
-          <button id="searchButton" type="button">Search</button>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#home">
+        <span class="brand-mark">⛺</span>
+        <div>
+          <div class="brand-title">CampMate Australia</div>
+          <div class="brand-subtitle">Danawa-style camping gear compare</div>
         </div>
+      </a>
+      <nav class="topnav">
+        <a href="#home">Home</a>
+        <a href="#categories">Categories</a>
+        <a href="#popular">Popular</a>
+        <a href="#ebay">eBay Live</a>
+      </nav>
+    </header>
 
-        <div class="chip-row">
-          <button class="chip active" id="sortBest" type="button">Best Match</button>
-          <button class="chip" id="sortPrice" type="button">Lowest Price</button>
-          <button class="chip" id="sortRating" type="button">Top Rated</button>
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <span class="eyebrow">Australia camping gear compare</span>
+          <h1>Search one product, check eBay live pricing, then jump straight to major stores.</h1>
+          <p>This rebuild keeps the site stable now: eBay live pricing stays, and BCF, Snowys, Anaconda, Tentworld, Paddy Pallin, Wild Earth, and Rebel Sport open product search results for the same item.</p>
+          <form id="heroSearchForm" class="searchbar">
+            <input id="heroSearchInput" type="text" placeholder="Search tents, stoves, lanterns, coolers..." value="camping tent" />
+            <button type="submit">Compare</button>
+          </form>
+          <div class="quick-tags">
+            <button class="quick-tag" data-query="4 person tent" type="button">4 Person Tent</button>
+            <button class="quick-tag" data-query="camping stove" type="button">Camping Stove</button>
+            <button class="quick-tag" data-query="camping chair" type="button">Camping Chair</button>
+            <button class="quick-tag" data-query="sleeping bag" type="button">Sleeping Bag</button>
+          </div>
         </div>
-
-        <div class="quick-row">
-          <button class="quick-btn" data-query="camping tent">Tents</button>
-          <button class="quick-btn" data-query="camping stove">Stoves</button>
-          <button class="quick-btn" data-query="sleeping bag">Sleeping Bags</button>
-          <button class="quick-btn" data-query="camping chair">Chairs</button>
-          <button class="quick-btn" data-query="cooler box">Coolers</button>
-          <button class="quick-btn" data-query="camping lantern">Lanterns</button>
+        <div class="hero-panel">
+          <div class="hero-stat">
+            <span>eBay Live</span>
+            <strong>Real-time prices</strong>
+          </div>
+          <div class="hero-stat">
+            <span>Store Compare</span>
+            <strong>Direct search links</strong>
+          </div>
+          <div class="hero-stat">
+            <span>Categories</span>
+            <strong>Tents · Stoves · Chairs · Coolers</strong>
+          </div>
         </div>
       </section>
-    </section>
 
-    <section class="summary-bar" id="summaryBar">
-      Ready to search.
-    </section>
+      <section id="categories" class="section">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">Browse categories</span>
+            <h2>Start like a real compare site</h2>
+          </div>
+        </div>
+        <div id="categoryGrid" class="category-grid"></div>
+      </section>
 
-    <section id="ebay" class="section-block">
-      <div class="section-head">
-        <h2>eBay Australia Live</h2>
-        <p>Live listings with sortable prices.</p>
+      <section id="popular" class="section">
+        <div class="section-head with-actions">
+          <div>
+            <span class="eyebrow">Popular products</span>
+            <h2>Click a product to open full compare view</h2>
+          </div>
+          <div class="toolbar">
+            <input id="catalogSearch" type="text" placeholder="Filter product list..." />
+            <select id="categoryFilter">
+              <option value="all">All categories</option>
+            </select>
+          </div>
+        </div>
+        <div id="productGrid" class="product-grid"></div>
+      </section>
+
+      <section id="compare" class="section compare-section">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">Selected product</span>
+            <h2 id="compareTitle">Compare one product properly</h2>
+          </div>
+        </div>
+        <div class="compare-layout">
+          <aside id="productDetail" class="product-detail"></aside>
+          <div class="compare-panels">
+            <div id="ebay" class="panel">
+              <div class="panel-head">
+                <div>
+                  <h3>eBay Live Compare</h3>
+                  <p>Real-time results from your Netlify eBay function.</p>
+                </div>
+                <div class="sort-buttons">
+                  <button class="sort-btn active" data-sort="best" type="button">Best Match</button>
+                  <button class="sort-btn" data-sort="price" type="button">Lowest Price</button>
+                  <button class="sort-btn" data-sort="rating" type="button">Top Rated</button>
+                </div>
+              </div>
+              <div id="ebayStatus" class="status-box">Select a product or search above.</div>
+              <div id="ebayResults" class="deal-grid"></div>
+            </div>
+            <div class="panel">
+              <div class="panel-head">
+                <div>
+                  <h3>Store Compare</h3>
+                  <p>Open the same item search at major Australian stores.</p>
+                </div>
+              </div>
+              <div id="storeGrid" class="store-grid"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <template id="productCardTemplate">
+    <article class="product-card">
+      <div class="product-card-image-wrap"><img alt="" /></div>
+      <div class="product-card-body">
+        <span class="pill category-pill"></span>
+        <h3></h3>
+        <p class="product-card-summary"></p>
+        <div class="card-meta">
+          <span class="brand"></span>
+          <button type="button" class="compare-link">Compare now</button>
+        </div>
       </div>
-      <div id="ebayResults" class="results-grid"></div>
-    </section>
-
-    <section id="stores" class="section-block">
-      <div class="section-head">
-        <h2>Store Compare</h2>
-        <p>Google Custom Search results from BCF, Snowys, Anaconda, Tentworld, Paddy Pallin and more.</p>
-      </div>
-      <div id="storeResults" class="results-grid"></div>
-    </section>
-  </main>
+    </article>
+  </template>
 
   <script src="assets/app.js"></script>
 </body>
