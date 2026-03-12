@@ -1,22 +1,14 @@
 
-const STORE_LINKS={
-'BCF':q=>`https://www.bcf.com.au/search?q=${encodeURIComponent(q)}`,
-'Anaconda':q=>`https://www.anacondastores.com/search?text=${encodeURIComponent(q)}`,
-'Snowys':q=>`https://www.snowys.com.au/search?q=${encodeURIComponent(q)}`,
-'Tentworld':q=>`https://www.tentworld.com.au/search?query=${encodeURIComponent(q)}`,
-'Paddy Pallin':q=>`https://www.paddypallin.com.au/search?query=${encodeURIComponent(q)}`,
-'Wild Earth':q=>`https://www.wildearth.com.au/search?type=product&q=${encodeURIComponent(q)}`,
-'Rebel Sport':q=>`https://www.rebelsport.com.au/search?text=${encodeURIComponent(q)}`
-};
-function prettyCategory(cat){return {'tents':'Tents','stoves':'Stoves','sleeping-bags':'Sleep / Beds','chairs':'Chairs','coolers':'Coolers','lanterns':'Lanterns'}[cat]||cat}
-async function loadProducts(){const res=await fetch('/data/products.json'); return await res.json()}
-function cardHTML(p){return `<a class="product-card" href="/products/${p.slug}.html"><img src="${p.image}" alt="${p.name}"><span class="tag">${prettyCategory(p.category)}</span><h4>${p.name}</h4><p class="muted">${p.description}</p><div class="row"><span class="small">${p.brand}</span><span class="ghost small" style="padding:10px 12px">Compare</span></div></a>`}
-async function initHome(){const products=await loadProducts(); const popular=products.slice(0,8); const grid=document.querySelector('#popularGrid'); if(grid) grid.innerHTML=popular.map(cardHTML).join(''); const categoryRoot=document.querySelector('#categoryGrid'); if(categoryRoot){const counts={}; products.forEach(p=>counts[p.category]=(counts[p.category]||0)+1); categoryRoot.innerHTML=Object.keys(counts).map(cat=>`<a class="cat-card" href="/${cat}.html"><span class="tag">${counts[cat]} items</span><h4 style="margin:12px 0 8px">${prettyCategory(cat)}</h4><p class="muted">Browse ${prettyCategory(cat).toLowerCase()} and open live compare pages.</p></a>`).join('')}}
-async function initCategory(cat){const products=await loadProducts(); const list=products.filter(p=>p.category===cat); const grid=document.querySelector('#categoryProducts'); if(grid) grid.innerHTML=list.map(cardHTML).join(''); const title=document.querySelectorAll('[data-category-title]'); title.forEach(el=>el.textContent=prettyCategory(cat)); const desc=document.querySelector('#categoryDesc'); if(desc) desc.textContent=`Browse ${list.length} ${prettyCategory(cat).toLowerCase()} and open live compare pages.`}
-function sortItems(items,mode){const arr=[...items]; if(mode==='price') return arr.sort((a,b)=>(a.priceNum??999999)-(b.priceNum??999999)); if(mode==='rated') return arr.sort((a,b)=>(b.feedbackPct??0)-(a.feedbackPct??0)); return arr}
-async function loadEbay(query,mode='best'){const res=await fetch(`/.netlify/functions/ebay-search?q=${encodeURIComponent(query)}`); const data=await res.json(); const items=(data.items||[]).map(it=>({title:it.title||'',url:it.url||'#',image:it.image||'',price:it.price||'',currency:it.currency||'AUD',condition:it.condition||'',freeShipping:!!it.freeShipping,feedbackPct:parseFloat(it.feedbackPct||0),priceNum:parseFloat(String(it.price||'').replace(/[^0-9.]/g,''))})); return sortItems(items,mode).slice(0,9)}
-function currency(v,c='AUD'){const n=parseFloat(String(v).replace(/[^0-9.]/g,'')); return Number.isFinite(n)?`${c} $${n.toFixed(2)}`:'Price unavailable'}
-function ebayCard(it){return `<a class="ebay-card" target="_blank" rel="noopener noreferrer" href="${it.url}">${it.image?`<img src="${it.image}" alt="${it.title}" style="width:100%;aspect-ratio:1.2/1;object-fit:cover;border-radius:16px;border:1px solid var(--line);margin-bottom:12px">`:''}<span class="tag">eBay</span><h4>${it.title}</h4><div class="price">${currency(it.price,it.currency)}</div><p>${it.condition||'See listing for full details'}${it.freeShipping?' · Free shipping':''}</p><div class="ghost">Open listing</div></a>`}
-function renderStores(query){const target=document.querySelector('#storeGrid'); if(!target) return; target.innerHTML=Object.entries(STORE_LINKS).map(([name,fn])=>`<a class="store-card" href="${fn(query)}" target="_blank" rel="noopener noreferrer"><div class="row"><h4>${name}</h4><span class="tag">Store</span></div><p>Search this exact product directly on ${name}.</p><div class="btn">Open ${name}</div></a>`).join('')}
-async function initProduct(slug){const products=await loadProducts(); const p=products.find(x=>x.slug===slug); if(!p) return; document.querySelectorAll('[data-p-name]').forEach(el=>el.textContent=p.name); document.querySelectorAll('[data-p-brand]').forEach(el=>el.textContent=p.brand); document.querySelectorAll('[data-p-category]').forEach(el=>el.textContent=prettyCategory(p.category)); document.querySelectorAll('[data-p-summary]').forEach(el=>el.textContent=p.description); document.querySelectorAll('[data-p-query]').forEach(el=>el.textContent=p.compare_query); const img=document.querySelector('[data-p-image]'); if(img){img.src=p.image; img.alt=p.name} renderStores(p.compare_query); const box=document.querySelector('#ebayResults'); const info=document.querySelector('#compareInfo'); let mode='best'; async function run(){if(info) info.textContent=`Showing eBay live results for ${p.compare_query}.`; box.innerHTML=`<div class="notice">Loading live eBay results…</div>`; try{const items=await loadEbay(p.compare_query,mode); if(!items.length){box.innerHTML=`<div class="empty">No live eBay results found for this product. Edit compare_query in data/products.json to a looser keyword if needed.</div>`; return} box.innerHTML=`<div class="ebay-grid">${items.map(ebayCard).join('')}</div>`}catch(err){box.innerHTML=`<div class="error">Could not load live eBay results. Check Netlify environment variables and function logs.</div>`; console.error(err)}} document.querySelectorAll('[data-sort]').forEach(btn=>btn.addEventListener('click',()=>{mode=btn.dataset.sort; run()})); run()}
-document.addEventListener('DOMContentLoaded',()=>{const page=document.body.dataset.page; if(page==='home') initHome(); if(page==='category') initCategory(document.body.dataset.category); if(page==='product') initProduct(document.body.dataset.slug)});
+async function search(){
+ const q=document.getElementById('search').value;
+ const res=await fetch('/.netlify/functions/ebay-search?q='+encodeURIComponent(q));
+ const data=await res.json();
+ const el=document.getElementById('products');
+ el.innerHTML='';
+ (data.items||[]).forEach(p=>{
+   const d=document.createElement('div');
+   d.className='card';
+   d.innerHTML=`<img src="${p.image}"><h3>${p.title}</h3><p>$${p.price}</p><a target="_blank" href="${p.url}">View</a>`;
+   el.appendChild(d);
+ });
+}
