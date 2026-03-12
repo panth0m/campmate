@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Popular products | CampMate Australia</title>
+  <meta name="description" content="CampMate Australia - compare camping gear in Australia with category pages, product pages and live eBay pricing.">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container nav">
+    <a class="logo" href="index.html">
+      <span class="logo-badge">⛺</span>
+      <span>CampMate Australia</span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="categories.html">Categories</a>
+      <a href="popular.html">Popular</a>
+      <a href="guides.html">Guides</a>
+    </nav>
+    <form class="nav-search" data-search-form>
+      <input class="input" name="q" placeholder="Search tents, coolers, stoves..." />
+      <button class="btn" type="submit">Search</button>
+    </form>
+  </div>
+</header>
+
+
+<main class="section">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <h1 style="font-size:clamp(2rem, 3vw, 3rem); margin-bottom:10px">Popular products</h1>
+        <p>These are your product landing pages for SEO and direct compare intent.</p>
+      </div>
+    </div>
+    <div class="filters">
+      <input id="all-search" class="input" placeholder="Search all products">
+      <select id="all-category-filter" class="select"><option value="">All categories</option></select>
+    </div>
+    <div id="all-products" class="grid-4"></div>
+  </div>
+</main>
+
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="logo" style="margin-bottom:12px">
+        <span class="logo-badge">⛺</span>
+        <span>CampMate Australia</span>
+      </div>
+      <p>Danawa-style camping gear compare for Australia. Browse category pages, open product pages, then jump to live eBay pricing and search links for major local stores.</p>
+    </div>
+    <div>
+      <strong>Browse</strong>
+      <div class="list" style="margin-top:12px">
+        <a href="categories.html">All categories</a>
+        <a href="popular.html">Popular products</a>
+        <a href="guides.html">SEO guides</a>
+      </div>
+    </div>
+    <div>
+      <strong>Deploy</strong>
+      <div class="list" style="margin-top:12px">
+        <span class="muted">Cloudflare Pages ready</span>
+        <span class="muted">eBay live via /api/ebay-search</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/common.js"></script>
+
+<script>
+setupSearchForm();
+let allProducts = [];
+let allCategories = [];
+Promise.all([getJson('data/products.json'), getJson('data/categories.json')]).then(([products, categories]) => {
+  allProducts = products;
+  allCategories = categories;
+  document.getElementById('all-category-filter').innerHTML += categories.map(c => `<option value="${c.slug}">${c.name}</option>`).join('');
+  render();
+  document.getElementById('all-search').addEventListener('input', render);
+  document.getElementById('all-category-filter').addEventListener('change', render);
+});
+function render(){
+  const q = document.getElementById('all-search').value.toLowerCase().trim();
+  const cat = document.getElementById('all-category-filter').value;
+  let list = [...allProducts];
+  if (cat) list = list.filter(p => p.category === cat);
+  if (q) list = list.filter(p => `${p.name} ${p.brand} ${p.summary}`.toLowerCase().includes(q));
+  list.sort((a,b)=> b.rating - a.rating || b.reviews - a.reviews);
+  document.getElementById('all-products').innerHTML = list.map(productCard).join('');
+}
+</script>
+
+</body>
+</html>

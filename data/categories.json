@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "tents",
+    "name": "Tents",
+    "description": "Family tents, touring tents, instant-up shelters and premium fast-pitch options.",
+    "hero": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "slug": "chairs",
+    "name": "Chairs",
+    "description": "Camp chairs from budget quad-folders to premium ultralight seating.",
+    "hero": "https://images.unsplash.com/photo-1522163182402-834f871fd851?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "slug": "coolers",
+    "name": "Coolers",
+    "description": "Hard coolers and iceboxes for road trips, fishing and weekend camps.",
+    "hero": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "slug": "stoves",
+    "name": "Stoves",
+    "description": "Portable cooking systems, BBQs and dual-burner camp stoves.",
+    "hero": "https://images.unsplash.com/photo-1517825738774-7de9363ef735?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "slug": "lanterns",
+    "name": "Lanterns",
+    "description": "LED lanterns, fuel lanterns and ambient campsite lighting.",
+    "hero": "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "slug": "sleep-systems",
+    "name": "Sleep Systems",
+    "description": "Swags, airbeds and premium mattresses for better camp sleep.",
+    "hero": "https://images.unsplash.com/photo-1487730116645-74489c95b41b?auto=format&fit=crop&w=1200&q=80"
+  }
+]
