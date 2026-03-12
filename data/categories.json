@@ -2,37 +2,73 @@
   {
     "slug": "tents",
     "name": "Tents",
-    "description": "Family tents, touring tents, instant-up shelters and premium fast-pitch options.",
-    "hero": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=1200&q=80"
+    "description": "Family tents, instant-up shelters and touring tents for Australian camping trips.",
+    "hero": "assets/images/categories/tents.svg",
+    "accent": "Family trips",
+    "keywords": [
+      "instant-up tent",
+      "family tent",
+      "touring tent"
+    ]
   },
   {
     "slug": "chairs",
     "name": "Chairs",
-    "description": "Camp chairs from budget quad-folders to premium ultralight seating.",
-    "hero": "https://images.unsplash.com/photo-1522163182402-834f871fd851?auto=format&fit=crop&w=1200&q=80"
+    "description": "Camp chairs from compact quad folders to padded premium seating.",
+    "hero": "assets/images/categories/chairs.svg",
+    "accent": "Camp comfort",
+    "keywords": [
+      "camp chair",
+      "folding chair",
+      "recliner"
+    ]
   },
   {
     "slug": "coolers",
     "name": "Coolers",
-    "description": "Hard coolers and iceboxes for road trips, fishing and weekend camps.",
-    "hero": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1200&q=80"
+    "description": "Hard coolers, electric fridge/freezers and insulated ice boxes for road trips.",
+    "hero": "assets/images/categories/coolers.svg",
+    "accent": "Cold storage",
+    "keywords": [
+      "cooler",
+      "ice box",
+      "fridge freezer"
+    ]
   },
   {
     "slug": "stoves",
     "name": "Stoves",
-    "description": "Portable cooking systems, BBQs and dual-burner camp stoves.",
-    "hero": "https://images.unsplash.com/photo-1517825738774-7de9363ef735?auto=format&fit=crop&w=1200&q=80"
+    "description": "Portable gas stoves, hiking burners and dual-burner cooking systems.",
+    "hero": "assets/images/categories/stoves.svg",
+    "accent": "Camp cooking",
+    "keywords": [
+      "camp stove",
+      "portable burner",
+      "dual burner"
+    ]
   },
   {
     "slug": "lanterns",
     "name": "Lanterns",
-    "description": "LED lanterns, fuel lanterns and ambient campsite lighting.",
-    "hero": "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=1200&q=80"
+    "description": "LED lanterns, rechargeable lights and campsite ambient lighting.",
+    "hero": "assets/images/categories/lanterns.svg",
+    "accent": "Night light",
+    "keywords": [
+      "lantern",
+      "camp light",
+      "rechargeable lantern"
+    ]
   },
   {
     "slug": "sleep-systems",
     "name": "Sleep Systems",
-    "description": "Swags, airbeds and premium mattresses for better camp sleep.",
-    "hero": "https://images.unsplash.com/photo-1487730116645-74489c95b41b?auto=format&fit=crop&w=1200&q=80"
+    "description": "Sleeping bags, self-inflating mats and airbeds for warmer, softer nights.",
+    "hero": "assets/images/categories/sleep-systems.svg",
+    "accent": "Better sleep",
+    "keywords": [
+      "sleeping bag",
+      "air mattress",
+      "sleeping mat"
+    ]
   }
 ]
