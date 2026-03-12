@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title>Lanterns</title>
+<desc>LED lanterns and ambient campsite lighting.</desc>
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#12213a"/>
+    <stop offset="100%" stop-color="#07111d"/>
+  </linearGradient>
+  <radialGradient id="r" cx="0.2" cy="0.15" r="0.8">
+    <stop offset="0%" stop-color="#39d6ff" stop-opacity="0.65"/>
+    <stop offset="100%" stop-color="#39d6ff" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="1600" height="900" fill="url(#g)"/>
+<rect width="1600" height="900" fill="url(#r)"/>
+<g opacity="0.15">
+  <circle cx="1240" cy="140" r="180" fill="#fff"/>
+  <circle cx="1420" cy="680" r="240" fill="#fff"/>
+  <circle cx="180" cy="760" r="220" fill="#fff"/>
+</g>
+<g transform="translate(110,130)">
+  <rect x="180" y="160" width="200" height="240" rx="54" fill="#eaf7ff" opacity=".18" stroke="#eaf7ff" stroke-width="18"/><rect x="220" y="210" width="120" height="135" rx="24" fill="#bffff2" opacity=".65"/><path d="M235 160 C245 105 315 105 325 160" fill="none" stroke="#eaf7ff" stroke-width="18" stroke-linecap="round"/><circle cx="280" cy="278" r="150" fill="#9efdf1" opacity=".18"/>
+  <circle cx="500" cy="120" r="10" fill="#fff"/><circle cx="530" cy="180" r="8" fill="#fff"/><circle cx="470" cy="210" r="7" fill="#fff"/>
+</g>
+<text x="110" y="760" font-family="Inter,Arial,sans-serif" font-size="72" font-weight="800" fill="white">Lanterns</text>
+<text x="110" y="820" font-family="Inter,Arial,sans-serif" font-size="30" fill="#cfe4ff">LED lanterns and ambient campsite lighting.</text>
+</svg>
