@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://YOUR-DOMAIN.com/index.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.com/categories.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.com/popular.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.com/guides.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.com/search.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.com/category.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.com/product.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.com/chairs.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.com/coolers.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.com/lanterns.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.com/stoves.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.com/tents.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.com/sleeping-bags.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.com/guides/best-family-tents-australia.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.com/guides/best-camping-chairs-australia.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.com/guides/best-coolers-australia.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.com/guides/best-camping-stoves-australia.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.com/guides/best-camping-lanterns-australia.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN.com/guides/best-sleep-systems-australia.html</loc></url>
+  <url><loc>https://example.pages.dev/index.html</loc></url>
+  <url><loc>https://example.pages.dev/categories.html</loc></url>
+  <url><loc>https://example.pages.dev/popular.html</loc></url>
+  <url><loc>https://example.pages.dev/guides.html</loc></url>
+  <url><loc>https://example.pages.dev/guides/best-family-tents-australia.html</loc></url>
+  <url><loc>https://example.pages.dev/guides/best-camping-chairs-australia.html</loc></url>
+  <url><loc>https://example.pages.dev/guides/best-coolers-australia.html</loc></url>
+  <url><loc>https://example.pages.dev/guides/best-camping-stoves-australia.html</loc></url>
+  <url><loc>https://example.pages.dev/guides/best-camping-lanterns-australia.html</loc></url>
+  <url><loc>https://example.pages.dev/guides/best-camp-sleep-systems-australia.html</loc></url>
 </urlset>
