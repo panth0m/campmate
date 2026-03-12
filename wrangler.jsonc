@@ -1,7 +1,9 @@
 {
   "name": "campmate",
+  "main": "worker.js",
   "compatibility_date": "2024-06-01",
   "assets": {
+    "binding": "ASSETS",
     "directory": "."
   }
 }

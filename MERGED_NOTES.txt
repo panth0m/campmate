@@ -1,0 +1,8 @@
+
+MERGED VERSION NOTES
+
+Why this is the best combined version:
+- Uses the stronger UI/content/deployment structure from the Cloudflare build.
+- Keeps the editable data-source + auto-build pattern from the overwrite-ready build.
+- Keeps local images so product cards do not break.
+- Keeps SEO pages and Cloudflare config.
