@@ -8,671 +8,173 @@
 <link rel="canonical" href="https://campmate.kangseyoung7.workers.dev/category.html">
 <meta property="og:title" content="Camping Category | CampMate Australia">
 <meta property="og:type" content="website">
-<meta name="google-site-verification" content="FYOS27d6BEVJvMcO6uM-zBCBEWVeriEPClO6j2-X6uY">
-<meta name="commission-factory-verification" content="ff3f890461734249a17c395d968021a8">
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/style.css?v=20260314r2">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RRL35ZW8MO"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-RRL35ZW8MO');</script>
 <style>
-/* ── Danawa layout ── */
-.dn-wrap {
-  display: grid;
-  grid-template-columns: 200px 1fr;
-  gap: 20px;
-  padding: 20px 0 60px;
-  align-items: start;
-}
-@media(max-width:900px){ .dn-wrap{grid-template-columns:1fr} .dn-sidebar{display:none} .dn-sidebar.open{display:block} }
-
-/* ── Sidebar ── */
-.dn-sidebar {
-  position: sticky;
-  top: 78px;
-  background: rgba(10,27,52,.9);
-  border: 1px solid rgba(255,255,255,.08);
-  border-radius: 18px;
-  overflow: hidden;
-}
-.dn-sb-head {
-  padding: 14px 16px 10px;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-  color: var(--accent);
-  border-bottom: 1px solid rgba(255,255,255,.06);
-}
-.dn-sb-link {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 16px;
-  font-size: 13.5px;
-  color: var(--muted);
-  text-decoration: none;
-  border-bottom: 1px solid rgba(255,255,255,.04);
-  transition: background .12s, color .12s;
-}
-.dn-sb-link:last-child { border-bottom: none; }
-.dn-sb-link:hover { background: rgba(99,226,255,.06); color: var(--text); }
-.dn-sb-link.active {
-  background: rgba(99,226,255,.1);
-  color: var(--accent);
-  font-weight: 700;
-}
-.dn-sb-cnt {
-  font-size: 11px;
-  padding: 2px 8px;
-  border-radius: 20px;
-  background: rgba(255,255,255,.06);
-  color: var(--muted);
-}
-.dn-sb-link.active .dn-sb-cnt { background: rgba(99,226,255,.15); color: var(--accent); }
-
-/* ── Filter panel (Danawa style) ── */
-.dn-filters {
-  background: rgba(10,27,52,.9);
-  border: 1px solid rgba(255,255,255,.08);
-  border-radius: 18px;
-  overflow: hidden;
-  margin-bottom: 14px;
-}
-.dn-filter-row {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-  padding: 12px 18px;
-  border-bottom: 1px solid rgba(255,255,255,.05);
-}
-.dn-filter-row:last-child { border-bottom: none; }
-.dn-flabel {
-  font-size: 12.5px;
-  font-weight: 700;
-  color: var(--muted);
-  min-width: 64px;
-  padding-top: 5px;
-  flex-shrink: 0;
-}
-.dn-fopts { display: flex; flex-wrap: wrap; gap: 6px; flex: 1; }
-
-/* Filter chips */
-.dn-chip {
-  padding: 4px 13px;
-  border-radius: 20px;
-  border: 1px solid rgba(255,255,255,.1);
-  font-size: 12.5px;
-  color: var(--muted);
-  cursor: pointer;
-  transition: all .13s;
-  background: transparent;
-  user-select: none;
-  white-space: nowrap;
-}
-.dn-chip:hover { border-color: var(--accent); color: var(--accent); }
-.dn-chip.on {
-  background: rgba(99,226,255,.15);
-  border-color: var(--accent);
-  color: var(--accent);
-  font-weight: 600;
-}
-.dn-chip.star:hover { border-color: #f5c842; color: #f5c842; }
-.dn-chip.star.on { background: rgba(245,200,66,.15); border-color: #f5c842; color: #f5c842; }
-
-/* Price inputs */
-.dn-price { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-.dn-price input {
-  width: 86px; padding: 5px 10px;
-  border: 1px solid rgba(255,255,255,.12);
-  border-radius: 8px;
-  font-size: 12.5px;
-  background: rgba(6,15,28,.8);
-  color: var(--text);
-  outline: none;
-}
-.dn-price input:focus { border-color: var(--accent); }
-.dn-price-sep { color: var(--muted); font-size: 12px; }
-.dn-price-go {
-  padding: 5px 14px;
-  background: linear-gradient(135deg, var(--accent), var(--accent2));
-  color: #08233b;
-  border: none;
-  border-radius: 8px;
-  font-size: 12.5px;
-  font-weight: 700;
-  cursor: pointer;
-}
-
-/* ── Active tags ── */
-.dn-active-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; min-height: 4px; }
-.dn-tag {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  padding: 3px 10px;
-  background: rgba(99,226,255,.12);
-  color: var(--accent);
-  border-radius: 20px;
-  font-size: 12px;
-  font-weight: 600;
-}
-.dn-tag button {
-  background: none; border: none;
-  color: var(--accent); cursor: pointer;
-  font-size: 16px; line-height: 1; padding: 0 0 0 2px;
-}
-.dn-clear {
-  padding: 3px 10px;
-  background: none;
-  border: 1px solid rgba(255,255,255,.1);
-  color: var(--muted);
-  border-radius: 20px;
-  font-size: 12px;
-  cursor: pointer;
-}
-.dn-clear:hover { color: var(--text); border-color: rgba(255,255,255,.25); }
-
-/* ── Results bar ── */
-.dn-resbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 14px;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-.dn-rescnt { font-size: 13.5px; color: var(--muted); }
-.dn-rescnt strong { color: var(--text); font-size: 15px; }
-.dn-sort { display: flex; gap: 6px; flex-wrap: wrap; }
-.dn-sort-btn {
-  padding: 5px 14px;
-  border-radius: 20px;
-  border: 1px solid rgba(255,255,255,.1);
-  font-size: 12.5px;
-  cursor: pointer;
-  background: transparent;
-  color: var(--muted);
-  transition: all .13s;
-}
-.dn-sort-btn:hover { color: var(--text); border-color: rgba(255,255,255,.25); }
-.dn-sort-btn.on {
-  background: rgba(99,226,255,.15);
-  border-color: var(--accent);
-  color: var(--accent);
-  font-weight: 600;
-}
-
-/* ── Product grid ── */
-.dn-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 14px;
-}
-@media(max-width:1100px){ .dn-grid{grid-template-columns:repeat(2,1fr)} }
-@media(max-width:560px){ .dn-grid{grid-template-columns:1fr} }
-
-/* ── Product card ── */
-.dn-card {
-  background: linear-gradient(180deg, rgba(10,27,52,.92), rgba(7,18,36,.95));
-  border: 1px solid rgba(255,255,255,.07);
-  border-radius: 16px;
-  overflow: hidden;
-  transition: transform .18s, border-color .18s, box-shadow .18s;
-  cursor: pointer;
-}
-.dn-card:hover {
-  transform: translateY(-3px);
-  border-color: rgba(99,226,255,.25);
-  box-shadow: 0 12px 36px rgba(0,0,0,.35);
-}
-.dn-card-img {
-  aspect-ratio: 4/3;
-  background: linear-gradient(135deg, rgba(99,226,255,.08), rgba(255,255,255,.03));
-  border-bottom: 1px solid rgba(255,255,255,.06);
-  display: grid;
-  place-items: center;
-  overflow: hidden;
-}
-.dn-card-img img { width: 100%; height: 100%; object-fit: cover; }
-.dn-card-body { padding: 14px 16px 16px; }
-.dn-card-brand {
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: .06em;
-  text-transform: uppercase;
-  color: var(--accent);
-  margin-bottom: 4px;
-}
-.dn-card-name {
-  display: block;
-  font-size: 13.5px;
-  font-weight: 700;
-  line-height: 1.4;
-  color: var(--text);
-  margin-bottom: 6px;
-  text-decoration: none;
-}
-.dn-card-name:hover { color: var(--accent); }
-.dn-card-summary { font-size: 12px; color: var(--muted); margin: 0 0 10px; line-height: 1.5; }
-.dn-card-price {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-  margin-bottom: 8px;
-  flex-wrap: wrap;
-}
-.dn-sale { font-size: 1.2rem; font-weight: 900; color: var(--accent); }
-.dn-orig { font-size: 12px; color: var(--muted); text-decoration: line-through; }
-.dn-discount {
-  font-size: 11px; font-weight: 700;
-  color: #ff7070;
-  background: rgba(255,80,80,.12);
-  padding: 1px 6px;
-  border-radius: 6px;
-}
-.dn-card-meta {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 12px;
-  color: var(--muted);
-  margin-bottom: 10px;
-}
-.dn-stars { color: #f5c842; letter-spacing: -.5px; }
-.dn-card-stores {
-  display: flex;
-  gap: 6px;
-  flex-wrap: wrap;
-}
-.dn-store-btn {
-  padding: 5px 10px;
-  border-radius: 8px;
-  border: 1px solid rgba(255,255,255,.1);
-  font-size: 11.5px;
-  font-weight: 600;
-  color: var(--muted);
-  background: rgba(255,255,255,.04);
-  text-decoration: none;
-  transition: all .12s;
-  cursor: pointer;
-}
-.dn-store-btn:hover { border-color: var(--accent); color: var(--accent); background: rgba(99,226,255,.08); }
-.dn-store-btn.primary {
-  background: linear-gradient(135deg, var(--accent), var(--accent2));
-  color: #08233b;
-  border-color: transparent;
-  font-weight: 800;
-}
-.dn-store-btn.primary:hover { opacity: .88; }
-
-/* Mobile filter toggle */
-.dn-mob-btn {
-  display: none;
-  align-items: center;
-  gap: 8px;
-  padding: 8px 16px;
-  border: 1px solid rgba(255,255,255,.1);
-  border-radius: 12px;
-  background: rgba(10,27,52,.9);
-  color: var(--text);
-  font-size: 13.5px;
-  cursor: pointer;
-  margin-bottom: 12px;
-}
-@media(max-width:900px){ .dn-mob-btn{display:flex} }
-
-/* ── Banner override ── */
-#cat-banner {
-  background: linear-gradient(180deg, rgba(10,27,52,.9), rgba(7,18,36,.92));
-  border: 1px solid rgba(255,255,255,.08);
-  border-radius: 20px;
-  padding: 24px 28px;
-  margin: 14px 0 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-}
-.cat-kpi {
-  text-align: right;
-  flex-shrink: 0;
-}
-.cat-kpi strong { display: block; font-size: 2rem; font-weight: 900; color: var(--accent); }
-.cat-kpi span { font-size: 12px; color: var(--muted); }
+.dn-wrap{display:grid;grid-template-columns:220px 1fr;gap:20px;padding:20px 0 60px;align-items:start}
+@media(max-width:900px){.dn-wrap{grid-template-columns:1fr}.dn-sidebar{display:none}.dn-sidebar.open{display:block}}
+.dn-sidebar{position:sticky;top:90px;background:rgba(10,27,52,.9);border:1px solid rgba(255,255,255,.08);border-radius:18px;overflow:hidden}
+.dn-sb-head{padding:14px 16px 10px;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);border-bottom:1px solid rgba(255,255,255,.06)}
+.dn-sb-link{display:flex;align-items:center;justify-content:space-between;padding:10px 16px;font-size:13.5px;color:var(--muted);text-decoration:none;border-bottom:1px solid rgba(255,255,255,.04);transition:background .12s,color .12s}
+.dn-sb-link:last-child{border-bottom:none}.dn-sb-link:hover{background:rgba(99,226,255,.06);color:var(--text)}.dn-sb-link.active{background:rgba(99,226,255,.1);color:var(--accent);font-weight:700}
+.dn-sb-cnt{font-size:11px;padding:2px 8px;border-radius:20px;background:rgba(255,255,255,.06);color:var(--muted)}.dn-sb-link.active .dn-sb-cnt{background:rgba(99,226,255,.15);color:var(--accent)}
+.dn-filters{background:rgba(10,27,52,.9);border:1px solid rgba(255,255,255,.08);border-radius:18px;overflow:hidden;margin-bottom:14px}
+.dn-filter-row{display:flex;align-items:flex-start;gap:12px;padding:12px 18px;border-bottom:1px solid rgba(255,255,255,.05)}.dn-filter-row:last-child{border-bottom:none}
+.dn-flabel{font-size:12.5px;font-weight:700;color:var(--muted);min-width:64px;padding-top:5px;flex-shrink:0}.dn-fopts{display:flex;flex-wrap:wrap;gap:6px;flex:1}
+.dn-chip{padding:4px 13px;border-radius:20px;border:1px solid rgba(255,255,255,.1);font-size:12.5px;color:var(--muted);cursor:pointer;transition:all .13s;background:transparent;user-select:none;white-space:nowrap}.dn-chip:hover{border-color:var(--accent);color:var(--accent)}.dn-chip.on{background:rgba(99,226,255,.15);border-color:var(--accent);color:var(--accent);font-weight:600}.dn-chip.star:hover{border-color:#f5c842;color:#f5c842}.dn-chip.star.on{background:rgba(245,200,66,.15);border-color:#f5c842;color:#f5c842}
+.dn-price{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.dn-price input{width:86px;padding:5px 10px;border:1px solid rgba(255,255,255,.12);border-radius:8px;font-size:12.5px;background:rgba(6,15,28,.8);color:var(--text);outline:none}.dn-price input:focus{border-color:var(--accent)}.dn-price-sep{color:var(--muted);font-size:12px}.dn-price-go{padding:5px 14px;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#08233b;border:none;border-radius:8px;font-size:12.5px;font-weight:700;cursor:pointer}
+.dn-active-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px;min-height:4px}.dn-tag{display:inline-flex;align-items:center;gap:4px;padding:3px 10px;background:rgba(99,226,255,.12);color:var(--accent);border-radius:20px;font-size:12px;font-weight:600}.dn-tag button{background:none;border:none;color:var(--accent);cursor:pointer;font-size:16px;line-height:1;padding:0 0 0 2px}.dn-clear{padding:3px 10px;background:none;border:1px solid rgba(255,255,255,.1);color:var(--muted);border-radius:20px;font-size:12px;cursor:pointer}.dn-clear:hover{color:var(--text);border-color:rgba(255,255,255,.25)}
+.dn-resbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;gap:12px;flex-wrap:wrap}.dn-rescnt{font-size:13.5px;color:var(--muted)}.dn-rescnt strong{color:var(--text);font-size:15px}
+.dn-res-tools{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.dn-view{display:inline-flex;border:1px solid rgba(255,255,255,.1);border-radius:999px;padding:3px;background:rgba(255,255,255,.03)}.dn-view-btn,.dn-sort-btn{border:none;background:transparent;color:var(--muted);padding:6px 12px;border-radius:999px;font-size:12px;font-weight:700;cursor:pointer}.dn-view-btn.on,.dn-sort-btn.on{background:rgba(99,226,255,.15);color:var(--accent)}.dn-sort{display:flex;gap:6px;flex-wrap:wrap}.dn-sort-btn{border:1px solid rgba(255,255,255,.1)}
+.dn-results.dn-list{display:grid;gap:12px}.dn-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}@media(max-width:1100px){.dn-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:560px){.dn-grid{grid-template-columns:1fr}}
+.dn-row{display:grid;grid-template-columns:150px minmax(0,1.35fr) minmax(250px,.9fr) 108px;gap:16px;align-items:stretch;background:linear-gradient(180deg,rgba(10,27,52,.95),rgba(7,18,36,.98));border:1px solid rgba(255,255,255,.08);border-radius:18px;overflow:hidden;transition:border-color .16s,transform .16s,box-shadow .16s}.dn-row:hover{border-color:rgba(99,226,255,.24);box-shadow:0 16px 36px rgba(0,0,0,.34);transform:translateY(-2px)}@media(max-width:1180px){.dn-row{grid-template-columns:140px minmax(0,1fr) minmax(220px,.85fr) 96px}}@media(max-width:900px){.dn-row{grid-template-columns:1fr;gap:0}}
+.dn-row-media{display:flex;align-items:center;justify-content:center;padding:16px;background:linear-gradient(135deg,rgba(99,226,255,.08),rgba(255,255,255,.02));border-right:1px solid rgba(255,255,255,.06)}@media(max-width:900px){.dn-row-media{border-right:none;border-bottom:1px solid rgba(255,255,255,.06)}}.dn-row-media img{width:100%;aspect-ratio:1/1;object-fit:contain}
+.dn-row-main{padding:16px 0;min-width:0}@media(max-width:900px){.dn-row-main{padding:16px 16px 0}}.dn-brandline{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+.dn-brand-badge,.dn-badge-soft{display:inline-flex;align-items:center;padding:4px 9px;border-radius:999px;font-size:11px;font-weight:800;letter-spacing:.04em}.dn-brand-badge{background:rgba(99,226,255,.13);color:var(--accent);text-transform:uppercase}.dn-badge-soft{background:rgba(255,255,255,.05);color:var(--muted)}
+.dn-row-name{color:var(--text);text-decoration:none;font-size:18px;font-weight:800;line-height:1.35;display:inline-block;margin-bottom:8px}.dn-row-name:hover{color:var(--accent)}.dn-row-summary{margin:0 0 10px;color:var(--muted);font-size:13px;line-height:1.55}
+.dn-specs,.dn-info-tags{display:flex;flex-wrap:wrap;gap:6px}.dn-spec-pill,.dn-info-pill{display:inline-flex;align-items:center;padding:5px 9px;border-radius:999px;font-size:11.5px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);color:#d9e6ff}
+.dn-info-tags{margin-top:10px}.dn-row-meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:10px;color:var(--muted);font-size:12px}
+.dn-row-stores{padding:14px 14px 14px 0;border-left:1px solid rgba(255,255,255,.06)}@media(max-width:900px){.dn-row-stores{border-left:none;border-top:1px solid rgba(255,255,255,.06);padding:14px 16px 16px}}
+.dn-row-pricebox{display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:8px;padding:16px 0}.dn-row-pricehead{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700}.dn-row-sale{color:var(--accent);font-size:1.5rem;font-weight:900;line-height:1}.dn-row-orig{color:var(--muted);font-size:12px;text-decoration:line-through}
+.dn-stores-head,.dn-offer-row{display:grid;grid-template-columns:1.2fr .75fr .8fr 74px;gap:10px;align-items:center}.dn-stores-head{padding:0 0 8px;margin-bottom:4px;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}.dn-offer-row{padding:8px 0;border-top:1px solid rgba(255,255,255,.06)}
+.dn-offer-store{display:flex;align-items:center;gap:6px;min-width:0}.dn-offer-store strong{font-size:12.5px;color:var(--text)}.dn-lowest{padding:2px 7px;border-radius:999px;font-size:10px;font-weight:800;background:rgba(84,255,178,.12);color:#7dffc6}.dn-offer-price{font-weight:800;color:var(--text);font-size:12.5px}.dn-offer-ship{color:var(--muted);font-size:11.5px}
+.dn-offer-open{display:inline-flex;align-items:center;justify-content:center;padding:7px 10px;border-radius:9px;text-decoration:none;font-size:11.5px;font-weight:800;background:rgba(99,226,255,.12);border:1px solid rgba(99,226,255,.25);color:var(--accent)}.dn-offer-open:hover{background:rgba(99,226,255,.18)}
+.dn-row-cta{display:flex;align-items:center;justify-content:center;padding:16px;border-left:1px solid rgba(255,255,255,.06)}@media(max-width:900px){.dn-row-cta{border-left:none;border-top:1px solid rgba(255,255,255,.06);padding:14px 16px 16px;justify-content:flex-start}}
+.dn-compare-btn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;padding:11px 16px;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#08233b;font-size:12.5px;font-weight:900;white-space:nowrap}
+.dn-card{background:linear-gradient(180deg,rgba(10,27,52,.92),rgba(7,18,36,.95));border:1px solid rgba(255,255,255,.07);border-radius:16px;overflow:hidden;transition:transform .18s,border-color .18s,box-shadow .18s;cursor:pointer}.dn-card:hover{transform:translateY(-3px);border-color:rgba(99,226,255,.25);box-shadow:0 12px 36px rgba(0,0,0,.35)}.dn-card-img{aspect-ratio:4/3;background:linear-gradient(135deg,rgba(99,226,255,.08),rgba(255,255,255,.03));border-bottom:1px solid rgba(255,255,255,.06);display:grid;place-items:center;overflow:hidden}.dn-card-img img{width:100%;height:100%;object-fit:contain}.dn-card-body{padding:14px 16px 16px}.dn-card-brand{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin-bottom:4px}.dn-card-name{display:block;font-size:13.5px;font-weight:700;line-height:1.4;color:var(--text);margin-bottom:6px;text-decoration:none}.dn-card-name:hover{color:var(--accent)}.dn-card-summary{font-size:12px;color:var(--muted);margin:0 0 10px;line-height:1.5}.dn-card-price{display:flex;align-items:baseline;gap:8px;margin-bottom:8px;flex-wrap:wrap}.dn-sale{font-size:1.2rem;font-weight:900;color:var(--accent)}.dn-orig{font-size:12px;color:var(--muted);text-decoration:line-through}.dn-discount{font-size:11px;font-weight:700;color:#ff7070;background:rgba(255,80,80,.12);padding:1px 6px;border-radius:6px}.dn-card-meta{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);margin-bottom:10px}.dn-stars{color:#f5c842;letter-spacing:-.5px}.dn-card-stores{display:flex;gap:6px;flex-wrap:wrap}.dn-store-btn{padding:5px 10px;border-radius:8px;border:1px solid rgba(255,255,255,.1);font-size:11.5px;font-weight:600;color:var(--muted);background:rgba(255,255,255,.04);text-decoration:none;transition:all .12s;cursor:pointer}.dn-store-btn:hover{border-color:var(--accent);color:var(--accent);background:rgba(99,226,255,.08)}.dn-store-btn.primary{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#08233b;border-color:transparent;font-weight:800}
+.dn-mob-btn{display:none;align-items:center;gap:8px;padding:8px 16px;border:1px solid rgba(255,255,255,.1);border-radius:12px;background:rgba(10,27,52,.9);color:var(--text);font-size:13.5px;cursor:pointer;margin-bottom:12px}@media(max-width:900px){.dn-mob-btn{display:flex}}
+#cat-banner{background:linear-gradient(180deg,rgba(10,27,52,.9),rgba(7,18,36,.92));border:1px solid rgba(255,255,255,.08);border-radius:20px;padding:24px 28px;margin:14px 0 20px;display:flex;justify-content:space-between;align-items:center;gap:20px}.cat-kpi{text-align:right;flex-shrink:0}.cat-kpi strong{display:block;font-size:2rem;font-weight:900;color:var(--accent)}.cat-kpi span{font-size:12px;color:var(--muted)}
 </style>
 </head>
 <body>
-
-<header class="topbar">
-  <div class="container nav">
-    <a class="logo" href="index.html"><span class="logo-badge">⛺</span><span>CampMate Australia</span></a>
-    <nav class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="categories.html">Categories</a>
-      <a href="popular.html">Popular</a>
-      <a href="guides.html">Guides</a>
-    </nav>
-    <form class="nav-search" data-search-form>
-      <input class="input" name="q" placeholder="Search tents, coolers, chairs...">
-      <button class="btn" type="submit">Search</button>
-    </form>
-  </div>
-</header>
-
-<main>
-  <div class="container">
-
-    <div class="breadcrumb" style="padding:16px 0 0">
-      <a href="index.html">Home</a> · <a href="categories.html">Categories</a> · <span id="crumb-name">Category</span>
-    </div>
-
-    <!-- Banner -->
-    <div id="cat-banner">
-      <div>
-        <div class="badge" style="margin-bottom:10px">Category</div>
-        <h1 id="cat-title" style="margin:0 0 6px;font-size:clamp(1.5rem,3vw,2.2rem)">Loading…</h1>
-        <p id="cat-desc" style="margin:0;color:var(--muted);font-size:14px"></p>
-      </div>
-      <div class="cat-kpi">
-        <strong id="cat-count">–</strong>
-        <span>products</span>
-      </div>
-    </div>
-
-    <!-- Mobile filter btn -->
-    <button class="dn-mob-btn" onclick="document.querySelector('.dn-sidebar').classList.toggle('open')">
-      ☰ Categories &amp; Filters
-    </button>
-
-    <div class="dn-wrap">
-
-      <!-- ── Sidebar ── -->
-      <aside class="dn-sidebar">
-        <div class="dn-sb-head">All Categories</div>
-        <nav id="dn-sidebar-cats"></nav>
-      </aside>
-
-      <!-- ── Main ── -->
-      <div>
-
-        <!-- Filter panel -->
-        <div class="dn-filters">
-
-          <!-- Brand -->
-          <div class="dn-filter-row">
-            <div class="dn-flabel">Brand</div>
-            <div class="dn-fopts" id="f-brands"></div>
-          </div>
-
-          <!-- Price -->
-          <div class="dn-filter-row">
-            <div class="dn-flabel">Price</div>
-            <div class="dn-price">
-              <span style="font-size:12px;color:var(--muted)">A$</span>
-              <input type="number" id="p-min" placeholder="Min" min="0">
-              <span class="dn-price-sep">—</span>
-              <input type="number" id="p-max" placeholder="Max" min="0">
-              <button class="dn-price-go" onclick="applyFilters()">Apply</button>
-            </div>
-          </div>
-
-          <!-- Rating -->
-          <div class="dn-filter-row">
-            <div class="dn-flabel">Rating</div>
-            <div class="dn-fopts">
-              <span class="dn-chip star" data-val="4.5" onclick="toggleStar(this)">★ 4.5+</span>
-              <span class="dn-chip star" data-val="4.0" onclick="toggleStar(this)">★ 4.0+</span>
-              <span class="dn-chip star" data-val="3.5" onclick="toggleStar(this)">★ 3.5+</span>
-            </div>
-          </div>
-
-          <!-- Type -->
-          <div class="dn-filter-row" id="f-type-row" style="display:none">
-            <div class="dn-flabel">Type</div>
-            <div class="dn-fopts" id="f-types"></div>
-          </div>
-
-        </div>
-
-        <!-- Active tags -->
-        <div class="dn-active-tags" id="active-tags"></div>
-
-        <!-- Results bar -->
-        <div class="dn-resbar">
-          <div class="dn-rescnt" id="res-count"></div>
-          <div class="dn-sort">
-            <button class="dn-sort-btn on" data-sort="featured" onclick="setSort(this)">Featured</button>
-            <button class="dn-sort-btn" data-sort="price-low" onclick="setSort(this)">Price ↑</button>
-            <button class="dn-sort-btn" data-sort="price-high" onclick="setSort(this)">Price ↓</button>
-            <button class="dn-sort-btn" data-sort="rating" onclick="setSort(this)">Top rated</button>
-          </div>
-        </div>
-
-        <!-- Grid -->
-        <div class="dn-grid" id="product-grid"></div>
-
-      </div>
-    </div>
-  </div>
-</main>
-
-<footer class="footer">
-  <div class="container footer-grid">
-    <div>
-      <div class="logo" style="margin-bottom:12px"><span class="logo-badge">⛺</span><span>CampMate Australia</span></div>
-      <p>CampMate helps Australian campers compare useful camping gear, read buyer-first guides and click through to store searches with clear disclosure.</p>
-      <p class="muted" style="margin-top:12px">Disclosure: CampMate may earn commissions from affiliate links at no additional cost to you.</p>
-    </div>
-    <div>
-      <strong>Browse</strong>
-      <div class="list" style="margin-top:12px">
-        <a href="categories.html">All categories</a>
-        <a href="popular.html">Popular products</a>
-        <a href="guides.html">Guides</a>
-      </div>
-    </div>
-    <div>
-      <strong>Trust &amp; contact</strong>
-      <div class="list" style="margin-top:12px">
-        <a href="about.html">About CampMate</a>
-        <a href="contact.html">Contact</a>
-        <a href="disclosure.html">Affiliate disclosure</a>
-        <a href="privacy.html">Privacy</a>
-      </div>
-    </div>
-  </div>
-</footer>
-
-<script src="assets/data.js"></script>
-<script src="assets/common.js"></script>
+<header class="topbar"><div class="container nav"><a class="logo" href="index.html"><span class="logo-badge">⛺</span><span>CampMate Australia</span></a><nav class="nav-links"><a href="index.html">Home</a><a href="categories.html">Categories</a><a href="popular.html">Popular</a><a href="guides.html">Guides</a></nav><form class="nav-search" data-search-form><input class="input" name="q" placeholder="Search tents, coolers, chairs..."><button class="btn" type="submit">Search</button></form></div></header>
+<main><div class="container"><div class="breadcrumb" style="padding:16px 0 0"><a href="index.html">Home</a> · <a href="categories.html">Categories</a> · <span id="crumb-name">Category</span></div><div id="cat-banner"><div><div class="badge" style="margin-bottom:10px">Category compare page</div><h1 id="cat-title" style="margin:0 0 6px;font-size:clamp(1.5rem,3vw,2.2rem)">Loading…</h1><p id="cat-desc" style="margin:0;color:var(--muted);font-size:14px"></p></div><div class="cat-kpi"><strong id="cat-count">–</strong><span>products</span></div></div><button class="dn-mob-btn" onclick="document.querySelector('.dn-sidebar').classList.toggle('open')">☰ Categories &amp; Filters</button><div class="dn-wrap"><aside class="dn-sidebar"><div class="dn-sb-head">All Categories</div><nav id="dn-sidebar-cats"></nav></aside><div><div class="dn-filters"><div class="dn-filter-row"><div class="dn-flabel">Brand</div><div class="dn-fopts" id="f-brands"></div></div><div class="dn-filter-row"><div class="dn-flabel">Price</div><div class="dn-price"><span style="font-size:12px;color:var(--muted)">A$</span><input type="number" id="p-min" placeholder="Min" min="0"><span class="dn-price-sep">—</span><input type="number" id="p-max" placeholder="Max" min="0"><button class="dn-price-go" id="apply-price">Apply</button></div></div><div class="dn-filter-row"><div class="dn-flabel">Rating</div><div class="dn-fopts"><span class="dn-chip star" data-val="4.5">★ 4.5+</span><span class="dn-chip star" data-val="4.0">★ 4.0+</span><span class="dn-chip star" data-val="3.5">★ 3.5+</span></div></div><div class="dn-filter-row" id="f-type-row" style="display:none"><div class="dn-flabel">Type</div><div class="dn-fopts" id="f-types"></div></div></div><div class="dn-active-tags" id="active-tags"></div><div class="dn-resbar"><div class="dn-rescnt" id="res-count"></div><div class="dn-res-tools"><div class="dn-view"><button class="dn-view-btn on" data-view="list">Compare list</button><button class="dn-view-btn" data-view="grid">Grid cards</button></div><div class="dn-sort"><button class="dn-sort-btn on" data-sort="featured">Featured</button><button class="dn-sort-btn" data-sort="price-low">Price ↑</button><button class="dn-sort-btn" data-sort="price-high">Price ↓</button><button class="dn-sort-btn" data-sort="rating">Top rated</button></div></div></div><div class="dn-results dn-list" id="product-grid"></div></div></div></div></main>
+<footer class="footer"><div class="container footer-grid"><div><div class="logo" style="margin-bottom:12px"><span class="logo-badge">⛺</span><span>CampMate Australia</span></div><p>CampMate helps Australian campers compare useful camping gear, read buyer-first guides and click through to store searches with clear disclosure.</p><p class="muted" style="margin-top:12px">Disclosure: CampMate may earn commissions from affiliate links at no additional cost to you.</p></div><div><strong>Browse</strong><div class="list" style="margin-top:12px"><a href="categories.html">All categories</a><a href="popular.html">Popular products</a><a href="guides.html">Guides</a></div></div><div><strong>Trust &amp; contact</strong><div class="list" style="margin-top:12px"><a href="about.html">About CampMate</a><a href="contact.html">Contact</a><a href="disclosure.html">Affiliate disclosure</a><a href="privacy.html">Privacy</a></div></div></div></footer>
+<script src="assets/common.js?v=20260314r2"></script>
 <script>
 setupSearchForm();
-enhanceImages();
-
 const TYPE_MAP = {
-  'tents':         ['Air tent','Instant/Pop-up','Cabin tent','Dome tent','Family tent','Backpacking','Swag'],
-  'chairs':        ['Camp chair','Director chair','Highback','Lounge','Saucer','Ultralight'],
-  'coolers':       ['Hard cooler','Soft cooler','Wheeled','Fibreglass','Compact'],
-  'lanterns':      ['LED','Solar','Rechargeable','String lights'],
-  'stoves':        ['Single burner','Dual burner','Compact system','Wood-burning'],
-  'sleep-systems': ['Sleeping bag','Sleeping mat','Inflatable mat','Quilt'],
+  tents:['Instant','Dome','Family','Backpacking','Cabin','Swag'],
+  chairs:['Recliner','Director','Highback','Lounge','Compact','Ultralight'],
+  coolers:['Hard cooler','Soft cooler','Wheeled','Compact'],
+  lanterns:['LED','Rechargeable','Solar','String lights'],
+  stoves:['Single burner','Dual burner','Portable BBQ','Compact'],
+  'sleep-systems':['Sleeping bag','Mat','Airbed','Mattress','Swag']
 };
-
-let rawProducts = [], current = [];
-const S = { brands: new Set(), minP: null, maxP: null, minRating: null, types: new Set(), sort: 'featured' };
-
-// ── Boot ──
-(function init() {
-  const cats  = getCategories();
-  const prods = getProducts();
-  const slug  = categoryParam() || cats[0].slug;
-  const cat   = cats.find(c => c.slug === slug) || cats[0];
-
-  rawProducts = prods.filter(p => p.category === cat.slug);
-
-  document.title = cat.seo_title || `${cat.name} | CampMate Australia`;
-  document.getElementById('crumb-name').textContent  = cat.short || cat.name;
-  document.getElementById('cat-title').textContent   = cat.name;
-  document.getElementById('cat-desc').textContent    = cat.description || '';
-  document.getElementById('cat-count').textContent   = rawProducts.length;
-
-  buildSidebar(cats, prods, cat.slug);
+let categories=[]; let rawProducts=[]; let current=[]; let currentCat=null;
+const S={brands:new Set(),minP:null,maxP:null,minRating:null,types:new Set(),sort:'featured',view:'list'};
+Promise.all([getJson('data/categories.json'),getJson('data/products.json')]).then(([cats,prods])=>{
+  categories=cats;
+  const slug = categoryParam() || 'tents';
+  currentCat = cats.find(c=>c.slug===slug) || cats[0];
+  rawProducts = prods.filter(p=>p.category===currentCat.slug);
+  document.title = `${currentCat.name} | CampMate Australia`;
+  document.getElementById('crumb-name').textContent=currentCat.name;
+  document.getElementById('cat-title').textContent=currentCat.name;
+  document.getElementById('cat-desc').textContent=currentCat.description || '';
+  document.getElementById('cat-count').textContent=rawProducts.length;
+  buildSidebar(cats, prods, currentCat.slug);
   buildBrandChips(rawProducts);
-  buildTypeChips(cat.slug);
+  buildTypeChips(currentCat.slug, rawProducts);
+  bindUi();
   applyFilters();
-})();
+}).catch(err=>{console.error(err);document.getElementById('cat-title').textContent='Failed to load';document.getElementById('product-grid').innerHTML='<div class="empty" style="padding:28px">Could not load category data.</div>';});
 
-// ── Sidebar ──
-function buildSidebar(cats, prods, activeSlug) {
-  document.getElementById('dn-sidebar-cats').innerHTML = cats.map(c => {
-    const n = prods.filter(p => p.category === c.slug).length;
-    return `<a href="${escapeAttribute(categoryLink(c))}" class="dn-sb-link ${c.slug === activeSlug ? 'active' : ''}">
-      <span>${escapeHtml(c.short || c.name)}</span>
-      <span class="dn-sb-cnt">${n}</span>
-    </a>`;
-  }).join('');
+function bindUi(){
+  document.getElementById('apply-price').addEventListener('click', applyFilters);
+  document.querySelectorAll('.dn-chip.star').forEach(el=>el.addEventListener('click',()=>toggleStar(el)));
+  document.querySelectorAll('.dn-sort-btn').forEach(el=>el.addEventListener('click',()=>setSort(el)));
+  document.querySelectorAll('.dn-view-btn').forEach(el=>el.addEventListener('click',()=>setView(el)));
 }
-
-// ── Brand chips ──
-function buildBrandChips(prods) {
-  const brands = [...new Set(prods.map(p => p.brand))].sort();
-  document.getElementById('f-brands').innerHTML = brands.map(b =>
-    `<span class="dn-chip" data-brand="${escapeAttribute(b)}" onclick="toggleBrand(this)">${escapeHtml(b)}</span>`
-  ).join('');
+function buildSidebar(cats, prods, activeSlug){
+  document.getElementById('dn-sidebar-cats').innerHTML = cats.map(c=>`<a href="${escapeAttribute(categoryLink(c))}" class="dn-sb-link ${c.slug===activeSlug?'active':''}"><span>${escapeHtml(c.name)}</span><span class="dn-sb-cnt">${prods.filter(p=>p.category===c.slug).length}</span></a>`).join('');
 }
-
-// ── Type chips ──
-function buildTypeChips(slug) {
-  const types = TYPE_MAP[slug];
-  if (!types?.length) return;
-  document.getElementById('f-type-row').style.display = 'flex';
-  document.getElementById('f-types').innerHTML = types.map(t =>
-    `<span class="dn-chip" data-type="${escapeAttribute(t)}" onclick="toggleType(this)">${escapeHtml(t)}</span>`
-  ).join('');
+function buildBrandChips(prods){
+  const brands=[...new Set(prods.map(p=>p.brand).filter(Boolean))].sort();
+  document.getElementById('f-brands').innerHTML = brands.map(b=>`<button type="button" class="dn-chip" data-brand="${escapeAttribute(b)}">${escapeHtml(b)}</button>`).join('');
+  document.querySelectorAll('[data-brand]').forEach(el=>el.addEventListener('click',()=>toggleBrand(el)));
 }
-
-// ── Toggles ──
-function toggleBrand(el) {
-  const b = el.dataset.brand; el.classList.toggle('on');
-  S.brands.has(b) ? S.brands.delete(b) : S.brands.add(b); applyFilters();
+function buildTypeChips(slug, prods){
+  const types = (TYPE_MAP[slug] || []).filter(type=>prods.some(p=>productHaystack(p).includes(type.toLowerCase())));
+  if (!types.length) return;
+  document.getElementById('f-type-row').style.display='flex';
+  document.getElementById('f-types').innerHTML = types.map(t=>`<button type="button" class="dn-chip" data-type="${escapeAttribute(t)}">${escapeHtml(t)}</button>`).join('');
+  document.querySelectorAll('[data-type]').forEach(el=>el.addEventListener('click',()=>toggleType(el)));
 }
-function toggleType(el) {
-  const t = el.dataset.type; el.classList.toggle('on');
-  S.types.has(t) ? S.types.delete(t) : S.types.add(t); applyFilters();
+function productHaystack(p){ return `${p.name||''} ${p.summary||''} ${p.brand||''}`.toLowerCase(); }
+function inferSpecPills(p){
+  const hay = productHaystack(p);
+  const specs=[];
+  const push = v => { if (v && !specs.includes(v) && specs.length < 4) specs.push(v); };
+  if (p.category==='tents') { if (/instant|fast pitch|instant up|popup|pop-up/.test(hay)) push('Instant setup'); if (/dome/.test(hay)) push('Dome'); if (/family|6p|8p|10p/.test(hay)) push('Family size'); if (/swag/.test(hay)) push('Swag'); if (/backpack|ultralight|hike/.test(hay)) push('Backpacking'); }
+  if (p.category==='chairs') { if (/recliner/.test(hay)) push('Recliner'); if (/director/.test(hay)) push('Director chair'); if (/highback/.test(hay)) push('Highback'); if (/lounge|lounger/.test(hay)) push('Lounge'); if (/compact|fold/.test(hay)) push('Compact fold'); }
+  if (p.category==='coolers') { if (/wheeled/.test(hay)) push('Wheeled'); if (/soft/.test(hay)) push('Soft cooler'); if (/hard|icebox/.test(hay)) push('Hard cooler'); if (/compact|small/.test(hay)) push('Compact'); }
+  if (p.category==='lanterns') { if (/recharge/.test(hay)) push('Rechargeable'); if (/solar/.test(hay)) push('Solar'); if (/led/.test(hay)) push('LED'); if (/string/.test(hay)) push('String lights'); }
+  if (p.category==='stoves') { if (/dual/.test(hay)) push('Dual burner'); if (/single/.test(hay)) push('Single burner'); if (/bbq/.test(hay)) push('Portable BBQ'); if (/compact|system/.test(hay)) push('Compact system'); }
+  if (p.category==='sleep-systems') { if (/bag/.test(hay)) push('Sleeping bag'); if (/mat/.test(hay)) push('Mat'); if (/airbed|air bed|inflatable/.test(hay)) push('Airbed'); if (/mattress/.test(hay)) push('Mattress'); }
+  const saleBand = p.salePrice ? (p.salePrice < 100 ? 'Budget' : p.salePrice < 250 ? 'Mid-range' : 'Premium') : '';
+  push(saleBand);
+  return specs;
 }
-function toggleStar(el) {
-  const val = parseFloat(el.dataset.val), already = S.minRating === val;
-  document.querySelectorAll('.dn-chip.star').forEach(c => c.classList.remove('on'));
-  S.minRating = already ? null : val;
-  if (!already) el.classList.add('on');
-  applyFilters();
+function offerRows(product){
+  return (product.stores || []).slice(0,3).map((s,idx)=>({
+    name:s.name || `Store ${idx+1}`,
+    url:buildAffiliateUrl(s.name, s.url, product.name),
+    guidePrice: idx===0 ? Number(product.salePrice || 0) : Number(product.salePrice || 0) + (idx*15),
+    shipping: /amazon/i.test(s.name||'') ? 'Varies' : 'See retailer',
+    isLowest: idx===0
+  }));
 }
-function setSort(el) {
-  document.querySelectorAll('.dn-sort-btn').forEach(c => c.classList.remove('on'));
-  el.classList.add('on'); S.sort = el.dataset.sort; applyFilters();
-}
-
-// ── Core filter + sort ──
-function applyFilters() {
+function discountPct(sale, orig){ return (!orig || !sale || orig <= sale) ? 0 : Math.round((1 - sale/orig) * 100); }
+function starsHtml(r){ const rounded=Math.round(Number(r||0)); return '★'.repeat(rounded)+'☆'.repeat(5-rounded); }
+function toggleBrand(el){ const b=el.dataset.brand; el.classList.toggle('on'); S.brands.has(b)?S.brands.delete(b):S.brands.add(b); applyFilters(); }
+function toggleType(el){ const t=el.dataset.type; el.classList.toggle('on'); S.types.has(t)?S.types.delete(t):S.types.add(t); applyFilters(); }
+function toggleStar(el){ const val=parseFloat(el.dataset.val); const already=S.minRating===val; document.querySelectorAll('.dn-chip.star').forEach(c=>c.classList.remove('on')); S.minRating = already ? null : val; if (!already) el.classList.add('on'); applyFilters(); }
+function setSort(el){ document.querySelectorAll('.dn-sort-btn').forEach(c=>c.classList.remove('on')); el.classList.add('on'); S.sort=el.dataset.sort; applyFilters(); }
+function setView(el){ document.querySelectorAll('.dn-view-btn').forEach(c=>c.classList.remove('on')); el.classList.add('on'); S.view=el.dataset.view || 'list'; renderResults(); }
+function applyFilters(){
   S.minP = parseFloat(document.getElementById('p-min').value) || null;
   S.maxP = parseFloat(document.getElementById('p-max').value) || null;
-
-  current = rawProducts.filter(p => {
+  current = rawProducts.filter(p=>{
+    const hay = productHaystack(p);
     if (S.brands.size && !S.brands.has(p.brand)) return false;
-    if (S.minP !== null && p.salePrice < S.minP) return false;
-    if (S.maxP !== null && p.salePrice > S.maxP) return false;
-    if (S.minRating !== null && p.rating < S.minRating) return false;
-    if (S.types.size) {
-      const hay = `${p.name} ${p.summary} ${p.highlights?.join(' ')||''}`.toLowerCase();
-      if (![...S.types].some(t => hay.includes(t.split('/')[0].toLowerCase()))) return false;
-    }
+    if (S.minP!==null && Number(p.salePrice) < S.minP) return false;
+    if (S.maxP!==null && Number(p.salePrice) > S.maxP) return false;
+    if (S.minRating!==null && Number(p.rating) < S.minRating) return false;
+    if (S.types.size && ![...S.types].some(t=>hay.includes(String(t).toLowerCase().replace(/[^a-z0-9]+/g,' ')) || hay.includes(String(t).toLowerCase().split(' ')[0]))) return false;
     return true;
   });
-
-  if (S.sort === 'price-low')  current.sort((a,b) => a.salePrice - b.salePrice);
-  else if (S.sort === 'price-high') current.sort((a,b) => b.salePrice - a.salePrice);
-  else if (S.sort === 'rating')     current.sort((a,b) => b.rating - a.rating || b.reviews - a.reviews);
-  else                              current.sort((a,b) => b.rating - a.rating || a.salePrice - b.salePrice);
-
+  if (S.sort==='price-low') current.sort((a,b)=>a.salePrice-b.salePrice);
+  else if (S.sort==='price-high') current.sort((a,b)=>b.salePrice-a.salePrice);
+  else if (S.sort==='rating') current.sort((a,b)=>(b.rating-a.rating)||(b.reviews-a.reviews));
+  else current.sort((a,b)=>(b.rating-a.rating)||(a.salePrice-b.salePrice));
   renderTags();
-  renderGrid();
+  renderResults();
 }
-
-// ── Active tags ──
-function renderTags() {
-  const tags = [];
-  S.brands.forEach(b  => tags.push(`<span class="dn-tag">${escapeHtml(b)}<button onclick="removeBrand('${escapeAttribute(b)}')">×</button></span>`));
-  if (S.minP || S.maxP) tags.push(`<span class="dn-tag">A$${S.minP||0}–${S.maxP ? 'A$'+S.maxP : '∞'}<button onclick="removePrice()">×</button></span>`);
-  if (S.minRating)      tags.push(`<span class="dn-tag">★ ${S.minRating}+<button onclick="removeStar()">×</button></span>`);
-  S.types.forEach(t   => tags.push(`<span class="dn-tag">${escapeHtml(t)}<button onclick="removeType('${escapeAttribute(t)}')">×</button></span>`));
-  if (tags.length) tags.push(`<button class="dn-clear" onclick="clearAll()">Clear all</button>`);
+function renderTags(){
+  const tags=[];
+  S.brands.forEach(b=>tags.push(`<span class="dn-tag">${escapeHtml(b)}<button data-remove-brand="${escapeAttribute(b)}">×</button></span>`));
+  if (S.minP || S.maxP) tags.push(`<span class="dn-tag">A$${S.minP||0}–${S.maxP ? 'A$'+S.maxP : '∞'}<button data-remove-price="1">×</button></span>`);
+  if (S.minRating) tags.push(`<span class="dn-tag">★ ${S.minRating}+<button data-remove-star="1">×</button></span>`);
+  S.types.forEach(t=>tags.push(`<span class="dn-tag">${escapeHtml(t)}<button data-remove-type="${escapeAttribute(t)}">×</button></span>`));
+  if (tags.length) tags.push('<button class="dn-clear" id="clear-all">Clear all</button>');
   document.getElementById('active-tags').innerHTML = tags.join('');
+  document.querySelectorAll('[data-remove-brand]').forEach(el=>el.addEventListener('click',()=>removeBrand(el.dataset.removeBrand)));
+  document.querySelectorAll('[data-remove-type]').forEach(el=>el.addEventListener('click',()=>removeType(el.dataset.removeType)));
+  document.querySelectorAll('[data-remove-price]').forEach(el=>el.addEventListener('click',removePrice));
+  document.querySelectorAll('[data-remove-star]').forEach(el=>el.addEventListener('click',removeStar));
+  document.getElementById('clear-all')?.addEventListener('click', clearAll);
 }
-
-function removeBrand(b) { S.brands.delete(b); document.querySelectorAll(`.dn-chip[data-brand="${b}"]`).forEach(c=>c.classList.remove('on')); applyFilters(); }
-function removePrice()  { S.minP=S.maxP=null; document.getElementById('p-min').value=''; document.getElementById('p-max').value=''; applyFilters(); }
-function removeStar()   { S.minRating=null; document.querySelectorAll('.dn-chip.star').forEach(c=>c.classList.remove('on')); applyFilters(); }
-function removeType(t)  { S.types.delete(t); document.querySelectorAll(`.dn-chip[data-type="${t}"]`).forEach(c=>c.classList.remove('on')); applyFilters(); }
-function clearAll() {
-  S.brands.clear(); S.types.clear(); S.minP=S.maxP=S.minRating=null;
-  document.getElementById('p-min').value=''; document.getElementById('p-max').value='';
-  document.querySelectorAll('.dn-chip').forEach(c=>c.classList.remove('on'));
-  applyFilters();
-}
-
-// ── Render ──
-function starsHtml(r) {
-  const full = Math.round(r);
-  return '★'.repeat(full) + '☆'.repeat(5-full);
-}
-function discountPct(sale, orig) {
-  if (!orig || !sale || orig <= sale) return 0;
-  return Math.round((1 - sale/orig) * 100);
-}
-
-function renderGrid() {
-  document.getElementById('res-count').innerHTML = `<strong>${current.length}</strong> products found`;
-  const el = document.getElementById('product-grid');
-  if (!current.length) {
-    el.innerHTML = '<div class="empty" style="grid-column:1/-1;padding:28px;text-align:center">No products match your filters. <button onclick="clearAll()" style="background:none;border:none;cursor:pointer;color:var(--accent);text-decoration:underline;font-size:14px">Clear filters</button></div>';
-    return;
-  }
-
-  el.innerHTML = current.map(p => {
-    const disc = discountPct(p.salePrice, p.price);
-    const imgSrc = escapeAttribute(normalizeImage(p));
-    const link = productLink(p);
-    // Show up to 3 store buttons
-    const storeBtns = (p.stores || []).slice(0, 3).map((s, i) =>
-      `<a class="dn-store-btn${i===0?' primary':''}" href="${escapeAttribute(buildAffiliateUrl(s.name, s.url, p.name))}" target="_blank" rel="noopener sponsored">${escapeHtml(s.name)}</a>`
-    ).join('');
-
-    return `
-    <article class="dn-card" onclick="location.href='${link}'">
-      <div class="dn-card-img">
-        <img src="${imgSrc}" alt="${escapeAttribute(p.name)}" data-category="${escapeAttribute(p.category)}" loading="lazy">
-      </div>
-      <div class="dn-card-body">
-        <div class="dn-card-brand">${escapeHtml(p.brand)}</div>
-        <a class="dn-card-name" href="${link}" onclick="event.stopPropagation()">${escapeHtml(p.name)}</a>
-        <p class="dn-card-summary">${escapeHtml(p.summary||'')}</p>
-        <div class="dn-card-price">
-          <span class="dn-sale">${currency(p.salePrice)}</span>
-          ${p.price > p.salePrice ? `<span class="dn-orig">${currency(p.price)}</span>` : ''}
-          ${disc ? `<span class="dn-discount">-${disc}%</span>` : ''}
-        </div>
-        <div class="dn-card-meta">
-          <span class="dn-stars">${starsHtml(p.rating)}</span>
-          <span>${p.rating?.toFixed(1)} (${p.reviews?.toLocaleString()} reviews)</span>
-        </div>
-        <div class="dn-card-stores" onclick="event.stopPropagation()">
-          ${storeBtns}
-        </div>
-      </div>
-    </article>`;
-  }).join('');
-
-  enhanceImages(el);
-}
+function removeBrand(b){ S.brands.delete(b); document.querySelectorAll(`[data-brand="${CSS.escape(b)}"]`).forEach(c=>c.classList.remove('on')); applyFilters(); }
+function removeType(t){ S.types.delete(t); document.querySelectorAll(`[data-type="${CSS.escape(t)}"]`).forEach(c=>c.classList.remove('on')); applyFilters(); }
+function removePrice(){ S.minP=S.maxP=null; document.getElementById('p-min').value=''; document.getElementById('p-max').value=''; applyFilters(); }
+function removeStar(){ S.minRating=null; document.querySelectorAll('.dn-chip.star').forEach(c=>c.classList.remove('on')); applyFilters(); }
+function clearAll(){ S.brands.clear(); S.types.clear(); S.minP=S.maxP=S.minRating=null; document.getElementById('p-min').value=''; document.getElementById('p-max').value=''; document.querySelectorAll('.dn-chip').forEach(c=>c.classList.remove('on')); applyFilters(); }
+function renderResults(){ const el=document.getElementById('product-grid'); el.className = S.view==='grid' ? 'dn-grid' : 'dn-results dn-list'; renderCount(); if (!current.length) { el.innerHTML='<div class="empty" style="padding:28px;text-align:center">No products match your filters.</div>'; return; } if (S.view==='grid') return renderGrid(el); return renderList(el); }
+function renderCount(){ const prices=current.map(p=>Number(p.salePrice)).filter(Boolean); const minPrice=prices.length?Math.min(...prices):null; document.getElementById('res-count').innerHTML = `<strong>${current.length}</strong> products found${minPrice!==null ? ` · from <strong>${currency(minPrice)}</strong>` : ''}`; }
+function renderList(el){ el.innerHTML = current.map(p=>{ const disc=discountPct(p.salePrice,p.price); const offers=offerRows(p); const specs=inferSpecPills(p).map(s=>`<span class="dn-spec-pill">${escapeHtml(s)}</span>`).join(''); const info=`<span class="dn-info-pill"><span class="dn-stars">${starsHtml(p.rating)}</span>&nbsp;${Number(p.rating||0).toFixed(1)}</span><span class="dn-info-pill">${Number(p.reviews||0).toLocaleString()} reviews</span><span class="dn-info-pill">${(p.stores||[]).length} stores</span>`; return `<article class="dn-row" onclick="location.href='${productLink(p)}'"><div class="dn-row-media"><img src="${escapeAttribute(normalizeImage(p))}" alt="${escapeAttribute(p.name)}" data-category="${escapeAttribute(p.category)}" data-slug="${escapeAttribute(p.slug)}" loading="lazy"></div><div class="dn-row-main"><div class="dn-brandline"><span class="dn-brand-badge">${escapeHtml(p.brand)}</span><span class="dn-badge-soft">${escapeHtml(currentCat.name)}</span>${disc?`<span class="dn-badge-soft">Save ${disc}%</span>`:''}</div><a class="dn-row-name" href="${productLink(p)}" onclick="event.stopPropagation()">${escapeHtml(p.name)}</a><p class="dn-row-summary">${escapeHtml(p.summary||'')}</p><div class="dn-specs">${specs}</div><div class="dn-row-meta"><span class="dn-stars">${starsHtml(p.rating)}</span><span>${Number(p.rating||0).toFixed(1)}</span><span>${Number(p.reviews||0).toLocaleString()} reviews</span><span>${(p.stores||[]).length} stores compared</span></div><div class="dn-info-tags">${info}</div></div><div class="dn-row-stores"><div class="dn-row-pricebox"><div class="dn-row-pricehead">Lowest guide price</div><div class="dn-row-sale">${currency(p.salePrice)}</div>${p.price>p.salePrice?`<div class="dn-row-orig">${currency(p.price)}</div>`:''}</div><div class="dn-stores-head"><div>Store</div><div>Price</div><div>Shipping</div><div></div></div>${offers.map(o=>`<div class="dn-offer-row"><div class="dn-offer-store"><strong>${escapeHtml(o.name)}</strong>${o.isLowest?'<span class="dn-lowest">LOWEST</span>':''}</div><div class="dn-offer-price">${currency(o.guidePrice)}</div><div class="dn-offer-ship">${escapeHtml(o.shipping)}</div><a class="dn-offer-open" href="${escapeAttribute(o.url)}" target="_blank" rel="noopener sponsored" onclick="event.stopPropagation()">Open</a></div>`).join('')}</div><div class="dn-row-cta"><a class="dn-compare-btn" href="${productLink(p)}" onclick="event.stopPropagation()">Compare</a></div></article>`; }).join(''); enhanceImages(el); if (typeof loadEbayImagesForCards==='function') loadEbayImagesForCards(current.slice(0,6)); }
+function renderGrid(el){ el.innerHTML = current.map(p=>{ const disc=discountPct(p.salePrice,p.price); const offers=offerRows(p); return `<article class="dn-card" onclick="location.href='${productLink(p)}'"><div class="dn-card-img"><img src="${escapeAttribute(normalizeImage(p))}" alt="${escapeAttribute(p.name)}" data-category="${escapeAttribute(p.category)}" data-slug="${escapeAttribute(p.slug)}" loading="lazy"></div><div class="dn-card-body"><div class="dn-card-brand">${escapeHtml(p.brand)}</div><a class="dn-card-name" href="${productLink(p)}" onclick="event.stopPropagation()">${escapeHtml(p.name)}</a><p class="dn-card-summary">${escapeHtml(p.summary||'')}</p><div class="dn-card-price"><span class="dn-sale">${currency(p.salePrice)}</span>${p.price>p.salePrice?`<span class="dn-orig">${currency(p.price)}</span>`:''}${disc?`<span class="dn-discount">-${disc}%</span>`:''}</div><div class="dn-card-meta"><span class="dn-stars">${starsHtml(p.rating)}</span><span>${Number(p.rating||0).toFixed(1)} (${Number(p.reviews||0).toLocaleString()} reviews)</span></div><div class="dn-card-stores" onclick="event.stopPropagation()">${offers.map((o,i)=>`<a class="dn-store-btn${i===0?' primary':''}" href="${escapeAttribute(o.url)}" target="_blank" rel="noopener sponsored">${escapeHtml(o.name)}</a>`).join('')}</div></div></article>`; }).join(''); enhanceImages(el); if (typeof loadEbayImagesForCards==='function') loadEbayImagesForCards(current.slice(0,6)); }
 </script>
 </body>
 </html>
