@@ -1,230 +1,488 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="assets/style.css">
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RRL35ZW8MO"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-RRL35ZW8MO');
-</script><title>Product | CampMate Australia</title><link rel="stylesheet" href="assets/product-ui-copy-patch.css">
-</head><body><header class="topbar"><div class="container nav"><a class="logo" href="index.html"><span class="logo-badge">⛺</span><span>CampMate Australia</span></a><nav class="nav-links"><a href="index.html">Home</a><a href="categories.html">Categories</a><a href="popular.html">Popular</a><a href="guides.html">Guides</a></nav><form class="nav-search" data-search-form><input class="input" name="q" placeholder="Search tents, coolers, chairs..."><button class="btn" type="submit">Search</button></form></div></header><main class="page-hero"><div class="container"><div class="breadcrumb"><a href="index.html">Home</a> · <a href="popular.html">Products</a> · <span id="product-crumb">Product</span></div><div id="product-wrap" class="product-layout"><section class="card product-box"><div class="thumb" style="border-radius:20px;margin-bottom:18px"><img id="product-image" alt="" data-category="tents"></div><div class="badge">Review to compare page</div><h1 id="product-title" style="margin-bottom:10px">Loading…</h1><div id="product-meta" class="meta"></div><div class="price-row"><span class="sale" id="sale-price"></span><span class="old" id="old-price"></span></div><p id="product-summary"></p><div class="card" style="margin-top:18px;padding:18px"><strong>Why this page exists</strong><p class="muted" style="margin-top:8px">CampMate uses product pages as simple buying checkpoints: see the basics, review current marketplace pricing and then open trusted store links.</p></div><div style="height:18px"></div><h2>Store compare links</h2><div id="store-list" class="list"></div></section><aside class="card product-box price-panel"><h2 style="margin-top:12px">Current eBay listings</h2><div id="live-price-box" class="live-price"><strong id="ebay-status">Loading live eBay results…</strong><p id="ebay-copy" class="muted">This may take a few seconds on first load.</p></div><div style="height:16px"></div><a id="ebay-open" class="btn" target="_blank" rel="noopener" href="#">View on eBay</a><div class="card" style="margin-top:16px;padding:16px"><strong>Affiliate note</strong><p class="muted" style="margin-top:8px">Some outbound links on CampMate may be affiliate links. That does not change the price you pay.</p><div style="margin-top:10px"><a href="disclosure.html">Read disclosure</a></div></div></aside></div></div></main><footer class="footer"><div class="container footer-grid"><div><div class="logo" style="margin-bottom:12px"><span class="logo-badge">⛺</span><span>CampMate Australia</span></div><p>CampMate helps Australian campers discover useful gear, compare current listings and click through to trusted stores.</p><p class="muted" style="margin-top:12px">Disclosure: CampMate may earn commissions from affiliate links at no additional cost to you.</p></div><div><strong>Browse</strong><div class="list" style="margin-top:12px"><a href="categories.html">All categories</a><a href="popular.html">Popular products</a><a href="guides.html">Guides</a></div></div><div><strong>About</strong><div class="list" style="margin-top:12px"><a href="about.html">About CampMate</a><a href="contact.html">Contact</a><a href="disclosure.html">Affiliate disclosure</a></div></div></div></footer><script src="assets/common.js"></script><script>
-const AMAZON_TAG = 'campmateau20-22';
-const AMAZON_BASE = 'https://www.amazon.com.au/s';
-
-setupSearchForm();
-
-getJson('data/products.json')
-  .then(products => {
-    const slug = getSafeSlug();
-    const product = findProduct(products, slug);
-
-    if (!product) {
-      renderNotFound(slug);
-      return;
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product | CampMate Australia</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/product-ui-copy-patch.css">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RRL35ZW8MO"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-RRL35ZW8MO');
+  </script>
+  <style>
+    .compare-card {
+      margin-top: 18px;
+      padding: 18px;
+      border-radius: 18px;
+      background: rgba(9, 28, 67, 0.45);
+      border: 1px solid rgba(255,255,255,0.06);
     }
+    .compare-title {
+      margin: 0 0 12px;
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+    .compare-list {
+      display: grid;
+      gap: 12px;
+    }
+    .compare-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1.3fr) auto auto;
+      gap: 12px;
+      align-items: center;
+      padding: 14px;
+      border-radius: 14px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.05);
+    }
+    .compare-store {
+      min-width: 0;
+    }
+    .compare-store strong {
+      display: block;
+      font-size: 0.98rem;
+    }
+    .compare-store .muted {
+      font-size: 0.86rem;
+      margin-top: 2px;
+    }
+    .compare-price {
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .compare-price.na {
+      opacity: 0.7;
+      font-weight: 500;
+    }
+    .compare-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 14px;
+    }
+    .store-pill {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 42px;
+      padding: 0 14px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 700;
+      background: linear-gradient(135deg, #4ce1f2, #61d4ff);
+      color: #08162e;
+      box-shadow: 0 8px 20px rgba(50,190,255,0.15);
+    }
+    .store-pill.secondary {
+      background: rgba(255,255,255,0.06);
+      color: #d7e5ff;
+      box-shadow: none;
+    }
+    .compare-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      background: rgba(76, 225, 242, 0.12);
+      color: #7be9ff;
+      margin-bottom: 10px;
+    }
+    .compare-note {
+      margin-top: 10px;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 820px) {
+      .compare-row {
+        grid-template-columns: 1fr;
+      }
+      .compare-price {
+        margin-top: -2px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="logo" href="index.html">
+        <span class="logo-badge">⛺</span>
+        <span>CampMate Australia</span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="categories.html">Categories</a>
+        <a href="popular.html">Popular</a>
+        <a href="guides.html">Guides</a>
+      </nav>
+      <form class="nav-search" data-search-form>
+        <input class="input" name="q" placeholder="Search tents, coolers, chairs...">
+        <button class="btn" type="submit">Search</button>
+      </form>
+    </div>
+  </header>
 
-    document.title = `${product.name} | CampMate Australia`;
-    document.getElementById('product-crumb').textContent = product.name;
-
-    const img = document.getElementById('product-image');
-    img.src = normalizeImage(product);
-    img.alt = product.name;
-    img.dataset.category = product.category || '';
-    attachImgFallback(img, product.category);
-
-    document.getElementById('product-title').textContent = product.name;
-    document.getElementById('product-summary').textContent =
-      product.summary || product.description || 'No summary available.';
-
-    document.getElementById('product-meta').innerHTML = `
-      <span>${product.brand || ''}</span>
-      <span>${(product.category || '').replace('-', ' ')}</span>
-      <span>${stars(product.rating || 4.2)}</span>
-      <span>${product.reviews || product.reviewCount || 0} reviews</span>
-    `;
-
-    document.getElementById('sale-price').textContent =
-      product.salePrice ? currency(product.salePrice) : '';
-
-    document.getElementById('old-price').textContent =
-      product.price ? currency(product.price) : '';
-
-    const stores = buildStoreList(product);
-    document.getElementById('store-list').innerHTML = stores
-      .map(store => `
-        <a class="store" target="_blank" rel="noopener" href="${store.url}">
-          <div>
-            <strong>${store.name}</strong>
-            <div class="muted">${store.type === 'search' ? 'Matching product search' : 'Direct listing'}</div>
-          </div>
-          <span class="btn secondary small">Open</span>
-        </a>
-      `)
-      .join('');
-
-    const ebayStore = stores.find(store => /ebay/i.test(store.name));
-    document.getElementById('ebay-open').href = ebayStore?.url || '#';
-
-    loadLivePrice(product);
-    injectSchema(product, stores);
-  })
-  .catch(err => {
-    console.error(err);
-    renderNotFound('');
-  });
-
-function getSafeSlug() {
-  const url = new URL(window.location.href);
-
-  const fromSlug = url.searchParams.get('slug');
-  if (fromSlug && fromSlug.trim()) return fromSlug.trim();
-
-  const fromId = url.searchParams.get('id');
-  if (fromId && fromId.trim()) return fromId.trim();
-
-  return '';
-}
-
-function normalizeSlugValue(value) {
-  return String(value || '')
-    .trim()
-    .toLowerCase()
-    .replace(/\.html$/i, '')
-    .replace(/[%]/g, '')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
-}
-
-function findProduct(products, slug) {
-  if (!slug) return null;
-
-  const target = normalizeSlugValue(slug);
-
-  return products.find(product => {
-    const productSlug = normalizeSlugValue(product.slug || '');
-    const productName = normalizeSlugValue(product.name || '');
-    return productSlug === target || productName === target;
-  }) || null;
-}
-
-function buildAmazonSearchUrl(product) {
-  const url = new URL(AMAZON_BASE);
-  url.searchParams.set('k', product.name || 'camping gear');
-  url.searchParams.set('tag', AMAZON_TAG);
-  return url.toString();
-}
-
-function buildStoreList(product) {
-  const originalStores = Array.isArray(product.stores) ? product.stores.filter(Boolean) : [];
-  const hasAmazon = originalStores.some(store => /amazon/i.test(store.name || ''));
-
-  const stores = [...originalStores];
-
-  if (!hasAmazon) {
-    stores.unshift({
-      name: 'Amazon AU',
-      url: buildAmazonSearchUrl(product),
-      type: 'search'
-    });
-  }
-
-  return stores;
-}
-
-function renderNotFound(slug) {
-  document.title = 'Product not found | CampMate Australia';
-  document.getElementById('product-crumb').textContent = 'Product not found';
-  document.getElementById('product-title').textContent = 'Product not found';
-  document.getElementById('product-summary').textContent =
-    slug
-      ? `We could not find a product matching "${slug}". Please return to the compare pages.`
-      : 'No product was selected. Please return to the compare pages.';
-
-  document.getElementById('product-meta').innerHTML = '';
-  document.getElementById('sale-price').textContent = '';
-  document.getElementById('old-price').textContent = '';
-  document.getElementById('store-list').innerHTML = `
-    <a class="store" href="popular.html">
-      <div>
-        <strong>Back to products</strong>
-        <div class="muted">Browse CampMate compare pages</div>
+  <main class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a> · <a href="popular.html">Products</a> · <span id="product-crumb">Product</span>
       </div>
-      <span class="btn secondary small">Open</span>
-    </a>
-  `;
 
-  const img = document.getElementById('product-image');
-  img.removeAttribute('src');
-  img.alt = 'Product not found';
+      <div id="product-wrap" class="product-layout">
+        <section class="card product-box">
+          <div class="thumb" style="border-radius:20px;margin-bottom:18px">
+            <img id="product-image" alt="" data-category="tents">
+          </div>
 
-  document.getElementById('ebay-status').textContent = 'No live product selected';
-  document.getElementById('ebay-copy').textContent = 'Open a valid compare page to view current listings.';
-  document.getElementById('ebay-open').href = 'popular.html';
-}
+          <div class="badge">Review to compare page</div>
+          <h1 id="product-title" style="margin-bottom:10px">Loading…</h1>
+          <div id="product-meta" class="meta"></div>
 
-function injectSchema(product, stores){
-  const schema = {
-    "@context":"https://schema.org",
-    "@type":"Product",
-    "name": product.name,
-    "description": product.summary || product.description || "",
-    "category": product.categoryName || product.category || "",
-    "brand": {"@type":"Brand","name": product.brand || "CampMate"},
-    "offers": {
-      "@type":"Offer",
-      "priceCurrency":"AUD",
-      "price": product.salePrice || product.price || "",
-      "availability":"https://schema.org/InStock",
-      "url": stores?.[0]?.url || location.href
+          <div class="price-row">
+            <span class="sale" id="sale-price"></span>
+            <span class="old" id="old-price"></span>
+          </div>
+
+          <p id="product-summary"></p>
+
+          <div class="compare-card">
+            <div class="compare-badge">Compare stores</div>
+            <h2 class="compare-title">Shop links and price compare</h2>
+            <div id="store-list" class="compare-list"></div>
+            <div id="store-actions" class="compare-actions"></div>
+            <p class="muted compare-note">CampMate shows store search links and live marketplace results so shoppers can compare before buying.</p>
+          </div>
+
+          <div class="card" style="margin-top:18px;padding:18px">
+            <strong>Why this page exists</strong>
+            <p class="muted" style="margin-top:8px">CampMate uses product pages as simple buying checkpoints: see the basics, compare store options and then open trusted retailer links.</p>
+          </div>
+        </section>
+
+        <aside class="card product-box price-panel">
+          <h2 style="margin-top:12px">Current eBay listings</h2>
+          <div id="live-price-box" class="live-price">
+            <strong id="ebay-status">Loading live eBay results…</strong>
+            <p id="ebay-copy" class="muted">This may take a few seconds on first load.</p>
+          </div>
+          <div style="height:16px"></div>
+          <a id="ebay-open" class="btn" target="_blank" rel="noopener" href="#">View on eBay</a>
+
+          <div class="card" style="margin-top:16px;padding:16px">
+            <strong>Affiliate note</strong>
+            <p class="muted" style="margin-top:8px">Some outbound links on CampMate may be affiliate links. That does not change the price you pay.</p>
+            <div style="margin-top:10px"><a href="disclosure.html">Read disclosure</a></div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo" style="margin-bottom:12px"><span class="logo-badge">⛺</span><span>CampMate Australia</span></div>
+        <p>CampMate helps Australian campers discover useful gear, compare current listings and click through to trusted stores.</p>
+        <p class="muted" style="margin-top:12px">Disclosure: CampMate may earn commissions from affiliate links at no additional cost to you.</p>
+      </div>
+      <div>
+        <strong>Browse</strong>
+        <div class="list" style="margin-top:12px">
+          <a href="categories.html">All categories</a>
+          <a href="popular.html">Popular products</a>
+          <a href="guides.html">Guides</a>
+        </div>
+      </div>
+      <div>
+        <strong>About</strong>
+        <div class="list" style="margin-top:12px">
+          <a href="about.html">About CampMate</a>
+          <a href="contact.html">Contact</a>
+          <a href="disclosure.html">Affiliate disclosure</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/common.js"></script>
+  <script>
+    const AMAZON_TAG = 'campmateau20-22';
+
+    setupSearchForm();
+
+    getJson('data/products.json')
+      .then(products => {
+        const slug = getSafeSlug();
+        const product = findProduct(products, slug);
+
+        if (!product) {
+          renderNotFound(slug);
+          return;
+        }
+
+        renderProduct(product);
+        loadLivePrice(product);
+        injectSchema(product);
+      })
+      .catch(err => {
+        console.error(err);
+        renderNotFound('');
+      });
+
+    function getSafeSlug() {
+      const url = new URL(window.location.href);
+      const fromSlug = url.searchParams.get('slug');
+      if (fromSlug && fromSlug.trim()) return fromSlug.trim();
+      const fromId = url.searchParams.get('id');
+      if (fromId && fromId.trim()) return fromId.trim();
+      return '';
     }
-  };
-  const el = document.createElement('script');
-  el.type='application/ld+json';
-  el.textContent = JSON.stringify(schema);
-  document.head.appendChild(el);
-}
 
-async function loadLivePrice(product){
-  try{
-    const res = await fetch(`/api/ebay-search?q=${encodeURIComponent(product.name)}`);
-    const data = await res.json();
-
-    if(!res.ok || data.error) throw new Error(data.error || 'API failed');
-
-    const first = data.products?.[0];
-
-    if(first?.image && first.image.length > 0){
-      const mainImg = document.getElementById('product-image');
-      mainImg.src = first.image;
-      mainImg.style.objectFit = 'contain';
-      mainImg.style.background = '#fff';
-      mainImg.style.padding = '12px';
+    function normalizeSlugValue(value) {
+      return String(value || '')
+        .trim()
+        .toLowerCase()
+        .replace(/\.html$/i, '')
+        .replace(/[%]/g, '')
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '');
     }
 
-    if(first?.price && first.price !== ""){
-      const saleEl = document.getElementById('sale-price');
-      const oldEl = document.getElementById('old-price');
-      saleEl.textContent = `A$${parseFloat(first.price).toFixed(2)}`;
-      oldEl.textContent = '';
+    function findProduct(products, slug) {
+      if (!slug) return null;
+      const target = normalizeSlugValue(slug);
+      return products.find(product => {
+        const productSlug = normalizeSlugValue(product.slug || '');
+        const productName = normalizeSlugValue(product.name || '');
+        return productSlug === target || productName === target;
+      }) || null;
     }
 
-    if(!first){
-      document.getElementById('ebay-status').textContent = 'No live eBay price found right now';
-      document.getElementById('ebay-copy').textContent = 'You can still use the compare links below.';
-      return;
+    function renderProduct(product) {
+      document.title = `${product.name} | CampMate Australia`;
+      document.getElementById('product-crumb').textContent = product.name;
+
+      const img = document.getElementById('product-image');
+      img.src = normalizeImage(product);
+      img.alt = product.name;
+      img.dataset.category = product.category || '';
+      attachImgFallback(img, product.category);
+
+      document.getElementById('product-title').textContent = product.name;
+      document.getElementById('product-summary').textContent = product.summary || product.description || 'No summary available.';
+      document.getElementById('product-meta').innerHTML = `
+        <span>${product.brand || ''}</span>
+        <span>${(product.category || '').replace('-', ' ')}</span>
+        <span>${stars(product.rating || 4.2)}</span>
+        <span>${product.reviews || product.reviewCount || 0} reviews</span>
+      `;
+      document.getElementById('sale-price').textContent = product.salePrice ? currency(product.salePrice) : '';
+      document.getElementById('old-price').textContent = product.price ? currency(product.price) : '';
+
+      renderStoreCompare(product);
     }
 
-    document.getElementById('ebay-status').textContent = `${first.price ?? 'N/A'} · ${first.title}`;
-    document.getElementById('ebay-copy').textContent = `${data.total || data.products.length} result(s) found on eBay AU.`;
+    function renderStoreCompare(product) {
+      const storeList = document.getElementById('store-list');
+      const storeActions = document.getElementById('store-actions');
+      const stores = normalizeStores(product);
 
-    if(first.link) {
-      document.getElementById('ebay-open').href = first.link;
+      if (!stores.length) {
+        storeList.innerHTML = `
+          <div class="compare-row">
+            <div class="compare-store">
+              <strong>No store links yet</strong>
+              <div class="muted">Add retailer search links in products.json.</div>
+            </div>
+            <div class="compare-price na">—</div>
+            <div></div>
+          </div>
+        `;
+        storeActions.innerHTML = '';
+        return;
+      }
+
+      storeList.innerHTML = stores.map((store, index) => `
+        <div class="compare-row">
+          <div class="compare-store">
+            <strong>${escapeHtml(store.name)}</strong>
+            <div class="muted">${escapeHtml(store.typeLabel)}</div>
+          </div>
+          <div class="compare-price ${store.priceText === 'Search store' ? 'na' : ''}">${escapeHtml(store.priceText)}</div>
+          <a class="store-pill ${index === 0 ? '' : 'secondary'}" target="_blank" rel="noopener sponsored" href="${escapeAttribute(store.url)}">Open</a>
+        </div>
+      `).join('');
+
+      const featured = stores.slice(0, 4);
+      storeActions.innerHTML = featured.map((store, index) => `
+        <a class="store-pill ${index === 0 ? '' : 'secondary'}" target="_blank" rel="noopener sponsored" href="${escapeAttribute(store.url)}">View on ${escapeHtml(store.shortName)}</a>
+      `).join('');
     }
-  } catch(err){
-    console.error(err);
-    document.getElementById('ebay-status').textContent = 'Live eBay pricing unavailable right now';
-    document.getElementById('ebay-copy').textContent = 'Please try again shortly or use the compare links below.';
-  }
-}
-</script><script src="assets/product-ui-copy-patch.js"></script></body></html>
+
+    function normalizeStores(product) {
+      const stores = Array.isArray(product.stores) ? product.stores : [];
+      return stores.map((store, index) => {
+        const rawName = store?.name || `Store ${index + 1}`;
+        const url = buildAffiliateUrl(rawName, store?.url || '#', product.name || '');
+        return {
+          name: rawName,
+          shortName: rawName.replace(/\s+(AU|Australia)$/i, ''),
+          url,
+          typeLabel: store?.type === 'search' ? 'Search store results' : 'Direct product page',
+          priceText: guessStorePriceText(product, rawName)
+        };
+      });
+    }
+
+    function buildAffiliateUrl(name, url, productName) {
+      let finalUrl = String(url || '#').trim();
+      if (!finalUrl || finalUrl === '#') return '#';
+
+      const lowerName = String(name || '').toLowerCase();
+      const isAmazon = lowerName.includes('amazon');
+
+      if (isAmazon) {
+        try {
+          const parsed = new URL(finalUrl, window.location.origin);
+          if (!parsed.searchParams.get('tag')) {
+            parsed.searchParams.set('tag', AMAZON_TAG);
+          }
+          finalUrl = parsed.toString();
+        } catch {
+          const encodedName = encodeURIComponent(productName || 'camping gear');
+          finalUrl = `https://www.amazon.com.au/s?k=${encodedName}&tag=${AMAZON_TAG}`;
+        }
+      }
+
+      return finalUrl;
+    }
+
+    function guessStorePriceText(product, storeName) {
+      if (/ebay/i.test(storeName)) {
+        return product.salePrice ? currency(product.salePrice) : 'Live market';
+      }
+      if (/amazon/i.test(storeName)) {
+        return 'Search store';
+      }
+      if (/bcf|anaconda|snowys|tentworld|wild earth/i.test(storeName)) {
+        return 'Search store';
+      }
+      return product.salePrice ? currency(product.salePrice) : 'Search store';
+    }
+
+    function renderNotFound(slug) {
+      document.title = 'Product not found | CampMate Australia';
+      document.getElementById('product-crumb').textContent = 'Product not found';
+      document.getElementById('product-title').textContent = 'Product not found';
+      document.getElementById('product-summary').textContent = slug
+        ? `We could not find a product matching "${slug}". Please return to the compare pages.`
+        : 'No product was selected. Please return to the compare pages.';
+      document.getElementById('product-meta').innerHTML = '';
+      document.getElementById('sale-price').textContent = '';
+      document.getElementById('old-price').textContent = '';
+      document.getElementById('store-list').innerHTML = `
+        <div class="compare-row">
+          <div class="compare-store">
+            <strong>Back to products</strong>
+            <div class="muted">Browse CampMate compare pages</div>
+          </div>
+          <div class="compare-price na">—</div>
+          <a class="store-pill secondary" href="popular.html">Open</a>
+        </div>
+      `;
+      document.getElementById('store-actions').innerHTML = '';
+      const img = document.getElementById('product-image');
+      img.removeAttribute('src');
+      img.alt = 'Product not found';
+      document.getElementById('ebay-status').textContent = 'No live product selected';
+      document.getElementById('ebay-copy').textContent = 'Open a valid compare page to view current listings.';
+      document.getElementById('ebay-open').href = 'popular.html';
+    }
+
+    function injectSchema(product) {
+      const schema = {
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        name: product.name,
+        description: product.summary || product.description || '',
+        category: product.categoryName || product.category || '',
+        brand: { '@type': 'Brand', name: product.brand || 'CampMate' },
+        offers: {
+          '@type': 'Offer',
+          priceCurrency: 'AUD',
+          price: product.salePrice || product.price || '',
+          availability: 'https://schema.org/InStock',
+          url: product.stores?.[0]?.url || location.href
+        }
+      };
+      const el = document.createElement('script');
+      el.type = 'application/ld+json';
+      el.textContent = JSON.stringify(schema);
+      document.head.appendChild(el);
+    }
+
+    async function loadLivePrice(product) {
+      try {
+        const res = await fetch(`/api/ebay-search?q=${encodeURIComponent(product.name)}`);
+        const data = await res.json();
+        if (!res.ok || data.error) throw new Error(data.error || 'API failed');
+
+        const first = data.products?.[0];
+
+        if (first?.image && first.image.length > 0) {
+          const mainImg = document.getElementById('product-image');
+          mainImg.src = first.image;
+          mainImg.style.objectFit = 'contain';
+          mainImg.style.background = '#fff';
+          mainImg.style.padding = '12px';
+        }
+
+        if (first?.price && first.price !== '') {
+          const saleEl = document.getElementById('sale-price');
+          const oldEl = document.getElementById('old-price');
+          saleEl.textContent = `A$${parseFloat(first.price).toFixed(2)}`;
+          oldEl.textContent = '';
+        }
+
+        if (!first) {
+          document.getElementById('ebay-status').textContent = 'No live eBay price found right now';
+          document.getElementById('ebay-copy').textContent = 'You can still use the compare links below.';
+          return;
+        }
+
+        document.getElementById('ebay-status').textContent = `${first.price ?? 'N/A'} · ${first.title}`;
+        document.getElementById('ebay-copy').textContent = `${data.total || data.products.length} result(s) found on eBay AU.`;
+        if (first.link) {
+          document.getElementById('ebay-open').href = first.link;
+        }
+      } catch (err) {
+        console.error(err);
+        document.getElementById('ebay-status').textContent = 'Live eBay pricing unavailable right now';
+        document.getElementById('ebay-copy').textContent = 'Please try again shortly or use the compare links below.';
+      }
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function escapeAttribute(value) {
+      return escapeHtml(value);
+    }
+  </script>
+  <script src="assets/product-ui-copy-patch.js"></script>
+</body>
+</html>
