@@ -17,7 +17,11 @@ export default {
       return handleGoogleSearch(request, env);
     }
 
-    return env.ASSETS.fetch(request);
+    // Static asset serving
+    if (env.ASSETS) {
+      return env.ASSETS.fetch(request);
+    }
+    return new Response('Not found', { status: 404 });
   },
 };
 
