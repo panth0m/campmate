@@ -73,3 +73,183 @@ function renderCategoryLanding(slug, options={}){
   const picksEl = document.getElementById('top-picks'); if (picksEl) picksEl.innerHTML = products.slice(0,4).map(p => `<div class="rowish"><div><strong>${escapeHtml(p.brand)} ${escapeHtml(p.name)}</strong><div class="muted">${escapeHtml(p.summary)}</div></div><div>${currency(p.salePrice)}</div></div>`).join('');
   const faqEl = document.getElementById('faq-grid'); if (faqEl && Array.isArray(category.faq)) faqEl.innerHTML = category.faq.map(([q,a]) => `<article class="faq-item"><h3>${escapeHtml(q)}</h3><p class="muted">${escapeHtml(a)}</p></article>`).join('');
 }
+
+
+function deriveTags(product){
+  const text = `${product.name||''} ${product.summary||''} ${(product.highlights||[]).join(' ')}`.toLowerCase();
+  const tags = [];
+  const add = (cond, label) => { if (cond && !tags.includes(label)) tags.push(label); };
+  if (product.category === 'tents') {
+    add(/instant|fast frame|quick/.test(text), 'Instant');
+    add(/family|6p|8p|10 person|10p/.test(text), 'Family');
+    add(/swag/.test(text), 'Swag');
+    add(/touring/.test(text), 'Touring');
+    add(/lightweight/.test(text), 'Lightweight');
+  } else if (product.category === 'chairs') {
+    add(/padded/.test(text), 'Padded');
+    add(/recliner|lounger/.test(text), 'Recliner');
+    add(/lightweight|compact/.test(text), 'Lightweight');
+    add(/beach|low/.test(text), 'Beach');
+    add(/director/.test(text), 'Director');
+  } else if (product.category === 'coolers') {
+    add(/wheel|wheeled/.test(text), 'Wheeled');
+    add(/rotomold|rotomould/.test(text), 'Premium Ice');
+    add(/compact|small/.test(text), 'Compact');
+    add(/soft/.test(text), 'Soft Cooler');
+    add(/hard|ice box/.test(text), 'Hard Cooler');
+  } else if (product.category === 'stoves') {
+    add(/dual|2-burner|two-burner/.test(text), '2 Burner');
+    add(/single/.test(text), 'Single Burner');
+    add(/compact|portable/.test(text), 'Compact');
+    add(/backpacking|ultralight/.test(text), 'Backpacking');
+  } else if (product.category === 'lanterns') {
+    add(/rechargeable|usb/.test(text), 'Rechargeable');
+    add(/led/.test(text), 'LED');
+    add(/compact|portable/.test(text), 'Compact');
+    add(/string/.test(text), 'String Light');
+  } else if (product.category === 'sleep-systems') {
+    add(/sleeping bag|bag/.test(text), 'Sleeping Bag');
+    add(/mat|pad/.test(text), 'Mat');
+    add(/insulated|warm/.test(text), 'Insulated');
+    add(/lightweight|packable/.test(text), 'Lightweight');
+    add(/comfort|thick/.test(text), 'Comfort');
+  }
+  return tags;
+}
+function priceBand(product){
+  const p = Number(product.salePrice || product.price || 0);
+  if (p < 100) return 'Under $100';
+  if (p < 250) return '$100–$249';
+  if (p < 500) return '$250–$499';
+  return '$500+';
+}
+function productImage(product){ return escapeAttribute(normalizeImage(product)); }
+function comparisonStoreRows(product){
+  const stores = (product.stores || []).map(store => {
+    const label = store.name || 'Store';
+    const storePrice = store.price ? currency(store.price) : 'Search current price';
+    const shipping = store.shipping || 'See retailer';
+    const href = buildAffiliateUrl(label, store.url, `${product.brand} ${product.name}`);
+    return `<div class="mini-compare"><div class="store-name">${escapeHtml(label)}</div><div class="price-tag">${escapeHtml(storePrice)}</div><div class="muted">${escapeHtml(shipping)}</div><a class="btn secondary small" target="_blank" rel="noopener sponsored" href="${escapeAttribute(href)}">Open</a></div>`;
+  });
+  return `<div class="store-table"><div class="mini-compare header"><div>Store</div><div>Price</div><div>Shipping</div><div></div></div>${stores.join('')}</div>`;
+}
+function setupHomeStats(){
+  const holder = document.getElementById('home-stats');
+  if (!holder) return;
+  const products = getProducts();
+  const categories = getCategories();
+  const guides = window.CAMPMATE_GUIDES || [];
+  const brands = [...new Set(products.map(p => p.brand))];
+  holder.innerHTML = [
+    ['Products', String(products.length)],
+    ['Categories', String(categories.length)],
+    ['Guides', String(guides.length || 6)],
+    ['Brands', String(brands.length)]
+  ].map(([label,value]) => `<div class="stat"><strong>${escapeHtml(value)}</strong><span class="muted">${escapeHtml(label)}</span></div>`).join('');
+}
+function createCategoryFilters(products){
+  const brands = [...new Set(products.map(p => p.brand))].sort();
+  const tags = [...new Set(products.flatMap(deriveTags))].sort();
+  return { brands, tags, priceBands: ['Under $100','$100–$249','$250–$499','$500+'], ratings: ['4.5+','4.0+'] };
+}
+function renderDanawaCategory(slug){
+  const category = getCategories().find(c => c.slug === slug);
+  const products = getProducts().filter(p => p.category === slug);
+  if (!category) return;
+  renderCategoryLanding(slug);
+  const mount = document.getElementById('category-explorer');
+  if (!mount) return;
+  const filters = createCategoryFilters(products);
+  mount.innerHTML = `
+    <div class="danawa-layout">
+      <aside class="filter-sidebar">
+        <div class="badge">Filter products</div>
+        <div class="filter-group"><h3>Search</h3><input id="cat-search" class="input" placeholder="Search ${escapeAttribute(category.short || category.name)}"></div>
+        <div class="filter-group"><h3>Brand</h3><div class="check-list">${filters.brands.map(b => `<label class="check-item"><input type="checkbox" name="brand" value="${escapeAttribute(b)}"> <span>${escapeHtml(b)}</span></label>`).join('')}</div></div>
+        <div class="filter-group"><h3>Type</h3><div class="check-list">${filters.tags.map(t => `<label class="check-item"><input type="checkbox" name="tag" value="${escapeAttribute(t)}"> <span>${escapeHtml(t)}</span></label>`).join('')}</div></div>
+        <div class="filter-group"><h3>Price</h3><div class="check-list">${filters.priceBands.map(t => `<label class="check-item"><input type="checkbox" name="price" value="${escapeAttribute(t)}"> <span>${escapeHtml(t)}</span></label>`).join('')}</div></div>
+        <div class="filter-group"><h3>Rating</h3><div class="check-list">${filters.ratings.map(t => `<label class="check-item"><input type="checkbox" name="rating" value="${escapeAttribute(t)}"> <span>${escapeHtml(t)}</span></label>`).join('')}</div></div>
+        <div class="filter-actions"><button id="reset-filters" class="btn secondary small" type="button">Reset</button></div>
+      </aside>
+      <section class="results-panel">
+        <div class="results-toolbar">
+          <div><div class="badge">Compare list</div><div id="results-summary" class="results-summary"></div></div>
+          <div style="display:flex;gap:12px;flex-wrap:wrap"><select id="cat-sort" class="select" style="min-width:220px"><option value="featured">Featured</option><option value="price-low">Lowest price</option><option value="price-high">Highest price</option><option value="rating">Highest rating</option><option value="reviews">Most reviews</option></select></div>
+        </div>
+        <div id="active-filters" class="filter-chip-row"></div>
+        <div id="category-results" class="category-grid"></div>
+      </section>
+    </div>`;
+  const searchInput = mount.querySelector('#cat-search');
+  const sortSelect = mount.querySelector('#cat-sort');
+  const summary = mount.querySelector('#results-summary');
+  const results = mount.querySelector('#category-results');
+  const chipRow = mount.querySelector('#active-filters');
+  const readFilters = () => ({
+    q: searchInput.value.trim().toLowerCase(),
+    brands: [...mount.querySelectorAll('input[name="brand"]:checked')].map(x=>x.value),
+    tags: [...mount.querySelectorAll('input[name="tag"]:checked')].map(x=>x.value),
+    prices: [...mount.querySelectorAll('input[name="price"]:checked')].map(x=>x.value),
+    ratings: [...mount.querySelectorAll('input[name="rating"]:checked')].map(x=>x.value),
+    sort: sortSelect.value
+  });
+  const apply = () => {
+    const state = readFilters();
+    let current = products.filter(p => {
+      const hay = `${p.brand} ${p.name} ${p.summary} ${(p.highlights||[]).join(' ')}`.toLowerCase();
+      if (state.q && !hay.includes(state.q)) return false;
+      if (state.brands.length && !state.brands.includes(p.brand)) return false;
+      const tags = deriveTags(p);
+      if (state.tags.length && !state.tags.some(t => tags.includes(t))) return false;
+      if (state.prices.length && !state.prices.includes(priceBand(p))) return false;
+      if (state.ratings.length) {
+        const rating = Number(p.rating || 0);
+        if (!state.ratings.some(r => r === '4.5+' ? rating >= 4.5 : rating >= 4.0)) return false;
+      }
+      return true;
+    });
+    if (state.sort === 'price-low') current.sort((a,b)=>(a.salePrice||a.price)-(b.salePrice||b.price));
+    else if (state.sort === 'price-high') current.sort((a,b)=>(b.salePrice||b.price)-(a.salePrice||a.price));
+    else if (state.sort === 'rating') current.sort((a,b)=>(b.rating||0)-(a.rating||0) || (b.reviews||0)-(a.reviews||0));
+    else if (state.sort === 'reviews') current.sort((a,b)=>(b.reviews||0)-(a.reviews||0));
+    else current.sort((a,b)=>(b.rating||0)-(a.rating||0) || (a.salePrice||a.price)-(b.salePrice||b.price));
+    summary.textContent = `${current.length} products in ${category.name}`;
+    const chips=[];
+    state.brands.forEach(v=>chips.push(['brand',v]));
+    state.tags.forEach(v=>chips.push(['tag',v]));
+    state.prices.forEach(v=>chips.push(['price',v]));
+    state.ratings.forEach(v=>chips.push(['rating',v]));
+    if (state.q) chips.push(['search',state.q]);
+    chipRow.innerHTML = chips.map(([k,v]) => `<span class="filter-chip">${escapeHtml(v)} <button type="button" data-k="${escapeAttribute(k)}" data-v="${escapeAttribute(v)}">×</button></span>`).join('');
+    results.innerHTML = current.length ? current.map(product => `<article class="card"><a class="thumb" href="${productLink(product)}"><img src="${productImage(product)}" alt="${escapeAttribute(product.name)}" data-category="${escapeAttribute(product.category)}"></a><div class="card-body"><div class="badge">${escapeHtml(product.brand)}</div><a class="title" href="${productLink(product)}">${escapeHtml(product.name)}</a><div class="price-row"><span class="sale">${currency(product.salePrice)}</span><span class="old">${currency(product.price)}</span></div><div class="meta"><span>${stars(product.rating)}</span><span>${escapeHtml(String(product.reviews||0))} reviews</span><span>${escapeHtml(priceBand(product))}</span></div><p>${escapeHtml(product.summary || '')}</p><div class="pillbar" style="margin:12px 0">${deriveTags(product).slice(0,3).map(t=>`<span class="pill">${escapeHtml(t)}</span>`).join('')}</div><a class="btn small" href="${productLink(product)}">Compare prices</a></div></article>`).join('') : '<div class="empty">No products match these filters yet.</div>';
+    enhanceImages(results);
+  };
+  mount.addEventListener('change', e => { if (e.target.matches('input,select')) apply(); });
+  mount.addEventListener('input', e => { if (e.target === searchInput) apply(); });
+  mount.addEventListener('click', e => {
+    const btn = e.target.closest('#reset-filters');
+    if (btn) {
+      mount.querySelectorAll('input[type="checkbox"]').forEach(i => i.checked = false);
+      searchInput.value = ''; sortSelect.value = 'featured'; apply(); return;
+    }
+    const chipBtn = e.target.closest('.filter-chip button');
+    if (chipBtn) {
+      const {k,v} = chipBtn.dataset;
+      if (k === 'search') searchInput.value = '';
+      else mount.querySelectorAll(`input[name="${k}"]`).forEach(i => { if (i.value === v) i.checked = false; });
+      apply();
+    }
+  });
+  apply();
+}
+function renderProductEnhanced(){
+  const holder = document.getElementById('product-enhanced');
+  if (!holder) return;
+  const slug = new URLSearchParams(location.search).get('slug') || '';
+  const product = getProducts().find(p => p.slug === slug);
+  if (!product) return;
+  holder.innerHTML = `
+    <section class="compare-strip"><div class="badge">Quick spec view</div><div class="kv-grid"><div class="kv-card"><strong>Brand</strong>${escapeHtml(product.brand)}</div><div class="kv-card"><strong>Category</strong>${escapeHtml(product.categoryName || product.category)}</div><div class="kv-card"><strong>Rating</strong>${escapeHtml(String(product.rating || '—'))} / 5</div><div class="kv-card"><strong>Reviews</strong>${escapeHtml(String(product.reviews || 0))}</div></div></section>
+    <section class="compare-strip"><div class="badge">Store comparison</div><h2 style="margin:12px 0 14px">Compare store links for ${escapeHtml(product.brand)} ${escapeHtml(product.name)}</h2>${comparisonStoreRows(product)}</section>`;
+}
