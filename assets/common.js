@@ -11,7 +11,7 @@ function slugParam(){ return new URLSearchParams(location.search).get('slug'); }
 function categoryParam(){ return new URLSearchParams(location.search).get('category'); }
 function bySlug(list, slug){ return list.find(x => x.slug === slug); }
 function escapeHtml(s){
-  return String(s).replace(/[&<>\"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#39;'}[m]));
+  return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 }
 function fallbackForCategory(category){
   return `assets/images/categories/${category}.svg`;
@@ -30,42 +30,57 @@ function enhanceImages(root=document){
   root.querySelectorAll('img[data-category]').forEach(img => attachImgFallback(img, img.dataset.category));
 }
 
-// eBay 이미지 캐시 (slug → imageUrl)
-const _ebayImageCache = {};
+// 이미지 캐시 (slug → url)
+const _imgCache = {};
 
-// 상품 카드 렌더링 후 eBay 이미지 백그라운드로 교체
-async function loadEbayImagesForCards(products) {
-  for (const product of products) {
-    // 이미 캐시된 경우
-    if (_ebayImageCache[product.slug]) {
-      _applyEbayImage(product.slug, _ebayImageCache[product.slug]);
-      continue;
-    }
-    // eBay API 호출
-    try {
-      const res = await fetch(`/api/ebay-search?q=${encodeURIComponent(product.name)}&limit=1`);
-      if (!res.ok) continue;
+// eBay 이미지 가져오기, 실패하면 Google로 fallback
+async function _fetchProductImage(product) {
+  // 1차: eBay
+  try {
+    const res = await fetch(`/api/ebay-search?q=${encodeURIComponent(product.name)}&limit=1`);
+    if (res.ok) {
       const data = await res.json();
       const img = data.products?.[0]?.image || data.items?.[0]?.image;
-      if (img) {
-        _ebayImageCache[product.slug] = img;
-        _applyEbayImage(product.slug, img);
-      }
-    } catch(e) {
-      // 조용히 실패 — 기존 SVG 유지
+      if (img) return img;
     }
-    // 너무 빠르게 호출하지 않도록 살짝 대기
-    await new Promise(r => setTimeout(r, 150));
-  }
+  } catch(e) {}
+
+  // 2차: Google 이미지 검색
+  try {
+    const q = encodeURIComponent(product.name + ' ' + product.brand);
+    const res = await fetch(`/api/google-search?q=${q}&num=1`);
+    if (res.ok) {
+      const data = await res.json();
+      const img = data.items?.[0]?.image;
+      if (img) return img;
+    }
+  } catch(e) {}
+
+  return null;
 }
 
-function _applyEbayImage(slug, imageUrl) {
-  const imgs = document.querySelectorAll(`img[data-slug="${slug}"]`);
-  imgs.forEach(img => {
+function _applyImage(slug, imageUrl) {
+  document.querySelectorAll(`img[data-slug="${slug}"]`).forEach(img => {
     img.src = imageUrl;
     img.style.objectFit = 'contain';
     img.style.background = '#fff';
+    img.style.padding = '8px';
   });
+}
+
+async function loadEbayImagesForCards(products) {
+  for (const product of products) {
+    if (_imgCache[product.slug]) {
+      _applyImage(product.slug, _imgCache[product.slug]);
+      continue;
+    }
+    const url = await _fetchProductImage(product);
+    if (url) {
+      _imgCache[product.slug] = url;
+      _applyImage(product.slug, url);
+    }
+    await new Promise(r => setTimeout(r, 200));
+  }
 }
 
 function productCard(product){
