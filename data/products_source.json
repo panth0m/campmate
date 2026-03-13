@@ -9,7 +9,7 @@
     "rating": 4.5,
     "reviews": 312,
     "image": "assets/images/products/coleman-instant-up-4p-gold-tent.svg",
-    "summary": "Pop-up in 60 seconds. Pre-attached poles mean no threading — ideal for family weekends at the caravan park.",
+    "summary": "Pop-up in 60 seconds. Pre-attached poles mean no threading \u2014 ideal for family weekends at the caravan park.",
     "stores": [
       {
         "name": "eBay AU",
@@ -46,7 +46,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Instant%20Up%204P%20Gold%20Tent",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Tents"
   },
   {
     "slug": "coleman-instant-up-6p-gold-tent",
@@ -95,7 +96,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Instant%20Up%206P%20Gold%20Tent",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Tents"
   },
   {
     "slug": "coleman-instant-up-8p-gold-tent",
@@ -144,7 +146,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Instant%20Up%208P%20Gold%20Tent",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Tents"
   },
   {
     "slug": "oztrail-bungalow-9-family-dome-tent",
@@ -193,7 +196,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=OZtrail%20Bungalow%209%20Family%20Dome%20Tent",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Tents"
   },
   {
     "slug": "oztrail-genesis-3p-tent",
@@ -242,7 +246,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=OZtrail%20Genesis%203P%20Tent",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Tents"
   },
   {
     "slug": "oztrail-hightower-9-loft-tent",
@@ -291,7 +296,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=OZtrail%20Hightower%209%20Loft%20Tent",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Tents"
   },
   {
     "slug": "blackwolf-turbo-300-tent",
@@ -340,7 +346,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Blackwolf%20Turbo%20300%20Tent",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Tents"
   },
   {
     "slug": "blackwolf-turbo-lite-200-tent",
@@ -389,7 +396,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Blackwolf%20Turbo%20Lite%20200%20Tent",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Tents"
   },
   {
     "slug": "hilleberg-nallo-2-gt-tent",
@@ -401,7 +409,7 @@
     "rating": 4.9,
     "reviews": 44,
     "image": "assets/images/products/hilleberg-nallo-2-gt-tent.svg",
-    "summary": "Swedish-made four-season tent. Used by polar expeditions — overkill for most, but unbeatable in storms.",
+    "summary": "Swedish-made four-season tent. Used by polar expeditions \u2014 overkill for most, but unbeatable in storms.",
     "stores": [
       {
         "name": "eBay AU",
@@ -438,7 +446,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Hilleberg%20Nallo%202%20GT%20Tent",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Tents"
   },
   {
     "slug": "msr-hubba-hubba-2-tent",
@@ -487,7 +496,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=MSR%20Hubba%20Hubba%202%20Tent",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Tents"
   },
   {
     "slug": "the-north-face-stormbreak-2-tent",
@@ -536,7 +546,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=The%20North%20Face%20Stormbreak%202%20Tent",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Tents"
   },
   {
     "slug": "big-agnes-copper-spur-hv-ul2-tent",
@@ -585,7 +596,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Big%20Agnes%20Copper%20Spur%20HV%20UL2%20Tent",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Tents"
   },
   {
     "slug": "sea-to-summit-telos-tr2-tent",
@@ -634,7 +646,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Sea%20to%20Summit%20Telos%20TR2%20Tent",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Tents"
   },
   {
     "slug": "vango-blade-200-tent",
@@ -683,7 +696,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Vango%20Blade%20200%20Tent",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Tents"
   },
   {
     "slug": "darche-kozi-9-family-dome-tent",
@@ -732,7 +746,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Darche%20Kozi%209%20Family%20Dome%20Tent",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Tents"
   },
   {
     "slug": "anaconda-getaway-4p-tent",
@@ -781,7 +796,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Anaconda%20Getaway%204P%20Tent",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Tents"
   },
   {
     "slug": "bcf-weekender-6p-tent",
@@ -830,7 +846,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=BCF%20Weekender%206P%20Tent",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Tents"
   },
   {
     "slug": "primus-aisen-3-tent",
@@ -879,7 +896,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Primus%20Aisen%203%20Tent",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Tents"
   },
   {
     "slug": "naturehike-cloud-up-2-tent",
@@ -928,7 +946,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Naturehike%20Cloud-Up%202%20Tent",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Tents"
   },
   {
     "slug": "teton-sports-mountain-ultra-tent",
@@ -977,7 +996,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Teton%20Sports%20Mountain%20Ultra%20Tent",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Tents"
   },
   {
     "slug": "helinox-chair-one",
@@ -989,7 +1009,7 @@
     "rating": 4.8,
     "reviews": 534,
     "image": "assets/images/products/helinox-chair-one.svg",
-    "summary": "Weighs just 960 g. The gold standard in ultralight camp chairs — packs to the size of a water bottle.",
+    "summary": "Weighs just 960 g. The gold standard in ultralight camp chairs \u2014 packs to the size of a water bottle.",
     "stores": [
       {
         "name": "eBay AU",
@@ -1026,7 +1046,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Helinox%20Chair%20One",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Chairs"
   },
   {
     "slug": "helinox-chair-two",
@@ -1075,7 +1096,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Helinox%20Chair%20Two",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Chairs"
   },
   {
     "slug": "helinox-sunset-chair",
@@ -1124,7 +1146,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Helinox%20Sunset%20Chair",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Chairs"
   },
   {
     "slug": "coleman-comfortsmart-suspension-chair",
@@ -1173,7 +1196,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Comfortsmart%20Suspension%20Chair",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Chairs"
   },
   {
     "slug": "coleman-camping-quad-chair",
@@ -1222,7 +1246,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Camping%20Quad%20Chair",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Chairs"
   },
   {
     "slug": "oztrail-anywhere-camp-chair",
@@ -1271,7 +1296,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=OZtrail%20Anywhere%20Camp%20Chair",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Chairs"
   },
   {
     "slug": "oztrail-festival-5-position-chair",
@@ -1320,7 +1346,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=OZtrail%20Festival%205%20Position%20Chair",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Chairs"
   },
   {
     "slug": "crazy-creek-original-chair",
@@ -1369,7 +1396,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Crazy%20Creek%20Original%20Chair",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Chairs"
   },
   {
     "slug": "trekology-yizi-go-chair",
@@ -1418,7 +1446,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Trekology%20YIZI%20GO%20Chair",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Chairs"
   },
   {
     "slug": "kingcamp-heavy-duty-camping-chair",
@@ -1430,7 +1459,7 @@
     "rating": 4.4,
     "reviews": 334,
     "image": "assets/images/products/kingcamp-heavy-duty-camping-chair.svg",
-    "summary": "Wide seat with padded armrests. Rated to 200 kg — one of the strongest folding chairs available.",
+    "summary": "Wide seat with padded armrests. Rated to 200 kg \u2014 one of the strongest folding chairs available.",
     "stores": [
       {
         "name": "eBay AU",
@@ -1467,7 +1496,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=KingCamp%20Heavy%20Duty%20Camping%20Chair",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Chairs"
   },
   {
     "slug": "cascade-mountain-tech-camp-chair",
@@ -1516,7 +1546,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Cascade%20Mountain%20Tech%20Camp%20Chair",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Chairs"
   },
   {
     "slug": "darche-renegade-chair",
@@ -1565,7 +1596,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Darche%20Renegade%20Chair",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Chairs"
   },
   {
     "slug": "bcf-wide-boy-camp-chair",
@@ -1614,7 +1646,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=BCF%20Wide%20Boy%20Camp%20Chair",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Chairs"
   },
   {
     "slug": "anaconda-adventure-chair",
@@ -1663,7 +1696,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Anaconda%20Adventure%20Chair",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Chairs"
   },
   {
     "slug": "snow-peak-take-chair-short",
@@ -1712,7 +1746,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Snow%20Peak%20Take!%20Chair%20Short",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Chairs"
   },
   {
     "slug": "nemo-stargaze-recliner-chair",
@@ -1761,7 +1796,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Nemo%20Stargaze%20Recliner%20Chair",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Chairs"
   },
   {
     "slug": "kijaro-dual-lock-chair",
@@ -1810,7 +1846,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Kijaro%20Dual%20Lock%20Chair",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Chairs"
   },
   {
     "slug": "gci-outdoor-freestyle-rocker-chair",
@@ -1859,7 +1896,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=GCI%20Outdoor%20Freestyle%20Rocker%20Chair",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Chairs"
   },
   {
     "slug": "dune-4wd-ironman-camp-chair",
@@ -1908,7 +1946,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Dune%204WD%20Ironman%20Camp%20Chair",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Chairs"
   },
   {
     "slug": "wanderer-club-camp-chair",
@@ -1957,7 +1996,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Wanderer%20Club%20Camp%20Chair",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Chairs"
   },
   {
     "slug": "yeti-tundra-45-hard-cooler",
@@ -2006,7 +2046,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=YETI%20Tundra%2045%20Hard%20Cooler",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Coolers & Ice Boxes"
   },
   {
     "slug": "yeti-tundra-65-hard-cooler",
@@ -2055,7 +2096,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=YETI%20Tundra%2065%20Hard%20Cooler",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Coolers & Ice Boxes"
   },
   {
     "slug": "yeti-roadie-24-hard-cooler",
@@ -2067,7 +2109,7 @@
     "rating": 4.7,
     "reviews": 312,
     "image": "assets/images/products/yeti-roadie-24-hard-cooler.svg",
-    "summary": "Single-handle design that's easy to carry solo. Fits 18 cans with ice — perfect for day trips.",
+    "summary": "Single-handle design that's easy to carry solo. Fits 18 cans with ice \u2014 perfect for day trips.",
     "stores": [
       {
         "name": "eBay AU",
@@ -2104,7 +2146,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=YETI%20Roadie%2024%20Hard%20Cooler",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Coolers & Ice Boxes"
   },
   {
     "slug": "yeti-hopper-m30-soft-cooler",
@@ -2116,7 +2159,7 @@
     "rating": 4.7,
     "reviews": 234,
     "image": "assets/images/products/yeti-hopper-m30-soft-cooler.svg",
-    "summary": "Waterproof zipper seals completely. Holds ice for 24 hours even in 40°C Australian summer.",
+    "summary": "Waterproof zipper seals completely. Holds ice for 24 hours even in 40\u00b0C Australian summer.",
     "stores": [
       {
         "name": "eBay AU",
@@ -2153,7 +2196,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=YETI%20Hopper%20M30%20Soft%20Cooler",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Coolers & Ice Boxes"
   },
   {
     "slug": "coleman-48qt-performance-cooler",
@@ -2202,7 +2246,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%2048QT%20Performance%20Cooler",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Coolers & Ice Boxes"
   },
   {
     "slug": "coleman-xtreme-5-wheeled-cooler-62qt",
@@ -2251,7 +2296,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Xtreme%205%20Wheeled%20Cooler%2062QT",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Coolers & Ice Boxes"
   },
   {
     "slug": "dometic-cfx3-35-portable-fridge",
@@ -2263,7 +2309,7 @@
     "rating": 4.9,
     "reviews": 178,
     "image": "assets/images/products/dometic-cfx3-35-portable-fridge.svg",
-    "summary": "Compressor fridge/freezer that runs from 12V, 24V or 240V. No ice needed — game changer for 4WD touring.",
+    "summary": "Compressor fridge/freezer that runs from 12V, 24V or 240V. No ice needed \u2014 game changer for 4WD touring.",
     "stores": [
       {
         "name": "eBay AU",
@@ -2300,7 +2346,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Dometic%20CFX3%2035%20Portable%20Fridge",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Coolers & Ice Boxes"
   },
   {
     "slug": "dometic-cfx3-55-portable-fridge",
@@ -2312,7 +2359,7 @@
     "rating": 4.9,
     "reviews": 145,
     "image": "assets/images/products/dometic-cfx3-55-portable-fridge.svg",
-    "summary": "55-litre dual-zone model. Keep drinks at 4°C and meat frozen at -18°C simultaneously.",
+    "summary": "55-litre dual-zone model. Keep drinks at 4\u00b0C and meat frozen at -18\u00b0C simultaneously.",
     "stores": [
       {
         "name": "eBay AU",
@@ -2349,7 +2396,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Dometic%20CFX3%2055%20Portable%20Fridge",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Coolers & Ice Boxes"
   },
   {
     "slug": "engel-40l-portable-fridge-freezer",
@@ -2398,7 +2446,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Engel%2040L%20Portable%20Fridge%20Freezer",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Coolers & Ice Boxes"
   },
   {
     "slug": "arb-elements-fridge-47l",
@@ -2447,7 +2496,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=ARB%20Elements%20Fridge%2047L",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Coolers & Ice Boxes"
   },
   {
     "slug": "igloo-bmx-52-roller-cooler",
@@ -2496,7 +2546,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Igloo%20BMX%2052%20Roller%20Cooler",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Coolers & Ice Boxes"
   },
   {
     "slug": "pelican-50qt-elite-cooler",
@@ -2545,7 +2596,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Pelican%2050QT%20Elite%20Cooler",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Coolers & Ice Boxes"
   },
   {
     "slug": "oztrail-chilly-bin-30l",
@@ -2594,7 +2646,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=OZtrail%20Chilly%20Bin%2030L",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Coolers & Ice Boxes"
   },
   {
     "slug": "canyon-coolers-outfitter-55",
@@ -2643,7 +2696,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Canyon%20Coolers%20Outfitter%2055",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Coolers & Ice Boxes"
   },
   {
     "slug": "rtic-45-hard-cooler",
@@ -2692,7 +2746,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Rtic%2045%20Hard%20Cooler",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Coolers & Ice Boxes"
   },
   {
     "slug": "ozark-trail-73qt-high-performance-cooler",
@@ -2741,7 +2796,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Ozark%20Trail%2073QT%20High%20Performance%20Cooler",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Coolers & Ice Boxes"
   },
   {
     "slug": "national-luna-twin-40-fridge-freezer",
@@ -2790,7 +2846,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=National%20Luna%20Twin%2040%20Fridge%20Freezer",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Coolers & Ice Boxes"
   },
   {
     "slug": "waeco-coolfreeze-cfx-50w",
@@ -2839,7 +2896,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Waeco%20CoolFreeze%20CFX%2050W",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Coolers & Ice Boxes"
   },
   {
     "slug": "bcf-voyager-60l-wheeled-cooler",
@@ -2888,7 +2946,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=BCF%20Voyager%2060L%20Wheeled%20Cooler",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Coolers & Ice Boxes"
   },
   {
     "slug": "anaconda-titan-55qt-cooler",
@@ -2937,7 +2996,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Anaconda%20Titan%2055QT%20Cooler",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Coolers & Ice Boxes"
   },
   {
     "slug": "jetboil-flash-cooking-system",
@@ -2986,7 +3046,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Jetboil%20Flash%20Cooking%20System",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Stoves"
   },
   {
     "slug": "jetboil-minimo-cooking-system",
@@ -3035,7 +3096,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Jetboil%20MiniMo%20Cooking%20System",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Stoves"
   },
   {
     "slug": "msr-pocketrocket-2-stove",
@@ -3084,7 +3146,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=MSR%20PocketRocket%202%20Stove",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Stoves"
   },
   {
     "slug": "msr-windburner-personal-stove-system",
@@ -3133,7 +3196,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=MSR%20WindBurner%20Personal%20Stove%20System",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Stoves"
   },
   {
     "slug": "coleman-2-burner-classic-propane-stove",
@@ -3182,7 +3246,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%202-Burner%20Classic%20Propane%20Stove",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Stoves"
   },
   {
     "slug": "coleman-classic-2-burner-camp-stove",
@@ -3231,7 +3296,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Classic%202-Burner%20Camp%20Stove",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Stoves"
   },
   {
     "slug": "camp-chef-everest-2-burner-stove",
@@ -3280,7 +3346,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Camp%20Chef%20Everest%202-Burner%20Stove",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Stoves"
   },
   {
     "slug": "primus-lite-plus-backpacking-stove",
@@ -3329,7 +3396,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Primus%20Lite%20Plus%20Backpacking%20Stove",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Stoves"
   },
   {
     "slug": "snow-peak-litemax-titanium-stove",
@@ -3341,7 +3409,7 @@
     "rating": 4.6,
     "reviews": 178,
     "image": "assets/images/products/snow-peak-litemax-titanium-stove.svg",
-    "summary": "Weighs just 56 g — the lightest stove on this list. Japanese titanium construction lasts decades.",
+    "summary": "Weighs just 56 g \u2014 the lightest stove on this list. Japanese titanium construction lasts decades.",
     "stores": [
       {
         "name": "eBay AU",
@@ -3378,7 +3446,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Snow%20Peak%20LiteMax%20Titanium%20Stove",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Stoves"
   },
   {
     "slug": "biolite-campstove-2",
@@ -3390,7 +3459,7 @@
     "rating": 4.5,
     "reviews": 145,
     "image": "assets/images/products/biolite-campstove-2.svg",
-    "summary": "Burns sticks and twigs, generates electricity to charge devices. No canisters needed — ever.",
+    "summary": "Burns sticks and twigs, generates electricity to charge devices. No canisters needed \u2014 ever.",
     "stores": [
       {
         "name": "eBay AU",
@@ -3427,7 +3496,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=BioLite%20CampStove%202+",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Stoves"
   },
   {
     "slug": "trangia-25-1-ul-spirit-stove-set",
@@ -3476,7 +3546,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Trangia%2025-1%20UL%20Spirit%20Stove%20Set",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Stoves"
   },
   {
     "slug": "oztrail-ironside-2-burner-stove",
@@ -3525,7 +3596,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=OZtrail%20Ironside%202-Burner%20Stove",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Stoves"
   },
   {
     "slug": "gasmate-turbo-2-burner-stove",
@@ -3574,7 +3646,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Gasmate%20Turbo%202-Burner%20Stove",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Stoves"
   },
   {
     "slug": "kovea-cube-stove",
@@ -3623,7 +3696,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Kovea%20Cube%20Stove",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Stoves"
   },
   {
     "slug": "solo-stove-lite",
@@ -3672,7 +3746,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Solo%20Stove%20Lite",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Stoves"
   },
   {
     "slug": "iwatani-cassette-feu-cb-abr-2-stove",
@@ -3721,7 +3796,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Iwatani%20Cassette%20Feu%20CB-ABR-2%20Stove",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Stoves"
   },
   {
     "slug": "soto-windmaster-stove",
@@ -3770,7 +3846,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Soto%20Windmaster%20Stove",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Stoves"
   },
   {
     "slug": "bcf-2-burner-stove-with-cover",
@@ -3819,7 +3896,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=BCF%202-Burner%20Stove%20with%20Cover",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Stoves"
   },
   {
     "slug": "anatton-camping-stove-single-burner",
@@ -3831,7 +3909,7 @@
     "rating": 3.8,
     "reviews": 678,
     "image": "assets/images/products/anatton-camping-stove-single-burner.svg",
-    "summary": "Ultra cheap canister stove for budget hikers. Gets the job done — just don't expect finesse.",
+    "summary": "Ultra cheap canister stove for budget hikers. Gets the job done \u2014 just don't expect finesse.",
     "stores": [
       {
         "name": "eBay AU",
@@ -3868,7 +3946,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Anatton%20Camping%20Stove%20Single%20Burner",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Stoves"
   },
   {
     "slug": "zempire-revo-2-stove",
@@ -3917,7 +3996,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Zempire%20Revo%202%20Stove",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Stoves"
   },
   {
     "slug": "goal-zero-lighthouse-600-lantern",
@@ -3966,7 +4046,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Goal%20Zero%20Lighthouse%20600%20Lantern",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Lanterns"
   },
   {
     "slug": "goal-zero-crush-light-chroma",
@@ -4015,7 +4096,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Goal%20Zero%20Crush%20Light%20Chroma",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Lanterns"
   },
   {
     "slug": "black-diamond-moji-lantern",
@@ -4064,7 +4146,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Black%20Diamond%20Moji+%20Lantern",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Lanterns"
   },
   {
     "slug": "coleman-quad-pro-led-lantern",
@@ -4113,7 +4196,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Quad%20Pro%20LED%20Lantern",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Lanterns"
   },
   {
     "slug": "coleman-onesource-led-lantern",
@@ -4162,7 +4246,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20OneSource%20LED%20Lantern",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Lanterns"
   },
   {
     "slug": "coleman-4d-xps-led-lantern",
@@ -4211,7 +4296,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%204D%20XPS%20LED%20Lantern",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Lanterns"
   },
   {
     "slug": "fenix-cl26r-camping-lantern",
@@ -4260,7 +4346,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Fenix%20CL26R%20Camping%20Lantern",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Lanterns"
   },
   {
     "slug": "biolite-sitelight-80-solar-lantern",
@@ -4309,7 +4396,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=BioLite%20SiteLight%2080%20Solar%20Lantern",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Lanterns"
   },
   {
     "slug": "luci-solar-inflatable-lantern",
@@ -4358,7 +4446,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Luci%20Solar%20Inflatable%20Lantern",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Lanterns"
   },
   {
     "slug": "ust-30-day-duro-led-lantern",
@@ -4407,7 +4496,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Ust%2030-Day%20Duro%20LED%20Lantern",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Lanterns"
   },
   {
     "slug": "nitecore-lr60-lantern",
@@ -4456,7 +4546,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Nitecore%20LR60%20Lantern",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Lanterns"
   },
   {
     "slug": "luminaid-packlite-nova-solar-lantern",
@@ -4505,7 +4596,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=LuminAID%20PackLite%20Nova%20Solar%20Lantern",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Lanterns"
   },
   {
     "slug": "oztrail-10w-led-lantern",
@@ -4554,7 +4646,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=OZtrail%2010W%20LED%20Lantern",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Lanterns"
   },
   {
     "slug": "streamlight-the-siege-lantern",
@@ -4603,7 +4696,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Streamlight%20The%20Siege%20Lantern",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Lanterns"
   },
   {
     "slug": "brunton-hydrogen-reactor-lantern",
@@ -4652,7 +4746,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Brunton%20Hydrogen%20Reactor%20Lantern",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Lanterns"
   },
   {
     "slug": "lander-cascade-800-lantern",
@@ -4701,7 +4796,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Lander%20Cascade%20800%20Lantern",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Lanterns"
   },
   {
     "slug": "ledlenser-ml6-compact-lantern",
@@ -4750,7 +4846,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Ledlenser%20ML6%20Compact%20Lantern",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Lanterns"
   },
   {
     "slug": "darche-eclipse-500-led-lantern",
@@ -4762,7 +4859,7 @@
     "rating": 4.2,
     "reviews": 234,
     "image": "assets/images/products/darche-eclipse-500-led-lantern.svg",
-    "summary": "Australian-designed lantern with a 360° diffuser. Runs on 3 D batteries or USB power.",
+    "summary": "Australian-designed lantern with a 360\u00b0 diffuser. Runs on 3 D batteries or USB power.",
     "stores": [
       {
         "name": "eBay AU",
@@ -4799,7 +4896,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Darche%20Eclipse%20500%20LED%20Lantern",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Lanterns"
   },
   {
     "slug": "bcf-rechargeable-led-lantern",
@@ -4848,7 +4946,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=BCF%20Rechargeable%20LED%20Lantern",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Lanterns"
   },
   {
     "slug": "energizer-led-collapsible-lantern",
@@ -4897,7 +4996,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Energizer%20LED%20Collapsible%20Lantern",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camping Lanterns"
   },
   {
     "slug": "sea-to-summit-spark-sp1-sleeping-bag",
@@ -4909,7 +5009,7 @@
     "rating": 4.7,
     "reviews": 178,
     "image": "assets/images/products/sea-to-summit-spark-sp1-sleeping-bag.svg",
-    "summary": "950+ fill-power down rated to -9°C. Weighs just 190 g. Compresses to a 1-litre pack size.",
+    "summary": "950+ fill-power down rated to -9\u00b0C. Weighs just 190 g. Compresses to a 1-litre pack size.",
     "stores": [
       {
         "name": "eBay AU",
@@ -4946,7 +5046,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Sea%20to%20Summit%20Spark%20SP1%20Sleeping%20Bag",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camp Sleep Systems"
   },
   {
     "slug": "sea-to-summit-altitude-at2-sleeping-bag",
@@ -4958,7 +5059,7 @@
     "rating": 4.8,
     "reviews": 89,
     "image": "assets/images/products/sea-to-summit-altitude-at2-sleeping-bag.svg",
-    "summary": "Expedition-grade sleeping bag for Australian alpine conditions. -9°C comfort rating.",
+    "summary": "Expedition-grade sleeping bag for Australian alpine conditions. -9\u00b0C comfort rating.",
     "stores": [
       {
         "name": "eBay AU",
@@ -4995,7 +5096,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Sea%20to%20Summit%20Altitude%20AT2%20Sleeping%20Bag",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camp Sleep Systems"
   },
   {
     "slug": "sea-to-summit-ether-light-xt-sleeping-mat",
@@ -5044,7 +5146,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Sea%20to%20Summit%20Ether%20Light%20XT%20Sleeping%20Mat",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camp Sleep Systems"
   },
   {
     "slug": "therm-a-rest-neoair-xlite-sleeping-mat",
@@ -5093,7 +5196,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Therm-a-Rest%20NeoAir%20XLite%20Sleeping%20Mat",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camp Sleep Systems"
   },
   {
     "slug": "therm-a-rest-trail-scout-sleeping-pad",
@@ -5142,7 +5246,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Therm-a-Rest%20Trail%20Scout%20Sleeping%20Pad",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camp Sleep Systems"
   },
   {
     "slug": "coleman-brazos-cold-weather-sleeping-bag",
@@ -5154,7 +5259,7 @@
     "rating": 4.2,
     "reviews": 534,
     "image": "assets/images/products/coleman-brazos-cold-weather-sleeping-bag.svg",
-    "summary": "Rated to -12°C. Fleece lining feels warm against skin. Good family camping bag.",
+    "summary": "Rated to -12\u00b0C. Fleece lining feels warm against skin. Good family camping bag.",
     "stores": [
       {
         "name": "eBay AU",
@@ -5191,7 +5296,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Brazos%20Cold%20Weather%20Sleeping%20Bag",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camp Sleep Systems"
   },
   {
     "slug": "coleman-kompact-7c-sleeping-bag",
@@ -5203,7 +5309,7 @@
     "rating": 4.1,
     "reviews": 678,
     "image": "assets/images/products/coleman-kompact-7c-sleeping-bag.svg",
-    "summary": "Compact roll for a budget bag. Rated to 7°C for three-season Australian camping.",
+    "summary": "Compact roll for a budget bag. Rated to 7\u00b0C for three-season Australian camping.",
     "stores": [
       {
         "name": "eBay AU",
@@ -5240,7 +5346,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Kompact%207C%20Sleeping%20Bag",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camp Sleep Systems"
   },
   {
     "slug": "blackwolf-element-0-sleeping-bag",
@@ -5252,7 +5359,7 @@
     "rating": 4.5,
     "reviews": 201,
     "image": "assets/images/products/blackwolf-element-0-sleeping-bag.svg",
-    "summary": "0°C comfort rating with 650-fill down. Australian brand making excellent bags.",
+    "summary": "0\u00b0C comfort rating with 650-fill down. Australian brand making excellent bags.",
     "stores": [
       {
         "name": "eBay AU",
@@ -5289,7 +5396,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Blackwolf%20Element%200%20Sleeping%20Bag",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camp Sleep Systems"
   },
   {
     "slug": "blackwolf-comfort-plus-5-sleeping-bag",
@@ -5301,7 +5409,7 @@
     "rating": 4.3,
     "reviews": 289,
     "image": "assets/images/products/blackwolf-comfort-plus-5-sleeping-bag.svg",
-    "summary": "5°C comfort rated synthetic fill. Great for warm-weather touring and car camping.",
+    "summary": "5\u00b0C comfort rated synthetic fill. Great for warm-weather touring and car camping.",
     "stores": [
       {
         "name": "eBay AU",
@@ -5338,7 +5446,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Blackwolf%20Comfort%20Plus%205%20Sleeping%20Bag",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camp Sleep Systems"
   },
   {
     "slug": "oztrail-kakadu-0-sleeping-bag",
@@ -5350,7 +5459,7 @@
     "rating": 4.0,
     "reviews": 445,
     "image": "assets/images/products/oztrail-kakadu-0-sleeping-bag.svg",
-    "summary": "Named after the iconic Australian national park. 0°C rating and mummy shape for warmth.",
+    "summary": "Named after the iconic Australian national park. 0\u00b0C rating and mummy shape for warmth.",
     "stores": [
       {
         "name": "eBay AU",
@@ -5387,7 +5496,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=OZtrail%20Kakadu%200%20Sleeping%20Bag",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camp Sleep Systems"
   },
   {
     "slug": "montbell-ultralight-down-hugger-800-3",
@@ -5399,7 +5509,7 @@
     "rating": 4.8,
     "reviews": 123,
     "image": "assets/images/products/montbell-ultralight-down-hugger-800-3.svg",
-    "summary": "Japanese engineering. 800-fill goose down in a stretch fabric shell. Rated to -2°C comfort.",
+    "summary": "Japanese engineering. 800-fill goose down in a stretch fabric shell. Rated to -2\u00b0C comfort.",
     "stores": [
       {
         "name": "eBay AU",
@@ -5436,7 +5546,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Montbell%20Ultralight%20Down%20Hugger%20800%20#3",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camp Sleep Systems"
   },
   {
     "slug": "western-mountaineering-megalite-sleeping-bag",
@@ -5448,7 +5559,7 @@
     "rating": 4.9,
     "reviews": 56,
     "image": "assets/images/products/western-mountaineering-megalite-sleeping-bag.svg",
-    "summary": "American-made 850-fill down bag rated to 0°C. Used by professional guides and mountaineers.",
+    "summary": "American-made 850-fill down bag rated to 0\u00b0C. Used by professional guides and mountaineers.",
     "stores": [
       {
         "name": "eBay AU",
@@ -5485,7 +5596,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Western%20Mountaineering%20Megalite%20Sleeping%20Bag",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camp Sleep Systems"
   },
   {
     "slug": "exped-synmat-hl-sleeping-mat",
@@ -5534,7 +5646,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Exped%20SynMat%20HL%20Sleeping%20Mat",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camp Sleep Systems"
   },
   {
     "slug": "klymit-static-v2-sleeping-pad",
@@ -5583,7 +5696,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Klymit%20Static%20V2%20Sleeping%20Pad",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camp Sleep Systems"
   },
   {
     "slug": "nemo-disco-15-sleeping-bag",
@@ -5632,7 +5746,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Nemo%20Disco%2015%20Sleeping%20Bag",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camp Sleep Systems"
   },
   {
     "slug": "enlightened-equipment-revelation-quilt",
@@ -5681,7 +5796,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Enlightened%20Equipment%20Revelation%20Quilt",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camp Sleep Systems"
   },
   {
     "slug": "darche-nebula-5-sleeping-bag",
@@ -5730,7 +5846,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Darche%20Nebula%20-5%20Sleeping%20Bag",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camp Sleep Systems"
   },
   {
     "slug": "bcf-journey-5-sleeping-bag",
@@ -5742,7 +5859,7 @@
     "rating": 4.0,
     "reviews": 378,
     "image": "assets/images/products/bcf-journey-5-sleeping-bag.svg",
-    "summary": "House brand -5°C sleeping bag. Good value for car campers who don't want to spend a fortune.",
+    "summary": "House brand -5\u00b0C sleeping bag. Good value for car campers who don't want to spend a fortune.",
     "stores": [
       {
         "name": "eBay AU",
@@ -5779,7 +5896,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=BCF%20Journey%20-5%20Sleeping%20Bag",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camp Sleep Systems"
   },
   {
     "slug": "anaconda-trail-blazer-sleeping-bag",
@@ -5791,7 +5909,7 @@
     "rating": 3.8,
     "reviews": 445,
     "image": "assets/images/products/anaconda-trail-blazer-sleeping-bag.svg",
-    "summary": "Budget mummy bag for mild Australian summers. Rated to 5°C comfort.",
+    "summary": "Budget mummy bag for mild Australian summers. Rated to 5\u00b0C comfort.",
     "stores": [
       {
         "name": "eBay AU",
@@ -5828,7 +5946,8 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Anaconda%20Trail%20Blazer%20Sleeping%20Bag",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camp Sleep Systems"
   },
   {
     "slug": "vango-nitestar-alpha-250-sleeping-bag",
@@ -5877,6 +5996,1319 @@
         "url": "https://www.wildearth.com.au/search?type=product&q=Vango%20Nitestar%20Alpha%20250%20Sleeping%20Bag",
         "type": "search"
       }
-    ]
+    ],
+    "categoryName": "Camp Sleep Systems"
+  },
+  {
+    "slug": "biolite-sitelight-80-string-lantern",
+    "name": "BioLite SiteLight 80 String Lantern",
+    "brand": "BioLite",
+    "category": "lanterns",
+    "price": 79,
+    "salePrice": 69,
+    "rating": 4.3,
+    "reviews": 67,
+    "image": "assets/images/products/biolite-sitelight-80-solar-lantern.svg",
+    "summary": "Packable area-light option for soft campsite ambiance and tent-zone visibility.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=BioLite+SiteLight+80+String+Lantern"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=BioLite+SiteLight+80+String+Lantern"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=BioLite%20SiteLight%2080%20String%20Lantern"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=BioLite%20SiteLight%2080%20String%20Lantern"
+      }
+    ],
+    "description": "Packable area-light option for soft campsite ambiance and tent-zone visibility. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "area light",
+      "soft ambience",
+      "compact kit"
+    ],
+    "categoryName": "Camping Lanterns"
+  },
+  {
+    "slug": "oztrail-fast-frame-lumos-10-person-tent",
+    "name": "OZtrail Fast Frame Lumos 10 Person Tent",
+    "brand": "OZtrail",
+    "category": "tents",
+    "price": 899,
+    "salePrice": 799,
+    "rating": 4.6,
+    "reviews": 151,
+    "image": "assets/images/products/oztrail-instant-up-12p-tent-66.svg",
+    "summary": "Large fast-frame tent designed for roomy family weekends and simple setup.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=OZtrail+Fast+Frame+Lumos+10+Person+Tent"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=OZtrail+Fast+Frame+Lumos+10+Person+Tent"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=OZtrail%20Fast%20Frame%20Lumos%2010%20Person%20Tent"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=OZtrail%20Fast%20Frame%20Lumos%2010%20Person%20Tent"
+      }
+    ],
+    "description": "Large fast-frame tent designed for roomy family weekends and simple setup. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "large family size",
+      "quick frame",
+      "weekend trips"
+    ],
+    "categoryName": "Camping Tents"
+  },
+  {
+    "slug": "sea-to-summit-ether-light-xt-mat",
+    "name": "Sea to Summit Ether Light XT Mat",
+    "brand": "Sea to Summit",
+    "category": "sleep-systems",
+    "price": 279,
+    "salePrice": 239,
+    "rating": 4.8,
+    "reviews": 191,
+    "image": "assets/images/products/sea-to-summit-ether-light-xt-sleeping-mat.svg",
+    "summary": "Thick insulated sleeping mat that brings real comfort to cooler campsites.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=Sea+to+Summit+Ether+Light+XT+Mat"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=Sea+to+Summit+Ether+Light+XT+Mat"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=Sea%20to%20Summit%20Ether%20Light%20XT%20Mat"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=Sea%20to%20Summit%20Ether%20Light%20XT%20Mat"
+      }
+    ],
+    "description": "Thick insulated sleeping mat that brings real comfort to cooler campsites. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "insulated mat",
+      "deep comfort",
+      "quality sleep"
+    ],
+    "categoryName": "Camp Sleep Systems"
+  },
+  {
+    "slug": "trangia-25-1-ul-stove-set",
+    "name": "Trangia 25-1 UL Stove Set",
+    "brand": "Trangia",
+    "category": "stoves",
+    "price": 229,
+    "salePrice": 199,
+    "rating": 4.7,
+    "reviews": 102,
+    "image": "assets/images/products/trangia-25-1-ul-spirit-stove-set.svg",
+    "summary": "All-in-one cook set valued for wind performance and simple reliability.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=Trangia+25-1+UL+Stove+Set"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=Trangia+25-1+UL+Stove+Set"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=Trangia%2025-1%20UL%20Stove%20Set"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=Trangia%2025-1%20UL%20Stove%20Set"
+      }
+    ],
+    "description": "All-in-one cook set valued for wind performance and simple reliability. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "cook set",
+      "wind friendly",
+      "proven reliability"
+    ],
+    "categoryName": "Camping Stoves"
+  },
+  {
+    "slug": "coleman-skydome-4-person-tent",
+    "name": "Coleman Skydome 4 Person Tent",
+    "brand": "Coleman",
+    "category": "tents",
+    "price": 299,
+    "salePrice": 249,
+    "rating": 4.4,
+    "reviews": 210,
+    "image": "assets/images/products/coleman-instant-up-4p-gold-tent.svg",
+    "summary": "Budget-friendly dome tent for entry-level campers and weekend use.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=Coleman+Skydome+4+Person+Tent"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=Coleman+Skydome+4+Person+Tent"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=Coleman%20Skydome%204%20Person%20Tent"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=Coleman%20Skydome%204%20Person%20Tent"
+      }
+    ],
+    "description": "Budget-friendly dome tent for entry-level campers and weekend use. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "budget tent",
+      "easy weekend use",
+      "beginner friendly"
+    ],
+    "categoryName": "Camping Tents"
+  },
+  {
+    "slug": "therm-a-rest-neoair-xlite-nxt",
+    "name": "Therm-a-Rest NeoAir XLite NXT",
+    "brand": "Therm-a-Rest",
+    "category": "sleep-systems",
+    "price": 369,
+    "salePrice": 329,
+    "rating": 4.8,
+    "reviews": 162,
+    "image": "assets/images/products/therm-a-rest-neoair-xlite-sleeping-mat.svg",
+    "summary": "Lightweight sleeping mat with an excellent warmth-to-weight balance.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=Therm-a-Rest+NeoAir+XLite+NXT"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=Therm-a-Rest+NeoAir+XLite+NXT"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=Therm-a-Rest%20NeoAir%20XLite%20NXT"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=Therm-a-Rest%20NeoAir%20XLite%20NXT"
+      }
+    ],
+    "description": "Lightweight sleeping mat with an excellent warmth-to-weight balance. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "warmth to weight",
+      "lightweight mat",
+      "premium sleep"
+    ],
+    "categoryName": "Camp Sleep Systems"
+  },
+  {
+    "slug": "sea-to-summit-telos-tr3-tent",
+    "name": "Sea to Summit Telos TR3 Tent",
+    "brand": "Sea to Summit",
+    "category": "tents",
+    "price": 999,
+    "salePrice": 879,
+    "rating": 4.8,
+    "reviews": 103,
+    "image": "assets/images/products/sea-to-summit-telos-tr2-tent.svg",
+    "summary": "Well-regarded three-person tent balancing weight, ventilation and interior space.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=Sea+to+Summit+Telos+TR3+Tent"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=Sea+to+Summit+Telos+TR3+Tent"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=Sea%20to%20Summit%20Telos%20TR3%20Tent"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=Sea%20to%20Summit%20Telos%20TR3%20Tent"
+      }
+    ],
+    "description": "Well-regarded three-person tent balancing weight, ventilation and interior space. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "3-person shelter",
+      "premium backpacking",
+      "excellent ventilation"
+    ],
+    "categoryName": "Camping Tents"
+  },
+  {
+    "slug": "snowys-tourer-4-person-canvas-tent",
+    "name": "Snowys Tourer 4 Person Canvas Tent",
+    "brand": "Snowys",
+    "category": "tents",
+    "price": 1249,
+    "salePrice": 1099,
+    "rating": 4.7,
+    "reviews": 59,
+    "image": "assets/images/products/darche-tourer-4p-tent-14.svg",
+    "summary": "Heavy-duty canvas style for campers wanting extra durability and weather confidence.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=Snowys+Tourer+4+Person+Canvas+Tent"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=Snowys+Tourer+4+Person+Canvas+Tent"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=Snowys%20Tourer%204%20Person%20Canvas%20Tent"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=Snowys%20Tourer%204%20Person%20Canvas%20Tent"
+      }
+    ],
+    "description": "Heavy-duty canvas style for campers wanting extra durability and weather confidence. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "canvas durability",
+      "touring comfort",
+      "weather protection"
+    ],
+    "categoryName": "Camping Tents"
+  },
+  {
+    "slug": "dometic-cool-ice-ci-42",
+    "name": "Dometic Cool Ice CI 42",
+    "brand": "Dometic",
+    "category": "coolers",
+    "price": 259,
+    "salePrice": 229,
+    "rating": 4.7,
+    "reviews": 145,
+    "image": "assets/images/products/dometic-adventure-cooler-45l-163.svg",
+    "summary": "Dependable hard cooler for weekend camps and family food storage.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=Dometic+Cool+Ice+CI+42"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=Dometic+Cool+Ice+CI+42"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=Dometic%20Cool%20Ice%20CI%2042"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=Dometic%20Cool%20Ice%20CI%2042"
+      }
+    ],
+    "description": "Dependable hard cooler for weekend camps and family food storage. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "family food storage",
+      "hard cooler",
+      "reliable insulation"
+    ],
+    "categoryName": "Coolers & Ice Boxes"
+  },
+  {
+    "slug": "aldi-adventuridge-directors-chair",
+    "name": "ALDI Adventuridge Directors Chair",
+    "brand": "ALDI",
+    "category": "chairs",
+    "price": 89,
+    "salePrice": 69,
+    "rating": 4.3,
+    "reviews": 74,
+    "image": "assets/images/products/coleman-director-chair-series-2-26.svg",
+    "summary": "Director-style chair with practical seat height and easy meal-time use.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=ALDI+Adventuridge+Directors+Chair"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=ALDI+Adventuridge+Directors+Chair"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=ALDI%20Adventuridge%20Directors%20Chair"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=ALDI%20Adventuridge%20Directors%20Chair"
+      }
+    ],
+    "description": "Director-style chair with practical seat height and easy meal-time use. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "director style",
+      "upright seating",
+      "value pick"
+    ],
+    "categoryName": "Camping Chairs"
+  },
+  {
+    "slug": "kampa-sandy-low-chair",
+    "name": "Kampa Sandy Low Chair",
+    "brand": "Kampa",
+    "category": "chairs",
+    "price": 109,
+    "salePrice": 89,
+    "rating": 4.4,
+    "reviews": 61,
+    "image": "assets/images/products/blackwolf-lounge-chair-lite-127.svg",
+    "summary": "Low relaxed chair suited to beaches, parks and casual family camping.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=Kampa+Sandy+Low+Chair"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=Kampa+Sandy+Low+Chair"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=Kampa%20Sandy%20Low%20Chair"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=Kampa%20Sandy%20Low%20Chair"
+      }
+    ],
+    "description": "Low relaxed chair suited to beaches, parks and casual family camping. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "low chair",
+      "beach friendly",
+      "casual lounging"
+    ],
+    "categoryName": "Camping Chairs"
+  },
+  {
+    "slug": "coleman-classic-2-burner-stove",
+    "name": "Coleman Classic 2 Burner Stove",
+    "brand": "Coleman",
+    "category": "stoves",
+    "price": 199,
+    "salePrice": 169,
+    "rating": 4.7,
+    "reviews": 243,
+    "image": "assets/images/products/coleman-2-burner-classic-propane-stove.svg",
+    "summary": "A proven dual-burner camp stove for straightforward family meal prep.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=Coleman+Classic+2+Burner+Stove"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=Coleman+Classic+2+Burner+Stove"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=Coleman%20Classic%202%20Burner%20Stove"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=Coleman%20Classic%202%20Burner%20Stove"
+      }
+    ],
+    "description": "A proven dual-burner camp stove for straightforward family meal prep. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "two-burner cooker",
+      "family camping",
+      "dependable classic"
+    ],
+    "categoryName": "Camping Stoves"
+  },
+  {
+    "slug": "blackwolf-turbo-lite-plus-300-tent",
+    "name": "BlackWolf Turbo Lite Plus 300 Tent",
+    "brand": "BlackWolf",
+    "category": "tents",
+    "price": 799,
+    "salePrice": 699,
+    "rating": 4.6,
+    "reviews": 123,
+    "image": "assets/images/products/blackwolf-turbo-300-tent.svg",
+    "summary": "Popular touring tent with quick-pitch layout and useful livability.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=BlackWolf+Turbo+Lite+Plus+300+Tent"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=BlackWolf+Turbo+Lite+Plus+300+Tent"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=BlackWolf%20Turbo%20Lite%20Plus%20300%20Tent"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=BlackWolf%20Turbo%20Lite%20Plus%20300%20Tent"
+      }
+    ],
+    "description": "Popular touring tent with quick-pitch layout and useful livability. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "touring tent",
+      "easy setup",
+      "roomy interior"
+    ],
+    "categoryName": "Camping Tents"
+  },
+  {
+    "slug": "coleman-instant-up-6p-lighted-northstar-darkroom-tent",
+    "name": "Coleman Instant Up 6P Lighted Northstar DarkRoom Tent",
+    "brand": "Coleman",
+    "category": "tents",
+    "price": 749,
+    "salePrice": 629,
+    "rating": 4.7,
+    "reviews": 182,
+    "image": "assets/images/products/coleman-instant-up-6p-gold-tent.svg",
+    "summary": "Spacious instant-style family tent with dark-room comfort for car camping.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=Coleman+Instant+Up+6P+Lighted+Northstar+DarkRoom+Tent"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=Coleman+Instant+Up+6P+Lighted+Northstar+DarkRoom+Tent"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=Coleman%20Instant%20Up%206P%20Lighted%20Northstar%20DarkRoom%20Tent"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=Coleman%20Instant%20Up%206P%20Lighted%20Northstar%20DarkRoom%20Tent"
+      }
+    ],
+    "description": "Spacious instant-style family tent with dark-room comfort for car camping. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "family car camping",
+      "fast setup",
+      "dark-room design"
+    ],
+    "categoryName": "Camping Tents"
+  },
+  {
+    "slug": "coleman-oversized-quad-chair-with-cooler",
+    "name": "Coleman Oversized Quad Chair with Cooler",
+    "brand": "Coleman",
+    "category": "chairs",
+    "price": 99,
+    "salePrice": 79,
+    "rating": 4.6,
+    "reviews": 281,
+    "image": "assets/images/products/coleman-camping-quad-chair.svg",
+    "summary": "Classic relaxed campsite chair with built-in cooler pocket and broad seat.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=Coleman+Oversized+Quad+Chair+with+Cooler"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=Coleman+Oversized+Quad+Chair+with+Cooler"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=Coleman%20Oversized%20Quad%20Chair%20with%20Cooler"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=Coleman%20Oversized%20Quad%20Chair%20with%20Cooler"
+      }
+    ],
+    "description": "Classic relaxed campsite chair with built-in cooler pocket and broad seat. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "budget comfort",
+      "oversized seat",
+      "campsite classic"
+    ],
+    "categoryName": "Camping Chairs"
+  },
+  {
+    "slug": "engel-deepblue-50-cooler",
+    "name": "Engel DeepBlue 50 Cooler",
+    "brand": "Engel",
+    "category": "coolers",
+    "price": 399,
+    "salePrice": 359,
+    "rating": 4.7,
+    "reviews": 88,
+    "image": "assets/images/products/engel-40l-portable-fridge-freezer.svg",
+    "summary": "Well-built cooler for campers wanting stronger insulation without going extreme.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=Engel+DeepBlue+50+Cooler"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=Engel+DeepBlue+50+Cooler"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=Engel%20DeepBlue%2050%20Cooler"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=Engel%20DeepBlue%2050%20Cooler"
+      }
+    ],
+    "description": "Well-built cooler for campers wanting stronger insulation without going extreme. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "durable shell",
+      "balanced performance",
+      "mid-premium"
+    ],
+    "categoryName": "Coolers & Ice Boxes"
+  },
+  {
+    "slug": "evakool-fibreglass-47l-icebox",
+    "name": "Evakool Fibreglass 47L Icebox",
+    "brand": "Evakool",
+    "category": "coolers",
+    "price": 369,
+    "salePrice": 329,
+    "rating": 4.7,
+    "reviews": 63,
+    "image": "assets/images/products/evakool-adventure-cooler-45l-166.svg",
+    "summary": "A strong fibreglass cooler popular with campers needing better heat control.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=Evakool+Fibreglass+47L+Icebox"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=Evakool+Fibreglass+47L+Icebox"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=Evakool%20Fibreglass%2047L%20Icebox"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=Evakool%20Fibreglass%2047L%20Icebox"
+      }
+    ],
+    "description": "A strong fibreglass cooler popular with campers needing better heat control. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "fibreglass body",
+      "better heat control",
+      "sturdy build"
+    ],
+    "categoryName": "Coolers & Ice Boxes"
+  },
+  {
+    "slug": "sea-to-summit-travellinglight-soft-cooler",
+    "name": "Sea to Summit TravellingLight Soft Cooler",
+    "brand": "Sea to Summit",
+    "category": "coolers",
+    "price": 99,
+    "salePrice": 79,
+    "rating": 4.1,
+    "reviews": 41,
+    "image": "assets/images/products/sea-to-summit-camp-bed-comfort-114.svg",
+    "summary": "Soft cooler for short errands, picnics or compact car loads.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=Sea+to+Summit+TravellingLight+Soft+Cooler"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=Sea+to+Summit+TravellingLight+Soft+Cooler"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=Sea%20to%20Summit%20TravellingLight%20Soft%20Cooler"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=Sea%20to%20Summit%20TravellingLight%20Soft%20Cooler"
+      }
+    ],
+    "description": "Soft cooler for short errands, picnics or compact car loads. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "soft cooler",
+      "lightweight carry",
+      "quick outings"
+    ],
+    "categoryName": "Coolers & Ice Boxes"
+  },
+  {
+    "slug": "coleman-70-quart-xtreme-cooler",
+    "name": "Coleman 70 Quart Xtreme Cooler",
+    "brand": "Coleman",
+    "category": "coolers",
+    "price": 179,
+    "salePrice": 149,
+    "rating": 4.6,
+    "reviews": 267,
+    "image": "assets/images/products/coleman-xtreme-5-wheeled-cooler-62qt.svg",
+    "summary": "High-value large cooler with practical capacity for longer outings.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=Coleman+70+Quart+Xtreme+Cooler"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=Coleman+70+Quart+Xtreme+Cooler"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=Coleman%2070%20Quart%20Xtreme%20Cooler"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=Coleman%2070%20Quart%20Xtreme%20Cooler"
+      }
+    ],
+    "description": "High-value large cooler with practical capacity for longer outings. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "large volume",
+      "great value",
+      "long weekend ready"
+    ],
+    "categoryName": "Coolers & Ice Boxes"
+  },
+  {
+    "slug": "darche-dusk-to-dawn-1400-swag",
+    "name": "Darche Dusk to Dawn 1400 Swag",
+    "brand": "Darche",
+    "category": "tents",
+    "price": 399,
+    "salePrice": 349,
+    "rating": 4.5,
+    "reviews": 94,
+    "image": "assets/images/products/darche-tourer-4p-tent-14.svg",
+    "summary": "A simple swag-style shelter for solo campers who value compact packing.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=Darche+Dusk+to+Dawn+1400+Swag"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=Darche+Dusk+to+Dawn+1400+Swag"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=Darche%20Dusk%20to%20Dawn%201400%20Swag"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=Darche%20Dusk%20to%20Dawn%201400%20Swag"
+      }
+    ],
+    "description": "A simple swag-style shelter for solo campers who value compact packing. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "swag shelter",
+      "solo camping",
+      "compact pack"
+    ],
+    "categoryName": "Camping Tents"
+  },
+  {
+    "slug": "igloo-latitude-60-roller-cooler",
+    "name": "Igloo Latitude 60 Roller Cooler",
+    "brand": "Igloo",
+    "category": "coolers",
+    "price": 189,
+    "salePrice": 159,
+    "rating": 4.4,
+    "reviews": 112,
+    "image": "assets/images/products/igloo-bmx-52-roller-cooler.svg",
+    "summary": "Wheeled cooler that makes it easier to move drinks and food further from the car.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=Igloo+Latitude+60+Roller+Cooler"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=Igloo+Latitude+60+Roller+Cooler"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=Igloo%20Latitude%2060%20Roller%20Cooler"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=Igloo%20Latitude%2060%20Roller%20Cooler"
+      }
+    ],
+    "description": "Wheeled cooler that makes it easier to move drinks and food further from the car. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "roller design",
+      "easy transport",
+      "family picnic"
+    ],
+    "categoryName": "Coolers & Ice Boxes"
+  },
+  {
+    "slug": "oztrail-rechargeable-10w-lantern",
+    "name": "OZtrail Rechargeable 10W Lantern",
+    "brand": "OZtrail",
+    "category": "lanterns",
+    "price": 69,
+    "salePrice": 59,
+    "rating": 4.2,
+    "reviews": 94,
+    "image": "assets/images/products/oztrail-10w-led-lantern.svg",
+    "summary": "Simple value lantern for campers who want brightness without overspending.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=OZtrail+Rechargeable+10W+Lantern"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=OZtrail+Rechargeable+10W+Lantern"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=OZtrail%20Rechargeable%2010W%20Lantern"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=OZtrail%20Rechargeable%2010W%20Lantern"
+      }
+    ],
+    "description": "Simple value lantern for campers who want brightness without overspending. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "value lantern",
+      "bright output",
+      "easy charging"
+    ],
+    "categoryName": "Camping Lanterns"
+  },
+  {
+    "slug": "oztrail-goanna-arm-chair",
+    "name": "OZtrail Goanna Arm Chair",
+    "brand": "OZtrail",
+    "category": "chairs",
+    "price": 119,
+    "salePrice": 95,
+    "rating": 4.5,
+    "reviews": 188,
+    "image": "assets/images/products/oztrail-anywhere-camp-chair.svg",
+    "summary": "Reliable folding camp chair with side table style utility and solid support.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=OZtrail+Goanna+Arm+Chair"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=OZtrail+Goanna+Arm+Chair"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=OZtrail%20Goanna%20Arm%20Chair"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=OZtrail%20Goanna%20Arm%20Chair"
+      }
+    ],
+    "description": "Reliable folding camp chair with side table style utility and solid support. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "folding chair",
+      "sturdy support",
+      "car camping"
+    ],
+    "categoryName": "Camping Chairs"
+  },
+  {
+    "slug": "exped-synmat-hl",
+    "name": "Exped SynMat HL",
+    "brand": "Exped",
+    "category": "sleep-systems",
+    "price": 289,
+    "salePrice": 249,
+    "rating": 4.6,
+    "reviews": 58,
+    "image": "assets/images/products/exped-synmat-hl-sleeping-mat.svg",
+    "summary": "Comfortable inflatable mat with good packability for mobile campers.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=Exped+SynMat+HL"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=Exped+SynMat+HL"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=Exped%20SynMat%20HL"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=Exped%20SynMat%20HL"
+      }
+    ],
+    "description": "Comfortable inflatable mat with good packability for mobile campers. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "inflatable mat",
+      "comfortable support",
+      "compact pack"
+    ],
+    "categoryName": "Camp Sleep Systems"
+  },
+  {
+    "slug": "klymit-static-v2-pad",
+    "name": "Klymit Static V2 Pad",
+    "brand": "Klymit",
+    "category": "sleep-systems",
+    "price": 139,
+    "salePrice": 119,
+    "rating": 4.4,
+    "reviews": 143,
+    "image": "assets/images/products/klymit-static-v2-sleeping-pad.svg",
+    "summary": "A popular value inflatable pad that packs small and suits many beginners.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=Klymit+Static+V2+Pad"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=Klymit+Static+V2+Pad"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=Klymit%20Static%20V2%20Pad"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=Klymit%20Static%20V2%20Pad"
+      }
+    ],
+    "description": "A popular value inflatable pad that packs small and suits many beginners. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "value pad",
+      "small pack",
+      "beginner upgrade"
+    ],
+    "categoryName": "Camp Sleep Systems"
+  },
+  {
+    "slug": "fenix-cl26r-lantern",
+    "name": "Fenix CL26R Lantern",
+    "brand": "Fenix",
+    "category": "lanterns",
+    "price": 129,
+    "salePrice": 109,
+    "rating": 4.6,
+    "reviews": 73,
+    "image": "assets/images/products/fenix-cl26r-camping-lantern.svg",
+    "summary": "Portable lantern with multiple modes and reliable performance for regular use.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=Fenix+CL26R+Lantern"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=Fenix+CL26R+Lantern"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=Fenix%20CL26R%20Lantern"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=Fenix%20CL26R%20Lantern"
+      }
+    ],
+    "description": "Portable lantern with multiple modes and reliable performance for regular use. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "portable lantern",
+      "multiple modes",
+      "dependable use"
+    ],
+    "categoryName": "Camping Lanterns"
+  },
+  {
+    "slug": "primus-kinjia-stove",
+    "name": "Primus Kinjia Stove",
+    "brand": "Primus",
+    "category": "stoves",
+    "price": 369,
+    "salePrice": 329,
+    "rating": 4.7,
+    "reviews": 59,
+    "image": "assets/images/products/primus-camp-stove-max-68.svg",
+    "summary": "Premium two-burner stove with better simmer control and cleaner design.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=Primus+Kinjia+Stove"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=Primus+Kinjia+Stove"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=Primus%20Kinjia%20Stove"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=Primus%20Kinjia%20Stove"
+      }
+    ],
+    "description": "Premium two-burner stove with better simmer control and cleaner design. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "premium dual burner",
+      "simmer control",
+      "cleaner finish"
+    ],
+    "categoryName": "Camping Stoves"
+  },
+  {
+    "slug": "wanderer-25l-ice-box",
+    "name": "Wanderer 25L Ice Box",
+    "brand": "Wanderer",
+    "category": "coolers",
+    "price": 89,
+    "salePrice": 69,
+    "rating": 4.2,
+    "reviews": 136,
+    "image": "assets/images/products/wanderer-hard-cooler-25l-132.svg",
+    "summary": "Simple compact cooler for day trips, parks and short overnighters.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=Wanderer+25L+Ice+Box"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=Wanderer+25L+Ice+Box"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=Wanderer%2025L%20Ice%20Box"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=Wanderer%2025L%20Ice%20Box"
+      }
+    ],
+    "description": "Simple compact cooler for day trips, parks and short overnighters. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "compact cooler",
+      "day trip use",
+      "budget friendly"
+    ],
+    "categoryName": "Coolers & Ice Boxes"
+  },
+  {
+    "slug": "zempire-aero-txl-pro-air-tent",
+    "name": "Zempire Aero TXL Pro Air Tent",
+    "brand": "Zempire",
+    "category": "tents",
+    "price": 1999,
+    "salePrice": 1799,
+    "rating": 4.8,
+    "reviews": 67,
+    "image": "assets/images/products/zempire-instant-up-4p-tent-7.svg",
+    "summary": "Premium inflatable family tent with great comfort and standing room.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=Zempire+Aero+TXL+Pro+Air+Tent"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=Zempire+Aero+TXL+Pro+Air+Tent"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=Zempire%20Aero%20TXL%20Pro%20Air%20Tent"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=Zempire%20Aero%20TXL%20Pro%20Air%20Tent"
+      }
+    ],
+    "description": "Premium inflatable family tent with great comfort and standing room. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "air tent",
+      "premium comfort",
+      "long stays"
+    ],
+    "categoryName": "Camping Tents"
+  },
+  {
+    "slug": "kingcamp-moon-saucer-chair",
+    "name": "KingCamp Moon Saucer Chair",
+    "brand": "KingCamp",
+    "category": "chairs",
+    "price": 149,
+    "salePrice": 129,
+    "rating": 4.6,
+    "reviews": 55,
+    "image": "assets/images/products/kingcamp-heavy-duty-camping-chair.svg",
+    "summary": "Saucer-style camp chair that feels soft and roomy on laid-back trips.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=KingCamp+Moon+Saucer+Chair"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=KingCamp+Moon+Saucer+Chair"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=KingCamp%20Moon%20Saucer%20Chair"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=KingCamp%20Moon%20Saucer%20Chair"
+      }
+    ],
+    "description": "Saucer-style camp chair that feels soft and roomy on laid-back trips. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "lounging comfort",
+      "roomy shape",
+      "soft seating"
+    ],
+    "categoryName": "Camping Chairs"
+  },
+  {
+    "slug": "darche-vipor-xv-chair",
+    "name": "Darche VIPOR XV Chair",
+    "brand": "Darche",
+    "category": "chairs",
+    "price": 219,
+    "salePrice": 189,
+    "rating": 4.7,
+    "reviews": 92,
+    "image": "assets/images/products/darche-camp-chair-elite-69.svg",
+    "summary": "Padded premium chair built for campers who stay seated for longer.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=Darche+VIPOR+XV+Chair"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=Darche+VIPOR+XV+Chair"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=Darche%20VIPOR%20XV%20Chair"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=Darche%20VIPOR%20XV%20Chair"
+      }
+    ],
+    "description": "Padded premium chair built for campers who stay seated for longer. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "premium comfort",
+      "padded support",
+      "luxe camping"
+    ],
+    "categoryName": "Camping Chairs"
+  },
+  {
+    "slug": "sea-to-summit-camp-plus-seat",
+    "name": "Sea to Summit Camp Plus Seat",
+    "brand": "Sea to Summit",
+    "category": "chairs",
+    "price": 69,
+    "salePrice": 59,
+    "rating": 4.2,
+    "reviews": 47,
+    "image": "assets/images/products/sea-to-summit-camp-chair-elite-70.svg",
+    "summary": "Compact sit-anywhere option for ultralight or minimalist campers.",
+    "stores": [
+      {
+        "name": "Amazon AU",
+        "type": "search",
+        "url": "https://www.amazon.com.au/s?k=Sea+to+Summit+Camp+Plus+Seat"
+      },
+      {
+        "name": "eBay AU",
+        "type": "search",
+        "url": "https://www.ebay.com.au/sch/i.html?_nkw=Sea+to+Summit+Camp+Plus+Seat"
+      },
+      {
+        "name": "BCF",
+        "type": "search",
+        "url": "https://www.bcf.com.au/search?q=Sea%20to%20Summit%20Camp%20Plus%20Seat"
+      },
+      {
+        "name": "Anaconda",
+        "type": "search",
+        "url": "https://www.anacondastores.com/search?text=Sea%20to%20Summit%20Camp%20Plus%20Seat"
+      }
+    ],
+    "description": "Compact sit-anywhere option for ultralight or minimalist campers. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "highlights": [
+      "compact seat",
+      "minimalist camp",
+      "tiny pack size"
+    ],
+    "categoryName": "Camping Chairs"
   }
 ]
