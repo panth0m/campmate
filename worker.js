@@ -66,7 +66,7 @@ async function handleEbaySearch(request, env) {
         Authorization: `Basic ${basic}`,
         "Content-Type": "application/x-www-form-urlencoded",
       },
-      body: "grant_type=client_credentials&scope=https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope",
+      body: "grant_type=client_credentials&scope=https://api.ebay.com/oauth/api_scope"
     });
 
     const tokenData = await tokenRes.json();
