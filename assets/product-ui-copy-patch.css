@@ -1,0 +1,12 @@
+/* Extra polish for product compare box */
+.ebay-live-card .eyebrow,
+.product-side-card .eyebrow,
+.compare-card .eyebrow {
+  letter-spacing: 0.02em;
+}
+
+.ebay-live-card p,
+.product-side-card p,
+.compare-card p {
+  line-height: 1.55;
+}
