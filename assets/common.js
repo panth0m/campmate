@@ -11,12 +11,13 @@ function slugParam(){ return new URLSearchParams(location.search).get('slug'); }
 function categoryParam(){ return new URLSearchParams(location.search).get('category'); }
 function bySlug(list, slug){ return list.find(x => x.slug === slug); }
 function escapeHtml(s){
-  return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+  return String(s).replace(/[&<>\"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#39;'}[m]));
 }
 function fallbackForCategory(category){
   return `assets/images/categories/${category}.svg`;
 }
 function normalizeImage(product){
+  if (product && product.ebayImage) return product.ebayImage;
   if (product && product.image) return product.image;
   return fallbackForCategory(product?.category || 'tents');
 }
@@ -28,11 +29,50 @@ function attachImgFallback(img, category){
 function enhanceImages(root=document){
   root.querySelectorAll('img[data-category]').forEach(img => attachImgFallback(img, img.dataset.category));
 }
+
+// eBay 이미지 캐시 (slug → imageUrl)
+const _ebayImageCache = {};
+
+// 상품 카드 렌더링 후 eBay 이미지 백그라운드로 교체
+async function loadEbayImagesForCards(products) {
+  for (const product of products) {
+    // 이미 캐시된 경우
+    if (_ebayImageCache[product.slug]) {
+      _applyEbayImage(product.slug, _ebayImageCache[product.slug]);
+      continue;
+    }
+    // eBay API 호출
+    try {
+      const res = await fetch(`/api/ebay-search?q=${encodeURIComponent(product.name)}&limit=1`);
+      if (!res.ok) continue;
+      const data = await res.json();
+      const img = data.products?.[0]?.image || data.items?.[0]?.image;
+      if (img) {
+        _ebayImageCache[product.slug] = img;
+        _applyEbayImage(product.slug, img);
+      }
+    } catch(e) {
+      // 조용히 실패 — 기존 SVG 유지
+    }
+    // 너무 빠르게 호출하지 않도록 살짝 대기
+    await new Promise(r => setTimeout(r, 150));
+  }
+}
+
+function _applyEbayImage(slug, imageUrl) {
+  const imgs = document.querySelectorAll(`img[data-slug="${slug}"]`);
+  imgs.forEach(img => {
+    img.src = imageUrl;
+    img.style.objectFit = 'contain';
+    img.style.background = '#fff';
+  });
+}
+
 function productCard(product){
   return `
   <article class="card">
     <a class="thumb" href="product.html?slug=${product.slug}">
-      <img src="${normalizeImage(product)}" alt="${escapeHtml(product.name)}" loading="lazy" data-category="${product.category}">
+      <img src="${normalizeImage(product)}" alt="${escapeHtml(product.name)}" loading="lazy" data-category="${product.category}" data-slug="${product.slug}">
     </a>
     <div class="card-body">
       <div class="kicker">${product.brand} · ${product.category.replace('-', ' ')}</div>
@@ -47,8 +87,8 @@ function productCard(product){
         <span>${product.reviews} reviews</span>
       </div>
       <div class="actions">
-        <a class="btn small" href="product.html?slug=${product.slug}">Open compare</a>
-        <a class="btn small secondary" target="_blank" rel="noopener" href="${product.stores[0].url}">Open eBay</a>
+        <a class="btn small" href="product.html?slug=${product.slug}">Compare prices</a>
+        <a class="btn small secondary" target="_blank" rel="noopener" href="${product.stores[0].url}">eBay AU</a>
       </div>
     </div>
   </article>`;
@@ -71,6 +111,7 @@ function setupSearchForm(){
   form.addEventListener('submit', e => {
     e.preventDefault();
     const q = form.querySelector('input').value.trim();
-    const target = form.dataset.searchTarget || 'search.html'; location.href = `${target}?q=${encodeURIComponent(q)}`;
+    const target = form.dataset.searchTarget || 'search.html';
+    location.href = `${target}?q=${encodeURIComponent(q)}`;
   });
 }
