@@ -255,10 +255,14 @@ function productCard(product) {
 }
 
 function compareRow(product) {
-  const specs = getPrimarySpecs(product).map(value => `<span class="spec-chip">${escapeHtml(value)}</span>`).join('');
+  const specs = getPrimarySpecs(product);
   const saving = savingsPercent(product);
-  const stores = normalizeStores(product).slice(0, 3).map(store => `
-    <div class="store-item">
+  const stores = normalizeStores(product).slice(0, 3);
+  const quickLine = specs.join(' / ');
+  const detailLine = (product.highlights || []).slice(0, 3).join(' / ') || (product.summary || '');
+  const storesSummary = stores.map(store => store.name).join(' · ');
+  const storeStack = stores.map((store, idx) => `
+    <div class="store-item dense${idx === 0 ? ' lowest' : ''}">
       <div><strong>${escapeHtml(store.name)}</strong><div class="tiny">${escapeHtml(store.note)}</div></div>
       <a class="store-pill small secondary" target="_blank" rel="noopener sponsored" href="${escapeAttribute(store.url)}">Open</a>
     </div>`).join('');
@@ -267,18 +271,21 @@ function compareRow(product) {
     <a class="compare-media" href="${productLink(product)}"><img src="${normalizeImage(product)}" alt="${escapeHtml(product.name)}" loading="lazy" data-category="${product.category}"></a>
     <div class="compare-body">
       <div class="compare-body-inner">
-        <div class="compare-brand"><strong>${escapeHtml(product.brand)}</strong><span class="soft-badge">${escapeHtml(product.categoryName || titleCase(product.category))}</span><span class="soft-badge">${stars(product.rating)}</span></div>
+        <div class="compare-brand"><strong>${escapeHtml(product.brand)}</strong><span class="soft-badge">${escapeHtml(product.categoryName || titleCase(product.category))}</span>${saving ? `<span class="soft-badge warn">Save ~${saving}%</span>` : ''}</div>
         <a class="compare-title" href="${productLink(product)}">${escapeHtml(product.name)}</a>
-        <p class="compare-summary">${escapeHtml(product.summary || '')}</p>
-        <div class="spec-row">${specs}</div>
-        <div class="metric-row"><span class="metric-chip good">${product.reviews || 0} reviews</span><span class="metric-chip">${(product.stores || []).length} store options</span>${saving ? `<span class="metric-chip warn">Save ~${saving}%</span>` : ''}</div>
+        <div class="compare-dense-line">${escapeHtml(quickLine)}</div>
+        <div class="compare-fact-line"><span>[Summary]</span>${escapeHtml(product.summary || 'Compare store search options and reference pricing before you click through.')}</div>
+        <div class="compare-fact-line"><span>[Highlights]</span>${escapeHtml(detailLine)}</div>
+        <div class="compare-fact-line"><span>[Retailers]</span>${escapeHtml(storesSummary || 'Store search links available')}</div>
+        <div class="compare-mini-meta"><span>${stars(product.rating)}</span><span>${Number(product.reviews || 0).toLocaleString()} reviews</span><span>${(product.stores || []).length} store options</span></div>
       </div>
     </div>
     <div class="compare-price">
-      <div class="label">Reference price</div>
+      <div class="label">Lowest guide price</div>
       <div class="reference">${currency(product.salePrice)}</div>
       <div class="tiny">Typical full price ${currency(product.price)}</div>
-      <div class="store-stack">${stores}</div>
+      <div class="store-stack">${storeStack}</div>
+      <a class="btn small compare-inline-btn" href="${productLink(product)}">Compare</a>
     </div>
     <div class="compare-cta">
       <a class="btn small" href="${productLink(product)}">Compare</a>
