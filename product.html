@@ -1,1 +1,165 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Product | CampMate Australia</title><meta name="description" content="Compare camping products on CampMate Australia with summaries, store links and practical buying context."><link rel="canonical" href="https://campmate.kangseyoung7.workers.dev/product.html"><meta property="og:title" content="Product | CampMate Australia"><meta property="og:description" content="Compare camping products on CampMate Australia with summaries, store links and practical buying context."><meta property="og:type" content="website"><meta property="og:url" content="https://campmate.kangseyoung7.workers.dev/product.html"><meta name="twitter:card" content="summary_large_image"><meta name="google-site-verification" content="FYOS27d6BEVJvMcO6uM-zBCBEWVeriEPClO6j2-X6uY"><meta name="commission-factory-verification" content="ff3f890461734249a17c395d968021a8"><link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="assets/product-ui-copy-patch.css"><!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-RRL35ZW8MO"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-RRL35ZW8MO');</script></head><body><header class="topbar"><div class="container nav"><a class="logo" href="index.html"><span class="logo-badge">⛺</span><span>CampMate Australia</span></a><nav class="nav-links"><a href="index.html">Home</a><a href="categories.html">Categories</a><a href="popular.html">Popular</a><a href="guides.html">Guides</a></nav><form class="nav-search" data-search-form><input class="input" name="q" placeholder="Search tents, coolers, chairs..."><button class="btn" type="submit">Search</button></form></div></header><main class="page-hero"><div class="container"><div class="breadcrumb"><a href="index.html">Home</a> · <a href="popular.html">Products</a> · <span id="product-crumb">Product</span></div><div class="product-layout"><section class="card product-box"><div class="thumb" style="border-radius:20px;margin-bottom:18px"><img id="product-image" alt="" data-category="tents"></div><div class="badge">Review to compare page</div><h1 id="product-title" style="margin-bottom:10px">Loading…</h1><div id="product-meta" class="meta"></div><div class="price-row"><span class="sale" id="sale-price"></span><span class="old" id="old-price"></span></div><p id="product-summary"></p><div class="card" style="margin-top:18px;padding:18px"><strong>Why this page exists</strong><p class="muted" style="margin-top:8px">CampMate uses product pages as simple buyer checkpoints: see the basics, compare store search options and then click through when you are ready.</p></div><div class="card" style="margin-top:18px;padding:18px"><div class="badge">Compare stores</div><h2 style="margin:12px 0">Shop links and price compare</h2><div id="store-list" class="list"></div><div id="store-actions" style="display:flex;gap:10px;flex-wrap:wrap;margin-top:14px"></div><p class="muted" style="margin-top:12px">CampMate shows store search links and marketplace paths so shoppers can compare before buying.</p></div></section><aside class="side-stack"><section class="card product-box"><div class="badge">Live marketplace option</div><h2 style="margin:12px 0 6px">Open a current eBay AU search</h2><p id="ebay-copy" class="muted">We build an eBay AU search link from the selected product name so you can compare current marketplace listings quickly.</p><a id="ebay-open" class="btn" target="_blank" rel="noopener sponsored" href="#">Open eBay AU</a></section><section class="card product-box"><div class="badge">What to compare</div><ul><li>Realistic sale price and old price context</li><li>Category fit and intended camping use</li><li>Weight, size or portability trade-offs</li><li>Whether a store search or direct listing is more useful</li></ul></section></aside></div></div></main><footer class="footer"><div class="container footer-grid"><div><div class="logo" style="margin-bottom:12px"><span class="logo-badge">⛺</span><span>CampMate Australia</span></div><p>CampMate helps Australian campers compare useful camping gear, read buyer-first guides and click through to store searches with clear disclosure.</p><p class="muted" style="margin-top:12px">Disclosure: CampMate may earn commissions from affiliate links at no additional cost to you.</p></div><div><strong>Browse</strong><div class="list" style="margin-top:12px"><a href="categories.html">All categories</a><a href="popular.html">Popular products</a><a href="guides.html">Guides</a></div></div><div><strong>Trust & contact</strong><div class="list" style="margin-top:12px"><a href="about.html">About CampMate</a><a href="contact.html">Contact</a><a href="disclosure.html">Affiliate disclosure</a><a href="privacy.html">Privacy</a></div></div></div></footer><script src="assets/data.js"></script><script src="assets/common.js"></script><script>setupSearchForm();enhanceImages();</script><script>function getSafeSlug(){const url=new URL(location.href);return (url.searchParams.get('slug')||url.searchParams.get('id')||'').trim();}function findProduct(slug){if(!slug) return null;const target=slugify(slug);return getProducts().find(p=>slugify(p.slug||p.name)===target)||null;}function renderNotFound(slug){document.title='Product not found | CampMate Australia';document.getElementById('product-crumb').textContent='Product not found';document.getElementById('product-title').textContent='Product not found';document.getElementById('product-summary').textContent=slug?`We could not find a product matching "${slug}".`:'No product was selected.';document.getElementById('store-list').innerHTML='<div class="empty">Browse popular compare pages instead.</div>';document.getElementById('store-actions').innerHTML='<a class="btn secondary" href="popular.html">Back to popular products</a>';}function normalizeStores(product){return (product.stores||[]).map((store,i)=>{const name=store.name||`Store ${i+1}`;const url=buildAffiliateUrl(name,store.url||'#',product.name||'');const text=/amazon|bcf|anaconda|snowys|tentworld|wild earth/i.test(name)?'Search store':(product.salePrice?currency(product.salePrice):'Search store');return {name,url,text,typeLabel:store.type==='search'?'Search store results':'Direct product page'};});}const slug=getSafeSlug();const product=findProduct(slug);if(!product){renderNotFound(slug);} else {const display = displayName(product);document.title=`${display} | CampMate Australia`;document.getElementById('product-crumb').textContent=display;const img=document.getElementById('product-image');img.src=normalizeImage(product);img.alt=display;img.dataset.category=product.category||'';attachImgFallback(img,product.category);document.getElementById('product-title').textContent=display;document.getElementById('product-summary').textContent=product.description||product.summary||'';document.getElementById('product-meta').innerHTML=`<span>${product.brand}</span><span>${product.categoryName||product.category}</span><span>${stars(product.rating)}</span><span>${product.reviews} reviews</span>`;document.getElementById('sale-price').textContent=currency(product.salePrice);document.getElementById('old-price').textContent=currency(product.price);const stores=normalizeStores(product);document.getElementById('store-list').innerHTML=stores.map((s)=>`<div class="rowish"><div><strong>${escapeHtml(s.name)}</strong><div class="muted">${escapeHtml(s.typeLabel)}</div></div><div><div style="margin-bottom:8px;font-weight:700">${escapeHtml(s.text)}</div><a class="store-pill secondary small" target="_blank" rel="noopener sponsored" href="${escapeAttribute(s.url)}">Open</a></div></div>`).join('');document.getElementById('store-actions').innerHTML=stores.slice(0,4).map((s,i)=>`<a class="store-pill ${i===0?'':'secondary'} small" target="_blank" rel="noopener sponsored" href="${escapeAttribute(s.url)}">View on ${escapeHtml(s.name.replace(/\s+(AU|Australia)$/i,''))}</a>`).join('');document.getElementById('ebay-open').href=`https://www.ebay.com.au/sch/i.html?_nkw=${encodeURIComponent(display)}`;const ld={'@context':'https://schema.org','@type':'Product',name:display,description:product.description||product.summary||'',category:product.categoryName||product.category,brand:{'@type':'Brand',name:product.brand},offers:{'@type':'Offer',priceCurrency:'AUD',price:product.salePrice,url:location.href,availability:'https://schema.org/InStock'},aggregateRating:{'@type':'AggregateRating',ratingValue:product.rating,reviewCount:product.reviews}};const s=document.createElement('script');s.type='application/ld+json';s.textContent=JSON.stringify(ld);document.head.appendChild(s);}</script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Product Compare | CampMate Australia</title>
+<meta name="description" content="Open a CampMate product compare page to view category context, reference price, store paths and similar products.">
+<link rel="canonical" href="https://campmate.kangseyoung7.workers.dev/product.html">
+<meta property="og:title" content="Product Compare | CampMate Australia">
+<meta property="og:description" content="Open a CampMate product compare page to view category context, reference price, store paths and similar products.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://campmate.kangseyoung7.workers.dev/product.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="google-site-verification" content="FYOS27d6BEVJvMcO6uM-zBCBEWVeriEPClO6j2-X6uY">
+<meta name="commission-factory-verification" content="ff3f890461734249a17c395d968021a8">
+<link rel="stylesheet" href="assets/style.css?v=20260314d5">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RRL35ZW8MO"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-RRL35ZW8MO');</script>
+
+</head><body>
+<header class="topbar">
+  <div class="container nav">
+    <a class="logo" href="index.html"><span class="logo-badge">⛺</span><span>CampMate Australia</span></a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="categories.html">Categories</a>
+      <a href="popular.html" class="active">Popular</a>
+      <a href="guides.html">Guides</a>
+    </nav>
+    <form class="nav-search" data-search-form>
+      <input class="input" name="q" placeholder="Search tents, coolers, chairs...">
+      <button class="btn" type="submit">Search</button>
+    </form>
+  </div>
+</header>
+<main class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> · <a href="popular.html">Popular</a> · <span id="product-crumb">Product</span></div>
+    <section class="page-panel">
+      <div class="product-hero">
+        <div class="product-gallery"><img id="product-image" alt="" data-category="tents"></div>
+        <div class="product-summary-card">
+          <div class="metric-row" id="product-badges"></div>
+          <h1 id="product-title" style="margin:0">Loading…</h1>
+          <p id="product-summary" class="muted">Loading product details…</p>
+          <div class="price-row"><span class="sale" id="sale-price"></span><span class="old" id="old-price"></span></div>
+          <div class="score-board" id="score-board"></div>
+          <div class="spec-row" id="headline-specs"></div>
+          <div id="quick-store-buttons" class="hero-actions"></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="grid-2" style="margin-top:20px">
+      <section class="page-panel">
+        <div class="badge">Specs overview</div>
+        <h2 style="margin:14px 0 10px">Key details</h2>
+        <div id="spec-table" class="spec-table"></div>
+      </section>
+      <section class="page-panel">
+        <div class="badge gold">Compare merchants</div>
+        <h2 style="margin:14px 0 10px">Store paths</h2>
+        <div class="offer-head"><div>Store</div><div>How to use it</div><div>Open</div></div>
+        <div id="offer-table" class="offer-table"></div>
+      </section>
+    </div>
+
+    <div class="grid-2" style="margin-top:20px">
+      <section class="page-panel">
+        <div class="badge">What to compare</div>
+        <div class="list" id="compare-checklist"></div>
+      </section>
+      <section class="page-panel">
+        <div class="badge">Similar compare pages</div>
+        <div id="related-list" class="related-list"></div>
+      </section>
+    </div>
+  </div>
+</main>
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="logo" style="margin-bottom:12px"><span class="logo-badge">⛺</span><span>CampMate Australia</span></div>
+      <p>CampMate is a Danawa-style camping gear comparison site for Australia. Browse categories, compare reference prices and open live store searches before you buy.</p>
+      <p class="muted" style="margin-top:12px">Disclosure: CampMate may earn commissions from affiliate links at no additional cost to you.</p>
+    </div>
+    <div>
+      <strong>Browse</strong>
+      <div class="list" style="margin-top:12px">
+        <a href="categories.html">All categories</a>
+        <a href="popular.html">Popular compare pages</a>
+        <a href="guides.html">Buyer guides</a>
+      </div>
+    </div>
+    <div>
+      <strong>Trust & contact</strong>
+      <div class="list" style="margin-top:12px">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="disclosure.html">Affiliate disclosure</a>
+        <a href="privacy.html">Privacy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="assets/common.js?v=20260314d5"></script>
+<script>
+setupSearchForm();
+(async function() {
+  const { products } = await loadCatalog();
+  const slug = slugParam();
+  const product = bySlug(products, slug);
+  if (!product) {
+    document.title = 'Product not found | CampMate Australia';
+    document.getElementById('product-title').textContent = 'Product not found';
+    document.getElementById('product-summary').textContent = slug ? `We could not find a CampMate compare page for "${slug}".` : 'No product was selected.';
+    document.getElementById('offer-table').innerHTML = '<div class="empty">Browse popular compare pages instead.</div>';
+    document.getElementById('related-list').innerHTML = '<a class="btn" href="popular.html">Back to popular pages</a>';
+    return;
+  }
+
+  const display = product.name;
+  const specs = getDetailSpecs(product);
+  const stores = normalizeStores(product);
+  const related = sortProducts(products.filter(item => item.category === product.category && item.slug !== product.slug), 'recommended').slice(0, 3);
+  document.title = `${display} | CampMate Australia`;
+  document.getElementById('product-crumb').textContent = display;
+  document.getElementById('product-title').textContent = display;
+  document.getElementById('product-summary').textContent = product.description || product.summary || '';
+  document.getElementById('sale-price').textContent = currency(product.salePrice);
+  document.getElementById('old-price').textContent = currency(product.price);
+  document.getElementById('product-badges').innerHTML = `
+    <span class="badge">${escapeHtml(product.brand)}</span>
+    <span class="soft-badge">${escapeHtml(product.categoryName || titleCase(product.category))}</span>
+    <span class="soft-badge">${escapeHtml(inferType(product))}</span>`;
+  document.getElementById('score-board').innerHTML = `
+    <div class="score-box"><strong>${(Number(product.rating)||0).toFixed(1)}</strong><span class="tiny">Rating</span></div>
+    <div class="score-box"><strong>${product.reviews || 0}</strong><span class="tiny">Reviews</span></div>
+    <div class="score-box"><strong>${(product.stores || []).length}</strong><span class="tiny">Stores</span></div>
+    <div class="score-box"><strong>${savingsPercent(product) ? savingsPercent(product) + '%' : '—'}</strong><span class="tiny">Saving vs full price</span></div>`;
+  document.getElementById('headline-specs').innerHTML = getPrimarySpecs(product).map(value => `<span class="spec-chip">${escapeHtml(value)}</span>`).join('');
+  document.getElementById('quick-store-buttons').innerHTML = createStoreButtons(product, 5);
+  document.getElementById('spec-table').innerHTML = Object.entries(specs).map(([label, value]) => `<div class="spec-table-row"><strong>${escapeHtml(label)}</strong><span>${escapeHtml(value)}</span></div>`).join('');
+  document.getElementById('offer-table').innerHTML = stores.map(store => `<div class="offer-row"><div><strong>${escapeHtml(store.name)}</strong></div><div class="muted">${escapeHtml(store.note)} for this product</div><div><a class="btn secondary small" target="_blank" rel="noopener sponsored" href="${escapeAttribute(store.url)}">Open</a></div></div>`).join('');
+  document.getElementById('compare-checklist').innerHTML = [
+    `Check whether ${escapeHtml(inferType(product))} is the right format for your trip style.`,
+    `Compare the CampMate reference price against current store listings before you buy.`,
+    `Check review count and shopper intent: ${product.reviews || 0} reviews usually means broader buyer confidence.`,
+    `Use live store searches to spot bundles, shipping differences and marketplace alternatives.`
+  ].map(item => `<div class="rowish"><div>${escapeHtml(item)}</div><span class="soft-badge">Compare</span></div>`).join('');
+  document.getElementById('related-list').innerHTML = related.map(productCard).join('') || '<div class="empty">No related products found.</div>';
+  const image = document.getElementById('product-image');
+  image.src = normalizeImage(product);
+  image.alt = display;
+  image.dataset.category = product.category || 'tents';
+  attachImgFallback(image, product.category);
+  enhanceImages();
+  const ld = {'@context':'https://schema.org','@type':'Product',name:display,description:product.description || product.summary || '',category:product.categoryName || product.category,brand:{'@type':'Brand',name:product.brand},offers:{'@type':'Offer',priceCurrency:'AUD',price:product.salePrice,url:location.href,availability:'https://schema.org/InStock'},aggregateRating:{'@type':'AggregateRating',ratingValue:Number(product.rating)||0,reviewCount:product.reviews || 0}};
+  const s = document.createElement('script');
+  s.type = 'application/ld+json';
+  s.textContent = JSON.stringify(ld);
+  document.head.appendChild(s);
+})().catch(err => { console.error(err); document.getElementById('product-summary').textContent = 'Could not load this product page.'; });
+</script>
+</body></html>

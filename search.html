@@ -1,1 +1,92 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Search CampMate Australia</title><meta name="description" content="Search CampMate Australia for tents, chairs, coolers, stoves, lanterns and sleep systems."><link rel="canonical" href="https://campmate.kangseyoung7.workers.dev/search.html"><meta property="og:title" content="Search CampMate Australia"><meta property="og:description" content="Search CampMate Australia for tents, chairs, coolers, stoves, lanterns and sleep systems."><meta property="og:type" content="website"><meta property="og:url" content="https://campmate.kangseyoung7.workers.dev/search.html"><meta name="twitter:card" content="summary_large_image"><meta name="google-site-verification" content="FYOS27d6BEVJvMcO6uM-zBCBEWVeriEPClO6j2-X6uY"><meta name="commission-factory-verification" content="ff3f890461734249a17c395d968021a8"><link rel="stylesheet" href="assets/style.css"><!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-RRL35ZW8MO"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-RRL35ZW8MO');</script></head><body><header class="topbar"><div class="container nav"><a class="logo" href="index.html"><span class="logo-badge">⛺</span><span>CampMate Australia</span></a><nav class="nav-links"><a href="index.html">Home</a><a href="categories.html">Categories</a><a href="popular.html">Popular</a><a href="guides.html">Guides</a></nav><form class="nav-search" data-search-form><input class="input" name="q" placeholder="Search tents, coolers, chairs..."><button class="btn" type="submit">Search</button></form></div></header><main class="page-hero"><div class="container"><div class="section-head"><div><h1>Search results</h1><p id="result-copy" class="muted">Loading results…</p></div></div><div id="search-grid" class="grid-4"></div></div></main><footer class="footer"><div class="container footer-grid"><div><div class="logo" style="margin-bottom:12px"><span class="logo-badge">⛺</span><span>CampMate Australia</span></div><p>CampMate helps Australian campers compare useful camping gear, read buyer-first guides and click through to store searches with clear disclosure.</p><p class="muted" style="margin-top:12px">Disclosure: CampMate may earn commissions from affiliate links at no additional cost to you.</p></div><div><strong>Browse</strong><div class="list" style="margin-top:12px"><a href="categories.html">All categories</a><a href="popular.html">Popular products</a><a href="guides.html">Guides</a></div></div><div><strong>Trust & contact</strong><div class="list" style="margin-top:12px"><a href="about.html">About CampMate</a><a href="contact.html">Contact</a><a href="disclosure.html">Affiliate disclosure</a><a href="privacy.html">Privacy</a></div></div></div></footer><script src="assets/data.js"></script><script src="assets/common.js"></script><script>setupSearchForm();enhanceImages();</script><script>const q=(new URLSearchParams(location.search).get('q')||'').trim().toLowerCase();const found=getProducts().filter(p=>`${p.name} ${p.brand} ${p.category} ${(p.summary||'')}`.toLowerCase().includes(q));document.getElementById('result-copy').textContent=q?`${found.length} result(s) for “${q}”`:'Type a product, brand or category.';document.getElementById('search-grid').innerHTML=found.map(productCard).join('')||'<div class="empty">No matching products found yet.</div>';</script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Search CampMate Australia</title>
+<meta name="description" content="Search CampMate Australia for camping tents, chairs, coolers, stoves, lanterns and sleep systems.">
+<link rel="canonical" href="https://campmate.kangseyoung7.workers.dev/search.html">
+<meta property="og:title" content="Search CampMate Australia">
+<meta property="og:description" content="Search CampMate Australia for camping tents, chairs, coolers, stoves, lanterns and sleep systems.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://campmate.kangseyoung7.workers.dev/search.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="google-site-verification" content="FYOS27d6BEVJvMcO6uM-zBCBEWVeriEPClO6j2-X6uY">
+<meta name="commission-factory-verification" content="ff3f890461734249a17c395d968021a8">
+<link rel="stylesheet" href="assets/style.css?v=20260314d5">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RRL35ZW8MO"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-RRL35ZW8MO');</script>
+
+</head><body>
+<header class="topbar">
+  <div class="container nav">
+    <a class="logo" href="index.html"><span class="logo-badge">⛺</span><span>CampMate Australia</span></a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="categories.html" class="active">Categories</a>
+      <a href="popular.html">Popular</a>
+      <a href="guides.html">Guides</a>
+    </nav>
+    <form class="nav-search" data-search-form>
+      <input class="input" name="q" placeholder="Search tents, coolers, chairs...">
+      <button class="btn" type="submit">Search</button>
+    </form>
+  </div>
+</header>
+<main class="page-hero">
+  <div class="container search-layout">
+    <aside class="sidebar-panel">
+      <div class="filter-title">Search tips</div>
+      <div class="list">
+        <div class="rowish"><div><strong>Brand</strong><div class="tiny">Coleman, OZtrail, Sea to Summit</div></div></div>
+        <div class="rowish"><div><strong>Type</strong><div class="tiny">instant tent, reclining chair, dual burner stove</div></div></div>
+        <div class="rowish"><div><strong>Category</strong><div class="tiny">tents, coolers, lanterns, sleep systems</div></div></div>
+      </div>
+    </aside>
+    <section>
+      <div class="section-head">
+        <div><div class="badge">Search</div><h1 style="margin:12px 0 8px">Search results</h1><p id="result-copy">Loading results…</p></div>
+      </div>
+      <div id="search-results" class="search-results"></div>
+    </section>
+  </div>
+</main>
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="logo" style="margin-bottom:12px"><span class="logo-badge">⛺</span><span>CampMate Australia</span></div>
+      <p>CampMate is a Danawa-style camping gear comparison site for Australia. Browse categories, compare reference prices and open live store searches before you buy.</p>
+      <p class="muted" style="margin-top:12px">Disclosure: CampMate may earn commissions from affiliate links at no additional cost to you.</p>
+    </div>
+    <div>
+      <strong>Browse</strong>
+      <div class="list" style="margin-top:12px">
+        <a href="categories.html">All categories</a>
+        <a href="popular.html">Popular compare pages</a>
+        <a href="guides.html">Buyer guides</a>
+      </div>
+    </div>
+    <div>
+      <strong>Trust & contact</strong>
+      <div class="list" style="margin-top:12px">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="disclosure.html">Affiliate disclosure</a>
+        <a href="privacy.html">Privacy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="assets/common.js?v=20260314d5"></script>
+<script>
+setupSearchForm();
+(async function() {
+  const q = (new URLSearchParams(location.search).get('q') || '').trim().toLowerCase();
+  const { products } = await loadCatalog();
+  const found = q ? products.filter(product => productSearchText(product).includes(q)) : [];
+  document.getElementById('result-copy').textContent = q ? `${found.length} result(s) for “${q}”` : 'Type a product, brand or category to search CampMate.';
+  document.getElementById('search-results').innerHTML = found.length ? found.map(compareRow).join('') : '<div class="empty">No matching products found yet.</div>';
+  enhanceImages();
+})().catch(err => { console.error(err); document.getElementById('search-results').innerHTML = '<div class="empty">Could not load search results.</div>'; });
+</script>
+</body></html>
