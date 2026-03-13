@@ -19,7 +19,16 @@ jobs:
         run: npm install -g wrangler@latest
 
       - name: Deploy to Cloudflare Workers
-        run: wrangler deploy
+        run: |
+          wrangler secret put EBAY_CLIENT_ID <<< "$EBAY_CLIENT_ID"
+          wrangler secret put EBAY_CLIENT_SECRET <<< "$EBAY_CLIENT_SECRET"
+          wrangler secret put GOOGLE_API_KEY <<< "$GOOGLE_API_KEY"
+          wrangler secret put GOOGLE_CSE_ID <<< "$GOOGLE_CSE_ID"
+          wrangler deploy
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
