@@ -1,4 +1,4 @@
-const ASSET_VERSION = "20260314d5";
+const ASSET_VERSION = "20260314f1";
 const CATALOG_CACHE = { categories: null, products: null, promise: null };
 
 async function getJson(path) {
@@ -50,9 +50,10 @@ function fallbackForCategory(category) {
   return `assets/images/categories/${key}.svg`;
 }
 function normalizeImage(product) {
-  if (product && product.ebayImage) return product.ebayImage;
-  if (product && product.image) return product.image;
-  return fallbackForCategory(product?.category || 'tents');
+  const candidate = product && (product.ebayImage || product.image);
+  const url = candidate || fallbackForCategory(product?.category || 'tents');
+  if (/^https?:\/\//i.test(url) || /^data:/i.test(url)) return url;
+  return `${url}${String(url).includes('?') ? '&' : '?'}v=${ASSET_VERSION}`;
 }
 function attachImgFallback(img, category) {
   img.addEventListener('error', () => { img.src = fallbackForCategory(category || 'tents'); }, { once: true });
@@ -255,14 +256,10 @@ function productCard(product) {
 }
 
 function compareRow(product) {
-  const specs = getPrimarySpecs(product);
+  const specs = getPrimarySpecs(product).map(value => `<span class="spec-chip">${escapeHtml(value)}</span>`).join('');
   const saving = savingsPercent(product);
-  const stores = normalizeStores(product).slice(0, 3);
-  const quickLine = specs.join(' / ');
-  const detailLine = (product.highlights || []).slice(0, 3).join(' / ') || (product.summary || '');
-  const storesSummary = stores.map(store => store.name).join(' · ');
-  const storeStack = stores.map((store, idx) => `
-    <div class="store-item dense${idx === 0 ? ' lowest' : ''}">
+  const stores = normalizeStores(product).slice(0, 3).map(store => `
+    <div class="store-item">
       <div><strong>${escapeHtml(store.name)}</strong><div class="tiny">${escapeHtml(store.note)}</div></div>
       <a class="store-pill small secondary" target="_blank" rel="noopener sponsored" href="${escapeAttribute(store.url)}">Open</a>
     </div>`).join('');
@@ -271,21 +268,18 @@ function compareRow(product) {
     <a class="compare-media" href="${productLink(product)}"><img src="${normalizeImage(product)}" alt="${escapeHtml(product.name)}" loading="lazy" data-category="${product.category}"></a>
     <div class="compare-body">
       <div class="compare-body-inner">
-        <div class="compare-brand"><strong>${escapeHtml(product.brand)}</strong><span class="soft-badge">${escapeHtml(product.categoryName || titleCase(product.category))}</span>${saving ? `<span class="soft-badge warn">Save ~${saving}%</span>` : ''}</div>
+        <div class="compare-brand"><strong>${escapeHtml(product.brand)}</strong><span class="soft-badge">${escapeHtml(product.categoryName || titleCase(product.category))}</span><span class="soft-badge">${stars(product.rating)}</span></div>
         <a class="compare-title" href="${productLink(product)}">${escapeHtml(product.name)}</a>
-        <div class="compare-dense-line">${escapeHtml(quickLine)}</div>
-        <div class="compare-fact-line"><span>[Summary]</span>${escapeHtml(product.summary || 'Compare store search options and reference pricing before you click through.')}</div>
-        <div class="compare-fact-line"><span>[Highlights]</span>${escapeHtml(detailLine)}</div>
-        <div class="compare-fact-line"><span>[Retailers]</span>${escapeHtml(storesSummary || 'Store search links available')}</div>
-        <div class="compare-mini-meta"><span>${stars(product.rating)}</span><span>${Number(product.reviews || 0).toLocaleString()} reviews</span><span>${(product.stores || []).length} store options</span></div>
+        <p class="compare-summary">${escapeHtml(product.summary || '')}</p>
+        <div class="spec-row">${specs}</div>
+        <div class="metric-row"><span class="metric-chip good">${product.reviews || 0} reviews</span><span class="metric-chip">${(product.stores || []).length} store options</span>${saving ? `<span class="metric-chip warn">Save ~${saving}%</span>` : ''}</div>
       </div>
     </div>
     <div class="compare-price">
-      <div class="label">Lowest guide price</div>
+      <div class="label">Reference price</div>
       <div class="reference">${currency(product.salePrice)}</div>
       <div class="tiny">Typical full price ${currency(product.price)}</div>
-      <div class="store-stack">${storeStack}</div>
-      <a class="btn small compare-inline-btn" href="${productLink(product)}">Compare</a>
+      <div class="store-stack">${stores}</div>
     </div>
     <div class="compare-cta">
       <a class="btn small" href="${productLink(product)}">Compare</a>

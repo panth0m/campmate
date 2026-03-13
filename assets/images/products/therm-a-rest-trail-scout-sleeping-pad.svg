@@ -1,16 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 260" role="img" aria-label="BlackWolf Tourer 4P Tent 11">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 260" role="img" aria-label="Therm-a-Rest Trail Scout Sleeping Pad">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b3558"/>
-      <stop offset="100%" stop-color="#1ac8a5"/>
+      <stop offset="0%" stop-color="#174052"/>
+      <stop offset="100%" stop-color="#6ce0cf"/>
     </linearGradient>
   </defs>
   <rect width="340" height="260" rx="26" fill="url(#g)"/>
-  <circle cx="285" cy="54" r="46" fill="#ffffff" opacity="0.10"/>
-  <circle cx="62" cy="220" r="34" fill="#ffffff" opacity="0.08"/>
-  <path d="M130 230 L210 120 L290 230" fill="#d7fff1" opacity="0.95"/><path d="M70 230 L170 95 L270 230" fill="#8ef0d5" opacity="0.95"/><path d="M170 95 L210 230" stroke="#0c203a" stroke-width="8"/><path d="M170 95 L130 230" stroke="#0c203a" stroke-width="8"/><rect x="162" y="175" width="28" height="55" rx="6" fill="#0c203a" opacity="0.75"/>
-  <text x="24" y="38" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#dff6ff" opacity="0.92">CampMate Australia</text>
-  <text x="24" y="198" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#ecfffb" opacity="0.92">BlackWolf</text>
-  <text x="24" y="220" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#ffffff">BlackWolf Tourer 4P Tent 11</text>
-  <text x="24" y="242" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#d8faff" opacity="0.86">Tents • Compare stores</text>
+  <circle cx="284" cy="54" r="46" fill="#ffffff" opacity="0.10"/>
+  <circle cx="58" cy="220" r="34" fill="#ffffff" opacity="0.08"/>
+
+  <rect x="84" y="156" width="170" height="58" rx="28" fill="#dffef6"/>
+  <rect x="96" y="136" width="56" height="36" rx="16" fill="#95eed7"/>
+  <path d="M116 184 H222" stroke="#163b4b" stroke-width="8" stroke-linecap="round" opacity="0.4"/>
+  <path d="M90 214 H250" stroke="#163b4b" stroke-width="8" stroke-linecap="round" opacity="0.24"/>
+        
+  <text x="26" y="36" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#dff6ff" opacity="0.96">Therm-a-Rest</text>
+  <text x="26" y="188" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#ffffff">Therm-a-Rest Trail</text>
+  <text x="26" y="210" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#ffffff">Scout Sleeping Pad</text>
+  <text x="26" y="236" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#d8faff" opacity="0.86">Sleep Systems • Compare stores</text>
 </svg>
