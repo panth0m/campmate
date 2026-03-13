@@ -32,37 +32,30 @@ function corsHeaders() {
 
 async function handleEbaySearch(request, env) {
   const headers = corsHeaders();
-
   try {
     const url = new URL(request.url);
     const q = (url.searchParams.get("q") || "").trim();
 
     if (!q) {
-      return new Response(
-        JSON.stringify({
-          error: "Missing query parameter: q",
-          products: [],
-          total: 0,
-          query: q,
-        }),
-        { status: 400, headers }
-      );
+      return new Response(JSON.stringify({
+        error: "Missing query parameter: q",
+        products: [],
+        total: 0,
+        query: q,
+      }), { status: 400, headers });
     }
 
     const clientId = env.EBAY_CLIENT_ID;
     const clientSecret = env.EBAY_CLIENT_SECRET;
 
     if (!clientId || !clientSecret) {
-      return new Response(
-        JSON.stringify({
-          error: "eBay credentials missing",
-          details: "Add EBAY_CLIENT_ID and EBAY_CLIENT_SECRET in Cloudflare variables",
-          products: [],
-          total: 0,
-          query: q,
-        }),
-        { status: 500, headers }
-      );
+      return new Response(JSON.stringify({
+        error: "eBay credentials missing",
+        details: "Add EBAY_CLIENT_ID and EBAY_CLIENT_SECRET in Cloudflare variables",
+        products: [],
+        total: 0,
+        query: q,
+      }), { status: 500, headers });
     }
 
     const basic = btoa(`${clientId}:${clientSecret}`);
@@ -79,16 +72,13 @@ async function handleEbaySearch(request, env) {
     const tokenData = await tokenRes.json();
 
     if (!tokenRes.ok || !tokenData.access_token) {
-      return new Response(
-        JSON.stringify({
-          error: "Failed to get eBay token",
-          details: tokenData,
-          products: [],
-          total: 0,
-          query: q,
-        }),
-        { status: 500, headers }
-      );
+      return new Response(JSON.stringify({
+        error: "Failed to get eBay token",
+        details: tokenData,
+        products: [],
+        total: 0,
+        query: q,
+      }), { status: 500, headers });
     }
 
     const searchUrl = new URL("https://api.ebay.com/buy/browse/v1/item_summary/search");
@@ -107,16 +97,13 @@ async function handleEbaySearch(request, env) {
     const ebayData = await ebayRes.json();
 
     if (!ebayRes.ok) {
-      return new Response(
-        JSON.stringify({
-          error: "eBay response was not successful",
-          details: ebayData,
-          products: [],
-          total: 0,
-          query: q,
-        }),
-        { status: ebayRes.status, headers }
-      );
+      return new Response(JSON.stringify({
+        error: "eBay response was not successful",
+        details: ebayData,
+        products: [],
+        total: 0,
+        query: q,
+      }), { status: ebayRes.status, headers });
     }
 
     const products = Array.isArray(ebayData.itemSummaries)
@@ -130,30 +117,23 @@ async function handleEbaySearch(request, env) {
         }))
       : [];
 
-    return new Response(
-      JSON.stringify({
-        products,
-        total: products.length,
-        query: q,
-      }),
-      { status: 200, headers }
-    );
+    return new Response(JSON.stringify({
+      products,
+      total: products.length,
+      query: q,
+    }), { status: 200, headers });
   } catch (error) {
-    return new Response(
-      JSON.stringify({
-        error: "Unexpected eBay server error",
-        details: error instanceof Error ? error.message : String(error),
-        products: [],
-        total: 0,
-      }),
-      { status: 500, headers }
-    );
+    return new Response(JSON.stringify({
+      error: "Unexpected eBay server error",
+      details: error instanceof Error ? error.message : String(error),
+      products: [],
+      total: 0,
+    }), { status: 500, headers });
   }
 }
 
 async function handleGoogleSearch(request, env) {
   const headers = corsHeaders();
-
   try {
     const url = new URL(request.url);
     const q = (url.searchParams.get("q") || "").trim();
@@ -161,31 +141,25 @@ async function handleGoogleSearch(request, env) {
     const num = Math.min(Math.max(numParam, 1), 10);
 
     if (!q) {
-      return new Response(
-        JSON.stringify({
-          error: "Missing query parameter: q",
-          items: [],
-          total: 0,
-          query: q,
-        }),
-        { status: 400, headers }
-      );
+      return new Response(JSON.stringify({
+        error: "Missing query parameter: q",
+        items: [],
+        total: 0,
+        query: q,
+      }), { status: 400, headers });
     }
 
     const apiKey = env.GOOGLE_API_KEY;
     const cseId = env.GOOGLE_CSE_ID;
 
     if (!apiKey || !cseId) {
-      return new Response(
-        JSON.stringify({
-          error: "Google API credentials are missing",
-          details: "Add GOOGLE_API_KEY and GOOGLE_CSE_ID in Cloudflare variables",
-          items: [],
-          total: 0,
-          query: q,
-        }),
-        { status: 500, headers }
-      );
+      return new Response(JSON.stringify({
+        error: "Google API credentials are missing",
+        details: "Add GOOGLE_API_KEY and GOOGLE_CSE_ID in Cloudflare variables",
+        items: [],
+        total: 0,
+        query: q,
+      }), { status: 500, headers });
     }
 
     const endpoint = new URL("https://www.googleapis.com/customsearch/v1");
@@ -201,16 +175,13 @@ async function handleGoogleSearch(request, env) {
     const data = await response.json();
 
     if (!response.ok) {
-      return new Response(
-        JSON.stringify({
-          error: "Google search request failed",
-          details: data,
-          items: [],
-          total: 0,
-          query: q,
-        }),
-        { status: response.status, headers }
-      );
+      return new Response(JSON.stringify({
+        error: "Google search request failed",
+        details: data,
+        items: [],
+        total: 0,
+        query: q,
+      }), { status: response.status, headers });
     }
 
     const items = Array.isArray(data.items)
@@ -235,23 +206,17 @@ async function handleGoogleSearch(request, env) {
         })
       : [];
 
-    return new Response(
-      JSON.stringify({
-        items,
-        total: items.length,
-        query: q,
-      }),
-      { status: 200, headers }
-    );
+    return new Response(JSON.stringify({
+      items,
+      total: items.length,
+      query: q,
+    }), { status: 200, headers });
   } catch (error) {
-    return new Response(
-      JSON.stringify({
-        error: "Unexpected Google server error",
-        details: error instanceof Error ? error.message : String(error),
-        items: [],
-        total: 0,
-      }),
-      { status: 500, headers }
-    );
+    return new Response(JSON.stringify({
+      error: "Unexpected Google server error",
+      details: error instanceof Error ? error.message : String(error),
+      items: [],
+      total: 0,
+    }), { status: 500, headers });
   }
 }
