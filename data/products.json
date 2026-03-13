@@ -10,18 +10,16 @@
     "reviews": 312,
     "image": "assets/images/products/coleman-instant-up-4p-gold-tent.svg",
     "summary": "Pop-up in 60 seconds. Pre-attached poles mean no threading — ideal for family weekends at the caravan park.",
-    "stores": [
-      {
-        "name": "eBay AU",
-        "url": "https://www.ebay.com.au/sch/i.html?_nkw=Coleman%20Instant%20Up%204P%20Gold%20Tent",
-        "type": "search"
-      },
-      {
-        "name": "Amazon AU",
-        "url": "https://www.amazon.com.au/s?k=Coleman%20Instant%20Up%204P%20Gold%20Tent",
-        "type": "search"
-      },
-      {
+   "stores": [
+  {
+    "name": "Amazon",
+    "url": "https://www.amazon.com.au/s?k=Dometic+CFX3+35+Portable+Fridge&tag=campmateau20-22"
+  },
+  {
+    "name": "eBay",
+    "url": "https://www.ebay.com.au/itm/xxxx"
+  }
+]
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Coleman%20Instant%20Up%204P%20Gold%20Tent",
         "type": "search"
