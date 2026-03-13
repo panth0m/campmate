@@ -22,18 +22,42 @@ function escapeHtml(s){ return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&a
 function escapeAttribute(s){ return escapeHtml(s).replace(/'/g,'&#39;'); }
 function slugify(v){ return String(v||'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,''); }
 function categoryParam(){ return new URLSearchParams(location.search).get('category') || ''; }
-function productLink(product){ return 'product.html?slug=' + encodeURIComponent(product.slug); }
-function categoryLink(category){ return 'category.html?category=' + encodeURIComponent(category.slug); }
-function placeholderSvg(title, category){
-  const label = encodeURIComponent((category || 'CampMate').replace(/-/g,' ') + ' · ' + title);
-  return `data:image/svg+xml;charset=UTF-8,` +
-    `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0f3d70"/><stop offset="1" stop-color="#081a33"/></linearGradient></defs><rect width="1200" height="900" fill="url(%23g)"/><circle cx="920" cy="170" r="140" fill="#63e2ff" opacity=".12"/><circle cx="230" cy="720" r="180" fill="#7cf2db" opacity=".10"/><rect x="95" y="110" rx="42" ry="42" width="1010" height="680" fill="none" stroke="rgba(255,255,255,.18)"/><text x="120" y="405" fill="#63e2ff" font-size="44" font-family="Arial, sans-serif" font-weight="700">CampMate Australia</text><text x="120" y="470" fill="#e8f1ff" font-size="64" font-family="Arial, sans-serif" font-weight="800">${label}</text></svg>`;
+
+function displayName(product){
+  if (!product) return '';
+  const brand = String(product.brand || '').trim();
+  const name = String(product.name || '').trim();
+  if (!brand) return name;
+  if (!name) return brand;
+  return name.toLowerCase().startsWith(brand.toLowerCase() + ' ') ? name : `${brand} ${name}`;
 }
-function normalizeImage(product){ return product.image || placeholderSvg(product.name || 'Camping gear', product.category || 'camping'); }
+function imageLabel(product){
+  if (!product) return 'Camping gear';
+  return displayName(product) || product.name || 'Camping gear';
+}
+
+function productLink(product){ return 'product.html?slug=' + encodeURIComponent(product.slug); }
+function categoryLink(category){ return category.page || ('category.html?category=' + encodeURIComponent(category.slug)); }
+function placeholderSvg(title, category, brand=''){
+  const safeTitle = String(title || 'Camping gear').slice(0, 60);
+  const safeBrand = String(brand || '').slice(0, 28);
+  const safeCategory = String(category || 'camping').replace(/-/g, ' ');
+  const art = {
+    'tents': '<path d="M170 610 L370 340 L560 610 Z" fill="#c8f7ed" opacity="0.92"/><path d="M360 610 L560 340 L760 610 Z" fill="#89e4d0" opacity="0.95"/><path d="M470 390 L470 610" stroke="#1f425b" stroke-width="16" stroke-linecap="round"/>',
+    'chairs': '<rect x="320" y="330" width="240" height="170" rx="26" fill="#bfeee4"/><path d="M350 500 L300 620 M530 500 L580 620 M350 350 L290 270 M530 350 L590 270" stroke="#d9fbf3" stroke-width="22" stroke-linecap="round"/>',
+    'coolers': '<rect x="250" y="340" width="380" height="240" rx="34" fill="#bfeee4"/><rect x="300" y="285" width="280" height="70" rx="26" fill="#8be7d2"/><rect x="410" y="240" width="60" height="58" rx="18" fill="#dffcf6"/>',
+    'stoves': '<rect x="250" y="360" width="420" height="180" rx="28" fill="#bfeee4"/><circle cx="390" cy="450" r="58" fill="#67d9be"/><circle cx="530" cy="450" r="58" fill="#67d9be"/><rect x="300" y="560" width="320" height="18" rx="9" fill="#2f5468" opacity="0.75"/>',
+    'lanterns': '<rect x="360" y="290" width="200" height="260" rx="36" fill="#bfeee4"/><rect x="405" y="220" width="110" height="90" rx="28" fill="#8be7d2"/><circle cx="460" cy="420" r="72" fill="#dffcf6" opacity="0.65"/>',
+    'sleep-systems': '<rect x="230" y="380" width="470" height="180" rx="88" fill="#bfeee4"/><rect x="240" y="325" width="165" height="110" rx="44" fill="#8be7d2"/><rect x="310" y="470" width="310" height="22" rx="11" fill="#2f5468" opacity="0.75"/>'
+  }[category] || '<rect x="250" y="320" width="420" height="260" rx="42" fill="#bfeee4"/>';
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1a5768"/><stop offset="1" stop-color="#53dbc3"/></linearGradient></defs><rect width="1200" height="900" fill="url(#g)"/><circle cx="930" cy="170" r="165" fill="#dffcf6" opacity="0.15"/><circle cx="210" cy="720" r="140" fill="#7ef3de" opacity="0.11"/><rect x="86" y="100" rx="42" ry="42" width="1028" height="700" fill="none" stroke="rgba(255,255,255,.15)"/>${art}<text x="120" y="190" fill="#effcff" font-size="34" font-family="Arial, sans-serif" font-weight="700">CampMate Australia</text><text x="120" y="620" fill="#eaf8ff" font-size="42" font-family="Arial, sans-serif">${safeBrand || 'Compare stores'}</text><text x="120" y="700" fill="#ffffff" font-size="62" font-family="Arial, sans-serif" font-weight="800">${safeTitle}</text><text x="120" y="770" fill="#d8f6ff" font-size="32" font-family="Arial, sans-serif">${safeCategory} • compare stores</text></svg>`;
+  return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+}
+function normalizeImage(product){ return placeholderSvg(imageLabel(product), product.category || 'camping', product.brand || ''); }
 function attachImgFallback(img, category){ img.onerror = () => { img.src = placeholderSvg(img.alt || 'Camping gear', category || img.dataset.category || 'camping'); }; }
 function enhanceImages(scope=document){ scope.querySelectorAll('img').forEach(img => attachImgFallback(img, img.dataset.category)); }
 function productCard(product){
-  return `<article class="card"><a class="thumb" href="${productLink(product)}"><img src="${escapeAttribute(normalizeImage(product))}" alt="${escapeAttribute(product.name)}" data-category="${escapeAttribute(product.category)}"></a><div class="card-body"><div class="badge">${escapeHtml(product.categoryName || product.category)}</div><a class="title" href="${productLink(product)}">${escapeHtml(product.brand)} ${escapeHtml(product.name)}</a><div class="price-row"><span class="sale">${currency(product.salePrice)}</span><span class="old">${currency(product.price)}</span></div><div class="meta"><span>${stars(product.rating)}</span><span>${escapeHtml(String(product.reviews || 0))} reviews</span></div><p>${escapeHtml(product.summary || '')}</p><a class="btn small" href="${productLink(product)}">Open compare page</a></div></article>`;
+  return `<article class="card"><a class="thumb" href="${productLink(product)}"><img src="${escapeAttribute(normalizeImage(product))}" alt="${escapeAttribute(product.name)}" data-category="${escapeAttribute(product.category)}"></a><div class="card-body"><div class="badge">${escapeHtml(product.categoryName || product.category)}</div><a class="title" href="${productLink(product)}">${escapeHtml(displayName(product))}</a><div class="price-row"><span class="sale">${currency(product.salePrice)}</span><span class="old">${currency(product.price)}</span></div><div class="meta"><span>${stars(product.rating)}</span><span>${escapeHtml(String(product.reviews || 0))} reviews</span></div><p>${escapeHtml(product.summary || '')}</p><a class="btn small" href="${productLink(product)}">Open compare page</a></div></article>`;
 }
 function categoryCard(category, count){
   return `<article class="card"><div class="card-body"><div class="badge">${escapeHtml(String(count))} products</div><a class="title" href="${categoryLink(category)}">${escapeHtml(category.name)}</a><p>${escapeHtml(category.description || '')}</p><a class="btn small" href="${categoryLink(category)}">Browse ${escapeHtml(category.short || category.name)}</a></div></article>`;

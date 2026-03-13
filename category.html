@@ -201,36 +201,6 @@
   font-weight: 600;
 }
 
-
-/* ── Results + view toggle ── */
-.dn-res-tools {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-.dn-view {
-  display: inline-flex;
-  border: 1px solid rgba(255,255,255,.1);
-  border-radius: 999px;
-  padding: 3px;
-  background: rgba(255,255,255,.03);
-}
-.dn-view-btn {
-  border: none;
-  background: transparent;
-  color: var(--muted);
-  padding: 6px 12px;
-  border-radius: 999px;
-  font-size: 12px;
-  font-weight: 700;
-  cursor: pointer;
-}
-.dn-view-btn.on {
-  background: rgba(99,226,255,.15);
-  color: var(--accent);
-}
-
 /* ── Product grid ── */
 .dn-grid {
   display: grid;
@@ -239,240 +209,6 @@
 }
 @media(max-width:1100px){ .dn-grid{grid-template-columns:repeat(2,1fr)} }
 @media(max-width:560px){ .dn-grid{grid-template-columns:1fr} }
-
-/* ── Danawa-style list ── */
-.dn-results.dn-list {
-  display: grid;
-  gap: 12px;
-}
-.dn-row {
-  display: grid;
-  grid-template-columns: 160px minmax(0, 1.4fr) minmax(250px, .9fr) 108px;
-  gap: 16px;
-  align-items: stretch;
-  background: linear-gradient(180deg, rgba(10,27,52,.95), rgba(7,18,36,.98));
-  border: 1px solid rgba(255,255,255,.08);
-  border-radius: 18px;
-  overflow: hidden;
-  transition: border-color .16s, transform .16s, box-shadow .16s;
-}
-.dn-row:hover {
-  border-color: rgba(99,226,255,.24);
-  box-shadow: 0 16px 36px rgba(0,0,0,.34);
-  transform: translateY(-2px);
-}
-@media(max-width:1180px){
-  .dn-row { grid-template-columns: 140px minmax(0,1fr) minmax(220px,.85fr) 96px; }
-}
-@media(max-width:900px){
-  .dn-row {
-    grid-template-columns: 1fr;
-    gap: 0;
-  }
-}
-.dn-row-media {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 16px;
-  background: linear-gradient(135deg, rgba(99,226,255,.08), rgba(255,255,255,.02));
-  border-right: 1px solid rgba(255,255,255,.06);
-}
-@media(max-width:900px){ .dn-row-media { border-right: none; border-bottom: 1px solid rgba(255,255,255,.06); } }
-.dn-row-media img {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: contain;
-}
-.dn-row-main {
-  padding: 16px 0 16px 0;
-  min-width: 0;
-}
-@media(max-width:900px){ .dn-row-main { padding: 16px 16px 0; } }
-.dn-brandline {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  flex-wrap: wrap;
-  margin-bottom: 8px;
-}
-.dn-brand-badge,
-.dn-badge-soft {
-  display: inline-flex;
-  align-items: center;
-  padding: 4px 9px;
-  border-radius: 999px;
-  font-size: 11px;
-  font-weight: 800;
-  letter-spacing: .04em;
-}
-.dn-brand-badge {
-  background: rgba(99,226,255,.13);
-  color: var(--accent);
-  text-transform: uppercase;
-}
-.dn-badge-soft {
-  background: rgba(255,255,255,.05);
-  color: var(--muted);
-}
-.dn-row-name {
-  color: var(--text);
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.35;
-  display: inline-block;
-  margin-bottom: 8px;
-}
-.dn-row-name:hover { color: var(--accent); }
-.dn-row-summary {
-  margin: 0 0 10px;
-  color: var(--muted);
-  font-size: 13px;
-  line-height: 1.55;
-}
-.dn-specs,
-.dn-info-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-.dn-spec-pill,
-.dn-info-pill {
-  display: inline-flex;
-  align-items: center;
-  padding: 5px 9px;
-  border-radius: 999px;
-  font-size: 11.5px;
-  background: rgba(255,255,255,.04);
-  border: 1px solid rgba(255,255,255,.07);
-  color: #d9e6ff;
-}
-.dn-info-tags { margin-top: 10px; }
-.dn-row-meta {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin-top: 10px;
-  color: var(--muted);
-  font-size: 12px;
-}
-.dn-row-pricebox {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 8px;
-  padding: 16px 0;
-}
-@media(max-width:900px){ .dn-row-pricebox { padding: 0 16px 16px; } }
-.dn-row-pricehead {
-  font-size: 11px;
-  letter-spacing: .08em;
-  text-transform: uppercase;
-  color: var(--muted);
-  font-weight: 700;
-}
-.dn-row-sale {
-  color: var(--accent);
-  font-size: 1.5rem;
-  font-weight: 900;
-  line-height: 1;
-}
-.dn-row-orig {
-  color: var(--muted);
-  font-size: 12px;
-  text-decoration: line-through;
-}
-.dn-row-stores {
-  padding: 14px 14px 14px 0;
-  border-left: 1px solid rgba(255,255,255,.06);
-}
-@media(max-width:900px){ .dn-row-stores { border-left: none; border-top: 1px solid rgba(255,255,255,.06); padding: 14px 16px 16px; } }
-.dn-stores-head {
-  display: grid;
-  grid-template-columns: 1.2fr .75fr .8fr 74px;
-  gap: 10px;
-  padding: 0 0 8px;
-  margin-bottom: 4px;
-  font-size: 11px;
-  letter-spacing: .06em;
-  text-transform: uppercase;
-  color: var(--muted);
-}
-.dn-offer-row {
-  display: grid;
-  grid-template-columns: 1.2fr .75fr .8fr 74px;
-  gap: 10px;
-  align-items: center;
-  padding: 8px 0;
-  border-top: 1px solid rgba(255,255,255,.06);
-}
-.dn-offer-store {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  min-width: 0;
-}
-.dn-offer-store strong {
-  font-size: 12.5px;
-  color: var(--text);
-}
-.dn-lowest {
-  padding: 2px 7px;
-  border-radius: 999px;
-  font-size: 10px;
-  font-weight: 800;
-  background: rgba(84,255,178,.12);
-  color: #7dffc6;
-}
-.dn-offer-price {
-  font-weight: 800;
-  color: var(--text);
-  font-size: 12.5px;
-}
-.dn-offer-ship {
-  color: var(--muted);
-  font-size: 11.5px;
-}
-.dn-offer-open {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 7px 10px;
-  border-radius: 9px;
-  text-decoration: none;
-  font-size: 11.5px;
-  font-weight: 800;
-  background: rgba(99,226,255,.12);
-  border: 1px solid rgba(99,226,255,.25);
-  color: var(--accent);
-}
-.dn-offer-open:hover { background: rgba(99,226,255,.18); }
-.dn-row-cta {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 16px;
-  border-left: 1px solid rgba(255,255,255,.06);
-}
-@media(max-width:900px){ .dn-row-cta { border-left: none; border-top: 1px solid rgba(255,255,255,.06); padding: 14px 16px 16px; justify-content: flex-start; } }
-.dn-compare-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  padding: 11px 16px;
-  border-radius: 12px;
-  background: linear-gradient(135deg, var(--accent), var(--accent2));
-  color: #08233b;
-  font-size: 12.5px;
-  font-weight: 900;
-  white-space: nowrap;
-}
-.dn-compare-btn:hover { opacity: .9; }
-.dn-list-empty { padding: 28px; text-align: center; }
 
 /* ── Product card ── */
 .dn-card {
@@ -569,7 +305,6 @@
 .dn-store-btn.primary:hover { opacity: .88; }
 
 /* Mobile filter toggle */
-
 .dn-mob-btn {
   display: none;
   align-items: center;
@@ -704,22 +439,16 @@
         <!-- Results bar -->
         <div class="dn-resbar">
           <div class="dn-rescnt" id="res-count"></div>
-          <div class="dn-res-tools">
-            <div class="dn-view">
-              <button class="dn-view-btn on" data-view="list" onclick="setView(this)">Compare list</button>
-              <button class="dn-view-btn" data-view="grid" onclick="setView(this)">Grid cards</button>
-            </div>
-            <div class="dn-sort">
-              <button class="dn-sort-btn on" data-sort="featured" onclick="setSort(this)">Featured</button>
-              <button class="dn-sort-btn" data-sort="price-low" onclick="setSort(this)">Price ↑</button>
-              <button class="dn-sort-btn" data-sort="price-high" onclick="setSort(this)">Price ↓</button>
-              <button class="dn-sort-btn" data-sort="rating" onclick="setSort(this)">Top rated</button>
-            </div>
+          <div class="dn-sort">
+            <button class="dn-sort-btn on" data-sort="featured" onclick="setSort(this)">Featured</button>
+            <button class="dn-sort-btn" data-sort="price-low" onclick="setSort(this)">Price ↑</button>
+            <button class="dn-sort-btn" data-sort="price-high" onclick="setSort(this)">Price ↓</button>
+            <button class="dn-sort-btn" data-sort="rating" onclick="setSort(this)">Top rated</button>
           </div>
         </div>
 
-        <!-- Results -->
-        <div class="dn-results dn-list" id="product-grid"></div>
+        <!-- Grid -->
+        <div class="dn-grid" id="product-grid"></div>
 
       </div>
     </div>
@@ -769,7 +498,7 @@ const TYPE_MAP = {
 };
 
 let rawProducts = [], current = [];
-const S = { brands: new Set(), minP: null, maxP: null, minRating: null, types: new Set(), sort: 'featured', view: 'list' };
+const S = { brands: new Set(), minP: null, maxP: null, minRating: null, types: new Set(), sort: 'featured' };
 
 // ── Boot ──
 (function init() {
@@ -841,12 +570,6 @@ function setSort(el) {
   document.querySelectorAll('.dn-sort-btn').forEach(c => c.classList.remove('on'));
   el.classList.add('on'); S.sort = el.dataset.sort; applyFilters();
 }
-function setView(el) {
-  document.querySelectorAll('.dn-view-btn').forEach(c => c.classList.remove('on'));
-  el.classList.add('on');
-  S.view = el.dataset.view || 'list';
-  renderResults();
-}
 
 // ── Core filter + sort ──
 function applyFilters() {
@@ -859,11 +582,8 @@ function applyFilters() {
     if (S.maxP !== null && p.salePrice > S.maxP) return false;
     if (S.minRating !== null && p.rating < S.minRating) return false;
     if (S.types.size) {
-      const hay = `${p.name} ${p.summary} ${p.searchText || ''} ${Object.values(p.specs || {}).join(' ')}`.toLowerCase();
-      if (![...S.types].some(t => {
-        const key = t.toLowerCase();
-        return hay.includes(key) || hay.includes(key.split('/')[0]) || hay.includes(key.replace(/[^a-z0-9]+/g,' ').trim());
-      })) return false;
+      const hay = `${p.name} ${p.summary} ${p.highlights?.join(' ')||''}`.toLowerCase();
+      if (![...S.types].some(t => hay.includes(t.split('/')[0].toLowerCase()))) return false;
     }
     return true;
   });
@@ -874,7 +594,7 @@ function applyFilters() {
   else                              current.sort((a,b) => b.rating - a.rating || a.salePrice - b.salePrice);
 
   renderTags();
-  renderResults();
+  renderGrid();
 }
 
 // ── Active tags ──
@@ -899,121 +619,19 @@ function clearAll() {
   applyFilters();
 }
 
-
 // ── Render ──
 function starsHtml(r) {
-  const full = Math.round(r || 0);
+  const full = Math.round(r);
   return '★'.repeat(full) + '☆'.repeat(5-full);
 }
 function discountPct(sale, orig) {
   if (!orig || !sale || orig <= sale) return 0;
   return Math.round((1 - sale/orig) * 100);
 }
-function offerRows(product) {
-  if (Array.isArray(product.storeOffers) && product.storeOffers.length) return product.storeOffers;
-  return (product.stores || []).map((s, idx) => ({
-    name: s.name,
-    url: s.url,
-    guidePrice: idx === 0 ? product.salePrice : product.salePrice + (idx * 12),
-    shipping: s.name && s.name.toLowerCase().includes('amazon') ? 'Varies' : 'See retailer',
-    isLowest: idx === 0,
-    type: s.type || 'search'
-  }));
-}
-function specPills(product) {
-  const order = ['type','capacity','use','weightClass','season','setup','priceBand','tempClass','fill'];
-  const specs = product.specs || {};
-  return order.filter(k => specs[k]).slice(0, 4).map(k => `<span class="dn-spec-pill">${escapeHtml(specs[k])}</span>`).join('');
-}
-function infoPills(product) {
-  const merchantCount = product.merchantCount || offerRows(product).length || (product.stores || []).length || 0;
-  return [
-    `<span class="dn-info-pill"><span class="dn-stars">${starsHtml(product.rating)}</span>&nbsp;${Number(product.rating || 0).toFixed(1)}</span>`,
-    `<span class="dn-info-pill">${escapeHtml(Number(product.reviews || 0).toLocaleString())} reviews</span>`,
-    `<span class="dn-info-pill">${merchantCount} stores</span>`,
-    product.lowestStore ? `<span class="dn-info-pill">Lowest: ${escapeHtml(product.lowestStore)}</span>` : ''
-  ].filter(Boolean).join('');
-}
-function renderResults() {
+
+function renderGrid() {
+  document.getElementById('res-count').innerHTML = `<strong>${current.length}</strong> products found`;
   const el = document.getElementById('product-grid');
-  el.className = S.view === 'grid' ? 'dn-grid' : 'dn-results dn-list';
-  renderCount();
-  if (S.view === 'grid') return renderGrid(el);
-  return renderList(el);
-}
-function renderCount() {
-  const prices = current.map(p => Number(p.salePrice)).filter(Boolean);
-  const minPrice = prices.length ? Math.min(...prices) : null;
-  document.getElementById('res-count').innerHTML = `<strong>${current.length}</strong> products found${minPrice !== null ? ` · from <strong>${currency(minPrice)}</strong>` : ''}`;
-}
-function renderList(el) {
-  if (!current.length) {
-    el.innerHTML = '<div class="empty dn-list-empty">No products match your filters. <button onclick="clearAll()" style="background:none;border:none;cursor:pointer;color:var(--accent);text-decoration:underline;font-size:14px">Clear filters</button></div>';
-    return;
-  }
-
-  el.innerHTML = current.map(p => {
-    const disc = discountPct(p.salePrice, p.price);
-    const imgSrc = escapeAttribute(normalizeImage(p));
-    const link = productLink(p);
-    const offers = offerRows(p).slice(0, 3);
-    const offerMarkup = offers.map(o => {
-      const openUrl = buildAffiliateUrl(o.name, o.url, p.name);
-      return `<div class="dn-offer-row">
-        <div class="dn-offer-store">
-          <strong>${escapeHtml(o.name)}</strong>
-          ${o.isLowest ? '<span class="dn-lowest">LOWEST</span>' : ''}
-        </div>
-        <div class="dn-offer-price">${currency(Number(o.guidePrice || p.salePrice || 0))}</div>
-        <div class="dn-offer-ship">${escapeHtml(o.shipping || 'See retailer')}</div>
-        <a class="dn-offer-open" href="${escapeAttribute(openUrl)}" target="_blank" rel="noopener sponsored" onclick="event.stopPropagation()">Open</a>
-      </div>`;
-    }).join('');
-
-    return `<article class="dn-row" onclick="location.href='${link}'">
-      <div class="dn-row-media">
-        <img src="${imgSrc}" alt="${escapeAttribute(p.name)}" data-category="${escapeAttribute(p.category)}" loading="lazy">
-      </div>
-      <div class="dn-row-main">
-        <div class="dn-brandline">
-          <span class="dn-brand-badge">${escapeHtml(p.brand)}</span>
-          <span class="dn-badge-soft">${escapeHtml(p.categoryName || getCategory(p.category)?.name || p.category)}</span>
-          ${disc ? `<span class="dn-badge-soft">Save ${disc}%</span>` : ''}
-        </div>
-        <a class="dn-row-name" href="${link}" onclick="event.stopPropagation()">${escapeHtml(p.name)}</a>
-        <p class="dn-row-summary">${escapeHtml(p.summary || p.description || '')}</p>
-        <div class="dn-specs">${specPills(p)}</div>
-        <div class="dn-row-meta">
-          <span class="dn-stars">${starsHtml(p.rating)}</span>
-          <span>${Number(p.rating || 0).toFixed(1)}</span>
-          <span>${escapeHtml(Number(p.reviews || 0).toLocaleString())} reviews</span>
-          <span>${escapeHtml(String(p.merchantCount || offers.length || 0))} stores compared</span>
-        </div>
-        <div class="dn-info-tags">${infoPills(p)}</div>
-      </div>
-      <div class="dn-row-stores">
-        <div class="dn-row-pricebox">
-          <div class="dn-row-pricehead">Lowest guide price</div>
-          <div class="dn-row-sale">${currency(p.salePrice)}</div>
-          ${p.price > p.salePrice ? `<div class="dn-row-orig">${currency(p.price)}</div>` : ''}
-        </div>
-        <div class="dn-stores-head">
-          <div>Store</div>
-          <div>Price</div>
-          <div>Shipping</div>
-          <div></div>
-        </div>
-        ${offerMarkup}
-      </div>
-      <div class="dn-row-cta">
-        <a class="dn-compare-btn" href="${link}" onclick="event.stopPropagation()">Compare</a>
-      </div>
-    </article>`;
-  }).join('');
-
-  enhanceImages(el);
-}
-function renderGrid(el) {
   if (!current.length) {
     el.innerHTML = '<div class="empty" style="grid-column:1/-1;padding:28px;text-align:center">No products match your filters. <button onclick="clearAll()" style="background:none;border:none;cursor:pointer;color:var(--accent);text-decoration:underline;font-size:14px">Clear filters</button></div>';
     return;
@@ -1023,7 +641,8 @@ function renderGrid(el) {
     const disc = discountPct(p.salePrice, p.price);
     const imgSrc = escapeAttribute(normalizeImage(p));
     const link = productLink(p);
-    const storeBtns = offerRows(p).slice(0, 3).map((s, i) =>
+    // Show up to 3 store buttons
+    const storeBtns = (p.stores || []).slice(0, 3).map((s, i) =>
       `<a class="dn-store-btn${i===0?' primary':''}" href="${escapeAttribute(buildAffiliateUrl(s.name, s.url, p.name))}" target="_blank" rel="noopener sponsored">${escapeHtml(s.name)}</a>`
     ).join('');
 
@@ -1043,7 +662,7 @@ function renderGrid(el) {
         </div>
         <div class="dn-card-meta">
           <span class="dn-stars">${starsHtml(p.rating)}</span>
-          <span>${Number(p.rating || 0).toFixed(1)} (${Number(p.reviews || 0).toLocaleString()} reviews)</span>
+          <span>${p.rating?.toFixed(1)} (${p.reviews?.toLocaleString()} reviews)</span>
         </div>
         <div class="dn-card-stores" onclick="event.stopPropagation()">
           ${storeBtns}
@@ -1055,6 +674,5 @@ function renderGrid(el) {
   enhanceImages(el);
 }
 </script>
-
 </body>
 </html>
