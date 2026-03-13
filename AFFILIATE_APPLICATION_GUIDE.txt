@@ -1,0 +1,26 @@
+CampMate affiliate application guide
+
+Use these pages in applications:
+- https://campmate.kangseyoung7.workers.dev
+- https://campmate.kangseyoung7.workers.dev/about.html
+- https://campmate.kangseyoung7.workers.dev/contact.html
+- https://campmate.kangseyoung7.workers.dev/privacy.html
+- https://campmate.kangseyoung7.workers.dev/disclosure.html
+- https://campmate.kangseyoung7.workers.dev/guides.html
+
+Suggested short site description:
+CampMate Australia is a camping gear comparison website that helps outdoor enthusiasts compare products, read buying guides and click through to trusted retailers.
+
+Suggested longer site description:
+CampMate Australia is an Australian camping gear comparison website focused on helping users find and compare tents, chairs, coolers, stoves, lanterns and sleep systems. The site combines buying guides, product comparison pages and affiliate-ready outbound links to trusted retailers.
+
+Amazon Associates:
+- Preferred Associates ID: campmateau-20
+- Content type: A Comparison Shopping Engine
+- How did you hear about us: Search Engine
+
+Important notes:
+- If asked for contact email, use: kangseyoung7@gmail.com
+- If asked whether the site uses affiliate links, answer yes.
+- If asked for trust/compliance pages, provide About, Contact, Privacy and Disclosure links.
+- If a network dislikes workers.dev domains, connect a custom domain later for better approval odds.
