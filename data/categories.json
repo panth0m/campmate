@@ -1,7 +1,7 @@
 [
   {
     "slug": "tents",
-    "page": "tents.html",
+    "page": "/tents",
     "name": "Camping Tents",
     "short": "Tents",
     "description": "Compare family tents, instant tents and touring shelters for camping trips across Australia.",
@@ -28,7 +28,7 @@
   },
   {
     "slug": "chairs",
-    "page": "chairs.html",
+    "page": "/chairs",
     "name": "Camping Chairs",
     "short": "Chairs",
     "description": "Compare folding camping chairs, recliners and lightweight camp seats for comfort around camp.",
@@ -55,7 +55,7 @@
   },
   {
     "slug": "coolers",
-    "page": "coolers.html",
+    "page": "/coolers",
     "name": "Coolers & Ice Boxes",
     "short": "Coolers",
     "description": "Compare hard coolers, wheeled ice boxes and compact cooler options for weekend camping.",
@@ -82,7 +82,7 @@
   },
   {
     "slug": "stoves",
-    "page": "stoves.html",
+    "page": "/stoves",
     "name": "Camping Stoves",
     "short": "Stoves",
     "description": "Compare portable gas stoves, dual-burner camp cookers and compact backpacking stove options.",
@@ -109,7 +109,7 @@
   },
   {
     "slug": "lanterns",
-    "page": "lanterns.html",
+    "page": "/lanterns",
     "name": "Camping Lanterns",
     "short": "Lanterns",
     "description": "Compare rechargeable lanterns, LED campsite lights and practical portable lighting options.",
@@ -136,7 +136,7 @@
   },
   {
     "slug": "sleep-systems",
-    "page": "sleeping-bags.html",
+    "page": "/sleeping-bags",
     "name": "Camp Sleep Systems",
     "short": "Sleep Systems",
     "description": "Compare sleeping bags, mats and comfort-focused sleep gear for cooler nights outdoors.",

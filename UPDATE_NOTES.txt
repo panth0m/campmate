@@ -1,3 +1,9 @@
 This pack expands the catalogue to 1000 products and includes a local SVG image for every product.
 Upload the full folder contents to GitHub so assets/images/products is included.
 If you do not want live eBay API pricing, you may delete functions/api/ebay-search.js.
+
+2026-03-14
+- sitemap duplicate homepage removed
+- pretty routes added (/tents etc.)
+- canonical URLs switched to pretty routes
+- .env removed from delivery zip
