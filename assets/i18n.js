@@ -1,7 +1,7 @@
 
 (function(){
   const STORAGE_KEY = 'campmate_lang';
-  const SUPPORTED = { en:'AU EN', ko:'KR 한국어', ja:'JP 日本語', zh:'CN 中文' };
+  const SUPPORTED = { en:'🇦🇺 EN', ko:'🇰🇷 KR', ja:'🇯🇵 JP', zh:'🇨🇳 CN' };
   const LOCALES = { en:'en-AU', ko:'ko-KR', ja:'ja-JP', zh:'zh-CN' };
   const DEFAULT_LANG = 'en';
 
@@ -252,9 +252,23 @@
     const style = document.createElement('style');
     style.id = 'campmate-i18n-style';
     style.textContent = `
-      .lang-switch-wrap{display:flex;align-items:center;gap:8px;margin-left:12px}
-      .lang-switch{height:42px;border-radius:14px;background:rgba(255,255,255,.06);color:#e9f5ff;border:1px solid rgba(255,255,255,.08);padding:0 12px;font-weight:700}
-      @media (max-width: 980px){ .lang-switch-wrap{margin-left:8px}.lang-switch{height:38px;padding:0 10px;font-size:12px} }
+      .lang-switch-wrap{display:flex;align-items:center;gap:5px;margin-left:10px;flex-shrink:0}
+      .lang-btn{
+        display:inline-flex;align-items:center;gap:4px;
+        padding:7px 10px;border-radius:11px;border:1px solid rgba(255,255,255,.09);
+        background:rgba(255,255,255,.05);color:#bdd4f0;
+        font-size:.78rem;font-weight:700;cursor:pointer;
+        transition:all .16s;white-space:nowrap;line-height:1;
+      }
+      .lang-btn:hover{background:rgba(99,226,255,.12);border-color:rgba(99,226,255,.3);color:#e8f5ff}
+      .lang-btn.active{background:rgba(99,226,255,.18);border-color:var(--accent,#63e2ff);color:var(--accent,#63e2ff)}
+      @media(max-width:980px){
+        .lang-switch-wrap{gap:4px;margin-left:6px}
+        .lang-btn{padding:5px 7px;font-size:.72rem;border-radius:9px}
+      }
+      @media(max-width:680px){
+        .lang-switch-wrap{order:99;width:100%;justify-content:flex-end;margin-left:0;padding:4px 0 2px}
+      }
     `;
     document.head.appendChild(style);
   }
@@ -263,22 +277,28 @@
     addStyles();
     const nav = document.querySelector('.nav');
     if (!nav) return;
-    let select = document.querySelector('#campmate-lang-switch, [data-lang-switch]');
-    if (!select){
-      const wrap = document.createElement('div');
-      wrap.className = 'lang-switch-wrap';
-      wrap.innerHTML = `<select id="campmate-lang-switch" class="lang-switch" aria-label="Language"></select>`;
-      nav.appendChild(wrap);
-      select = wrap.querySelector('select');
-      Object.entries(SUPPORTED).forEach(([value,label]) => {
-        const opt = document.createElement('option'); opt.value = value; opt.textContent = label; select.appendChild(opt);
+    if (document.getElementById('campmate-lang-switch')) {
+      // update active state only
+      const cur = getLang();
+      document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.lang === cur);
       });
+      return;
     }
-    select.value = getLang();
-    if (!select.dataset.bound){
-      select.dataset.bound = '1';
-      select.addEventListener('change', e => setLang(e.target.value));
-    }
+    const wrap = document.createElement('div');
+    wrap.className = 'lang-switch-wrap';
+    wrap.id = 'campmate-lang-switch';
+    Object.entries(SUPPORTED).forEach(([value, label]) => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'lang-btn' + (value === getLang() ? ' active' : '');
+      btn.dataset.lang = value;
+      btn.textContent = label;
+      btn.setAttribute('aria-label', `Switch to ${value.toUpperCase()}`);
+      btn.addEventListener('click', () => setLang(value));
+      wrap.appendChild(btn);
+    });
+    nav.appendChild(wrap);
   }
 
   function setText(sel, value){ const el = document.querySelector(sel); if (el && value != null) el.textContent = value; }
