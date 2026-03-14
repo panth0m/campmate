@@ -377,6 +377,39 @@ def generate_top10(category, products):
 
 # ─── 사이트맵 업데이트 ────────────────────────────────────────
 
+
+def update_guides_index():
+    """guides/index.json 갱신 — guides.html이 이걸 읽어서 동적으로 목록 표시"""
+    import re as _re
+    guides = []
+    for path in sorted(GUIDES_DIR.glob("*.html")):
+        with open(path) as f:
+            c = f.read()
+        h1 = _re.search(r'<h1[^>]*>([^<]+)</h1>', c)
+        desc = _re.search(r'<meta name="description" content="([^"]+)"', c)
+        badge = _re.search(r'class="badge">([^<]+)</div>', c)
+        fname = path.name
+        # 글 유형 판별
+        if 'vs' in fname:
+            gtype = 'comparison'
+        elif 'top-10' in fname or 'top-5' in fname:
+            gtype = 'top10'
+        else:
+            gtype = 'guide'
+
+        guides.append({
+            'file': fname,
+            'title': h1.group(1) if h1 else fname.replace('-', ' ').replace('.html', '').title(),
+            'desc': desc.group(1) if desc else '',
+            'type': gtype,
+            'date': TODAY,
+        })
+
+    index_path = DATA_DIR / "guides_index.json"
+    with open(index_path, 'w') as f:
+        json.dump(guides, f, indent=2, ensure_ascii=False)
+    print(f"  guides_index.json: {len(guides)}개 가이드 등록")
+
 def update_sitemap(new_slugs):
     if not SITEMAP_FILE.exists():
         print("sitemap.xml not found, skipping update")
@@ -481,6 +514,9 @@ def main():
     if generated:
         print(f"\n▶ 사이트맵 업데이트...")
         update_sitemap(generated)
+
+    print(f"\n▶ 가이드 인덱스 업데이트...")
+    update_guides_index()
 
     print(f"\n{'=' * 50}")
     print(f"완료! 새 가이드 {len(generated)}개 생성")

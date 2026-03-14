@@ -8,7 +8,49 @@
   <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
-</head><body><header class="topbar"><div class="container nav"><a class="logo" href="index.html"><span class="logo-badge">⛺</span><span>CampMate Australia</span></a><nav class="nav-links"><a href="index.html">Home</a><a href="categories.html">Categories</a><a href="popular.html">Popular</a><a href="guides.html">Guides</a></nav><form class="nav-search" data-search-form><input class="input" name="q" placeholder="Search tents, coolers, chairs..."><button class="btn" type="submit">Search</button></form></div></header><main class="page-hero"><div class="container"><div class="breadcrumb"><a href="index.html">Home</a> · <span>Guides</span></div><section class="section" style="padding-top:12px"><div class="section-head"><div><h1>CampMate guides</h1><p>These pages target higher-value search traffic and guide visitors into compare pages.</p></div></div><div class="grid-3"><article class="card"><div class="card-body"><div class="badge">Guide</div><a class="title" href="guides/best-family-tents-australia.html">Best Family Tents in Australia</a><p>A practical guide to family tents, instant setups and touring shelters for Australian campers.</p><a class="btn small" href="guides/best-family-tents-australia.html">Read guide</a></div></article><article class="card"><div class="card-body"><div class="badge">Guide</div><a class="title" href="guides/best-camping-chairs-australia.html">Best Camping Chairs in Australia</a><p>Comfort-first camping chair picks for car camping, beach trips and lightweight campsites.</p><a class="btn small" href="guides/best-camping-chairs-australia.html">Read guide</a></div></article><article class="card"><div class="card-body"><div class="badge">Guide</div><a class="title" href="guides/best-coolers-australia.html">Best Coolers in Australia</a><p>Cooler and ice box picks for family trips, weekend camps and simple food storage.</p><a class="btn small" href="guides/best-coolers-australia.html">Read guide</a></div></article><article class="card"><div class="card-body"><div class="badge">Guide</div><a class="title" href="guides/best-camping-stoves-australia.html">Best Camping Stoves in Australia</a><p>Portable gas stove picks for simple camp cooking, weekend trips and family camps.</p><a class="btn small" href="guides/best-camping-stoves-australia.html">Read guide</a></div></article><article class="card"><div class="card-body"><div class="badge">Guide</div><a class="title" href="guides/best-camping-lanterns-australia.html">Best Camping Lanterns in Australia</a><p>Portable lighting picks for family camps, cooking zones and relaxed evenings outdoors.</p><a class="btn small" href="guides/best-camping-lanterns-australia.html">Read guide</a></div></article><article class="card"><div class="card-body"><div class="badge">Guide</div><a class="title" href="guides/best-camp-sleep-systems-australia.html">Best Camp Sleep Systems in Australia</a><p>Sleeping bag and mat picks for better warmth, support and comfort on camping trips.</p><a class="btn small" href="guides/best-camp-sleep-systems-australia.html">Read guide</a></div></article></div></section></div></main>
+</head><body><header class="topbar"><div class="container nav"><a class="logo" href="index.html"><span class="logo-badge">⛺</span><span>CampMate Australia</span></a><nav class="nav-links"><a href="index.html">Home</a><a href="categories.html">Categories</a><a href="popular.html">Popular</a><a href="guides.html">Guides</a></nav><form class="nav-search" data-search-form><input class="input" name="q" placeholder="Search tents, coolers, chairs..."><button class="btn" type="submit">Search</button></form></div></header><main class="page-hero"><div class="container"><div class="breadcrumb"><a href="index.html">Home</a> · <span>Guides</span></div><section class="section" style="padding-top:12px"><div class="section-head"><div><h1>CampMate guides</h1><p>These pages target higher-value search traffic and guide visitors into compare pages.</p></div></div><div style="margin-bottom:16px;display:flex;gap:10px;flex-wrap:wrap;align-items:center">
+  <button class="filter-chip active" data-filter="all">All</button>
+  <button class="filter-chip" data-filter="top10">TOP 10</button>
+  <button class="filter-chip" data-filter="comparison">Comparisons</button>
+  <button class="filter-chip" data-filter="guide">Guides</button>
+  <span class="muted" id="guide-count" style="margin-left:auto;font-size:.85rem"></span>
+</div>
+<div class="grid-3" id="guides-grid">
+  <div class="muted" style="grid-column:1/-1;padding:24px 0">Loading guides...</div>
+</div>
+<script>
+(async function() {
+  const res = await fetch('data/guides_index.json');
+  const guides = await res.json();
+  let current = 'all';
+
+  const TYPE_LABEL = { top10: 'TOP 10', comparison: 'Comparison', guide: 'Guide' };
+
+  function render(filter) {
+    const filtered = filter === 'all' ? guides : guides.filter(g => g.type === filter);
+    document.getElementById('guide-count').textContent = filtered.length + ' guides';
+    document.getElementById('guides-grid').innerHTML = filtered.map(g => `
+      <article class="card">
+        <div class="card-body">
+          <div class="badge">${TYPE_LABEL[g.type] || 'Guide'}</div>
+          <a class="title" href="guides/${g.file}">${g.title}</a>
+          <p>${g.desc}</p>
+          <a class="btn small" href="guides/${g.file}">Read guide</a>
+        </div>
+      </article>`).join('');
+  }
+
+  document.querySelectorAll('[data-filter]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('[data-filter]').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      render(btn.dataset.filter);
+    });
+  });
+
+  render('all');
+})();
+</script></section></div></main>
 <nav class="mob-tabbar" aria-label="Mobile navigation">
   <div class="mob-tabbar-inner">
     <a href="/index.html" class="mob-tab" aria-label="Home">
@@ -32,7 +74,8 @@
       Guides
     </a>
   </div>
-</nav><footer class="footer"><div class="container footer-grid"><div><div class="logo" style="margin-bottom:12px"><span class="logo-badge">⛺</span><span>CampMate Australia</span></div><p>CampMate helps Australian campers compare useful camping gear, read buyer-first guides and click through to store searches with clear disclosure.</p><p class="muted" style="margin-top:12px">Disclosure: CampMate may earn commissions from affiliate links at no additional cost to you.</p></div><div><strong>Browse</strong><div class="list" style="margin-top:12px"><a href="categories.html">All categories</a><a href="popular.html">Popular products</a><a href="guides.html">Guides</a></div></div><div><strong>Trust & contact</strong><div class="list" style="margin-top:12px"><a href="about.html">About CampMate</a><a href="contact.html">Contact</a><a href="disclosure.html">Affiliate disclosure</a><a href="privacy.html">Privacy</a></div></div></div></footer><script src="assets/data.js"></script><script src="assets/common.js"></script><script>setupSearchForm();enhanceImages();</script><script>
+</nav><footer class="footer"><div class="container footer-grid"><div><div class="logo" style="margin-bottom:12px"><span class="logo-badge">⛺</span><span>CampMate Australia</span></div><p>CampMate helps Australian campers compare useful camping gear, read buyer-first guides and click through to store searches with clear disclosure.</p><p class="muted" style="margin-top:12px">Disclosure: CampMate may earn commissions from affiliate links at no additional cost to you.</p></div><div><strong>Browse</strong><div class="list" style="margin-top:12px"><a href="categories.html">All categories</a><a href="popular.html">Popular products</a><a href="guides.html">Guides</a></div></div><div><strong>Trust & contact</strong><div class="list" style="margin-top:12px"><a href="about.html">About CampMate</a><a href="contact.html">Contact</a><a href="disclosure.html">Affiliate disclosure</a><a href="privacy.html">Privacy</a></div></div></div></footer><script src="assets/data.js"></script><script src="assets/i18n.js"></script>
+<script src="assets/common.js"></script><script>setupSearchForm();enhanceImages();</script><script>
 // ── PWA: Service Worker 등록 ──────────────────────────────
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
