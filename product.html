@@ -218,24 +218,43 @@
 
     setupSearchForm();
 
-    getJson('data/products.json')
-      .then(products => {
-        const slug = getSafeSlug();
-        const product = findProduct(products, slug);
+    document.addEventListener('DOMContentLoaded', () => {
+      initProductPage();
+    });
+
+    async function initProductPage() {
+      const slug = getSafeSlug();
+      if (!slug) {
+        renderNotFound('');
+        return;
+      }
+
+      try {
+        const products = await getJson(`data/products.json?v=${Date.now()}`);
+        let product = findProduct(products, slug);
+        let usedFallback = false;
+
+        if (!product) {
+          product = findNearestProduct(products, slug);
+          usedFallback = !!product;
+        }
 
         if (!product) {
           renderNotFound(slug);
+          if (window.CampMateI18n) window.CampMateI18n.applyTranslations();
           return;
         }
 
-        renderProduct(product);
+        renderProduct(product, { requestedSlug: slug, usedFallback });
         loadLivePrice(product);
         injectSchema(product);
-      })
-      .catch(err => {
+        if (window.CampMateI18n) window.CampMateI18n.applyTranslations();
+      } catch (err) {
         console.error(err);
-        renderNotFound('');
-      });
+        renderNotFound(slug);
+        if (window.CampMateI18n) window.CampMateI18n.applyTranslations();
+      }
+    }
 
     function getSafeSlug() {
       const url = new URL(window.location.href);
@@ -266,7 +285,34 @@
       }) || null;
     }
 
-    function renderProduct(product) {
+    function tokeniseSlug(value) {
+      const stop = new Set(['camping','gear','tent','tents','chair','chairs','cooler','coolers','stove','stoves','lantern','lanterns','sleeping','bag','bags','and','for','the','with','darkroom','lighted','northstar']);
+      return normalizeSlugValue(value)
+        .split('-')
+        .filter(Boolean)
+        .filter(token => token.length > 1 && !stop.has(token));
+    }
+
+    function findNearestProduct(products, slug) {
+      const targetTokens = tokeniseSlug(slug);
+      if (!targetTokens.length) return null;
+      let best = null;
+      let bestScore = 0;
+      for (const product of products) {
+        const hay = `${product.slug || ''} ${product.name || ''} ${product.brand || ''}`;
+        const tokens = new Set(tokeniseSlug(hay));
+        let score = 0;
+        for (const token of targetTokens) if (tokens.has(token)) score += 1;
+        if ((product.brand || '').toLowerCase() && targetTokens.includes((product.brand || '').toLowerCase())) score += 2;
+        if (score > bestScore) {
+          bestScore = score;
+          best = product;
+        }
+      }
+      return bestScore >= 2 ? best : null;
+    }
+
+    function renderProduct(product, options = {}) {
       document.title = `${product.name} | CampMate Australia`;
       document.getElementById('product-crumb').textContent = product.name;
 
