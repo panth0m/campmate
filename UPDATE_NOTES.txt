@@ -19,3 +19,8 @@ If you do not want live eBay API pricing, you may delete functions/api/ebay-sear
 - added noindex,follow on search.html and category.html
 - refreshed product meta tags dynamically from slug
 - excluded .env and .git from delivery zip
+
+2026-03-14 guide expansion
+- expanded guide pages from 6 to 20
+- updated guides.html listing
+- added all new guide URLs to sitemap.xml
