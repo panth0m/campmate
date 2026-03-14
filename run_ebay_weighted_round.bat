@@ -1,32 +1,41 @@
 @echo off
-setlocal
+setlocal EnableExtensions
+chcp 65001 >nul 2>&1
+
 cd /d "%~dp0"
 
-if not exist "scripts\run_ebay_weighted_round.py" (
-  echo [ERROR] Missing file: scripts\run_ebay_weighted_round.py
-  echo Put this BAT file inside your campmate project root folder.
-  echo Example: the same folder that contains index.html, worker.js, assets, data, scripts.
+echo ========================================
+echo CampMate eBay weighted round importer
+echo Tents/Chairs priority + incremental resume
+echo ========================================
+echo.
+
+set "TOTAL="
+set /p TOTAL=How many NEW products to try this run across ALL categories? [120]: 
+if not defined TOTAL set "TOTAL=120"
+
+set "PAGE_SIZE="
+set /p PAGE_SIZE=eBay page size per request (1-200) [100]: 
+if not defined PAGE_SIZE set "PAGE_SIZE=100"
+
+set "SCRIPT=%~dp0scripts\run_ebay_weighted_round.py"
+
+if not exist "%SCRIPT%" (
+  echo.
+  echo ERROR: Could not find script:
+  echo %SCRIPT%
+  echo.
+  echo Put this BAT file in your campmate project root folder.
   pause
   exit /b 1
 )
 
-echo ==========================================
-echo CampMate eBay weighted round importer
-echo Tents/Chairs priority + incremental resume
-echo ==========================================
-echo.
-set /p TOTAL=How many NEW products to try this run across ALL categories? [120]: 
-if "%TOTAL%"=="" set TOTAL=120
-
-set /p PERREQ=eBay page size per request (1-200) [100]: 
-if "%PERREQ%"=="" set PERREQ=100
-
-python "scripts\run_ebay_weighted_round.py" --total %TOTAL% --per-request %PERREQ%
-
-echo.
-if exist "data\ebay_weighted_round_last_run.json" (
-  echo Done. Summary saved to data\ebay_weighted_round_last_run.json
+where py >nul 2>&1
+if %errorlevel%==0 (
+  py -3 "%SCRIPT%" --total %TOTAL% --page-size %PAGE_SIZE%
 ) else (
-  echo Finished, but summary file was not created. Check the messages above.
+  python "%SCRIPT%" --total %TOTAL% --page-size %PAGE_SIZE%
 )
+
+echo.
 pause
