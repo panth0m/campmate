@@ -1,4 +1,3 @@
-
 import json
 from pathlib import Path
 from urllib.parse import quote
@@ -42,7 +41,7 @@ def normalize_product(product: dict, index: int) -> dict:
     sale_price = int(product.get("salePrice", price) or price)
     rating = float(product.get("rating", 4.2) or 4.2)
     reviews = int(product.get("reviews", 0) or 0)
-    image = product.get("image") or default_image(category)
+    image = product.get("ebayImage") or product.get("image") or default_image(category)
     slug = product.get("slug") or slugify(f"{name}-{index}")
     return {
         "slug": slug,
@@ -54,6 +53,7 @@ def normalize_product(product: dict, index: int) -> dict:
         "rating": rating,
         "reviews": reviews,
         "image": image,
+        "ebayImage": product.get("ebayImage"),
         "summary": product.get("summary", "Affiliate-ready compare page for Australian camping shoppers."),
         "stores": stores,
     }
