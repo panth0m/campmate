@@ -239,50 +239,64 @@ function createStoreButtons(product, limit = 4) {
 }
 
 function productCard(product) {
-  const specs = getPrimarySpecs(product).map(value => `<span class="spec-chip">${escapeHtml(value)}</span>`).join('');
+  const hl = (product.highlights || []).slice(0,2).map(v => `<span class="dw-row-hl">${escapeHtml(v)}</span>`).join('');
+  const ratingVal = Number(product.rating) || 0;
+  const saving = savingsPercent(product);
   return `
-  <article class="compare-card">
-    <a class="thumb" href="${productLink(product)}"><img src="${normalizeImage(product)}" alt="${escapeHtml(product.name)}" loading="lazy" data-category="${product.category}"></a>
-    <div class="card-content">
-      <div class="metric-row"><span class="soft-badge">${escapeHtml(product.brand)}</span><span class="soft-badge">${escapeHtml(inferType(product))}</span></div>
-      <a href="${productLink(product)}" class="title">${escapeHtml(product.name)}</a>
-      <p class="muted">${escapeHtml(product.summary || '')}</p>
-      <div class="price-row"><span class="sale">${currency(product.salePrice)}</span><span class="old">${currency(product.price)}</span></div>
-      <div class="spec-row">${specs}</div>
-      <div class="meta" style="margin-top:12px"><span>${stars(product.rating)}</span><span>${product.reviews || 0} reviews</span><span>${(product.stores || []).length} stores</span></div>
-      <div class="hero-actions" style="margin:14px 0 0"> <a class="btn small" href="${productLink(product)}">Compare page</a> </div>
+  <article class="dw-grid-item">
+    <a class="dw-grid-thumb" href="${productLink(product)}">
+      <img src="${normalizeImage(product)}" alt="${escapeHtml(product.name)}" loading="lazy" data-category="${product.category}">
+    </a>
+    <div class="dw-grid-body">
+      <div class="dw-row-brand">
+        <strong>${escapeHtml(product.brand)}</strong>
+        <span class="soft-badge">${escapeHtml(inferType(product))}</span>
+      </div>
+      <a href="${productLink(product)}" class="dw-grid-title">${escapeHtml(product.name)}</a>
+      ${hl ? `<div class="dw-row-highlights" style="margin:2px 0">${hl}</div>` : ''}
+      <div class="dw-grid-price">${currency(product.salePrice)}</div>
+      <div class="dw-grid-meta">
+        ${ratingVal ? `⭐ ${ratingVal.toFixed(1)}` : ''} ${product.reviews ? `· ${product.reviews} reviews` : ''}
+        ${saving ? `<span class="save-badge" style="margin-left:4px">-${saving}%</span>` : ''}
+      </div>
+      <a class="dw-grid-btn" href="${productLink(product)}">Compare →</a>
     </div>
   </article>`;
 }
 
 function compareRow(product) {
-  const specs = getPrimarySpecs(product).map(value => `<span class="spec-chip">${escapeHtml(value)}</span>`).join('');
+  const specs = getPrimarySpecs(product).map(v => `<span class="dw-row-spec">${escapeHtml(v)}</span>`).join('');
+  const highlights = (product.highlights || []).slice(0,3).map(v => `<span class="dw-row-hl">${escapeHtml(v)}</span>`).join('');
   const saving = savingsPercent(product);
-  const stores = normalizeStores(product).slice(0, 3).map(store => `
-    <div class="store-item">
-      <div><strong>${escapeHtml(store.name)}</strong><div class="tiny">${escapeHtml(store.note)}</div></div>
-      <a class="store-pill small secondary" target="_blank" rel="noopener sponsored" href="${escapeAttribute(store.url)}">Open</a>
-    </div>`).join('');
+  const stores = normalizeStores(product).slice(0, 3).map(store =>
+    `<div class="dw-row-store"><span>${escapeHtml(store.name)}</span><a target="_blank" rel="noopener sponsored" href="${escapeAttribute(store.url)}">Open ↗</a></div>`
+  ).join('');
+  const ratingVal = Number(product.rating) || 0;
+  const starsHtml = ratingVal ? `<span class="stars">${'★'.repeat(Math.round(ratingVal))}${'☆'.repeat(5-Math.round(ratingVal))}</span> ${ratingVal.toFixed(1)}` : '';
   return `
-  <article class="compare-list-item">
-    <a class="compare-media" href="${productLink(product)}"><img src="${normalizeImage(product)}" alt="${escapeHtml(product.name)}" loading="lazy" data-category="${product.category}"></a>
-    <div class="compare-body">
-      <div class="compare-body-inner">
-        <div class="compare-brand"><strong>${escapeHtml(product.brand)}</strong><span class="soft-badge">${escapeHtml(product.categoryName || titleCase(product.category))}</span><span class="soft-badge">${stars(product.rating)}</span></div>
-        <a class="compare-title" href="${productLink(product)}">${escapeHtml(product.name)}</a>
-        <p class="compare-summary">${escapeHtml(product.summary || '')}</p>
-        <div class="spec-row">${specs}</div>
-        <div class="metric-row"><span class="metric-chip good">${product.reviews || 0} reviews</span><span class="metric-chip">${(product.stores || []).length} store options</span>${saving ? `<span class="metric-chip warn">Save ~${saving}%</span>` : ''}</div>
+  <article class="dw-row-item">
+    <a class="dw-row-img" href="${productLink(product)}">
+      <img src="${normalizeImage(product)}" alt="${escapeHtml(product.name)}" loading="lazy" data-category="${product.category}">
+    </a>
+    <div class="dw-row-info">
+      <div class="dw-row-brand">
+        <strong>${escapeHtml(product.brand)}</strong>
+        <span class="soft-badge">${escapeHtml(product.categoryName || titleCase(product.category))}</span>
+      </div>
+      <a class="dw-row-title" href="${productLink(product)}">${escapeHtml(product.name)}</a>
+      <p class="dw-row-summary">${escapeHtml((product.summary || '').slice(0,120))}${(product.summary||'').length>120?'…':''}</p>
+      ${highlights ? `<div class="dw-row-highlights">${highlights}</div>` : specs ? `<div class="dw-row-specs">${specs}</div>` : ''}
+      <div class="dw-row-meta">
+        ${starsHtml ? `${starsHtml}` : ''}
+        ${product.reviews ? `<span>${product.reviews} reviews</span>` : ''}
+        ${saving ? `<span class="save-badge">Save ~${saving}%</span>` : ''}
       </div>
     </div>
-    <div class="compare-price">
-      <div class="label">Reference price</div>
-      <div class="reference">${currency(product.salePrice)}</div>
-      <div class="tiny">Typical full price ${currency(product.price)}</div>
-      <div class="store-stack">${stores}</div>
-    </div>
-    <div class="compare-cta">
-      <a class="btn small" href="${productLink(product)}">Compare</a>
+    <div class="dw-row-price">
+      <div class="sale-price">${currency(product.salePrice)}</div>
+      ${product.price && product.price !== product.salePrice ? `<div class="orig-price">${currency(product.price)}</div>` : ''}
+      <div class="dw-row-stores">${stores}</div>
+      <a class="dw-row-compare-btn" href="${productLink(product)}">Compare →</a>
     </div>
   </article>`;
 }

@@ -108,3 +108,143 @@
 .dw-show-more:hover{color:var(--accent);border-color:rgba(99,226,255,.3)}
 @media(max-width:680px){.dw-row{grid-template-columns:90px 1fr}.dw-label{padding:10px 10px;font-size:.74rem}.dw-opts{padding:7px 10px}.dw-price-row{padding:7px 10px}.dw-type-tab{padding:10px 13px;font-size:.8rem}}
 /* ====== END DANAWA FILTER ====== */
+
+/* ====== DANAWA-STYLE FULL-WIDTH PRODUCT ROW ====== */
+.dw-result-bar{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:12px;flex-wrap:wrap;padding:12px 0 14px;
+  border-bottom:1px solid var(--line);margin-bottom:14px;
+}
+.dw-result-bar .results-meta{display:flex;align-items:center;gap:10px;font-size:.92rem;color:var(--muted)}
+.dw-result-bar .results-meta strong{color:var(--text);font-size:1rem}
+.dw-toolbar-right{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+
+/* Full-width product list */
+.dw-product-list{display:grid;gap:10px}
+
+/* Product row — danawa style */
+.dw-row-item{
+  display:grid;
+  grid-template-columns:140px 1fr 220px;
+  gap:0;
+  border:1px solid var(--line);border-radius:16px;
+  background:linear-gradient(180deg,rgba(10,27,52,.92),rgba(7,18,36,.96));
+  overflow:hidden;transition:border-color .16s;
+}
+.dw-row-item:hover{border-color:rgba(99,226,255,.28)}
+
+/* Image cell */
+.dw-row-img{
+  display:grid;place-items:center;
+  background:linear-gradient(135deg,rgba(99,226,255,.07),rgba(255,255,255,.02));
+  border-right:1px solid var(--line);
+  padding:14px;cursor:pointer;
+}
+.dw-row-img img{
+  width:100%;aspect-ratio:1/1;object-fit:contain;border-radius:10px;
+}
+
+/* Info cell */
+.dw-row-info{padding:16px 18px;min-width:0;display:grid;align-content:start;gap:8px}
+.dw-row-brand{display:flex;gap:7px;flex-wrap:wrap;align-items:center}
+.dw-row-brand strong{font-size:.78rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.dw-row-title{
+  font-size:1.06rem;font-weight:800;line-height:1.38;color:var(--text);
+  text-decoration:none;display:block;
+}
+.dw-row-title:hover{color:var(--accent)}
+.dw-row-summary{font-size:.88rem;color:var(--muted);line-height:1.58;margin:0}
+.dw-row-specs{display:flex;flex-wrap:wrap;gap:5px;margin-top:2px}
+.dw-row-spec{
+  padding:4px 9px;border-radius:6px;font-size:.74rem;font-weight:700;
+  background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);color:#c8d9f2;
+}
+.dw-row-highlights{display:flex;flex-wrap:wrap;gap:5px}
+.dw-row-hl{
+  padding:4px 9px;border-radius:6px;font-size:.74rem;font-weight:600;
+  background:rgba(99,226,255,.07);border:1px solid rgba(99,226,255,.14);color:var(--accent);
+}
+.dw-row-meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-size:.8rem;color:var(--muted)}
+.dw-row-meta .stars{color:#ffd76d}
+
+/* Price cell */
+.dw-row-price{
+  border-left:1px solid var(--line);
+  padding:16px 18px;
+  display:grid;align-content:center;gap:10px;
+  background:rgba(5,14,28,.3);
+}
+.dw-row-price .sale-price{font-size:1.5rem;font-weight:900;color:var(--accent)}
+.dw-row-price .orig-price{font-size:.82rem;text-decoration:line-through;color:var(--muted)}
+.dw-row-price .save-badge{
+  display:inline-flex;padding:3px 8px;border-radius:6px;
+  background:rgba(125,255,198,.12);color:var(--green);
+  font-size:.74rem;font-weight:800;
+}
+.dw-row-stores{display:grid;gap:6px;margin-top:4px}
+.dw-row-store{
+  display:flex;align-items:center;justify-content:space-between;gap:8px;
+  padding:7px 10px;border-radius:10px;
+  background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);
+}
+.dw-row-store span{font-size:.78rem;font-weight:700;color:#c8d9f0}
+.dw-row-store a{
+  display:inline-flex;padding:5px 12px;border-radius:8px;
+  background:rgba(99,226,255,.12);border:1px solid rgba(99,226,255,.2);
+  color:var(--accent);font-size:.76rem;font-weight:800;
+  text-decoration:none;transition:background .14s;white-space:nowrap;
+}
+.dw-row-store a:hover{background:rgba(99,226,255,.22)}
+.dw-row-compare-btn{
+  display:flex;padding:9px 0;border-radius:11px;
+  background:linear-gradient(135deg,var(--accent),var(--accent2));
+  color:#08233b;font-size:.84rem;font-weight:900;
+  text-decoration:none;text-align:center;justify-content:center;
+  transition:opacity .14s;
+}
+.dw-row-compare-btn:hover{opacity:.88}
+
+/* Grid view */
+.dw-product-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.dw-grid-item{
+  border:1px solid var(--line);border-radius:16px;overflow:hidden;
+  background:linear-gradient(180deg,rgba(10,27,52,.92),rgba(7,18,36,.96));
+  transition:border-color .16s;display:grid;
+}
+.dw-grid-item:hover{border-color:rgba(99,226,255,.28)}
+.dw-grid-thumb{
+  aspect-ratio:4/3;background:linear-gradient(135deg,rgba(99,226,255,.08),rgba(255,255,255,.02));
+  display:grid;place-items:center;border-bottom:1px solid var(--line);
+}
+.dw-grid-thumb img{width:70%;aspect-ratio:1/1;object-fit:contain}
+.dw-grid-body{padding:14px 15px 16px;display:grid;gap:8px;align-content:start}
+.dw-grid-title{font-size:.95rem;font-weight:800;line-height:1.38;color:var(--text);text-decoration:none;display:block}
+.dw-grid-title:hover{color:var(--accent)}
+.dw-grid-price{font-size:1.22rem;font-weight:900;color:var(--accent)}
+.dw-grid-meta{font-size:.78rem;color:var(--muted)}
+.dw-grid-btn{
+  margin:4px 0 0;padding:9px;border-radius:10px;text-align:center;
+  background:rgba(99,226,255,.12);border:1px solid rgba(99,226,255,.18);
+  color:var(--accent);font-size:.82rem;font-weight:800;text-decoration:none;display:block;
+}
+.dw-grid-btn:hover{background:rgba(99,226,255,.22)}
+
+/* Full-width page shell */
+.dw-page-shell{width:100%}
+.dw-filter-section{margin-bottom:0}
+
+@media(max-width:900px){
+  .dw-row-item{grid-template-columns:110px 1fr 180px}
+  .dw-row-info{padding:12px 14px}
+  .dw-row-price{padding:12px 14px}
+  .dw-product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:640px){
+  .dw-row-item{grid-template-columns:90px 1fr;grid-template-rows:auto auto}
+  .dw-row-price{grid-column:1/-1;border-left:none;border-top:1px solid var(--line);
+    grid-template-columns:auto auto 1fr;align-items:center;padding:10px 12px;gap:8px}
+  .dw-row-price .dw-row-stores{display:none}
+  .dw-row-compare-btn{display:none}
+  .dw-product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+}
+/* ====== END DANAWA FULL-WIDTH ====== */

@@ -32,21 +32,19 @@
     </form>
   </div>
 </header>
-<main class="page-hero">
-  <div class="container">
-    <div class="breadcrumb"><a href="/">Home</a> · <a href="/categories">Categories</a> · <span id="crumb-current">Loading…</span></div>
-    <div class="section-head">
-      <div>
-        <div class="badge">Category compare page</div>
-        <h1 id="category-title" style="margin:12px 0 8px">Loading…</h1>
-        <p id="category-copy">Sleeping bag choice comes down to temperature rating, fill type and pack size. CampMate covers down and synthetic options from summer-weight liners to serious alpine bags so you can match warmth to your camping conditions.</p>
-      </div>
-      <div class="metric-row" id="category-metrics"></div>
+<main>
+  <div class="container" style="padding:32px 0 60px">
+    <div class="breadcrumb" style="margin-bottom:16px"><a href="/">Home</a> · <a href="/categories">Categories</a> · <span id="crumb-current">Loading…</span></div>
+
+    <!-- Page header -->
+    <div style="margin-bottom:20px">
+      <div class="badge" style="margin-bottom:10px">Category compare page</div>
+      <h1 id="category-title" style="margin:0 0 8px;font-size:clamp(1.6rem,3vw,2.2rem)">Sleeping Bags & Mats</h1>
+      <p id="category-copy" style="color:var(--muted);max-width:760px;margin:0">Sleeping bag choice comes down to temperature rating, fill type and pack size. CampMate covers down and synthetic options from summer-weight liners to serious alpine bags so you can match warmth to your camping conditions.</p>
     </div>
 
-    <!-- ====== DANAWA-STYLE DETAIL FILTER ====== -->
-    <div class="dw-filter" id="dw-filter">
-      <!-- Type tabs -->
+    <!-- ====== DANAWA FILTER PANEL ====== -->
+    <div class="dw-filter" id="dw-filter" style="margin-bottom:18px">
       <div class="dw-type-tabs" id="dw-type-tabs">
   <button class="dw-type-tab on" data-dwtype="all">All Sleep Systems</button>
   <button class="dw-type-tab" data-dwtype="summer">Summer / Liner</button>
@@ -55,7 +53,6 @@
   <button class="dw-type-tab" data-dwtype="mat">Sleeping Mats</button>
 </div>
 
-      <!-- Detail filter rows -->
       <div class="dw-row">
   <div class="dw-label"><span class="dw-dot"></span>Type</div>
   <div class="dw-opts">
@@ -73,12 +70,14 @@
   </div>
 </div>
 <div class="dw-row">
-  <div class="dw-label"><span class="dw-dot"></span>Temp</div>
+  <div class="dw-label"><span class="dw-dot"></span>Brand</div>
   <div class="dw-opts">
-    <label class="dw-chip"><input type="checkbox" name="nf-temp" value="warm"> Warm (+10°C+)</label>
-    <label class="dw-chip"><input type="checkbox" name="nf-temp" value="mild"> Mild (0–10°C)</label>
-    <label class="dw-chip"><input type="checkbox" name="nf-temp" value="cold"> Cold (-10–0°C)</label>
-    <label class="dw-chip"><input type="checkbox" name="nf-temp" value="extreme"> Extreme (-10°C+)</label>
+    <label class="dw-chip"><input type="checkbox" name="nf-brand" value="Sea to Summit"> Sea to Summit</label>
+    <label class="dw-chip"><input type="checkbox" name="nf-brand" value="Therm-a-Rest"> Therm-a-Rest</label>
+    <label class="dw-chip"><input type="checkbox" name="nf-brand" value="Coleman"> Coleman</label>
+    <label class="dw-chip"><input type="checkbox" name="nf-brand" value="Darche"> Darche</label>
+    <label class="dw-chip"><input type="checkbox" name="nf-brand" value="Nemo"> Nemo</label>
+    <label class="dw-chip"><input type="checkbox" name="nf-brand" value="Exped"> Exped</label>
   </div>
 </div>
 <div class="dw-row">
@@ -87,102 +86,53 @@
     <label class="dw-chip"><input type="checkbox" name="nf-price" value="under100"> Under $100</label>
     <label class="dw-chip"><input type="checkbox" name="nf-price" value="100-250"> $100–$250</label>
     <label class="dw-chip"><input type="checkbox" name="nf-price" value="250-500"> $250–$500</label>
-    <label class="dw-chip"><input type="checkbox" name="nf-price" value="over500"> Over $500</label>
+    <label class="dw-chip"><input type="checkbox" name="nf-price" value="over500"> $500+</label>
   </div>
 </div>
 <div class="dw-row">
-  <div class="dw-label"><span class="dw-dot"></span>Custom $</div>
+  <div class="dw-label"><span class="dw-dot"></span>직접입력</div>
   <div class="dw-price-row">
-    <input type="number" class="dw-price-input" id="dw-min-price" placeholder="Min" min="0">
+    <input type="number" class="dw-price-input" id="dw-min-price" placeholder="Min $" min="0">
     <span class="dw-price-sep">~</span>
-    <input type="number" class="dw-price-input" id="dw-max-price" placeholder="Max" min="0">
+    <input type="number" class="dw-price-input" id="dw-max-price" placeholder="Max $" min="0">
     <button class="dw-price-btn" id="dw-price-apply">Search</button>
   </div>
 </div>
 
-      <!-- Active filter tag bar -->
       <div class="dw-active-bar" id="dw-active-bar" style="display:none">
-        <span class="dw-active-label">Filters:</span>
+        <span class="dw-active-label">필터:</span>
         <div class="dw-active-tags" id="dw-active-tags"></div>
-        <button class="dw-clear-btn" id="dw-clear-all-btn">✕ Clear all</button>
+        <button class="dw-clear-btn" id="dw-clear-all-btn">✕ 전체 해제</button>
       </div>
     </div>
-    <!-- ====== END DANAWA FILTER ====== -->
 
-    <div class="compare-shell">
-      <div class="compare-head">
-        <aside id="left-filters" class="compare-side sticky">
-          <div class="filter-panel">
-            <div class="filter-title">Browse categories</div>
-            <div id="side-category-list" class="list"></div>
-          </div>
-          <div class="filter-panel">
-            <div class="filter-title">Filter this category</div>
-            <div class="filter-group">
-              <div class="filter-label">Search inside results</div>
-              <input id="search-within" class="input" placeholder="Search this category...">
-            </div>
-            <div class="filter-group">
-              <div class="filter-label">Brand</div>
-              <div id="brand-filters" class="filter-options"></div>
-            </div>
-            <div class="filter-group">
-              <div class="filter-label">Price band</div>
-              <div id="price-filters" class="filter-options"></div>
-            </div>
-            <div class="filter-group">
-              <div class="filter-label">Type</div>
-              <div id="type-filters" class="filter-options"></div>
-            </div>
-            <div class="filter-group">
-              <label class="filter-check"><input type="checkbox" id="toggle-high-rated"> Only 4.5+ rated</label>
-            </div>
-            <div class="hero-actions" style="margin:12px 0 0"><button id="clear-filters" class="btn secondary small" type="button">Clear all</button></div>
-          </div>
-        </aside>
-
-        <section class="compare-main">
-          <div class="compare-toolbar">
-            <div>
-              <button class="btn secondary small mobile-filter-toggle" id="mobile-filter-btn" type="button">Filters</button>
-              <div class="results-meta"><strong id="result-count">0</strong> results <span id="result-note">Loading…</span></div>
-            </div>
-            <div class="metric-row">
-              <div class="view-toggle">
-                <button type="button" data-view="list" class="active">Compare list</button>
-                <button type="button" data-view="grid">Grid cards</button>
-              </div>
-              <select id="sort-select" class="select sort-select">
-                <option value="recommended">Recommended</option>
-                <option value="price-asc">Price: low to high</option>
-                <option value="price-desc">Price: high to low</option>
-                <option value="rating">Rating</option>
-                <option value="reviews">Review count</option>
-              </select>
-            </div>
-          </div>
-          <div id="active-filters" class="active-filters"></div>
-          <div id="category-results" class="compare-list"></div>
-        </section>
-
-        <aside class="compare-side extra-side">
-          <div class="sidebar-panel">
-            <div class="filter-title">Category snapshot</div>
-            <div id="snapshot-stats" class="mini-grid"></div>
-          </div>
-          <div class="sidebar-panel">
-            <div class="filter-title">Top brands</div>
-            <div id="top-brands" class="brand-cloud"></div>
-          </div>
-          <div class="sidebar-panel">
-            <div class="filter-title">Buying shortcut</div>
-            <div id="guide-box"></div>
-          </div>
-        </aside>
+    <!-- Result toolbar -->
+    <div class="dw-result-bar">
+      <div class="results-meta">
+        <strong id="result-count">0</strong> results
+        <span id="result-note" style="font-size:.85rem"></span>
+      </div>
+      <div class="dw-toolbar-right">
+        <div class="view-toggle">
+          <button type="button" data-view="list" class="active">List</button>
+          <button type="button" data-view="grid">Grid</button>
+        </div>
+        <select id="sort-select" class="select sort-select" style="width:auto;min-width:160px">
+          <option value="recommended">Recommended</option>
+          <option value="price-asc">Price: Low → High</option>
+          <option value="price-desc">Price: High → Low</option>
+          <option value="rating">Rating</option>
+          <option value="reviews">Review count</option>
+        </select>
+        <button class="btn secondary small mobile-filter-toggle" id="mobile-filter-btn" type="button" style="display:none">Filters</button>
       </div>
     </div>
+
+    <!-- Product list -->
+    <div id="category-results" class="dw-product-list"></div>
   </div>
 </main>
+
 <footer class="footer">
   <div class="container footer-grid">
     <div>
@@ -201,14 +151,13 @@
     <div>
       <strong>Trust &amp; contact</strong>
       <div class="list" style="margin-top:12px">
-        <a href="/about">About</a>
-        <a href="/contact">Contact</a>
-        <a href="/disclosure">Affiliate disclosure</a>
-        <a href="/privacy">Privacy</a>
+        <a href="/about">About</a><a href="/contact">Contact</a>
+        <a href="/disclosure">Affiliate disclosure</a><a href="/privacy">Privacy</a>
       </div>
     </div>
   </div>
 </footer>
+
 <script src="assets/i18n.js?v=20260315"></script>
 <script src="assets/common.js?v=20260315"></script>
 <script>
@@ -216,269 +165,155 @@ setupSearchForm();
 (async function() {
   const forcedCategory = "sleep-systems";
   const { categories, products } = await loadCatalog();
-  const slug = forcedCategory;
-  const category = categories.find(item => item.slug === slug) || categories[0];
-  const categoryProducts = products.filter(item => item.category === category.slug);
-  const state = { brands: new Set(), prices: new Set(), types: new Set(), highRated: false, query: '', sort: 'recommended', view: 'list' };
+  const category = categories.find(c => c.slug === forcedCategory) || categories[0];
+  const categoryProducts = products.filter(p => p.category === category.slug);
+  const state = { query:'', sort:'recommended', view:'list' };
 
   document.title = category.seo_title || (category.name + ' | CampMate Australia');
   document.getElementById('crumb-current').textContent = category.name;
   document.getElementById('category-title').textContent = category.name;
   document.getElementById('category-copy').textContent = category.hero_intro || category.description || '';
-  document.getElementById('category-metrics').innerHTML = `
-    <span class="metric-chip good">${categoryProducts.length} compare pages</span>
-    <span class="metric-chip">From ${currency(Math.min(...categoryProducts.map(p => Number(p.salePrice)||0).filter(Boolean)))}</span>
-    <span class="metric-chip">${topBrandsFor(categoryProducts,1)[0]?.[0] || 'Camping'} lead brand</span>`;
-
-  const categoryCounts = getCategoryCounts(products);
-  document.getElementById('side-category-list').innerHTML = categories.map(cat => `
-    <a class="rowish" style="padding:12px 14px" href="${categoryLink(cat)}">
-      <div><strong>${escapeHtml(cat.short || cat.name)}</strong><div class="tiny">${escapeHtml(cat.description || '')}</div></div>
-      <span class="soft-badge">${categoryCounts[cat.slug] || 0}</span>
-    </a>`).join('');
-
-  const brandOptions = topBrandsFor(categoryProducts, 10).map(([brand]) => brand);
-  const priceOptions = [...new Set(categoryProducts.map(item => priceBand(item.salePrice)))];
-  const typeOptions = [...new Set(categoryProducts.map(item => inferType(item)))].slice(0, 12);
 
   // ── Danawa filter state ──
-  const dw = { type: 'all', filters: {}, customMin: 0, customMax: 0 };
-  const DW_PRICE_RANGES = {
-    'under100': [0, 99],
-    '100-250': [100, 250],
-    '250-500': [250, 500],
-    'over500': [501, 9999],
-  };
-  const DW_TYPE_KW = {
-    'summer': ['summer', 'liner', 'warm weather'],
-    '3season': ['3-season', 'three season', 'spring', 'autumn'],
-    'winter': ['winter', '0°c', 'minus', 'extreme cold'],
-    'mat': ['mat', 'mattress', 'pad', 'sleeping pad'],
-  };
+  const dw = { type:'all', filters:{}, customMin:0, customMax:0 };
+  const DW_PRICE = {"under100": [0, 99], "100-250": [100, 250], "250-500": [250, 500], "over500": [501, 9999]};
+  const DW_TYPE_KW = {"summer": ["summer", "liner", "warm weather"], "3season": ["3-season", "three season", "spring", "autumn"], "winter": ["winter", "0°c", "minus", "extreme cold"], "mat": ["mat", "mattress", "pad", "sleeping pad"]};
 
-  function dwText(product) {
-    return ((product.name||'') + ' ' + (product.summary||'') + ' ' + (product.highlights||[]).join(' ')).toLowerCase();
+  function dwText(p) {
+    return ((p.name||'')+' '+(p.summary||'')+' '+(p.highlights||[]).join(' ')).toLowerCase();
   }
-  function dwTypeMatch(product) {
-    if (dw.type === 'all') return true;
-    const kws = DW_TYPE_KW[dw.type] || [];
+  function dwTypeMatch(p) {
+    if (dw.type==='all') return true;
+    const kws = DW_TYPE_KW[dw.type]||[];
     if (!kws.length) return true;
-    const txt = dwText(product);
+    const txt = dwText(p);
     return kws.some(k => txt.includes(k));
   }
-  function dwFilterMatch(product) {
-    const price = product.salePrice || product.price || 0;
-    // custom price range
-    if (dw.customMin || dw.customMax) {
-      const lo = dw.customMin || 0, hi = dw.customMax || 999999;
-      if (price < lo || price > hi) return false;
+  function dwFilterMatch(p) {
+    const price = p.salePrice||p.price||0;
+    if (dw.customMin||dw.customMax) {
+      const lo=dw.customMin||0, hi=dw.customMax||999999;
+      if (price<lo||price>hi) return false;
     }
-    for (const [name, vals] of Object.entries(dw.filters)) {
+    for (const [name,vals] of Object.entries(dw.filters)) {
       if (!vals.size) continue;
-      if (name === 'nf-price') {
-        const ok = [...vals].some(pk => {
-          const [lo,hi] = DW_PRICE_RANGES[pk] || [0,999999];
-          return price >= lo && price <= hi;
-        });
+      if (name==='nf-price') {
+        const ok=[...vals].some(pk=>{ const [lo,hi]=DW_PRICE[pk]||[0,999999]; return price>=lo&&price<=hi; });
         if (!ok) return false;
+      } else if (name==='nf-brand') {
+        if (![...vals].some(b=>p.brand===b||p.brand?.includes(b)||b?.includes(p.brand))) return false;
       }
     }
     return true;
+  }
+
+  function getFiltered() {
+    return sortProducts(categoryProducts.filter(p => {
+      if (state.query && !productSearchText(p).includes(state.query.toLowerCase())) return false;
+      if (!dwTypeMatch(p)) return false;
+      if (!dwFilterMatch(p)) return false;
+      return true;
+    }), state.sort);
+  }
+
+  function renderResults(items) {
+    const target = document.getElementById('category-results');
+    if (state.view==='grid') {
+      target.className='dw-product-grid';
+      target.innerHTML = items.length
+        ? items.map(item => productCard(item)).join('')
+        : '<div class="empty">No products match.</div>';
+    } else {
+      target.className='dw-product-list';
+      target.innerHTML = items.length
+        ? items.map(item => compareRow(item)).join('')
+        : '<div class="empty">No products match.</div>';
+    }
+    enhanceImages(target);
   }
 
   function renderActiveDwTags() {
     const bar = document.getElementById('dw-active-bar');
     const tagsEl = document.getElementById('dw-active-tags');
     const tags = [];
-    if (dw.type !== 'all') tags.push({ label: dw.type, key: 'type:' + dw.type });
-    for (const [name, vals] of Object.entries(dw.filters)) {
-      vals.forEach(v => tags.push({ label: name.replace('nf-','') + ': ' + v, key: name + ':' + v }));
+    if (dw.type!=='all') tags.push({label:dw.type, key:'type:'+dw.type});
+    for (const [name,vals] of Object.entries(dw.filters)) {
+      vals.forEach(v=>tags.push({label:name.replace('nf-','')+': '+v, key:name+':'+v}));
     }
-    if (dw.customMin || dw.customMax) {
-      const lo = dw.customMin ? '$'+dw.customMin : ''; 
-      const hi = dw.customMax ? '$'+dw.customMax : '';
-      tags.push({ label: (lo||'0') + '~' + (hi||'any'), key: 'customprice' });
-    }
-    if (!tags.length) { bar.style.display='none'; return; }
+    if (dw.customMin||dw.customMax) tags.push({label:'$'+(dw.customMin||0)+'~$'+(dw.customMax||'any'), key:'customprice'});
+    if (!tags.length){bar.style.display='none';return;}
     bar.style.display='flex';
-    tagsEl.innerHTML = tags.map(t =>
-      `<span class="dw-active-tag">${escapeHtml(t.label)} <button data-key="${escapeAttribute(t.key)}">✕</button></span>`
-    ).join('');
-    tagsEl.querySelectorAll('button').forEach(btn => btn.addEventListener('click', () => {
-      const k = btn.dataset.key;
-      if (k === 'customprice') {
-        dw.customMin = 0; dw.customMax = 0;
-        document.getElementById('dw-min-price').value = '';
-        document.getElementById('dw-max-price').value = '';
-      } else if (k.startsWith('type:')) {
-        dw.type = 'all';
-        document.querySelectorAll('.dw-type-tab').forEach(t => t.classList.toggle('on', t.dataset.dwtype === 'all'));
-      } else {
-        const [name, val] = k.split(':');
-        if (dw.filters[name]) { dw.filters[name].delete(val); uncheckDw(`[name="${name}"]`, val); }
-      }
+    tagsEl.innerHTML=tags.map(t=>`<span class="dw-active-tag">${escapeHtml(t.label)} <button data-key="${escapeAttribute(t.key)}">✕</button></span>`).join('');
+    tagsEl.querySelectorAll('button').forEach(btn=>btn.addEventListener('click',()=>{
+      const k=btn.dataset.key;
+      if(k==='customprice'){dw.customMin=0;dw.customMax=0;document.getElementById('dw-min-price').value='';document.getElementById('dw-max-price').value='';}
+      else if(k.startsWith('type:')){dw.type='all';document.querySelectorAll('.dw-type-tab').forEach(t=>t.classList.toggle('on',t.dataset.dwtype==='all'));}
+      else{const [name,val]=k.split(':');if(dw.filters[name]){dw.filters[name].delete(val);uncheckDw(`[name="${name}"]`,val);}}
       render();
     }));
   }
 
-  function uncheckDw(selector, value) {
-    document.querySelectorAll(selector).forEach(cb => {
-      if (cb.value === value) { cb.checked = false; cb.closest('.dw-chip').classList.remove('on'); }
-    });
-  }
-
-  function getFiltered() {
-    return sortProducts(categoryProducts.filter(product => {
-      if (state.brands.size && !state.brands.has(product.brand)) return false;
-      if (state.prices.size && !state.prices.has(priceBand(product.salePrice))) return false;
-      if (state.types.size && !state.types.has(inferType(product))) return false;
-      if (state.highRated && (Number(product.rating)||0) < 4.5) return false;
-      if (state.query && !productSearchText(product).includes(state.query.toLowerCase())) return false;
-      if (!dwTypeMatch(product)) return false;
-      if (!dwFilterMatch(product)) return false;
-      return true;
-    }), state.sort);
-  }
-
-  function renderOptions(containerId, options, selectedSet) {
-    const container = document.getElementById(containerId);
-    container.innerHTML = options.map(option =>
-      `<button class="filter-chip ${selectedSet.has(option)?'on':''}" type="button" data-value="${escapeAttribute(option)}">${escapeHtml(option)}</button>`
-    ).join('');
-    container.querySelectorAll('[data-value]').forEach(button => {
-      button.addEventListener('click', () => {
-        const value = button.dataset.value;
-        if (selectedSet.has(value)) selectedSet.delete(value); else selectedSet.add(value);
-        render();
-      });
-    });
-  }
-
-  function renderActiveTags() {
-    const tags = [];
-    state.brands.forEach(v => tags.push(v));
-    state.prices.forEach(v => tags.push(v));
-    state.types.forEach(v => tags.push(v));
-    if (state.highRated) tags.push('4.5+ rated');
-    if (state.query) tags.push('Search: ' + state.query);
-    document.getElementById('active-filters').innerHTML = tags.length
-      ? tags.map(tag => `<span class="tag-chip">${escapeHtml(tag)}</span>`).join('')
-      : '<span class="tiny">No active filters</span>';
-  }
-
-  function renderResults(items) {
-    const target = document.getElementById('category-results');
-    target.className = state.view === 'list' ? 'compare-list' : 'compare-grid';
-    if (!items.length) { target.innerHTML = '<div class="empty">No products match this filter set yet.</div>'; return; }
-    target.innerHTML = items.map(item => state.view === 'list' ? compareRow(item) : productCard(item)).join('');
-    enhanceImages(target);
-  }
-
-  function renderSidebarBits(items) {
-    const prices = items.map(item => Number(item.salePrice)||0).filter(Boolean);
-    const minPrice = prices.length ? Math.min(...prices) : 0;
-    const avgRating = items.length ? (items.reduce((sum,item) => sum+(Number(item.rating)||0),0)/items.length).toFixed(1) : '0.0';
-    document.getElementById('snapshot-stats').innerHTML = `
-      <div class="score-box"><strong>${items.length}</strong><span class="tiny">Results</span></div>
-      <div class="score-box"><strong>${minPrice ? currency(minPrice) : '—'}</strong><span class="tiny">Lowest ref price</span></div>
-      <div class="score-box"><strong>${avgRating}</strong><span class="tiny">Avg rating</span></div>
-      <div class="score-box"><strong>${topBrandsFor(items,1)[0]?.[0] || '—'}</strong><span class="tiny">Top brand</span></div>`;
-    document.getElementById('top-brands').innerHTML = topBrandsFor(items,8).map(([brand,count]) =>
-      `<span>${escapeHtml(brand)} · ${count}</span>`).join('') || '<span>—</span>';
-    document.getElementById('guide-box').innerHTML = category.guide
-      ? `<div class="sidebar-block"><h3 style="margin-bottom:8px">Read first</h3><p class="muted">${escapeHtml(category.guide_description||'Open the matching buyer guide.')}</p><a class="btn small" href="guides/${category.guide}">${escapeHtml(category.guide_title||'Open guide')}</a></div>`
-      : '<div class="tiny">Guide not available.</div>';
-  }
+  function uncheckDw(sel,val){document.querySelectorAll(sel).forEach(cb=>{if(cb.value===val){cb.checked=false;cb.closest('.dw-chip').classList.remove('on');}});}
 
   function render() {
-    renderOptions('brand-filters', brandOptions, state.brands);
-    renderOptions('price-filters', priceOptions, state.prices);
-    renderOptions('type-filters', typeOptions, state.types);
     const items = getFiltered();
     document.getElementById('result-count').textContent = items.length;
-    document.getElementById('result-note').textContent = `shown in ${state.view} view`;
-    renderActiveTags();
+    document.getElementById('result-note').textContent = state.view==='grid'?'(grid)':'';
     renderResults(items);
-    renderSidebarBits(items);
     renderActiveDwTags();
   }
 
-  // ── sidebar filter events ──
-  document.getElementById('search-within').addEventListener('input', e => { state.query = e.target.value.trim(); render(); });
-  document.getElementById('toggle-high-rated').addEventListener('change', e => { state.highRated = e.target.checked; render(); });
-  document.getElementById('sort-select').addEventListener('change', e => { state.sort = e.target.value; render(); });
-  document.querySelectorAll('[data-view]').forEach(button => button.addEventListener('click', () => {
-    state.view = button.dataset.view;
-    document.querySelectorAll('[data-view]').forEach(item => item.classList.toggle('active', item === button));
-    render();
-  }));
-  document.getElementById('clear-filters').addEventListener('click', () => {
-    state.brands.clear(); state.prices.clear(); state.types.clear();
-    state.highRated = false; state.query = ''; state.sort = 'recommended';
-    document.getElementById('search-within').value = '';
-    document.getElementById('toggle-high-rated').checked = false;
-    document.getElementById('sort-select').value = 'recommended';
-    clearDwFilters();
-    render();
-  });
-  document.getElementById('mobile-filter-btn').addEventListener('click', () => document.getElementById('left-filters').classList.toggle('mobile-collapsed'));
-  if (window.innerWidth <= 680) document.getElementById('left-filters').classList.add('mobile-collapsed');
-
-  // ── Danawa filter events ──
-  document.querySelectorAll('.dw-type-tab').forEach(btn => btn.addEventListener('click', () => {
-    document.querySelectorAll('.dw-type-tab').forEach(t => t.classList.remove('on'));
-    btn.classList.add('on');
-    dw.type = btn.dataset.dwtype;
-    render();
+  // ── Events ──
+  document.querySelectorAll('.dw-type-tab').forEach(btn=>btn.addEventListener('click',()=>{
+    document.querySelectorAll('.dw-type-tab').forEach(t=>t.classList.remove('on'));
+    btn.classList.add('on'); dw.type=btn.dataset.dwtype; render();
   }));
 
-  document.querySelectorAll('.dw-chip input[type=checkbox]').forEach(cb => {
-    const name = cb.name;
-    if (!dw.filters[name]) dw.filters[name] = new Set();
-    cb.addEventListener('change', () => {
-      if (cb.checked) {
-        // price is single-select
-        if (name === 'nf-price') {
+  document.querySelectorAll('.dw-chip input[type=checkbox]').forEach(cb=>{
+    const name=cb.name;
+    if(!dw.filters[name]) dw.filters[name]=new Set();
+    cb.addEventListener('change',()=>{
+      if(cb.checked){
+        if(name==='nf-price'){
           dw.filters[name].clear();
-          document.querySelectorAll('[name="nf-price"]').forEach(o => {
-            o.checked = false; o.closest('.dw-chip').classList.remove('on');
-          });
+          document.querySelectorAll('[name="nf-price"]').forEach(o=>{o.checked=false;o.closest('.dw-chip').classList.remove('on');});
         }
-        dw.filters[name].add(cb.value);
-        cb.closest('.dw-chip').classList.add('on');
+        dw.filters[name].add(cb.value); cb.closest('.dw-chip').classList.add('on');
       } else {
-        dw.filters[name].delete(cb.value);
-        cb.closest('.dw-chip').classList.remove('on');
+        dw.filters[name].delete(cb.value); cb.closest('.dw-chip').classList.remove('on');
       }
       render();
     });
   });
 
-  // Custom price range
-  document.getElementById('dw-price-apply').addEventListener('click', () => {
-    dw.customMin = parseInt(document.getElementById('dw-min-price').value) || 0;
-    dw.customMax = parseInt(document.getElementById('dw-max-price').value) || 0;
+  document.getElementById('dw-price-apply').addEventListener('click',()=>{
+    dw.customMin=parseInt(document.getElementById('dw-min-price').value)||0;
+    dw.customMax=parseInt(document.getElementById('dw-max-price').value)||0;
     render();
   });
-  document.getElementById('dw-max-price').addEventListener('keydown', e => {
-    if (e.key === 'Enter') document.getElementById('dw-price-apply').click();
-  });
+  document.getElementById('dw-max-price').addEventListener('keydown',e=>{ if(e.key==='Enter') document.getElementById('dw-price-apply').click(); });
 
-  function clearDwFilters() {
-    dw.type = 'all'; dw.customMin = 0; dw.customMax = 0;
-    Object.values(dw.filters).forEach(s => s.clear());
-    document.querySelectorAll('.dw-type-tab').forEach(t => t.classList.toggle('on', t.dataset.dwtype === 'all'));
-    document.querySelectorAll('.dw-chip input').forEach(cb => { cb.checked = false; cb.closest('.dw-chip').classList.remove('on'); });
-    document.getElementById('dw-min-price').value = '';
-    document.getElementById('dw-max-price').value = '';
+  function clearDwFilters(){
+    dw.type='all'; dw.customMin=0; dw.customMax=0;
+    Object.values(dw.filters).forEach(s=>s.clear());
+    document.querySelectorAll('.dw-type-tab').forEach(t=>t.classList.toggle('on',t.dataset.dwtype==='all'));
+    document.querySelectorAll('.dw-chip input').forEach(cb=>{cb.checked=false;cb.closest('.dw-chip').classList.remove('on');});
+    document.getElementById('dw-min-price').value='';
+    document.getElementById('dw-max-price').value='';
   }
+  document.getElementById('dw-clear-all-btn').addEventListener('click',()=>{clearDwFilters();render();});
 
-  document.getElementById('dw-clear-all-btn').addEventListener('click', () => { clearDwFilters(); render(); });
+  document.getElementById('sort-select').addEventListener('change',e=>{state.sort=e.target.value;render();});
+  document.querySelectorAll('[data-view]').forEach(btn=>btn.addEventListener('click',()=>{
+    state.view=btn.dataset.view;
+    document.querySelectorAll('[data-view]').forEach(b=>b.classList.toggle('active',b===btn));
+    render();
+  }));
 
   render();
-})().catch(err => {
+})().catch(err=>{
   console.error(err);
-  document.getElementById('category-results').innerHTML = '<div class="empty">Could not load this category.</div>';
+  document.getElementById('category-results').innerHTML='<div class="empty">Could not load products.</div>';
 });
 </script>
 </body></html>
