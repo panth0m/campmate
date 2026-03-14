@@ -2,18 +2,19 @@
 setlocal
 cd /d "%~dp0"
 
-if not exist "scripts\run_ebay_weighted_round_prompt.py" (
-  echo ERROR: scripts\run_ebay_weighted_round_prompt.py not found.
+set "PROMPT_SCRIPT=%~dp0scripts\run_ebay_weighted_round_prompt.py"
+
+if not exist "%PROMPT_SCRIPT%" (
+  echo Missing file: %PROMPT_SCRIPT%
   pause
   exit /b 1
 )
 
-py -3 "scripts\run_ebay_weighted_round_prompt.py"
-if errorlevel 1 (
-  echo.
-  echo Failed with py -3. Trying python...
-  python "scripts\run_ebay_weighted_round_prompt.py"
+where py >nul 2>nul
+if %errorlevel%==0 (
+  py -3 "%PROMPT_SCRIPT%"
+) else (
+  python "%PROMPT_SCRIPT%"
 )
 
-echo.
 pause
