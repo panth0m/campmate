@@ -7,6 +7,7 @@ const PRETTY_ROUTES = new Map([
   ["/contact", "/contact.html"],
   ["/privacy", "/privacy.html"],
   ["/disclosure", "/disclosure.html"],
+  ["/search", "/search.html"],
   ["/tents", "/tents.html"],
   ["/chairs", "/chairs.html"],
   ["/coolers", "/coolers.html"],
@@ -14,6 +15,33 @@ const PRETTY_ROUTES = new Map([
   ["/lanterns", "/lanterns.html"],
   ["/sleeping-bags", "/sleeping-bags.html"],
 ]);
+
+const OLD_TO_NEW = new Map([
+  ["/index.html", "/"],
+  ["/categories.html", "/categories"],
+  ["/popular.html", "/popular"],
+  ["/guides.html", "/guides"],
+  ["/about.html", "/about"],
+  ["/contact.html", "/contact"],
+  ["/privacy.html", "/privacy"],
+  ["/disclosure.html", "/disclosure"],
+  ["/search.html", "/search"],
+  ["/tents.html", "/tents"],
+  ["/chairs.html", "/chairs"],
+  ["/coolers.html", "/coolers"],
+  ["/stoves.html", "/stoves"],
+  ["/lanterns.html", "/lanterns"],
+  ["/sleeping-bags.html", "/sleeping-bags"],
+]);
+
+const CATEGORY_ROUTE = {
+  "tents": "/tents",
+  "chairs": "/chairs",
+  "coolers": "/coolers",
+  "stoves": "/stoves",
+  "lanterns": "/lanterns",
+  "sleep-systems": "/sleeping-bags",
+};
 
 export default {
   async fetch(request, env) {
@@ -30,20 +58,36 @@ export default {
       return env.ASSETS.fetch(request);
     }
 
+    // Redirect old .html routes to clean SEO routes.
+    if (OLD_TO_NEW.has(url.pathname)) {
+      return Response.redirect(`${url.origin}${OLD_TO_NEW.get(url.pathname)}`, 301);
+    }
+
+    // Redirect legacy query-style category pages to clean routes.
+    if (url.pathname === "/category.html") {
+      const category = url.searchParams.get("category");
+      if (category && CATEGORY_ROUTE[category]) {
+        return Response.redirect(`${url.origin}${CATEGORY_ROUTE[category]}`, 301);
+      }
+    }
+
+    // Pretty section routes.
     if (PRETTY_ROUTES.has(url.pathname)) {
       const assetUrl = new URL(request.url);
       assetUrl.pathname = PRETTY_ROUTES.get(url.pathname);
+      assetUrl.search = "";
       return env.ASSETS.fetch(new Request(assetUrl.toString(), request));
     }
 
+    // Pretty guide routes: /guides/slug -> /guides/slug.html
     if (url.pathname.startsWith("/guides/") && !url.pathname.endsWith(".html")) {
       const assetUrl = new URL(request.url);
       assetUrl.pathname = `${url.pathname}.html`;
       return env.ASSETS.fetch(new Request(assetUrl.toString(), request));
     }
 
-    if (env.ASSETS) return env.ASSETS.fetch(request);
-    return new Response("Not found", { status: 404 });
+    // Pass through real assets and product query routes.
+    return env.ASSETS.fetch(request);
   },
 };
 
@@ -89,26 +133,38 @@ async function handleEbaySearch(request, env) {
     searchUrl.searchParams.set("filter", "deliveryCountry:AU");
 
     const ebayRes = await fetch(searchUrl.toString(), {
-      headers: { Authorization: `Bearer ${tokenData.access_token}`, Accept: "application/json", "X-EBAY-C-MARKETPLACE-ID": "EBAY_AU" },
+      headers: {
+        Authorization: `Bearer ${tokenData.access_token}`,
+        Accept: "application/json",
+        "X-EBAY-C-MARKETPLACE-ID": "EBAY_AU",
+      },
     });
+
     const ebayData = await ebayRes.json();
 
     if (!ebayRes.ok) {
       return new Response(JSON.stringify({ error: "eBay response was not successful", details: ebayData, products: [], total: 0, query: q }), { status: ebayRes.status, headers });
     }
 
-    const products = Array.isArray(ebayData.itemSummaries) ? ebayData.itemSummaries.map((item) => ({
-      title: item.title || "",
-      price: item.price?.value || "",
-      currency: item.price?.currency || "AUD",
-      image: item.image?.imageUrl || "",
-      link: item.itemWebUrl || "",
-      condition: item.condition || "",
-    })) : [];
+    const products = Array.isArray(ebayData.itemSummaries)
+      ? ebayData.itemSummaries.map((item) => ({
+          title: item.title || "",
+          price: item.price?.value || "",
+          currency: item.price?.currency || "AUD",
+          image: item.image?.imageUrl || "",
+          link: item.itemWebUrl || "",
+          condition: item.condition || "",
+        }))
+      : [];
 
     return new Response(JSON.stringify({ products, total: products.length, query: q }), { status: 200, headers });
   } catch (error) {
-    return new Response(JSON.stringify({ error: "Unexpected eBay server error", details: error instanceof Error ? error.message : String(error), products: [], total: 0 }), { status: 500, headers });
+    return new Response(JSON.stringify({
+      error: "Unexpected eBay server error",
+      details: error instanceof Error ? error.message : String(error),
+      products: [],
+      total: 0,
+    }), { status: 500, headers });
   }
 }
 
@@ -120,13 +176,21 @@ async function handleGoogleSearch(request, env) {
     const numParam = parseInt(url.searchParams.get("num") || "5", 10);
     const num = Math.min(Math.max(numParam, 1), 10);
 
-    if (!q) return new Response(JSON.stringify({ error: "Missing query parameter: q", items: [], total: 0, query: q }), { status: 400, headers });
+    if (!q) {
+      return new Response(JSON.stringify({ error: "Missing query parameter: q", items: [], total: 0, query: q }), { status: 400, headers });
+    }
 
     const apiKey = env.GOOGLE_API_KEY;
     const cseId = env.GOOGLE_CSE_ID;
 
     if (!apiKey || !cseId) {
-      return new Response(JSON.stringify({ error: "Google API credentials are missing", details: "Add GOOGLE_API_KEY and GOOGLE_CSE_ID in Cloudflare variables", items: [], total: 0, query: q }), { status: 500, headers });
+      return new Response(JSON.stringify({
+        error: "Google API credentials are missing",
+        details: "Add GOOGLE_API_KEY and GOOGLE_CSE_ID in Cloudflare variables",
+        items: [],
+        total: 0,
+        query: q,
+      }), { status: 500, headers });
     }
 
     const endpoint = new URL("https://www.googleapis.com/customsearch/v1");
@@ -142,16 +206,29 @@ async function handleGoogleSearch(request, env) {
       return new Response(JSON.stringify({ error: "Google search request failed", details: data, items: [], total: 0, query: q }), { status: response.status, headers });
     }
 
-    const items = Array.isArray(data.items) ? data.items.map((item) => {
-      const pagemap = item.pagemap || {};
-      const cseImages = Array.isArray(pagemap.cse_image) ? pagemap.cse_image : [];
-      const metatags = Array.isArray(pagemap.metatags) ? pagemap.metatags : [];
-      const image = cseImages[0]?.src || metatags[0]?.["og:image"] || metatags[0]?.["twitter:image"] || "";
-      return { title: item.title || "", link: item.link || "", displayLink: item.displayLink || "", snippet: item.snippet || "", image };
-    }) : [];
+    const items = Array.isArray(data.items)
+      ? data.items.map((item) => {
+          const pagemap = item.pagemap || {};
+          const cseImages = Array.isArray(pagemap.cse_image) ? pagemap.cse_image : [];
+          const metatags = Array.isArray(pagemap.metatags) ? pagemap.metatags : [];
+          const image = cseImages[0]?.src || metatags[0]?.["og:image"] || metatags[0]?.["twitter:image"] || "";
+          return {
+            title: item.title || "",
+            link: item.link || "",
+            displayLink: item.displayLink || "",
+            snippet: item.snippet || "",
+            image,
+          };
+        })
+      : [];
 
     return new Response(JSON.stringify({ items, total: items.length, query: q }), { status: 200, headers });
   } catch (error) {
-    return new Response(JSON.stringify({ error: "Unexpected Google server error", details: error instanceof Error ? error.message : String(error), items: [], total: 0 }), { status: 500, headers });
+    return new Response(JSON.stringify({
+      error: "Unexpected Google server error",
+      details: error instanceof Error ? error.message : String(error),
+      items: [],
+      total: 0,
+    }), { status: 500, headers });
   }
 }

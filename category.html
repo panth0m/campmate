@@ -5,8 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Camping Category | CampMate Australia</title>
 <meta name="description" content="Browse CampMate category pages for camping gear in Australia.">
-<link rel="canonical" href="https://campmate.kangseyoung7.workers.dev/category.html">
+<link rel="canonical" href="https://campmate.kangseyoung7.workers.dev/categories">
 <meta property="og:title" content="Camping Category | CampMate Australia">
+<meta name="robots" content="noindex, follow">
 <meta property="og:type" content="website">
 <link rel="stylesheet" href="assets/style.css?v=20260314r3">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RRL35ZW8MO"></script>
@@ -45,6 +46,25 @@
 .dn-mob-btn{display:none;align-items:center;gap:8px;padding:8px 16px;border:1px solid rgba(255,255,255,.1);border-radius:12px;background:rgba(10,27,52,.9);color:var(--text);font-size:13.5px;cursor:pointer;margin-bottom:12px}@media(max-width:900px){.dn-mob-btn{display:flex}}
 #cat-banner{background:linear-gradient(180deg,rgba(10,27,52,.9),rgba(7,18,36,.92));border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:22px 26px;margin:14px 0 18px;display:flex;justify-content:space-between;align-items:center;gap:24px}.cat-kpi{text-align:right;flex-shrink:0}.cat-kpi strong{display:block;font-size:1.95rem;font-weight:900;color:var(--accent)}.cat-kpi span{font-size:12.5px;color:var(--muted)}
 </style>
+
+<script>
+(function() {
+  const params = new URLSearchParams(location.search);
+  const slug = params.get('category');
+  const map = {
+    'tents': '/tents',
+    'chairs': '/chairs',
+    'coolers': '/coolers',
+    'stoves': '/stoves',
+    'lanterns': '/lanterns',
+    'sleep-systems': '/sleeping-bags'
+  };
+  if (slug && map[slug] && !location.pathname.endsWith(map[slug])) {
+    location.replace(map[slug]);
+  }
+})();
+</script>
+
 </head>
 <body>
 <header class="topbar"><div class="container nav"><a class="logo" href="index.html"><span class="logo-badge">⛺</span><span>CampMate Australia</span></a><nav class="nav-links"><a href="index.html">Home</a><a href="categories.html">Categories</a><a href="popular.html">Popular</a><a href="guides.html">Guides</a></nav><form class="nav-search" data-search-form><input class="input" name="q" placeholder="Search tents, coolers, chairs..."><button class="btn" type="submit">Search</button></form></div></header>

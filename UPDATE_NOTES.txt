@@ -7,3 +7,15 @@ If you do not want live eBay API pricing, you may delete functions/api/ebay-sear
 - pretty routes added (/tents etc.)
 - canonical URLs switched to pretty routes
 - .env removed from delivery zip
+
+
+2026-03-14 final merge update
+- included latest uploaded project files
+- kept all recent SEO / clean URL updates
+- fixed sitemap regeneration with no duplicate homepage URL
+- added clean routes and 301 redirects from old .html URLs
+- added clean guide routes and legacy category redirects
+- switched Wrangler asset fallback to real 404 handling
+- added noindex,follow on search.html and category.html
+- refreshed product meta tags dynamically from slug
+- excluded .env and .git from delivery zip

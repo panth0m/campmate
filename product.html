@@ -20,12 +20,12 @@
 </head><body>
 <header class="topbar">
   <div class="container nav">
-    <a class="logo" href="index.html"><span class="logo-badge">⛺</span><span>CampMate Australia</span></a>
+    <a class="logo" href="/"><span class="logo-badge">⛺</span><span>CampMate Australia</span></a>
     <nav class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="categories.html">Categories</a>
-      <a href="popular.html" class="active">Popular</a>
-      <a href="guides.html">Guides</a>
+      <a href="/">Home</a>
+      <a href="/categories">Categories</a>
+      <a href="/popular" class="active">Popular</a>
+      <a href="/guides">Guides</a>
     </nav>
     <form class="nav-search" data-search-form>
       <input class="input" name="q" placeholder="Search tents, coolers, chairs...">
@@ -35,7 +35,7 @@
 </header>
 <main class="page-hero">
   <div class="container">
-    <div class="breadcrumb"><a href="index.html">Home</a> · <a href="popular.html">Popular</a> · <span id="product-crumb">Product</span></div>
+    <div class="breadcrumb"><a href="/">Home</a> · <a href="/popular">Popular</a> · <span id="product-crumb">Product</span></div>
     <section class="page-panel">
       <div class="product-hero">
         <div class="product-gallery"><img id="product-image" alt="" data-category="tents"></div>
@@ -87,18 +87,18 @@
     <div>
       <strong>Browse</strong>
       <div class="list" style="margin-top:12px">
-        <a href="categories.html">All categories</a>
-        <a href="popular.html">Popular compare pages</a>
-        <a href="guides.html">Buyer guides</a>
+        <a href="/categories">All categories</a>
+        <a href="/popular">Popular compare pages</a>
+        <a href="/guides">Buyer guides</a>
       </div>
     </div>
     <div>
       <strong>Trust & contact</strong>
       <div class="list" style="margin-top:12px">
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-        <a href="disclosure.html">Affiliate disclosure</a>
-        <a href="privacy.html">Privacy</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a href="/disclosure">Affiliate disclosure</a>
+        <a href="/privacy">Privacy</a>
       </div>
     </div>
   </div>
@@ -109,13 +109,18 @@ setupSearchForm();
 (async function() {
   const { products } = await loadCatalog();
   const slug = slugParam();
+
+  const canonical = document.querySelector('link[rel="canonical"]');
+  const ogUrl = document.querySelector('meta[property="og:url"]');
+  const ogTitle = document.querySelector('meta[property="og:title"]');
+  const ogDesc = document.querySelector('meta[property="og:description"]');
   const product = bySlug(products, slug);
   if (!product) {
     document.title = 'Product not found | CampMate Australia';
     document.getElementById('product-title').textContent = 'Product not found';
     document.getElementById('product-summary').textContent = slug ? `We could not find a CampMate compare page for "${slug}".` : 'No product was selected.';
     document.getElementById('offer-table').innerHTML = '<div class="empty">Browse popular compare pages instead.</div>';
-    document.getElementById('related-list').innerHTML = '<a class="btn" href="popular.html">Back to popular pages</a>';
+    document.getElementById('related-list').innerHTML = '<a class="btn" href="/popular">Back to popular pages</a>';
     return;
   }
 
@@ -124,6 +129,11 @@ setupSearchForm();
   const stores = normalizeStores(product);
   const related = sortProducts(products.filter(item => item.category === product.category && item.slug !== product.slug), 'recommended').slice(0, 3);
   document.title = `${display} | CampMate Australia`;
+  const cleanProductUrl = `https://campmate.kangseyoung7.workers.dev/product.html?slug=${encodeURIComponent(product.slug)}`;
+  if (canonical) canonical.setAttribute('href', cleanProductUrl);
+  if (ogUrl) ogUrl.setAttribute('content', cleanProductUrl);
+  if (ogTitle) ogTitle.setAttribute('content', `${display} | CampMate Australia`);
+  if (ogDesc) ogDesc.setAttribute('content', product.description || product.summary || 'Compare this camping product on CampMate Australia.');
   document.getElementById('product-crumb').textContent = display;
   document.getElementById('product-title').textContent = display;
   document.getElementById('product-summary').textContent = product.description || product.summary || '';
