@@ -326,10 +326,8 @@ def save_and_rebuild(products: List[Dict[str, Any]]):
     if completed.returncode != 0:
         stdout = (completed.stdout or '').strip()
         stderr = (completed.stderr or '').strip()
-        detail = '
-'.join(part for part in [stdout, stderr] if part)
-        raise RuntimeError(f"build_products_json.py failed (exit {completed.returncode})" + (f"
-{detail}" if detail else ""))
+        detail = '\n'.join(part for part in [stdout, stderr] if part)
+        raise RuntimeError(f"build_products_json.py failed (exit {completed.returncode})" + (f"\n{detail}" if detail else ""))
 
 
 def incremental_import(category: str, total: int, per_request: int, detail_mode: bool = True) -> Dict[str, Any]:
