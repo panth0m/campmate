@@ -1,0 +1,114 @@
+name: Daily eBay Import
+
+on:
+  schedule:
+    # 매일 오전 6시 (한국시간 KST) = UTC 21:00 (전날)
+    - cron: '0 21 * * *'
+  workflow_dispatch:  # GitHub에서 수동 실행 버튼
+    inputs:
+      total:
+        description: '가져올 신규 상품 수 (기본 120)'
+        required: false
+        default: '120'
+      image_limit:
+        description: '이미지 싱크할 상품 수 (기본 60)'
+        required: false
+        default: '60'
+
+jobs:
+  ebay-import:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # ── 1단계: eBay 상품 수집 ──────────────────────────
+      # catalog_rules.py 가 스티커/부품/잘못된 상품 자동 필터링
+      # clean_title 이 상품명 자동 정리
+      - name: Run eBay weighted round import
+        env:
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+        run: |
+          cd scripts
+          python run_ebay_weighted_round.py \
+            --total ${{ github.event.inputs.total || '120' }} \
+            --page-size 100
+
+      # ── 2단계: 이미지 싱크 ────────────────────────────
+      # SVG(기본 이미지)만 있는 상품에 eBay 실제 사진 매칭
+      # score_item 이 상품명과 가장 일치하는 이미지만 선택
+      # BANNED 목록으로 스티커/부품 이미지 자동 제외
+      - name: Sync product images from eBay
+        env:
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+        run: |
+          python scripts/sync_product_images_ebay.py \
+            --limit ${{ github.event.inputs.image_limit || '60' }}
+
+      # ── 3단계: products.json 재생성 ───────────────────
+      - name: Rebuild products.json from source
+        run: |
+          python scripts/build_products_json.py
+
+      # ── 4단계: 변경사항 감지 후 push ─────────────────
+      - name: Check for changes
+        id: check
+        run: |
+          git diff --quiet \
+            data/products_source.json \
+            data/products.json \
+            data/ebay_incremental_state.json \
+            data/ebay_weighted_round_last_run.json \
+            data/image_sync_last_run.json \
+            && echo "changed=false" >> $GITHUB_OUTPUT \
+            || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push updated products
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name "CampMate Bot"
+          git config user.email "bot@campmate.au"
+          git add \
+            data/products_source.json \
+            data/products.json \
+            data/ebay_incremental_state.json \
+            data/ebay_weighted_round_last_run.json \
+            data/image_sync_last_run.json
+          git commit -m "Daily eBay import + image sync $(date +%Y-%m-%d)"
+          git push
+
+      # ── 5단계: 실행 결과 로그 ─────────────────────────
+      - name: Log import summary
+        if: always()
+        run: |
+          echo "=== eBay Import Summary ==="
+          cat data/ebay_weighted_round_last_run.json 2>/dev/null || echo "No summary"
+          echo ""
+          echo "=== Image Sync Summary ==="
+          cat data/image_sync_last_run.json 2>/dev/null || echo "No summary"
+          echo ""
+          echo "=== Product count by category ==="
+          python3 -c "
+          import json
+          d = json.load(open('data/products.json'))
+          cats = {}
+          for p in d:
+              cats[p['category']] = cats.get(p['category'], 0) + 1
+          print(f'Total: {len(d)}')
+          for k,v in sorted(cats.items()):
+              print(f'  {k}: {v}')
+          img = sum(1 for p in d if str(p.get('ebayImage') or '').startswith('http'))
+          svg = sum(1 for p in d if str(p.get('image') or '').endswith('.svg') and not str(p.get('ebayImage') or '').startswith('http'))
+          print(f'  Real images: {img}')
+          print(f'  SVG fallback: {svg}')
+          "
