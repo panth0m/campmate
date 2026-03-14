@@ -22,3 +22,10 @@ If you do not want live eBay API pricing, you may delete functions/api/ebay-sear
 
 2026-03-14 guides cards layout update
 - rebuilt guides.html to show all 53 guide pages inside card grid
+
+2026-03-14 final all-in update
+- changed remaining Danawa-style copy to all-in-one comparison wording
+- kept clean URLs and redirects
+- refreshed guides count to 65
+- rebuilt sitemap with unique URLs
+- removed .env/.git/.wrangler from delivery zip
