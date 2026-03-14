@@ -1,0 +1,45 @@
+name: Daily Guide Generator
+
+on:
+  schedule:
+    # 매일 오전 9시 (한국시간) = UTC 00:00
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # 수동 실행 버튼도 추가
+
+jobs:
+  generate-guides:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate guides
+        run: |
+          python scripts/generate_guides.py
+
+      - name: Check for new files
+        id: check_changes
+        run: |
+          git diff --quiet && git ls-files --others --exclude-standard | grep -q . || echo "changed=true" >> $GITHUB_OUTPUT
+          if git diff --quiet && ! git ls-files --others --exclude-standard | grep -q .; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push new guides
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config user.name "CampMate Bot"
+          git config user.email "bot@campmate.au"
+          git add guides/ sitemap.xml
+          git commit -m "Auto-generate guides $(date +%Y-%m-%d)"
+          git push
