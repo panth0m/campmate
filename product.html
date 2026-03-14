@@ -228,11 +228,6 @@
           return;
         }
 
-        if (product.slug && normalizeSlugValue(product.slug) !== normalizeSlugValue(slug)) {
-          const url = new URL(window.location.href);
-          url.searchParams.set('slug', product.slug);
-          history.replaceState({}, '', url.toString());
-        }
         renderProduct(product);
         loadLivePrice(product);
         injectSchema(product);
@@ -264,44 +259,11 @@
     function findProduct(products, slug) {
       if (!slug) return null;
       const target = normalizeSlugValue(slug);
-      const exact = products.find(product => {
+      return products.find(product => {
         const productSlug = normalizeSlugValue(product.slug || '');
         const productName = normalizeSlugValue(product.name || '');
         return productSlug === target || productName === target;
-      });
-      if (exact) return exact;
-
-      const scored = products
-        .map(product => ({ product, score: fuzzyProductScore(product, target) }))
-        .filter(item => item.score > 0)
-        .sort((a, b) => b.score - a.score);
-
-      return scored.length ? scored[0].product : null;
-    }
-
-    function fuzzyProductScore(product, target) {
-      const productSlug = normalizeSlugValue(product.slug || '');
-      const productName = normalizeSlugValue(product.name || '');
-      const haystack = `${productSlug} ${productName}`;
-      const targetTokens = target.split('-').filter(Boolean);
-      const productTokens = new Set(haystack.split('-').filter(Boolean));
-
-      let score = 0;
-      for (const token of targetTokens) {
-        if (productTokens.has(token)) score += 2;
-        else if (haystack.includes(token)) score += 1;
-      }
-
-      if (productSlug.includes(target) || target.includes(productSlug)) score += 6;
-      const brandHints = ['coleman','oztrail','blackwolf','darche','hilleberg','zempire','sea-to-summit','big-agnes','vango'];
-      for (const brand of brandHints) {
-        if (target.includes(brand) && haystack.includes(brand)) score += 4;
-      }
-      const sizeHints = ['1p','2p','3p','4p','5p','6p','8p','10p'];
-      for (const size of sizeHints) {
-        if (target.includes(size) && haystack.includes(size)) score += 3;
-      }
-      return score;
+      }) || null;
     }
 
     function renderProduct(product) {
@@ -474,15 +436,6 @@
         if (!res.ok || data.error) throw new Error(data.error || 'API failed');
 
         const first = data.products?.[0];
-
-        if (first?.image && first.image.length > 0) {
-          const mainImg = document.getElementById('product-image');
-          mainImg.src = first.image;
-          mainImg.style.objectFit = 'contain';
-          mainImg.style.background = '#fff';
-          mainImg.style.padding = '12px';
-        }
-
         if (first?.price && first.price !== '') {
           const saleEl = document.getElementById('sale-price');
           const oldEl = document.getElementById('old-price');
