@@ -6,6 +6,7 @@ import math
 import os
 import re
 import sys
+import subprocess
 import time
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -309,10 +310,26 @@ def merge_products(existing: List[Dict[str, Any]], new_items: List[Dict[str, Any
 
 def save_and_rebuild(products: List[Dict[str, Any]]):
     write_json(SOURCE_FILE, products)
-    # Rebuild normalized catalog.
-    code = os.system(f'"{sys.executable}" "{BUILD_SCRIPT}"')
-    if code != 0:
-        raise RuntimeError("build_products_json.py failed")
+    # Rebuild normalized catalog without going through cmd/os.system,
+    # which breaks easily on Windows paths containing Korean characters.
+    try:
+        completed = subprocess.run(
+            [sys.executable, str(BUILD_SCRIPT)],
+            cwd=str(ROOT),
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+    except FileNotFoundError as exc:
+        raise RuntimeError(f"Failed to start Python for build_products_json.py: {exc}") from exc
+
+    if completed.returncode != 0:
+        stdout = (completed.stdout or '').strip()
+        stderr = (completed.stderr or '').strip()
+        detail = '
+'.join(part for part in [stdout, stderr] if part)
+        raise RuntimeError(f"build_products_json.py failed (exit {completed.returncode})" + (f"
+{detail}" if detail else ""))
 
 
 def incremental_import(category: str, total: int, per_request: int, detail_mode: bool = True) -> Dict[str, Any]:

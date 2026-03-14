@@ -19166,5 +19166,860 @@
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/353141351996?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBAiwp7prncx2ZOF5wqNJPdIVSCE%2F1rLwfKpkvWvCyZYXPe%2BtAqBxgWgohaJqUp6JHMDQzwPfnedt66TcfR%2BeWJl%2BHKBmaaVrpr9kaPEwkOBYkVOMTfPpKAfp3dtE%2FV7LdSHubedwBB8YdCLeLOXT3PygUMzRc8zveQuozI3o944XkWyay7a8OU5s8RoNpII%2F8%3D",
     "importedAt": "2026-03-14T06:20:38Z"
+  },
+  {
+    "slug": "coleman-coleman-lantern-swagger-lithium-ion-rechargeable-lantern-light-lamp-camping-tent-3",
+    "name": "Coleman Lantern Swagger Lithium Ion Rechargeable Lantern Light Lamp Camping Tent",
+    "brand": "Coleman",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 120,
+    "salePrice": 60,
+    "rating": 5.0,
+    "reviews": 1,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/~XYAAeSwULhptOuG/s-l1600.jpg",
+    "summary": "Powerful and portable, the Coleman Swagger 200 Lumen Rechargeable Lantern provides a bright light source with a compact palm size for easy mobility! Featuring a carabiner and a...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/166972835063?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAQIe7mRRzhmqfq3UPcBUJkYPGSZhkpkE1HuEeSjM9jjme98J7woQi4Mr5PHZhE2S%2FRouK4Pq9WSxBTLTz1tedmI3Lx2J%2Bk1Fc1KUxthtvkWwdPz%2FFNtn9n%2FUwsdzo10GIbf2S0y5o8s2MDFuDxo2JEIWvWlJtEVLNX9L0Q%2ByjbH%2BkBaFL98jetYrgRBS8p3Oc%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Coleman%20Lantern%20Swagger%20Lithium%20Ion%20Rechargeable%20Lantern%20Light%20Lamp%20Camping%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Coleman%20Lantern%20Swagger%20Lithium%20Ion%20Rechargeable%20Lantern%20Light%20Lamp%20Camping%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Coleman%20Lantern%20Swagger%20Lithium%20Ion%20Rechargeable%20Lantern%20Light%20Lamp%20Camping%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Coleman%20Lantern%20Swagger%20Lithium%20Ion%20Rechargeable%20Lantern%20Light%20Lamp%20Camping%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Coleman%20Lantern%20Swagger%20Lithium%20Ion%20Rechargeable%20Lantern%20Light%20Lamp%20Camping%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Lantern%20Swagger%20Lithium%20Ion%20Rechargeable%20Lantern%20Light%20Lamp%20Camping%20Tent",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|166972835063|0",
+    "sourceLegacyItemId": "166972835063",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/166972835063?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAQIe7mRRzhmqfq3UPcBUJkYPGSZhkpkE1HuEeSjM9jjme98J7woQi4Mr5PHZhE2S%2FRouK4Pq9WSxBTLTz1tedmI3Lx2J%2Bk1Fc1KUxthtvkWwdPz%2FFNtn9n%2FUwsdzo10GIbf2S0y5o8s2MDFuDxo2JEIWvWlJtEVLNX9L0Q%2ByjbH%2BkBaFL98jetYrgRBS8p3Oc%3D",
+    "importedAt": "2026-03-14T06:27:30Z"
+  },
+  {
+    "slug": "coleman-coleman-outdoor-instant-camping-shower-tent-ensuite-single-pop-up-21x116cm",
+    "name": "Coleman Outdoor Instant Camping Shower Tent Ensuite Single Pop-Up 21x116cm",
+    "brand": "Coleman",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 308,
+    "salePrice": 204,
+    "rating": 5.0,
+    "reviews": 1,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/KWwAAeSwdvppioBS/s-l1600.jpg",
+    "summary": "Coleman Instant Shower Tent Ensuite Single Pop-Up 21x116cm. With its easy pop-up design, this ensuite sets up in minutes and features a durable, water-resistant fabric to keep y...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/116299249005?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBovZxa538s4FzvuWzmf%2BHPH1cpuYeWezruJzzxroEbyshefqHpB47DvR1C6xK%2B2YmYFFIhoZh5tEp3JcAoKBUYzoWI44mWGNtk%2BcuDFW9VebT6sZaFKNb8%2BXTZwn5ISsYfdzYoDCusKPgUgGa6%2BJd7hU01Dmuo4gPqtjrfk4l5AUYe89eaLPV4f8EVrl96iHc%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Coleman%20Outdoor%20Instant%20Camping%20Shower%20Tent%20Ensuite%20Single%20Pop-Up%2021x116cm",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Coleman%20Outdoor%20Instant%20Camping%20Shower%20Tent%20Ensuite%20Single%20Pop-Up%2021x116cm",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Coleman%20Outdoor%20Instant%20Camping%20Shower%20Tent%20Ensuite%20Single%20Pop-Up%2021x116cm",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Coleman%20Outdoor%20Instant%20Camping%20Shower%20Tent%20Ensuite%20Single%20Pop-Up%2021x116cm",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Coleman%20Outdoor%20Instant%20Camping%20Shower%20Tent%20Ensuite%20Single%20Pop-Up%2021x116cm",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Outdoor%20Instant%20Camping%20Shower%20Tent%20Ensuite%20Single%20Pop-Up%2021x116cm",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|116299249005|0",
+    "sourceLegacyItemId": "116299249005",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/116299249005?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBovZxa538s4FzvuWzmf%2BHPH1cpuYeWezruJzzxroEbyshefqHpB47DvR1C6xK%2B2YmYFFIhoZh5tEp3JcAoKBUYzoWI44mWGNtk%2BcuDFW9VebT6sZaFKNb8%2BXTZwn5ISsYfdzYoDCusKPgUgGa6%2BJd7hU01Dmuo4gPqtjrfk4l5AUYe89eaLPV4f8EVrl96iHc%3D",
+    "importedAt": "2026-03-14T06:27:30Z"
+  },
+  {
+    "slug": "coleman-coleman-tent-instant-up-4-person-gold-series-evo-waterproof-outdoor-camping",
+    "name": "Coleman Tent Instant Up 4 Person Gold Series Evo Waterproof Outdoor Camping",
+    "brand": "Coleman",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 739,
+    "salePrice": 531,
+    "rating": 5.0,
+    "reviews": 1,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/xikAAOSwgjhmxtQE/s-l1600.jpg",
+    "summary": "Featuring a unique pop-up design, this tent requires minimal assembly, allowing you to focus on enjoying your outdoor experience. With its durable materials and weather-resistan...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/126637823423?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAm%2BwnYGN%2BKw27E7n0NAUrOxwN8oR97%2BoJIOWXltXGTEIhlauPlqZYotWwp%2BOjgZNOpB3bx23MUOGmPu50kifv7AaIhCrZQtci1LWHKVe6vS6EAQwGd5sJMUXnmYRHz8RYrFP4OxfJAZq9VLBSem1ErENCQ16hnCAN%2B3P0x7qi65k1YPY95GZTniNfTmUVrWKU%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Coleman%20Tent%20Instant%20Up%204%20Person%20Gold%20Series%20Evo%20Waterproof%20Outdoor%20Camping",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Coleman%20Tent%20Instant%20Up%204%20Person%20Gold%20Series%20Evo%20Waterproof%20Outdoor%20Camping",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Coleman%20Tent%20Instant%20Up%204%20Person%20Gold%20Series%20Evo%20Waterproof%20Outdoor%20Camping",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Coleman%20Tent%20Instant%20Up%204%20Person%20Gold%20Series%20Evo%20Waterproof%20Outdoor%20Camping",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Coleman%20Tent%20Instant%20Up%204%20Person%20Gold%20Series%20Evo%20Waterproof%20Outdoor%20Camping",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Tent%20Instant%20Up%204%20Person%20Gold%20Series%20Evo%20Waterproof%20Outdoor%20Camping",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|126637823423|0",
+    "sourceLegacyItemId": "126637823423",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/126637823423?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAm%2BwnYGN%2BKw27E7n0NAUrOxwN8oR97%2BoJIOWXltXGTEIhlauPlqZYotWwp%2BOjgZNOpB3bx23MUOGmPu50kifv7AaIhCrZQtci1LWHKVe6vS6EAQwGd5sJMUXnmYRHz8RYrFP4OxfJAZq9VLBSem1ErENCQ16hnCAN%2B3P0x7qi65k1YPY95GZTniNfTmUVrWKU%3D",
+    "importedAt": "2026-03-14T06:27:31Z"
+  },
+  {
+    "slug": "coleman-coleman-10-person-outdoor-camping-tent-gold-series-instant-up-430x305cm",
+    "name": "Coleman 10-Person Outdoor Camping Tent Gold Series Instant-Up 430x305cm",
+    "brand": "COLEMAN",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 1233,
+    "salePrice": 816,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/OBEAAeSwPMFpioDN/s-l1600.jpg",
+    "summary": "With its durable materials and weather-resistant features, this tent ensures a safe and enjoyable outdoor experience, no matter the conditions. Instant setup in minutes! Manufac...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/126637823430?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAjFKjCRkkG61UxNMGVI1T85VDLL8ejUg1gHCHV%2FDxNx8fzIFvvUXEwutv3Mk9k1Sko3ve%2FIWbl%2FL9hF9qKKWVLRqXFrCRbsTPP9aKM8LiOVufrs5xOpm09s1%2F0keW5niHPT8%2FoEVsT7v3UsdX4upowBRwT9CUL3QvBAlWkRYXO8kuXKb2sNS9huWNu2%2B38fWg%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Coleman%2010-Person%20Outdoor%20Camping%20Tent%20Gold%20Series%20Instant-Up%20430x305cm",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Coleman%2010-Person%20Outdoor%20Camping%20Tent%20Gold%20Series%20Instant-Up%20430x305cm",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Coleman%2010-Person%20Outdoor%20Camping%20Tent%20Gold%20Series%20Instant-Up%20430x305cm",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Coleman%2010-Person%20Outdoor%20Camping%20Tent%20Gold%20Series%20Instant-Up%20430x305cm",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Coleman%2010-Person%20Outdoor%20Camping%20Tent%20Gold%20Series%20Instant-Up%20430x305cm",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%2010-Person%20Outdoor%20Camping%20Tent%20Gold%20Series%20Instant-Up%20430x305cm",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|126637823430|0",
+    "sourceLegacyItemId": "126637823430",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/126637823430?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAjFKjCRkkG61UxNMGVI1T85VDLL8ejUg1gHCHV%2FDxNx8fzIFvvUXEwutv3Mk9k1Sko3ve%2FIWbl%2FL9hF9qKKWVLRqXFrCRbsTPP9aKM8LiOVufrs5xOpm09s1%2F0keW5niHPT8%2FoEVsT7v3UsdX4upowBRwT9CUL3QvBAlWkRYXO8kuXKb2sNS9huWNu2%2B38fWg%3D",
+    "importedAt": "2026-03-14T06:27:32Z"
+  },
+  {
+    "slug": "coleman-coleman-tent-instant-up-6-person-gold-series-evo-outdoor-camping-accessories",
+    "name": "Coleman Tent Instant Up 6 Person Gold Series Evo Outdoor Camping Accessories",
+    "brand": "Coleman",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 863,
+    "salePrice": 572,
+    "rating": 5.0,
+    "reviews": 1,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/XZYAAOSwj11nIHty/s-l1600.jpg",
+    "summary": "KG Group brings you the latest and greatest products, at competitive prices. Spacious for 6 People! Manufacturer Part Number : CM2125570. Item will be picked at random. Q: Can I...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/145968384696?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xApVWMNgIwe2mjWKpqN6wka5%2FkQlAnIbM15RwinuDmN8t9rSinDxPzB410RWthgMLhsisNf5f2qYy67jTxHlRD3ipFcVsAxzNUkUidE8Bdl%2FlLUQ8cwyveD0nidQu2g%2Fyudn6gaYYXHLD7mozyVlfObAUUei76dzXj1%2FkxwgyL6TBcfduuFsmf2tlJ9XCquJDg%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Coleman%20Tent%20Instant%20Up%206%20Person%20Gold%20Series%20Evo%20Outdoor%20Camping%20Accessories",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Coleman%20Tent%20Instant%20Up%206%20Person%20Gold%20Series%20Evo%20Outdoor%20Camping%20Accessories",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Coleman%20Tent%20Instant%20Up%206%20Person%20Gold%20Series%20Evo%20Outdoor%20Camping%20Accessories",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Coleman%20Tent%20Instant%20Up%206%20Person%20Gold%20Series%20Evo%20Outdoor%20Camping%20Accessories",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Coleman%20Tent%20Instant%20Up%206%20Person%20Gold%20Series%20Evo%20Outdoor%20Camping%20Accessories",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Tent%20Instant%20Up%206%20Person%20Gold%20Series%20Evo%20Outdoor%20Camping%20Accessories",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|145968384696|0",
+    "sourceLegacyItemId": "145968384696",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/145968384696?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xApVWMNgIwe2mjWKpqN6wka5%2FkQlAnIbM15RwinuDmN8t9rSinDxPzB410RWthgMLhsisNf5f2qYy67jTxHlRD3ipFcVsAxzNUkUidE8Bdl%2FlLUQ8cwyveD0nidQu2g%2Fyudn6gaYYXHLD7mozyVlfObAUUei76dzXj1%2FkxwgyL6TBcfduuFsmf2tlJ9XCquJDg%3D",
+    "importedAt": "2026-03-14T06:27:32Z"
+  },
+  {
+    "slug": "oztrail-oztrail-ensuite-225cm-dressing-toilet-shower-privacy-duo-tent-outdoor-camping",
+    "name": "Oztrail Ensuite 225cm Dressing Toilet Shower Privacy Duo Tent Outdoor Camping",
+    "brand": "OZtrail",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 280,
+    "salePrice": 174,
+    "rating": 4.7,
+    "reviews": 2,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/zdsAAOSwcPhljPsV/s-l1600.jpg",
+    "summary": "Oztrail Ensuite 225cm Duo Shower Dressing Toilet Tent. 247 Deals brings you the latest and greatest products, at competitive prices. 1 x Duo Ensuite Tent. Security is paramount...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/235276095521?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Oztrail%20Ensuite%20225cm%20Dressing%20Toilet%20Shower%20Privacy%20Duo%20Tent%20Outdoor%20Camping",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Oztrail%20Ensuite%20225cm%20Dressing%20Toilet%20Shower%20Privacy%20Duo%20Tent%20Outdoor%20Camping",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Oztrail%20Ensuite%20225cm%20Dressing%20Toilet%20Shower%20Privacy%20Duo%20Tent%20Outdoor%20Camping",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Oztrail%20Ensuite%20225cm%20Dressing%20Toilet%20Shower%20Privacy%20Duo%20Tent%20Outdoor%20Camping",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Oztrail%20Ensuite%20225cm%20Dressing%20Toilet%20Shower%20Privacy%20Duo%20Tent%20Outdoor%20Camping",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Oztrail%20Ensuite%20225cm%20Dressing%20Toilet%20Shower%20Privacy%20Duo%20Tent%20Outdoor%20Camping",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|235276095521|0",
+    "sourceLegacyItemId": "235276095521",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/235276095521?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-14T06:27:34Z"
+  },
+  {
+    "slug": "oztrail-oztrail-pop-up-210cm-double-ensuite-shower-dressing-toilet-outdoor-camping-tent",
+    "name": "Oztrail Pop up 210cm Double Ensuite Shower Dressing Toilet Outdoor Camping Tent",
+    "brand": "OZTRAIL",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 255,
+    "salePrice": 152,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/06gAAOSw6qFmLJ-v/s-l1600.jpg",
+    "summary": "Oztrail Pop up 210cm Double Ensuite Shower Dressing Toilet Tent. KG Group brings you the latest and greatest products, at competitive prices. 1 x Double Ensuite Tent. The Pop-Up...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/115930556684?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAWPDVMHrwJDLxQRxTn34Vua9a1nsD%2FYxXZfL%2F9%2FW3yWp5OOb7s59Aj9KpcHXK0VMXv%2FzTgBpngzoi%2Bo5MFi3NT%2BHAY%2BRVbsawWHhX0GjjoKhrOSMx68ZrKkn4dVbQGGIt2KAN4JPBXW%2BAKplAMkz3DpK99a3Deepqwupr%2BMHMFPywZrUAG04sOnCQFob2Fg9g%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Oztrail%20Pop%20up%20210cm%20Double%20Ensuite%20Shower%20Dressing%20Toilet%20Outdoor%20Camping%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Oztrail%20Pop%20up%20210cm%20Double%20Ensuite%20Shower%20Dressing%20Toilet%20Outdoor%20Camping%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Oztrail%20Pop%20up%20210cm%20Double%20Ensuite%20Shower%20Dressing%20Toilet%20Outdoor%20Camping%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Oztrail%20Pop%20up%20210cm%20Double%20Ensuite%20Shower%20Dressing%20Toilet%20Outdoor%20Camping%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Oztrail%20Pop%20up%20210cm%20Double%20Ensuite%20Shower%20Dressing%20Toilet%20Outdoor%20Camping%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Oztrail%20Pop%20up%20210cm%20Double%20Ensuite%20Shower%20Dressing%20Toilet%20Outdoor%20Camping%20Tent",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|115930556684|0",
+    "sourceLegacyItemId": "115930556684",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/115930556684?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAWPDVMHrwJDLxQRxTn34Vua9a1nsD%2FYxXZfL%2F9%2FW3yWp5OOb7s59Aj9KpcHXK0VMXv%2FzTgBpngzoi%2Bo5MFi3NT%2BHAY%2BRVbsawWHhX0GjjoKhrOSMx68ZrKkn4dVbQGGIt2KAN4JPBXW%2BAKplAMkz3DpK99a3Deepqwupr%2BMHMFPywZrUAG04sOnCQFob2Fg9g%3D",
+    "importedAt": "2026-03-14T06:27:34Z"
+  },
+  {
+    "slug": "oztrail-oztrail-ensuite-225cm-privacy-shower-dressing-toilet-outdoor-camping-duo-tent",
+    "name": "Oztrail Ensuite 225cm Privacy Shower Dressing Toilet Outdoor Camping Duo Tent",
+    "brand": "OZtrail",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 280,
+    "salePrice": 161,
+    "rating": 4.7,
+    "reviews": 2,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/B7QAAOSwGS5mLKAV/s-l1600.jpg",
+    "summary": "Oztrail Ensuite 225cm Duo Shower Dressing Toilet Tent. KG Group brings you the latest and greatest products, at competitive prices. 1 x Duo Ensuite Tent. Security is paramount a...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/115930556571?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBbyQIxcxCp2Lg%2BQrjtAyCvv47iMl6KZOF4YOiVOmW2T6ckx70LAaOTKrPgfNpbQMpHyimZ2R%2Fm5N2jaEZ8suda5fHDfSieiMyWcWtxuCYy5VDQuoLMmXvfZ635eJtIelg5imx0%2By%2B4eYOF9tvW%2F19f26SGg0SBjzoz3ICbB5pdheGcKPySO0ZsSGfCHc%2FPHYs%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Oztrail%20Ensuite%20225cm%20Privacy%20Shower%20Dressing%20Toilet%20Outdoor%20Camping%20Duo%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Oztrail%20Ensuite%20225cm%20Privacy%20Shower%20Dressing%20Toilet%20Outdoor%20Camping%20Duo%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Oztrail%20Ensuite%20225cm%20Privacy%20Shower%20Dressing%20Toilet%20Outdoor%20Camping%20Duo%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Oztrail%20Ensuite%20225cm%20Privacy%20Shower%20Dressing%20Toilet%20Outdoor%20Camping%20Duo%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Oztrail%20Ensuite%20225cm%20Privacy%20Shower%20Dressing%20Toilet%20Outdoor%20Camping%20Duo%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Oztrail%20Ensuite%20225cm%20Privacy%20Shower%20Dressing%20Toilet%20Outdoor%20Camping%20Duo%20Tent",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|115930556571|0",
+    "sourceLegacyItemId": "115930556571",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/115930556571?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBbyQIxcxCp2Lg%2BQrjtAyCvv47iMl6KZOF4YOiVOmW2T6ckx70LAaOTKrPgfNpbQMpHyimZ2R%2Fm5N2jaEZ8suda5fHDfSieiMyWcWtxuCYy5VDQuoLMmXvfZ635eJtIelg5imx0%2By%2B4eYOF9tvW%2F19f26SGg0SBjzoz3ICbB5pdheGcKPySO0ZsSGfCHc%2FPHYs%3D",
+    "importedAt": "2026-03-14T06:27:35Z"
+  },
+  {
+    "slug": "oztrail-oztrail-fast-frame-ensuite-tent-single",
+    "name": "OZtrail Fast Frame Ensuite Tent Single",
+    "brand": "OZtrail",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 160,
+    "salePrice": 160,
+    "rating": 5.0,
+    "reviews": 1,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://cdn.snowys.com.au/content/images/thumbs/1240623_fast-frame-ensuite-single.jpeg?om_bust=active",
+    "summary": "Roughing it out rural?. Easy-hang towel rack. Unique locking zip features for added security. This one is pretty obvious, make sure you love your new item before you give it a g...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/385888453474?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=OZtrail%20Fast%20Frame%20Ensuite%20Tent%20Single",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=OZtrail%20Fast%20Frame%20Ensuite%20Tent%20Single",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=OZtrail%20Fast%20Frame%20Ensuite%20Tent%20Single",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=OZtrail%20Fast%20Frame%20Ensuite%20Tent%20Single",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=OZtrail%20Fast%20Frame%20Ensuite%20Tent%20Single",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=OZtrail%20Fast%20Frame%20Ensuite%20Tent%20Single",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|385888453474|0",
+    "sourceLegacyItemId": "385888453474",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/385888453474?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-14T06:27:35Z"
+  },
+  {
+    "slug": "oztrail-oztrail-fast-frame-ensuite-tent-double",
+    "name": "OZtrail Fast Frame Ensuite Tent Double",
+    "brand": "OZtrail",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 240,
+    "salePrice": 240,
+    "rating": 5.0,
+    "reviews": 1,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://cdn.snowys.com.au/content/images/thumbs/1240688_fast-frame-ensuite-double.jpeg?om_bust=active",
+    "summary": "Multiple ports for hoses and a heavy-duty showerhead hanging point allow for easy cleaning when roughing it resourceless. Next door, upgrade from gum leaves and enjoy the conven...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/384948236668?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=OZtrail%20Fast%20Frame%20Ensuite%20Tent%20Double",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=OZtrail%20Fast%20Frame%20Ensuite%20Tent%20Double",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=OZtrail%20Fast%20Frame%20Ensuite%20Tent%20Double",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=OZtrail%20Fast%20Frame%20Ensuite%20Tent%20Double",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=OZtrail%20Fast%20Frame%20Ensuite%20Tent%20Double",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=OZtrail%20Fast%20Frame%20Ensuite%20Tent%20Double",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|384948236668|0",
+    "sourceLegacyItemId": "384948236668",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/384948236668?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-14T06:27:36Z"
+  },
+  {
+    "slug": "vango-vango-kruger-300-3-person-camping-hiking-tent-moroccan-blue-vte-kr300-q",
+    "name": "Vango Kruger 300 3 Person Camping & Hiking Tent - Moroccan Blue (VTE-KR300-Q)",
+    "brand": "Vango",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 260,
+    "salePrice": 260,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/qj4AAeSwj3Jppk23/s-l1600.jpg",
+    "summary": "The Kruger is one of thebest tents for camping in warm weather. Tent Colour: Moroccan Blue. Thetwin entrances provide maximum versatility and the multi-function doors can be pol...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/254524218144?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Vango%20Kruger%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-KR300-Q%29",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Vango%20Kruger%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-KR300-Q%29",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Vango%20Kruger%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-KR300-Q%29",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Vango%20Kruger%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-KR300-Q%29",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Vango%20Kruger%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-KR300-Q%29",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Vango%20Kruger%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-KR300-Q%29",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|254524218144|0",
+    "sourceLegacyItemId": "254524218144",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/254524218144?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-14T06:28:25Z"
+  },
+  {
+    "slug": "vango-vango-kibale-350-3-person-camping-hiking-tent-moroccan-blue-vte-ki350-q",
+    "name": "Vango Kibale 350 3 Person Camping & Hiking Tent - Moroccan Blue (VTE-KI350-Q)",
+    "brand": "Vango",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 380,
+    "salePrice": 380,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/kasAAeSweBZppk32/s-l1600.jpg",
+    "summary": "The Kibale 350 3-man tunnel tent is one of the best tents for weekend adventures. Tent Colour: Moroccan Blue. Flysheet First or as One Pitch - Inner stays dry if tent being pitc...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/254524207566?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Vango%20Kibale%20350%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-KI350-Q%29",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Vango%20Kibale%20350%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-KI350-Q%29",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Vango%20Kibale%20350%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-KI350-Q%29",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Vango%20Kibale%20350%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-KI350-Q%29",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Vango%20Kibale%20350%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-KI350-Q%29",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Vango%20Kibale%20350%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-KI350-Q%29",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|254524207566|0",
+    "sourceLegacyItemId": "254524207566",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/254524207566?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-14T06:28:26Z"
+  },
+  {
+    "slug": "vango-vango-karoo-300-3-person-camping-hiking-tent-moroccan-blue-vte-ka300-q",
+    "name": "Vango Karoo 300 3 Person Camping & Hiking Tent - Moroccan Blue (VTE-KA300-Q)",
+    "brand": "Vango",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 280,
+    "salePrice": 280,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/j94AAeSwPllppk9M/s-l1600.jpg",
+    "summary": "The Karoo 300 3-man tent pitchesinner first, allowing you to use the inner tent on its own in hot climates, and with the flysheet in cooler weather. Tent Colour: Moroccan Blue....",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/352984480172?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Vango%20Karoo%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-KA300-Q%29",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Vango%20Karoo%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-KA300-Q%29",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Vango%20Karoo%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-KA300-Q%29",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Vango%20Karoo%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-KA300-Q%29",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Vango%20Karoo%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-KA300-Q%29",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Vango%20Karoo%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-KA300-Q%29",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|352984480172|0",
+    "sourceLegacyItemId": "352984480172",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/352984480172?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-14T06:28:26Z"
+  },
+  {
+    "slug": "vango-vango-athos-500-5-person-camping-hiking-tent-moroccan-blue-vte-at500-q",
+    "name": "Vango Athos 500 5 Person Camping & Hiking Tent - Moroccan Blue (VTE-AT500-Q)",
+    "brand": "Vango",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 390,
+    "salePrice": 390,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/rpsAAeSwegBppkz3/s-l1600.jpg",
+    "summary": "Colour: Moroccan Blue. Flysheet First or as One Pitch - Inner stays dry if tent being pitched in wet conditions. Polyethylene Groundsheet - Tough, durable and waterproof grounds...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/352974907295?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBaPDWLXvbsEK6u5oobjsrGX2o7UrtbgbuxgbNMwEpST%2BIhv64LPvlfCGF25CpbtERcv9pNA0BYLUNqlavpothhioUKN8wpPD%2BR9KcSR%2Frcv4n3oMZU8qwmYv7p0lJHihmCJtKIF1QlNQstdq7qJ%2ByjrBuH9yRtJSyj3ewm1yHMW9wi8GAzOnv%2FrJcvuEtWEM4%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Vango%20Athos%20500%205%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-AT500-Q%29",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Vango%20Athos%20500%205%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-AT500-Q%29",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Vango%20Athos%20500%205%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-AT500-Q%29",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Vango%20Athos%20500%205%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-AT500-Q%29",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Vango%20Athos%20500%205%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-AT500-Q%29",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Vango%20Athos%20500%205%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-AT500-Q%29",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|352974907295|0",
+    "sourceLegacyItemId": "352974907295",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/352974907295?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBaPDWLXvbsEK6u5oobjsrGX2o7UrtbgbuxgbNMwEpST%2BIhv64LPvlfCGF25CpbtERcv9pNA0BYLUNqlavpothhioUKN8wpPD%2BR9KcSR%2Frcv4n3oMZU8qwmYv7p0lJHihmCJtKIF1QlNQstdq7qJ%2ByjrBuH9yRtJSyj3ewm1yHMW9wi8GAzOnv%2FrJcvuEtWEM4%3D",
+    "importedAt": "2026-03-14T06:28:27Z"
+  },
+  {
+    "slug": "vango-vango-helvellyn-300-3-person-camping-hiking-tent-pamir-green-vte-hev300-n",
+    "name": "Vango Helvellyn 300 3 Person Camping & Hiking Tent - Pamir Green (VTE-HEV300-N)",
+    "brand": "Vango",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 320,
+    "salePrice": 320,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/aYUAAeSw0LVppk2C/s-l1600.jpg",
+    "summary": "The Vango Helvellyn is asemi geodesic 3 man tent, which is ideal for year round trekking, particularly on rougher terrain because of its excellent self-supporting structure. Exc...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/254514800119?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDTfS9PgdVqj08v41Cth3s%2FR7mFwh1lmzUtI6qHVOnFNijUTv64C1R2890ecHdcrkvilYY2D6%2Fmd1QvHG9AsAa0sHVLgF6OC0upzsmN5FeEs1bUumSNAYvdPLBWDqveJeWi2BtyANFk8AbZqHQCbSbLXIEXC9kSR2Uv8Dk2Tii4KKTaPxfcE5XVKICXjriDPxU%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Vango%20Helvellyn%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20Green%20%28VTE-HEV300-N%29",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Vango%20Helvellyn%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20Green%20%28VTE-HEV300-N%29",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Vango%20Helvellyn%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20Green%20%28VTE-HEV300-N%29",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Vango%20Helvellyn%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20Green%20%28VTE-HEV300-N%29",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Vango%20Helvellyn%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20Green%20%28VTE-HEV300-N%29",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Vango%20Helvellyn%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20Green%20%28VTE-HEV300-N%29",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|254514800119|0",
+    "sourceLegacyItemId": "254514800119",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/254514800119?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDTfS9PgdVqj08v41Cth3s%2FR7mFwh1lmzUtI6qHVOnFNijUTv64C1R2890ecHdcrkvilYY2D6%2Fmd1QvHG9AsAa0sHVLgF6OC0upzsmN5FeEs1bUumSNAYvdPLBWDqveJeWi2BtyANFk8AbZqHQCbSbLXIEXC9kSR2Uv8Dk2Tii4KKTaPxfcE5XVKICXjriDPxU%3D",
+    "importedAt": "2026-03-14T06:28:27Z"
   }
 ]
