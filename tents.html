@@ -170,6 +170,16 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RRL35ZW8MO"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-RRL35ZW8MO');</script>
 
+  <!-- PWA -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#061325">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="CampMate">
+  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
 </head><body>
 <header class="topbar">
   <div class="container nav">
@@ -332,11 +342,35 @@
     </div>
   </div>
 </main>
+<nav class="mob-tabbar" aria-label="Mobile navigation">
+  <div class="mob-tabbar-inner">
+    <a href="/index.html" class="mob-tab" aria-label="Home">
+      <svg viewBox="0 0 24 24"><path d="M3 12L12 3l9 9"/><path d="M9 21V12h6v9"/></svg>
+      Home
+    </a>
+    <a href="/categories.html" class="mob-tab active" aria-label="Categories">
+      <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+      Browse
+    </a>
+    <a href="/search.html" class="mob-tab" aria-label="Search">
+      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/></svg>
+      Search
+    </a>
+    <a href="/popular.html" class="mob-tab" aria-label="Popular">
+      <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      Popular
+    </a>
+    <a href="/guides.html" class="mob-tab" aria-label="Guides">
+      <svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+      Guides
+    </a>
+  </div>
+</nav>
 <footer class="footer">
   <div class="container footer-grid">
     <div>
       <div class="logo" style="margin-bottom:12px"><span class="logo-badge">⛺</span><span>CampMate Australia</span></div>
-      <p>CampMate is a AllIn camping gear comparison site for Australia. Browse categories, compare reference prices and open live store searches before you buy.</p>
+      <p>CampMate is a Danawa-style camping gear comparison site for Australia. Browse categories, compare reference prices and open live store searches before you buy.</p>
       <p class="muted" style="margin-top:12px">Disclosure: CampMate may earn commissions from affiliate links at no additional cost to you.</p>
     </div>
     <div>
@@ -645,5 +679,71 @@ setupSearchForm();
   // ====== END NAVER FILTER ======
   render(); // initial render using patched version
 })().catch(err => { console.error(err); document.getElementById('category-results').innerHTML = '<div class="empty">Could not load this category.</div>'; });
+</script>
+<script>
+// ── PWA: Service Worker 등록 ──────────────────────────────
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+      .then(reg => console.log('[SW] Registered:', reg.scope))
+      .catch(err => console.warn('[SW] Registration failed:', err));
+  });
+}
+
+// ── PWA: 설치 배너 ────────────────────────────────────────
+let deferredPrompt;
+window.addEventListener('beforeinstallprompt', e => {
+  e.preventDefault();
+  deferredPrompt = e;
+  showInstallBanner();
+});
+
+function showInstallBanner() {
+  if (document.getElementById('pwa-install-banner')) return;
+  const banner = document.createElement('div');
+  banner.id = 'pwa-install-banner';
+  banner.innerHTML = `
+    <div style="display:flex;align-items:center;gap:12px;flex:1;min-width:0">
+      <span style="font-size:28px;flex-shrink:0">⛺</span>
+      <div style="min-width:0">
+        <div style="font-weight:700;font-size:.92rem;color:#ebf4ff">Add CampMate to Home Screen</div>
+        <div style="font-size:.78rem;color:#a7bbdb;margin-top:2px">Browse offline &amp; compare faster</div>
+      </div>
+    </div>
+    <div style="display:flex;gap:8px;flex-shrink:0">
+      <button id="pwa-install-btn" style="padding:8px 16px;background:#63e2ff;color:#061325;border:none;border-radius:10px;font-weight:700;font-size:.85rem;cursor:pointer">Install</button>
+      <button id="pwa-dismiss-btn" style="padding:8px 12px;background:rgba(255,255,255,.08);color:#a7bbdb;border:1px solid rgba(255,255,255,.12);border-radius:10px;font-size:.85rem;cursor:pointer">✕</button>
+    </div>`;
+  Object.assign(banner.style, {
+    position:'fixed', bottom:'0', left:'0', right:'0', zIndex:'9999',
+    display:'flex', alignItems:'center', gap:'14px', padding:'14px 16px',
+    background:'rgba(8,22,45,.97)', backdropFilter:'blur(16px)',
+    borderTop:'1px solid rgba(99,226,255,.2)',
+    boxShadow:'0 -4px 24px rgba(0,0,0,.4)',
+  });
+  document.body.appendChild(banner);
+
+  document.getElementById('pwa-install-btn').addEventListener('click', async () => {
+    banner.remove();
+    if (!deferredPrompt) return;
+    deferredPrompt.prompt();
+    const { outcome } = await deferredPrompt.userChoice;
+    console.log('[PWA] Install outcome:', outcome);
+    deferredPrompt = null;
+  });
+  document.getElementById('pwa-dismiss-btn').addEventListener('click', () => {
+    banner.remove();
+    // Dismiss for 3 days
+    localStorage.setItem('pwa-dismissed', Date.now() + 3 * 86400000);
+  });
+}
+
+// Don't show if dismissed recently
+window.addEventListener('DOMContentLoaded', () => {
+  const dismissed = parseInt(localStorage.getItem('pwa-dismissed') || '0');
+  if (Date.now() < dismissed) {
+    window.addEventListener('beforeinstallprompt', e => e.preventDefault());
+  }
+});
 </script>
 </body></html>

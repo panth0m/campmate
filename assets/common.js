@@ -1,4 +1,4 @@
-const ASSET_VERSION = "20260314f1";
+const ASSET_VERSION = "20260314d5";
 const CATALOG_CACHE = { categories: null, products: null, promise: null };
 
 async function getJson(path) {
@@ -50,10 +50,9 @@ function fallbackForCategory(category) {
   return `assets/images/categories/${key}.svg`;
 }
 function normalizeImage(product) {
-  const candidate = product && (product.ebayImage || product.image);
-  const url = candidate || fallbackForCategory(product?.category || 'tents');
-  if (/^https?:\/\//i.test(url) || /^data:/i.test(url)) return url;
-  return `${url}${String(url).includes('?') ? '&' : '?'}v=${ASSET_VERSION}`;
+  if (product && product.ebayImage) return product.ebayImage;
+  if (product && product.image) return product.image;
+  return fallbackForCategory(product?.category || 'tents');
 }
 function attachImgFallback(img, category) {
   img.addEventListener('error', () => { img.src = fallbackForCategory(category || 'tents'); }, { once: true });

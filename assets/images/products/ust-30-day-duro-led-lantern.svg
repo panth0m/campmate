@@ -1,22 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 260" role="img" aria-label="Ust 30-Day Duro LED Lantern">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 260" role="img" aria-label="Companion Camp Chair Series 1 8">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#2d2b51"/>
-      <stop offset="100%" stop-color="#ffd36e"/>
+      <stop offset="0%" stop-color="#15396b"/>
+      <stop offset="100%" stop-color="#5fc4ff"/>
     </linearGradient>
   </defs>
   <rect width="340" height="260" rx="26" fill="url(#g)"/>
-  <circle cx="284" cy="54" r="46" fill="#ffffff" opacity="0.10"/>
-  <circle cx="58" cy="220" r="34" fill="#ffffff" opacity="0.08"/>
-
-  <rect x="128" y="112" width="84" height="102" rx="18" fill="#fff5d1"/>
-  <rect x="144" y="94" width="52" height="22" rx="11" fill="#ffe07a"/>
-  <path d="M148 132 H192" stroke="#ffcf58" stroke-width="8" stroke-linecap="round"/>
-  <path d="M148 154 H192" stroke="#ffcf58" stroke-width="8" stroke-linecap="round"/>
-  <path d="M148 176 H192" stroke="#ffcf58" stroke-width="8" stroke-linecap="round"/>
-        
-  <text x="26" y="36" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#dff6ff" opacity="0.96">UST</text>
-  <text x="26" y="188" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#ffffff">Ust 30-Day Duro LED</text>
-  <text x="26" y="210" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#ffffff">Lantern</text>
-  <text x="26" y="236" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#d8faff" opacity="0.86">Camping Lanterns • Compare stores</text>
+  <circle cx="285" cy="54" r="46" fill="#ffffff" opacity="0.10"/>
+  <circle cx="62" cy="220" r="34" fill="#ffffff" opacity="0.08"/>
+  <path d="M120 120 h90 a18 18 0 0 1 18 18 v26 h-108z" fill="#d7fff1"/><rect x="116" y="162" width="118" height="16" rx="8" fill="#8ef0d5"/><path d="M132 178 L110 260 M214 178 L236 260 M142 178 L150 260 M204 178 L196 260" stroke="#0c203a" stroke-width="8" stroke-linecap="round"/>
+  <text x="24" y="38" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#dff6ff" opacity="0.92">CampMate Australia</text>
+  <text x="24" y="198" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#ecfffb" opacity="0.92">Companion</text>
+  <text x="24" y="220" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#ffffff">Companion Camp Chair Series </text>
+  <text x="24" y="242" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#d8faff" opacity="0.86">Chairs • Compare stores</text>
 </svg>

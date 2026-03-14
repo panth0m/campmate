@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#061325"/>
+      <stop offset="100%" stop-color="#0f3060"/>
+    </linearGradient>
+    <linearGradient id="tent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#63e2ff"/>
+      <stop offset="100%" stop-color="#7cf2db"/>
+    </linearGradient>
+  </defs>
+  <!-- Background rounded rect -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- Stars -->
+  <circle cx="80" cy="90" r="3" fill="#63e2ff" opacity="0.6"/>
+  <circle cx="430" cy="70" r="2" fill="#63e2ff" opacity="0.5"/>
+  <circle cx="380" cy="120" r="4" fill="#63e2ff" opacity="0.4"/>
+  <circle cx="140" cy="60" r="2" fill="#7cf2db" opacity="0.5"/>
+  <circle cx="460" cy="150" r="3" fill="#7cf2db" opacity="0.4"/>
+  <!-- Ground line -->
+  <line x1="60" y1="360" x2="452" y2="360" stroke="#1e4a7a" stroke-width="3" stroke-linecap="round"/>
+  <!-- Tent body -->
+  <path d="M256 140 L80 360 L432 360 Z" fill="url(#tent)" opacity="0.95"/>
+  <!-- Tent inner dark panel -->
+  <path d="M256 160 L100 360 L412 360 Z" fill="#0b1e39" opacity="0.35"/>
+  <!-- Door opening -->
+  <path d="M256 270 Q235 310 235 360 L277 360 Q277 310 256 270 Z" fill="#061325" opacity="0.85"/>
+  <!-- Tent pole top glow -->
+  <circle cx="256" cy="140" r="10" fill="#63e2ff" opacity="0.9"/>
+  <circle cx="256" cy="140" r="18" fill="#63e2ff" opacity="0.2"/>
+  <!-- Guy ropes -->
+  <line x1="256" y1="148" x2="130" y2="320" stroke="#63e2ff" stroke-width="2" opacity="0.3" stroke-dasharray="6,4"/>
+  <line x1="256" y1="148" x2="382" y2="320" stroke="#63e2ff" stroke-width="2" opacity="0.3" stroke-dasharray="6,4"/>
+  <!-- Campmate text -->
+  <text x="256" y="430" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="800" fill="#63e2ff" text-anchor="middle" letter-spacing="2">CampMate</text>
+  <text x="256" y="475" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#a7bbdb" text-anchor="middle" letter-spacing="3">AUSTRALIA</text>
+</svg>

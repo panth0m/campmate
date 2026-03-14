@@ -17,6 +17,30 @@ export default {
       return handleGoogleSearch(request, env);
     }
 
+    // sitemap.xml — must return correct Content-Type for Google Search Console
+    if (url.pathname === '/sitemap.xml') {
+      const resp = await env.ASSETS.fetch(request);
+      return new Response(resp.body, {
+        status: resp.status,
+        headers: {
+          'Content-Type': 'application/xml; charset=utf-8',
+          'Cache-Control': 'public, max-age=3600',
+        },
+      });
+    }
+
+    // robots.txt
+    if (url.pathname === '/robots.txt') {
+      const resp = await env.ASSETS.fetch(request);
+      return new Response(resp.body, {
+        status: resp.status,
+        headers: {
+          'Content-Type': 'text/plain; charset=utf-8',
+          'Cache-Control': 'public, max-age=3600',
+        },
+      });
+    }
+
     // Static asset serving
     if (env.ASSETS) {
       return env.ASSETS.fetch(request);
