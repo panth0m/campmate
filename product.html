@@ -212,49 +212,35 @@
     </div>
   </footer>
 
-  <script src="assets/i18n.js"></script><script src="assets/common.js"></script>
+  <script src="assets/common.js"></script>
   <script>
     const AMAZON_TAG = 'campmateau20-22';
 
     setupSearchForm();
 
-    document.addEventListener('DOMContentLoaded', () => {
-      initProductPage();
-    });
-
-    async function initProductPage() {
-      const slug = getSafeSlug();
-      if (!slug) {
-        renderNotFound('');
-        return;
-      }
-
-      try {
-        const products = await getJson(`data/products.json?v=${Date.now()}`);
-        let product = findProduct(products, slug);
-        let usedFallback = false;
-
-        if (!product) {
-          product = findNearestProduct(products, slug);
-          usedFallback = !!product;
-        }
+    getJson('data/products.json')
+      .then(products => {
+        const slug = getSafeSlug();
+        const product = findProduct(products, slug);
 
         if (!product) {
           renderNotFound(slug);
-          if (window.CampMateI18n) window.CampMateI18n.applyTranslations();
           return;
         }
 
-        renderProduct(product, { requestedSlug: slug, usedFallback });
+        if (product.slug && normalizeSlugValue(product.slug) !== normalizeSlugValue(slug)) {
+          const url = new URL(window.location.href);
+          url.searchParams.set('slug', product.slug);
+          history.replaceState({}, '', url.toString());
+        }
+        renderProduct(product);
         loadLivePrice(product);
         injectSchema(product);
-        if (window.CampMateI18n) window.CampMateI18n.applyTranslations();
-      } catch (err) {
+      })
+      .catch(err => {
         console.error(err);
-        renderNotFound(slug);
-        if (window.CampMateI18n) window.CampMateI18n.applyTranslations();
-      }
-    }
+        renderNotFound('');
+      });
 
     function getSafeSlug() {
       const url = new URL(window.location.href);
@@ -278,41 +264,47 @@
     function findProduct(products, slug) {
       if (!slug) return null;
       const target = normalizeSlugValue(slug);
-      return products.find(product => {
+      const exact = products.find(product => {
         const productSlug = normalizeSlugValue(product.slug || '');
         const productName = normalizeSlugValue(product.name || '');
         return productSlug === target || productName === target;
-      }) || null;
+      });
+      if (exact) return exact;
+
+      const scored = products
+        .map(product => ({ product, score: fuzzyProductScore(product, target) }))
+        .filter(item => item.score > 0)
+        .sort((a, b) => b.score - a.score);
+
+      return scored.length ? scored[0].product : null;
     }
 
-    function tokeniseSlug(value) {
-      const stop = new Set(['camping','gear','tent','tents','chair','chairs','cooler','coolers','stove','stoves','lantern','lanterns','sleeping','bag','bags','and','for','the','with','darkroom','lighted','northstar']);
-      return normalizeSlugValue(value)
-        .split('-')
-        .filter(Boolean)
-        .filter(token => token.length > 1 && !stop.has(token));
-    }
+    function fuzzyProductScore(product, target) {
+      const productSlug = normalizeSlugValue(product.slug || '');
+      const productName = normalizeSlugValue(product.name || '');
+      const haystack = `${productSlug} ${productName}`;
+      const targetTokens = target.split('-').filter(Boolean);
+      const productTokens = new Set(haystack.split('-').filter(Boolean));
 
-    function findNearestProduct(products, slug) {
-      const targetTokens = tokeniseSlug(slug);
-      if (!targetTokens.length) return null;
-      let best = null;
-      let bestScore = 0;
-      for (const product of products) {
-        const hay = `${product.slug || ''} ${product.name || ''} ${product.brand || ''}`;
-        const tokens = new Set(tokeniseSlug(hay));
-        let score = 0;
-        for (const token of targetTokens) if (tokens.has(token)) score += 1;
-        if ((product.brand || '').toLowerCase() && targetTokens.includes((product.brand || '').toLowerCase())) score += 2;
-        if (score > bestScore) {
-          bestScore = score;
-          best = product;
-        }
+      let score = 0;
+      for (const token of targetTokens) {
+        if (productTokens.has(token)) score += 2;
+        else if (haystack.includes(token)) score += 1;
       }
-      return bestScore >= 2 ? best : null;
+
+      if (productSlug.includes(target) || target.includes(productSlug)) score += 6;
+      const brandHints = ['coleman','oztrail','blackwolf','darche','hilleberg','zempire','sea-to-summit','big-agnes','vango'];
+      for (const brand of brandHints) {
+        if (target.includes(brand) && haystack.includes(brand)) score += 4;
+      }
+      const sizeHints = ['1p','2p','3p','4p','5p','6p','8p','10p'];
+      for (const size of sizeHints) {
+        if (target.includes(size) && haystack.includes(size)) score += 3;
+      }
+      return score;
     }
 
-    function renderProduct(product, options = {}) {
+    function renderProduct(product) {
       document.title = `${product.name} | CampMate Australia`;
       document.getElementById('product-crumb').textContent = product.name;
 
@@ -323,12 +315,12 @@
       attachImgFallback(img, product.category);
 
       document.getElementById('product-title').textContent = product.name;
-      document.getElementById('product-summary').textContent = product.summary || product.description || (window.CampMateI18n ? window.CampMateI18n.t('loading') : 'No summary available.');
+      document.getElementById('product-summary').textContent = product.summary || product.description || 'No summary available.';
       document.getElementById('product-meta').innerHTML = `
         <span>${product.brand || ''}</span>
-        <span>${window.CampMateI18n ? window.CampMateI18n.categoryName(product.category || '', (product.category || '').replace('-', ' ')) : (product.category || '').replace('-', ' ')}</span>
+        <span>${(product.category || '').replace('-', ' ')}</span>
         <span>${stars(product.rating || 4.2)}</span>
-        <span>${product.reviews || product.reviewCount || 0} ${window.CampMateI18n ? window.CampMateI18n.t('reviews') : 'reviews'}</span>
+        <span>${product.reviews || product.reviewCount || 0} reviews</span>
       `;
       document.getElementById('sale-price').textContent = product.salePrice ? currency(product.salePrice) : '';
       document.getElementById('old-price').textContent = product.price ? currency(product.price) : '';
@@ -345,8 +337,8 @@
         storeList.innerHTML = `
           <div class="compare-row">
             <div class="compare-store">
-              <strong>${window.CampMateI18n ? window.CampMateI18n.t('no_store_links') : 'No store links yet'}</strong>
-              <div class="muted">${window.CampMateI18n ? window.CampMateI18n.t('add_retailer_links') : 'Add retailer search links in products.json.'}</div>
+              <strong>No store links yet</strong>
+              <div class="muted">Add retailer search links in products.json.</div>
             </div>
             <div class="compare-price na">—</div>
             <div></div>
@@ -363,7 +355,7 @@
             <div class="muted">${escapeHtml(store.typeLabel)}</div>
           </div>
           <div class="compare-price ${store.priceText === 'Search store' ? 'na' : ''}">${escapeHtml(store.priceText)}</div>
-          <a class="store-pill ${index === 0 ? '' : 'secondary'}" target="_blank" rel="noopener sponsored" href="${escapeAttribute(store.url)}">${window.CampMateI18n ? window.CampMateI18n.t('open') : 'Open'}</a>
+          <a class="store-pill ${index === 0 ? '' : 'secondary'}" target="_blank" rel="noopener sponsored" href="${escapeAttribute(store.url)}">Open</a>
         </div>
       `).join('');
 
@@ -425,9 +417,9 @@
     }
 
     function renderNotFound(slug) {
-      document.title = '${window.CampMateI18n ? window.CampMateI18n.t('product') + ' 없음' : 'Product not found'} | CampMate Australia';
-      document.getElementById('product-crumb').textContent = '${window.CampMateI18n ? window.CampMateI18n.t('product') + ' 없음' : 'Product not found'}';
-      document.getElementById('product-title').textContent = '${window.CampMateI18n ? window.CampMateI18n.t('product') + ' 없음' : 'Product not found'}';
+      document.title = 'Product not found | CampMate Australia';
+      document.getElementById('product-crumb').textContent = 'Product not found';
+      document.getElementById('product-title').textContent = 'Product not found';
       document.getElementById('product-summary').textContent = slug
         ? `We could not find a product matching "${slug}". Please return to the compare pages.`
         : 'No product was selected. Please return to the compare pages.';
@@ -441,13 +433,13 @@
             <div class="muted">Browse CampMate compare pages</div>
           </div>
           <div class="compare-price na">—</div>
-          <a class="store-pill secondary" href="popular.html">${window.CampMateI18n ? window.CampMateI18n.t('open') : 'Open'}</a>
+          <a class="store-pill secondary" href="popular.html">Open</a>
         </div>
       `;
       document.getElementById('store-actions').innerHTML = '';
       const img = document.getElementById('product-image');
       img.removeAttribute('src');
-      img.alt = '${window.CampMateI18n ? window.CampMateI18n.t('product') + ' 없음' : 'Product not found'}';
+      img.alt = 'Product not found';
       document.getElementById('ebay-status').textContent = 'No live product selected';
       document.getElementById('ebay-copy').textContent = 'Open a valid compare page to view current listings.';
       document.getElementById('ebay-open').href = 'popular.html';
