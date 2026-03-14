@@ -1,26 +1,19 @@
 @echo off
-setlocal EnableExtensions
-chcp 65001 >nul 2>&1
-pushd "%~dp0" || (
-  echo ERROR: Could not open the campmate project folder.
-  pause
-  exit /b 1
-)
+setlocal
+cd /d "%~dp0"
 
 if not exist "scripts\run_ebay_weighted_round_prompt.py" (
-  echo ERROR: Missing scripts\run_ebay_weighted_round_prompt.py
-  echo Put this BAT file in your campmate project root folder.
+  echo ERROR: scripts\run_ebay_weighted_round_prompt.py not found.
   pause
   exit /b 1
 )
 
-where py >nul 2>&1
-if %errorlevel%==0 (
-  py -3 "scripts\run_ebay_weighted_round_prompt.py"
-) else (
+py -3 "scripts\run_ebay_weighted_round_prompt.py"
+if errorlevel 1 (
+  echo.
+  echo Failed with py -3. Trying python...
   python "scripts\run_ebay_weighted_round_prompt.py"
 )
 
 echo.
-popd
 pause
