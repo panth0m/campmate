@@ -1,4 +1,4 @@
-const ASSET_VERSION = "20260314f1";
+const ASSET_VERSION = "20260315";
 const CATALOG_CACHE = { categories: null, products: null, promise: null };
 
 async function getJson(path) {

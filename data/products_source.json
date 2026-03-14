@@ -47,7 +47,17 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Tents"
+    "categoryName": "Camping Tents",
+    "highlights": [
+      "8-person capacity",
+      "Fast instant setup",
+      "Gear storage vestibule"
+    ],
+    "description": "Rated 4.3/5 from 201 reviews. The Coleman Instant Up 8P Gold Tent is a premium tents from Coleman. Full family size with separate sleeping rooms and a large vestibule for gear storage.",
+    "specs": {
+      "Reference price": "A$589",
+      "Capacity": "8 person"
+    }
   },
   {
     "slug": "oztrail-bungalow-9-family-dome-tent",
@@ -98,7 +108,17 @@
       }
     ],
     "categoryName": "Camping Tents",
-    "ebayImage": "https://i.ebayimg.com/images/g/3~EAAeSwIS1o~yVt/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/3~EAAeSwIS1o~yVt/s-l225.jpg",
+    "highlights": [
+      "9-person capacity",
+      "Dome tent design",
+      "UV-rated fabric"
+    ],
+    "description": "Rated 4.2/5 from 189 reviews. The OZtrail Bungalow 9 Family Dome Tent is a mid-range tents from OZtrail. Australian-designed for harsh sun and unpredictable rain. Built-in UV protection and taped seams.",
+    "specs": {
+      "Reference price": "A$249",
+      "Capacity": "9 person"
+    }
   },
   {
     "slug": "oztrail-hightower-9-loft-tent",
@@ -148,7 +168,15 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Tents"
+    "categoryName": "Camping Tents",
+    "highlights": [
+      "9-person capacity"
+    ],
+    "description": "Rated 4.4/5 from 167 reviews. The OZtrail Hightower 9 Loft Tent is a premium tents from OZtrail. Stand-up headroom with loft storage. Great for extended caravan park stays.",
+    "specs": {
+      "Reference price": "A$449",
+      "Capacity": "9 person"
+    }
   },
   {
     "slug": "blackwolf-turbo-300-tent",
@@ -199,7 +227,15 @@
       }
     ],
     "categoryName": "Camping Tents",
-    "ebayImage": "https://i.ebayimg.com/images/g/I5MAAeSwOtdpe~9M/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/I5MAAeSwOtdpe~9M/s-l225.jpg",
+    "highlights": [
+      "00-person capacity"
+    ],
+    "description": "Rated 4.6/5 from 95 reviews. The Blackwolf Turbo 300 Tent is a high-end tents from Blackwolf. Premium fibreglass-framed tunnel tent. Excellent wind resistance tested in alpine conditions.",
+    "specs": {
+      "Reference price": "A$729",
+      "Capacity": "00 person"
+    }
   },
   {
     "slug": "blackwolf-turbo-lite-200-tent",
@@ -250,7 +286,15 @@
       }
     ],
     "categoryName": "Camping Tents",
-    "ebayImage": "https://i.ebayimg.com/images/g/ymkAAeSwIQ9ptU3I/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/ymkAAeSwIQ9ptU3I/s-l225.jpg",
+    "highlights": [
+      "00-person capacity"
+    ],
+    "description": "Rated 4.4/5 from 112 reviews. The Blackwolf Turbo Lite 200 Tent is a premium tents from Blackwolf. Two-person tunnel tent with a large porch area. Lightweight fibreglass frame for easy carry.",
+    "specs": {
+      "Reference price": "A$359",
+      "Capacity": "00 person"
+    }
   },
   {
     "slug": "hilleberg-nallo-2-gt-tent",
@@ -300,7 +344,15 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Tents"
+    "categoryName": "Camping Tents",
+    "highlights": [
+      "2-person capacity"
+    ],
+    "description": "Rated 4.9/5 from 44 reviews. The Hilleberg Nallo 2 GT Tent is a high-end tents from Hilleberg. Swedish-made four-season tent. Used by polar expeditions — overkill for most, but unbeatable in storms.",
+    "specs": {
+      "Reference price": "A$1499",
+      "Capacity": "2 person"
+    }
   },
   {
     "slug": "msr-hubba-hubba-2-tent",
@@ -351,7 +403,18 @@
       }
     ],
     "categoryName": "Camping Tents",
-    "ebayImage": "https://i.ebayimg.com/images/g/G3wAAeSwF~FprPB5/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/G3wAAeSwF~FprPB5/s-l225.jpg",
+    "highlights": [
+      "2-person capacity",
+      "Gear storage vestibule",
+      "Pack weight: 1.7kg"
+    ],
+    "description": "Rated 4.7/5 from 88 reviews. The MSR Hubba Hubba 2 Tent is a premium tents from MSR. Ultralight two-person backpacking tent under 1.7 kg. Dual vestibules and a freestanding design.",
+    "specs": {
+      "Reference price": "A$629",
+      "Weight": "1.7kg",
+      "Capacity": "2 person"
+    }
   },
   {
     "slug": "sea-to-summit-telos-tr2-tent",
@@ -402,7 +465,16 @@
       }
     ],
     "categoryName": "Camping Tents",
-    "ebayImage": "https://i.ebayimg.com/images/g/a-EAAeSw0gNpsI0z/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/a-EAAeSw0gNpsI0z/s-l225.jpg",
+    "highlights": [
+      "2-person capacity",
+      "Mesh panels for airflow"
+    ],
+    "description": "Rated 4.7/5 from 72 reviews. The Sea to Summit Telos TR2 Tent is a high-end tents from Sea to Summit. Freestanding with a tension ridge for extra liveable space. Excellent ventilation system.",
+    "specs": {
+      "Reference price": "A$749",
+      "Capacity": "2 person"
+    }
   },
   {
     "slug": "vango-blade-200-tent",
@@ -453,7 +525,15 @@
       }
     ],
     "categoryName": "Camping Tents",
-    "ebayImage": "https://i.ebayimg.com/images/g/COkAAeSw7qxpoMeK/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/COkAAeSw7qxpoMeK/s-l225.jpg",
+    "highlights": [
+      "00-person capacity"
+    ],
+    "description": "Rated 4.0/5 from 98 reviews. The Vango Blade 200 Tent is a mid-range tents from Vango. Budget-friendly two-person tent with good waterproofing. Popular for festival camping.",
+    "specs": {
+      "Reference price": "A$219",
+      "Capacity": "00 person"
+    }
   },
   {
     "slug": "darche-kozi-9-family-dome-tent",
@@ -503,7 +583,17 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Tents"
+    "categoryName": "Camping Tents",
+    "highlights": [
+      "9-person capacity",
+      "Dome tent design",
+      "UV-rated fabric"
+    ],
+    "description": "Rated 4.3/5 from 78 reviews. The Darche Kozi 9 Family Dome Tent is a premium tents from Darche. Designed specifically for Australian conditions. Includes insect mesh floor and UV-treated fly.",
+    "specs": {
+      "Reference price": "A$419",
+      "Capacity": "9 person"
+    }
   },
   {
     "slug": "anaconda-getaway-4p-tent",
@@ -553,7 +643,15 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Tents"
+    "categoryName": "Camping Tents",
+    "highlights": [
+      "4-person capacity"
+    ],
+    "description": "Rated 3.9/5 from 214 reviews. The Anaconda Getaway 4P Tent is a mid-range tents from Anaconda. Entry-level four-person tent at a great price point. Perfect for occasional campers.",
+    "specs": {
+      "Reference price": "A$149",
+      "Capacity": "4 person"
+    }
   },
   {
     "slug": "primus-aisen-3-tent",
@@ -603,7 +701,15 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Tents"
+    "categoryName": "Camping Tents",
+    "highlights": [
+      "3-person capacity"
+    ],
+    "description": "Rated 4.5/5 from 54 reviews. The Primus Aisen 3 Tent is a premium tents from Primus. Geodesic design handles high winds and snow loads. Lightweight for an expedition tent.",
+    "specs": {
+      "Reference price": "A$549",
+      "Capacity": "3 person"
+    }
   },
   {
     "slug": "naturehike-cloud-up-2-tent",
@@ -654,7 +760,17 @@
       }
     ],
     "categoryName": "Camping Tents",
-    "ebayImage": "https://i.ebayimg.com/images/g/j44AAOSwoQBmrJiN/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/j44AAOSwoQBmrJiN/s-l225.jpg",
+    "highlights": [
+      "2-person capacity",
+      "Pack weight: 1.3kg"
+    ],
+    "description": "Rated 4.2/5 from 321 reviews. The Naturehike Cloud-Up 2 Tent is a mid-range tents from Naturehike. Ultralight silnylon tent weighing just 1.3 kg. Budget friendly option for ultralight hikers.",
+    "specs": {
+      "Reference price": "A$159",
+      "Weight": "1.3kg",
+      "Capacity": "2 person"
+    }
   },
   {
     "slug": "teton-sports-mountain-ultra-tent",
@@ -705,7 +821,16 @@
       }
     ],
     "categoryName": "Camping Tents",
-    "ebayImage": "https://i.ebayimg.com/images/g/so0AAeSwl2Zo2jNk/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/so0AAeSwl2Zo2jNk/s-l225.jpg",
+    "highlights": [
+      "Mid-Range tents option",
+      "By Teton Sports",
+      "Affordable three-season tent with a full-coverage fly. Good "
+    ],
+    "description": "Rated 3.8/5 from 176 reviews. The Teton Sports Mountain Ultra Tent is a mid-range tents from Teton Sports. Affordable three-season tent with a full-coverage fly. Good starter tent for beginners.",
+    "specs": {
+      "Reference price": "A$139"
+    }
   },
   {
     "slug": "helinox-chair-one",
@@ -756,7 +881,16 @@
       }
     ],
     "categoryName": "Camping Chairs",
-    "ebayImage": "https://i.ebayimg.com/images/g/NbkAAeSw7tJptHoL/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/NbkAAeSw7tJptHoL/s-l225.jpg",
+    "highlights": [
+      "Weight: 960g",
+      "Folds ultra-compact"
+    ],
+    "description": "Rated 4.8/5 from 534 reviews. The Helinox Chair One is a mid-range chairs from Helinox. Weighs just 960 g. The gold standard in ultralight camp chairs — packs to the size of a water bottle.",
+    "specs": {
+      "Reference price": "A$229",
+      "Weight": "960g"
+    }
   },
   {
     "slug": "helinox-chair-two",
@@ -807,7 +941,16 @@
       }
     ],
     "categoryName": "Camping Chairs",
-    "ebayImage": "https://i.ebayimg.com/images/g/wwwAAeSwAvJptK76/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/wwwAAeSwAvJptK76/s-l225.jpg",
+    "highlights": [
+      "Mid-Range chairs option",
+      "By Helinox",
+      "Higher seat height makes getting up easier. Slightly heavier"
+    ],
+    "description": "Rated 4.7/5 from 312 reviews. The Helinox Chair Two is a mid-range chairs from Helinox. Higher seat height makes getting up easier. Slightly heavier than the One but far more comfortable.",
+    "specs": {
+      "Reference price": "A$279"
+    }
   },
   {
     "slug": "helinox-sunset-chair",
@@ -858,7 +1001,16 @@
       }
     ],
     "categoryName": "Camping Chairs",
-    "ebayImage": "https://i.ebayimg.com/images/g/dGkAAeSwGvtptFpg/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/dGkAAeSwGvtptFpg/s-l225.jpg",
+    "highlights": [
+      "Premium chairs option",
+      "By Helinox",
+      "Reclining backrest and side pocket. The best Helinox for lou"
+    ],
+    "description": "Rated 4.8/5 from 289 reviews. The Helinox Sunset Chair is a premium chairs from Helinox. Reclining backrest and side pocket. The best Helinox for lounging around a long campfire.",
+    "specs": {
+      "Reference price": "A$319"
+    }
   },
   {
     "slug": "oztrail-festival-5-position-chair",
@@ -908,7 +1060,14 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Chairs"
+    "categoryName": "Camping Chairs",
+    "highlights": [
+      "Padded armrests"
+    ],
+    "description": "Rated 4.2/5 from 445 reviews. The OZtrail Festival 5 Position Chair is a budget chairs from OZtrail. Adjustable reclining positions for napping or sitting upright. Wide armrests and a footrest.",
+    "specs": {
+      "Reference price": "A$69"
+    }
   },
   {
     "slug": "kingcamp-heavy-duty-camping-chair",
@@ -959,7 +1118,16 @@
       }
     ],
     "categoryName": "Camping Chairs",
-    "ebayImage": "https://i.ebayimg.com/images/g/ApwAAeSwlURpHyeH/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/ApwAAeSwlURpHyeH/s-l225.jpg",
+    "highlights": [
+      "Weight: 200kg",
+      "Padded armrests"
+    ],
+    "description": "Rated 4.4/5 from 334 reviews. The KingCamp Heavy Duty Camping Chair is a budget chairs from KingCamp. Wide seat with padded armrests. Rated to 200 kg — one of the strongest folding chairs available.",
+    "specs": {
+      "Reference price": "A$99",
+      "Weight": "200kg"
+    }
   },
   {
     "slug": "cascade-mountain-tech-camp-chair",
@@ -1010,7 +1178,14 @@
       }
     ],
     "categoryName": "Camping Chairs",
-    "ebayImage": "https://i.ebayimg.com/images/g/1awAAOSwnjRijLZl/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/1awAAOSwnjRijLZl/s-l225.jpg",
+    "highlights": [
+      "Aluminium frame"
+    ],
+    "description": "Rated 4.2/5 from 289 reviews. The Cascade Mountain Tech Camp Chair is a budget chairs from Cascade Mountain Tech. Lightweight aluminium frame with a breathable mesh back. Great packability at an honest price.",
+    "specs": {
+      "Reference price": "A$55"
+    }
   },
   {
     "slug": "snow-peak-take-chair-short",
@@ -1061,7 +1236,14 @@
       }
     ],
     "categoryName": "Camping Chairs",
-    "ebayImage": "https://i.ebayimg.com/images/g/z8kAAeSwnYVoXJsn/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/z8kAAeSwnYVoXJsn/s-l225.jpg",
+    "highlights": [
+      "Folds ultra-compact"
+    ],
+    "description": "Rated 4.6/5 from 87 reviews. The Snow Peak Take! Chair Short is a mid-range chairs from Snow Peak. Japanese craftsmanship in a compact folding chair. Slim profile and premium feel.",
+    "specs": {
+      "Reference price": "A$259"
+    }
   },
   {
     "slug": "kijaro-dual-lock-chair",
@@ -1112,7 +1294,16 @@
       }
     ],
     "categoryName": "Camping Chairs",
-    "ebayImage": "https://i.ebayimg.com/images/g/4Q4AAeSw17tplIvz/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/4Q4AAeSw17tplIvz/s-l225.jpg",
+    "highlights": [
+      "Budget chairs option",
+      "By Kijaro",
+      "Patented locking system holds the chair in open or closed po"
+    ],
+    "description": "Rated 4.3/5 from 445 reviews. The Kijaro Dual Lock Chair is a budget chairs from Kijaro. Patented locking system holds the chair in open or closed position. 15 colour options.",
+    "specs": {
+      "Reference price": "A$75"
+    }
   },
   {
     "slug": "gci-outdoor-freestyle-rocker-chair",
@@ -1163,7 +1354,14 @@
       }
     ],
     "categoryName": "Camping Chairs",
-    "ebayImage": "https://i.ebayimg.com/images/g/OKIAAeSwpI9o6QR3/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/OKIAAeSwpI9o6QR3/s-l225.jpg",
+    "highlights": [
+      "Padded armrests"
+    ],
+    "description": "Rated 4.5/5 from 234 reviews. The GCI Outdoor Freestyle Rocker Chair is a mid-range chairs from GCI Outdoor. Spring-action rocking on any terrain. Padded armrests and a fold-flat design.",
+    "specs": {
+      "Reference price": "A$119"
+    }
   },
   {
     "slug": "dune-4wd-ironman-camp-chair",
@@ -1214,7 +1412,16 @@
       }
     ],
     "categoryName": "Camping Chairs",
-    "ebayImage": "https://i.ebayimg.com/images/g/wYEAAeSweLhpga0t/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/wYEAAeSweLhpga0t/s-l225.jpg",
+    "highlights": [
+      "Budget chairs option",
+      "By Dune 4WD",
+      "Heavy-duty canvas seat designed for 4WD and outback campers."
+    ],
+    "description": "Rated 4.3/5 from 178 reviews. The Dune 4WD Ironman Camp Chair is a budget chairs from Dune 4WD. Heavy-duty canvas seat designed for 4WD and outback campers. Water-resistant and quick-dry.",
+    "specs": {
+      "Reference price": "A$85"
+    }
   },
   {
     "slug": "yeti-tundra-45-hard-cooler",
@@ -1265,7 +1472,17 @@
       }
     ],
     "categoryName": "Coolers & Ice Boxes",
-    "ebayImage": "https://i.ebayimg.com/images/g/XyEAAeSwlb1pYnV-/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/XyEAAeSwlb1pYnV-/s-l225.jpg",
+    "highlights": [
+      "5+ days ice retention",
+      "Rotomoulded construction",
+      "Bear-proof certified"
+    ],
+    "description": "Rated 4.8/5 from 445 reviews. The YETI Tundra 45 Hard Cooler is a premium coolers from YETI. Rotomoulded construction with up to 5 days of ice retention. Bearproof certified. The benchmark cooler.",
+    "specs": {
+      "Reference price": "A$599",
+      "Ice retention": "5+ days"
+    }
   },
   {
     "slug": "coleman-xtreme-5-wheeled-cooler-62qt",
@@ -1315,7 +1532,18 @@
         "type": "search"
       }
     ],
-    "categoryName": "Coolers & Ice Boxes"
+    "categoryName": "Coolers & Ice Boxes",
+    "highlights": [
+      "5+ days ice retention",
+      "62L capacity",
+      "Wheeled for easy transport"
+    ],
+    "description": "Rated 4.3/5 from 456 reviews. The Coleman Xtreme 5 Wheeled Cooler 62QT is a mid-range coolers from Coleman. Wheeled base and telescoping handle make it easy to haul from the car. 5-day ice retention.",
+    "specs": {
+      "Reference price": "A$169",
+      "Capacity": "62L",
+      "Ice retention": "5+ days"
+    }
   },
   {
     "slug": "dometic-cfx3-55-portable-fridge",
@@ -1366,7 +1594,15 @@
       }
     ],
     "categoryName": "Coolers & Ice Boxes",
-    "ebayImage": "https://i.ebayimg.com/images/g/ctMAAeSwBdloqWFk/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/ctMAAeSwBdloqWFk/s-l225.jpg",
+    "highlights": [
+      "Electric 12V cooling",
+      "Dual-zone temperature control"
+    ],
+    "description": "Rated 4.9/5 from 145 reviews. The Dometic CFX3 55 Portable Fridge is a high-end coolers from Dometic. 55-litre dual-zone model. Keep drinks at 4°C and meat frozen at -18°C simultaneously.",
+    "specs": {
+      "Reference price": "A$1199"
+    }
   },
   {
     "slug": "engel-40l-portable-fridge-freezer",
@@ -1417,7 +1653,16 @@
       }
     ],
     "categoryName": "Coolers & Ice Boxes",
-    "ebayImage": "https://i.ebayimg.com/images/g/FDUAAeSwAYBpWK6u/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/FDUAAeSwAYBpWK6u/s-l225.jpg",
+    "highlights": [
+      "40L capacity",
+      "Electric 12V cooling"
+    ],
+    "description": "Rated 4.8/5 from 201 reviews. The Engel 40L Portable Fridge Freezer is a high-end coolers from Engel. Australian favourite for 4WD touring. Swing motor compressor is vibration-resistant and long-lasting.",
+    "specs": {
+      "Reference price": "A$899",
+      "Capacity": "40L"
+    }
   },
   {
     "slug": "arb-elements-fridge-47l",
@@ -1467,7 +1712,16 @@
         "type": "search"
       }
     ],
-    "categoryName": "Coolers & Ice Boxes"
+    "categoryName": "Coolers & Ice Boxes",
+    "highlights": [
+      "47L capacity",
+      "Electric 12V cooling"
+    ],
+    "description": "Rated 4.8/5 from 167 reviews. The ARB Elements Fridge 47L is a high-end coolers from ARB. Designed for Australian 4WD touring. Handles rough corrugated roads without issue.",
+    "specs": {
+      "Reference price": "A$1099",
+      "Capacity": "47L"
+    }
   },
   {
     "slug": "igloo-bmx-52-roller-cooler",
@@ -1517,7 +1771,14 @@
         "type": "search"
       }
     ],
-    "categoryName": "Coolers & Ice Boxes"
+    "categoryName": "Coolers & Ice Boxes",
+    "highlights": [
+      "Wheeled for easy transport"
+    ],
+    "description": "Rated 4.1/5 from 345 reviews. The Igloo BMX 52 Roller Cooler is a mid-range coolers from Igloo. Heavy-duty wheels roll across sand and gravel. UV-resistant shell handles harsh outdoor conditions.",
+    "specs": {
+      "Reference price": "A$139"
+    }
   },
   {
     "slug": "pelican-50qt-elite-cooler",
@@ -1568,7 +1829,15 @@
       }
     ],
     "categoryName": "Coolers & Ice Boxes",
-    "ebayImage": "https://i.ebayimg.com/images/g/gnoAAeSwjhBppfAA/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/gnoAAeSwjhBppfAA/s-l225.jpg",
+    "highlights": [
+      "50L capacity"
+    ],
+    "description": "Rated 4.8/5 from 123 reviews. The Pelican 50QT Elite Cooler is a premium coolers from Pelican. Lifetime guarantee. Freezer-grade gasket and press-and-pull latches seal tighter than most competitors.",
+    "specs": {
+      "Reference price": "A$549",
+      "Capacity": "50L"
+    }
   },
   {
     "slug": "oztrail-chilly-bin-30l",
@@ -1618,7 +1887,15 @@
         "type": "search"
       }
     ],
-    "categoryName": "Coolers & Ice Boxes"
+    "categoryName": "Coolers & Ice Boxes",
+    "highlights": [
+      "30L capacity"
+    ],
+    "description": "Rated 3.9/5 from 512 reviews. The OZtrail Chilly Bin 30L is a budget coolers from OZtrail. Budget hard cooler for day trips and tailgating. Decent insulation for the price.",
+    "specs": {
+      "Reference price": "A$59",
+      "Capacity": "30L"
+    }
   },
   {
     "slug": "canyon-coolers-outfitter-55",
@@ -1669,7 +1946,16 @@
       }
     ],
     "categoryName": "Coolers & Ice Boxes",
-    "ebayImage": "https://i.ebayimg.com/images/g/UFAAAeSwjFpplHCS/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/UFAAAeSwjFpplHCS/s-l225.jpg",
+    "highlights": [
+      "Premium coolers option",
+      "By Canyon Coolers",
+      "Lifetime warranty and comparable performance to YETI at a lo"
+    ],
+    "description": "Rated 4.7/5 from 89 reviews. The Canyon Coolers Outfitter 55 is a premium coolers from Canyon Coolers. Lifetime warranty and comparable performance to YETI at a lower price. Loved by Australian fishermen.",
+    "specs": {
+      "Reference price": "A$449"
+    }
   },
   {
     "slug": "rtic-45-hard-cooler",
@@ -1720,7 +2006,16 @@
       }
     ],
     "categoryName": "Coolers & Ice Boxes",
-    "ebayImage": "https://i.ebayimg.com/images/g/268AAOSwfLpbj2Ii/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/268AAOSwfLpbj2Ii/s-l225.jpg",
+    "highlights": [
+      "Mid-Range coolers option",
+      "By Rtic",
+      "YETI performance at nearly half the price. Thick walls and f"
+    ],
+    "description": "Rated 4.5/5 from 234 reviews. The Rtic 45 Hard Cooler is a mid-range coolers from Rtic. YETI performance at nearly half the price. Thick walls and freezer-grade gasket.",
+    "specs": {
+      "Reference price": "A$269"
+    }
   },
   {
     "slug": "ozark-trail-73qt-high-performance-cooler",
@@ -1770,7 +2065,17 @@
         "type": "search"
       }
     ],
-    "categoryName": "Coolers & Ice Boxes"
+    "categoryName": "Coolers & Ice Boxes",
+    "highlights": [
+      "5+ days ice retention",
+      "73L capacity"
+    ],
+    "description": "Rated 4.0/5 from 678 reviews. The Ozark Trail 73QT High Performance Cooler is a budget coolers from Ozark Trail. Walmart brand but genuinely good performance. 5-day ice retention tested independently.",
+    "specs": {
+      "Reference price": "A$99",
+      "Capacity": "73L",
+      "Ice retention": "5+ days"
+    }
   },
   {
     "slug": "national-luna-twin-40-fridge-freezer",
@@ -1820,7 +2125,14 @@
         "type": "search"
       }
     ],
-    "categoryName": "Coolers & Ice Boxes"
+    "categoryName": "Coolers & Ice Boxes",
+    "highlights": [
+      "Electric 12V cooling"
+    ],
+    "description": "Rated 4.8/5 from 67 reviews. The National Luna Twin 40 Fridge Freezer is a high-end coolers from National Luna. South African-made compressor fridge with excellent build quality. Popular with overlanders.",
+    "specs": {
+      "Reference price": "A$1299"
+    }
   },
   {
     "slug": "waeco-coolfreeze-cfx-50w",
@@ -1870,7 +2182,14 @@
         "type": "search"
       }
     ],
-    "categoryName": "Coolers & Ice Boxes"
+    "categoryName": "Coolers & Ice Boxes",
+    "highlights": [
+      "Electric 12V cooling"
+    ],
+    "description": "Rated 4.6/5 from 134 reviews. The Waeco CoolFreeze CFX 50W is a high-end coolers from Waeco. Compact compressor fridge with wireless app control. Good for van lifers and caravan owners.",
+    "specs": {
+      "Reference price": "A$799"
+    }
   },
   {
     "slug": "bcf-voyager-60l-wheeled-cooler",
@@ -1920,7 +2239,16 @@
         "type": "search"
       }
     ],
-    "categoryName": "Coolers & Ice Boxes"
+    "categoryName": "Coolers & Ice Boxes",
+    "highlights": [
+      "60L capacity",
+      "Wheeled for easy transport"
+    ],
+    "description": "Rated 4.1/5 from 289 reviews. The BCF Voyager 60L Wheeled Cooler is a mid-range coolers from BCF. BCF house brand with solid performance. Drain plug and rubber feet included.",
+    "specs": {
+      "Reference price": "A$119",
+      "Capacity": "60L"
+    }
   },
   {
     "slug": "anaconda-titan-55qt-cooler",
@@ -1970,7 +2298,17 @@
         "type": "search"
       }
     ],
-    "categoryName": "Coolers & Ice Boxes"
+    "categoryName": "Coolers & Ice Boxes",
+    "highlights": [
+      "3+ days ice retention",
+      "55L capacity"
+    ],
+    "description": "Rated 4.0/5 from 334 reviews. The Anaconda Titan 55QT Cooler is a mid-range coolers from Anaconda. Good entry-level hard cooler with 3-day ice retention. Sturdy latches and carry handles.",
+    "specs": {
+      "Reference price": "A$109",
+      "Capacity": "55L",
+      "Ice retention": "3+ days"
+    }
   },
   {
     "slug": "jetboil-flash-cooking-system",
@@ -2021,7 +2359,15 @@
       }
     ],
     "categoryName": "Camping Stoves",
-    "ebayImage": "https://i.ebayimg.com/images/g/DAoAAOSwzWFeTKTz/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/DAoAAOSwzWFeTKTz/s-l225.jpg",
+    "highlights": [
+      "Boils 500ml in 100s",
+      "Push-button ignition"
+    ],
+    "description": "Rated 4.8/5 from 567 reviews. The Jetboil Flash Cooking System is a mid-range stoves from Jetboil. Boils 500ml in 100 seconds. Push-ignition and insulated cosy keep fuel efficient in cold mornings.",
+    "specs": {
+      "Reference price": "A$169"
+    }
   },
   {
     "slug": "jetboil-minimo-cooking-system",
@@ -2072,7 +2418,16 @@
       }
     ],
     "categoryName": "Camping Stoves",
-    "ebayImage": "https://i.ebayimg.com/images/g/FYAAAeSwLrxph9L4/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/FYAAAeSwLrxph9L4/s-l225.jpg",
+    "highlights": [
+      "Mid-Range stoves option",
+      "By Jetboil",
+      "Wider pot diameter makes simmering and actual cooking possib"
+    ],
+    "description": "Rated 4.7/5 from 389 reviews. The Jetboil MiniMo Cooking System is a mid-range stoves from Jetboil. Wider pot diameter makes simmering and actual cooking possible. Ideal for longer hikes.",
+    "specs": {
+      "Reference price": "A$199"
+    }
   },
   {
     "slug": "msr-pocketrocket-2-stove",
@@ -2123,7 +2478,15 @@
       }
     ],
     "categoryName": "Camping Stoves",
-    "ebayImage": "https://i.ebayimg.com/images/g/5hoAAeSwnExptVQI/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/5hoAAeSwnExptVQI/s-l225.jpg",
+    "highlights": [
+      "Weight: 73g"
+    ],
+    "description": "Rated 4.7/5 from 789 reviews. The MSR PocketRocket 2 Stove is a budget stoves from MSR. Weighs 73 g and packs into a matchbox. Still one of the best ultralight stoves available.",
+    "specs": {
+      "Reference price": "A$69",
+      "Weight": "73g"
+    }
   },
   {
     "slug": "msr-windburner-personal-stove-system",
@@ -2174,7 +2537,14 @@
       }
     ],
     "categoryName": "Camping Stoves",
-    "ebayImage": "https://i.ebayimg.com/images/g/-dMAAOSw95NmTAsC/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/-dMAAOSw95NmTAsC/s-l225.jpg",
+    "highlights": [
+      "Wind-resistant design"
+    ],
+    "description": "Rated 4.8/5 from 312 reviews. The MSR WindBurner Personal Stove System is a mid-range stoves from MSR. Windproof radiant burner works in gales and at altitude. Very fuel efficient.",
+    "specs": {
+      "Reference price": "A$199"
+    }
   },
   {
     "slug": "coleman-2-burner-classic-propane-stove",
@@ -2225,7 +2595,15 @@
       }
     ],
     "categoryName": "Camping Stoves",
-    "ebayImage": "https://i.ebayimg.com/images/g/NiwAAeSwn-FpsMf5/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/NiwAAeSwn-FpsMf5/s-l225.jpg",
+    "highlights": [
+      "2-burner design"
+    ],
+    "description": "Rated 4.4/5 from 1023 reviews. The Coleman 2-Burner Classic Propane Stove is a mid-range stoves from Coleman. The classic road-trip stove. Two burners, wind baffles, and folding legs. Runs on LPG canisters.",
+    "specs": {
+      "Reference price": "A$119",
+      "Burners": "2"
+    }
   },
   {
     "slug": "coleman-classic-2-burner-camp-stove",
@@ -2276,7 +2654,15 @@
       }
     ],
     "categoryName": "Camping Stoves",
-    "ebayImage": "https://i.ebayimg.com/images/g/B6sAAeSwGBBpsxe5/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/B6sAAeSwGBBpsxe5/s-l225.jpg",
+    "highlights": [
+      "2-burner design"
+    ],
+    "description": "Rated 4.3/5 from 876 reviews. The Coleman Classic 2-Burner Camp Stove is a budget stoves from Coleman. Generations of Australians have cooked on this. Reliable, affordable and widely available.",
+    "specs": {
+      "Reference price": "A$99",
+      "Burners": "2"
+    }
   },
   {
     "slug": "camp-chef-everest-2-burner-stove",
@@ -2326,7 +2712,17 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Stoves"
+    "categoryName": "Camping Stoves",
+    "highlights": [
+      "2-burner design",
+      "30,000 BTU output"
+    ],
+    "description": "Rated 4.7/5 from 234 reviews. The Camp Chef Everest 2-Burner Stove is a mid-range stoves from Camp Chef. Restaurant-quality 30,000 BTU per burner output. Professional-grade for serious outdoor cooks.",
+    "specs": {
+      "Reference price": "A$269",
+      "Heat output": "30,000 BTU",
+      "Burners": "2"
+    }
   },
   {
     "slug": "snow-peak-litemax-titanium-stove",
@@ -2377,7 +2773,15 @@
       }
     ],
     "categoryName": "Camping Stoves",
-    "ebayImage": "https://i.ebayimg.com/images/g/UkUAAeSw~slonj7Y/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/UkUAAeSw~slonj7Y/s-l225.jpg",
+    "highlights": [
+      "Weight: 56g"
+    ],
+    "description": "Rated 4.6/5 from 178 reviews. The Snow Peak LiteMax Titanium Stove is a budget stoves from Snow Peak. Weighs just 56 g — the lightest stove on this list. Japanese titanium construction lasts decades.",
+    "specs": {
+      "Reference price": "A$79",
+      "Weight": "56g"
+    }
   },
   {
     "slug": "biolite-campstove-2",
@@ -2428,7 +2832,16 @@
       }
     ],
     "categoryName": "Camping Stoves",
-    "ebayImage": "https://i.ebayimg.com/images/g/28kAAeSwPRtpoNB3/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/28kAAeSwPRtpoNB3/s-l225.jpg",
+    "highlights": [
+      "Mid-Range stoves option",
+      "By BioLite",
+      "Burns sticks and twigs, generates electricity to charge devi"
+    ],
+    "description": "Rated 4.5/5 from 145 reviews. The BioLite CampStove 2+ is a mid-range stoves from BioLite. Burns sticks and twigs, generates electricity to charge devices. No canisters needed — ever.",
+    "specs": {
+      "Reference price": "A$179"
+    }
   },
   {
     "slug": "trangia-25-1-ul-spirit-stove-set",
@@ -2479,7 +2892,16 @@
       }
     ],
     "categoryName": "Camping Stoves",
-    "ebayImage": "https://i.ebayimg.com/images/g/JukAAeSwtj1ptVPW/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/JukAAeSwtj1ptVPW/s-l225.jpg",
+    "highlights": [
+      "Mid-Range stoves option",
+      "By Trangia",
+      "Swedish-made methylated spirits stove with windscreen and po"
+    ],
+    "description": "Rated 4.5/5 from 234 reviews. The Trangia 25-1 UL Spirit Stove Set is a mid-range stoves from Trangia. Swedish-made methylated spirits stove with windscreen and pots included. Classic Scandinavian design.",
+    "specs": {
+      "Reference price": "A$129"
+    }
   },
   {
     "slug": "oztrail-ironside-2-burner-stove",
@@ -2530,7 +2952,15 @@
       }
     ],
     "categoryName": "Camping Stoves",
-    "ebayImage": "https://i.ebayimg.com/images/g/B2wAAeSwvD5pdiGW/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/B2wAAeSwvD5pdiGW/s-l225.jpg",
+    "highlights": [
+      "2-burner design"
+    ],
+    "description": "Rated 4.1/5 from 456 reviews. The OZtrail Ironside 2-Burner Stove is a budget stoves from OZtrail. Good value two-burner stove with fold-out legs. Runs on standard LPG canisters.",
+    "specs": {
+      "Reference price": "A$69",
+      "Burners": "2"
+    }
   },
   {
     "slug": "gasmate-turbo-2-burner-stove",
@@ -2581,7 +3011,16 @@
       }
     ],
     "categoryName": "Camping Stoves",
-    "ebayImage": "https://i.ebayimg.com/images/g/S2oAAeSw-plpb1bT/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/S2oAAeSw-plpb1bT/s-l225.jpg",
+    "highlights": [
+      "2-burner design",
+      "Push-button ignition"
+    ],
+    "description": "Rated 4.0/5 from 389 reviews. The Gasmate Turbo 2-Burner Stove is a budget stoves from Gasmate. Australian brand. Good wind protection and piezo ignition. Widely available at BCF and Anaconda.",
+    "specs": {
+      "Reference price": "A$79",
+      "Burners": "2"
+    }
   },
   {
     "slug": "solo-stove-lite",
@@ -2632,7 +3071,16 @@
       }
     ],
     "categoryName": "Camping Stoves",
-    "ebayImage": "https://i.ebayimg.com/images/g/GgQAAeSwBxdps1qD/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/GgQAAeSwBxdps1qD/s-l225.jpg",
+    "highlights": [
+      "Budget stoves option",
+      "By Solo Stove",
+      "Wood-burning stove with secondary combustion for near-smokel"
+    ],
+    "description": "Rated 4.5/5 from 267 reviews. The Solo Stove Lite is a budget stoves from Solo Stove. Wood-burning stove with secondary combustion for near-smokeless fires. Great on trails.",
+    "specs": {
+      "Reference price": "A$79"
+    }
   },
   {
     "slug": "iwatani-cassette-feu-cb-abr-2-stove",
@@ -2683,7 +3131,16 @@
       }
     ],
     "categoryName": "Camping Stoves",
-    "ebayImage": "https://i.ebayimg.com/images/g/LuIAAOSwmTFhvSaw/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/LuIAAOSwmTFhvSaw/s-l225.jpg",
+    "highlights": [
+      "Budget stoves option",
+      "By Iwatani",
+      "Uses readily available butane cassettes from supermarkets. 3"
+    ],
+    "description": "Rated 4.3/5 from 534 reviews. The Iwatani Cassette Feu CB-ABR-2 Stove is a budget stoves from Iwatani. Uses readily available butane cassettes from supermarkets. 3.3 kW output for quick cooking.",
+    "specs": {
+      "Reference price": "A$49"
+    }
   },
   {
     "slug": "soto-windmaster-stove",
@@ -2734,7 +3191,16 @@
       }
     ],
     "categoryName": "Camping Stoves",
-    "ebayImage": "https://i.ebayimg.com/images/g/ymQAAeSws2Fo7iah/s-l225.jpg"
+    "ebayImage": "https://i.ebayimg.com/images/g/ymQAAeSws2Fo7iah/s-l225.jpg",
+    "highlights": [
+      "Budget stoves option",
+      "By Soto",
+      "Micro-regulator adjusts gas flow in cold temps. Best cold-we"
+    ],
+    "description": "Rated 4.7/5 from 201 reviews. The Soto Windmaster Stove is a budget stoves from Soto. Micro-regulator adjusts gas flow in cold temps. Best cold-weather canister stove under $120.",
+    "specs": {
+      "Reference price": "A$95"
+    }
   },
   {
     "slug": "bcf-2-burner-stove-with-cover",
@@ -2784,7 +3250,15 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Stoves"
+    "categoryName": "Camping Stoves",
+    "highlights": [
+      "2-burner design"
+    ],
+    "description": "Rated 3.9/5 from 445 reviews. The BCF 2-Burner Stove with Cover is a budget stoves from BCF. Affordable house brand stove with integrated windscreen cover. Good for car camping.",
+    "specs": {
+      "Reference price": "A$59",
+      "Burners": "2"
+    }
   },
   {
     "slug": "anatton-camping-stove-single-burner",
@@ -2834,7 +3308,16 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Stoves"
+    "categoryName": "Camping Stoves",
+    "highlights": [
+      "Budget stoves option",
+      "By Anatton",
+      "Ultra cheap canister stove for budget hikers. Gets the job d"
+    ],
+    "description": "Rated 3.8/5 from 678 reviews. The Anatton Camping Stove Single Burner is a budget stoves from Anatton. Ultra cheap canister stove for budget hikers. Gets the job done — just don't expect finesse.",
+    "specs": {
+      "Reference price": "A$24"
+    }
   },
   {
     "slug": "zempire-revo-2-stove",
@@ -2884,7 +3367,16 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Stoves"
+    "categoryName": "Camping Stoves",
+    "highlights": [
+      "Mid-Range stoves option",
+      "By Zempire",
+      "New Zealand brand with a focus on durability. Excellent wind"
+    ],
+    "description": "Rated 4.4/5 from 134 reviews. The Zempire Revo 2 Stove is a mid-range stoves from Zempire. New Zealand brand with a focus on durability. Excellent wind resistance and simmer control.",
+    "specs": {
+      "Reference price": "A$149"
+    }
   },
   {
     "slug": "goal-zero-lighthouse-600-lantern",
@@ -2934,7 +3426,17 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Lanterns"
+    "categoryName": "Camping Lanterns",
+    "highlights": [
+      "600 lumens max brightness",
+      "USB rechargeable",
+      "Folds flat for packing"
+    ],
+    "description": "Rated 4.7/5 from 334 reviews. The Goal Zero Lighthouse 600 Lantern is a mid-range lanterns from Goal Zero. 600 lumens with built-in USB charging for your phone. Folds flat for packing.",
+    "specs": {
+      "Reference price": "A$179",
+      "Brightness": "600 lm"
+    }
   },
   {
     "slug": "coleman-quad-pro-led-lantern",
@@ -2984,7 +3486,16 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Lanterns"
+    "categoryName": "Camping Lanterns",
+    "highlights": [
+      "Budget lanterns option",
+      "By Coleman",
+      "Removable panels split into four individual LED lights. Very"
+    ],
+    "description": "Rated 4.4/5 from 567 reviews. The Coleman Quad Pro LED Lantern is a budget lanterns from Coleman. Removable panels split into four individual LED lights. Very versatile camp lighting system.",
+    "specs": {
+      "Reference price": "A$69"
+    }
   },
   {
     "slug": "coleman-onesource-led-lantern",
@@ -3034,7 +3545,16 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Lanterns"
+    "categoryName": "Camping Lanterns",
+    "highlights": [
+      "Budget lanterns option",
+      "By Coleman",
+      "Runs on the OneSource rechargeable battery system shared wit"
+    ],
+    "description": "Rated 4.3/5 from 445 reviews. The Coleman OneSource LED Lantern is a budget lanterns from Coleman. Runs on the OneSource rechargeable battery system shared with other Coleman tools.",
+    "specs": {
+      "Reference price": "A$59"
+    }
   },
   {
     "slug": "coleman-4d-xps-led-lantern",
@@ -3084,7 +3604,17 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Lanterns"
+    "categoryName": "Camping Lanterns",
+    "highlights": [
+      "350 lumens max brightness",
+      "Up to 75h runtime"
+    ],
+    "description": "Rated 4.2/5 from 678 reviews. The Coleman 4D XPS LED Lantern is a budget lanterns from Coleman. Runs on standard D batteries. 350 lumens and up to 75 hours run time.",
+    "specs": {
+      "Reference price": "A$39",
+      "Brightness": "350 lm",
+      "Runtime": "75h"
+    }
   },
   {
     "slug": "fenix-cl26r-camping-lantern",
@@ -3134,7 +3664,17 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Lanterns"
+    "categoryName": "Camping Lanterns",
+    "highlights": [
+      "400 lumens max brightness",
+      "USB rechargeable",
+      "Water-resistant"
+    ],
+    "description": "Rated 4.8/5 from 167 reviews. The Fenix CL26R Camping Lantern is a budget lanterns from Fenix. Compact USB-rechargeable lantern with 400 lumens and a magnetic base. Waterproof rated IPX6.",
+    "specs": {
+      "Reference price": "A$99",
+      "Brightness": "400 lm"
+    }
   },
   {
     "slug": "biolite-sitelight-80-solar-lantern",
@@ -3184,7 +3724,16 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Lanterns"
+    "categoryName": "Camping Lanterns",
+    "highlights": [
+      "80 lumens max brightness",
+      "Solar charging"
+    ],
+    "description": "Rated 4.5/5 from 198 reviews. The BioLite SiteLight 80 Solar Lantern is a budget lanterns from BioLite. Solar panel on the lid charges the built-in battery. 80 lumens for a full campsite.",
+    "specs": {
+      "Reference price": "A$75",
+      "Brightness": "80 lm"
+    }
   },
   {
     "slug": "luci-solar-inflatable-lantern",
@@ -3234,7 +3783,16 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Lanterns"
+    "categoryName": "Camping Lanterns",
+    "highlights": [
+      "Solar charging",
+      "Water-resistant"
+    ],
+    "description": "Rated 4.3/5 from 834 reviews. The Luci Solar Inflatable Lantern is a budget lanterns from MPOWERD. Inflatable waterproof solar lantern. Weighs 76 g and floats. Great for kayaking and packrafting.",
+    "specs": {
+      "Reference price": "A$29",
+      "Weight": "76g"
+    }
   },
   {
     "slug": "ust-30-day-duro-led-lantern",
@@ -3284,7 +3842,14 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Lanterns"
+    "categoryName": "Camping Lanterns",
+    "highlights": [
+      "Water-resistant"
+    ],
+    "description": "Rated 4.4/5 from 289 reviews. The UST 30-Day Duro LED Lantern is a budget lanterns from UST. Claims 30 days of runtime on 4 D batteries at low mode. IP54 water-resistant.",
+    "specs": {
+      "Reference price": "A$55"
+    }
   },
   {
     "slug": "nitecore-lr60-lantern",
@@ -3334,7 +3899,18 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Lanterns"
+    "categoryName": "Camping Lanterns",
+    "highlights": [
+      "1200 lumens max brightness",
+      "Up to 3h runtime",
+      "USB rechargeable"
+    ],
+    "description": "Rated 4.7/5 from 134 reviews. The Nitecore LR60 Lantern is a budget lanterns from Nitecore. 1200 lumens peak output. Built-in battery charged via USB-C in 3 hours.",
+    "specs": {
+      "Reference price": "A$85",
+      "Brightness": "1200 lm",
+      "Runtime": "3h"
+    }
   },
   {
     "slug": "luminaid-packlite-nova-solar-lantern",
@@ -3384,7 +3960,16 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Lanterns"
+    "categoryName": "Camping Lanterns",
+    "highlights": [
+      "Solar charging",
+      "Folds flat for packing",
+      "Water-resistant"
+    ],
+    "description": "Rated 4.4/5 from 201 reviews. The LuminAID PackLite Nova Solar Lantern is a budget lanterns from LuminAID. Collapsible solar-powered lantern. Doubles as a phone charger. Waterproof and floats.",
+    "specs": {
+      "Reference price": "A$49"
+    }
   },
   {
     "slug": "oztrail-10w-led-lantern",
@@ -3434,7 +4019,16 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Lanterns"
+    "categoryName": "Camping Lanterns",
+    "highlights": [
+      "Budget lanterns option",
+      "By OZtrail",
+      "Bright 700-lumen output runs on 6 D batteries. Simple on/off"
+    ],
+    "description": "Rated 4.0/5 from 534 reviews. The OZtrail 10W LED Lantern is a budget lanterns from OZtrail. Bright 700-lumen output runs on 6 D batteries. Simple on/off switch for easy use.",
+    "specs": {
+      "Reference price": "A$39"
+    }
   },
   {
     "slug": "streamlight-the-siege-lantern",
@@ -3484,7 +4078,16 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Lanterns"
+    "categoryName": "Camping Lanterns",
+    "highlights": [
+      "Budget lanterns option",
+      "By Streamlight",
+      "Multi-directional lenses. Runs on 3 AA batteries. Made in th"
+    ],
+    "description": "Rated 4.5/5 from 289 reviews. The Streamlight The Siege Lantern is a budget lanterns from Streamlight. Multi-directional lenses. Runs on 3 AA batteries. Made in the USA by a trusted torch brand.",
+    "specs": {
+      "Reference price": "A$65"
+    }
   },
   {
     "slug": "brunton-hydrogen-reactor-lantern",
@@ -3534,7 +4137,16 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Lanterns"
+    "categoryName": "Camping Lanterns",
+    "highlights": [
+      "Budget lanterns option",
+      "By Brunton",
+      "Fuel-cell powered lantern for off-grid adventures. Hydrogen "
+    ],
+    "description": "Rated 4.1/5 from 167 reviews. The Brunton Hydrogen Reactor Lantern is a budget lanterns from Brunton. Fuel-cell powered lantern for off-grid adventures. Hydrogen canister included.",
+    "specs": {
+      "Reference price": "A$49"
+    }
   },
   {
     "slug": "lander-cascade-800-lantern",
@@ -3584,7 +4196,17 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Lanterns"
+    "categoryName": "Camping Lanterns",
+    "highlights": [
+      "800 lumens max brightness",
+      "USB rechargeable",
+      "Adjustable brightness"
+    ],
+    "description": "Rated 4.4/5 from 145 reviews. The Lander Cascade 800 Lantern is a budget lanterns from Lander. 800 lumens with adjustable colour temperature. USB-C rechargeable with pass-through charging.",
+    "specs": {
+      "Reference price": "A$75",
+      "Brightness": "800 lm"
+    }
   },
   {
     "slug": "ledlenser-ml6-compact-lantern",
@@ -3634,7 +4256,15 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Lanterns"
+    "categoryName": "Camping Lanterns",
+    "highlights": [
+      "750 lumens max brightness"
+    ],
+    "description": "Rated 4.6/5 from 178 reviews. The Ledlenser ML6 Compact Lantern is a budget lanterns from Ledlenser. Magnetic attachment and 750 lumens. Compatible with Ledlenser battery system.",
+    "specs": {
+      "Reference price": "A$99",
+      "Brightness": "750 lm"
+    }
   },
   {
     "slug": "bcf-rechargeable-led-lantern",
@@ -3684,7 +4314,14 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Lanterns"
+    "categoryName": "Camping Lanterns",
+    "highlights": [
+      "USB rechargeable"
+    ],
+    "description": "Rated 4.0/5 from 389 reviews. The BCF Rechargeable LED Lantern is a budget lanterns from BCF. BCF house brand with USB-C charging. Good everyday lantern at a fair price.",
+    "specs": {
+      "Reference price": "A$45"
+    }
   },
   {
     "slug": "energizer-led-collapsible-lantern",
@@ -3734,7 +4371,14 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Lanterns"
+    "categoryName": "Camping Lanterns",
+    "highlights": [
+      "Folds flat for packing"
+    ],
+    "description": "Rated 3.9/5 from 623 reviews. The Energizer LED Collapsible Lantern is a budget lanterns from Energizer. Pop-up design from flat pack. Runs on standard AA batteries. Great as a backup lantern.",
+    "specs": {
+      "Reference price": "A$22"
+    }
   },
   {
     "slug": "sea-to-summit-spark-sp1-sleeping-bag",
@@ -3784,7 +4428,18 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems"
+    "categoryName": "Camp Sleep Systems",
+    "highlights": [
+      "-9°C comfort rating",
+      "Pack weight: 190g",
+      "Premium down fill"
+    ],
+    "description": "Rated 4.7/5 from 178 reviews. The Sea to Summit Spark SP1 Sleeping Bag is a premium sleep systems from Sea to Summit. 950+ fill-power down rated to -9°C. Weighs just 190 g. Compresses to a 1-litre pack size.",
+    "specs": {
+      "Reference price": "A$389",
+      "Weight": "190g",
+      "Temp rating": "-9°C"
+    }
   },
   {
     "slug": "sea-to-summit-altitude-at2-sleeping-bag",
@@ -3834,7 +4489,15 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems"
+    "categoryName": "Camp Sleep Systems",
+    "highlights": [
+      "-9°C comfort rating"
+    ],
+    "description": "Rated 4.8/5 from 89 reviews. The Sea to Summit Altitude AT2 Sleeping Bag is a premium sleep systems from Sea to Summit. Expedition-grade sleeping bag for Australian alpine conditions. -9°C comfort rating.",
+    "specs": {
+      "Reference price": "A$649",
+      "Temp rating": "-9°C"
+    }
   },
   {
     "slug": "sea-to-summit-ether-light-xt-sleeping-mat",
@@ -3884,7 +4547,15 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems"
+    "categoryName": "Camp Sleep Systems",
+    "highlights": [
+      "R-value: 3.2"
+    ],
+    "description": "Rated 4.7/5 from 234 reviews. The Sea to Summit Ether Light XT Sleeping Mat is a mid-range sleep systems from Sea to Summit. R-value 3.2 and 10 cm thick. The most comfortable ultralight mat available for Australian campers.",
+    "specs": {
+      "Reference price": "A$299",
+      "R-value": "3.2"
+    }
   },
   {
     "slug": "therm-a-rest-trail-scout-sleeping-pad",
@@ -3934,7 +4605,17 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems"
+    "categoryName": "Camp Sleep Systems",
+    "highlights": [
+      "R-value: 2.8.",
+      "Inflatable sleeping mat",
+      "Self-inflating mat"
+    ],
+    "description": "Rated 4.2/5 from 445 reviews. The Therm-a-Rest Trail Scout Sleeping Pad is a budget sleep systems from Therm-a-Rest. Self-inflating foam mat. R-value 2.8. Affordable entry point into quality sleep systems.",
+    "specs": {
+      "Reference price": "A$79",
+      "R-value": "2.8."
+    }
   },
   {
     "slug": "coleman-brazos-cold-weather-sleeping-bag",
@@ -3984,7 +4665,15 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems"
+    "categoryName": "Camp Sleep Systems",
+    "highlights": [
+      "-12°C comfort rating"
+    ],
+    "description": "Rated 4.2/5 from 534 reviews. The Coleman Brazos Cold Weather Sleeping Bag is a budget sleep systems from Coleman. Rated to -12°C. Fleece lining feels warm against skin. Good family camping bag.",
+    "specs": {
+      "Reference price": "A$69",
+      "Temp rating": "-12°C"
+    }
   },
   {
     "slug": "coleman-kompact-7c-sleeping-bag",
@@ -4034,7 +4723,15 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems"
+    "categoryName": "Camp Sleep Systems",
+    "highlights": [
+      "7°C comfort rating"
+    ],
+    "description": "Rated 4.1/5 from 678 reviews. The Coleman Kompact 7C Sleeping Bag is a budget sleep systems from Coleman. Compact roll for a budget bag. Rated to 7°C for three-season Australian camping.",
+    "specs": {
+      "Reference price": "A$55",
+      "Temp rating": "7°C"
+    }
   },
   {
     "slug": "blackwolf-element-0-sleeping-bag",
@@ -4084,7 +4781,16 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems"
+    "categoryName": "Camp Sleep Systems",
+    "highlights": [
+      "0°C comfort rating",
+      "Premium down fill"
+    ],
+    "description": "Rated 4.5/5 from 201 reviews. The Blackwolf Element 0 Sleeping Bag is a mid-range sleep systems from Blackwolf. 0°C comfort rating with 650-fill down. Australian brand making excellent bags.",
+    "specs": {
+      "Reference price": "A$269",
+      "Temp rating": "0°C"
+    }
   },
   {
     "slug": "blackwolf-comfort-plus-5-sleeping-bag",
@@ -4134,7 +4840,16 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems"
+    "categoryName": "Camp Sleep Systems",
+    "highlights": [
+      "5°C comfort rating",
+      "Synthetic fill — performs when wet"
+    ],
+    "description": "Rated 4.3/5 from 289 reviews. The Blackwolf Comfort Plus 5 Sleeping Bag is a mid-range sleep systems from Blackwolf. 5°C comfort rated synthetic fill. Great for warm-weather touring and car camping.",
+    "specs": {
+      "Reference price": "A$159",
+      "Temp rating": "5°C"
+    }
   },
   {
     "slug": "oztrail-kakadu-0-sleeping-bag",
@@ -4184,7 +4899,15 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems"
+    "categoryName": "Camp Sleep Systems",
+    "highlights": [
+      "0°C comfort rating"
+    ],
+    "description": "Rated 4.0/5 from 445 reviews. The OZtrail Kakadu 0 Sleeping Bag is a mid-range sleep systems from OZtrail. Named after the iconic Australian national park. 0°C rating and mummy shape for warmth.",
+    "specs": {
+      "Reference price": "A$119",
+      "Temp rating": "0°C"
+    }
   },
   {
     "slug": "western-mountaineering-megalite-sleeping-bag",
@@ -4234,7 +4957,16 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems"
+    "categoryName": "Camp Sleep Systems",
+    "highlights": [
+      "0°C comfort rating",
+      "Premium down fill"
+    ],
+    "description": "Rated 4.9/5 from 56 reviews. The Western Mountaineering Megalite Sleeping Bag is a high-end sleep systems from Western Mountaineering. American-made 850-fill down bag rated to 0°C. Used by professional guides and mountaineers.",
+    "specs": {
+      "Reference price": "A$749",
+      "Temp rating": "0°C"
+    }
   },
   {
     "slug": "exped-synmat-hl-sleeping-mat",
@@ -4284,7 +5016,16 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems"
+    "categoryName": "Camp Sleep Systems",
+    "highlights": [
+      "R-value: 3.3.",
+      "Synthetic fill — performs when wet"
+    ],
+    "description": "Rated 4.6/5 from 134 reviews. The Exped SynMat HL Sleeping Mat is a mid-range sleep systems from Exped. Synthetic insulation mat with R-value 3.3. Safe to use in damp conditions unlike down mats.",
+    "specs": {
+      "Reference price": "A$259",
+      "R-value": "3.3."
+    }
   },
   {
     "slug": "klymit-static-v2-sleeping-pad",
@@ -4334,7 +5075,15 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems"
+    "categoryName": "Camp Sleep Systems",
+    "highlights": [
+      "R-value: 1.3."
+    ],
+    "description": "Rated 4.4/5 from 567 reviews. The Klymit Static V2 Sleeping Pad is a budget sleep systems from Klymit. V-chamber design keeps you centred on the pad. R-value 1.3. Budget backpacking pick.",
+    "specs": {
+      "Reference price": "A$99",
+      "R-value": "1.3."
+    }
   },
   {
     "slug": "nemo-disco-15-sleeping-bag",
@@ -4384,7 +5133,16 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems"
+    "categoryName": "Camp Sleep Systems",
+    "highlights": [
+      "Premium sleep systems option",
+      "By Nemo",
+      "Spoon shape gives extra hip room. Blanket fold lets you vent"
+    ],
+    "description": "Rated 4.7/5 from 89 reviews. The Nemo Disco 15 Sleeping Bag is a premium sleep systems from Nemo. Spoon shape gives extra hip room. Blanket fold lets you vent on warm nights.",
+    "specs": {
+      "Reference price": "A$549"
+    }
   },
   {
     "slug": "enlightened-equipment-revelation-quilt",
@@ -4434,7 +5192,16 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems"
+    "categoryName": "Camp Sleep Systems",
+    "highlights": [
+      "Pack weight: 200g",
+      "Premium down fill"
+    ],
+    "description": "Rated 4.8/5 from 67 reviews. The Enlightened Equipment Revelation Quilt is a premium sleep systems from Enlightened Equipment. Down quilt for ultralight backpackers. Saves 200 g over a comparable sleeping bag.",
+    "specs": {
+      "Reference price": "A$469",
+      "Weight": "200g"
+    }
   },
   {
     "slug": "darche-nebula-5-sleeping-bag",
@@ -4484,7 +5251,16 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems"
+    "categoryName": "Camp Sleep Systems",
+    "highlights": [
+      "Mid-Range sleep systems option",
+      "By Darche",
+      "Australian-designed for cold desert nights. Hood and collar "
+    ],
+    "description": "Rated 4.4/5 from 156 reviews. The Darche Nebula -5 Sleeping Bag is a mid-range sleep systems from Darche. Australian-designed for cold desert nights. Hood and collar draft tube for maximum warmth.",
+    "specs": {
+      "Reference price": "A$169"
+    }
   },
   {
     "slug": "bcf-journey-5-sleeping-bag",
@@ -4534,7 +5310,15 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems"
+    "categoryName": "Camp Sleep Systems",
+    "highlights": [
+      "-5°C comfort rating"
+    ],
+    "description": "Rated 4.0/5 from 378 reviews. The BCF Journey -5 Sleeping Bag is a budget sleep systems from BCF. House brand -5°C sleeping bag. Good value for car campers who don't want to spend a fortune.",
+    "specs": {
+      "Reference price": "A$79",
+      "Temp rating": "-5°C"
+    }
   },
   {
     "slug": "anaconda-trail-blazer-sleeping-bag",
@@ -4584,7 +5368,15 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems"
+    "categoryName": "Camp Sleep Systems",
+    "highlights": [
+      "5°C comfort rating"
+    ],
+    "description": "Rated 3.8/5 from 445 reviews. The Anaconda Trail Blazer Sleeping Bag is a budget sleep systems from Anaconda. Budget mummy bag for mild Australian summers. Rated to 5°C comfort.",
+    "specs": {
+      "Reference price": "A$59",
+      "Temp rating": "5°C"
+    }
   },
   {
     "slug": "vango-nitestar-alpha-250-sleeping-bag",
@@ -4634,7 +5426,14 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems"
+    "categoryName": "Camp Sleep Systems",
+    "highlights": [
+      "Synthetic fill — performs when wet"
+    ],
+    "description": "Rated 4.2/5 from 189 reviews. The Vango Nitestar Alpha 250 Sleeping Bag is a mid-range sleep systems from Vango. UK brand with good value synthetic insulation. Machine washable and durable.",
+    "specs": {
+      "Reference price": "A$139"
+    }
   },
   {
     "slug": "biolite-sitelight-80-string-lantern",
@@ -4669,13 +5468,16 @@
         "url": "https://www.anacondastores.com/search?text=BioLite%20SiteLight%2080%20String%20Lantern"
       }
     ],
-    "description": "Packable area-light option for soft campsite ambiance and tent-zone visibility. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "description": "Rated 4.3/5 from 67 reviews. The BioLite SiteLight 80 String Lantern is a budget lanterns from BioLite. Packable area-light option for soft campsite ambiance and tent-zone visibility.",
     "highlights": [
-      "area light",
-      "soft ambience",
-      "compact kit"
+      "Budget lanterns option",
+      "By BioLite",
+      "Packable area-light option for soft campsite ambiance and te"
     ],
-    "categoryName": "Camping Lanterns"
+    "categoryName": "Camping Lanterns",
+    "specs": {
+      "Reference price": "A$69"
+    }
   },
   {
     "slug": "oztrail-fast-frame-lumos-10-person-tent",
@@ -4710,13 +5512,16 @@
         "url": "https://www.anacondastores.com/search?text=OZtrail%20Fast%20Frame%20Lumos%2010%20Person%20Tent"
       }
     ],
-    "description": "Large fast-frame tent designed for roomy family weekends and simple setup. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "description": "Rated 4.6/5 from 151 reviews. The OZtrail Fast Frame Lumos 10 Person Tent is a high-end tents from OZtrail. Large fast-frame tent designed for roomy family weekends and simple setup.",
     "highlights": [
-      "large family size",
-      "quick frame",
-      "weekend trips"
+      "10-person capacity",
+      "Fast instant setup"
     ],
-    "categoryName": "Camping Tents"
+    "categoryName": "Camping Tents",
+    "specs": {
+      "Reference price": "A$799",
+      "Capacity": "10 person"
+    }
   },
   {
     "slug": "trangia-25-1-ul-stove-set",
@@ -4751,13 +5556,16 @@
         "url": "https://www.anacondastores.com/search?text=Trangia%2025-1%20UL%20Stove%20Set"
       }
     ],
-    "description": "All-in-one cook set valued for wind performance and simple reliability. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "description": "Rated 4.7/5 from 102 reviews. The Trangia 25-1 UL Stove Set is a mid-range stoves from Trangia. All-in-one cook set valued for wind performance and simple reliability.",
     "highlights": [
-      "cook set",
-      "wind friendly",
-      "proven reliability"
+      "Mid-Range stoves option",
+      "By Trangia",
+      "All-in-one cook set valued for wind performance and simple r"
     ],
-    "categoryName": "Camping Stoves"
+    "categoryName": "Camping Stoves",
+    "specs": {
+      "Reference price": "A$199"
+    }
   },
   {
     "slug": "coleman-skydome-4-person-tent",
@@ -4792,13 +5600,16 @@
         "url": "https://www.anacondastores.com/search?text=Coleman%20Skydome%204%20Person%20Tent"
       }
     ],
-    "description": "Budget-friendly dome tent for entry-level campers and weekend use. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "description": "Rated 4.4/5 from 210 reviews. The Coleman Skydome 4 Person Tent is a mid-range tents from Coleman. Budget-friendly dome tent for entry-level campers and weekend use.",
     "highlights": [
-      "budget tent",
-      "easy weekend use",
-      "beginner friendly"
+      "4-person capacity",
+      "Dome tent design"
     ],
-    "categoryName": "Camping Tents"
+    "categoryName": "Camping Tents",
+    "specs": {
+      "Reference price": "A$249",
+      "Capacity": "4 person"
+    }
   },
   {
     "slug": "therm-a-rest-neoair-xlite-nxt",
@@ -4833,13 +5644,16 @@
         "url": "https://www.anacondastores.com/search?text=Therm-a-Rest%20NeoAir%20XLite%20NXT"
       }
     ],
-    "description": "Lightweight sleeping mat with an excellent warmth-to-weight balance. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "description": "Rated 4.8/5 from 162 reviews. The Therm-a-Rest NeoAir XLite NXT is a premium sleep systems from Therm-a-Rest. Lightweight sleeping mat with an excellent warmth-to-weight balance.",
     "highlights": [
-      "warmth to weight",
-      "lightweight mat",
-      "premium sleep"
+      "Premium sleep systems option",
+      "By Therm-a-Rest",
+      "Lightweight sleeping mat with an excellent warmth-to-weight "
     ],
-    "categoryName": "Camp Sleep Systems"
+    "categoryName": "Camp Sleep Systems",
+    "specs": {
+      "Reference price": "A$329"
+    }
   },
   {
     "slug": "sea-to-summit-telos-tr3-tent",
@@ -4874,13 +5688,16 @@
         "url": "https://www.anacondastores.com/search?text=Sea%20to%20Summit%20Telos%20TR3%20Tent"
       }
     ],
-    "description": "Well-regarded three-person tent balancing weight, ventilation and interior space. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "description": "Rated 4.8/5 from 103 reviews. The Sea to Summit Telos TR3 Tent is a high-end tents from Sea to Summit. Well-regarded three-person tent balancing weight, ventilation and interior space.",
     "highlights": [
-      "3-person shelter",
-      "premium backpacking",
-      "excellent ventilation"
+      "3-person capacity",
+      "Mesh panels for airflow"
     ],
-    "categoryName": "Camping Tents"
+    "categoryName": "Camping Tents",
+    "specs": {
+      "Reference price": "A$879",
+      "Capacity": "3 person"
+    }
   },
   {
     "slug": "snowys-tourer-4-person-canvas-tent",
@@ -4915,13 +5732,15 @@
         "url": "https://www.anacondastores.com/search?text=Snowys%20Tourer%204%20Person%20Canvas%20Tent"
       }
     ],
-    "description": "Heavy-duty canvas style for campers wanting extra durability and weather confidence. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "description": "Rated 4.7/5 from 59 reviews. The Snowys Tourer 4 Person Canvas Tent is a high-end tents from Snowys. Heavy-duty canvas style for campers wanting extra durability and weather confidence.",
     "highlights": [
-      "canvas durability",
-      "touring comfort",
-      "weather protection"
+      "4-person capacity"
     ],
-    "categoryName": "Camping Tents"
+    "categoryName": "Camping Tents",
+    "specs": {
+      "Reference price": "A$1099",
+      "Capacity": "4 person"
+    }
   },
   {
     "slug": "dometic-cool-ice-ci-42",
@@ -4956,13 +5775,16 @@
         "url": "https://www.anacondastores.com/search?text=Dometic%20Cool%20Ice%20CI%2042"
       }
     ],
-    "description": "Dependable hard cooler for weekend camps and family food storage. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "description": "Rated 4.7/5 from 145 reviews. The Dometic Cool Ice CI 42 is a mid-range coolers from Dometic. Dependable hard cooler for weekend camps and family food storage.",
     "highlights": [
-      "family food storage",
-      "hard cooler",
-      "reliable insulation"
+      "Mid-Range coolers option",
+      "By Dometic",
+      "Dependable hard cooler for weekend camps and family food sto"
     ],
-    "categoryName": "Coolers & Ice Boxes"
+    "categoryName": "Coolers & Ice Boxes",
+    "specs": {
+      "Reference price": "A$229"
+    }
   },
   {
     "slug": "aldi-adventuridge-directors-chair",
@@ -4997,13 +5819,16 @@
         "url": "https://www.anacondastores.com/search?text=ALDI%20Adventuridge%20Directors%20Chair"
       }
     ],
-    "description": "Director-style chair with practical seat height and easy meal-time use. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "description": "Rated 4.3/5 from 74 reviews. The ALDI Adventuridge Directors Chair is a budget chairs from ALDI. Director-style chair with practical seat height and easy meal-time use.",
     "highlights": [
-      "director style",
-      "upright seating",
-      "value pick"
+      "Budget chairs option",
+      "By ALDI",
+      "Director-style chair with practical seat height and easy mea"
     ],
-    "categoryName": "Camping Chairs"
+    "categoryName": "Camping Chairs",
+    "specs": {
+      "Reference price": "A$69"
+    }
   },
   {
     "slug": "kampa-sandy-low-chair",
@@ -5038,13 +5863,16 @@
         "url": "https://www.anacondastores.com/search?text=Kampa%20Sandy%20Low%20Chair"
       }
     ],
-    "description": "Low relaxed chair suited to beaches, parks and casual family camping. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "description": "Rated 4.4/5 from 61 reviews. The Kampa Sandy Low Chair is a budget chairs from Kampa. Low relaxed chair suited to beaches, parks and casual family camping.",
     "highlights": [
-      "low chair",
-      "beach friendly",
-      "casual lounging"
+      "Budget chairs option",
+      "By Kampa",
+      "Low relaxed chair suited to beaches, parks and casual family"
     ],
-    "categoryName": "Camping Chairs"
+    "categoryName": "Camping Chairs",
+    "specs": {
+      "Reference price": "A$89"
+    }
   },
   {
     "slug": "coleman-classic-2-burner-stove",
@@ -5079,13 +5907,15 @@
         "url": "https://www.anacondastores.com/search?text=Coleman%20Classic%202%20Burner%20Stove"
       }
     ],
-    "description": "A proven dual-burner camp stove for straightforward family meal prep. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "description": "Rated 4.7/5 from 243 reviews. The Coleman Classic 2 Burner Stove is a mid-range stoves from Coleman. A proven dual-burner camp stove for straightforward family meal prep.",
     "highlights": [
-      "two-burner cooker",
-      "family camping",
-      "dependable classic"
+      "2-burner design"
     ],
-    "categoryName": "Camping Stoves"
+    "categoryName": "Camping Stoves",
+    "specs": {
+      "Reference price": "A$169",
+      "Burners": "2"
+    }
   },
   {
     "slug": "blackwolf-turbo-lite-plus-300-tent",
@@ -5120,13 +5950,16 @@
         "url": "https://www.anacondastores.com/search?text=BlackWolf%20Turbo%20Lite%20Plus%20300%20Tent"
       }
     ],
-    "description": "Popular touring tent with quick-pitch layout and useful livability. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "description": "Rated 4.6/5 from 123 reviews. The BlackWolf Turbo Lite Plus 300 Tent is a premium tents from BlackWolf. Popular touring tent with quick-pitch layout and useful livability.",
     "highlights": [
-      "touring tent",
-      "easy setup",
-      "roomy interior"
+      "00-person capacity",
+      "Fast instant setup"
     ],
-    "categoryName": "Camping Tents"
+    "categoryName": "Camping Tents",
+    "specs": {
+      "Reference price": "A$699",
+      "Capacity": "00 person"
+    }
   },
   {
     "slug": "coleman-instant-up-6p-lighted-northstar-darkroom-tent",
@@ -5161,13 +5994,17 @@
         "url": "https://www.anacondastores.com/search?text=Coleman%20Instant%20Up%206P%20Lighted%20Northstar%20DarkRoom%20Tent"
       }
     ],
-    "description": "Spacious instant-style family tent with dark-room comfort for car camping. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "description": "Rated 4.7/5 from 182 reviews. The Coleman Instant Up 6P Lighted Northstar DarkRoom Tent is a premium tents from Coleman. Spacious instant-style family tent with dark-room comfort for car camping.",
     "highlights": [
-      "family car camping",
-      "fast setup",
-      "dark-room design"
+      "6-person capacity",
+      "Fast instant setup",
+      "Dark room technology"
     ],
-    "categoryName": "Camping Tents"
+    "categoryName": "Camping Tents",
+    "specs": {
+      "Reference price": "A$629",
+      "Capacity": "6 person"
+    }
   },
   {
     "slug": "coleman-oversized-quad-chair-with-cooler",
@@ -5202,13 +6039,16 @@
         "url": "https://www.anacondastores.com/search?text=Coleman%20Oversized%20Quad%20Chair%20with%20Cooler"
       }
     ],
-    "description": "Classic relaxed campsite chair with built-in cooler pocket and broad seat. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "description": "Rated 4.6/5 from 281 reviews. The Coleman Oversized Quad Chair with Cooler is a budget chairs from Coleman. Classic relaxed campsite chair with built-in cooler pocket and broad seat.",
     "highlights": [
-      "budget comfort",
-      "oversized seat",
-      "campsite classic"
+      "Budget chairs option",
+      "By Coleman",
+      "Classic relaxed campsite chair with built-in cooler pocket a"
     ],
-    "categoryName": "Camping Chairs"
+    "categoryName": "Camping Chairs",
+    "specs": {
+      "Reference price": "A$79"
+    }
   },
   {
     "slug": "engel-deepblue-50-cooler",
@@ -5243,13 +6083,16 @@
         "url": "https://www.anacondastores.com/search?text=Engel%20DeepBlue%2050%20Cooler"
       }
     ],
-    "description": "Well-built cooler for campers wanting stronger insulation without going extreme. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "description": "Rated 4.7/5 from 88 reviews. The Engel DeepBlue 50 Cooler is a premium coolers from Engel. Well-built cooler for campers wanting stronger insulation without going extreme.",
     "highlights": [
-      "durable shell",
-      "balanced performance",
-      "mid-premium"
+      "Premium coolers option",
+      "By Engel",
+      "Well-built cooler for campers wanting stronger insulation wi"
     ],
-    "categoryName": "Coolers & Ice Boxes"
+    "categoryName": "Coolers & Ice Boxes",
+    "specs": {
+      "Reference price": "A$359"
+    }
   },
   {
     "slug": "evakool-fibreglass-47l-icebox",
@@ -5284,13 +6127,15 @@
         "url": "https://www.anacondastores.com/search?text=Evakool%20Fibreglass%2047L%20Icebox"
       }
     ],
-    "description": "A strong fibreglass cooler popular with campers needing better heat control. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "description": "Rated 4.7/5 from 63 reviews. The Evakool Fibreglass 47L Icebox is a premium coolers from Evakool. A strong fibreglass cooler popular with campers needing better heat control.",
     "highlights": [
-      "fibreglass body",
-      "better heat control",
-      "sturdy build"
+      "47L capacity"
     ],
-    "categoryName": "Coolers & Ice Boxes"
+    "categoryName": "Coolers & Ice Boxes",
+    "specs": {
+      "Reference price": "A$329",
+      "Capacity": "47L"
+    }
   },
   {
     "slug": "sea-to-summit-travellinglight-soft-cooler",
@@ -5325,13 +6170,14 @@
         "url": "https://www.anacondastores.com/search?text=Sea%20to%20Summit%20TravellingLight%20Soft%20Cooler"
       }
     ],
-    "description": "Soft cooler for short errands, picnics or compact car loads. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "description": "Rated 4.1/5 from 41 reviews. The Sea to Summit TravellingLight Soft Cooler is a budget coolers from Sea to Summit. Soft cooler for short errands, picnics or compact car loads.",
     "highlights": [
-      "soft cooler",
-      "lightweight carry",
-      "quick outings"
+      "Lightweight soft-sided design"
     ],
-    "categoryName": "Coolers & Ice Boxes"
+    "categoryName": "Coolers & Ice Boxes",
+    "specs": {
+      "Reference price": "A$79"
+    }
   },
   {
     "slug": "darche-dusk-to-dawn-1400-swag",
@@ -5366,13 +6212,15 @@
         "url": "https://www.anacondastores.com/search?text=Darche%20Dusk%20to%20Dawn%201400%20Swag"
       }
     ],
-    "description": "A simple swag-style shelter for solo campers who value compact packing. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "description": "Rated 4.5/5 from 94 reviews. The Darche Dusk to Dawn 1400 Swag is a premium tents from Darche. A simple swag-style shelter for solo campers who value compact packing.",
     "highlights": [
-      "swag shelter",
-      "solo camping",
-      "compact pack"
+      "00-person capacity"
     ],
-    "categoryName": "Camping Tents"
+    "categoryName": "Camping Tents",
+    "specs": {
+      "Reference price": "A$349",
+      "Capacity": "00 person"
+    }
   },
   {
     "slug": "oztrail-rechargeable-10w-lantern",
@@ -5407,13 +6255,16 @@
         "url": "https://www.anacondastores.com/search?text=OZtrail%20Rechargeable%2010W%20Lantern"
       }
     ],
-    "description": "Simple value lantern for campers who want brightness without overspending. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "description": "Rated 4.2/5 from 94 reviews. The OZtrail Rechargeable 10W Lantern is a budget lanterns from OZtrail. Simple value lantern for campers who want brightness without overspending.",
     "highlights": [
-      "value lantern",
-      "bright output",
-      "easy charging"
+      "Budget lanterns option",
+      "By OZtrail",
+      "Simple value lantern for campers who want brightness without"
     ],
-    "categoryName": "Camping Lanterns"
+    "categoryName": "Camping Lanterns",
+    "specs": {
+      "Reference price": "A$59"
+    }
   },
   {
     "slug": "oztrail-goanna-arm-chair",
@@ -5448,13 +6299,16 @@
         "url": "https://www.anacondastores.com/search?text=OZtrail%20Goanna%20Arm%20Chair"
       }
     ],
-    "description": "Reliable folding camp chair with side table style utility and solid support. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "description": "Rated 4.5/5 from 188 reviews. The OZtrail Goanna Arm Chair is a budget chairs from OZtrail. Reliable folding camp chair with side table style utility and solid support.",
     "highlights": [
-      "folding chair",
-      "sturdy support",
-      "car camping"
+      "Budget chairs option",
+      "By OZtrail",
+      "Reliable folding camp chair with side table style utility an"
     ],
-    "categoryName": "Camping Chairs"
+    "categoryName": "Camping Chairs",
+    "specs": {
+      "Reference price": "A$95"
+    }
   },
   {
     "slug": "exped-synmat-hl",
@@ -5489,13 +6343,14 @@
         "url": "https://www.anacondastores.com/search?text=Exped%20SynMat%20HL"
       }
     ],
-    "description": "Comfortable inflatable mat with good packability for mobile campers. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "description": "Rated 4.6/5 from 58 reviews. The Exped SynMat HL is a mid-range sleep systems from Exped. Comfortable inflatable mat with good packability for mobile campers.",
     "highlights": [
-      "inflatable mat",
-      "comfortable support",
-      "compact pack"
+      "Inflatable sleeping mat"
     ],
-    "categoryName": "Camp Sleep Systems"
+    "categoryName": "Camp Sleep Systems",
+    "specs": {
+      "Reference price": "A$249"
+    }
   },
   {
     "slug": "fenix-cl26r-lantern",
@@ -5530,13 +6385,16 @@
         "url": "https://www.anacondastores.com/search?text=Fenix%20CL26R%20Lantern"
       }
     ],
-    "description": "Portable lantern with multiple modes and reliable performance for regular use. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "description": "Rated 4.6/5 from 73 reviews. The Fenix CL26R Lantern is a mid-range lanterns from Fenix. Portable lantern with multiple modes and reliable performance for regular use.",
     "highlights": [
-      "portable lantern",
-      "multiple modes",
-      "dependable use"
+      "Mid-Range lanterns option",
+      "By Fenix",
+      "Portable lantern with multiple modes and reliable performanc"
     ],
-    "categoryName": "Camping Lanterns"
+    "categoryName": "Camping Lanterns",
+    "specs": {
+      "Reference price": "A$109"
+    }
   },
   {
     "slug": "primus-kinjia-stove",
@@ -5571,13 +6429,16 @@
         "url": "https://www.anacondastores.com/search?text=Primus%20Kinjia%20Stove"
       }
     ],
-    "description": "Premium two-burner stove with better simmer control and cleaner design. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "description": "Rated 4.7/5 from 59 reviews. The Primus Kinjia Stove is a premium stoves from Primus. Premium two-burner stove with better simmer control and cleaner design.",
     "highlights": [
-      "premium dual burner",
-      "simmer control",
-      "cleaner finish"
+      "Premium stoves option",
+      "By Primus",
+      "Premium two-burner stove with better simmer control and clea"
     ],
-    "categoryName": "Camping Stoves"
+    "categoryName": "Camping Stoves",
+    "specs": {
+      "Reference price": "A$329"
+    }
   },
   {
     "slug": "wanderer-25l-ice-box",
@@ -5612,13 +6473,15 @@
         "url": "https://www.anacondastores.com/search?text=Wanderer%2025L%20Ice%20Box"
       }
     ],
-    "description": "Simple compact cooler for day trips, parks and short overnighters. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "description": "Rated 4.2/5 from 136 reviews. The Wanderer 25L Ice Box is a budget coolers from Wanderer. Simple compact cooler for day trips, parks and short overnighters.",
     "highlights": [
-      "compact cooler",
-      "day trip use",
-      "budget friendly"
+      "25L capacity"
     ],
-    "categoryName": "Coolers & Ice Boxes"
+    "categoryName": "Coolers & Ice Boxes",
+    "specs": {
+      "Reference price": "A$69",
+      "Capacity": "25L"
+    }
   },
   {
     "slug": "zempire-aero-txl-pro-air-tent",
@@ -5653,13 +6516,14 @@
         "url": "https://www.anacondastores.com/search?text=Zempire%20Aero%20TXL%20Pro%20Air%20Tent"
       }
     ],
-    "description": "Premium inflatable family tent with great comfort and standing room. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "description": "Rated 4.8/5 from 67 reviews. The Zempire Aero TXL Pro Air Tent is a high-end tents from Zempire. Premium inflatable family tent with great comfort and standing room.",
     "highlights": [
-      "air tent",
-      "premium comfort",
-      "long stays"
+      "Air-beam pole system"
     ],
-    "categoryName": "Camping Tents"
+    "categoryName": "Camping Tents",
+    "specs": {
+      "Reference price": "A$1799"
+    }
   },
   {
     "slug": "darche-vipor-xv-chair",
@@ -5694,13 +6558,16 @@
         "url": "https://www.anacondastores.com/search?text=Darche%20VIPOR%20XV%20Chair"
       }
     ],
-    "description": "Padded premium chair built for campers who stay seated for longer. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "description": "Rated 4.7/5 from 92 reviews. The Darche VIPOR XV Chair is a mid-range chairs from Darche. Padded premium chair built for campers who stay seated for longer.",
     "highlights": [
-      "premium comfort",
-      "padded support",
-      "luxe camping"
+      "Mid-Range chairs option",
+      "By Darche",
+      "Padded premium chair built for campers who stay seated for l"
     ],
-    "categoryName": "Camping Chairs"
+    "categoryName": "Camping Chairs",
+    "specs": {
+      "Reference price": "A$189"
+    }
   },
   {
     "slug": "sea-to-summit-camp-plus-seat",
@@ -5735,13 +6602,16 @@
         "url": "https://www.anacondastores.com/search?text=Sea%20to%20Summit%20Camp%20Plus%20Seat"
       }
     ],
-    "description": "Compact sit-anywhere option for ultralight or minimalist campers. CampMate uses this page to help shoppers compare practical options before clicking through to stores.",
+    "description": "Rated 4.2/5 from 47 reviews. The Sea to Summit Camp Plus Seat is a budget chairs from Sea to Summit. Compact sit-anywhere option for ultralight or minimalist campers.",
     "highlights": [
-      "compact seat",
-      "minimalist camp",
-      "tiny pack size"
+      "Budget chairs option",
+      "By Sea to Summit",
+      "Compact sit-anywhere option for ultralight or minimalist cam"
     ],
-    "categoryName": "Camping Chairs"
+    "categoryName": "Camping Chairs",
+    "specs": {
+      "Reference price": "A$59"
+    }
   },
   {
     "slug": "coleman-instant-up-swagger-1-3-person-tent",
@@ -5799,7 +6669,16 @@
     "sourceLegacyItemId": "157734576497",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/157734576497?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCiZAKr1GT110mIX1%2BKmxuXGKIKz7GAHHLXmiu4A4UnDRShcUawFTyovTO%2BCj2XLGjNNhHNLdz1MnxgAZCR%2FMOS43GXYlDZXlGMHqKWqORpmF%2FQJlYVh%2Bd93NZD4ivSPqnGeFwxJEsREpNrkPVWUEanXY9GWNtAoNZZUcsA1HtUZOm24Y7I0dc1gFz3NEJ4STM%3D",
-    "importedAt": "2026-03-14T12:21:04Z"
+    "importedAt": "2026-03-14T12:21:04Z",
+    "highlights": [
+      "3-person capacity",
+      "Fast instant setup"
+    ],
+    "description": "The Instant up Swagger 1, 3 Person Tent is a premium tents from Coleman. Take convenient camping up a notch with the headroom of a tent and convenience of a swag in the Instant Swagger 3P Tent from Coleman. There are side windows on each side to assi...",
+    "specs": {
+      "Reference price": "A$383",
+      "Capacity": "3 person"
+    }
   },
   {
     "slug": "coleman-instant-up-swagger-1-3-person-tent-2",
@@ -5857,7 +6736,16 @@
     "sourceLegacyItemId": "198125479045",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/198125479045?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBzBVY%2FUUDojG9%2ByCYNCdPCT8nxmfW9EBRQ4ulRP0SmVJAMaeCHcK2OGa2CbF4aIV6aGbfYd3RYZkf99ALawVIqfhl9noa0g0tVoXhzlqXtMdkFEsk9Gje8TFnZoJlkHBTkWNNGv9Q4IXM8kJxOYYjwP5ydfxGAnCYaMu6w6gYx6y%2F1Omop6cZeXH4BJafsw2Y%3D",
-    "importedAt": "2026-03-14T12:21:04Z"
+    "importedAt": "2026-03-14T12:21:04Z",
+    "highlights": [
+      "3-person capacity",
+      "Fast instant setup"
+    ],
+    "description": "The Instant up Swagger 1, 3 Person Tent is a premium tents from Coleman. Take convenient camping up a notch with the headroom of a tent and convenience of a swag in the Instant Swagger 3P Tent from Coleman. There are side windows on each side to assi...",
+    "specs": {
+      "Reference price": "A$364",
+      "Capacity": "3 person"
+    }
   },
   {
     "slug": "coleman-instant-up-swagger-1-3-person-tent-3",
@@ -5915,7 +6803,16 @@
     "sourceLegacyItemId": "267555786756",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/267555786756?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:21:05Z"
+    "importedAt": "2026-03-14T12:21:05Z",
+    "highlights": [
+      "3-person capacity",
+      "Fast instant setup"
+    ],
+    "description": "The Instant up Swagger 1, 3 Person Tent is a premium tents from Coleman. Take convenient camping up a notch with the headroom of a tent and convenience of a swag in the Instant Swagger 3P Tent from Coleman. There are side windows on each side to assi...",
+    "specs": {
+      "Reference price": "A$349",
+      "Capacity": "3 person"
+    }
   },
   {
     "slug": "coleman-instant-up-swagger-1-3-person-tent-4",
@@ -5973,7 +6870,16 @@
     "sourceLegacyItemId": "287090446982",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/287090446982?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBd%2FrOsUtyZGG1bWbABnVeGGyXKYORHWtymhCpMI%2F7KBPieNSNXn1PNXxG3WTbcmZqvkoih3E13wUlkpHh4l4uiIWBkmYfqmXs5B4XUWaEK%2B74q%2FsPK0MkxfWRdPHSGuCR2N8zB3WhzfEMGZTz2%2Funn62VeOJwjB1feWQqUFWvo5hqlU5YAFr5lMVvPrwYgYNc%3D",
-    "importedAt": "2026-03-14T12:21:06Z"
+    "importedAt": "2026-03-14T12:21:06Z",
+    "highlights": [
+      "3-person capacity",
+      "Fast instant setup"
+    ],
+    "description": "The Instant up Swagger 1, 3 Person Tent is a premium tents from Coleman. Take convenient camping up a notch with the headroom of a tent and convenience of a swag in the Instant Swagger 3P Tent from Coleman. There are side windows on each side to assi...",
+    "specs": {
+      "Reference price": "A$332",
+      "Capacity": "3 person"
+    }
   },
   {
     "slug": "coleman-coleman-lantern-swagger-lithium-ion-rechargeable-lantern-light-lamp-camping-tent",
@@ -6031,7 +6937,16 @@
     "sourceLegacyItemId": "236589098936",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/236589098936?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:21:07Z"
+    "importedAt": "2026-03-14T12:21:07Z",
+    "highlights": [
+      "Budget tents option",
+      "By Coleman",
+      "Multiple brightness settings."
+    ],
+    "description": "The Coleman Lantern Swagger Lithium Ion Rechargeable Lantern Light Lamp Camping Tent is a budget tents from Coleman. Multiple brightness settings.",
+    "specs": {
+      "Reference price": "A$87"
+    }
   },
   {
     "slug": "oztrail-easy-fold-1-person-stretcher-tent-single-camping-cot-with-small-pack-down-size",
@@ -6089,7 +7004,15 @@
     "sourceLegacyItemId": "157734578563",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/157734578563?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBtw7VPNf8kgPotm9MIBR5SqZZNgtPnRwfYRdc5ogneMjuIRyhVIdz0iY5hbW9SWm0pNUu0bjWowA0LLuYp4b5024aAKsDZhleXw3T98ctbGE8eutWq%2FIWUA%2BiAa8DqQofSPGXAO%2FNATeLGisbsUSSJL3QGVvresDSpuXKr3LNGcSRjjT744JRdADxxphDXJpc%3D",
-    "importedAt": "2026-03-14T12:21:09Z"
+    "importedAt": "2026-03-14T12:21:09Z",
+    "highlights": [
+      "1-person capacity"
+    ],
+    "description": "The Easy Fold 1 Person Stretcher Tent - Single Camping Cot with Small Pack down Size is a premium tents from OZtrail. OZtrail Easy Fold 1 Person Stretcher Tent is a high-quality, compact and easy-to-set-up touring shelter. Vertical walls provide generous internal space and head height. Multiple...",
+    "specs": {
+      "Reference price": "A$376",
+      "Capacity": "1 person"
+    }
   },
   {
     "slug": "oztrail-easy-fold-1-person-stretcher-tent-single-camping-cot-with-small-pack-down-size-2",
@@ -6147,7 +7070,15 @@
     "sourceLegacyItemId": "206113567726",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/206113567726?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAen3Vem2Ay1MwUIppyNqFDeojnYQa6yfmsqGdJCRldBlpug22fR0%2BHJaBTj1PSjEMnEkmOJxybKRVQ0zfEYRqunfSdImByhbLFvQgOrLO7v5WPUqoB4DB03II%2F7eg0hKIumeda1BmubuL1hFRhhP%2BR3N%2FbfseBuSC0bFnPe4RHP1f8plPwpfQPbil944Yeac4%3D",
-    "importedAt": "2026-03-14T12:21:09Z"
+    "importedAt": "2026-03-14T12:21:09Z",
+    "highlights": [
+      "1-person capacity"
+    ],
+    "description": "The Easy Fold 1 Person Stretcher Tent - Single Camping Cot with Small Pack down Size is a premium tents from OZtrail. OZtrail Easy Fold 1 Person Stretcher Tent is a high-quality, compact and easy-to-set-up touring shelter. Vertical walls provide generous internal space and head height. Multiple...",
+    "specs": {
+      "Reference price": "A$397",
+      "Capacity": "1 person"
+    }
   },
   {
     "slug": "oztrail-oztrail-easy-fold-blockout-1-person-stretcher-tent-single-camping-cot-with-sma",
@@ -6205,7 +7136,18 @@
     "sourceLegacyItemId": "377009414645",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/377009414645?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAf9uCzYAF5zOFi5L024HkGsTIGKDfKyze0894LfFfkxj6rI%2BhbWQQAPq%2FCFmFld4TuOWPX9ek4Ue%2BuA45xXN9%2BXdIbnOGFTvj9OzXiFTgoaDNfRr9hkZfdvDLbe1qOBMOV%2BwcIsq6nznP8jLdT6IDNJ9y6t57BL61CvWeeSIhIrUDE3ljOMQVZNkzgj1ll3Xg%3D",
-    "importedAt": "2026-03-14T12:21:10Z"
+    "importedAt": "2026-03-14T12:21:10Z",
+    "highlights": [
+      "1-person capacity",
+      "Fast instant setup",
+      "UV-rated fabric"
+    ],
+    "description": "The OZtrail Easy Fold Blockout 1 Person Stretcher Tent - Single Camping Cot with Sma is a premium tents from OZtrail. Blockout coating on the fly blocks up to 95% of light and reduces heat inside by up to 10C. Portable and quick to set up, the ultimate touring tent. 3,000mm waterhead rated UVTe...",
+    "specs": {
+      "Reference price": "A$381",
+      "Capacity": "1 person",
+      "Hydrostatic head": "3,000mm"
+    }
   },
   {
     "slug": "branded-oztrail-easy-fold-blockout-1-person-stretcher-tent-single-camping-cot-with-sma",
@@ -6263,7 +7205,18 @@
     "sourceLegacyItemId": "366230459185",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/366230459185?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xC9VvWsXQxpXZYWUmQPOQkFcsuQ39DMUAzjqaPyDPYELEuUzt0ChNorxquJo87vvjnFSYIIzcDkfOmCKkPno7gyDnxgmaAxSWh491OwrnCz%2F%2B91vaLn06C%2BqH9NxVsL5AxaSOhlv6GLB7WGbw4Mi%2BJmos5w68LzqMX53tGC6M%2FQIMJaImGGadmbOwQMf%2BjYkiY%3D",
-    "importedAt": "2026-03-14T12:21:10Z"
+    "importedAt": "2026-03-14T12:21:10Z",
+    "highlights": [
+      "1-person capacity",
+      "Fast instant setup",
+      "UV-rated fabric"
+    ],
+    "description": "The Oztrail Easy Fold Blockout 1 Person Stretcher Tent - Single Camping Cot with Sma is a premium tents from Branded. Blockout coating on the fly blocks up to 95% of light and reduces heat inside by up to 10C. Portable and quick to set up, the ultimate touring tent. 3,000mm waterhead rated UVTe...",
+    "specs": {
+      "Reference price": "A$386",
+      "Capacity": "1 person",
+      "Hydrostatic head": "3,000mm"
+    }
   },
   {
     "slug": "oztrail-oztrail-easy-fold-blockout-1-person-stretcher-tent-single-camping-cot-with-sma-2",
@@ -6321,7 +7274,18 @@
     "sourceLegacyItemId": "397651704127",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/397651704127?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:21:11Z"
+    "importedAt": "2026-03-14T12:21:11Z",
+    "highlights": [
+      "1-person capacity",
+      "Fast instant setup",
+      "UV-rated fabric"
+    ],
+    "description": "The OZtrail Easy Fold Blockout 1 Person Stretcher Tent - Single Camping Cot with Sma is a premium tents from OZtrail. Blockout coating on the fly blocks up to 95% of light and reduces heat inside by up to 10C. Portable and quick to set up, the ultimate touring tent. 3,000mm waterhead rated UVTe...",
+    "specs": {
+      "Reference price": "A$386",
+      "Capacity": "1 person",
+      "Hydrostatic head": "3,000mm"
+    }
   },
   {
     "slug": "blackwolf-blackwolf-mantis-2-tent-ultralight",
@@ -6379,7 +7343,15 @@
     "sourceLegacyItemId": "117003090446",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/117003090446?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:21:12Z"
+    "importedAt": "2026-03-14T12:21:12Z",
+    "highlights": [
+      "2-person capacity"
+    ],
+    "description": "The Blackwolf Mantis 2 Tent Ultralight is a premium tents from Blackwolf. Best suited to the needs of the serious traveller venturing into wilder, more rugged terrain, this is the tent of choice for many tour expeditions on the Kokoda Trail. This Prod...",
+    "specs": {
+      "Reference price": "A$370",
+      "Capacity": "2 person"
+    }
   },
   {
     "slug": "blackwolf-blackwolf-mantis-ultralight-1-hiking-tent",
@@ -6437,7 +7409,15 @@
     "sourceLegacyItemId": "117003059607",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/117003059607?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:21:12Z"
+    "importedAt": "2026-03-14T12:21:12Z",
+    "highlights": [
+      "1-person capacity"
+    ],
+    "description": "The Blackwolf Mantis Ultralight 1 Hiking Tent is a premium tents from Blackwolf. Blackwolf Mantis 1 Tent Ultralight. Best suited to the needs of the serious traveller venturing into wilder, more rugged terrain, this is the tent of choice for many tour expedi...",
+    "specs": {
+      "Reference price": "A$315",
+      "Capacity": "1 person"
+    }
   },
   {
     "slug": "blackwolf-blackwolf-grasshopper-ul-2-hiking-tent",
@@ -6495,7 +7475,17 @@
     "sourceLegacyItemId": "117003053538",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/117003053538?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:21:13Z"
+    "importedAt": "2026-03-14T12:21:13Z",
+    "highlights": [
+      "2-person capacity",
+      "5000mm hydrostatic head"
+    ],
+    "description": "The Blackwolf Grasshopper UL 2 Hiking Tent is a premium tents from Blackwolf. These dates should be taken as a rough estimate only. Waterproof 5000mm Floor | 2000mm Fly.",
+    "specs": {
+      "Reference price": "A$380",
+      "Capacity": "2 person",
+      "Hydrostatic head": "5000mm"
+    }
   },
   {
     "slug": "blackwolf-blackwolf-cicada-hiking-tent",
@@ -6553,7 +7543,16 @@
     "sourceLegacyItemId": "386691899051",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/386691899051?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:21:14Z"
+    "importedAt": "2026-03-14T12:21:14Z",
+    "highlights": [
+      "Mid-Range tents option",
+      "By Blackwolf",
+      "The Cicada Hiking Tent by BlackWolf blends lightweight effic"
+    ],
+    "description": "The Blackwolf Cicada Hiking Tent is a mid-range tents from Blackwolf. The Cicada Hiking Tent by BlackWolf blends lightweight efficiency with impressive durability. From tackling new hikes to hitting new heights - the BlackWolf Cicada Hiking Tent c...",
+    "specs": {
+      "Reference price": "A$220"
+    }
   },
   {
     "slug": "sea-to-summit-sea-to-summit-deportes-al-aire-libre-camping-jab-n-corporal-l-quido-de-limpieza",
@@ -6611,7 +7610,14 @@
     "sourceLegacyItemId": "357719229418",
     "marketplace": "EBAY_ES",
     "sourceUrl": "https://www.ebay.com.au/itm/357719229418?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xB2Bk8n00%2BdqIjU1vO6W6rHnv2uFRJVHe6xk3I%2Bhvo9bGIv9RyK9XP7nM8dd0QVWhxOR%2FCuIFV%2BvCA3eII8qq%2FlPXT%2FlyNUzakX02ZisOKPny9VuywpvgkPh4Epfa8a0M1%2FZqkYuY79GFysagf2BTub%2FL1BJSOJ9GspfRJMBK6uiZ1HyDkgFzcFDRvun1yUUOA%3D",
-    "importedAt": "2026-03-14T12:21:50Z"
+    "importedAt": "2026-03-14T12:21:50Z",
+    "highlights": [
+      "Fast instant setup"
+    ],
+    "description": "The Sea to Summit Deportes al aire libre Camping Jabón corporal líquido de limpieza is a budget tents from Sea to Summit. Sea to Summit Deportes al aire libre Camping Jabón corporal líquido de limpieza instantánea (M12) Asegúrese de llegar siempre fresco, limpio y listo para usar con los jabones lí...",
+    "specs": {
+      "Reference price": "A$26"
+    }
   },
   {
     "slug": "darche-adventure-kings-roof-top-camping-tent-with-annex-and-tub-rack-low-profile",
@@ -6669,7 +7675,16 @@
     "sourceLegacyItemId": "297649960477",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/297649960477?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDj%2Bfwri1VWPSgWrGwh5b6xAyMRdW084KV%2BtNlaa92Fd%2FBJGd05oLvdunhP8%2BtBtoxbpK6iSpD%2FF9cN01pxaUmC7BpozwOXfzew5pb69FIcdK8KjZqeLjWWWhuOYd%2BzvQmPknpx6vAgQz2W6wfe2B6zHsJRVdjMjsysYnbnVFakOB44jR8bZC0iqNtcjC3ipk8%3D",
-    "importedAt": "2026-03-14T12:22:26Z"
+    "importedAt": "2026-03-14T12:22:26Z",
+    "highlights": [
+      "High-End tents option",
+      "By Darche",
+      "Adventure Kings Roof Top Camping Tent With Annex And Tub Rac"
+    ],
+    "description": "The Adventure Kings Roof Top Camping Tent With Annex And Tub Rack Low Profile is a high-end tents from Darche. Adventure Kings Roof Top Camping Tent With Annex And Tub Rack Low Profile",
+    "specs": {
+      "Reference price": "A$1800"
+    }
   },
   {
     "slug": "darche-adventure-kings-roof-top-camping-tent-with-annex-and-tub-rack-low-profile-2",
@@ -6727,7 +7742,16 @@
     "sourceLegacyItemId": "296951877696",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/296951877696?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDEDlkCI5uIiGlCgYf56GUZE2JdRiYWh4Tap02gyqNfpNbVZ8LXdExlOImiQjtLRMp5KGxvjuarqbgJEUytCZnBgMQf3T28Xv180oLjnsLlpH3wPas6hc4ouc0VzBBrkWBS6gHt0ahrPkCTv6Up2X1TsRK4FZlosUuvKQWfZy0Gk9bInuzByiTx5%2BcWSXfEbzw%3D",
-    "importedAt": "2026-03-14T12:22:27Z"
+    "importedAt": "2026-03-14T12:22:27Z",
+    "highlights": [
+      "High-End tents option",
+      "By Darche",
+      "We have assembled the tub but not used."
+    ],
+    "description": "The Adventure Kings Roof Top Camping Tent With Annex And Tub Rack Low Profile is a high-end tents from Darche. We have assembled the tub but not used.",
+    "specs": {
+      "Reference price": "A$2050"
+    }
   },
   {
     "slug": "darche-darche-twin-cube-shower-tent-green-grey",
@@ -6785,7 +7809,16 @@
     "sourceLegacyItemId": "296212124764",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/296212124764?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:22:27Z"
+    "importedAt": "2026-03-14T12:22:27Z",
+    "highlights": [
+      "Premium tents option",
+      "By Darche",
+      "This multi-purpose tent has two separate cubicles - both wit"
+    ],
+    "description": "Rated 3.0/5 from 1 reviews. The Darche Twin Cube Shower Tent - Green/Grey is a premium tents from Darche. This multi-purpose tent has two separate cubicles - both with direct access plus an internal door to move between the cubicles from inside. Specifically designed with a wider fo...",
+    "specs": {
+      "Reference price": "A$330"
+    }
   },
   {
     "slug": "darche-darche-intrepidor-1400-roof-top-tent-sky-window-4x4-4wd-camping",
@@ -6843,7 +7876,15 @@
     "sourceLegacyItemId": "285046193282",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/285046193282?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:22:28Z"
+    "importedAt": "2026-03-14T12:22:28Z",
+    "highlights": [
+      "00-person capacity"
+    ],
+    "description": "The Darche Intrepidor 1400 Roof Top Tent Sky Window 4X4 4WD Camping is a high-end tents from Darche. Supplier then the Supplier or the Supplier’s. been made;. (c) the Supplier shall have the right of stopping the. shall cease;. the Goods or any of them to the Supplier. Services...",
+    "specs": {
+      "Reference price": "A$2142",
+      "Capacity": "00 person"
+    }
   },
   {
     "slug": "darche-darche-ranger-solo-swag-single-camping-canvas-tent-free-standing-travel",
@@ -6901,7 +7942,16 @@
     "sourceLegacyItemId": "275541636232",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/275541636232?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:22:28Z"
+    "importedAt": "2026-03-14T12:22:28Z",
+    "highlights": [
+      "Premium tents option",
+      "By Darche",
+      "Provision.X CLOSE. been made;. (c) the Supplier shall have t"
+    ],
+    "description": "The Darche Ranger Solo+ Swag Single Camping Canvas Tent Free Standing Travel is a premium tents from Darche. Provision.X CLOSE. been made;. (c) the Supplier shall have the right of stopping the. shall cease;. the Goods or any of them to the Supplier. principal debtor basis. (a) where p...",
+    "specs": {
+      "Reference price": "A$363"
+    }
   },
   {
     "slug": "big-agnes-big-agnes-bunk-house-6-3-season-6-person-family-camping-tent",
@@ -6959,7 +8009,16 @@
     "sourceLegacyItemId": "296945910192",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/296945910192?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:22:31Z"
+    "importedAt": "2026-03-14T12:22:31Z",
+    "highlights": [
+      "6-person capacity",
+      "Gear storage vestibule"
+    ],
+    "description": "The Big Agnes Bunk House 6 3-Season 6-Person Family Camping Tent is a high-end tents from Big Agnes. The Bunk House is a full-featured, double-wall tent for three-season camping with a family or group, with a massive integrated vestibule providing extra protected space. You’ll...",
+    "specs": {
+      "Reference price": "A$1200",
+      "Capacity": "6 person"
+    }
   },
   {
     "slug": "big-agnes-big-agnes-bunk-house-4-3-season-4-person-family-camping-tent",
@@ -7017,7 +8076,16 @@
     "sourceLegacyItemId": "296945910127",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/296945910127?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:22:31Z"
+    "importedAt": "2026-03-14T12:22:31Z",
+    "highlights": [
+      "4-person capacity",
+      "Gear storage vestibule"
+    ],
+    "description": "The Big Agnes Bunk House 4 3-Season 4-Person Family Camping Tent is a high-end tents from Big Agnes. The Bunk House is a full-featured, double-wall tent for three-season camping with a family or group, with a massive integrated vestibule providing extra protected space. You’ll...",
+    "specs": {
+      "Reference price": "A$1050",
+      "Capacity": "4 person"
+    }
   },
   {
     "slug": "vango-vango-beta-450xl-4-person-3-season-camping-tent-moroccan-blue",
@@ -7075,7 +8143,15 @@
     "sourceLegacyItemId": "376148451923",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/376148451923?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:22:44Z"
+    "importedAt": "2026-03-14T12:22:44Z",
+    "highlights": [
+      "Air-beam pole system",
+      "Mesh panels for airflow"
+    ],
+    "description": "The Vango Beta 450XL 4-Person 3-Season Camping Tent - Moroccan Blue is a premium tents from Vango. Vango AirZone - High and low level ventilation panels combine to create a comfortable flow of air through the tent. Air circulation is essential for reducing condensation. The B...",
+    "specs": {
+      "Reference price": "A$600"
+    }
   },
   {
     "slug": "vango-vango-skye-500-5-person-camping-hiking-tent-treetops",
@@ -7133,7 +8209,15 @@
     "sourceLegacyItemId": "276054303479",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/276054303479?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:22:46Z"
+    "importedAt": "2026-03-14T12:22:46Z",
+    "highlights": [
+      "00-person capacity"
+    ],
+    "description": "The Vango Skye 500 5 Person Camping & Hiking Tent - Treetops is a premium tents from Vango. Exclusive to Vango. Patented Vango TBS®II Tension Band System ensures tent performs in adverse conditions, especially in strong, changeable winds. Adjust TBS®II to remove slack....",
+    "specs": {
+      "Reference price": "A$480",
+      "Capacity": "00 person"
+    }
   },
   {
     "slug": "vango-vango-heddon-200-2-person-camping-hiking-tent-pamir-green",
@@ -7191,7 +8275,15 @@
     "sourceLegacyItemId": "355044098804",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/355044098804?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:22:47Z"
+    "importedAt": "2026-03-14T12:22:47Z",
+    "highlights": [
+      "00-person capacity"
+    ],
+    "description": "The Vango Heddon 200 2 Person Camping & Hiking Tent - Pamir Green is a premium tents from Vango. The Vango Heddon 200 2-man tent is lightweight and compact, designed to be. the Heddon doesn't compromise on the quality you would expect from Vango. It benefits from a 70D Prot...",
+    "specs": {
+      "Reference price": "A$360",
+      "Capacity": "00 person"
+    }
   },
   {
     "slug": "vango-vango-beta-alloy-350xl-with-tbs-ii-3-person-camping-hiking-tent-cactus",
@@ -7249,7 +8341,15 @@
     "sourceLegacyItemId": "256224344514",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/256224344514?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:22:47Z"
+    "importedAt": "2026-03-14T12:22:47Z",
+    "highlights": [
+      "3-person capacity"
+    ],
+    "description": "The Vango Beta Alloy 350XL with TBS II 3 Person Camping & Hiking Tent - Cactus is a premium tents from Vango. Exclusive to Vango. Patented Vango TBS®II Tension Band System ensures tent performs in adverse conditions, especially in strong, changeable winds. Adjust TBS®II to remove slack....",
+    "specs": {
+      "Reference price": "A$380",
+      "Capacity": "3 person"
+    }
   },
   {
     "slug": "vango-vango-cragmor-500-5-person-camping-hiking-tent-with-tbs-ii-mineral-green",
@@ -7307,7 +8407,15 @@
     "sourceLegacyItemId": "355032430443",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/355032430443?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:22:48Z"
+    "importedAt": "2026-03-14T12:22:48Z",
+    "highlights": [
+      "00-person capacity"
+    ],
+    "description": "The Vango Cragmor 500 5 Person Camping & Hiking Tent with TBS II - Mineral Green is a premium tents from Vango. Vango PowerFlex®. TBS®II Tension Band System - Ensures the tent performs in adverse conditions, especially in strong, changeable winds. Adjust TBS®II to remove slack. Do not ove...",
+    "specs": {
+      "Reference price": "A$640",
+      "Capacity": "00 person"
+    }
   },
   {
     "slug": "coleman-coleman-beach-mat-towel-seat-chair-back-rest-camp-picnic",
@@ -7365,7 +8473,16 @@
     "sourceLegacyItemId": "262346526662",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/262346526662?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBbCzOT5MCfUXlptdYlIqM1L2hh6Es6n8ykTNLaXh%2FaznrBwsj6rqFwGCE1zuAG4tvZ0rH19836Wn14uqRzr9mARD1g%2BPEZ%2BBdhLZ%2F0SbeK6LNUM9YRo5QhOAtdlS4ummwNP6uzjsl%2B4%2F7ld0c16Pub2FcbxGs18fAGl%2BCHb6ecZo06Pj2lJ7xqi2NM6awIj6g%3D",
-    "importedAt": "2026-03-14T12:22:51Z"
+    "importedAt": "2026-03-14T12:22:51Z",
+    "highlights": [
+      "Budget chairs option",
+      "By Coleman",
+      "Coleman Beach Mat. • Insulated cooler on backrest to keep yo"
+    ],
+    "description": "The Coleman BEACH MAT TOWEL SEAT CHAIR BACK REST Camp Picnic is a budget chairs from Coleman. Coleman Beach Mat. • Insulated cooler on backrest to keep your drinks cold. • Comfortable design allows you to stretch out your legs over a durable polyester mat. However we als...",
+    "specs": {
+      "Reference price": "A$42"
+    }
   },
   {
     "slug": "coleman-1218360-quad-deluxe-mesh-event-chair-grey",
@@ -7423,7 +8540,16 @@
     "sourceLegacyItemId": "317984951539",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/317984951539?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBDFidji24os61vMSNBZuFHNyQ%2B0KxTYisbdV1Pftf%2FFmDsq4ZfpbKuY28hSGzpeqpaVdS5vaX%2BurrIEr7xbpBzI9mqX1n2%2FxVpHzgNMtcnvo965osaY0%2FN2TUQn83T2To13AQ%2F0DI5erVmRTUOap1h5%2BtjI7v7rbPOs6jGiwawzS2BAaQbZFcElAtRPwrtUAQ%3D",
-    "importedAt": "2026-03-14T12:22:52Z"
+    "importedAt": "2026-03-14T12:22:52Z",
+    "highlights": [
+      "Budget chairs option",
+      "By Coleman",
+      "Item Model Number 1218360. Model Number:‎1218360. Colour Gre"
+    ],
+    "description": "Rated 5.0/5 from 1 reviews. The 1218360 Quad Deluxe Mesh Event Chair, Grey is a budget chairs from Coleman. Item Model Number 1218360. Model Number:‎1218360. Colour Grey. Lightweight and easy to carry. We do not accept P.O. Boxes. Batteries Included?. Shape Rectangular. We're happy to...",
+    "specs": {
+      "Reference price": "A$46"
+    }
   },
   {
     "slug": "coleman-1218360-quad-deluxe-mesh-event-chair-grey-2",
@@ -7481,7 +8607,16 @@
     "sourceLegacyItemId": "168207226557",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/168207226557?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDj0ZMhIqcrEHoEVFhXnrHaqfYwmCz%2BELglstRX%2FkQovc93ZctcdddZ%2BL8SGQcKC9U%2F9e%2BMcXi7fHHCYJ6%2BJa5URXGVh1UB2NLyuYkOvil3grZ%2BpN2PcuoY9Ocr5kKEm3xyF%2FVn84npqAUo1Us%2FD6gYRlLnwXBkZcw%2Bgxv6z5qAj9SB4jiYFBm3oVp4utfPFws%3D",
-    "importedAt": "2026-03-14T12:22:53Z"
+    "importedAt": "2026-03-14T12:22:53Z",
+    "highlights": [
+      "Budget chairs option",
+      "By Coleman",
+      "Item Model Number 1218360. Model Number:‎1218360. Colour Gre"
+    ],
+    "description": "Rated 5.0/5 from 1 reviews. The 1218360 Quad Deluxe Mesh Event Chair, Grey is a budget chairs from Coleman. Item Model Number 1218360. Model Number:‎1218360. Colour Grey. Lightweight and easy to carry. We do not accept P.O. Boxes. Batteries Included?. Shape Rectangular. We're happy to...",
+    "specs": {
+      "Reference price": "A$51"
+    }
   },
   {
     "slug": "oztrail-oztrail-roamer-suspension-chair",
@@ -7539,7 +8674,15 @@
     "sourceLegacyItemId": "388452610694",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/388452610694?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:22:54Z"
+    "importedAt": "2026-03-14T12:22:54Z",
+    "highlights": [
+      "Weight: 150kg"
+    ],
+    "description": "The OZtrail Roamer Suspension Chair is a mid-range chairs from OZtrail. Engineered to handle loads up to 150kg, this robust chair stands up to outdoor adventures while maintaining its flexible, supportive structure. Strong flexible suspension system...",
+    "specs": {
+      "Reference price": "A$140",
+      "Weight": "150kg"
+    }
   },
   {
     "slug": "oztrail-oztrail-big-boy-arm-chair-black-w-drink-holders-bottle-opener",
@@ -7597,7 +8740,16 @@
     "sourceLegacyItemId": "277015703861",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/277015703861?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:22:56Z"
+    "importedAt": "2026-03-14T12:22:56Z",
+    "highlights": [
+      "Budget chairs option",
+      "By OZtrail",
+      "OZTRAIL BIG BOY ARM CHAIR. Perfect for campers of all shapes"
+    ],
+    "description": "The OZtrail BIG BOY ARM CHAIR - BLACK W/ DRINK HOLDERS + BOTTLE OPENER is a budget chairs from OZtrail. OZTRAIL BIG BOY ARM CHAIR. Perfect for campers of all shapes and sizes, this chair is as sturdy as it is cozy. Designed with convenience in mind, it features a large insulated d...",
+    "specs": {
+      "Reference price": "A$80"
+    }
   },
   {
     "slug": "oztrail-oztrail-jumbo-camp-chair-high-visibility-yellow",
@@ -7655,7 +8807,16 @@
     "sourceLegacyItemId": "135679821625",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/135679821625?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:22:56Z"
+    "importedAt": "2026-03-14T12:22:56Z",
+    "highlights": [
+      "Budget chairs option",
+      "By Oztrail",
+      "Oztrail Jumbo Camp Chair High Visibility Yellow The Oztrail "
+    ],
+    "description": "The Oztrail Jumbo Camp Chair High Visibility Yellow is a budget chairs from Oztrail. Oztrail Jumbo Camp Chair High Visibility Yellow The Oztrail Jumbo Camp Chair High Visibility Yellow provides maximum comfort and visibility for outdoor activities. The Oztrail J...",
+    "specs": {
+      "Reference price": "A$56"
+    }
   },
   {
     "slug": "my-store-blackwolf-xxl-beech-chair-paloma-camping-camp-hiking-foldable-folding",
@@ -7713,7 +8874,16 @@
     "sourceLegacyItemId": "365760140623",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/365760140623?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:23:00Z"
+    "importedAt": "2026-03-14T12:23:00Z",
+    "highlights": [
+      "Mid-Range chairs option",
+      "By My Store",
+      "Style A Black Lightweight Bicycle Rear Mudguard - Adjustable"
+    ],
+    "description": "The BlackWolf XXL Beech Chair Paloma Camping Camp Hiking Foldable Folding is a mid-range chairs from My Store. Style A Black Lightweight Bicycle Rear Mudguard - Adjustable PP5 Fender for MTB.",
+    "specs": {
+      "Reference price": "A$231"
+    }
   },
   {
     "slug": "black-wolf-black-wolf-compact-directors-chair",
@@ -7771,7 +8941,16 @@
     "sourceLegacyItemId": "365518393307",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/365518393307?var=635324820772&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:23:00Z"
+    "importedAt": "2026-03-14T12:23:00Z",
+    "highlights": [
+      "Mid-Range chairs option",
+      "By Black Wolf",
+      "This chair is for you. Our expert knowledge. Adventure Is He"
+    ],
+    "description": "The Black Wolf Compact Directors Chair is a mid-range chairs from Black Wolf. This chair is for you. Our expert knowledge. Adventure Is Here. Our vision is simple - to inspire, equip, and enable people with everything needed for a lightweight outdoor adve...",
+    "specs": {
+      "Reference price": "A$126"
+    }
   },
   {
     "slug": "helinox-camping-chair-feet-4pcs-chair-feet-for-helinox-naturehike",
@@ -7829,7 +9008,15 @@
     "sourceLegacyItemId": "317996964998",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/317996964998?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:24:06Z"
+    "importedAt": "2026-03-14T12:24:06Z",
+    "highlights": [
+      "Weight: 80.0g"
+    ],
+    "description": "The Camping Chair Feet 4Pcs Chair Feet for Helinox, Naturehike is a budget chairs from Helinox. Model Number 0005. We do not accept P.O. Boxes. ❤ This is just a regular foot. Want foot sinking, look at this ASIN: B0CN3JB7YC. Weight: 80.0 g.",
+    "specs": {
+      "Reference price": "A$27",
+      "Weight": "80.0g"
+    }
   },
   {
     "slug": "helinox-helinox-chair-zero-in-black-grey",
@@ -7887,7 +9074,16 @@
     "sourceLegacyItemId": "389727904435",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/389727904435?var=657007509196&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:24:07Z"
+    "importedAt": "2026-03-14T12:24:07Z",
+    "highlights": [
+      "Mid-Range chairs option",
+      "By HELINOX",
+      "Worth its weight in gold, the Chair Zero from Helinox provid"
+    ],
+    "description": "The HELINOX Chair Zero in Black, Grey is a mid-range chairs from HELINOX. Worth its weight in gold, the Chair Zero from Helinox provides the comfort of a full-sized chair with the weight of a drink bottle - so you never have to sacrifice comfort on th...",
+    "specs": {
+      "Reference price": "A$175"
+    }
   },
   {
     "slug": "helinox-helinox-sunset-chair-in-black-forest-green-xray-tiger-camo",
@@ -7945,7 +9141,16 @@
     "sourceLegacyItemId": "389638247832",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/389638247832?var=656940284736&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:24:07Z"
+    "importedAt": "2026-03-14T12:24:07Z",
+    "highlights": [
+      "Mid-Range chairs option",
+      "By HELINOX",
+      "Picture yourself perched with a cheeky beverage and a specta"
+    ],
+    "description": "The HELINOX Sunset Chair in Black, Forest Green, Xray Tiger Camo is a mid-range chairs from HELINOX. Picture yourself perched with a cheeky beverage and a spectacular view, with the Sunset Chair from Helinox - one of the most compact yet comfortable chairs on the market. The Su...",
+    "specs": {
+      "Reference price": "A$225"
+    }
   },
   {
     "slug": "darche-darche-firefly-chair",
@@ -8003,7 +9208,16 @@
     "sourceLegacyItemId": "388340587910",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/388340587910?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:24:10Z"
+    "importedAt": "2026-03-14T12:24:10Z",
+    "highlights": [
+      "Mid-Range chairs option",
+      "By Darche",
+      "Side accessory pockets provide practical storage for phones,"
+    ],
+    "description": "Rated 4.8/5 from 12 reviews. The Darche Firefly Chair is a mid-range chairs from Darche. Side accessory pockets provide practical storage for phones, keys, and sunscreen - so you can kick back without needing to get up for the essentials. Socks & thermals. Food, dri...",
+    "specs": {
+      "Reference price": "A$160"
+    }
   },
   {
     "slug": "darche-darche-flat-pack-chair-super-comfort-lightweight-flat-pack-outdoor-chair",
@@ -8061,7 +9275,15 @@
     "sourceLegacyItemId": "277013428129",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/277013428129?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAp2r2Mclb6OVyY7LqF9vAXgNlZaAr0vCwbOM8e9uOv8NWp7mc33bkRqro%2BhH0RiMENCGFbobWWYYFUGK5YIqsJkAV0BDoYSifnT10J0RAe5jHCB4aPLbBVsluT7bVzPRi9wEdz5EZVTYiBpCUTHObChUt%2FJwbnwlR%2BYZKCsdJOrM8piTSKrXUFq2IRBhV8q2c%3D",
-    "importedAt": "2026-03-14T12:24:10Z"
+    "importedAt": "2026-03-14T12:24:10Z",
+    "highlights": [
+      "Weight: 150kg"
+    ],
+    "description": "The Darche FLAT PACK CHAIR - SUPER COMFORT LIGHTWEIGHT FLAT PACK OUTDOOR CHAIR is a mid-range chairs from Darche. Take it anywhere. Set up in seconds. Get comfortable without the clutter. Incredibly compact & lightweight chair. Supports up to 150kg without breaking a sweat, yet weighs just...",
+    "specs": {
+      "Reference price": "A$168",
+      "Weight": "150kg"
+    }
   },
   {
     "slug": "darche-darche-eco-xl-relax-folding-chair",
@@ -8119,7 +9341,16 @@
     "sourceLegacyItemId": "286261749132",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/286261749132?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBgnzKkczVCn2%2BJkOWBlOsCw8nLRgv9oAwVdsgX826NPvx90dDr3RWSzHvwkKpyMQVPbcN8foOZ4H9zzpJTNoX0QTx5Pg0FJH6jM0%2FV6s1ty27Z3pkABI49kT1%2Fu45nHEMPYVNyy2RSuoMWrFN4Uo5HwBewbh8Ab78hRPKMxpVvllsSrl75nCY5UFnZqZ6awO0%3D",
-    "importedAt": "2026-03-14T12:24:11Z"
+    "importedAt": "2026-03-14T12:24:11Z",
+    "highlights": [
+      "Mid-Range chairs option",
+      "By Darche",
+      "Experience ultimate outdoor comfort with the Darche ECO Rela"
+    ],
+    "description": "Rated 5.0/5 from 1 reviews. The Darche ECO XL RELAX FOLDING CHAIR is a mid-range chairs from Darche. Experience ultimate outdoor comfort with the Darche ECO Relax Folding Chair XL, designed for those who value relaxation and style on their adventures. Its plush padded seat and...",
+    "specs": {
+      "Reference price": "A$120"
+    }
   },
   {
     "slug": "dometic-waeco-dometic-go-compact-camp-chair-glacier",
@@ -8177,7 +9408,15 @@
     "sourceLegacyItemId": "326836635251",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/326836635251?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:24:12Z"
+    "importedAt": "2026-03-14T12:24:12Z",
+    "highlights": [
+      "Padded armrests",
+      "Aluminium frame"
+    ],
+    "description": "The DOMETIC GO Compact Camp Chair (glacier) is a mid-range chairs from DOMETIC WAECO. (Available in Ash, Glacier and Silt. 8:30am-5:00pm). Made from heavy duty 600D fabric, lightweight aluminium and beechwood armrests. Pick Up OptionAvailable From Our Office.",
+    "specs": {
+      "Reference price": "A$170"
+    }
   },
   {
     "slug": "dometic-dometic-go-compact-camp-chair-silt",
@@ -8235,7 +9474,14 @@
     "sourceLegacyItemId": "126503096892",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/126503096892?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCjKv6rUHGdDJq%2BCZ7ocVplIrckVOIjL62dYnU0%2Bn7KSeYawfjYyfOzT%2B44vAVIeRc0PzU3NgBApl43H3SYyNBZGWKkiZWhb%2BvNOyJbfFpDoplFDgRnaorgLJYpzKDa%2BMHMEFIIyV886zh0U5H3j%2F%2BWvOGVjj%2FaDNE3HuEIhKw5X81CEx0cX6vxHGQjSRw7iyY%3D",
-    "importedAt": "2026-03-14T12:24:13Z"
+    "importedAt": "2026-03-14T12:24:13Z",
+    "highlights": [
+      "Aluminium frame"
+    ],
+    "description": "The Dometic GO Compact Camp Chair - Silt is a mid-range chairs from Dometic. Available in Ash, Glacier and Silt. Model on label Compact Camp Chair- Silt. Compact Camp Chair. Colour Sile. Made to Last. Made from heavy duty 600D fabric, lightweight alumini...",
+    "specs": {
+      "Reference price": "A$150"
+    }
   },
   {
     "slug": "dometic-dometic-go-compact-camp-chair",
@@ -8293,7 +9539,16 @@
     "sourceLegacyItemId": "375028915634",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/375028915634?var=644113997734&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:24:14Z"
+    "importedAt": "2026-03-14T12:24:14Z",
+    "highlights": [
+      "Mid-Range chairs option",
+      "By Dometic",
+      "Make our chair your new favourite place to sit, wherever you"
+    ],
+    "description": "The Dometic GO Compact Camp Chair is a mid-range chairs from Dometic. Make our chair your new favourite place to sit, wherever you roam. Our vision is simple - to inspire, equip, and enable people with everything needed for a lightweight outdoor a...",
+    "specs": {
+      "Reference price": "A$166"
+    }
   },
   {
     "slug": "companion-toilet-chair-by-oztrail",
@@ -8351,7 +9606,14 @@
     "sourceLegacyItemId": "125643125154",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/125643125154?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:24:15Z"
+    "importedAt": "2026-03-14T12:24:15Z",
+    "highlights": [
+      "Steel frame"
+    ],
+    "description": "Rated 4.5/5 from 12 reviews. The Toilet Chair by OZTRAIL is a budget chairs from COMPANION. The Toilet Chair is everything you need if you’re in nature and nature calls. It features a sturdy high-tensile steel frame and durable easy-to-clean fabric with a removable pad...",
+    "specs": {
+      "Reference price": "A$37"
+    }
   },
   {
     "slug": "dometic-waeco-dometic-go-compact-camp-chair",
@@ -8409,7 +9671,15 @@
     "sourceLegacyItemId": "326836635249",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/326836635249?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:24:15Z"
+    "importedAt": "2026-03-14T12:24:15Z",
+    "highlights": [
+      "Padded armrests",
+      "Aluminium frame"
+    ],
+    "description": "The DOMETIC GO Compact Camp Chair is a mid-range chairs from DOMETIC WAECO. (Available in Ash, Glacier and Silt. 8:30am-5:00pm). Made from heavy duty 600D fabric, lightweight aluminium and beechwood armrests. Pick Up OptionAvailable From Our Office.",
+    "specs": {
+      "Reference price": "A$170"
+    }
   },
   {
     "slug": "wanderer-personalised-kids-camp-chair-made-to-order",
@@ -8467,7 +9737,16 @@
     "sourceLegacyItemId": "187630024481",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/187630024481?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:24:27Z"
+    "importedAt": "2026-03-14T12:24:27Z",
+    "highlights": [
+      "Mid-Range chairs option",
+      "By Wanderer",
+      "This kids camp chair boasts an integrated insulated cooler b"
+    ],
+    "description": "The Personalised Kids Camp Chair -made To Order is a mid-range chairs from Wanderer. This kids camp chair boasts an integrated insulated cooler bag, perfect for keeping those juice boxes and snacks refreshingly cool. There's also a convenient drink holder and a...",
+    "specs": {
+      "Reference price": "A$100"
+    }
   },
   {
     "slug": "coleman-coleman-25l-cooler-keg-with-insulated-walls-and-looking-lid",
@@ -8525,7 +9804,15 @@
     "sourceLegacyItemId": "236643917471",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/236643917471?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:24:51Z"
+    "importedAt": "2026-03-14T12:24:51Z",
+    "highlights": [
+      "25L capacity"
+    ],
+    "description": "The COLEMAN 25L Cooler Keg With Insulated Walls and Looking Lid is a mid-range coolers from COLEMAN. This robust cooler is designed to keep your drinks cold and your snacks organised, making it an essential item for any outing. 1 x 25L Cooler. Superior Insulation Performance: T...",
+    "specs": {
+      "Reference price": "A$194",
+      "Capacity": "25L"
+    }
   },
   {
     "slug": "dometic-dometic-cool-ice-ci-15-icebox",
@@ -8583,7 +9870,16 @@
     "sourceLegacyItemId": "389483508045",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/389483508045?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:24:51Z"
+    "importedAt": "2026-03-14T12:24:51Z",
+    "highlights": [
+      "Budget coolers option",
+      "By Dometic",
+      "Drainage recesses assist with easy, hygienic cleaning, while"
+    ],
+    "description": "The Dometic Cool Ice CI 15 Icebox is a budget coolers from Dometic. Drainage recesses assist with easy, hygienic cleaning, while quality integrated hinges include stainless-steel rods and robust rubber latches - so you can crack open a cold one...",
+    "specs": {
+      "Reference price": "A$99"
+    }
   },
   {
     "slug": "esky-50l-esky-plus-ice-box-cooler-moulded-construction-toughest-ever-camping-fishing",
@@ -8641,7 +9937,15 @@
     "sourceLegacyItemId": "183750615876",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/183750615876?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDVTUpi23UsO8%2F9GrQWu8YqRYWGWPtGeiNr1LJQTIJaZOdde7IWh%2B4iH0JNAGNgz2oQiOz1F4%2Bk9N6smA4%2BEoh%2BPfQNyyu4NsElKrIbEzk48kwIKpddViR2bDtK2NyzQzZ6gS9vHOOex4kPMToHfhux4mbqO746D6yYizsESgrx%2FN2rPQz7fdFT0g8EieDEN7o%3D",
-    "importedAt": "2026-03-14T12:24:52Z"
+    "importedAt": "2026-03-14T12:24:52Z",
+    "highlights": [
+      "50L capacity"
+    ],
+    "description": "The 50L Esky Plus Ice Box Cooler Moulded Construction- Toughest Ever Camping Fishing is a high-end coolers from ESKY. The Esky Plus 50L with its roto moulded construction is the toughest Esky ever made. The Esky Plus is the cooler for serious outdoor enthusiasts. Esky Plus 50L Icebox. Tough rot...",
+    "specs": {
+      "Reference price": "A$2900",
+      "Capacity": "50L"
+    }
   },
   {
     "slug": "dometic-dometic-waeco-ci-42-rotomoulded-cool-ice-box-41-litre-camping-outdoor-motorhome",
@@ -8699,7 +10003,16 @@
     "sourceLegacyItemId": "272828905157",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/272828905157?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:24:53Z"
+    "importedAt": "2026-03-14T12:24:53Z",
+    "highlights": [
+      "41L capacity",
+      "Rotomoulded construction"
+    ],
+    "description": "The Dometic Waeco CI-42 Rotomoulded Cool Ice Box 41 Litre Camping Outdoor Motorhome is a mid-range coolers from Dometic. The Supplier;. Supplier in any way which may be adverse to. to the Supplier for the Goods, on trust for the. 3.1 Any instructions received by the Supplier from the. (including t...",
+    "specs": {
+      "Reference price": "A$252",
+      "Capacity": "41L"
+    }
   },
   {
     "slug": "dometic-dometic-cool-ice-55-rotomoulded-icebox-55l-free-post",
@@ -8757,7 +10070,16 @@
     "sourceLegacyItemId": "297851126089",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/297851126089?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:24:54Z"
+    "importedAt": "2026-03-14T12:24:54Z",
+    "highlights": [
+      "55L capacity",
+      "Rotomoulded construction"
+    ],
+    "description": "Rated 5.0/5 from 2 reviews. The Dometic Cool-Ice 55 Rotomoulded Icebox - 55L - Free post is a mid-range coolers from Dometic. The durable construction includes integrated polyethylene feet for added stability, along with built-in hinges supported by stainless steel rods and secure rubber latches, ensur...",
+    "specs": {
+      "Reference price": "A$240",
+      "Capacity": "55L"
+    }
   },
   {
     "slug": "dometic-dometic-cool-ice-ci-15-rotomoulded-icebox-9620008810",
@@ -8815,7 +10137,14 @@
     "sourceLegacyItemId": "157028312396",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/157028312396?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:24:55Z"
+    "importedAt": "2026-03-14T12:24:55Z",
+    "highlights": [
+      "Rotomoulded construction"
+    ],
+    "description": "The Dometic Cool Ice CI 15 Rotomoulded Icebox 9620008810 is a mid-range coolers from Dometic. Dometic Cool Ice CI 15 Rotomoulded Icebox 9620008810.",
+    "specs": {
+      "Reference price": "A$139"
+    }
   },
   {
     "slug": "companion-companion-26l-hard-cooler",
@@ -8873,7 +10202,15 @@
     "sourceLegacyItemId": "198125835006",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/198125835006?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:26:16Z"
+    "importedAt": "2026-03-14T12:26:16Z",
+    "highlights": [
+      "26L capacity"
+    ],
+    "description": "Rated 5.0/5 from 1 reviews. The Companion - 26L Hard Cooler is a budget coolers from Companion. OzPig - Series 2 Portable Woodfire BBQ/Stove. Fitbit - Versa 2 Fitness Watch - Black / Carbon. You might also like.",
+    "specs": {
+      "Reference price": "A$63",
+      "Capacity": "26L"
+    }
   },
   {
     "slug": "companion-companion-hard-cooler-26l-esky-ice-box-bag-picnic-camping-outdoor-touring-hiking",
@@ -8931,7 +10268,15 @@
     "sourceLegacyItemId": "274816475999",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/274816475999?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:26:21Z"
+    "importedAt": "2026-03-14T12:26:21Z",
+    "highlights": [
+      "26L capacity"
+    ],
+    "description": "Rated 5.0/5 from 1 reviews. The Companion Hard Cooler 26L Esky Ice Box Bag Picnic Camping Outdoor Touring Hiking is a budget coolers from Companion. Provision.X CLOSE. the Price of the Goods sold notwithstanding. the Supplier;. way nor grant nor otherwise give any interest. Supplier in any way which may be adverse to. to the...",
+    "specs": {
+      "Reference price": "A$61",
+      "Capacity": "26L"
+    }
   },
   {
     "slug": "igloo-igloo-23l-white-bmx-cooler-heavy-duty-ice-box-camping-fishing-eskies",
@@ -8989,7 +10334,15 @@
     "sourceLegacyItemId": "287037240195",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/287037240195?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCJMwgTnfi2vmU3Zda5CCqzEh0yTnTtgiDuFt3b8k5Wxwyefo5RF7GrbGmtEtfUSLAsf8I2dlIyeFS1h7n1txf1z3G16mUba%2BkHoGBhHD6QzTnmFnTxdd6VDkhl790R3FhAJSRI0z3A63EehR41mHAV7vigPQMLE%2Fx8x3oQ24MySSoRkYGpRrxKvs0trAy%2BLNg%3D",
-    "importedAt": "2026-03-14T12:26:59Z"
+    "importedAt": "2026-03-14T12:26:59Z",
+    "highlights": [
+      "23L capacity"
+    ],
+    "description": "The Igloo 23L White BMX Cooler Heavy Duty Ice Box Camping Fishing Eskies is a mid-range coolers from Igloo. 🥶IGLOO 23L BMX Cooler – Heavy-Duty, Adventure-Ready, Superior Ice Retention. •Ultra-Durable Build – Heavy-duty blow-moulded construction built to withstand harsh outdoor use. •B...",
+    "specs": {
+      "Reference price": "A$140",
+      "Capacity": "23L"
+    }
   },
   {
     "slug": "igloo-igloo-23l-green-bmx-cooler-heavy-duty-ice-box-camping-fishing-eskies",
@@ -9047,7 +10400,15 @@
     "sourceLegacyItemId": "287037240187",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/287037240187?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAWGsjXXsY8kCewEQQtkLkfUple94hMB%2BUkF6ARf8G0BznBs%2BbA7ttbvyUVfsk3KFtO6lvjpJko3j78Smrh%2BokYE468vJVaUfl4zruoVAFkZe80o0cydYDl4vICTiFnzHnWG3Xr3TuU9OEhxBjCZnofDYbGdrfQ9BDI2UY5uJ8rBYf7%2BNEYXzfneMrQEzjwaQI%3D",
-    "importedAt": "2026-03-14T12:26:59Z"
+    "importedAt": "2026-03-14T12:26:59Z",
+    "highlights": [
+      "23L capacity"
+    ],
+    "description": "The Igloo 23L Green BMX Cooler Heavy Duty Ice Box Camping Fishing Eskies is a mid-range coolers from Igloo. 🥶IGLOO 23L BMX Cooler – Heavy-Duty, Adventure-Ready, Superior Ice Retention. •Ultra-Durable Build – Heavy-duty blow-moulded construction built to withstand harsh outdoor use. •B...",
+    "specs": {
+      "Reference price": "A$140",
+      "Capacity": "23L"
+    }
   },
   {
     "slug": "dometic-dometic-cool-ice-ci-28-rotomoulded-icebox-9620008812",
@@ -9105,7 +10466,14 @@
     "sourceLegacyItemId": "157028311657",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/157028311657?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:27:01Z"
+    "importedAt": "2026-03-14T12:27:01Z",
+    "highlights": [
+      "Rotomoulded construction"
+    ],
+    "description": "The Dometic Cool Ice CI 28 Rotomoulded Icebox 9620008812 is a mid-range coolers from Dometic. Dometic Cool Ice CI 28 Rotomoulded Icebox 9620008812.",
+    "specs": {
+      "Reference price": "A$229"
+    }
   },
   {
     "slug": "dometic-dometic-ci-15-rotomoulded-icebox-15-l",
@@ -9163,7 +10531,16 @@
     "sourceLegacyItemId": "135078573104",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/135078573104?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDdiVzaB%2Fy9eYHC2mC5OvLGgrrePXCTRc4V9yONv0ar5TiW90B5ElvVreRw6Qu3n%2B7M9HunS728tePf1LBXesORJk03Nlb53eSR7YMLStguqCow7vf%2FryUzGXqwTDltSTDE3580Fbb32HQWLCEGjOmZn37fO2gNGBaO0HdXXZI6X8cMzQo48sMtwS5%2F2dyIQ1Y%3D",
-    "importedAt": "2026-03-14T12:27:02Z"
+    "importedAt": "2026-03-14T12:27:02Z",
+    "highlights": [
+      "15L capacity",
+      "Rotomoulded construction"
+    ],
+    "description": "The Dometic CI 15 Rotomoulded icebox, 15 l is a mid-range coolers from Dometic. Rotomoulded icebox, 15 l. These robust iceboxes are ideal for continuous exposure to weather, especially on boats and camping. The refrigeration grade foam insulation and ’Labyr...",
+    "specs": {
+      "Reference price": "A$111",
+      "Capacity": "15L"
+    }
   },
   {
     "slug": "coleman-coleman-fyreknight-2-burner-lpg-camp-stove-cm1377539",
@@ -9221,7 +10598,15 @@
     "sourceLegacyItemId": "266692503828",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/266692503828?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:27:36Z"
+    "importedAt": "2026-03-14T12:27:36Z",
+    "highlights": [
+      "2-burner design"
+    ],
+    "description": "Rated 4.6/5 from 23 reviews. The Coleman FyreKnight 2-Burner LPG Camp Stove | CM1377539 is a mid-range stoves from Coleman. SKU CM1377539. Ideal for fast boiling and use with larger pots. Boil water twice as fast as standard burners. Heavy duty locking latch and shock absorbing bumpers for easy carry...",
+    "specs": {
+      "Reference price": "A$245",
+      "Burners": "2"
+    }
   },
   {
     "slug": "companion-companion-proheat-2-burner-with-fsd-stove-low-pressure",
@@ -9279,7 +10664,15 @@
     "sourceLegacyItemId": "297794123250",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/297794123250?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xB8sMDWJPrShRXqmgcgDjTJ4kQ8eA7mI%2B1Vlat2iYoDd2kXv0gVm5g3rgkJ7i3TREPDeZtP4l%2B2mFndPKaCNTpXFkQFwlD2Pv95he1gvW%2FA%2Ftpm%2BkwfLFauzdYF%2FhTjuUvDOw4LabNy%2FZTw1gQIBQ94SIv1xltNbSSeYbeE0iQ4E1M%2BX%2BincXrYoM10KUFqW8o%3D",
-    "importedAt": "2026-03-14T12:27:47Z"
+    "importedAt": "2026-03-14T12:27:47Z",
+    "highlights": [
+      "2-burner design"
+    ],
+    "description": "Rated 5.0/5 from 1 reviews. The Companion Proheat 2 Burner with FSD Stove Low Pressure is a mid-range stoves from Companion. The all-new Proheat Portable 2 Burner Stove with FSD is a versatile and safety-focused addition to any camp setup. It can also be connected to any refillable LCC27 gas cylinder...",
+    "specs": {
+      "Reference price": "A$236",
+      "Burners": "2"
+    }
   },
   {
     "slug": "companion-companion-high-output-2-burner-stove-25k-btu-w-windshields-piezo-ignition",
@@ -9337,7 +10730,18 @@
     "sourceLegacyItemId": "277250780181",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/277250780181?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:27:48Z"
+    "importedAt": "2026-03-14T12:27:48Z",
+    "highlights": [
+      "2-burner design",
+      "25,000 BTU output",
+      "Wind-resistant design"
+    ],
+    "description": "Rated 4.8/5 from 4 reviews. The Companion HIGH OUTPUT 2 BURNER STOVE - 25K BTU W/ WINDSHIELDS + PIEZO IGNITION is a mid-range stoves from Companion. Integrated piezo ignition for easy lighting. Ignition: Piezo. 2 x high-output 25,000 BTU burners with wind protection. Each large-format burner features integrated windshields,...",
+    "specs": {
+      "Reference price": "A$178",
+      "Heat output": "25,000 BTU",
+      "Burners": "2"
+    }
   },
   {
     "slug": "jetboil-jetboil-genesis-basecamp-stove-2-burner-camp-stove-jgnst-au-2",
@@ -9395,7 +10799,18 @@
     "sourceLegacyItemId": "326200275337",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/326200275337?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:27:50Z"
+    "importedAt": "2026-03-14T12:27:50Z",
+    "highlights": [
+      "2-burner design",
+      "10,000 BTU output",
+      "Compact folding design"
+    ],
+    "description": "The Jetboil GENESIS BASECAMP STOVE 2 BURNER CAMP STOVE #JGNST-AU is a premium stoves from Jetboil. Turn your outback cooking fantasies into reality with the ultra-compact Genesis dual-burner cook stove by Jetboil®. The award-winning Genesis stove is a beastly 10,000 BTU heati...",
+    "specs": {
+      "Reference price": "A$477",
+      "Heat output": "10,000 BTU",
+      "Burners": "2"
+    }
   },
   {
     "slug": "campeak-campeak-jetboil-hiking-stove-camping-propane-cooking-portable-camp-burner-1-4l",
@@ -9453,7 +10868,14 @@
     "sourceLegacyItemId": "226198104726",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/226198104726?var=525343769987&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCJGeJKObcg8taIuXrVP0vxqCs%2B0KxhRNccnceJObcMcfMnstZdQRnc08Fbljrex88oy2viN00Qa76SxH3%2B%2Frp6TS6bPYtpZQV%2FZ%2BwwtfvAr4n5WsRgTHB7E%2ByNe%2BReQn6Mz9DOZnQKQlvlkkl0oGc2h16bj5FHkcmOoOMEMnss4V44FKRk7u6jrS5wJC9ntio%3D",
-    "importedAt": "2026-03-14T12:27:50Z"
+    "importedAt": "2026-03-14T12:27:50Z",
+    "highlights": [
+      "Wind-resistant design"
+    ],
+    "description": "The Campeak Jetboil Hiking Stove Camping Propane Cooking Portable Camp Burner - 1.4L is a mid-range stoves from Campeak. Similar to Jetboil Flash cooking system. Camp-peak portable gas burner stove system. INTEGRATED COOKING SYSTEM: All-in-one stove, secure-locking pot. IGNITION & WINDPROOF: Pushb...",
+    "specs": {
+      "Reference price": "A$104"
+    }
   },
   {
     "slug": "hytec-primus-optimus-camp-stove-burner-washers-bulk-pack-of-20-large-type-free-post",
@@ -9511,7 +10933,16 @@
     "sourceLegacyItemId": "293254141104",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/293254141104?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:27:51Z"
+    "importedAt": "2026-03-14T12:27:51Z",
+    "highlights": [
+      "Budget stoves option",
+      "By HYTEC",
+      "Primus Optimus Camp Stove BURNER WASHERS - large. For the ma"
+    ],
+    "description": "The Primus Optimus Camp Stove burner washers BULK Pack of 20 LARGE type - FREE POST is a budget stoves from HYTEC. Primus Optimus Camp Stove BURNER WASHERS - large. For the majority of 1.75 and 2 pint stoves such as No: 1,5,45,48 and 50.",
+    "specs": {
+      "Reference price": "A$18"
+    }
   },
   {
     "slug": "hytec-primus-optimus-camp-stove-burner-washers-bulk-pack-of-20-small-type",
@@ -9569,7 +11000,16 @@
     "sourceLegacyItemId": "303303515664",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/303303515664?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:27:52Z"
+    "importedAt": "2026-03-14T12:27:52Z",
+    "highlights": [
+      "Budget stoves option",
+      "By HYTEC",
+      "Primus Optimus Camp Stove BURNER WASHERS. For the majority o"
+    ],
+    "description": "The Primus Optimus Camp Stove burner washers - BULK pack of 20 - small type is a budget stoves from HYTEC. Primus Optimus Camp Stove BURNER WASHERS. For the majority of 1 pint stoves such as Optimus No: 00, Primus NO: 210 and similar Radius, Burmos etc.",
+    "specs": {
+      "Reference price": "A$15"
+    }
   },
   {
     "slug": "camp-chef-heavy-duty-patio-cover-fits-camp-chef-2-burners-stove-ex60p-ex60lw",
@@ -9627,7 +11067,15 @@
     "sourceLegacyItemId": "376998532416",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/376998532416?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBxdvR4JslNpn3jP3pZTj%2FLEvLpxBDy5B%2BSsNyRIz341lRWxf8bxns32rLOJUoyznXeDEjh1sKzhjsnonOPz5LQG5wXGB1T1Mut3rtwbaCIFS6N--KAXthRRfgelHEcT8AL%2BYSJvJIviBPe71eZx%2BL5NvGtnfM5Nvn0zFlGuVr4dLDXQDV%2BFph30k1YGl8NabY%3D",
-    "importedAt": "2026-03-14T12:27:54Z"
+    "importedAt": "2026-03-14T12:27:54Z",
+    "highlights": [
+      "2-burner design"
+    ],
+    "description": "The Heavy-Duty Patio Cover Fits Camp Chef 2 Burners Stove EX60P, EX60LW is a budget stoves from Camp Chef. Heavy-Duty Patio Cover Fits Camp Chef 2 Burners Stove EX60P, EX60LW, EX60PP, EX60B, EX280LW, EX170LW, YK60LW, YK60LWC12, PRO60X OSD-60LW, CC-60, DL-60, DC-60LW, DH-280, DH-170,...",
+    "specs": {
+      "Reference price": "A$89",
+      "Burners": "2"
+    }
   },
   {
     "slug": "camp-chef-two-burner-patio-cover-for-camp-chef-2-burners-stove-and-gas-one-vivicreate-out",
@@ -9685,7 +11133,15 @@
     "sourceLegacyItemId": "406286699111",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/406286699111?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:27:54Z"
+    "importedAt": "2026-03-14T12:27:54Z",
+    "highlights": [
+      "2-burner design"
+    ],
+    "description": "The Two Burner Patio Cover for Camp Chef 2 Burners Stove and Gas One/Vivicreate /Out is a budget stoves from Camp Chef. Reduces condensation-induced rust – critical for Two Burner Patio. Quick installation and cleaning: Two Burner Patio Cover is designed for effortless application and removal, en...",
+    "specs": {
+      "Reference price": "A$83",
+      "Burners": "2"
+    }
   },
   {
     "slug": "trangia-spirit-burner-b25-by-trangia",
@@ -9743,7 +11199,16 @@
     "sourceLegacyItemId": "127307673024",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/127307673024?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:27:56Z"
+    "importedAt": "2026-03-14T12:27:56Z",
+    "highlights": [
+      "Budget stoves option",
+      "By TRANGIA",
+      "The spirit burner can be used in all Trangia stoves 25 Large"
+    ],
+    "description": "Rated 5.0/5 from 3 reviews. The Spirit Burner B25 by TRANGIA is a budget stoves from TRANGIA. The spirit burner can be used in all Trangia stoves 25 Large and 27 Small, Trangia Triangel (Art.no 400333), Open spirit stove (Art.no 100230) and Mini Trangia (Art.no 100285)....",
+    "specs": {
+      "Reference price": "A$39"
+    }
   },
   {
     "slug": "gasmate-genuine-australia-certified-butane-stove-portable-gasmate-single-gas-burner-camp-cooker-case-aga-approved",
@@ -9801,7 +11266,16 @@
     "sourceLegacyItemId": "376985805015",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/376985805015?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCUtu5TEtWa%2FxN0zCs8cGo6r%2B%2Bt196ACDDDHO800DiRvhrmtb9sEebwBlAEeM5ZpH4E%2FgmOwl1EtBW9U11KaJ4z0jsJU4VuYRJU2b9sCZJ%2Bxzj73HSsSMXbl%2BAR7TMb2atxSWrMwzu%2B2Z1N7CmojG0sT7GqaSDWXCt9ZpLuwzYLlHay3nQwxDq6CLv6Eh4%2FOc8%3D",
-    "importedAt": "2026-03-14T12:28:24Z"
+    "importedAt": "2026-03-14T12:28:24Z",
+    "highlights": [
+      "Budget stoves option",
+      "By Gasmate Genuine Australia Certified",
+      "No hotplate. Cook safely and efficiently wherever you go wit"
+    ],
+    "description": "Rated 5.0/5 from 1 reviews. The Butane Stove Portable Gasmate Single Gas Burner Camp Cooker & Case AGA APPROVED is a budget stoves from Gasmate Genuine Australia Certified. No hotplate. Cook safely and efficiently wherever you go with this portable single-burner butane stove. Built with dual overpressure safety sensors for added protection and peac...",
+    "specs": {
+      "Reference price": "A$47"
+    }
   },
   {
     "slug": "gasmate-camping-stove-3-burner",
@@ -9859,7 +11333,15 @@
     "sourceLegacyItemId": "206077908995",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/206077908995?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:28:24Z"
+    "importedAt": "2026-03-14T12:28:24Z",
+    "highlights": [
+      "3-burner design"
+    ],
+    "description": "The Camping stove 3 burner is a budget stoves from Gasmate. 3 burner complete with stand , gas cylinder, case, and hose.",
+    "specs": {
+      "Reference price": "A$21",
+      "Burners": "3"
+    }
   },
   {
     "slug": "coleman-coleman-classic-rechargeable-lantern-800-lumens-camping-lantern-black",
@@ -9917,7 +11399,15 @@
     "sourceLegacyItemId": "127697104794",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/127697104794?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:28:29Z"
+    "importedAt": "2026-03-14T12:28:29Z",
+    "highlights": [
+      "800 lumens max brightness"
+    ],
+    "description": "The Coleman Classic Rechargeable Lantern 800 Lumens | Camping Lantern, Black is a mid-range lanterns from Coleman. Its modern, impact-resistant design is inspired by our original fuel burning lanterns, and its updated bail handle makes it easy to carry and hang. Included Components‎LANTERN C...",
+    "specs": {
+      "Reference price": "A$154",
+      "Brightness": "800 lm"
+    }
   },
   {
     "slug": "coleman-coleman-lantern-all-night-800l-lithium-ion-lantern-outdoor-camping-7-6x13-4cm",
@@ -9975,7 +11465,16 @@
     "sourceLegacyItemId": "127675780741",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/127675780741?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCkieVswvtRuVNsIp9lPsRkKVdRekvpI%2FC%2FUwIPxppgx%2BlAkt%2BYLwuca5Vx3KnVgsmhSjvTXP3oIUzngZm7tEnWKnMLmxjDm5BTVQ7nGlGQUlWQXPud8RQGk6%2F%2BWAxabrR7a9LYRnDozcDdw%2BEaD%2BcKPFFJd5LmCMXs7DGezLXwkHZuQIfaUE5q6iJrqmPPMX8%3D",
-    "importedAt": "2026-03-14T12:28:30Z"
+    "importedAt": "2026-03-14T12:28:30Z",
+    "highlights": [
+      "Budget lanterns option",
+      "By COLEMAN",
+      "The Coleman Lantern All Night 800L Lithium Ion is a powerful"
+    ],
+    "description": "The COLEMAN Lantern All Night 800L Lithium Ion Lantern Outdoor Camping 7.6x13.4cm is a budget lanterns from COLEMAN. The Coleman Lantern All Night 800L Lithium Ion is a powerful and versatile outdoor lighting solution designed for campers, hikers, and backyard enthusiasts. Lightweight and port...",
+    "specs": {
+      "Reference price": "A$87"
+    }
   },
   {
     "slug": "black-diamond-waterproof-led-camping-lamp-night-light-dimmable-height-adjustable-lantern",
@@ -10033,7 +11532,15 @@
     "sourceLegacyItemId": "256960339675",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/256960339675?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:28:31Z"
+    "importedAt": "2026-03-14T12:28:31Z",
+    "highlights": [
+      "Water-resistant",
+      "Adjustable brightness"
+    ],
+    "description": "The Waterproof LED Camping Lamp Night Light Dimmable Height Adjustable Lantern is a budget lanterns from Black Diamond. Foldable, Hangable, Height-Adjustable, and Dimmable. Low Battery Indicator.",
+    "specs": {
+      "Reference price": "A$35"
+    }
   },
   {
     "slug": "black-diamond-black-diamond-moji-camping-lantern-max-output-200-lumen",
@@ -10091,7 +11598,15 @@
     "sourceLegacyItemId": "115399740120",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/115399740120?var=415446059325&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:28:32Z"
+    "importedAt": "2026-03-14T12:28:32Z",
+    "highlights": [
+      "200 lumens max brightness"
+    ],
+    "description": "The Black Diamond MOJI+ Camping Lantern Max Output 200 Lumen is a budget lanterns from Black Diamond. Black Diamond MOJI+ Camping Lantern. 1xBLACK DIAMOND MOJI+ LANTERN. MAX DISTANCE(S) ON HIGHEST SETTING: 15M. MAX DISTANCE(S) ON LOWEST SETTING: 2M. Two button interface is easy...",
+    "specs": {
+      "Reference price": "A$55",
+      "Brightness": "200 lm"
+    }
   },
   {
     "slug": "biolite-biolite-alpenglow-500-lantern-camping-lighting-usb-charger",
@@ -10149,7 +11664,14 @@
     "sourceLegacyItemId": "115265378544",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/115265378544?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:28:33Z"
+    "importedAt": "2026-03-14T12:28:33Z",
+    "highlights": [
+      "USB rechargeable"
+    ],
+    "description": "The Biolite Alpenglow 500 Lantern Camping Lighting USB Charger is a mid-range lanterns from Biolite. 1 x BIOLITE ALPENGLOW 500 LANTERN. LIGHTING MODES: COOL LIGHT, FULL (360 DEGREE), COOL LIGHT, HALF (180 DEGREE), WARM LIGHT, FULL (360 DEGREE), WARM LIGHT, HALF (180 DEGREE), 1...",
+    "specs": {
+      "Reference price": "A$130"
+    }
   },
   {
     "slug": "ledlenser-ledlenser-ml6-led-lantern-rechargeable-camping-light-power-bank",
@@ -10207,7 +11729,14 @@
     "sourceLegacyItemId": "127738275930",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/127738275930?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:28:45Z"
+    "importedAt": "2026-03-14T12:28:45Z",
+    "highlights": [
+      "Charges phones via USB"
+    ],
+    "description": "Rated 4.9/5 from 12 reviews. The Ledlenser ML6 LED Lantern Rechargeable Camping Light Power Bank is a mid-range lanterns from Ledlenser. Ledlenser ML6 Lantern A COMPACT LANTERN WITH A POWERFUL WHITE LIGHT From the backyard to the backcountry, the ML6 lantern will keep your outdoor adventures bright and all your d...",
+    "specs": {
+      "Reference price": "A$166"
+    }
   },
   {
     "slug": "ledlenser-ledlenser-kidcamp6-kids-lantern-led-camping-light-multi-colour",
@@ -10265,7 +11794,16 @@
     "sourceLegacyItemId": "127738059039",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/127738059039?var=428911412710&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:28:46Z"
+    "importedAt": "2026-03-14T12:28:46Z",
+    "highlights": [
+      "Budget lanterns option",
+      "By Ledlenser",
+      "Ledlenser Kidcamp6 Lantern VERSATILE, COSY AND COLOURFUL Chi"
+    ],
+    "description": "The Ledlenser Kidcamp6 Kids Lantern LED Camping Light Multi Colour is a budget lanterns from Ledlenser. Ledlenser Kidcamp6 Lantern VERSATILE, COSY AND COLOURFUL Children love to discover the world with their own eyes - and from now on, they can also use their own light. For cosy e...",
+    "specs": {
+      "Reference price": "A$42"
+    }
   },
   {
     "slug": "barebones-new-barebones-vintage-rail-road-lantern-light-usb-portable-camping-led-light",
@@ -10323,7 +11861,16 @@
     "sourceLegacyItemId": "176750049880",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/176750049880?var=476449780870&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:28:48Z"
+    "importedAt": "2026-03-14T12:28:48Z",
+    "highlights": [
+      "Mid-Range lanterns option",
+      "By BareBones",
+      "A modern twist on an antique and well-loved Union Pacific la"
+    ],
+    "description": "The New BAREBONES Vintage Rail Road Lantern Light USB Portable Camping LED Light is a mid-range lanterns from BareBones. A modern twist on an antique and well-loved Union Pacific lantern. Gorgeous seeded glass and copper accents make this a unique light for a curated dinner table or at camp. High-...",
+    "specs": {
+      "Reference price": "A$140"
+    }
   },
   {
     "slug": "sea-to-summit-camping-lantern-rechargeable-super-bright-led-camping-lights-lamp-with-7-light-5",
@@ -10381,7 +11928,16 @@
     "sourceLegacyItemId": "236663674072",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/236663674072?_skw=Sea+to+Summit+camping+lantern+led&hash=item371a4114d8%3Ag%3AGfwAAeSwlXNppTLd&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10049",
-    "importedAt": "2026-03-14T12:29:13Z"
+    "importedAt": "2026-03-14T12:29:13Z",
+    "highlights": [
+      "Budget lanterns option",
+      "By Sea to Summit",
+      "Camping Lantern Rechargeable, Super Bright LED Camping Light"
+    ],
+    "description": "The Camping Lantern Rechargeable, Super Bright LED Camping Lights Lamp with 7 Light is a budget lanterns from Sea to Summit. Camping Lantern Rechargeable, Super Bright LED Camping Lights Lamp with 7 Light",
+    "specs": {
+      "Reference price": "A$56"
+    }
   },
   {
     "slug": "sea-to-summit-rechargeable-camping-lantern-3-colour-modes-6-brightness-levels-hard-foldabl",
@@ -10439,7 +11995,16 @@
     "sourceLegacyItemId": "317860332255",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/317860332255?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:29:21Z"
+    "importedAt": "2026-03-14T12:29:21Z",
+    "highlights": [
+      "Budget lanterns option",
+      "By Sea to Summit",
+      "【Customisable Light with 3 Colours & 6 Modes】 Switch between"
+    ],
+    "description": "The Rechargeable Camping Lantern, 3 Colour Modes & 6 Brightness Levels, Hard Foldabl is a budget lanterns from Sea to Summit. 【Customisable Light with 3 Colours & 6 Modes】 Switch between white, warm white, and warm yellow light with six brightness levels—perfect for tents, night walks, or reading under...",
+    "specs": {
+      "Reference price": "A$27"
+    }
   },
   {
     "slug": "oztrail-100-lumen-portable-camp-light",
@@ -10497,7 +12062,18 @@
     "sourceLegacyItemId": "157702193673",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/157702193673?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAC2r5yEt9bQw08AouH0%2BDksq2Rc2VTS3Gcv9Yf0BFHihsu2LQVvguA%2FJQ6EW9gf3m5cwW5IOmPyPa%2Bj0Rh6UfF391VGLuzFmtxZ%2Fl1xebFMv00sSROSgwoWEBz2ggfhMVh1ZZQmJZ9jiTtmsXCa4lZI0pCO4ZuHaFGR7lFfV%2BxOWS7%2BBRna4FvAuT4M3Chgng%3D",
-    "importedAt": "2026-03-14T12:29:22Z"
+    "importedAt": "2026-03-14T12:29:22Z",
+    "highlights": [
+      "100 lumens max brightness",
+      "Up to 25h runtime",
+      "Water-resistant"
+    ],
+    "description": "The 100 Lumen Portable Camp Light is a budget lanterns from OZtrail. Sturdy and durable to use, long service life. Special Features Portable. Water resistance level Not Water Resistant. Shape Irregular Shape. Add to Favorite. Battery life 25 Hour...",
+    "specs": {
+      "Reference price": "A$18",
+      "Brightness": "100 lm",
+      "Runtime": "25h"
+    }
   },
   {
     "slug": "oztrail-100-lumen-portable-camp-light-2",
@@ -10555,7 +12131,18 @@
     "sourceLegacyItemId": "177881637244",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/177881637244?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:29:23Z"
+    "importedAt": "2026-03-14T12:29:23Z",
+    "highlights": [
+      "100 lumens max brightness",
+      "Up to 25h runtime",
+      "Water-resistant"
+    ],
+    "description": "The 100 Lumen Portable Camp Light is a budget lanterns from OZtrail. Sturdy and durable to use, long service life. Special Features Portable. Water resistance level Not Water Resistant. Shape Irregular Shape. Battery life 25 Hours. Light is desig...",
+    "specs": {
+      "Reference price": "A$25",
+      "Brightness": "100 lm",
+      "Runtime": "25h"
+    }
   },
   {
     "slug": "sea-to-summit-sea-to-summit-ultralight-si-self-inflating-sleeping-mat-large-orange",
@@ -10613,7 +12200,14 @@
     "sourceLegacyItemId": "286801597450",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/286801597450?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:29:26Z"
+    "importedAt": "2026-03-14T12:29:26Z",
+    "highlights": [
+      "Inflatable sleeping mat"
+    ],
+    "description": "The Sea to Summit Ultralight SI Self Inflating Sleeping Mat - Large - Orange is a budget sleep systems from Sea to Summit. Series: Sea to Summit : Ultralight Self Inflating Sleeping Mat. Delta Core-V technology is used in our Ultralight SI and Camp mat SI models. The full foam surface also provides...",
+    "specs": {
+      "Reference price": "A$88"
+    }
   },
   {
     "slug": "thermarest-thermarest-trail-scout-self-inflating-sleeping-pad-regular",
@@ -10671,6 +12265,13 @@
     "sourceLegacyItemId": "364662179455",
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/364662179455?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
-    "importedAt": "2026-03-14T12:29:28Z"
+    "importedAt": "2026-03-14T12:29:28Z",
+    "highlights": [
+      "Self-inflating mat"
+    ],
+    "description": "The Thermarest Trail Scout Self-Inflating Sleeping Pad - Regular is a mid-range sleep systems from Thermarest. A three-season pad ideal for new campers who want comfort and durability. Looking for a first pad or a step up in comfort from closed cell foam?. This pad is compact enough for...",
+    "specs": {
+      "Reference price": "A$172"
+    }
   }
 ]

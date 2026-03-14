@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Product Compare | CampMate Australia</title>
 <meta name="description" content="Open a CampMate product compare page to view category context, reference price, store paths and similar products.">
-<link rel="canonical" href="https://campmate.kangseyoung7.workers.dev/product.html">
+<link rel="canonical" href="https://campmate.kangseyoung7.workers.dev/product">
 <meta property="og:title" content="Product Compare | CampMate Australia">
 <meta property="og:description" content="Open a CampMate product compare page to view category context, reference price, store paths and similar products.">
 <meta property="og:type" content="website">
@@ -13,7 +13,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="google-site-verification" content="FYOS27d6BEVJvMcO6uM-zBCBEWVeriEPClO6j2-X6uY">
 <meta name="commission-factory-verification" content="ff3f890461734249a17c395d968021a8">
-<link rel="stylesheet" href="assets/style.css?v=20260314d5">
+<link rel="stylesheet" href="assets/style.css?v=20260315">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RRL35ZW8MO"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-RRL35ZW8MO');</script>
 
@@ -103,7 +103,7 @@
     </div>
   </div>
 </footer>
-<script src="assets/common.js?v=20260314d5"></script>
+<script src="assets/common.js?v=20260315"></script>
 <script>
 setupSearchForm();
 (async function() {
@@ -148,16 +148,36 @@ setupSearchForm();
     <div class="score-box"><strong>${product.reviews || 0}</strong><span class="tiny">Reviews</span></div>
     <div class="score-box"><strong>${(product.stores || []).length}</strong><span class="tiny">Stores</span></div>
     <div class="score-box"><strong>${savingsPercent(product) ? savingsPercent(product) + '%' : '—'}</strong><span class="tiny">Saving vs full price</span></div>`;
-  document.getElementById('headline-specs').innerHTML = getPrimarySpecs(product).map(value => `<span class="spec-chip">${escapeHtml(value)}</span>`).join('');
+  // Headline spec chips: prefer enriched highlights, fall back to getPrimarySpecs
+  const chipValues = (product.highlights && product.highlights.length)
+    ? product.highlights
+    : getPrimarySpecs(product);
+  document.getElementById('headline-specs').innerHTML = chipValues.map(value => `<span class="spec-chip">${escapeHtml(value)}</span>`).join('');
   document.getElementById('quick-store-buttons').innerHTML = createStoreButtons(product, 5);
-  document.getElementById('spec-table').innerHTML = Object.entries(specs).map(([label, value]) => `<div class="spec-table-row"><strong>${escapeHtml(label)}</strong><span>${escapeHtml(value)}</span></div>`).join('');
+
+  // Spec table: merge enriched specs + getDetailSpecs, deduplicate
+  const enrichedSpecs = product.specs || {};
+  const mergedSpecs = Object.assign({}, enrichedSpecs, specs);
+  document.getElementById('spec-table').innerHTML = Object.entries(mergedSpecs).length
+    ? Object.entries(mergedSpecs).map(([label, value]) => `<div class="spec-table-row"><strong>${escapeHtml(label)}</strong><span>${escapeHtml(String(value))}</span></div>`).join('')
+    : '<div class="empty" style="padding:14px">No detailed specs available yet.</div>';
+
   document.getElementById('offer-table').innerHTML = stores.map(store => `<div class="offer-row"><div><strong>${escapeHtml(store.name)}</strong></div><div class="muted">${escapeHtml(store.note)} for this product</div><div><a class="btn secondary small" target="_blank" rel="noopener sponsored" href="${escapeAttribute(store.url)}">Open</a></div></div>`).join('');
-  document.getElementById('compare-checklist').innerHTML = [
-    `Check whether ${escapeHtml(inferType(product))} is the right format for your trip style.`,
-    `Compare the CampMate reference price against current store listings before you buy.`,
-    `Check review count and shopper intent: ${product.reviews || 0} reviews usually means broader buyer confidence.`,
-    `Use live store searches to spot bundles, shipping differences and marketplace alternatives.`
-  ].map(item => `<div class="rowish"><div>${escapeHtml(item)}</div><span class="soft-badge">Compare</span></div>`).join('');
+
+  // Checklist: use highlights if available
+  const checklistItems = (product.highlights && product.highlights.length)
+    ? [
+        ...product.highlights.map(h => `Key feature: ${h}`),
+        `Compare the CampMate reference price against current store listings before you buy.`,
+        `Use live store searches to spot bundles, shipping differences and marketplace alternatives.`
+      ]
+    : [
+        `Check whether ${escapeHtml(inferType(product))} is the right format for your trip style.`,
+        `Compare the CampMate reference price against current store listings before you buy.`,
+        `Check review count and shopper intent: ${product.reviews || 0} reviews usually means broader buyer confidence.`,
+        `Use live store searches to spot bundles, shipping differences and marketplace alternatives.`
+      ];
+  document.getElementById('compare-checklist').innerHTML = checklistItems.map(item => `<div class="rowish"><div>${escapeHtml(item)}</div><span class="soft-badge">Compare</span></div>`).join('');
   document.getElementById('related-list').innerHTML = related.map(productCard).join('') || '<div class="empty">No related products found.</div>';
   const image = document.getElementById('product-image');
   image.src = normalizeImage(product);
