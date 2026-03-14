@@ -11072,5 +11072,746 @@
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/376985805015?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCUtu5TEtWa%2FxN0zCs8cGo6r%2B%2Bt196ACDDDHO800DiRvlR2aM%2BbAiTZ5aisb3hCN7MMnxDIwycbA4N1JbJEwIhL3Puek41VzR9Eh7qmGNFdScwr6Z2RG7Tx9S8mGCPeKeL2YA33MM4uCEcVdK9TJnQm4uoSkvDa0LT7%2B2%2FgakzGi%2FCwwbTN9cNIlwZ19KetuU8%3D",
     "importedAt": "2026-03-14T05:57:53Z"
+  },
+  {
+    "slug": "coleman-coleman-classic-rechargeable-lantern-800-lumens-camping-lantern-black",
+    "name": "Coleman Classic Rechargeable Lantern 800 Lumens | Camping Lantern, Black",
+    "brand": "Coleman",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 154,
+    "salePrice": 154,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/oCIAAeSwWKxpma4N/s-l1600.jpg",
+    "summary": "Its modern, impact-resistant design is inspired by our original fuel burning lanterns, and its updated bail handle makes it easy to carry and hang. Included Components‎LANTERN C...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/127697104794?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xByuTg4P%2ByZGskjPDJDq9K5C44YEx3u9TH5F%2BP%2FRgvbclh%2FmAUYLR7kda8%2BG2N1Q97Vm%2B09NBZAb1nJW7CWu7kAYp3P0js9KszQRvSq%2BjjjwR6cG%2BywHEPQiB6F%2B9wOM5mOPStng5qJ3LC8RHeVoXSowBVhgAFj2xchAAD7DKsQDY%2FtltXU2Ap5qUA7HtVo79k%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Coleman%20Classic%20Rechargeable%20Lantern%20800%20Lumens%20%7C%20Camping%20Lantern%2C%20Black",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Coleman%20Classic%20Rechargeable%20Lantern%20800%20Lumens%20%7C%20Camping%20Lantern%2C%20Black",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Coleman%20Classic%20Rechargeable%20Lantern%20800%20Lumens%20%7C%20Camping%20Lantern%2C%20Black",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Coleman%20Classic%20Rechargeable%20Lantern%20800%20Lumens%20%7C%20Camping%20Lantern%2C%20Black",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Coleman%20Classic%20Rechargeable%20Lantern%20800%20Lumens%20%7C%20Camping%20Lantern%2C%20Black",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Classic%20Rechargeable%20Lantern%20800%20Lumens%20%7C%20Camping%20Lantern%2C%20Black",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|127697104794|0",
+    "sourceLegacyItemId": "127697104794",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/127697104794?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xByuTg4P%2ByZGskjPDJDq9K5C44YEx3u9TH5F%2BP%2FRgvbclh%2FmAUYLR7kda8%2BG2N1Q97Vm%2B09NBZAb1nJW7CWu7kAYp3P0js9KszQRvSq%2BjjjwR6cG%2BywHEPQiB6F%2B9wOM5mOPStng5qJ3LC8RHeVoXSowBVhgAFj2xchAAD7DKsQDY%2FtltXU2Ap5qUA7HtVo79k%3D",
+    "importedAt": "2026-03-14T05:57:55Z"
+  },
+  {
+    "slug": "coleman-coleman-lantern-all-night-800l-lithium-ion-lantern-outdoor-camping-7-6x13-4cm",
+    "name": "Coleman Lantern All Night 800L Lithium Ion Lantern Outdoor Camping 7.6x13.4cm",
+    "brand": "COLEMAN",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 119,
+    "salePrice": 87,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/1JAAAeSwa8JpinlT/s-l1600.jpg",
+    "summary": "The Coleman Lantern All Night 800L Lithium Ion is a powerful and versatile outdoor lighting solution designed for campers, hikers, and backyard enthusiasts. Lightweight and port...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/127675780741?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCkieVswvtRuVNsIp9lPsRkKVdRekvpI%2FC%2FUwIPxppgx4PiuZ%2FAnU2BFTJvKc56lXOMNr86nqTlEjP%2Fmn5Y3my%2FPvOwT4NPvtzoeYCuC5C7g%2BMUzmZhNyNKlsLbx86U%2F4QDJks9bfOqw%2Fo0JG2g%2FGut9GLl0BQ3ZRE%2F67oOhzlmI4xUoY94rq5ZJ9%2FVuf%2FzffQ%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Coleman%20Lantern%20All%20Night%20800L%20Lithium%20Ion%20Lantern%20Outdoor%20Camping%207.6x13.4cm",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Coleman%20Lantern%20All%20Night%20800L%20Lithium%20Ion%20Lantern%20Outdoor%20Camping%207.6x13.4cm",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Coleman%20Lantern%20All%20Night%20800L%20Lithium%20Ion%20Lantern%20Outdoor%20Camping%207.6x13.4cm",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Coleman%20Lantern%20All%20Night%20800L%20Lithium%20Ion%20Lantern%20Outdoor%20Camping%207.6x13.4cm",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Coleman%20Lantern%20All%20Night%20800L%20Lithium%20Ion%20Lantern%20Outdoor%20Camping%207.6x13.4cm",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Lantern%20All%20Night%20800L%20Lithium%20Ion%20Lantern%20Outdoor%20Camping%207.6x13.4cm",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|127675780741|0",
+    "sourceLegacyItemId": "127675780741",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/127675780741?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCkieVswvtRuVNsIp9lPsRkKVdRekvpI%2FC%2FUwIPxppgx4PiuZ%2FAnU2BFTJvKc56lXOMNr86nqTlEjP%2Fmn5Y3my%2FPvOwT4NPvtzoeYCuC5C7g%2BMUzmZhNyNKlsLbx86U%2F4QDJks9bfOqw%2Fo0JG2g%2FGut9GLl0BQ3ZRE%2F67oOhzlmI4xUoY94rq5ZJ9%2FVuf%2FzffQ%3D",
+    "importedAt": "2026-03-14T05:57:55Z"
+  },
+  {
+    "slug": "black-diamond-black-diamond-moji-camping-lantern-max-output-200-lumen",
+    "name": "Black Diamond MOJI+ Camping Lantern Max Output 200 Lumen",
+    "brand": "Black Diamond",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 55,
+    "salePrice": 55,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://s3-ap-southeast-2.amazonaws.com/ricemillapp/media/44/B/D/BD6206840002ALL1/BD6206840002ALL1-1.jpg?t=1653617338",
+    "summary": "Black Diamond MOJI+ Camping Lantern. 1xBLACK DIAMOND MOJI+ LANTERN. MAX DISTANCE(S) ON HIGHEST SETTING: 15M. MAX DISTANCE(S) ON LOWEST SETTING: 2M. Two button interface is easy...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/115399740120?var=415446059325&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Black%20Diamond%20MOJI%2B%20Camping%20Lantern%20Max%20Output%20200%20Lumen",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Black%20Diamond%20MOJI%2B%20Camping%20Lantern%20Max%20Output%20200%20Lumen",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Black%20Diamond%20MOJI%2B%20Camping%20Lantern%20Max%20Output%20200%20Lumen",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Black%20Diamond%20MOJI%2B%20Camping%20Lantern%20Max%20Output%20200%20Lumen",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Black%20Diamond%20MOJI%2B%20Camping%20Lantern%20Max%20Output%20200%20Lumen",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Black%20Diamond%20MOJI%2B%20Camping%20Lantern%20Max%20Output%20200%20Lumen",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|115399740120|415446059325",
+    "sourceLegacyItemId": "115399740120",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/115399740120?var=415446059325&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-14T05:57:57Z"
+  },
+  {
+    "slug": "biolite-biolite-alpenglow-500-lantern-camping-lighting-usb-charger",
+    "name": "BioLite Alpenglow 500 Lantern Camping Lighting USB Charger",
+    "brand": "Biolite",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 130,
+    "salePrice": 130,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/IFMAAOSwv7JiFtPD/s-l1600.jpg",
+    "summary": "1 x BIOLITE ALPENGLOW 500 LANTERN. LIGHTING MODES: COOL LIGHT, FULL (360 DEGREE), COOL LIGHT, HALF (180 DEGREE), WARM LIGHT, FULL (360 DEGREE), WARM LIGHT, HALF (180 DEGREE), 1...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/115265378544?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=BioLite%20Alpenglow%20500%20Lantern%20Camping%20Lighting%20USB%20Charger",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=BioLite%20Alpenglow%20500%20Lantern%20Camping%20Lighting%20USB%20Charger",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=BioLite%20Alpenglow%20500%20Lantern%20Camping%20Lighting%20USB%20Charger",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=BioLite%20Alpenglow%20500%20Lantern%20Camping%20Lighting%20USB%20Charger",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=BioLite%20Alpenglow%20500%20Lantern%20Camping%20Lighting%20USB%20Charger",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=BioLite%20Alpenglow%20500%20Lantern%20Camping%20Lighting%20USB%20Charger",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|115265378544|0",
+    "sourceLegacyItemId": "115265378544",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/115265378544?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-14T05:58:10Z"
+  },
+  {
+    "slug": "ledlenser-ledlenser-ml6-led-lantern-rechargeable-camping-light-power-bank",
+    "name": "Ledlenser ML6 LED Lantern Rechargeable Camping Light Power Bank",
+    "brand": "Ledlenser",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 166,
+    "salePrice": 166,
+    "rating": 4.9,
+    "reviews": 12,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/ij0AAeSwtj1ps7U3/s-l1600.jpg",
+    "summary": "Ledlenser ML6 Lantern A COMPACT LANTERN WITH A POWERFUL WHITE LIGHT From the backyard to the backcountry, the ML6 lantern will keep your outdoor adventures bright and all your d...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/127738275930?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Ledlenser%20ML6%20LED%20Lantern%20Rechargeable%20Camping%20Light%20Power%20Bank",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Ledlenser%20ML6%20LED%20Lantern%20Rechargeable%20Camping%20Light%20Power%20Bank",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Ledlenser%20ML6%20LED%20Lantern%20Rechargeable%20Camping%20Light%20Power%20Bank",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Ledlenser%20ML6%20LED%20Lantern%20Rechargeable%20Camping%20Light%20Power%20Bank",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Ledlenser%20ML6%20LED%20Lantern%20Rechargeable%20Camping%20Light%20Power%20Bank",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Ledlenser%20ML6%20LED%20Lantern%20Rechargeable%20Camping%20Light%20Power%20Bank",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|127738275930|0",
+    "sourceLegacyItemId": "127738275930",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/127738275930?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-14T05:58:22Z"
+  },
+  {
+    "slug": "ledlenser-ledlenser-kidcamp6-kids-lantern-led-camping-light-multi-colour",
+    "name": "Ledlenser Kidcamp6 Kids Lantern LED Camping Light Multi Colour",
+    "brand": "Ledlenser",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 42,
+    "salePrice": 42,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://cdn.shopify.com/s/files/1/0584/8462/1502/files/KIDCAMP6_502786_girls_standard_laying_62710e99-9fdf-4ce1-9956-42e6394498d2.png?v=1771903562",
+    "summary": "Ledlenser Kidcamp6 Lantern VERSATILE, COSY AND COLOURFUL Children love to discover the world with their own eyes - and from now on, they can also use their own light. For cosy e...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/127738059039?var=428911412710&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Ledlenser%20Kidcamp6%20Kids%20Lantern%20LED%20Camping%20Light%20Multi%20Colour",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Ledlenser%20Kidcamp6%20Kids%20Lantern%20LED%20Camping%20Light%20Multi%20Colour",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Ledlenser%20Kidcamp6%20Kids%20Lantern%20LED%20Camping%20Light%20Multi%20Colour",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Ledlenser%20Kidcamp6%20Kids%20Lantern%20LED%20Camping%20Light%20Multi%20Colour",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Ledlenser%20Kidcamp6%20Kids%20Lantern%20LED%20Camping%20Light%20Multi%20Colour",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Ledlenser%20Kidcamp6%20Kids%20Lantern%20LED%20Camping%20Light%20Multi%20Colour",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|127738059039|428911412710",
+    "sourceLegacyItemId": "127738059039",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/127738059039?var=428911412710&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-14T05:58:22Z"
+  },
+  {
+    "slug": "barebones-new-barebones-vintage-rail-road-lantern-light-usb-portable-camping-led-light",
+    "name": "New BAREBONES Vintage Rail Road Lantern Light USB Portable Camping LED Light",
+    "brand": "BareBones",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 140,
+    "salePrice": 140,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://img.auctiva.com/imgdata/1/9/8/7/7/6/7/webimg/1157824268_o.png",
+    "summary": "A modern twist on an antique and well-loved Union Pacific lantern. Gorgeous seeded glass and copper accents make this a unique light for a curated dinner table or at camp. High-...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/176750049880?var=476449780870&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=New%20BAREBONES%20Vintage%20Rail%20Road%20Lantern%20Light%20USB%20Portable%20Camping%20LED%20Light",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=New%20BAREBONES%20Vintage%20Rail%20Road%20Lantern%20Light%20USB%20Portable%20Camping%20LED%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=New%20BAREBONES%20Vintage%20Rail%20Road%20Lantern%20Light%20USB%20Portable%20Camping%20LED%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=New%20BAREBONES%20Vintage%20Rail%20Road%20Lantern%20Light%20USB%20Portable%20Camping%20LED%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=New%20BAREBONES%20Vintage%20Rail%20Road%20Lantern%20Light%20USB%20Portable%20Camping%20LED%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=New%20BAREBONES%20Vintage%20Rail%20Road%20Lantern%20Light%20USB%20Portable%20Camping%20LED%20Light",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|176750049880|476449780870",
+    "sourceLegacyItemId": "176750049880",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/176750049880?var=476449780870&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-14T05:58:24Z"
+  },
+  {
+    "slug": "barebones-new-barebones-beacon-light-hanging-lantern-light-usb-portable-camping-led-light",
+    "name": "New BAREBONES Beacon Light hanging Lantern Light USB Portable Camping LED Light",
+    "brand": "BareBones",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 120,
+    "salePrice": 120,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://img.auctiva.com/imgdata/1/9/8/7/7/6/7/webimg/1066119253_o.jpg",
+    "summary": "Shed some light on life's journey with the Barebones Beacon. Our light comes with a smooth dimming feature that allows you to completely brighten your surroundings or simply set...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/186850949847?var=694910447719&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=New%20BAREBONES%20Beacon%20Light%20hanging%20Lantern%20Light%20USB%20Portable%20Camping%20LED%20Light",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=New%20BAREBONES%20Beacon%20Light%20hanging%20Lantern%20Light%20USB%20Portable%20Camping%20LED%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=New%20BAREBONES%20Beacon%20Light%20hanging%20Lantern%20Light%20USB%20Portable%20Camping%20LED%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=New%20BAREBONES%20Beacon%20Light%20hanging%20Lantern%20Light%20USB%20Portable%20Camping%20LED%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=New%20BAREBONES%20Beacon%20Light%20hanging%20Lantern%20Light%20USB%20Portable%20Camping%20LED%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=New%20BAREBONES%20Beacon%20Light%20hanging%20Lantern%20Light%20USB%20Portable%20Camping%20LED%20Light",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|186850949847|694910447719",
+    "sourceLegacyItemId": "186850949847",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/186850949847?var=694910447719&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-14T05:58:24Z"
+  },
+  {
+    "slug": "oztrail-oztrail-100-lumen-portable-camp-light",
+    "name": "Oztrail 100 Lumen Portable Camp Light",
+    "brand": "OZtrail",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 39,
+    "salePrice": 39,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/s0oAAeSwdQVpho7F/s-l1600.jpg",
+    "summary": "Manufacturer OZtrail. Sturdy and durable to use, long service life. Special Features Portable. Water resistance level Not Water Resistant. Shape Irregular Shape. Battery life 25...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/376939987416?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xD2Ok5Os4lrMiv0kqk7o6NiYuvGOzo%2FXjZyyVN1XpHBfksAK68aS5NQ8o2VaRy%2BdrduyX%2F%2BfcIXY1GQ%2FIgb1yINzdx2CcBLBM%2FQdHFtv0Aa7ta0qqCgjbMWvWNea0WGa4c%2FcKCpsZLaYVxTaO4nkoS%2BWeZ51q%2BpHQ5OmEh04K4mQ9by3c%2B7COKR3rDiA2TiwG4%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Oztrail%20100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Oztrail%20100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Oztrail%20100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Oztrail%20100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Oztrail%20100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Oztrail%20100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|376939987416|0",
+    "sourceLegacyItemId": "376939987416",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/376939987416?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xD2Ok5Os4lrMiv0kqk7o6NiYuvGOzo%2FXjZyyVN1XpHBfksAK68aS5NQ8o2VaRy%2BdrduyX%2F%2BfcIXY1GQ%2FIgb1yINzdx2CcBLBM%2FQdHFtv0Aa7ta0qqCgjbMWvWNea0WGa4c%2FcKCpsZLaYVxTaO4nkoS%2BWeZ51q%2BpHQ5OmEh04K4mQ9by3c%2B7COKR3rDiA2TiwG4%3D",
+    "importedAt": "2026-03-14T05:58:43Z"
+  },
+  {
+    "slug": "oztrail-new-oztrail-lumos-mozzie-zapper-lantern-by-anaconda",
+    "name": "NEW OZtrail Lumos Mozzie Zapper Lantern By Anaconda",
+    "brand": "OZtrail",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 54,
+    "salePrice": 54,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/~qkAAeSwb5ZplcIr/s-l1600.jpg",
+    "summary": "Keep the mosquitoes at bay with the OZtrail Lumos Mozzie Zapper Lantern, with a built-in zapper function to get those pesky bugs before they bite! 2 x Mozzie attractant tablets....",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/297910634607?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=NEW%20OZtrail%20Lumos%20Mozzie%20Zapper%20Lantern%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=NEW%20OZtrail%20Lumos%20Mozzie%20Zapper%20Lantern%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=NEW%20OZtrail%20Lumos%20Mozzie%20Zapper%20Lantern%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=NEW%20OZtrail%20Lumos%20Mozzie%20Zapper%20Lantern%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=NEW%20OZtrail%20Lumos%20Mozzie%20Zapper%20Lantern%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=NEW%20OZtrail%20Lumos%20Mozzie%20Zapper%20Lantern%20By%20Anaconda",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|297910634607|0",
+    "sourceLegacyItemId": "297910634607",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/297910634607?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-14T05:58:44Z"
+  },
+  {
+    "slug": "sea-to-summit-sea-to-summit-ultralight-insulated-sleeping-mat-small-x-small",
+    "name": "SEA TO SUMMIT Ultralight Insulated Sleeping Mat  Small, X Small",
+    "brand": "SEA TO SUMMIT",
+    "category": "sleep-systems",
+    "categoryName": "Camp Sleep Systems",
+    "price": 160,
+    "salePrice": 160,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://cdn.snowys.com.au/content/images/thumbs/1253968_ultralight-insulated-sleeping-mat-xsmall.jpeg?om_bust=active",
+    "summary": "This lightweight sleeping mat is dot weld constructed to create air-filled cells that function in a similar manner to pocket spring mattresses. Insulated, air-filled mattress. A...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/389724635067?var=657005593496&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=SEA%20TO%20SUMMIT%20Ultralight%20Insulated%20Sleeping%20Mat%20%20Small%2C%20X%20Small",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=SEA%20TO%20SUMMIT%20Ultralight%20Insulated%20Sleeping%20Mat%20%20Small%2C%20X%20Small",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=SEA%20TO%20SUMMIT%20Ultralight%20Insulated%20Sleeping%20Mat%20%20Small%2C%20X%20Small",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=SEA%20TO%20SUMMIT%20Ultralight%20Insulated%20Sleeping%20Mat%20%20Small%2C%20X%20Small",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=SEA%20TO%20SUMMIT%20Ultralight%20Insulated%20Sleeping%20Mat%20%20Small%2C%20X%20Small",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=SEA%20TO%20SUMMIT%20Ultralight%20Insulated%20Sleeping%20Mat%20%20Small%2C%20X%20Small",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|389724635067|657005593496",
+    "sourceLegacyItemId": "389724635067",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/389724635067?var=657005593496&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-14T05:59:00Z"
+  },
+  {
+    "slug": "therm-a-rest-therm-a-rest-trail-scout-self-inflating-sleeping-mat-pad-r3-1-new-2022-model",
+    "name": "THERM-A-REST TRAIL SCOUT SELF INFLATING SLEEPING MAT PAD R3.1 NEW 2022 MODEL",
+    "brand": "Therm-a-Rest",
+    "category": "sleep-systems",
+    "categoryName": "Camp Sleep Systems",
+    "price": 140,
+    "salePrice": 119,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/8E0AAOSw3~difOJN/s-l1600.jpg",
+    "summary": "The new generation Trail Scout by Therm-A-Rest® is an excellent mat for people on a budget or looking to step up from a closed cell foam mat. updated 2022 model with low-vis col...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/321841236943?var=514088139920&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=THERM-A-REST%20TRAIL%20SCOUT%20SELF%20INFLATING%20SLEEPING%20MAT%20PAD%20R3.1%20NEW%202022%20MODEL",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=THERM-A-REST%20TRAIL%20SCOUT%20SELF%20INFLATING%20SLEEPING%20MAT%20PAD%20R3.1%20NEW%202022%20MODEL",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=THERM-A-REST%20TRAIL%20SCOUT%20SELF%20INFLATING%20SLEEPING%20MAT%20PAD%20R3.1%20NEW%202022%20MODEL",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=THERM-A-REST%20TRAIL%20SCOUT%20SELF%20INFLATING%20SLEEPING%20MAT%20PAD%20R3.1%20NEW%202022%20MODEL",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=THERM-A-REST%20TRAIL%20SCOUT%20SELF%20INFLATING%20SLEEPING%20MAT%20PAD%20R3.1%20NEW%202022%20MODEL",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=THERM-A-REST%20TRAIL%20SCOUT%20SELF%20INFLATING%20SLEEPING%20MAT%20PAD%20R3.1%20NEW%202022%20MODEL",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|321841236943|514088139920",
+    "sourceLegacyItemId": "321841236943",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/321841236943?var=514088139920&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-14T05:59:02Z"
+  },
+  {
+    "slug": "oztrail-oztrail-leisure-lite-mattress-1400-heavy-duty-camping-mat-eml-ll1400-d",
+    "name": "OZtrail Leisure Lite Mattress 1400 Heavy Duty Camping Mat EML-LL1400-D",
+    "brand": "OZtrail",
+    "category": "sleep-systems",
+    "categoryName": "Camp Sleep Systems",
+    "price": 99,
+    "salePrice": 99,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/sNsAAeSwYs9ptHdn/s-l1600.jpg",
+    "summary": "Heavy duty dense foam for maximum comfort and support. Twin Boston valves with one way insert to make inflating and adding extra air for firmness easy. GST is included in the pr...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/335957032617?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=OZtrail%20Leisure%20Lite%20Mattress%201400%20Heavy%20Duty%20Camping%20Mat%20EML-LL1400-D",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=OZtrail%20Leisure%20Lite%20Mattress%201400%20Heavy%20Duty%20Camping%20Mat%20EML-LL1400-D",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=OZtrail%20Leisure%20Lite%20Mattress%201400%20Heavy%20Duty%20Camping%20Mat%20EML-LL1400-D",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=OZtrail%20Leisure%20Lite%20Mattress%201400%20Heavy%20Duty%20Camping%20Mat%20EML-LL1400-D",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=OZtrail%20Leisure%20Lite%20Mattress%201400%20Heavy%20Duty%20Camping%20Mat%20EML-LL1400-D",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=OZtrail%20Leisure%20Lite%20Mattress%201400%20Heavy%20Duty%20Camping%20Mat%20EML-LL1400-D",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|335957032617|0",
+    "sourceLegacyItemId": "335957032617",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/335957032617?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-14T05:59:05Z"
   }
 ]

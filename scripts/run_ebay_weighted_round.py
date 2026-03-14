@@ -103,7 +103,7 @@ def run_round(total: int, per_request: int, no_detail: bool = False) -> Dict:
 def main():
     parser = argparse.ArgumentParser(description="Run one weighted eBay AU import round across all CampMate categories")
     parser.add_argument("--total", type=int, default=120, help="Total new items to try adding across all categories")
-    parser.add_argument("--per-request", type=int, default=100, help="eBay page size for each request (1-200)")
+    parser.add_argument("--per-request", "--page-size", dest="per_request", type=int, default=100, help="eBay page size for each request (1-200)")
     parser.add_argument("--no-detail", action="store_true", help="Skip getItem enrichment for speed")
     args = parser.parse_args()
 

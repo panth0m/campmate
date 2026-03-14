@@ -1,0 +1,51 @@
+{
+  "requested_total": 120,
+  "per_request": 100,
+  "allocation": {
+    "tents": 44,
+    "chairs": 29,
+    "coolers": 14,
+    "stoves": 12,
+    "lanterns": 12,
+    "sleep-systems": 9
+  },
+  "results": [
+    {
+      "category": "tents",
+      "requested": 44,
+      "added": 0,
+      "error": "build_products_json.py failed"
+    },
+    {
+      "category": "chairs",
+      "requested": 29,
+      "added": 0,
+      "error": "build_products_json.py failed"
+    },
+    {
+      "category": "coolers",
+      "requested": 14,
+      "added": 0,
+      "error": "build_products_json.py failed"
+    },
+    {
+      "category": "stoves",
+      "requested": 12,
+      "added": 0,
+      "error": "build_products_json.py failed"
+    },
+    {
+      "category": "lanterns",
+      "requested": 12,
+      "added": 0,
+      "error": "build_products_json.py failed"
+    },
+    {
+      "category": "sleep-systems",
+      "requested": 9,
+      "added": 0,
+      "error": "build_products_json.py failed"
+    }
+  ],
+  "added_total": 0
+}
