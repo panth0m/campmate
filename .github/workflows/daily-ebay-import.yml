@@ -122,10 +122,13 @@ jobs:
       - name: Rebuild sitemap files
         run: python scripts/rebuild_sitemaps.py
 
+      - name: Embed robots and sitemap responses into worker
+        run: python scripts/embed_static_text_routes.py
+
       - name: Commit and push static pages
         run: |
           git config user.name "CampMate Bot"
           git config user.email "bot@campmate.au"
-          git add products/ tents.html chairs.html coolers.html stoves.html lanterns.html sleeping-bags.html categories.html popular.html sitemap.xml sitemap-main.xml sitemap-guides.xml sitemap-products.xml scripts/build_products_json.py scripts/run_catalog_cleanup.py scripts/rebuild_sitemaps.py scripts/generate_static_products.py scripts/generate_static_catalog_pages.py scripts/catalog_rules.py .github/workflows/daily-ebay-import.yml
+          git add products/ tents.html chairs.html coolers.html stoves.html lanterns.html sleeping-bags.html categories.html popular.html sitemap.xml sitemap-main.xml sitemap-guides.xml sitemap-products.xml scripts/build_products_json.py scripts/run_catalog_cleanup.py scripts/rebuild_sitemaps.py scripts/generate_static_products.py scripts/generate_static_catalog_pages.py scripts/catalog_rules.py worker.js scripts/embed_static_text_routes.py .github/workflows/daily-ebay-import.yml
           git diff --quiet --cached || git commit -m "Rebuild static catalog pages $(date +%Y-%m-%d)"
           git push

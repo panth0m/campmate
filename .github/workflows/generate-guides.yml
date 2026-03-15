@@ -33,6 +33,10 @@ jobs:
         run: |
           python scripts/rebuild_sitemaps.py
 
+      - name: Embed robots and sitemap responses into worker
+        run: |
+          python scripts/embed_static_text_routes.py
+
       - name: Check for new files
         id: check_changes
         run: |
@@ -48,6 +52,6 @@ jobs:
         run: |
           git config user.name "CampMate Bot"
           git config user.email "bot@campmate.au"
-          git add guides/ guides.html data/guides.json data/guides_index.json sitemap.xml sitemap-main.xml sitemap-guides.xml sitemap-products.xml scripts/generate_guides.py scripts/generate_guides_landing.py scripts/rebuild_sitemaps.py .github/workflows/generate-guides.yml
+          git add guides/ guides.html data/guides.json data/guides_index.json sitemap.xml sitemap-main.xml sitemap-guides.xml sitemap-products.xml scripts/generate_guides.py scripts/generate_guides_landing.py scripts/rebuild_sitemaps.py worker.js scripts/embed_static_text_routes.py .github/workflows/generate-guides.yml
           git commit -m "Auto-generate guides $(date +%Y-%m-%d)"
           git push
