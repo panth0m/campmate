@@ -1,5 +1,5 @@
 import re
-from typing import Any, Dict
+from typing import Any, Dict, List, Tuple
 
 GENERIC_BRANDS = {
     'coleman','oztrail','blackwolf','sea to summit','darche','hilleberg','the north face',
@@ -21,7 +21,7 @@ COMMON_JUNK_TERMS = {
 
 CATEGORY_POSITIVES = {
     'tents': [
-        'tent','air tent','swag','shelter','gazebo','canopy','awning','yurt','bivy','bivy','teepee',
+        'tent','air tent','swag','shelter','gazebo','canopy','awning','yurt','bivy','teepee',
         'tipi','dome tent','family tent','touring tent','screenhouse','screen house'
     ],
     'chairs': ['chair','seat','stool','recliner','lounger','loveseat','love seat','director chair','directors chair'],
@@ -32,11 +32,11 @@ CATEGORY_POSITIVES = {
 }
 
 CATEGORY_NEGATIVES = {
-    'tents': ['sticker','decal','logo','patch','pole','peg','repair','mattress','air bed','pillow'],
+    'tents': ['headlamp','head lamp','flashlight','torch','lantern','bulb only','mantle','mantles','sticker','decal','logo','patch','pole','peg','repair','mattress','air bed','pillow'],
     'chairs': ['cover only','replacement seat','sticker','decal','patch'],
     'coolers': ['ice brick','ice pack','sticker','decal','patch'],
     'stoves': ['gas canister','fuel only','hose only','adapter','sticker','decal','patch'],
-    'lanterns': ['bulb only','mantle','mantles','charger only','sticker','decal','patch'],
+    'lanterns': ['bulb only','mantle','mantles','sticker','decal','patch'],
     'sleep-systems': ['sticker','decal','patch','repair'],
 }
 
@@ -67,14 +67,13 @@ def guess_brand(product: Dict[str, Any], fallback: str = 'Unbranded') -> str:
 
 
 def clean_title(name: str, brand: str = '') -> str:
-    text = str(name or '').replace('\u2122', '').replace('\u00ae', '')
+    text = str(name or '').replace('™', '').replace('®', '')
     text = re.sub(r'<[^>]+>', ' ', text)
     text = re.sub(r'[_]+', ' ', text)
     text = re.sub(r'\s+', ' ', text).strip(' -_|,;/')
     if brand:
         b = re.escape(brand)
         text = re.sub(rf'^(?:{b}\s+)+', f'{brand} ', text, flags=re.I).strip()
-    # remove obvious keyword spam after many comma chunks
     parts = [p.strip() for p in re.split(r'\s*[,|/]\s*', text) if p.strip()]
     if len(parts) >= 4:
         text = ', '.join(parts[:2])
@@ -83,6 +82,43 @@ def clean_title(name: str, brand: str = '') -> str:
         cut = text[:110]
         text = cut.rsplit(' ', 1)[0] or cut
     return text or (brand or 'Camping product')
+
+
+def _phrase_hits(text: str, phrases: List[str]) -> int:
+    hits = 0
+    for phrase in phrases:
+        pattern = r'(?<![a-z0-9])' + re.escape(phrase) + r'(?![a-z0-9])'
+        if re.search(pattern, text):
+            hits += 1
+    return hits
+
+
+def score_category(product: Dict[str, Any], category: str) -> int:
+    text = _combined_text(product)
+    if not text:
+        return -999
+    title = norm(product.get('name') or product.get('title') or '')
+    positives = CATEGORY_POSITIVES.get(category, [])
+    negatives = CATEGORY_NEGATIVES.get(category, [])
+    score = _phrase_hits(title, positives) * 5 + _phrase_hits(text, positives) * 2
+    score -= _phrase_hits(title, negatives) * 6 + _phrase_hits(text, negatives) * 3
+    if category == 'tents' and ('lantern' in title or 'flashlight' in title or 'headlamp' in title or 'torch' in title):
+        score -= 8
+    if category == 'lanterns' and 'lighted tent' in title:
+        score -= 6
+    return score
+
+
+def choose_best_category(product: Dict[str, Any], preferred: str = '') -> Tuple[str, Dict[str, int]]:
+    scores = {cat: score_category(product, cat) for cat in CATEGORY_POSITIVES}
+    ranked = sorted(scores.items(), key=lambda item: item[1], reverse=True)
+    best_cat, best_score = ranked[0]
+    preferred_score = scores.get(preferred, -999)
+    if preferred and preferred in scores and preferred_score >= best_score - 2 and preferred_score > 0:
+        return preferred, scores
+    if best_score > 0:
+        return best_cat, scores
+    return preferred or best_cat, scores
 
 
 def is_relevant_product(product: Dict[str, Any], category: str) -> bool:
@@ -102,12 +138,17 @@ def is_relevant_product(product: Dict[str, Any], category: str) -> bool:
     if any(token in text for token in negatives):
         return False
 
-    # Strong anti-spam signal: lots of commas with generic keywords but no clear model name.
     title = norm(product.get('name') or product.get('title') or '')
     if title.count(',') >= 3 and len(title.split()) >= 8:
         return False
 
-    return True
+    category_score = score_category(product, category)
+    _, scores = choose_best_category(product, category)
+    best_score = max(scores.values()) if scores else category_score
+    if best_score > category_score + 4:
+        return False
+
+    return category_score > 0
 
 
 def normalize_product_payload(product: Dict[str, Any], category: str) -> Dict[str, Any]:
@@ -115,5 +156,6 @@ def normalize_product_payload(product: Dict[str, Any], category: str) -> Dict[st
     brand = guess_brand(clone, str(clone.get('brand') or 'Unbranded'))
     clone['brand'] = brand
     clone['name'] = clean_title(clone.get('name') or clone.get('title') or '', brand)
-    clone['category'] = category
+    best_category, _ = choose_best_category(clone, category)
+    clone['category'] = best_category or category
     return clone

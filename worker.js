@@ -54,9 +54,8 @@ export default {
     if (url.pathname === "/api/ebay-search") return handleEbaySearch(request, env);
     if (url.pathname === "/api/google-search") return handleGoogleSearch(request, env);
 
-    if (url.pathname === "/sitemap.xml") {
-      const assetUrl = new URL('/sitemap.xml', url.origin);
-      const res = await env.ASSETS.fetch(new Request(assetUrl.toString(), request));
+    if ((url.pathname === "/sitemap.xml" || (url.pathname.startsWith("/sitemap-") && url.pathname.endsWith(".xml")))) {
+      const res = await env.ASSETS.fetch(request);
       const headers = new Headers(res.headers);
       headers.set('Content-Type', 'application/xml; charset=utf-8');
       headers.set('Cache-Control', 'public, max-age=300');
@@ -64,8 +63,7 @@ export default {
     }
 
     if (url.pathname === "/robots.txt") {
-      const assetUrl = new URL('/robots.txt', url.origin);
-      const res = await env.ASSETS.fetch(new Request(assetUrl.toString(), request));
+      const res = await env.ASSETS.fetch(request);
       const headers = new Headers(res.headers);
       headers.set('Content-Type', 'text/plain; charset=utf-8');
       headers.set('Cache-Control', 'public, max-age=300');

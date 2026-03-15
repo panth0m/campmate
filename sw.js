@@ -1,7 +1,7 @@
 // CampMate Australia — Service Worker
 // Handles offline caching, background sync, and push notifications
 
-const CACHE_VERSION = 'campmate-v4-20260316';
+const CACHE_VERSION = 'campmate-v5-20260315-final';
 const STATIC_CACHE  = `${CACHE_VERSION}-static`;
 const DATA_CACHE    = `${CACHE_VERSION}-data`;
 const IMAGE_CACHE   = `${CACHE_VERSION}-images`;
@@ -89,7 +89,7 @@ self.addEventListener('fetch', event => {
   }
 
   // Keep technical crawler files network-only.
-  if (url.pathname === '/sitemap.xml' || url.pathname === '/robots.txt' || url.pathname.startsWith('/google')) {
+  if ((url.pathname === '/sitemap.xml' || (url.pathname.startsWith('/sitemap-') && url.pathname.endsWith('.xml'))) || url.pathname === '/robots.txt' || url.pathname.startsWith('/google')) {
     return;
   }
 

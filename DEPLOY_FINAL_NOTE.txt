@@ -1,0 +1,25 @@
+CampMate final replace package
+
+What changed in this package:
+- Fixed category bleed so obvious non-tent items do not stay in tents.
+- Rebuilt products.json and all static category/product pages.
+- Rebuilt guides landing page.
+- Replaced single huge sitemap with:
+  - sitemap.xml (index)
+  - sitemap-main.xml
+  - sitemap-guides.xml
+  - sitemap-products.xml
+- Updated worker and service worker for the sitemap split.
+- Updated GitHub Actions so future runs also keep these fixes.
+
+Deploy recommendation:
+1. Delete the old project folder first.
+2. Extract this package.
+3. Deploy the new folder.
+
+GitHub Actions:
+- You do NOT need to manually rerun workflows just to deploy this package.
+- If you want GitHub to regenerate immediately after pushing these files, you can run:
+  - Daily eBay Import
+  - Daily Guide Generator
+  once each.

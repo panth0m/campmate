@@ -414,26 +414,8 @@ def update_guides_index():
     print(f"  guides_index.json: {len(guides)}개 가이드 등록")
 
 def update_sitemap(new_slugs):
-    if not SITEMAP_FILE.exists():
-        print("sitemap.xml not found, skipping update")
-        return
+    print('  sitemap files are rebuilt separately by scripts/rebuild_sitemaps.py')
 
-    with open(SITEMAP_FILE) as f:
-        content = f.read()
-
-    added = 0
-    for slug in new_slugs:
-        url = f"{BASE_URL}/guides/{Path(slug).stem}"
-        if url in content:
-            continue
-        entry = f'  <url><loc>{url}</loc><lastmod>{TODAY}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>'
-        content = content.replace("</urlset>", entry + "\n</urlset>")
-        added += 1
-
-    with open(SITEMAP_FILE, "w") as f:
-        f.write(content)
-
-    print(f"  sitemap.xml: {added}개 URL 추가")
 
 
 # ─── 메인 ─────────────────────────────────────────────────────

@@ -83,6 +83,7 @@ def clean_description(text: str, category: str = '', raw_brand: str = '', normal
     raw = re.sub(r'\s+', ' ', str(text or '').strip())
     singular = CATEGORY_SINGULAR.get(category or '', '')
     if singular:
+        raw = re.sub(r'\bis\s+a\s+(premium|mid-range|high-end|budget)\s+[a-z\- ]+?\s+from\b', lambda m: f'is a {m.group(1)} {singular} from', raw, flags=re.I)
         raw = re.sub(rf'(premium|mid-range|high-end|budget)\s+{re.escape(category)}\b', rf'\1 {singular}', raw, flags=re.I)
         raw = re.sub(rf'\b{re.escape(category)}\s+from\b', f'{singular} from', raw, flags=re.I)
     replacements = {
@@ -162,7 +163,7 @@ def normalize_product(product: dict, index: int) -> dict:
         "ebayImage": product.get("ebayImage"),
         "summary": product.get("summary", "Affiliate-ready compare page for Australian camping shoppers."),
         "stores": stores,
-        "categoryName": product.get("categoryName") or CAT_LABELS.get(category, category.replace('-', ' ').title()),
+        "categoryName": CAT_LABELS.get(category, category.replace('-', ' ').title()),
         "highlights": clean_highlights(product.get("highlights") or []),
         "description": clean_description(product.get("description") or product.get("summary") or "", category, raw_brand, brand),
         "specs": normalize_specs(product.get("specs") or {}),

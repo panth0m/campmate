@@ -56,9 +56,9 @@ jobs:
             --limit ${{ github.event.inputs.image_limit || '60' }}
 
       # ── 3단계: products.json 재생성 ───────────────────
-      - name: Rebuild products.json from source
+      - name: Clean source catalog and rebuild products.json
         run: |
-          python scripts/build_products_json.py
+          python scripts/run_catalog_cleanup.py
 
       # ── 4단계: 변경사항 감지 후 push ─────────────────
       - name: Check for changes
@@ -119,10 +119,13 @@ jobs:
       - name: Generate static product HTML pages
         run: python scripts/generate_static_products.py
 
+      - name: Rebuild sitemap files
+        run: python scripts/rebuild_sitemaps.py
+
       - name: Commit and push static pages
         run: |
           git config user.name "CampMate Bot"
           git config user.email "bot@campmate.au"
-          git add products/ tents.html chairs.html coolers.html stoves.html lanterns.html sleeping-bags.html categories.html popular.html sitemap.xml scripts/build_products_json.py scripts/generate_static_products.py scripts/generate_static_catalog_pages.py .github/workflows/daily-ebay-import.yml
+          git add products/ tents.html chairs.html coolers.html stoves.html lanterns.html sleeping-bags.html categories.html popular.html sitemap.xml sitemap-main.xml sitemap-guides.xml sitemap-products.xml scripts/build_products_json.py scripts/run_catalog_cleanup.py scripts/rebuild_sitemaps.py scripts/generate_static_products.py scripts/generate_static_catalog_pages.py scripts/catalog_rules.py .github/workflows/daily-ebay-import.yml
           git diff --quiet --cached || git commit -m "Rebuild static catalog pages $(date +%Y-%m-%d)"
           git push

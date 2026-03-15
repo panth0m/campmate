@@ -2776,64 +2776,6 @@
     }
   },
   {
-    "slug": "biolite-campstove-2",
-    "name": "BioLite CampStove 2+",
-    "brand": "BioLite",
-    "category": "stoves",
-    "price": 199,
-    "salePrice": 179,
-    "rating": 4.5,
-    "reviews": 145,
-    "image": "https://i.ebayimg.com/images/g/28kAAeSwPRtpoNB3/s-l225.jpg",
-    "ebayImage": "https://i.ebayimg.com/images/g/28kAAeSwPRtpoNB3/s-l225.jpg",
-    "summary": "Burns sticks and twigs, generates electricity to charge devices. No canisters needed — ever.",
-    "stores": [
-      {
-        "name": "eBay AU",
-        "url": "https://www.ebay.com.au/sch/i.html?_nkw=BioLite%20CampStove%202+",
-        "type": "search"
-      },
-      {
-        "name": "Amazon AU",
-        "url": "https://www.amazon.com.au/s?k=BioLite%20CampStove%202+",
-        "type": "search"
-      },
-      {
-        "name": "BCF",
-        "url": "https://www.bcf.com.au/search?q=BioLite%20CampStove%202+",
-        "type": "search"
-      },
-      {
-        "name": "Anaconda",
-        "url": "https://www.anacondastores.com/search?text=BioLite%20CampStove%202+",
-        "type": "search"
-      },
-      {
-        "name": "Snowys",
-        "url": "https://www.snowys.com.au/search?q=BioLite%20CampStove%202+",
-        "type": "search"
-      },
-      {
-        "name": "Tentworld",
-        "url": "https://www.tentworld.com.au/Search.aspx?q=BioLite%20CampStove%202+",
-        "type": "search"
-      },
-      {
-        "name": "Wild Earth",
-        "url": "https://www.wildearth.com.au/search?type=product&q=BioLite%20CampStove%202+",
-        "type": "search"
-      }
-    ],
-    "categoryName": "Camping Stoves",
-    "highlights": [
-      "By BioLite"
-    ],
-    "description": "Rated 4.5/5 from 145 reviews. The BioLite CampStove 2+ is a mid-range stove from BioLite. Burns sticks and twigs, generates electricity to charge devices. No canisters needed — ever.",
-    "specs": {
-      "Reference price": "A$179"
-    }
-  },
-  {
     "slug": "trangia-25-1-ul-spirit-stove-set",
     "name": "Trangia 25-1 UL Spirit Stove Set",
     "brand": "Trangia",
@@ -4417,7 +4359,7 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems",
+    "categoryName": "Sleeping Bags & Mats",
     "highlights": [
       "-9°C comfort rating",
       "Pack weight: 190g",
@@ -4479,7 +4421,7 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems",
+    "categoryName": "Sleeping Bags & Mats",
     "highlights": [
       "-9°C comfort rating"
     ],
@@ -4538,7 +4480,7 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems",
+    "categoryName": "Sleeping Bags & Mats",
     "highlights": [
       "R-value: 3.2"
     ],
@@ -4597,7 +4539,7 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems",
+    "categoryName": "Sleeping Bags & Mats",
     "highlights": [
       "R-value: 2.8.",
       "Inflatable sleeping mat",
@@ -4658,7 +4600,7 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems",
+    "categoryName": "Sleeping Bags & Mats",
     "highlights": [
       "-12°C comfort rating"
     ],
@@ -4717,7 +4659,7 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems",
+    "categoryName": "Sleeping Bags & Mats",
     "highlights": [
       "7°C comfort rating"
     ],
@@ -4776,7 +4718,7 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems",
+    "categoryName": "Sleeping Bags & Mats",
     "highlights": [
       "0°C comfort rating",
       "Premium down fill"
@@ -4836,7 +4778,7 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems",
+    "categoryName": "Sleeping Bags & Mats",
     "highlights": [
       "5°C comfort rating",
       "Synthetic fill — performs when wet"
@@ -4896,7 +4838,7 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems",
+    "categoryName": "Sleeping Bags & Mats",
     "highlights": [
       "0°C comfort rating"
     ],
@@ -4955,7 +4897,7 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems",
+    "categoryName": "Sleeping Bags & Mats",
     "highlights": [
       "0°C comfort rating",
       "Premium down fill"
@@ -5015,7 +4957,7 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems",
+    "categoryName": "Sleeping Bags & Mats",
     "highlights": [
       "R-value: 3.3.",
       "Synthetic fill — performs when wet"
@@ -5075,7 +5017,7 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems",
+    "categoryName": "Sleeping Bags & Mats",
     "highlights": [
       "R-value: 1.3."
     ],
@@ -5134,7 +5076,7 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems",
+    "categoryName": "Sleeping Bags & Mats",
     "highlights": [
       "By Nemo"
     ],
@@ -5192,7 +5134,7 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems",
+    "categoryName": "Sleeping Bags & Mats",
     "highlights": [
       "Pack weight: 200g",
       "Premium down fill"
@@ -5252,7 +5194,7 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems",
+    "categoryName": "Sleeping Bags & Mats",
     "highlights": [
       "By Darche"
     ],
@@ -5310,7 +5252,7 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems",
+    "categoryName": "Sleeping Bags & Mats",
     "highlights": [
       "-5°C comfort rating"
     ],
@@ -5369,7 +5311,7 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems",
+    "categoryName": "Sleeping Bags & Mats",
     "highlights": [
       "5°C comfort rating"
     ],
@@ -5428,7 +5370,7 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems",
+    "categoryName": "Sleeping Bags & Mats",
     "highlights": [
       "Synthetic fill — performs when wet"
     ],
@@ -5647,7 +5589,7 @@
         "url": "https://www.anacondastores.com/search?text=Therm-a-Rest%20NeoAir%20XLite%20NXT"
       }
     ],
-    "categoryName": "Camp Sleep Systems",
+    "categoryName": "Sleeping Bags & Mats",
     "highlights": [
       "By Therm-a-Rest"
     ],
@@ -6342,7 +6284,7 @@
         "url": "https://www.anacondastores.com/search?text=Exped%20SynMat%20HL"
       }
     ],
-    "categoryName": "Camp Sleep Systems",
+    "categoryName": "Sleeping Bags & Mats",
     "highlights": [
       "Inflatable sleeping mat"
     ],
@@ -6854,7 +6796,7 @@
     "slug": "coleman-coleman-lantern-swagger-lithium-ion-rechargeable-lantern-light-lamp-camping-tent",
     "name": "Coleman Lantern Swagger Lithium Ion Rechargeable Lantern Light Lamp Camping Tent",
     "brand": "Coleman",
-    "category": "tents",
+    "category": "lanterns",
     "price": 87,
     "salePrice": 87,
     "rating": 4.2,
@@ -6899,12 +6841,12 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Tents",
+    "categoryName": "Camping Lanterns",
     "highlights": [
       "By Coleman",
       "Multiple brightness settings."
     ],
-    "description": "The Coleman Lantern Swagger Lithium Ion Rechargeable Lantern Light Lamp Camping Tent is a budget tent from Coleman. Multiple brightness settings.",
+    "description": "The Coleman Lantern Swagger Lithium Ion Rechargeable Lantern Light Lamp Camping Tent is a budget lantern from Coleman. Multiple brightness settings.",
     "specs": {
       "Reference price": "A$87"
     }
@@ -6913,7 +6855,7 @@
     "slug": "oztrail-easy-fold-1-person-stretcher-tent-single-camping-cot-with-small-pack-down-size",
     "name": "Easy Fold 1 Person Stretcher Tent - Single Camping Cot with Small Pack down Size",
     "brand": "OZtrail",
-    "category": "tents",
+    "category": "sleep-systems",
     "price": 376,
     "salePrice": 376,
     "rating": 4.2,
@@ -6958,11 +6900,11 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Tents",
+    "categoryName": "Sleeping Bags & Mats",
     "highlights": [
       "1-person capacity"
     ],
-    "description": "The Easy Fold 1 Person Stretcher Tent - Single Camping Cot with Small Pack down Size is a premium tent from OZtrail. OZtrail Easy Fold 1 Person Stretcher Tent is a high-quality, compact and easy-to-set-up touring shelter. Vertical walls provide generous internal space and head height. Multiple...",
+    "description": "The Easy Fold 1 Person Stretcher Tent - Single Camping Cot with Small Pack down Size is a premium sleep system from OZtrail. OZtrail Easy Fold 1 Person Stretcher Tent is a high-quality, compact and easy-to-set-up touring shelter. Vertical walls provide generous internal space and head height. Multiple...",
     "specs": {
       "Reference price": "A$376",
       "Capacity": "1 person"
@@ -6972,7 +6914,7 @@
     "slug": "oztrail-easy-fold-1-person-stretcher-tent-single-camping-cot-with-small-pack-down-size-2",
     "name": "Easy Fold 1 Person Stretcher Tent - Single Camping Cot with Small Pack down Size",
     "brand": "OZtrail",
-    "category": "tents",
+    "category": "sleep-systems",
     "price": 397,
     "salePrice": 397,
     "rating": 4.2,
@@ -7017,11 +6959,11 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Tents",
+    "categoryName": "Sleeping Bags & Mats",
     "highlights": [
       "1-person capacity"
     ],
-    "description": "The Easy Fold 1 Person Stretcher Tent - Single Camping Cot with Small Pack down Size is a premium tent from OZtrail. OZtrail Easy Fold 1 Person Stretcher Tent is a high-quality, compact and easy-to-set-up touring shelter. Vertical walls provide generous internal space and head height. Multiple...",
+    "description": "The Easy Fold 1 Person Stretcher Tent - Single Camping Cot with Small Pack down Size is a premium sleep system from OZtrail. OZtrail Easy Fold 1 Person Stretcher Tent is a high-quality, compact and easy-to-set-up touring shelter. Vertical walls provide generous internal space and head height. Multiple...",
     "specs": {
       "Reference price": "A$397",
       "Capacity": "1 person"
@@ -7031,7 +6973,7 @@
     "slug": "oztrail-oztrail-easy-fold-blockout-1-person-stretcher-tent-single-camping-cot-with-sma",
     "name": "OZtrail Easy Fold Blockout 1 Person Stretcher Tent - Single Camping Cot with Sma",
     "brand": "OZtrail",
-    "category": "tents",
+    "category": "sleep-systems",
     "price": 381,
     "salePrice": 381,
     "rating": 4.2,
@@ -7076,13 +7018,13 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Tents",
+    "categoryName": "Sleeping Bags & Mats",
     "highlights": [
       "1-person capacity",
       "Fast instant setup",
       "UV-rated fabric"
     ],
-    "description": "The OZtrail Easy Fold Blockout 1 Person Stretcher Tent - Single Camping Cot with Sma is a premium tent from OZtrail. Blockout coating on the fly blocks up to 95% of light and reduces heat inside by up to 10C. Portable and quick to set up, the ultimate touring tent. 3,000mm waterhead rated UVTe...",
+    "description": "The OZtrail Easy Fold Blockout 1 Person Stretcher Tent - Single Camping Cot with Sma is a premium sleep system from OZtrail. Blockout coating on the fly blocks up to 95% of light and reduces heat inside by up to 10C. Portable and quick to set up, the ultimate touring tent. 3,000mm waterhead rated UVTe...",
     "specs": {
       "Reference price": "A$381",
       "Capacity": "1 person",
@@ -7093,7 +7035,7 @@
     "slug": "branded-oztrail-easy-fold-blockout-1-person-stretcher-tent-single-camping-cot-with-sma",
     "name": "Oztrail Easy Fold Blockout 1 Person Stretcher Tent - Single Camping Cot with Sma",
     "brand": "Branded",
-    "category": "tents",
+    "category": "sleep-systems",
     "price": 386,
     "salePrice": 386,
     "rating": 4.2,
@@ -7138,13 +7080,13 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Tents",
+    "categoryName": "Sleeping Bags & Mats",
     "highlights": [
       "1-person capacity",
       "Fast instant setup",
       "UV-rated fabric"
     ],
-    "description": "The Oztrail Easy Fold Blockout 1 Person Stretcher Tent - Single Camping Cot with Sma is a premium tent from Branded. Blockout coating on the fly blocks up to 95% of light and reduces heat inside by up to 10C. Portable and quick to set up, the ultimate touring tent. 3,000mm waterhead rated UVTe...",
+    "description": "The Oztrail Easy Fold Blockout 1 Person Stretcher Tent - Single Camping Cot with Sma is a premium sleep system from Branded. Blockout coating on the fly blocks up to 95% of light and reduces heat inside by up to 10C. Portable and quick to set up, the ultimate touring tent. 3,000mm waterhead rated UVTe...",
     "specs": {
       "Reference price": "A$386",
       "Capacity": "1 person",
@@ -7155,7 +7097,7 @@
     "slug": "oztrail-oztrail-easy-fold-blockout-1-person-stretcher-tent-single-camping-cot-with-sma-2",
     "name": "OZtrail Easy Fold Blockout 1 Person Stretcher Tent - Single Camping Cot with Sma",
     "brand": "OZtrail",
-    "category": "tents",
+    "category": "sleep-systems",
     "price": 386,
     "salePrice": 386,
     "rating": 4.2,
@@ -7200,13 +7142,13 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camping Tents",
+    "categoryName": "Sleeping Bags & Mats",
     "highlights": [
       "1-person capacity",
       "Fast instant setup",
       "UV-rated fabric"
     ],
-    "description": "The OZtrail Easy Fold Blockout 1 Person Stretcher Tent - Single Camping Cot with Sma is a premium tent from OZtrail. Blockout coating on the fly blocks up to 95% of light and reduces heat inside by up to 10C. Portable and quick to set up, the ultimate touring tent. 3,000mm waterhead rated UVTe...",
+    "description": "The OZtrail Easy Fold Blockout 1 Person Stretcher Tent - Single Camping Cot with Sma is a premium sleep system from OZtrail. Blockout coating on the fly blocks up to 95% of light and reduces heat inside by up to 10C. Portable and quick to set up, the ultimate touring tent. 3,000mm waterhead rated UVTe...",
     "specs": {
       "Reference price": "A$386",
       "Capacity": "1 person",
@@ -7446,64 +7388,6 @@
     "description": "The BlackWolf Cicada Hiking Tent is a mid-range tent from BlackWolf. The Cicada Hiking Tent by BlackWolf blends lightweight efficiency with impressive durability. From tackling new hikes to hitting new heights - the BlackWolf Cicada Hiking Tent c...",
     "specs": {
       "Reference price": "A$220"
-    }
-  },
-  {
-    "slug": "sea-to-summit-sea-to-summit-deportes-al-aire-libre-camping-jab-n-corporal-l-quido-de-limpieza",
-    "name": "Sea to Summit Deportes al aire libre Camping Jabón corporal líquido de limpieza",
-    "brand": "Sea to Summit",
-    "category": "tents",
-    "price": 26,
-    "salePrice": 26,
-    "rating": 4.2,
-    "reviews": 0,
-    "image": "https://i.ebayimg.com/images/g/t-4AAOSwrN5n8CBQ/s-l1600.jpg",
-    "ebayImage": "https://i.ebayimg.com/images/g/t-4AAOSwrN5n8CBQ/s-l1600.jpg",
-    "summary": "Sea to Summit Deportes al aire libre Camping Jabón corporal líquido de limpieza instantánea (M12) Asegúrese de llegar siempre fresco, limpio y listo para usar con los jabones lí...",
-    "stores": [
-      {
-        "name": "eBay AU",
-        "url": "https://www.ebay.com.au/itm/357719229418?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xB2Bk8n00%2BdqIjU1vO6W6rHnv2uFRJVHe6xk3I%2Bhvo9bGIv9RyK9XP7nM8dd0QVWhxOR%2FCuIFV%2BvCA3eII8qq%2FlPXT%2FlyNUzakX02ZisOKPny9VuywpvgkPh4Epfa8a0M1%2FZqkYuY79GFysagf2BTub%2FL1BJSOJ9GspfRJMBK6uiZ1HyDkgFzcFDRvun1yUUOA%3D",
-        "type": "listing"
-      },
-      {
-        "name": "Amazon AU",
-        "url": "https://www.amazon.com.au/s?k=Sea%20to%20Summit%20Deportes%20al%20aire%20libre%20Camping%20Jab%C3%B3n%20corporal%20l%C3%ADquido%20de%20limpieza",
-        "type": "search"
-      },
-      {
-        "name": "BCF",
-        "url": "https://www.bcf.com.au/search?q=Sea%20to%20Summit%20Deportes%20al%20aire%20libre%20Camping%20Jab%C3%B3n%20corporal%20l%C3%ADquido%20de%20limpieza",
-        "type": "search"
-      },
-      {
-        "name": "Anaconda",
-        "url": "https://www.anacondastores.com/search?text=Sea%20to%20Summit%20Deportes%20al%20aire%20libre%20Camping%20Jab%C3%B3n%20corporal%20l%C3%ADquido%20de%20limpieza",
-        "type": "search"
-      },
-      {
-        "name": "Snowys",
-        "url": "https://www.snowys.com.au/search?q=Sea%20to%20Summit%20Deportes%20al%20aire%20libre%20Camping%20Jab%C3%B3n%20corporal%20l%C3%ADquido%20de%20limpieza",
-        "type": "search"
-      },
-      {
-        "name": "Tentworld",
-        "url": "https://www.tentworld.com.au/Search.aspx?q=Sea%20to%20Summit%20Deportes%20al%20aire%20libre%20Camping%20Jab%C3%B3n%20corporal%20l%C3%ADquido%20de%20limpieza",
-        "type": "search"
-      },
-      {
-        "name": "Wild Earth",
-        "url": "https://www.wildearth.com.au/search?type=product&q=Sea%20to%20Summit%20Deportes%20al%20aire%20libre%20Camping%20Jab%C3%B3n%20corporal%20l%C3%ADquido%20de%20limpieza",
-        "type": "search"
-      }
-    ],
-    "categoryName": "Camping Tents",
-    "highlights": [
-      "Fast instant setup"
-    ],
-    "description": "The Sea to Summit Deportes al aire libre Camping Jabón corporal líquido de limpieza is a budget tent from Sea to Summit. Sea to Summit Deportes al aire libre Camping Jabón corporal líquido de limpieza instantánea (M12) Asegúrese de llegar siempre fresco, limpio y listo para usar con los jabones lí...",
-    "specs": {
-      "Reference price": "A$26"
     }
   },
   {
@@ -11540,7 +11424,7 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems",
+    "categoryName": "Sleeping Bags & Mats",
     "highlights": [
       "Inflatable sleeping mat"
     ],
@@ -11598,7 +11482,7 @@
         "type": "search"
       }
     ],
-    "categoryName": "Camp Sleep Systems",
+    "categoryName": "Sleeping Bags & Mats",
     "highlights": [
       "Self-inflating mat"
     ],
