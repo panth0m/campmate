@@ -1,5 +1,9 @@
 name: Daily eBay Import
 
+concurrency:
+  group: campmate-main-write
+  cancel-in-progress: false
+
 on:
   schedule:
     # 매일 오전 6시 (한국시간 KST) = UTC 21:00 (전날)
@@ -24,6 +28,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -39,9 +45,7 @@ jobs:
           EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
         run: |
           cd scripts
-          python run_ebay_weighted_round.py \
-            --total ${{ github.event.inputs.total || '120' }} \
-            --page-size 100
+          python run_ebay_weighted_round.py             --total ${{ github.event.inputs.total || '120' }}             --page-size 100
 
       # ── 2단계: 이미지 싱크 ────────────────────────────
       # SVG(기본 이미지)만 있는 상품에 eBay 실제 사진 매칭
@@ -52,8 +56,7 @@ jobs:
           EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
           EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
         run: |
-          python scripts/sync_product_images_ebay.py \
-            --limit ${{ github.event.inputs.image_limit || '60' }}
+          python scripts/sync_product_images_ebay.py             --limit ${{ github.event.inputs.image_limit || '60' }}
 
       # ── 3단계: products.json 재생성 ───────────────────
       - name: Clean source catalog and rebuild products.json
@@ -64,28 +67,24 @@ jobs:
       - name: Check for changes
         id: check
         run: |
-          git diff --quiet \
-            data/products_source.json \
-            data/products.json \
-            data/ebay_incremental_state.json \
-            data/ebay_weighted_round_last_run.json \
-            data/image_sync_last_run.json \
-            && echo "changed=false" >> $GITHUB_OUTPUT \
-            || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --quiet             data/products_source.json             data/products.json             data/ebay_incremental_state.json             data/ebay_weighted_round_last_run.json             data/image_sync_last_run.json             && echo "changed=false" >> $GITHUB_OUTPUT             || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push updated products
         if: steps.check.outputs.changed == 'true'
         run: |
           git config user.name "CampMate Bot"
           git config user.email "bot@campmate.au"
-          git add \
-            data/products_source.json \
-            data/products.json \
-            data/ebay_incremental_state.json \
-            data/ebay_weighted_round_last_run.json \
-            data/image_sync_last_run.json
+          git add             data/products_source.json             data/products.json             data/ebay_incremental_state.json             data/ebay_weighted_round_last_run.json             data/image_sync_last_run.json
+
+          if git diff --cached --quiet; then
+            echo "No product changes to commit"
+            exit 0
+          fi
+
           git commit -m "Daily eBay import + image sync $(date +%Y-%m-%d)"
-          git push
+          BRANCH="${GITHUB_REF_NAME:-main}"
+          git pull --rebase origin "$BRANCH"
+          git push origin HEAD:"$BRANCH"
 
       # ── 5단계: 실행 결과 로그 ─────────────────────────
       - name: Log import summary
@@ -130,5 +129,13 @@ jobs:
           git config user.name "CampMate Bot"
           git config user.email "bot@campmate.au"
           git add products/ tents.html chairs.html coolers.html stoves.html lanterns.html sleeping-bags.html categories.html popular.html sitemap.xml sitemap-main.xml sitemap-guides.xml sitemap-products.xml scripts/build_products_json.py scripts/run_catalog_cleanup.py scripts/rebuild_sitemaps.py scripts/generate_static_products.py scripts/generate_static_catalog_pages.py scripts/catalog_rules.py worker.js scripts/embed_static_text_routes.py .github/workflows/daily-ebay-import.yml
-          git diff --quiet --cached || git commit -m "Rebuild static catalog pages $(date +%Y-%m-%d)"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "No static page changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Rebuild static catalog pages $(date +%Y-%m-%d)"
+          BRANCH="${GITHUB_REF_NAME:-main}"
+          git pull --rebase origin "$BRANCH"
+          git push origin HEAD:"$BRANCH"

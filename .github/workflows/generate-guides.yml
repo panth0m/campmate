@@ -1,5 +1,9 @@
 name: Daily Guide Generator
 
+concurrency:
+  group: campmate-main-write
+  cancel-in-progress: false
+
 on:
   schedule:
     # 매일 오전 9시 (한국시간) = UTC 00:00
@@ -15,6 +19,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -53,5 +59,13 @@ jobs:
           git config user.name "CampMate Bot"
           git config user.email "bot@campmate.au"
           git add guides/ guides.html data/guides.json data/guides_index.json sitemap.xml sitemap-main.xml sitemap-guides.xml sitemap-products.xml scripts/generate_guides.py scripts/generate_guides_landing.py scripts/rebuild_sitemaps.py worker.js scripts/embed_static_text_routes.py .github/workflows/generate-guides.yml
+
+          if git diff --cached --quiet; then
+            echo "No guide changes to commit"
+            exit 0
+          fi
+
           git commit -m "Auto-generate guides $(date +%Y-%m-%d)"
-          git push
+          BRANCH="${GITHUB_REF_NAME:-main}"
+          git pull --rebase origin "$BRANCH"
+          git push origin HEAD:"$BRANCH"
