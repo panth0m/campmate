@@ -75,14 +75,6 @@ export default {
       });
     }
 
-    // Serve sitemap files directly from assets
-    if (url.pathname === "/sitemap.xml" ||
-        url.pathname === "/sitemap-main.xml" ||
-        url.pathname === "/sitemap-guides.xml" ||
-        url.pathname === "/sitemap-products.xml") {
-      return env.ASSETS.fetch(request);
-    }
-
     if (url.pathname.startsWith("/google")) {
       return env.ASSETS.fetch(request);
     }
