@@ -1,4 +1,4 @@
-const ASSET_VERSION = "20260315";
+const ASSET_VERSION = "20260316";
 const CATALOG_CACHE = { categories: null, products: null, promise: null };
 
 async function getJson(path) {
@@ -18,14 +18,14 @@ async function loadCatalog(force = false) {
     if (!categories.length) categories = await getJson('data/categories.json');
     if (!products.length) {
       try {
-        products = await getJson('data/products_source.json');
-      } catch (err) {
         products = await getJson('data/products.json');
+      } catch (err) {
+        products = await getJson('data/products_source.json');
       }
     }
 
     CATALOG_CACHE.categories = Array.isArray(categories) ? categories : [];
-    CATALOG_CACHE.products = Array.isArray(products) ? products : [];
+    CATALOG_CACHE.products = Array.isArray(products) ? products.map(sanitizeProduct) : [];
     return { categories: CATALOG_CACHE.categories, products: CATALOG_CACHE.products };
   })();
   return CATALOG_CACHE.promise;
@@ -62,13 +62,19 @@ function enhanceImages(root = document) {
   root.querySelectorAll('img[data-category]').forEach(img => attachImgFallback(img, img.dataset.category));
 }
 
+function cleanCategoryRoute(slug) {
+  const key = String(slug || '').trim();
+  if (!key) return '/categories';
+  if (key === 'sleep-systems') return '/sleeping-bags';
+  return `/${encodeURIComponent(key)}`;
+}
 function categoryLink(catOrSlug) {
-  if (typeof catOrSlug === 'object' && catOrSlug) return catOrSlug.page || `category.html?category=${encodeURIComponent(catOrSlug.slug)}`;
+  if (typeof catOrSlug === 'object' && catOrSlug) return catOrSlug.page || cleanCategoryRoute(catOrSlug.slug);
   const slug = String(catOrSlug || '');
   const cat = getCategories().find(item => item.slug === slug);
-  return cat?.page || `category.html?category=${encodeURIComponent(slug)}`;
+  return cat?.page || cleanCategoryRoute(slug);
 }
-function productLink(product) { return `product.html?slug=${encodeURIComponent(product.slug)}`; }
+function productLink(product) { return `/products/${encodeURIComponent(product.slug)}`; }
 function categoryParam() { return new URLSearchParams(location.search).get('category'); }
 function slugParam() { return new URLSearchParams(location.search).get('slug'); }
 function bySlug(list, slug) { return list.find(x => slugify(x.slug || x.name) === slugify(slug)); }
@@ -93,6 +99,35 @@ function buildAffiliateUrl(name, url, productName) {
 
 function productSearchText(product) {
   return [product.name, product.brand, product.categoryName, product.category, product.summary, product.description, ...(product.highlights || [])].join(' ').toLowerCase();
+}
+
+function isBadCapacityValue(value) {
+  const text = String(value || '').trim().toLowerCase();
+  return text === '00 person' || text === '0 person' || text === '00-person' || text === '0-person' || text === '00p' || text === '0p' || text === 'capacity: 00 person';
+}
+
+function sanitizeHighlightValue(value) {
+  const text = String(value || '').trim();
+  if (!text) return '';
+  if (/capacity:\s*00\s*person/i.test(text)) return '';
+  if (/00[- ]?person/i.test(text)) return '';
+  if (/0[- ]?person/i.test(text)) return '';
+  return text;
+}
+
+function sanitizeProduct(product) {
+  if (!product || typeof product !== 'object') return product;
+  const copy = { ...product };
+  copy.highlights = (copy.highlights || []).map(sanitizeHighlightValue).filter(Boolean);
+  if (copy.specs && typeof copy.specs === 'object') {
+    const nextSpecs = {};
+    Object.entries(copy.specs).forEach(([key, value]) => {
+      if (String(key || '').toLowerCase() === 'capacity' && isBadCapacityValue(value)) return;
+      nextSpecs[key] = value;
+    });
+    copy.specs = nextSpecs;
+  }
+  return copy;
 }
 
 function inferTentCapacity(text) {
@@ -239,6 +274,7 @@ function createStoreButtons(product, limit = 4) {
 }
 
 function productCard(product) {
+  product = sanitizeProduct(product);
   const hl = (product.highlights || []).slice(0,2).map(v => `<span class="dw-row-hl">${escapeHtml(v)}</span>`).join('');
   const ratingVal = Number(product.rating) || 0;
   const saving = savingsPercent(product);
@@ -265,6 +301,7 @@ function productCard(product) {
 }
 
 function compareRow(product) {
+  product = sanitizeProduct(product);
   const specs = getPrimarySpecs(product).map(v => `<span class="dw-row-spec">${escapeHtml(v)}</span>`).join('');
   const highlights = (product.highlights || []).slice(0,3).map(v => `<span class="dw-row-hl">${escapeHtml(v)}</span>`).join('');
   const saving = savingsPercent(product);
@@ -324,7 +361,7 @@ function setupSearchForm(root = document) {
       e.preventDefault();
       const input = form.querySelector('input[name="q"]');
       const q = input ? input.value.trim() : '';
-      location.href = `search.html?q=${encodeURIComponent(q)}`;
+      location.href = `/search?q=${encodeURIComponent(q)}`;
     });
   });
 }

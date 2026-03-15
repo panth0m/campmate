@@ -16,6 +16,17 @@ function escapeHtml(s){
 function fallbackForCategory(category){
   return `assets/images/categories/${category}.svg`;
 }
+function categoryHref(slug){
+  const map = {
+    'tents': '/tents',
+    'chairs': '/chairs',
+    'coolers': '/coolers',
+    'stoves': '/stoves',
+    'lanterns': '/lanterns',
+    'sleep-systems': '/sleeping-bags'
+  };
+  return map[slug] || `/categories`;
+}
 
 const _imgCache = {};
 let _imgCacheLoaded = false;
@@ -148,12 +159,12 @@ function productCard(product){
   const primaryStore = Array.isArray(product.stores) && product.stores.length ? product.stores[0] : { url:'#', name:'Store' };
   return `
   <article class="card">
-    <a class="thumb" href="product.html?slug=${product.slug}">
+    <a class="thumb" href="/products/${product.slug}">
       <img src="${normalizeImage(product)}" alt="${escapeHtml(product.name)}" loading="lazy" data-category="${product.category}" data-slug="${product.slug}">
     </a>
     <div class="card-body">
       <div class="kicker">${escapeHtml(product.brand)} · ${escapeHtml((product.category || '').replace('-', ' '))}</div>
-      <a href="product.html?slug=${product.slug}" class="title">${escapeHtml(product.name)}</a>
+      <a href="/products/${product.slug}" class="title">${escapeHtml(product.name)}</a>
       <p>${escapeHtml(product.summary || '')}</p>
       <div class="price-row">
         <span class="sale">${currency(product.salePrice || product.price || 0)}</span>
@@ -164,7 +175,7 @@ function productCard(product){
         <span>${product.reviews || 0} reviews</span>
       </div>
       <div class="actions">
-        <a class="btn small" href="product.html?slug=${product.slug}">Compare page</a>
+        <a class="btn small" href="/products/${product.slug}">Compare page</a>
         <a class="btn small secondary" target="_blank" rel="noopener" href="${escapeHtml(primaryStore.url || '#')}">${escapeHtml(primaryStore.name || 'Store')}</a>
       </div>
     </div>
@@ -178,7 +189,7 @@ function categoryCard(cat, count){
       <div class="badge">${count} products</div>
       <div class="title" style="font-size:1.4rem">${escapeHtml(cat.name)}</div>
       <p>${escapeHtml(cat.description)}</p>
-      <a class="btn small" href="category.html?category=${cat.slug}">Browse ${escapeHtml(cat.name)}</a>
+      <a class="btn small" href="${categoryHref(cat.slug)}">Browse ${escapeHtml(cat.name)}</a>
     </div>
   </article>`;
 }
@@ -188,7 +199,7 @@ function setupSearchForm(){
   form.addEventListener('submit', e => {
     e.preventDefault();
     const q = form.querySelector('input').value.trim();
-    const target = form.dataset.searchTarget || 'search.html';
+    const target = form.dataset.searchTarget || '/search';
     location.href = `${target}?q=${encodeURIComponent(q)}`;
   });
 }

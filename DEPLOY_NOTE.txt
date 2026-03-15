@@ -1,0 +1,14 @@
+CampMate deploy package
+
+What changed:
+- Static category pages, /categories, and /popular now ship with real HTML content.
+- Product pages were regenerated with cleaner summaries and better highlight handling.
+- Daily eBay workflow now also rebuilds static category and hub pages.
+- Manifest shortcuts use clean URLs.
+- Service worker cache updated.
+
+Deployment:
+1. Replace the old project folder completely.
+2. Deploy this folder.
+3. You do not need to manually rerun GitHub Actions just because you replaced the folder.
+   They will use the updated scripts on the next scheduled run or if you trigger them manually.

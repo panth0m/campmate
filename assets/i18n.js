@@ -378,7 +378,7 @@
     if (cards[2]) cards[2].textContent = t('step3_p');
     if (h2s[1]) h2s[1].textContent = t('featured_paths');
     if (ps[1]) ps[1].textContent = t('featured_paths_p');
-    const allGuides = document.querySelector('.section-head .btn.secondary.small[href="guides.html"]'); if (allGuides) allGuides.textContent = t('all_guides');
+    const allGuides = document.querySelector('.section-head .btn.secondary.small[href="guides.html"], .section-head .btn.secondary.small[href="/guides"]'); if (allGuides) allGuides.textContent = t('all_guides');
     document.querySelectorAll('a.btn.small[href*="guides/"]').forEach(a => a.textContent = t('read_guide'));
     if (h2s[2]) h2s[2].textContent = t('trust_heading');
     if (ps[2]) ps[2].textContent = t('trust_p');
@@ -388,17 +388,17 @@
     if (trustBtns[2]) trustBtns[2].textContent = t('view_disclosure');
     if (h2s[3]) h2s[3].textContent = t('popular_products');
     if (ps[3]) ps[3].textContent = t('compare_pages_intro');
-    const allProductsBtn = document.querySelector('.section-head .btn.secondary.small[href="popular.html"]'); if (allProductsBtn) allProductsBtn.textContent = t('all_products');
+    const allProductsBtn = document.querySelector('.section-head .btn.secondary.small[href="popular.html"], .section-head .btn.secondary.small[href="/popular"]'); if (allProductsBtn) allProductsBtn.textContent = t('all_products');
   }
 
   function translateCategoriesPage(){
-    if (!location.pathname.endsWith('categories.html')) return;
+    if (!(location.pathname.endsWith('categories.html') || location.pathname === '/categories')) return;
     setText('.page-hero h1', t('categories_heading'));
     const p = document.querySelector('.page-hero .section-head p'); if (p) p.textContent = t('categories_copy');
   }
 
   function translateCategoryPage(){
-    if (!location.pathname.endsWith('category.html')) return;
+    if (!(location.pathname.endsWith('category.html') || ['/tents','/chairs','/coolers','/stoves','/lanterns','/sleeping-bags'].includes(location.pathname))) return;
     const bcLinks = document.querySelectorAll('.breadcrumb a');
     if (bcLinks[0]) bcLinks[0].textContent = t('home');
     if (bcLinks[1]) bcLinks[1].textContent = t('categories');
@@ -419,20 +419,20 @@
   }
 
   function translatePopularPage(){
-    if (!location.pathname.endsWith('popular.html')) return;
+    if (!(location.pathname.endsWith('popular.html') || location.pathname === '/popular')) return;
     setText('.page-hero h1', t('popular_heading'));
     const p = document.querySelector('.page-hero .section-head p'); if (p) p.textContent = t('popular_copy');
   }
 
   function translateSearchPage(){
-    if (!location.pathname.endsWith('search.html')) return;
+    if (!(location.pathname.endsWith('search.html') || location.pathname === '/search')) return;
     setText('.page-hero h1', t('search_results'));
     const rc = document.getElementById('result-copy');
     if (rc && (rc.textContent.includes('Loading results') || rc.textContent.includes('Type a product'))) rc.textContent = t('type_product');
   }
 
   function translateProductPage(){
-    if (!location.pathname.endsWith('product.html')) return;
+    if (!(location.pathname.endsWith('product.html') || location.pathname.startsWith('/products/'))) return;
     const bcLinks = document.querySelectorAll('.breadcrumb a');
     if (bcLinks[0]) bcLinks[0].textContent = t('home');
     if (bcLinks[1]) bcLinks[1].textContent = t('products_nav');

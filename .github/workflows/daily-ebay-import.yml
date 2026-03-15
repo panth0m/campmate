@@ -112,3 +112,17 @@ jobs:
           print(f'  Real images: {img}')
           print(f'  SVG fallback: {svg}')
           "
+
+      - name: Generate static category and hub pages
+        run: python scripts/generate_static_catalog_pages.py
+
+      - name: Generate static product HTML pages
+        run: python scripts/generate_static_products.py
+
+      - name: Commit and push static pages
+        run: |
+          git config user.name "CampMate Bot"
+          git config user.email "bot@campmate.au"
+          git add products/ tents.html chairs.html coolers.html stoves.html lanterns.html sleeping-bags.html categories.html popular.html sitemap.xml scripts/build_products_json.py scripts/generate_static_products.py scripts/generate_static_catalog_pages.py .github/workflows/daily-ebay-import.yml
+          git diff --quiet --cached || git commit -m "Rebuild static catalog pages $(date +%Y-%m-%d)"
+          git push

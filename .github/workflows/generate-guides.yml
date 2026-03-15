@@ -25,6 +25,10 @@ jobs:
         run: |
           python scripts/generate_guides.py
 
+      - name: Rebuild guides landing page
+        run: |
+          python scripts/generate_guides_landing.py
+
       - name: Check for new files
         id: check_changes
         run: |
@@ -40,6 +44,6 @@ jobs:
         run: |
           git config user.name "CampMate Bot"
           git config user.email "bot@campmate.au"
-          git add guides/ sitemap.xml
+          git add guides/ guides.html data/guides.json data/guides_index.json sitemap.xml scripts/generate_guides.py scripts/generate_guides_landing.py .github/workflows/generate-guides.yml
           git commit -m "Auto-generate guides $(date +%Y-%m-%d)"
           git push

@@ -54,13 +54,42 @@ export default {
     if (url.pathname === "/api/ebay-search") return handleEbaySearch(request, env);
     if (url.pathname === "/api/google-search") return handleGoogleSearch(request, env);
 
-    if (url.pathname === "/sitemap.xml" || url.pathname === "/robots.txt" || url.pathname.startsWith("/google")) {
+    if (url.pathname === "/sitemap.xml") {
+      const assetUrl = new URL('/sitemap.xml', url.origin);
+      const res = await env.ASSETS.fetch(new Request(assetUrl.toString(), request));
+      const headers = new Headers(res.headers);
+      headers.set('Content-Type', 'application/xml; charset=utf-8');
+      headers.set('Cache-Control', 'public, max-age=300');
+      return new Response(res.body, { status: res.status, headers });
+    }
+
+    if (url.pathname === "/robots.txt") {
+      const assetUrl = new URL('/robots.txt', url.origin);
+      const res = await env.ASSETS.fetch(new Request(assetUrl.toString(), request));
+      const headers = new Headers(res.headers);
+      headers.set('Content-Type', 'text/plain; charset=utf-8');
+      headers.set('Cache-Control', 'public, max-age=300');
+      return new Response(res.body, { status: res.status, headers });
+    }
+
+    if (url.pathname.startsWith("/google")) {
       return env.ASSETS.fetch(request);
     }
 
-    // Redirect old .html routes to clean SEO routes.
+    // Redirect legacy product routes to clean product pages.
+    if (url.pathname === "/product.html" || url.pathname === "/product") {
+      const slug = url.searchParams.get("slug");
+      if (slug) {
+        return Response.redirect(`${url.origin}/products/${encodeURIComponent(slug)}`, 301);
+      }
+      return Response.redirect(`${url.origin}/popular`, 301);
+    }
+
+    // Redirect old .html routes to clean SEO routes while keeping query strings.
     if (OLD_TO_NEW.has(url.pathname)) {
-      return Response.redirect(`${url.origin}${OLD_TO_NEW.get(url.pathname)}`, 301);
+      const redirectUrl = new URL(OLD_TO_NEW.get(url.pathname), url.origin);
+      redirectUrl.search = url.search;
+      return Response.redirect(redirectUrl.toString(), 301);
     }
 
     // Redirect legacy query-style category pages to clean routes.
@@ -86,7 +115,15 @@ export default {
       return env.ASSETS.fetch(new Request(assetUrl.toString(), request));
     }
 
-    // Pass through real assets and product query routes.
+    // Pretty product routes: /products/slug -> /products/slug.html
+    if (url.pathname.startsWith("/products/") && !url.pathname.endsWith(".html")) {
+      const assetUrl = new URL(request.url);
+      assetUrl.pathname = `${url.pathname}.html`;
+      assetUrl.search = "";
+      return env.ASSETS.fetch(new Request(assetUrl.toString(), request));
+    }
+
+    // Pass through real assets and remaining requests.
     return env.ASSETS.fetch(request);
   },
 };

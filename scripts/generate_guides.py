@@ -33,12 +33,12 @@ CATEGORY_LABELS = {
 }
 
 CATEGORY_PAGES = {
-    "tents": "tents.html",
-    "chairs": "chairs.html",
-    "coolers": "coolers.html",
-    "stoves": "stoves.html",
-    "lanterns": "lanterns.html",
-    "sleep-systems": "sleeping-bags.html",
+    "tents": "tents",
+    "chairs": "chairs",
+    "coolers": "coolers",
+    "stoves": "stoves",
+    "lanterns": "lanterns",
+    "sleep-systems": "sleeping-bags",
 }
 
 SEASON_TIPS = {
@@ -52,9 +52,9 @@ SEASON_TIPS = {
 
 
 def load_products():
-    path = DATA_DIR / "products_source.json"
+    path = DATA_DIR / "products.json"
     if not path.exists():
-        path = DATA_DIR / "products.json"
+        path = DATA_DIR / "products_source.json"
     with open(path) as f:
         return json.load(f)
 
@@ -72,12 +72,12 @@ def currency(val):
 
 def nav_html(active="guides"):
     return f"""<header class="topbar"><div class="container nav">
-<a class="logo" href="../index.html"><span class="logo-badge">⛺</span><span>CampMate Australia</span></a>
+<a class="logo" href="/"><span class="logo-badge">⛺</span><span>CampMate Australia</span></a>
 <nav class="nav-links">
-  <a href="../index.html">Home</a>
-  <a href="../categories.html">Categories</a>
-  <a href="../popular.html">Popular</a>
-  <a href="../guides.html" class="active">Guides</a>
+  <a href="/">Home</a>
+  <a href="/categories">Categories</a>
+  <a href="/popular">Popular</a>
+  <a href="/guides" class="active">Guides</a>
 </nav>
 <form class="nav-search" data-search-form>
   <input class="input" name="q" placeholder="Search tents, coolers, chairs...">
@@ -92,15 +92,15 @@ def footer_html():
 <p>CampMate helps Australian campers compare useful camping gear, read buyer-first guides and click through to store searches with clear disclosure.</p>
 <p class="muted" style="margin-top:12px">Disclosure: CampMate may earn commissions from affiliate links at no additional cost to you.</p></div>
 <div><strong>Browse</strong><div class="list" style="margin-top:12px">
-<a href="../categories.html">All categories</a>
-<a href="../popular.html">Popular products</a>
-<a href="../guides.html">Guides</a>
+<a href="/categories">All categories</a>
+<a href="/popular">Popular products</a>
+<a href="/guides">Guides</a>
 </div></div>
 <div><strong>Trust &amp; contact</strong><div class="list" style="margin-top:12px">
-<a href="../about.html">About CampMate</a>
-<a href="../contact.html">Contact</a>
-<a href="../disclosure.html">Affiliate disclosure</a>
-<a href="../privacy.html">Privacy</a>
+<a href="/about">About CampMate</a>
+<a href="/contact">Contact</a>
+<a href="/disclosure">Affiliate disclosure</a>
+<a href="/privacy">Privacy</a>
 </div></div>
 </div></footer>
 <script src="../assets/data.js"></script>
@@ -147,7 +147,7 @@ def generate_comparison(product_a, product_b):
     brand_b = product_b["brand"]
     cat = product_a["category"]
     cat_label = CATEGORY_LABELS.get(cat, cat.title())
-    cat_page = CATEGORY_PAGES.get(cat, "categories.html")
+    cat_page = CATEGORY_PAGES.get(cat, "categories")
 
     slug_a = product_a.get("slug", slugify(product_a["name"]))
     slug_b = product_b.get("slug", slugify(product_b["name"]))
@@ -169,7 +169,7 @@ def generate_comparison(product_a, product_b):
 
     guide_slug = f"{slugify(brand_a)}-vs-{slugify(brand_b)}-{slugify(cat)}"
     filename = f"{guide_slug}.html"
-    canonical = f"{BASE_URL}/guides/{filename}"
+    canonical = f"{BASE_URL}/guides/{guide_slug}"
 
     title = f"{brand_a} vs {brand_b} {cat_label} — Which Should You Buy? | CampMate Australia"
     desc = f"Compare {name_a} and {name_b}. Prices, ratings, specs and store links for Australian campers."
@@ -184,7 +184,7 @@ def generate_comparison(product_a, product_b):
         return " ".join(f'<span class="tag-chip">{h}</span>' for h in hl[:4])
 
     body = f"""<main class="page-hero"><div class="container">
-<div class="breadcrumb"><a href="../index.html">Home</a> · <a href="../guides.html">Guides</a> · <span>{brand_a} vs {brand_b}</span></div>
+<div class="breadcrumb"><a href="/">Home</a> · <a href="/guides">Guides</a> · <span>{brand_a} vs {brand_b}</span></div>
 <article class="card guide-article">
   <div class="badge">Comparison guide · {TODAY}</div>
   <h1>{brand_a} vs {brand_b} {cat_label}: Which Is Better for Australian Campers?</h1>
@@ -208,7 +208,7 @@ def generate_comparison(product_a, product_b):
         <span class="metric-chip">⭐ {rating_a}</span>
         <span class="metric-chip">{reviews_a} reviews</span>
       </div>
-      <a class="btn small" href="../product.html?slug={slug_a}">Compare stores →</a>
+      <a class="btn small" href="../products/{slug_a}">Compare stores →</a>
     </div>
 
     <div class="card" style="padding:20px">
@@ -221,7 +221,7 @@ def generate_comparison(product_a, product_b):
         <span class="metric-chip">⭐ {rating_b}</span>
         <span class="metric-chip">{reviews_b} reviews</span>
       </div>
-      <a class="btn small" href="../product.html?slug={slug_b}">Compare stores →</a>
+      <a class="btn small" href="../products/{slug_b}">Compare stores →</a>
     </div>
 
   </div>
@@ -241,13 +241,13 @@ def generate_comparison(product_a, product_b):
   <p>{season_tip}</p>
 
   <h2>Our recommendation</h2>
-  <p>For most Australian campers, <strong><a href="../product.html?slug={winner_slug}">{winner}</a></strong> is the stronger all-round choice.
+  <p>For most Australian campers, <strong><a href="../products/{winner_slug}">{winner}</a></strong> is the stronger all-round choice.
   That said, both products are worth comparing live store prices before you buy — deals change regularly.</p>
 
   <div style="display:flex;gap:12px;flex-wrap:wrap;margin:20px 0">
-    <a class="btn" href="../product.html?slug={slug_a}">See {brand_a} prices</a>
-    <a class="btn secondary" href="../product.html?slug={slug_b}">See {brand_b} prices</a>
-    <a class="btn secondary" href="../{cat_page}">Browse all {cat_label}</a>
+    <a class="btn" href="../products/{slug_a}">See {brand_a} prices</a>
+    <a class="btn secondary" href="../products/{slug_b}">See {brand_b} prices</a>
+    <a class="btn secondary" href="/{cat_page}">Browse all {cat_label}</a>
   </div>
 
   <p class="muted" style="font-size:.8rem;margin-top:16px">
@@ -276,7 +276,7 @@ def generate_comparison(product_a, product_b):
 def generate_top10(category, products):
     """카테고리별 TOP 10 추천 글 생성"""
     cat_label = CATEGORY_LABELS.get(category, category.title())
-    cat_page = CATEGORY_PAGES.get(category, "categories.html")
+    cat_page = CATEGORY_PAGES.get(category, "categories")
     season_tip = SEASON_TIPS.get(category, "")
 
     # 평점 + 리뷰수 기준 정렬 → 상위 10개
@@ -289,7 +289,7 @@ def generate_top10(category, products):
     year = date.today().year
     guide_slug = f"top-10-{slugify(cat_label)}-australia-{year}"
     filename = f"{guide_slug}.html"
-    canonical = f"{BASE_URL}/guides/{filename}"
+    canonical = f"{BASE_URL}/guides/{guide_slug}"
 
     title = f"Top 10 {cat_label} in Australia ({year}) | CampMate"
     desc = f"The best {cat_label.lower()} for Australian campers in {year}. Compare prices, ratings and store links before you buy."
@@ -313,7 +313,7 @@ def generate_top10(category, products):
       <span style="font-size:1.8rem;flex-shrink:0">{medal}</span>
       <div style="flex:1;min-width:0">
         <div class="badge">{p['brand']}</div>
-        <h3 style="margin:6px 0"><a href="../product.html?slug={slug}">{name}</a></h3>
+        <h3 style="margin:6px 0"><a href="../products/{slug}">{name}</a></h3>
         <p class="muted" style="font-size:.85rem;margin:4px 0">{summary}</p>
         <div style="margin:8px 0">{tags}</div>
         <div class="metric-row">
@@ -321,7 +321,7 @@ def generate_top10(category, products):
           <span class="metric-chip">⭐ {rating}</span>
           <span class="metric-chip">{reviews} reviews</span>
         </div>
-        <a class="btn small" style="margin-top:10px" href="../product.html?slug={slug}">Compare store prices →</a>
+        <a class="btn small" style="margin-top:10px" href="../products/{slug}">Compare store prices →</a>
       </div>
     </div>
   </div>"""
@@ -331,7 +331,7 @@ def generate_top10(category, products):
     top1_slug = top1.get("slug", "") if top1 else ""
 
     body = f"""<main class="page-hero"><div class="container">
-<div class="breadcrumb"><a href="../index.html">Home</a> · <a href="../guides.html">Guides</a> · <span>Top 10 {cat_label} {year}</span></div>
+<div class="breadcrumb"><a href="/">Home</a> · <a href="/guides">Guides</a> · <span>Top 10 {cat_label} {year}</span></div>
 <article class="card guide-article">
   <div class="badge">Buying guide · Updated {TODAY}</div>
   <h1>Top 10 Best {cat_label} in Australia ({year})</h1>
@@ -350,9 +350,9 @@ def generate_top10(category, products):
   <h2>Where to buy</h2>
   <p>All products above link through to live store searches at BCF, Anaconda, Amazon AU, eBay AU and more.
   Prices change regularly — always check current pricing before you buy.</p>
-  {"<p>Our top pick for most buyers is <strong><a href='../product.html?slug=" + top1_slug + "'>" + top1_name + "</a></strong> — it consistently scores well across price, rating and real-world reviews.</p>" if top1 else ""}
+  {"<p>Our top pick for most buyers is <strong><a href='../products/" + top1_slug + "'>" + top1_name + "</a></strong> — it consistently scores well across price, rating and real-world reviews.</p>" if top1 else ""}
 
-  <a class="btn" href="../{cat_page}">Browse all {cat_label} →</a>
+  <a class="btn" href="/{cat_page}">Browse all {cat_label} →</a>
 
   <p class="muted" style="font-size:.8rem;margin-top:20px">
     Disclosure: CampMate may earn a commission if you click through and make a purchase. 
@@ -392,12 +392,15 @@ def update_guides_index():
         # 글 유형 판별
         if 'vs' in fname:
             gtype = 'comparison'
-        elif 'top-10' in fname or 'top-5' in fname:
-            gtype = 'top10'
+        elif 'top-10' in fname or 'top-5' in fname or h1 and h1.group(1).lower().startswith('best '):
+            gtype = 'best-list'
+        elif h1 and h1.group(1).lower().startswith('how to '):
+            gtype = 'how-to'
         else:
             gtype = 'guide'
 
         guides.append({
+            'slug': Path(fname).stem,
             'file': fname,
             'title': h1.group(1) if h1 else fname.replace('-', ' ').replace('.html', '').title(),
             'desc': desc.group(1) if desc else '',
@@ -420,7 +423,7 @@ def update_sitemap(new_slugs):
 
     added = 0
     for slug in new_slugs:
-        url = f"{BASE_URL}/guides/{slug}"
+        url = f"{BASE_URL}/guides/{Path(slug).stem}"
         if url in content:
             continue
         entry = f'  <url><loc>{url}</loc><lastmod>{TODAY}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>'

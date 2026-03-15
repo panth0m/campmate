@@ -1,7 +1,7 @@
 // CampMate Australia — Service Worker
 // Handles offline caching, background sync, and push notifications
 
-const CACHE_VERSION = 'campmate-v1';
+const CACHE_VERSION = 'campmate-v4-20260316';
 const STATIC_CACHE  = `${CACHE_VERSION}-static`;
 const DATA_CACHE    = `${CACHE_VERSION}-data`;
 const IMAGE_CACHE   = `${CACHE_VERSION}-images`;
@@ -9,20 +9,21 @@ const IMAGE_CACHE   = `${CACHE_VERSION}-images`;
 // Core files — always cache on install
 const STATIC_ASSETS = [
   '/',
-  '/index.html',
-  '/tents.html',
-  '/chairs.html',
-  '/coolers.html',
-  '/stoves.html',
-  '/lanterns.html',
-  '/sleeping-bags.html',
-  '/categories.html',
-  '/popular.html',
-  '/search.html',
-  '/product.html',
+  '/categories',
+  '/popular',
+  '/guides',
+  '/about',
+  '/contact',
+  '/privacy',
+  '/disclosure',
+  '/tents',
+  '/chairs',
+  '/coolers',
+  '/stoves',
+  '/lanterns',
+  '/sleeping-bags',
   '/assets/style.css',
   '/assets/common.js',
-  '/assets/app.js',
   '/assets/data.js',
   '/assets/icons/icon-192x192.png',
   '/assets/icons/icon-512x512.png',
@@ -31,7 +32,6 @@ const STATIC_ASSETS = [
 
 // Data files — cache with network-first strategy
 const DATA_ASSETS = [
-  '/data/products_source.json',
   '/data/products.json',
   '/data/categories.json',
 ];
@@ -88,6 +88,11 @@ self.addEventListener('fetch', event => {
     return;
   }
 
+  // Keep technical crawler files network-only.
+  if (url.pathname === '/sitemap.xml' || url.pathname === '/robots.txt' || url.pathname.startsWith('/google')) {
+    return;
+  }
+
   // Product images — cache first, fallback to network
   if (url.pathname.startsWith('/assets/images/')) {
     event.respondWith(cacheFirst(request, IMAGE_CACHE));
@@ -140,7 +145,7 @@ async function networkFirst(request, cacheName) {
     if (cached) return cached;
     // Offline fallback for HTML pages
     if (request.headers.get('accept')?.includes('text/html')) {
-      const fallback = await caches.match('/index.html');
+      const fallback = await caches.match('/');
       if (fallback) return fallback;
     }
     return new Response(offlinePage(), {
