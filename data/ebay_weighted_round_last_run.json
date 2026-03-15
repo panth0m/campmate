@@ -1,0 +1,129 @@
+{
+  "requested_total": 120,
+  "per_request": 100,
+  "allocation": {
+    "tents": 44,
+    "chairs": 29,
+    "coolers": 14,
+    "stoves": 12,
+    "lanterns": 12,
+    "sleep-systems": 9
+  },
+  "results": [
+    {
+      "category": "tents",
+      "requested": 44,
+      "added": 27,
+      "brands": {
+        "Coleman": 5,
+        "OZtrail": 5,
+        "BlackWolf": 4,
+        "Sea to Summit": 1,
+        "Darche": 5,
+        "Hilleberg": 0,
+        "The North Face": 0,
+        "Big Agnes": 2,
+        "Vango": 5,
+        "Zempire": 0
+      },
+      "sourceCount": 146,
+      "stateFile": "C:\\Users\\K\\OneDrive\\문서\\GitHub\\campmate\\data\\ebay_incremental_state.json"
+    },
+    {
+      "category": "chairs",
+      "requested": 29,
+      "added": 20,
+      "brands": {
+        "Coleman": 3,
+        "OZtrail": 3,
+        "BlackWolf": 2,
+        "Helinox": 3,
+        "Darche": 3,
+        "Sea to Summit": 3,
+        "Companion": 2,
+        "Wanderer": 1,
+        "Vango": 0,
+        "Zempire": 0
+      },
+      "sourceCount": 166,
+      "stateFile": "C:\\Users\\K\\OneDrive\\문서\\GitHub\\campmate\\data\\ebay_incremental_state.json"
+    },
+    {
+      "category": "coolers",
+      "requested": 14,
+      "added": 12,
+      "brands": {
+        "Coleman": 2,
+        "YETI": 2,
+        "Dometic": 2,
+        "Engel": 0,
+        "Wanderer": 0,
+        "Companion": 2,
+        "Evakool": 0,
+        "Igloo": 2,
+        "Sea to Summit": 2,
+        "Zempire": 0
+      },
+      "sourceCount": 178,
+      "stateFile": "C:\\Users\\K\\OneDrive\\문서\\GitHub\\campmate\\data\\ebay_incremental_state.json"
+    },
+    {
+      "category": "stoves",
+      "requested": 12,
+      "added": 12,
+      "brands": {
+        "Coleman": 1,
+        "Companion": 2,
+        "Jetboil": 2,
+        "Primus": 2,
+        "MSR": 0,
+        "Camp Chef": 2,
+        "Weber": 0,
+        "Sea to Summit": 0,
+        "Trangia": 1,
+        "Gasmate": 2
+      },
+      "sourceCount": 190,
+      "stateFile": "C:\\Users\\K\\OneDrive\\문서\\GitHub\\campmate\\data\\ebay_incremental_state.json"
+    },
+    {
+      "category": "lanterns",
+      "requested": 12,
+      "added": 12,
+      "brands": {
+        "Coleman": 2,
+        "Black Diamond": 2,
+        "Goal Zero": 0,
+        "BioLite": 1,
+        "Ledlenser": 2,
+        "Barebones": 1,
+        "Sea to Summit": 2,
+        "OZtrail": 2,
+        "Companion": 0,
+        "Vango": 0
+      },
+      "sourceCount": 202,
+      "stateFile": "C:\\Users\\K\\OneDrive\\문서\\GitHub\\campmate\\data\\ebay_incremental_state.json"
+    },
+    {
+      "category": "sleep-systems",
+      "requested": 9,
+      "added": 2,
+      "brands": {
+        "Sea to Summit": 1,
+        "Coleman": 0,
+        "Therm-a-Rest": 1,
+        "BlackWolf": 0,
+        "Exped": 0,
+        "Darche": 0,
+        "Companion": 0,
+        "OZtrail": 0,
+        "Wanderer": 0,
+        "Big Agnes": 0
+      },
+      "sourceCount": 204,
+      "stateFile": "C:\\Users\\K\\OneDrive\\문서\\GitHub\\campmate\\data\\ebay_incremental_state.json"
+    }
+  ],
+  "added_total": 85
+}

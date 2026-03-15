@@ -1,0 +1,164 @@
+[
+  {
+    "slug": "tents",
+    "page": "/tents",
+    "name": "Camping Tents",
+    "short": "Tents",
+    "description": "Compare family tents, instant tents and touring shelters for camping trips across Australia.",
+    "seo_title": "Best Camping Tents in Australia | Compare Family, Instant & Touring Tents",
+    "meta_description": "Compare camping tents in Australia with CampMate. Explore family tents, instant tents and touring shelters, then open product pages and store links.",
+    "guide": "best-family-tents-australia.html",
+    "guide_title": "Best Family Tents in Australia",
+    "guide_description": "A practical guide to family tents, instant setups and touring shelters for Australian campers.",
+    "hero_intro": "Camping tent choice usually comes down to space, setup speed and weather comfort. CampMate highlights roomy family options, quick-pitch designs and versatile touring tents so you can shortlist before comparing live store links.",
+    "faq": [
+      [
+        "What size tent should a family buy?",
+        "Most families are happier sizing up one berth so there is room for bags, bedding and wet-weather downtime."
+      ],
+      [
+        "Are instant tents worth it?",
+        "Instant tents are great for car camping and short stays because setup is quick, but they are often heavier and bulkier than touring models."
+      ],
+      [
+        "What matters most in Australian conditions?",
+        "Ventilation, waterproofing, usable floor area and strong poles matter most for warm days, coastal wind and changeable overnight weather."
+      ]
+    ]
+  },
+  {
+    "slug": "chairs",
+    "page": "/chairs",
+    "name": "Camping Chairs",
+    "short": "Chairs",
+    "description": "Compare folding camping chairs, recliners and lightweight camp seats for comfort around camp.",
+    "seo_title": "Best Camping Chairs in Australia | Compare Folding & Lightweight Camp Chairs",
+    "meta_description": "Compare camping chairs in Australia with CampMate. Browse folding chairs, recliners and lightweight camp seats, then check store links.",
+    "guide": "best-camping-chairs-australia.html",
+    "guide_title": "Best Camping Chairs in Australia",
+    "guide_description": "Comfort-first camping chair picks for car camping, beach trips and lightweight campsites.",
+    "hero_intro": "The best camping chair depends on comfort, pack size and how long you actually sit in it. These CampMate picks cover relaxed recliners, padded classics and lightweight packable chairs for different campsite styles.",
+    "faq": [
+      [
+        "Are padded camping chairs worth it?",
+        "Padded chairs feel more comfortable for longer sessions around camp, but they are usually heavier and bulkier than lightweight styles."
+      ],
+      [
+        "What is a good chair for beach or park use?",
+        "Low-slung chairs with stable feet and easy carry straps work well for beach days, parks and casual family outings."
+      ],
+      [
+        "Do lightweight chairs last?",
+        "Good lightweight chairs can last very well, but checking frame strength, seat fabric and user weight rating is important."
+      ]
+    ]
+  },
+  {
+    "slug": "coolers",
+    "page": "/coolers",
+    "name": "Coolers & Ice Boxes",
+    "short": "Coolers",
+    "description": "Compare hard coolers, wheeled ice boxes and compact cooler options for weekend camping.",
+    "seo_title": "Best Coolers in Australia | Compare Ice Boxes & Hard Coolers for Camping",
+    "meta_description": "Compare camping coolers in Australia with CampMate. Browse ice boxes, wheeled coolers and compact weekend options, then check store links.",
+    "guide": "best-coolers-australia.html",
+    "guide_title": "Best Coolers in Australia",
+    "guide_description": "Cooler and ice box picks for family trips, weekend camps and simple food storage.",
+    "hero_intro": "For many campers, cooler choice comes down to capacity, ice retention and how far the box needs to be moved. CampMate focuses on proven hard coolers, practical wheeled options and compact sizes that suit real camping use.",
+    "faq": [
+      [
+        "How big should a camping cooler be?",
+        "For family weekends, a 40L to 70L cooler is a common sweet spot because it balances storage with liftable weight."
+      ],
+      [
+        "Do expensive coolers keep ice longer?",
+        "Premium coolers usually have better insulation and seals, which can noticeably improve ice retention over longer trips."
+      ],
+      [
+        "Are wheeled coolers useful?",
+        "They are helpful when campsites, parks or boat ramps involve longer walks with food and drinks."
+      ]
+    ]
+  },
+  {
+    "slug": "stoves",
+    "page": "/stoves",
+    "name": "Camping Stoves",
+    "short": "Stoves",
+    "description": "Compare portable gas stoves, dual-burner camp cookers and compact backpacking stove options.",
+    "seo_title": "Best Camping Stoves in Australia | Compare Portable Gas & Dual-Burner Stoves",
+    "meta_description": "Compare camping stoves in Australia with CampMate. Browse compact burners, dual-burner cookers and practical campsite stove options.",
+    "guide": "best-camping-stoves-australia.html",
+    "guide_title": "Best Camping Stoves in Australia",
+    "guide_description": "Portable gas stove picks for simple camp cooking, weekend trips and family camps.",
+    "hero_intro": "A good camping stove should match how you cook. CampMate compares compact single burners, reliable dual-burner cookers and campsite-friendly stoves that are easy to pack and simple to use.",
+    "faq": [
+      [
+        "Is a single-burner stove enough for camping?",
+        "For solo or simple meals it often is, but families usually appreciate the flexibility of a two-burner stove."
+      ],
+      [
+        "What fuel type is easiest?",
+        "Butane and propane canister systems are the easiest for most casual campers because they are simple to carry and quick to set up."
+      ],
+      [
+        "What matters most in a camp stove?",
+        "Stability, wind performance, simmer control and packability are the main things to compare."
+      ]
+    ]
+  },
+  {
+    "slug": "lanterns",
+    "page": "/lanterns",
+    "name": "Camping Lanterns",
+    "short": "Lanterns",
+    "description": "Compare rechargeable lanterns, LED campsite lights and practical portable lighting options.",
+    "seo_title": "Best Camping Lanterns in Australia | Compare Rechargeable & LED Camp Lights",
+    "meta_description": "Compare camping lanterns in Australia with CampMate. Browse rechargeable LED lanterns and portable campsite lights, then open store links.",
+    "guide": "best-camping-lanterns-australia.html",
+    "guide_title": "Best Camping Lanterns in Australia",
+    "guide_description": "Portable lighting picks for family camps, cooking zones and relaxed evenings outdoors.",
+    "hero_intro": "A useful camping lantern needs the right balance of brightness, battery life and portability. CampMate compares rechargeable lanterns, hanging lights and compact campsite lighting options for Australian campers.",
+    "faq": [
+      [
+        "How bright should a camping lantern be?",
+        "Around 200 to 500 lumens is enough for many campsites, while larger family setups may want more brightness."
+      ],
+      [
+        "Are rechargeable lanterns better?",
+        "They are convenient and reduce battery waste, especially if you already camp with power banks or solar charging."
+      ],
+      [
+        "Do lanterns replace headlamps?",
+        "Not really. Lanterns are great for area light, while headlamps remain better for walking, cooking and hands-on tasks."
+      ]
+    ]
+  },
+  {
+    "slug": "sleep-systems",
+    "page": "/sleeping-bags",
+    "name": "Camp Sleep Systems",
+    "short": "Sleep Systems",
+    "description": "Compare sleeping bags, mats and comfort-focused sleep gear for cooler nights outdoors.",
+    "seo_title": "Best Camp Sleep Systems in Australia | Compare Sleeping Bags & Mats",
+    "meta_description": "Compare sleeping bags and camp sleep systems in Australia with CampMate. Browse mats, bags and comfort-focused sleep gear.",
+    "guide": "best-camp-sleep-systems-australia.html",
+    "guide_title": "Best Camp Sleep Systems in Australia",
+    "guide_description": "Sleeping bag and mat picks for better warmth, support and comfort on camping trips.",
+    "hero_intro": "Sleeping well matters more than most first-time campers expect. CampMate highlights sleeping bags, insulated mats and comfort-led sleep systems that help you wake up warmer and less sore.",
+    "faq": [
+      [
+        "What matters most in a sleep system?",
+        "Warmth, mat insulation, packed size and overall comfort all matter, especially when temperatures drop overnight."
+      ],
+      [
+        "Is a sleeping mat really necessary?",
+        "Yes. A mat adds both comfort and insulation from the ground, which can dramatically improve sleep quality."
+      ],
+      [
+        "Should beginners buy a bag or a quilt?",
+        "Most beginners are better served by a simple sleeping bag because it feels familiar and is easier to use in varying conditions."
+      ]
+    ]
+  }
+]
