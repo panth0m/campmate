@@ -3367,7 +3367,8 @@
     "specs": {
       "Reference price": "A$179",
       "Brightness": "600 lm"
-    }
+    },
+    "ebayImage": "https://i.ebayimg.com/images/g/ZWUAAeSwIZNpr2M~/s-l225.jpg"
   },
   {
     "slug": "coleman-quad-pro-led-lantern",
@@ -3426,7 +3427,8 @@
     "description": "Rated 4.4/5 from 567 reviews. The Coleman Quad Pro LED Lantern is a budget lanterns from Coleman. Removable panels split into four individual LED lights. Very versatile camp lighting system.",
     "specs": {
       "Reference price": "A$69"
-    }
+    },
+    "ebayImage": "https://i.ebayimg.com/images/g/bXAAAOSwwm9nQD99/s-l225.jpg"
   },
   {
     "slug": "coleman-onesource-led-lantern",
@@ -3605,7 +3607,8 @@
     "specs": {
       "Reference price": "A$99",
       "Brightness": "400 lm"
-    }
+    },
+    "ebayImage": "https://i.ebayimg.com/images/g/wIoAAeSwzeJo7UqB/s-l225.jpg"
   },
   {
     "slug": "biolite-sitelight-80-solar-lantern",
@@ -3723,7 +3726,8 @@
     "specs": {
       "Reference price": "A$29",
       "Weight": "76g"
-    }
+    },
+    "ebayImage": "https://i.ebayimg.com/images/g/pykAAeSw16Nptk5s/s-l225.jpg"
   },
   {
     "slug": "ust-30-day-duro-led-lantern",
@@ -3780,7 +3784,8 @@
     "description": "Rated 4.4/5 from 289 reviews. The UST 30-Day Duro LED Lantern is a budget lanterns from UST. Claims 30 days of runtime on 4 D batteries at low mode. IP54 water-resistant.",
     "specs": {
       "Reference price": "A$55"
-    }
+    },
+    "ebayImage": "https://i.ebayimg.com/images/g/UecAAOSw6wJnWwu0/s-l225.jpg"
   },
   {
     "slug": "nitecore-lr60-lantern",
@@ -3841,7 +3846,8 @@
       "Reference price": "A$85",
       "Brightness": "1200 lm",
       "Runtime": "3h"
-    }
+    },
+    "ebayImage": "https://i.ebayimg.com/images/g/jLcAAOSw27VlF4Rl/s-l225.jpg"
   },
   {
     "slug": "luminaid-packlite-nova-solar-lantern",
@@ -3900,7 +3906,8 @@
     "description": "Rated 4.4/5 from 201 reviews. The LuminAID PackLite Nova Solar Lantern is a budget lanterns from LuminAID. Collapsible solar-powered lantern. Doubles as a phone charger. Waterproof and floats.",
     "specs": {
       "Reference price": "A$49"
-    }
+    },
+    "ebayImage": "https://i.ebayimg.com/images/g/9GQAAOSw~W9kC6dp/s-l225.jpg"
   },
   {
     "slug": "oztrail-10w-led-lantern",
@@ -4018,7 +4025,8 @@
     "description": "Rated 4.5/5 from 289 reviews. The Streamlight The Siege Lantern is a budget lanterns from Streamlight. Multi-directional lenses. Runs on 3 AA batteries. Made in the USA by a trusted torch brand.",
     "specs": {
       "Reference price": "A$65"
-    }
+    },
+    "ebayImage": "https://i.ebayimg.com/images/g/KJUAAeSwnExpp0HH/s-l225.jpg"
   },
   {
     "slug": "brunton-hydrogen-reactor-lantern",
@@ -4195,7 +4203,8 @@
     "specs": {
       "Reference price": "A$99",
       "Brightness": "750 lm"
-    }
+    },
+    "ebayImage": "https://i.ebayimg.com/images/g/VeMAAeSwtf5pVt6m/s-l225.jpg"
   },
   {
     "slug": "bcf-rechargeable-led-lantern",
@@ -4252,7 +4261,8 @@
     "description": "Rated 4.0/5 from 389 reviews. The BCF Rechargeable LED Lantern is a budget lanterns from BCF. BCF house brand with USB-C charging. Good everyday lantern at a fair price.",
     "specs": {
       "Reference price": "A$45"
-    }
+    },
+    "ebayImage": "https://i.ebayimg.com/images/g/eeoAAeSw40tpYQBQ/s-l225.jpg"
   },
   {
     "slug": "energizer-led-collapsible-lantern",
@@ -4309,7 +4319,8 @@
     "description": "Rated 3.9/5 from 623 reviews. The Energizer LED Collapsible Lantern is a budget lanterns from Energizer. Pop-up design from flat pack. Runs on standard AA batteries. Great as a backup lantern.",
     "specs": {
       "Reference price": "A$22"
-    }
+    },
+    "ebayImage": "https://i.ebayimg.com/images/g/6vEAAOSw9R9mgehw/s-l225.jpg"
   },
   {
     "slug": "sea-to-summit-spark-sp1-sleeping-bag",
@@ -4486,7 +4497,8 @@
     "specs": {
       "Reference price": "A$299",
       "R-value": "3.2"
-    }
+    },
+    "ebayImage": "https://i.ebayimg.com/images/g/wJ4AAOSwtS5gWstw/s-l225.jpg"
   },
   {
     "slug": "therm-a-rest-trail-scout-sleeping-pad",
@@ -4546,7 +4558,8 @@
     "specs": {
       "Reference price": "A$79",
       "R-value": "2.8."
-    }
+    },
+    "ebayImage": "https://i.ebayimg.com/images/g/8E0AAOSw3~difOJN/s-l225.jpg"
   },
   {
     "slug": "coleman-brazos-cold-weather-sleeping-bag",
@@ -4604,7 +4617,8 @@
     "specs": {
       "Reference price": "A$69",
       "Temp rating": "-12°C"
-    }
+    },
+    "ebayImage": "https://i.ebayimg.com/images/g/iXMAAeSwY-BnqwkH/s-l225.jpg"
   },
   {
     "slug": "coleman-kompact-7c-sleeping-bag",
@@ -4897,7 +4911,8 @@
     "specs": {
       "Reference price": "A$749",
       "Temp rating": "0°C"
-    }
+    },
+    "ebayImage": "https://i.ebayimg.com/images/g/PUIAAeSwDy5pppxa/s-l225.jpg"
   },
   {
     "slug": "exped-synmat-hl-sleeping-mat",
@@ -5014,7 +5029,8 @@
     "specs": {
       "Reference price": "A$99",
       "R-value": "1.3."
-    }
+    },
+    "ebayImage": "https://i.ebayimg.com/images/g/KP8AAeSwDDJptgS-/s-l225.jpg"
   },
   {
     "slug": "nemo-disco-15-sleeping-bag",
@@ -5073,7 +5089,8 @@
     "description": "Rated 4.7/5 from 89 reviews. The Nemo Disco 15 Sleeping Bag is a premium sleep system from Nemo. Spoon shape gives extra hip room. Blanket fold lets you vent on warm nights.",
     "specs": {
       "Reference price": "A$549"
-    }
+    },
+    "ebayImage": "https://i.ebayimg.com/images/g/qPIAAeSwMq9ooCUw/s-l225.jpg"
   },
   {
     "slug": "enlightened-equipment-revelation-quilt",
@@ -5132,7 +5149,8 @@
     "specs": {
       "Reference price": "A$469",
       "Weight": "200g"
-    }
+    },
+    "ebayImage": "https://i.ebayimg.com/images/g/0d8AAeSwXUppiA7G/s-l225.jpg"
   },
   {
     "slug": "darche-nebula-5-sleeping-bag",
@@ -5364,7 +5382,8 @@
     "description": "Rated 4.2/5 from 189 reviews. The Vango Nitestar Alpha 250 Sleeping Bag is a mid-range sleep systems from Vango. UK brand with good value synthetic insulation. Machine washable and durable.",
     "specs": {
       "Reference price": "A$139"
-    }
+    },
+    "ebayImage": "https://i.ebayimg.com/images/g/R-kAAOSwMRRj5OuS/s-l225.jpg"
   },
   {
     "slug": "biolite-sitelight-80-string-lantern",
@@ -5452,7 +5471,8 @@
     "specs": {
       "Reference price": "A$799",
       "Capacity": "10 person"
-    }
+    },
+    "ebayImage": "https://i.ebayimg.com/images/g/Nl8AAeSwkONptx9y/s-l225.jpg"
   },
   {
     "slug": "trangia-25-1-ul-stove-set",
@@ -5496,7 +5516,8 @@
     "categoryName": "Camping Stoves",
     "specs": {
       "Reference price": "A$199"
-    }
+    },
+    "ebayImage": "https://i.ebayimg.com/images/g/VX8AAOSwb3FnWIDc/s-l225.jpg"
   },
   {
     "slug": "coleman-skydome-4-person-tent",
@@ -5540,7 +5561,8 @@
     "specs": {
       "Reference price": "A$249",
       "Capacity": "4 person"
-    }
+    },
+    "ebayImage": "https://i.ebayimg.com/images/g/s7EAAeSwrUhpoJij/s-l225.jpg"
   },
   {
     "slug": "therm-a-rest-neoair-xlite-nxt",
@@ -5584,7 +5606,8 @@
     "categoryName": "Camp Sleep Systems",
     "specs": {
       "Reference price": "A$329"
-    }
+    },
+    "ebayImage": "https://i.ebayimg.com/images/g/x2wAAeSwnmBpYFqb/s-l225.jpg"
   },
   {
     "slug": "sea-to-summit-telos-tr3-tent",
@@ -12126,5 +12149,3543 @@
     "specs": {
       "Reference price": "A$172"
     }
+  },
+  {
+    "slug": "coleman-instant-up-swagger-1-3-person-tent-5",
+    "name": "Instant up Swagger 1, 3 Person Tent",
+    "brand": "Coleman",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 343,
+    "salePrice": 343,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/IPcAAeSwF~Fptmiu/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/IPcAAeSwF~Fptmiu/s-l1600.jpg",
+    "summary": "Take convenient camping up a notch with the headroom of a tent and convenience of a swag in the Instant Swagger 3P Tent from Coleman. There are side windows on each side to assi...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/287205451276?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|287205451276|0",
+    "sourceLegacyItemId": "287205451276",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/287205451276?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:29:33Z"
+  },
+  {
+    "slug": "coleman-instant-up-swagger-1-3-person-tent-6",
+    "name": "Instant up Swagger 1, 3 Person Tent",
+    "brand": "Coleman",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 278,
+    "salePrice": 278,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/Z~gAAeSwnQFptaK7/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/Z~gAAeSwnQFptaK7/s-l1600.jpg",
+    "summary": "Take convenient camping up a notch with the headroom of a tent and convenience of a swag in the Instant Swagger 3P Tent from Coleman. There are side windows on each side to assi...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/397714312863?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCieAe7HUDHz9VsobRP33FUt2KPkIVxIfIja%2FGF9S1J1RrNpgIIaXQ1uA5vkrCsmPqny0wlkhigZ87NnGiV%2B2i7A3pYMWoT35vGenne6YgGYjf3k2BckCLu%2FxCHZ1LzwUedqbMX7b6HF4HIMl5RneSD%2Bs5MytZ%2BD3ZdfyrZKYkrRc27lgqxOs0PeylhuHK%2FAoo%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|397714312863|0",
+    "sourceLegacyItemId": "397714312863",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/397714312863?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCieAe7HUDHz9VsobRP33FUt2KPkIVxIfIja%2FGF9S1J1RrNpgIIaXQ1uA5vkrCsmPqny0wlkhigZ87NnGiV%2B2i7A3pYMWoT35vGenne6YgGYjf3k2BckCLu%2FxCHZ1LzwUedqbMX7b6HF4HIMl5RneSD%2Bs5MytZ%2BD3ZdfyrZKYkrRc27lgqxOs0PeylhuHK%2FAoo%3D",
+    "importedAt": "2026-03-15T21:29:34Z"
+  },
+  {
+    "slug": "coleman-coleman-instant-up-swagger-1-3-person-tent",
+    "name": "Coleman Instant up Swagger 1, 3 Person Tent",
+    "brand": "Coleman",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 273,
+    "salePrice": 273,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/qCkAAeSwxIVpb8AB/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/qCkAAeSwxIVpb8AB/s-l1600.jpg",
+    "summary": "Take convenient camping up a notch with the headroom of a tent and convenience of a swag in the Instant Swagger 3P Tent from Coleman. There are side windows on each side to assi...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/287088932261?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAxTVK7yhQI%2BFJK22SJ98oZrrxVbxfdksMFVUzeRDjjJgSt9ssOIk1KXOaSV8%2B5df5RZCxZP642jzVka31iRA1rXrFxdHfFpHdrUS%2FXzfGe7Sc0%2FZUP4Ti4k6HqtMOgAEM6Flku1d%2Bhr0guQ16K50slWKN%2BKhWEz9oj%2Bm49Ofh7gmEXdwgqhGVR9qsltPrWDw4%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Coleman%20Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Coleman%20Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Coleman%20Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Coleman%20Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Coleman%20Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|287088932261|0",
+    "sourceLegacyItemId": "287088932261",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/287088932261?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAxTVK7yhQI%2BFJK22SJ98oZrrxVbxfdksMFVUzeRDjjJgSt9ssOIk1KXOaSV8%2B5df5RZCxZP642jzVka31iRA1rXrFxdHfFpHdrUS%2FXzfGe7Sc0%2FZUP4Ti4k6HqtMOgAEM6Flku1d%2Bhr0guQ16K50slWKN%2BKhWEz9oj%2Bm49Ofh7gmEXdwgqhGVR9qsltPrWDw4%3D",
+    "importedAt": "2026-03-15T21:29:35Z"
+  },
+  {
+    "slug": "coleman-coleman-instant-up-swagger-1-3-person-tent-2",
+    "name": "Coleman Instant up Swagger 1, 3 Person Tent",
+    "brand": "Coleman",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 243,
+    "salePrice": 243,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/ksIAAeSw3tdpb7~q/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/ksIAAeSw3tdpb7~q/s-l1600.jpg",
+    "summary": "The Instant 1P Swagger Tent is built for those solo outback slumbers under the stars. A durable 150D polyester construction bears the rough and tumble of outback brutality, whil...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/287088931908?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xA9QMayNmHptqBj%2F3WbWVJJU6ZT%2FFQ6pSCsxngWEnqdXIUO%2FNnau7DOYhKQRC%2B6xNt29Z53QmwZ5ppNVBJl9IrPe1y59%2FO%2FeIUQr9rPNbaBZjSzgqs0JI6%2B32Yi51RmWw5NogQ8lqeexXF7khD%2FT%2Fo%2BXtuW5omC%2FlLCS6cmlb%2BGLVhTkwx7EmkUxAVmQbOfwbE%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Coleman%20Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Coleman%20Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Coleman%20Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Coleman%20Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Coleman%20Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|287088931908|0",
+    "sourceLegacyItemId": "287088931908",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/287088931908?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xA9QMayNmHptqBj%2F3WbWVJJU6ZT%2FFQ6pSCsxngWEnqdXIUO%2FNnau7DOYhKQRC%2B6xNt29Z53QmwZ5ppNVBJl9IrPe1y59%2FO%2FeIUQr9rPNbaBZjSzgqs0JI6%2B32Yi51RmWw5NogQ8lqeexXF7khD%2FT%2Fo%2BXtuW5omC%2FlLCS6cmlb%2BGLVhTkwx7EmkUxAVmQbOfwbE%3D",
+    "importedAt": "2026-03-15T21:29:35Z"
+  },
+  {
+    "slug": "coleman-coleman-6-person-instant-up-tent-gold-series-evo-outdoor-camping-accessories",
+    "name": "Coleman 6 Person Instant Up Tent Gold Series Evo Outdoor Camping Accessories",
+    "brand": "Coleman",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 863,
+    "salePrice": 635,
+    "rating": 5.0,
+    "reviews": 1,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/kJ8AAeSw7x5paRCo/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/kJ8AAeSw7x5paRCo/s-l1600.jpg",
+    "summary": "Coleman Tent Instant Up 6 Person Gold Series Evo Camping Accessories. 1 x Coleman Tent Instant Up 6 Person Gold Series Evo Camping Accessories. 247 Deals brings you the latest a...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/236583579289?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Coleman%206%20Person%20Instant%20Up%20Tent%20Gold%20Series%20Evo%20Outdoor%20Camping%20Accessories",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Coleman%206%20Person%20Instant%20Up%20Tent%20Gold%20Series%20Evo%20Outdoor%20Camping%20Accessories",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Coleman%206%20Person%20Instant%20Up%20Tent%20Gold%20Series%20Evo%20Outdoor%20Camping%20Accessories",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Coleman%206%20Person%20Instant%20Up%20Tent%20Gold%20Series%20Evo%20Outdoor%20Camping%20Accessories",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Coleman%206%20Person%20Instant%20Up%20Tent%20Gold%20Series%20Evo%20Outdoor%20Camping%20Accessories",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%206%20Person%20Instant%20Up%20Tent%20Gold%20Series%20Evo%20Outdoor%20Camping%20Accessories",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|236583579289|0",
+    "sourceLegacyItemId": "236583579289",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/236583579289?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:29:36Z"
+  },
+  {
+    "slug": "oztrail-oztrail-fast-frame-ensuite-tent-camping-shower-toilet-change-room",
+    "name": "OZtrail Fast Frame Ensuite Tent Camping Shower Toilet Change Room",
+    "brand": "OZtrail",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 230,
+    "salePrice": 230,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/QTsAAeSwFGlpm-v6/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/QTsAAeSwFGlpm-v6/s-l1600.jpg",
+    "summary": "✔ Quality OZtrail construction. A must-have ensuite tent for a better outdoor experience 💙. ✔ Multi-purpose ensuite design. Designed for convenience, this versatile shelter work...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/127700125684?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=OZtrail%20Fast%20Frame%20Ensuite%20Tent%20Camping%20Shower%20Toilet%20Change%20Room",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=OZtrail%20Fast%20Frame%20Ensuite%20Tent%20Camping%20Shower%20Toilet%20Change%20Room",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=OZtrail%20Fast%20Frame%20Ensuite%20Tent%20Camping%20Shower%20Toilet%20Change%20Room",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=OZtrail%20Fast%20Frame%20Ensuite%20Tent%20Camping%20Shower%20Toilet%20Change%20Room",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=OZtrail%20Fast%20Frame%20Ensuite%20Tent%20Camping%20Shower%20Toilet%20Change%20Room",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=OZtrail%20Fast%20Frame%20Ensuite%20Tent%20Camping%20Shower%20Toilet%20Change%20Room",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|127700125684|0",
+    "sourceLegacyItemId": "127700125684",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/127700125684?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:29:37Z"
+  },
+  {
+    "slug": "oztrail-oztrail-easy-fold-1-person-stretcher-tent-waterproof-camping-tent",
+    "name": "OZtrail Easy Fold 1 Person Stretcher Tent - Waterproof Camping Tent",
+    "brand": "OZtrail",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 286,
+    "salePrice": 286,
+    "rating": 5.0,
+    "reviews": 2,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/a1EAAeSwLxhpjvtQ/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/a1EAAeSwLxhpjvtQ/s-l1600.jpg",
+    "summary": "Multiple entries allow easy access in and out of the tent. Vertical walls provide generous internal space and head height.",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/127682227866?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=OZtrail%20Easy%20Fold%201%20Person%20Stretcher%20Tent%20-%20Waterproof%20Camping%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=OZtrail%20Easy%20Fold%201%20Person%20Stretcher%20Tent%20-%20Waterproof%20Camping%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=OZtrail%20Easy%20Fold%201%20Person%20Stretcher%20Tent%20-%20Waterproof%20Camping%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=OZtrail%20Easy%20Fold%201%20Person%20Stretcher%20Tent%20-%20Waterproof%20Camping%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=OZtrail%20Easy%20Fold%201%20Person%20Stretcher%20Tent%20-%20Waterproof%20Camping%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=OZtrail%20Easy%20Fold%201%20Person%20Stretcher%20Tent%20-%20Waterproof%20Camping%20Tent",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|127682227866|0",
+    "sourceLegacyItemId": "127682227866",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/127682227866?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:29:38Z"
+  },
+  {
+    "slug": "oztrail-oztrail-hiker-fly-camping-tent-hiking-picnic-beach-shade-tarp-3-5m-x-2-1m",
+    "name": "OZtrail Hiker Fly. Camping Tent Hiking Picnic Beach Shade Tarp 3.5m x 2.1m",
+    "brand": "OZtrail",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 50,
+    "salePrice": 50,
+    "rating": 5.0,
+    "reviews": 5,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/3nYAAeSwM3FptZsv/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/3nYAAeSwM3FptZsv/s-l1600.jpg",
+    "summary": "OZtrail Hiker Fly. Lightweight, compact protection from rain or sun. Carry on your hikes, treks, bushwalks in case you need shelter. Whom we use is based on the item and your lo...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/127667896884?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=OZtrail%20Hiker%20Fly.%20Camping%20Tent%20Hiking%20Picnic%20Beach%20Shade%20Tarp%203.5m%20x%202.1m",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=OZtrail%20Hiker%20Fly.%20Camping%20Tent%20Hiking%20Picnic%20Beach%20Shade%20Tarp%203.5m%20x%202.1m",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=OZtrail%20Hiker%20Fly.%20Camping%20Tent%20Hiking%20Picnic%20Beach%20Shade%20Tarp%203.5m%20x%202.1m",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=OZtrail%20Hiker%20Fly.%20Camping%20Tent%20Hiking%20Picnic%20Beach%20Shade%20Tarp%203.5m%20x%202.1m",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=OZtrail%20Hiker%20Fly.%20Camping%20Tent%20Hiking%20Picnic%20Beach%20Shade%20Tarp%203.5m%20x%202.1m",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=OZtrail%20Hiker%20Fly.%20Camping%20Tent%20Hiking%20Picnic%20Beach%20Shade%20Tarp%203.5m%20x%202.1m",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|127667896884|0",
+    "sourceLegacyItemId": "127667896884",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/127667896884?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:29:38Z"
+  },
+  {
+    "slug": "oztrail-new-oztrail-genesis-ii-4v-person-tent-by-anaconda",
+    "name": "NEW OZtrail Genesis II 4V Person Tent By Anaconda",
+    "brand": "OZtrail",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 200,
+    "salePrice": 200,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/5WsAAeSwr75plcKv/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/5WsAAeSwr75plcKv/s-l1600.jpg",
+    "summary": "Exclusive to Anaconda! Plus, with front and rear D-Doors facilitating easy access, you can slip in and out effortlessly, without disturbing your fellow campers. Worried about st...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/297910634588?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=NEW%20OZtrail%20Genesis%20II%204V%20Person%20Tent%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=NEW%20OZtrail%20Genesis%20II%204V%20Person%20Tent%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=NEW%20OZtrail%20Genesis%20II%204V%20Person%20Tent%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=NEW%20OZtrail%20Genesis%20II%204V%20Person%20Tent%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=NEW%20OZtrail%20Genesis%20II%204V%20Person%20Tent%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=NEW%20OZtrail%20Genesis%20II%204V%20Person%20Tent%20By%20Anaconda",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|297910634588|0",
+    "sourceLegacyItemId": "297910634588",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/297910634588?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:29:38Z"
+  },
+  {
+    "slug": "oztrail-oztrail-halo-100-lumen-tent-light-lamp-for-camping-and-hiking-outdoor-use",
+    "name": "OZtrail Halo 100 Lumen Tent Light Lamp for Camping and Hiking Outdoor Use",
+    "brand": "OZtrail",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 41,
+    "salePrice": 41,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/~3EAAeSwj4dpMpeX/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/~3EAAeSwj4dpMpeX/s-l1600.jpg",
+    "summary": "OZtrail Halo Tent Light Lamp is designed with a compact and lightweight construction for easy portability and storage. Equipped with led bulbs for energy-efficient and long-last...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/127544093028?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=OZtrail%20Halo%20100%20Lumen%20Tent%20Light%20Lamp%20for%20Camping%20and%20Hiking%20Outdoor%20Use",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=OZtrail%20Halo%20100%20Lumen%20Tent%20Light%20Lamp%20for%20Camping%20and%20Hiking%20Outdoor%20Use",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=OZtrail%20Halo%20100%20Lumen%20Tent%20Light%20Lamp%20for%20Camping%20and%20Hiking%20Outdoor%20Use",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=OZtrail%20Halo%20100%20Lumen%20Tent%20Light%20Lamp%20for%20Camping%20and%20Hiking%20Outdoor%20Use",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=OZtrail%20Halo%20100%20Lumen%20Tent%20Light%20Lamp%20for%20Camping%20and%20Hiking%20Outdoor%20Use",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=OZtrail%20Halo%20100%20Lumen%20Tent%20Light%20Lamp%20for%20Camping%20and%20Hiking%20Outdoor%20Use",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|127544093028|0",
+    "sourceLegacyItemId": "127544093028",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/127544093028?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:29:39Z"
+  },
+  {
+    "slug": "vango-vango-storm-shelter-bright-orange-multiple-sizes-camping-hiking-fishing",
+    "name": "Vango STORM SHELTER - BRIGHT ORANGE - MULTIPLE SIZES - CAMPING HIKING FISHING",
+    "brand": "Vango",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 69,
+    "salePrice": 69,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://www.squizzysonline.com.au/assets/full/21997_21998.png?20200703030536",
+    "ebayImage": "https://www.squizzysonline.com.au/assets/full/21997_21998.png?20200703030536",
+    "summary": "VANGO STORM SHELTER - BRIGHT ORANGE - MULTIPLE SIZES. Camping Storage. Camping Accessories. Camping Kitchen. Camping Lights. Camping Personal Care. Quilt Sets & Quilt Cover Sets...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/354748036307?var=624081512499&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAXEb4UrDkX2J9huND7c8NavvdFpUZyRK5xBvVu1CtPxYM0ERC3NIaLw62fZR1cy45bO%2F3QPiwnqbiC1RCQcD1EbTUq138yWdRNOD%2FFT2BL9fkSgOZO8u5G%2F5Amij9CS1GbGsY8CrrCZsg8iMdsPIlfUNwzTcX%2BnkTOXmFAJgrlu7SN0fFjW%2BPvHwbkWZaa41U%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Vango%20STORM%20SHELTER%20-%20BRIGHT%20ORANGE%20-%20MULTIPLE%20SIZES%20-%20CAMPING%20HIKING%20FISHING",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Vango%20STORM%20SHELTER%20-%20BRIGHT%20ORANGE%20-%20MULTIPLE%20SIZES%20-%20CAMPING%20HIKING%20FISHING",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Vango%20STORM%20SHELTER%20-%20BRIGHT%20ORANGE%20-%20MULTIPLE%20SIZES%20-%20CAMPING%20HIKING%20FISHING",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Vango%20STORM%20SHELTER%20-%20BRIGHT%20ORANGE%20-%20MULTIPLE%20SIZES%20-%20CAMPING%20HIKING%20FISHING",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Vango%20STORM%20SHELTER%20-%20BRIGHT%20ORANGE%20-%20MULTIPLE%20SIZES%20-%20CAMPING%20HIKING%20FISHING",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Vango%20STORM%20SHELTER%20-%20BRIGHT%20ORANGE%20-%20MULTIPLE%20SIZES%20-%20CAMPING%20HIKING%20FISHING",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|354748036307|624081512499",
+    "sourceLegacyItemId": "354748036307",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/354748036307?var=624081512499&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAXEb4UrDkX2J9huND7c8NavvdFpUZyRK5xBvVu1CtPxYM0ERC3NIaLw62fZR1cy45bO%2F3QPiwnqbiC1RCQcD1EbTUq138yWdRNOD%2FFT2BL9fkSgOZO8u5G%2F5Amij9CS1GbGsY8CrrCZsg8iMdsPIlfUNwzTcX%2BnkTOXmFAJgrlu7SN0fFjW%2BPvHwbkWZaa41U%3D",
+    "importedAt": "2026-03-15T21:30:29Z"
+  },
+  {
+    "slug": "vango-vango-nevis-300-3-person-camping-hiking-tent-pamir-vte-ne300-n",
+    "name": "Vango Nevis 300 3 Person Camping & Hiking Tent - Pamir (VTE-NE300-N)",
+    "brand": "Vango",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 355,
+    "salePrice": 270,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/wJEAAeSw5D1poM82/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/wJEAAeSw5D1poM82/s-l1600.jpg",
+    "summary": "The Nevis features Vango’s TBS®II technology increasing performance in adverse conditions, especially in strong and changeable weather. A terrific little tent for those starting...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/354256334046?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xB3cr2Ekk2RRa%2Fo3XSboifMMi9oxkmkYwUkFU993j7kE7jM5qwk%2BRxwcYswH8%2BFKXW%2Bpc1hCcwRm7if3bV7fcVIQKfieGBLb%2Bu1H1vXEjbFEKZHKfi6%2BSqIRi69SN7hMEbOQx1Grbo128E2mXTtOmf2dk0wmBaZNrzfcF8ElYJeImZr19%2Fex%2FemY54n3xpESRA%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Vango%20Nevis%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-NE300-N%29",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Vango%20Nevis%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-NE300-N%29",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Vango%20Nevis%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-NE300-N%29",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Vango%20Nevis%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-NE300-N%29",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Vango%20Nevis%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-NE300-N%29",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Vango%20Nevis%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-NE300-N%29",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|354256334046|0",
+    "sourceLegacyItemId": "354256334046",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/354256334046?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xB3cr2Ekk2RRa%2Fo3XSboifMMi9oxkmkYwUkFU993j7kE7jM5qwk%2BRxwcYswH8%2BFKXW%2Bpc1hCcwRm7if3bV7fcVIQKfieGBLb%2Bu1H1vXEjbFEKZHKfi6%2BSqIRi69SN7hMEbOQx1Grbo128E2mXTtOmf2dk0wmBaZNrzfcF8ElYJeImZr19%2Fex%2FemY54n3xpESRA%3D",
+    "importedAt": "2026-03-15T21:30:29Z"
+  },
+  {
+    "slug": "vango-vango-nevis-200-2-person-camping-hiking-tent-pamir-vte-ne200-n",
+    "name": "Vango Nevis 200 2 Person Camping & Hiking Tent - Pamir (VTE-NE200-N)",
+    "brand": "Vango",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 309,
+    "salePrice": 225,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/tMgAAeSw7YBpoM9v/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/tMgAAeSw7YBpoM9v/s-l1600.jpg",
+    "summary": "The Nevis features Vango’s TBS®II technology increasing performance in adverse conditions, especially in strong and changeable weather. A terrific little tent for those starting...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/275443272929?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDD0fS4wd7BATzVwUzQHzVBfha3J2h8fZ87zCvTtptQPdU4ciEFyn%2BqeBzJAcwrF9j2kMjw1wNP0ZxwBoWcys0DPR2Dg9R7Aj9s9DYzI1vPk2i2wQEcXXzrV0as6MnFmLunD1mru67UVpXUqXzKn2GS2y9HBaiidSldYl8uIqOlcSmzPXMY%2F8Vqf%2F3sCTAlcsE%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Vango%20Nevis%20200%202%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-NE200-N%29",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Vango%20Nevis%20200%202%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-NE200-N%29",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Vango%20Nevis%20200%202%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-NE200-N%29",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Vango%20Nevis%20200%202%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-NE200-N%29",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Vango%20Nevis%20200%202%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-NE200-N%29",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Vango%20Nevis%20200%202%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-NE200-N%29",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|275443272929|0",
+    "sourceLegacyItemId": "275443272929",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/275443272929?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDD0fS4wd7BATzVwUzQHzVBfha3J2h8fZ87zCvTtptQPdU4ciEFyn%2BqeBzJAcwrF9j2kMjw1wNP0ZxwBoWcys0DPR2Dg9R7Aj9s9DYzI1vPk2i2wQEcXXzrV0as6MnFmLunD1mru67UVpXUqXzKn2GS2y9HBaiidSldYl8uIqOlcSmzPXMY%2F8Vqf%2F3sCTAlcsE%3D",
+    "importedAt": "2026-03-15T21:30:30Z"
+  },
+  {
+    "slug": "vango-vango-nevis-100-1-person-camping-hiking-tent-pamir-vte-ne100-n",
+    "name": "Vango Nevis 100 1 Person Camping & Hiking Tent - Pamir (VTE-NE100-N)",
+    "brand": "Vango",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 269,
+    "salePrice": 200,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/P0gAAeSwOndpoM9u/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/P0gAAeSwOndpoM9u/s-l1600.jpg",
+    "summary": "The Nevis features Vango’s TBS®II technology increasing performance in adverse conditions, especially in strong and changeable weather. A terrific little tent for those starting...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/255705769052?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCJVAxdqFd9bVu2VBvyEhWRJQH1zVLnRVJlRVBwwPPeMmVD1QzeD5JTmBwsRbPSFfpYswNq5yWOmcXRpwl1QgQdLxWqGJfXBGWLbelRrEGBw%2FYLzw0YDXyYK%2B2%2F5wsTOgYPVNkF25gd7XYi6EYAhlTmjGIFyMl4sQGSIHYOe6jxmypyKRtN%2F8Tjp%2FNXTaAuE3o%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Vango%20Nevis%20100%201%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-NE100-N%29",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Vango%20Nevis%20100%201%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-NE100-N%29",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Vango%20Nevis%20100%201%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-NE100-N%29",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Vango%20Nevis%20100%201%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-NE100-N%29",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Vango%20Nevis%20100%201%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-NE100-N%29",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Vango%20Nevis%20100%201%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-NE100-N%29",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|255705769052|0",
+    "sourceLegacyItemId": "255705769052",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/255705769052?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCJVAxdqFd9bVu2VBvyEhWRJQH1zVLnRVJlRVBwwPPeMmVD1QzeD5JTmBwsRbPSFfpYswNq5yWOmcXRpwl1QgQdLxWqGJfXBGWLbelRrEGBw%2FYLzw0YDXyYK%2B2%2F5wsTOgYPVNkF25gd7XYi6EYAhlTmjGIFyMl4sQGSIHYOe6jxmypyKRtN%2F8Tjp%2FNXTaAuE3o%3D",
+    "importedAt": "2026-03-15T21:30:30Z"
+  },
+  {
+    "slug": "vango-vango-scafell-300-3-person-camping-hiking-tent-pamir-vte-sc300-n",
+    "name": "Vango Scafell 300 3 Person Camping & Hiking Tent - Pamir (VTE-SC300-N)",
+    "brand": "Vango",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 330,
+    "salePrice": 330,
+    "rating": 5.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/8dMAAeSwLO5poNrw/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/8dMAAeSwLO5poNrw/s-l1600.jpg",
+    "summary": "Exclusive to Vang. Patented Vango TBS® II Tension Band System - increases tents performance in adverse conditions, especially in strong, changeable winds. Adjust TBS® II to remo...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/255705768104?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xB2JJHpZRTLHuUJcHl4Y%2FraL3OQFkbZuqzJTC1NlJYAf0J1ciIsHFiO%2BHhWH1gG4NSmZQTH3R8LqnzGchXEy5S1YUEUcJaa2mr2JmJfHlqwfgxZ6cdPPoS5hxRtupvdJP8YWCNx9rQySIyl%2FIddSSsIsUi6cVaqwJykhoI6NKJ6uw1a7u4dMY1kNN2%2BBsyyFuY%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Vango%20Scafell%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-SC300-N%29",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Vango%20Scafell%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-SC300-N%29",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Vango%20Scafell%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-SC300-N%29",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Vango%20Scafell%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-SC300-N%29",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Vango%20Scafell%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-SC300-N%29",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Vango%20Scafell%20300%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-SC300-N%29",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|255705768104|0",
+    "sourceLegacyItemId": "255705768104",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/255705768104?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xB2JJHpZRTLHuUJcHl4Y%2FraL3OQFkbZuqzJTC1NlJYAf0J1ciIsHFiO%2BHhWH1gG4NSmZQTH3R8LqnzGchXEy5S1YUEUcJaa2mr2JmJfHlqwfgxZ6cdPPoS5hxRtupvdJP8YWCNx9rQySIyl%2FIddSSsIsUi6cVaqwJykhoI6NKJ6uw1a7u4dMY1kNN2%2BBsyyFuY%3D",
+    "importedAt": "2026-03-15T21:30:30Z"
+  },
+  {
+    "slug": "coleman-quad-fyrefly-illumi-bug-chair-kids",
+    "name": "Quad Fyrefly Illumi-Bug Chair, Kids",
+    "brand": "Coleman",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 39,
+    "salePrice": 39,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/Y7MAAeSwUEdppro5/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/Y7MAAeSwUEdppro5/s-l1600.jpg",
+    "summary": "Kids love camping and getting outside. Now, they'll love it even more with their very own FyreFly Illumi Bug Chair! Style Casual, Kids. We're happy to help. We do not accept P.O...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/298084335590?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAnh5LM%2FNLiQKc0p8tuesa4u4wkVABAecR8wkLHrEy8FsxlnQCuGMF7XxwIMDjt%2FOCbrUZJENCvEbRNB86Oaa6L5GN10lOxW%2Bh38yhwXS7PcmlpRPieduJrnQBxF3Ihx5DxLWkCxRgkEWKjyLOr02MYt6Y%2Bf8gecma6c43yahr4X%2BZDqc25INIvjfPPIenBMuc%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Quad%20Fyrefly%20Illumi-Bug%20Chair%2C%20Kids",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Quad%20Fyrefly%20Illumi-Bug%20Chair%2C%20Kids",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Quad%20Fyrefly%20Illumi-Bug%20Chair%2C%20Kids",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Quad%20Fyrefly%20Illumi-Bug%20Chair%2C%20Kids",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Quad%20Fyrefly%20Illumi-Bug%20Chair%2C%20Kids",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Quad%20Fyrefly%20Illumi-Bug%20Chair%2C%20Kids",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|298084335590|0",
+    "sourceLegacyItemId": "298084335590",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/298084335590?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAnh5LM%2FNLiQKc0p8tuesa4u4wkVABAecR8wkLHrEy8FsxlnQCuGMF7XxwIMDjt%2FOCbrUZJENCvEbRNB86Oaa6L5GN10lOxW%2Bh38yhwXS7PcmlpRPieduJrnQBxF3Ihx5DxLWkCxRgkEWKjyLOr02MYt6Y%2Bf8gecma6c43yahr4X%2BZDqc25INIvjfPPIenBMuc%3D",
+    "importedAt": "2026-03-15T21:30:33Z"
+  },
+  {
+    "slug": "coleman-1218360-quad-deluxe-mesh-event-chair-grey-3",
+    "name": "1218360 Quad Deluxe Mesh Event Chair, Grey",
+    "brand": "Coleman",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 39,
+    "salePrice": 39,
+    "rating": 5.0,
+    "reviews": 1,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/I9AAAeSwMFZppXwI/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/I9AAAeSwMFZppXwI/s-l1600.jpg",
+    "summary": "Item Model Number 1218360. Model Number:‎1218360. Colour Grey. Lightweight and easy to carry. Excellent Service. 68.0 cm x 14.0 cm x 13.0 cm. Weight: 2.6 kg. Manufacturer Newell...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/389690152195?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBxB%2B%2F7Tgyw3iWHG0uLx0Bb3SVoltB1IE4mSETaB94RS2yPbMM1yicRrkWoIUeI6ZVkaQT%2BJrAtP8B%2BcgwW2Dk6qXsIFK4p5Q62WyRSuBeYvwhn1E9YsagIvQsUZhcoFdK7%2FWQ%2Fo33h96bhkNXQmaKdhqgw7Kam34vn8tCLkMPnM7yXE9kLYDZSErP4wDROyiw%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=1218360%20Quad%20Deluxe%20Mesh%20Event%20Chair%2C%20Grey",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=1218360%20Quad%20Deluxe%20Mesh%20Event%20Chair%2C%20Grey",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=1218360%20Quad%20Deluxe%20Mesh%20Event%20Chair%2C%20Grey",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=1218360%20Quad%20Deluxe%20Mesh%20Event%20Chair%2C%20Grey",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=1218360%20Quad%20Deluxe%20Mesh%20Event%20Chair%2C%20Grey",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=1218360%20Quad%20Deluxe%20Mesh%20Event%20Chair%2C%20Grey",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|389690152195|0",
+    "sourceLegacyItemId": "389690152195",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/389690152195?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBxB%2B%2F7Tgyw3iWHG0uLx0Bb3SVoltB1IE4mSETaB94RS2yPbMM1yicRrkWoIUeI6ZVkaQT%2BJrAtP8B%2BcgwW2Dk6qXsIFK4p5Q62WyRSuBeYvwhn1E9YsagIvQsUZhcoFdK7%2FWQ%2Fo33h96bhkNXQmaKdhqgw7Kam34vn8tCLkMPnM7yXE9kLYDZSErP4wDROyiw%3D",
+    "importedAt": "2026-03-15T21:30:33Z"
+  },
+  {
+    "slug": "coleman-1218360-quad-deluxe-mesh-event-chair-grey-4",
+    "name": "1218360 Quad Deluxe Mesh Event Chair, Grey",
+    "brand": "Coleman",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 73,
+    "salePrice": 73,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/IgsAAeSw8x9ppTP8/s-l225.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/IgsAAeSw8x9ppTP8/s-l225.jpg",
+    "summary": "1218360 Quad Deluxe Mesh Event Chair, Grey",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/236663679694?_skw=Coleman+camping+chair&hash=item371a412ace%3Ag%3AIgsAAeSw8x9ppTP8&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10049",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=1218360%20Quad%20Deluxe%20Mesh%20Event%20Chair%2C%20Grey",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=1218360%20Quad%20Deluxe%20Mesh%20Event%20Chair%2C%20Grey",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=1218360%20Quad%20Deluxe%20Mesh%20Event%20Chair%2C%20Grey",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=1218360%20Quad%20Deluxe%20Mesh%20Event%20Chair%2C%20Grey",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=1218360%20Quad%20Deluxe%20Mesh%20Event%20Chair%2C%20Grey",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=1218360%20Quad%20Deluxe%20Mesh%20Event%20Chair%2C%20Grey",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|236663679694|0",
+    "sourceLegacyItemId": "236663679694",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/236663679694?_skw=Coleman+camping+chair&hash=item371a412ace%3Ag%3AIgsAAeSw8x9ppTP8&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10049",
+    "importedAt": "2026-03-15T21:30:33Z"
+  },
+  {
+    "slug": "oztrail-oztrail-festival-chair-outdoor-camping-furniture-beach-fishing-caravan-touring",
+    "name": "OZtrail Festival Chair Outdoor Camping Furniture Beach Fishing Caravan Touring",
+    "brand": "OZtrail",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 55,
+    "salePrice": 55,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/PycAAeSwYOVpto-v/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/PycAAeSwYOVpto-v/s-l1600.jpg",
+    "summary": "Provision.X CLOSE. situated and take possession of the Goods;. addition to its rights under the Personal Property. Supplier then the Supplier or the Supplier’s. been made;. (c)...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/273750120307?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=OZtrail%20Festival%20Chair%20Outdoor%20Camping%20Furniture%20Beach%20Fishing%20Caravan%20Touring",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=OZtrail%20Festival%20Chair%20Outdoor%20Camping%20Furniture%20Beach%20Fishing%20Caravan%20Touring",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=OZtrail%20Festival%20Chair%20Outdoor%20Camping%20Furniture%20Beach%20Fishing%20Caravan%20Touring",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=OZtrail%20Festival%20Chair%20Outdoor%20Camping%20Furniture%20Beach%20Fishing%20Caravan%20Touring",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=OZtrail%20Festival%20Chair%20Outdoor%20Camping%20Furniture%20Beach%20Fishing%20Caravan%20Touring",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=OZtrail%20Festival%20Chair%20Outdoor%20Camping%20Furniture%20Beach%20Fishing%20Caravan%20Touring",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|273750120307|0",
+    "sourceLegacyItemId": "273750120307",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/273750120307?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:30:35Z"
+  },
+  {
+    "slug": "oztrail-oztrail-aluminium-stool-portable-seat-camping-picnic-beach-chair",
+    "name": "OZTRAIL ALUMINIUM STOOL Portable Seat Camping Picnic Beach Chair",
+    "brand": "OZTRAIL",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 30,
+    "salePrice": 30,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/ZboAAOSwCqZcf09I/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/ZboAAOSwCqZcf09I/s-l1600.jpg",
+    "summary": "Aluminium slat seat. Aluminium Stool. Camping Central. However we also accept bank deposit. Seat 29x25cm / Height 40cm.",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/332833032688?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=OZTRAIL%20ALUMINIUM%20STOOL%20Portable%20Seat%20Camping%20Picnic%20Beach%20Chair",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=OZTRAIL%20ALUMINIUM%20STOOL%20Portable%20Seat%20Camping%20Picnic%20Beach%20Chair",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=OZTRAIL%20ALUMINIUM%20STOOL%20Portable%20Seat%20Camping%20Picnic%20Beach%20Chair",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=OZTRAIL%20ALUMINIUM%20STOOL%20Portable%20Seat%20Camping%20Picnic%20Beach%20Chair",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=OZTRAIL%20ALUMINIUM%20STOOL%20Portable%20Seat%20Camping%20Picnic%20Beach%20Chair",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=OZTRAIL%20ALUMINIUM%20STOOL%20Portable%20Seat%20Camping%20Picnic%20Beach%20Chair",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|332833032688|0",
+    "sourceLegacyItemId": "332833032688",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/332833032688?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:30:35Z"
+  },
+  {
+    "slug": "oztrail-120cm-upf50-oztrail-chair-umbrella-beach-camping-sport-shade-bp-ozcu",
+    "name": "120cm UPF50+ Oztrail CHAIR UMBRELLA Beach Camping Sport Shade BP-OZCU",
+    "brand": "Oztrail",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 12,
+    "salePrice": 12,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/3E4AAOSwRQxackfQ/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/3E4AAOSwRQxackfQ/s-l1600.jpg",
+    "summary": "The Oztrail Chair Umbrella is designed to attach to horizontal or vertical surfaces to provide added shade to your camp chair. SHADE SAILS. BEACH PRODUCTS. Square 350cm Shelta A...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/165670034855?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=120cm%20UPF50%2B%20Oztrail%20CHAIR%20UMBRELLA%20Beach%20Camping%20Sport%20Shade%20BP-OZCU",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=120cm%20UPF50%2B%20Oztrail%20CHAIR%20UMBRELLA%20Beach%20Camping%20Sport%20Shade%20BP-OZCU",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=120cm%20UPF50%2B%20Oztrail%20CHAIR%20UMBRELLA%20Beach%20Camping%20Sport%20Shade%20BP-OZCU",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=120cm%20UPF50%2B%20Oztrail%20CHAIR%20UMBRELLA%20Beach%20Camping%20Sport%20Shade%20BP-OZCU",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=120cm%20UPF50%2B%20Oztrail%20CHAIR%20UMBRELLA%20Beach%20Camping%20Sport%20Shade%20BP-OZCU",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=120cm%20UPF50%2B%20Oztrail%20CHAIR%20UMBRELLA%20Beach%20Camping%20Sport%20Shade%20BP-OZCU",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|165670034855|0",
+    "sourceLegacyItemId": "165670034855",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/165670034855?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:30:36Z"
+  },
+  {
+    "slug": "helinox-helinox-chair-zero-large-in-black",
+    "name": "HELINOX Chair Zero Large in Black",
+    "brand": "HELINOX",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 250,
+    "salePrice": 250,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/u1IAAeSwINRptyHJ/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/u1IAAeSwINRptyHJ/s-l1600.jpg",
+    "summary": "The Chair Zero Large by Helinox is the ultralight legend for the gram-counters on the gradient! In this instance, you'll be required to pickup your order from the nearest depot....",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/389570711314?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=HELINOX%20Chair%20Zero%20Large%20in%20Black",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=HELINOX%20Chair%20Zero%20Large%20in%20Black",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=HELINOX%20Chair%20Zero%20Large%20in%20Black",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=HELINOX%20Chair%20Zero%20Large%20in%20Black",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=HELINOX%20Chair%20Zero%20Large%20in%20Black",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=HELINOX%20Chair%20Zero%20Large%20in%20Black",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|389570711314|0",
+    "sourceLegacyItemId": "389570711314",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/389570711314?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:31:22Z"
+  },
+  {
+    "slug": "helinox-helinox-ground-chair-black",
+    "name": "Helinox Ground Chair - Black",
+    "brand": "Helinox",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 179,
+    "salePrice": 179,
+    "rating": 5.0,
+    "reviews": 1,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/2C8AAeSwZX9ptxWh/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/2C8AAeSwZX9ptxWh/s-l1600.jpg",
+    "summary": "Light, strong and supremely packable, the Ground Chair is an ultra-lightweight backpacking chair designed to being you comfort wherever you go. Unique in the Helinox range, the...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/227192030903?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Helinox%20Ground%20Chair%20-%20Black",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Helinox%20Ground%20Chair%20-%20Black",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Helinox%20Ground%20Chair%20-%20Black",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Helinox%20Ground%20Chair%20-%20Black",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Helinox%20Ground%20Chair%20-%20Black",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Helinox%20Ground%20Chair%20-%20Black",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|227192030903|0",
+    "sourceLegacyItemId": "227192030903",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/227192030903?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:31:23Z"
+  },
+  {
+    "slug": "helinox-new-helinox-one-chair-by-anaconda",
+    "name": "NEW Helinox One Chair By Anaconda",
+    "brand": "Helinox",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 150,
+    "salePrice": 150,
+    "rating": 4.0,
+    "reviews": 4,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/~7sAAeSwstJplcKy/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/~7sAAeSwstJplcKy/s-l1600.jpg",
+    "summary": "Experience legendary comfort with unmatched versatility. Supportive, sleek and smart - it's still the One. Your order has been split and sent from more than one warehouse. Occas...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/297963707625?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=NEW%20Helinox%20One%20Chair%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=NEW%20Helinox%20One%20Chair%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=NEW%20Helinox%20One%20Chair%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=NEW%20Helinox%20One%20Chair%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=NEW%20Helinox%20One%20Chair%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=NEW%20Helinox%20One%20Chair%20By%20Anaconda",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|297963707625|0",
+    "sourceLegacyItemId": "297963707625",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/297963707625?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:31:23Z"
+  },
+  {
+    "slug": "darche-darche-go-go-camping-chair-compact-lightweight-t050801415",
+    "name": "Darche Go Go Camping Chair - Compact & Lightweight - T050801415",
+    "brand": "Darche",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 149,
+    "salePrice": 149,
+    "rating": 5.0,
+    "reviews": 1,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/br4AAeSwMotptsTp/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/br4AAeSwMotptsTp/s-l1600.jpg",
+    "summary": "Darche Go Go Camping Chair - Compact & Lightweight - T050801415 This is a new quality Darche branded Camping Chair. The Go Go Chair is the perfect solution for outdoor activitie...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/285950973673?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Darche%20Go%20Go%20Camping%20Chair%20-%20Compact%20%26%20Lightweight%20-%20T050801415",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Darche%20Go%20Go%20Camping%20Chair%20-%20Compact%20%26%20Lightweight%20-%20T050801415",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Darche%20Go%20Go%20Camping%20Chair%20-%20Compact%20%26%20Lightweight%20-%20T050801415",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Darche%20Go%20Go%20Camping%20Chair%20-%20Compact%20%26%20Lightweight%20-%20T050801415",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Darche%20Go%20Go%20Camping%20Chair%20-%20Compact%20%26%20Lightweight%20-%20T050801415",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Darche%20Go%20Go%20Camping%20Chair%20-%20Compact%20%26%20Lightweight%20-%20T050801415",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|285950973673|0",
+    "sourceLegacyItemId": "285950973673",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/285950973673?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:31:25Z"
+  },
+  {
+    "slug": "darche-darche-vipor-xvi-camping-chair-retractable-padded-seat-sturdy-frame-steel-new",
+    "name": "Darche Vipor XVI Camping Chair Retractable Padded Seat Sturdy Frame Steel NEW",
+    "brand": "Darche",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 190,
+    "salePrice": 190,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/dAEAAOSwA2Ble4oq/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/dAEAAOSwA2Ble4oq/s-l1600.jpg",
+    "summary": "The Darche Vipor XVI Chair is covered by the Darche 2 Years Manufacturer's Warranty. Retractable and durable drink holder. Padded high back and seat. Arm Width: 60cm. Arm Length...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/235344413704?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDNBYNkAN78T6VFCVZl3VxQwu3BdNMY3jUWK5pJyntOlGFUmyNvWG7P9mPEMWQ3Bdm7AsHrex3x5UgG9pZShZjxJVkwQ9jgAgN0cKE1HDxIvbSrYcvCDlj4qMcJh9CwINXhDlKfnm7ojzxLpRrUFBHYi%2BAugJ%2BHUWLZluQdxtJrIVkH%2FHPccT%2BE3lAoB%2FqvEtU%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Darche%20Vipor%20XVI%20Camping%20Chair%20Retractable%20Padded%20Seat%20Sturdy%20Frame%20Steel%20NEW",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Darche%20Vipor%20XVI%20Camping%20Chair%20Retractable%20Padded%20Seat%20Sturdy%20Frame%20Steel%20NEW",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Darche%20Vipor%20XVI%20Camping%20Chair%20Retractable%20Padded%20Seat%20Sturdy%20Frame%20Steel%20NEW",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Darche%20Vipor%20XVI%20Camping%20Chair%20Retractable%20Padded%20Seat%20Sturdy%20Frame%20Steel%20NEW",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Darche%20Vipor%20XVI%20Camping%20Chair%20Retractable%20Padded%20Seat%20Sturdy%20Frame%20Steel%20NEW",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Darche%20Vipor%20XVI%20Camping%20Chair%20Retractable%20Padded%20Seat%20Sturdy%20Frame%20Steel%20NEW",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|235344413704|0",
+    "sourceLegacyItemId": "235344413704",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/235344413704?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDNBYNkAN78T6VFCVZl3VxQwu3BdNMY3jUWK5pJyntOlGFUmyNvWG7P9mPEMWQ3Bdm7AsHrex3x5UgG9pZShZjxJVkwQ9jgAgN0cKE1HDxIvbSrYcvCDlj4qMcJh9CwINXhDlKfnm7ojzxLpRrUFBHYi%2BAugJ%2BHUWLZluQdxtJrIVkH%2FHPccT%2BE3lAoB%2FqvEtU%3D",
+    "importedAt": "2026-03-15T21:31:26Z"
+  },
+  {
+    "slug": "darche-darche-firefly-camping-chair",
+    "name": "Darche Firefly Camping Chair",
+    "brand": "Darche",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 199,
+    "salePrice": 176,
+    "rating": 4.8,
+    "reviews": 12,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/JmoAAeSwZYpptggy/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/JmoAAeSwZYpptggy/s-l1600.jpg",
+    "summary": "The latest chair model in the range, the Firefly is a premium compact director’s style chair, making it great for 4x4 touring. Our vision is simple - to inspire, equip, and enab...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/374839690290?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Darche%20Firefly%20Camping%20Chair",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Darche%20Firefly%20Camping%20Chair",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Darche%20Firefly%20Camping%20Chair",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Darche%20Firefly%20Camping%20Chair",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Darche%20Firefly%20Camping%20Chair",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Darche%20Firefly%20Camping%20Chair",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|374839690290|0",
+    "sourceLegacyItemId": "374839690290",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/374839690290?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:31:26Z"
+  },
+  {
+    "slug": "sea-to-summit-sea-to-summit-air-chair-regular-2",
+    "name": "SEA TO SUMMIT Air Chair Regular",
+    "brand": "SEA TO SUMMIT",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 60,
+    "salePrice": 60,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/l80AAeSwn-Fptx5d/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/l80AAeSwn-Fptx5d/s-l1600.jpg",
+    "summary": "Recline on a lightweight adventure, by transforming your existing Sea to Summit sleeping mat into a seat with the Air Chair from Sea to Summit. The Regular kit fits the small an...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/385556863348?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=SEA%20TO%20SUMMIT%20Air%20Chair%20Regular",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=SEA%20TO%20SUMMIT%20Air%20Chair%20Regular",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=SEA%20TO%20SUMMIT%20Air%20Chair%20Regular",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=SEA%20TO%20SUMMIT%20Air%20Chair%20Regular",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=SEA%20TO%20SUMMIT%20Air%20Chair%20Regular",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=SEA%20TO%20SUMMIT%20Air%20Chair%20Regular",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|385556863348|0",
+    "sourceLegacyItemId": "385556863348",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/385556863348?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:31:28Z"
+  },
+  {
+    "slug": "sea-to-summit-sea-to-summit-s-i-seat",
+    "name": "SEA TO SUMMIT S.I. Seat",
+    "brand": "SEA TO SUMMIT",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 37,
+    "salePrice": 37,
+    "rating": 4.0,
+    "reviews": 2,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/wgAAAeSwAtNptx5j/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/wgAAAeSwAtNptx5j/s-l1600.jpg",
+    "summary": "This little guy is basically a miniature self-inflating mattress, only much smaller. It rolls up nice and small, and when you need to turn an uncomfortable surface into a padded...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/385352379305?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=SEA%20TO%20SUMMIT%20S.I.%20Seat",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=SEA%20TO%20SUMMIT%20S.I.%20Seat",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=SEA%20TO%20SUMMIT%20S.I.%20Seat",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=SEA%20TO%20SUMMIT%20S.I.%20Seat",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=SEA%20TO%20SUMMIT%20S.I.%20Seat",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=SEA%20TO%20SUMMIT%20S.I.%20Seat",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|385352379305|0",
+    "sourceLegacyItemId": "385352379305",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/385352379305?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:31:28Z"
+  },
+  {
+    "slug": "sea-to-summit-sea-to-summit-self-inflating-delta-v-seat-2",
+    "name": "Sea to Summit Self Inflating Delta V Seat",
+    "brand": "Sea to Summit",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 40,
+    "salePrice": 37,
+    "rating": 4.0,
+    "reviews": 2,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://www.wildearth.com.au/assets/full/AMSIDS.jpg?20210318040007",
+    "ebayImage": "https://www.wildearth.com.au/assets/full/AMSIDS.jpg?20210318040007",
+    "summary": "Our vision is simple - to inspire, equip, and enable people with everything needed for a lightweight outdoor adventure. Our expert knowledge. Adventure Is Here. Adventure is Her...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/373078384116?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCBGm%2BsHK2hgmAqJdt4kkuDS%2FMovj3BAKWYrreMgeP6ig0659KaPZcr0oNQ%2BAP77D7hiyHYICQrdJzs9RkWDrblsGoGljXh7yJwpiKsbRR0qk9oV0HA2qxUxh7hmjU3ldUoQNVNh%2BFqeiIhw18V2Cy6%2BTrHAzUfsUTPnWzrYtQ0JWNcP71hCpluBTP4RJ%2BAvIE%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Sea%20to%20Summit%20Self%20Inflating%20Delta%20V%20Seat",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Sea%20to%20Summit%20Self%20Inflating%20Delta%20V%20Seat",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Sea%20to%20Summit%20Self%20Inflating%20Delta%20V%20Seat",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Sea%20to%20Summit%20Self%20Inflating%20Delta%20V%20Seat",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Sea%20to%20Summit%20Self%20Inflating%20Delta%20V%20Seat",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Sea%20to%20Summit%20Self%20Inflating%20Delta%20V%20Seat",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|373078384116|0",
+    "sourceLegacyItemId": "373078384116",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/373078384116?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCBGm%2BsHK2hgmAqJdt4kkuDS%2FMovj3BAKWYrreMgeP6ig0659KaPZcr0oNQ%2BAP77D7hiyHYICQrdJzs9RkWDrblsGoGljXh7yJwpiKsbRR0qk9oV0HA2qxUxh7hmjU3ldUoQNVNh%2BFqeiIhw18V2Cy6%2BTrHAzUfsUTPnWzrYtQ0JWNcP71hCpluBTP4RJ%2BAvIE%3D",
+    "importedAt": "2026-03-15T21:31:29Z"
+  },
+  {
+    "slug": "coleman-coleman-daintree-25l-wheeled-hard-cooler-with-keg",
+    "name": "Coleman Daintree 25L Wheeled Hard Cooler With Keg",
+    "brand": "Coleman",
+    "category": "coolers",
+    "categoryName": "Coolers & Ice Boxes",
+    "price": 150,
+    "salePrice": 150,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/mskAAeSwIQVptdb0/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/mskAAeSwIQVptdb0/s-l1600.jpg",
+    "summary": "Coleman Daintree 25L Wheeled Hard Cooler With Keg The Coleman Daintree 25L Hard Cooler is perfect for keeping your drinks cool and accessible wherever you go. Description The Co...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/236518762387?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Coleman%20Daintree%2025L%20Wheeled%20Hard%20Cooler%20With%20Keg",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Coleman%20Daintree%2025L%20Wheeled%20Hard%20Cooler%20With%20Keg",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Coleman%20Daintree%2025L%20Wheeled%20Hard%20Cooler%20With%20Keg",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Coleman%20Daintree%2025L%20Wheeled%20Hard%20Cooler%20With%20Keg",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Coleman%20Daintree%2025L%20Wheeled%20Hard%20Cooler%20With%20Keg",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Daintree%2025L%20Wheeled%20Hard%20Cooler%20With%20Keg",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|236518762387|0",
+    "sourceLegacyItemId": "236518762387",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/236518762387?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:31:55Z"
+  },
+  {
+    "slug": "coleman-coleman-cooler-25l-keg-with-insulated-walls-and-looking-lid",
+    "name": "COLEMAN Cooler 25L Keg With Insulated Walls and Looking Lid",
+    "brand": "COLEMAN",
+    "category": "coolers",
+    "categoryName": "Coolers & Ice Boxes",
+    "price": 190,
+    "salePrice": 179,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/A5sAAeSwnDNo1NkX/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/A5sAAeSwnDNo1NkX/s-l1600.jpg",
+    "summary": "This robust cooler is designed to keep your drinks cold and your snacks organised, making it an essential item for any outing. 1 x 25L Cooler. Superior Insulation Performance: T...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/146853099311?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCFR7NqV6qfVEF0EY%2FrgY24fFEcbE6O6p3qCqIOwl0ieBk43ICIjDs6mhdpAfxeI%2Fp39%2BGz%2FwfamnCjnJBtCk7CktQJvWFRsSEnFDhTGk82%2FWEElpJLZiaZ4EhZ9etv1AHF8%2FFvou5C2IoEnC%2BoFjPCEfwAdFJ8U5%2FAv15gJ%2BH63ZUFaBUxTJN1FyVcqVbNAYI%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=COLEMAN%20Cooler%2025L%20Keg%20With%20Insulated%20Walls%20and%20Looking%20Lid",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=COLEMAN%20Cooler%2025L%20Keg%20With%20Insulated%20Walls%20and%20Looking%20Lid",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=COLEMAN%20Cooler%2025L%20Keg%20With%20Insulated%20Walls%20and%20Looking%20Lid",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=COLEMAN%20Cooler%2025L%20Keg%20With%20Insulated%20Walls%20and%20Looking%20Lid",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=COLEMAN%20Cooler%2025L%20Keg%20With%20Insulated%20Walls%20and%20Looking%20Lid",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=COLEMAN%20Cooler%2025L%20Keg%20With%20Insulated%20Walls%20and%20Looking%20Lid",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|146853099311|0",
+    "sourceLegacyItemId": "146853099311",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/146853099311?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCFR7NqV6qfVEF0EY%2FrgY24fFEcbE6O6p3qCqIOwl0ieBk43ICIjDs6mhdpAfxeI%2Fp39%2BGz%2FwfamnCjnJBtCk7CktQJvWFRsSEnFDhTGk82%2FWEElpJLZiaZ4EhZ9etv1AHF8%2FFvou5C2IoEnC%2BoFjPCEfwAdFJ8U5%2FAv15gJ%2BH63ZUFaBUxTJN1FyVcqVbNAYI%3D",
+    "importedAt": "2026-03-15T21:31:56Z"
+  },
+  {
+    "slug": "dometic-dometic-ci-28-rotomoulded-icebox-28-l",
+    "name": "Dometic CI 28 Rotomoulded icebox, 28 l",
+    "brand": "Dometic",
+    "category": "coolers",
+    "categoryName": "Coolers & Ice Boxes",
+    "price": 229,
+    "salePrice": 183,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/agYAAeSwYIZpgDGs/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/agYAAeSwYIZpgDGs/s-l1600.jpg",
+    "summary": "Rotomoulded icebox, 28 l. These robust iceboxes are ideal for continuous exposure to weather, especially on boats and camping. The refrigeration grade foam insulation and ’Labyr...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/135078573058?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDswuaBKzLhII3%2F4IeveNHpt01VRyQNiLizGGvcyu81BBot4ML2yNplvsI77TsMq3v1TR6tN2dCe1UlnI79n%2Fa30k9XN%2BRzuyfCAVVOcj0iX0qeL0i%2BWe2l1B2Wt0quEj3fgKdwuz%2Fh4l8l1MgmsFYN92fMzk6nUxoC5pQTGI67ddpRW3Afck1TY5UVignFDYE%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Dometic%20CI%2028%20Rotomoulded%20icebox%2C%2028%20l",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Dometic%20CI%2028%20Rotomoulded%20icebox%2C%2028%20l",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Dometic%20CI%2028%20Rotomoulded%20icebox%2C%2028%20l",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Dometic%20CI%2028%20Rotomoulded%20icebox%2C%2028%20l",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Dometic%20CI%2028%20Rotomoulded%20icebox%2C%2028%20l",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Dometic%20CI%2028%20Rotomoulded%20icebox%2C%2028%20l",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|135078573058|0",
+    "sourceLegacyItemId": "135078573058",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/135078573058?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDswuaBKzLhII3%2F4IeveNHpt01VRyQNiLizGGvcyu81BBot4ML2yNplvsI77TsMq3v1TR6tN2dCe1UlnI79n%2Fa30k9XN%2BRzuyfCAVVOcj0iX0qeL0i%2BWe2l1B2Wt0quEj3fgKdwuz%2Fh4l8l1MgmsFYN92fMzk6nUxoC5pQTGI67ddpRW3Afck1TY5UVignFDYE%3D",
+    "importedAt": "2026-03-15T21:32:05Z"
+  },
+  {
+    "slug": "dometic-dometic-cool-ice-86-l-ci-rotomoulded-icebox-9600000545",
+    "name": "Dometic Cool Ice 86 L Ci Rotomoulded Icebox 9600000545",
+    "brand": "Dometic",
+    "category": "coolers",
+    "categoryName": "Coolers & Ice Boxes",
+    "price": 625,
+    "salePrice": 625,
+    "rating": 1.0,
+    "reviews": 1,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/lBAAAeSwdW5ptjLK/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/lBAAAeSwdW5ptjLK/s-l1600.jpg",
+    "summary": "Dometic Cool Ice 86 L Ci Rotomoulded Icebox 9600000545.",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/166673727349?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Dometic%20Cool%20Ice%2086%20L%20Ci%20Rotomoulded%20Icebox%209600000545",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Dometic%20Cool%20Ice%2086%20L%20Ci%20Rotomoulded%20Icebox%209600000545",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Dometic%20Cool%20Ice%2086%20L%20Ci%20Rotomoulded%20Icebox%209600000545",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Dometic%20Cool%20Ice%2086%20L%20Ci%20Rotomoulded%20Icebox%209600000545",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Dometic%20Cool%20Ice%2086%20L%20Ci%20Rotomoulded%20Icebox%209600000545",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Dometic%20Cool%20Ice%2086%20L%20Ci%20Rotomoulded%20Icebox%209600000545",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|166673727349|0",
+    "sourceLegacyItemId": "166673727349",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/166673727349?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:32:05Z"
+  },
+  {
+    "slug": "companion-companion-hard-cooler-14l-esky-ice-box-bag-picnic-camping-outdoor-touring-hiking",
+    "name": "Companion Hard Cooler 14L Esky Ice Box Bag Picnic Camping Outdoor Touring Hiking",
+    "brand": "Companion",
+    "category": "coolers",
+    "categoryName": "Coolers & Ice Boxes",
+    "price": 55,
+    "salePrice": 55,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/mE4AAeSwW5Rptpw3/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/mE4AAeSwW5Rptpw3/s-l1600.jpg",
+    "summary": "Provision.X CLOSE. the Price of the Goods sold notwithstanding. We are 100% Australian owned and operated with our warehouse being located in Brisbane. the Supplier;. way nor gr...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/284314417718?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Companion%20Hard%20Cooler%2014L%20Esky%20Ice%20Box%20Bag%20Picnic%20Camping%20Outdoor%20Touring%20Hiking",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Companion%20Hard%20Cooler%2014L%20Esky%20Ice%20Box%20Bag%20Picnic%20Camping%20Outdoor%20Touring%20Hiking",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Companion%20Hard%20Cooler%2014L%20Esky%20Ice%20Box%20Bag%20Picnic%20Camping%20Outdoor%20Touring%20Hiking",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Companion%20Hard%20Cooler%2014L%20Esky%20Ice%20Box%20Bag%20Picnic%20Camping%20Outdoor%20Touring%20Hiking",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Companion%20Hard%20Cooler%2014L%20Esky%20Ice%20Box%20Bag%20Picnic%20Camping%20Outdoor%20Touring%20Hiking",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Companion%20Hard%20Cooler%2014L%20Esky%20Ice%20Box%20Bag%20Picnic%20Camping%20Outdoor%20Touring%20Hiking",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|284314417718|0",
+    "sourceLegacyItemId": "284314417718",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/284314417718?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:33:00Z"
+  },
+  {
+    "slug": "igloo-igloo-playmate-elite-15-litre-cooler-30-cans-2x-ice-blocks-cool-lunch-box",
+    "name": "Igloo Playmate Elite 15 Litre Cooler (30 cans) + 2x Ice Blocks Cool Lunch Box",
+    "brand": "Igloo",
+    "category": "coolers",
+    "categoryName": "Coolers & Ice Boxes",
+    "price": 400,
+    "salePrice": 400,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/qrwAAOSw-x9nr1bJ/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/qrwAAOSw-x9nr1bJ/s-l1600.jpg",
+    "summary": "The IGLOO Playmate Elite 15 Litre (16 Qt.). The grab-and-go convenience of IGLOO's iconic trademarked tent-top design is easy to use and carry. It features a push-button lid des...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/313920488823?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Igloo%20Playmate%20Elite%2015%20Litre%20Cooler%20%2830%20cans%29%20%2B%202x%20Ice%20Blocks%20Cool%20Lunch%20Box",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Igloo%20Playmate%20Elite%2015%20Litre%20Cooler%20%2830%20cans%29%20%2B%202x%20Ice%20Blocks%20Cool%20Lunch%20Box",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Igloo%20Playmate%20Elite%2015%20Litre%20Cooler%20%2830%20cans%29%20%2B%202x%20Ice%20Blocks%20Cool%20Lunch%20Box",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Igloo%20Playmate%20Elite%2015%20Litre%20Cooler%20%2830%20cans%29%20%2B%202x%20Ice%20Blocks%20Cool%20Lunch%20Box",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Igloo%20Playmate%20Elite%2015%20Litre%20Cooler%20%2830%20cans%29%20%2B%202x%20Ice%20Blocks%20Cool%20Lunch%20Box",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Igloo%20Playmate%20Elite%2015%20Litre%20Cooler%20%2830%20cans%29%20%2B%202x%20Ice%20Blocks%20Cool%20Lunch%20Box",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|313920488823|0",
+    "sourceLegacyItemId": "313920488823",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/313920488823?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:34:33Z"
+  },
+  {
+    "slug": "esky-oztrail-igloo-recool-cooler-outdoor-esky-camping-biodegradable-drink-storage",
+    "name": "OZtrail Igloo Recool Cooler Outdoor Esky Camping Biodegradable Drink Storage",
+    "brand": "ESKY",
+    "category": "coolers",
+    "categoryName": "Coolers & Ice Boxes",
+    "price": 25,
+    "salePrice": 25,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/goUAAOSwr4FhoW6~/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/goUAAOSwr4FhoW6~/s-l1600.jpg",
+    "summary": "Introducing the world's first cooler made entirely from biodegradable materials: RECOOL. RECOOL is durable and won't chip or scratch easily or make annoying squeaking noises lik...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/255248711351?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBvNeKR%2F4s0d83YT6YrSO2InmAo%2FNR6jS7DDlQlmpH4NTNUyf6E54ACkuMo9PmST%2FmgYFq6ZUtMqfaRIERQAupy%2BJYR5xjdEdUDMZ7fAZN17cgXc0IxnK8FQ8D7ybrdJRraUAdTpDbJ3%2BLLmyFPQ6ZnqVOaXTwl4JXHtAr5kIsVJNM%2BlRUvDi6Ygk0LkZXhUGQ%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=OZtrail%20Igloo%20Recool%20Cooler%20Outdoor%20Esky%20Camping%20Biodegradable%20Drink%20Storage",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=OZtrail%20Igloo%20Recool%20Cooler%20Outdoor%20Esky%20Camping%20Biodegradable%20Drink%20Storage",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=OZtrail%20Igloo%20Recool%20Cooler%20Outdoor%20Esky%20Camping%20Biodegradable%20Drink%20Storage",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=OZtrail%20Igloo%20Recool%20Cooler%20Outdoor%20Esky%20Camping%20Biodegradable%20Drink%20Storage",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=OZtrail%20Igloo%20Recool%20Cooler%20Outdoor%20Esky%20Camping%20Biodegradable%20Drink%20Storage",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=OZtrail%20Igloo%20Recool%20Cooler%20Outdoor%20Esky%20Camping%20Biodegradable%20Drink%20Storage",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|255248711351|0",
+    "sourceLegacyItemId": "255248711351",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/255248711351?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBvNeKR%2F4s0d83YT6YrSO2InmAo%2FNR6jS7DDlQlmpH4NTNUyf6E54ACkuMo9PmST%2FmgYFq6ZUtMqfaRIERQAupy%2BJYR5xjdEdUDMZ7fAZN17cgXc0IxnK8FQ8D7ybrdJRraUAdTpDbJ3%2BLLmyFPQ6ZnqVOaXTwl4JXHtAr5kIsVJNM%2BlRUvDi6Ygk0LkZXhUGQ%3D",
+    "importedAt": "2026-03-15T21:34:33Z"
+  },
+  {
+    "slug": "dometic-dometic-cool-ice-ci-85-icebox",
+    "name": "Dometic Cool Ice CI 85 Icebox",
+    "brand": "Dometic",
+    "category": "coolers",
+    "categoryName": "Coolers & Ice Boxes",
+    "price": 349,
+    "salePrice": 349,
+    "rating": 5.0,
+    "reviews": 1,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/6fgAAeSwDBBptx5W/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/6fgAAeSwDBBptx5W/s-l1600.jpg",
+    "summary": "Made from UV stabilised food grade polyethylene, with improved refrigeration grade foam insulation - your food and drinks will stay reliably chilled. With two strong handles tha...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/386610208438?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Dometic%20Cool%20Ice%20CI%2085%20Icebox",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Dometic%20Cool%20Ice%20CI%2085%20Icebox",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Dometic%20Cool%20Ice%20CI%2085%20Icebox",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Dometic%20Cool%20Ice%20CI%2085%20Icebox",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Dometic%20Cool%20Ice%20CI%2085%20Icebox",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Dometic%20Cool%20Ice%20CI%2085%20Icebox",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|386610208438|0",
+    "sourceLegacyItemId": "386610208438",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/386610208438?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:34:35Z"
+  },
+  {
+    "slug": "dometic-dometic-waeco-ci-70-rotomoulded-cool-ice-box-68-litre-camping-outdoor-motorhome",
+    "name": "Dometic Waeco CI-70 Rotomoulded Cool Ice Box 68 Litre Camping Outdoor Motorhome",
+    "brand": "Dometic",
+    "category": "coolers",
+    "categoryName": "Coolers & Ice Boxes",
+    "price": 360,
+    "salePrice": 360,
+    "rating": 5.0,
+    "reviews": 1,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/QQAAAeSw9uxptg1n/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/QQAAAeSw9uxptg1n/s-l1600.jpg",
+    "summary": "The Supplier;. Supplier in any way which may be adverse to. to the Supplier for the Goods, on trust for the. 3.1 Any instructions received by the Supplier from the. (including t...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/272828912626?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Dometic%20Waeco%20CI-70%20Rotomoulded%20Cool%20Ice%20Box%2068%20Litre%20Camping%20Outdoor%20Motorhome",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Dometic%20Waeco%20CI-70%20Rotomoulded%20Cool%20Ice%20Box%2068%20Litre%20Camping%20Outdoor%20Motorhome",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Dometic%20Waeco%20CI-70%20Rotomoulded%20Cool%20Ice%20Box%2068%20Litre%20Camping%20Outdoor%20Motorhome",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Dometic%20Waeco%20CI-70%20Rotomoulded%20Cool%20Ice%20Box%2068%20Litre%20Camping%20Outdoor%20Motorhome",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Dometic%20Waeco%20CI-70%20Rotomoulded%20Cool%20Ice%20Box%2068%20Litre%20Camping%20Outdoor%20Motorhome",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Dometic%20Waeco%20CI-70%20Rotomoulded%20Cool%20Ice%20Box%2068%20Litre%20Camping%20Outdoor%20Motorhome",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|272828912626|0",
+    "sourceLegacyItemId": "272828912626",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/272828912626?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:34:35Z"
+  },
+  {
+    "slug": "companion-companion-proheat-2-burner-low-pressure-stove",
+    "name": "Companion Proheat 2 Burner Low Pressure Stove",
+    "brand": "Companion",
+    "category": "stoves",
+    "categoryName": "Camping Stoves",
+    "price": 250,
+    "salePrice": 250,
+    "rating": 5.0,
+    "reviews": 1,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/q~oAAeSwq8Nptx9s/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/q~oAAeSwq8Nptx9s/s-l1600.jpg",
+    "summary": "BTU Per Burner: 9,000. In this instance, you'll be required to pickup your order from the nearest depot. This one is pretty obvious, make sure you love your new item before you...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/386372304775?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Companion%20Proheat%202%20Burner%20Low%20Pressure%20Stove",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Companion%20Proheat%202%20Burner%20Low%20Pressure%20Stove",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Companion%20Proheat%202%20Burner%20Low%20Pressure%20Stove",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Companion%20Proheat%202%20Burner%20Low%20Pressure%20Stove",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Companion%20Proheat%202%20Burner%20Low%20Pressure%20Stove",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Companion%20Proheat%202%20Burner%20Low%20Pressure%20Stove",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|386372304775|0",
+    "sourceLegacyItemId": "386372304775",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/386372304775?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:35:08Z"
+  },
+  {
+    "slug": "companion-companion-proheat-2-burner-with-fsd-stove-low-pressure-2",
+    "name": "Companion Proheat 2 Burner with FSD Stove Low Pressure",
+    "brand": "Companion",
+    "category": "stoves",
+    "categoryName": "Camping Stoves",
+    "price": 229,
+    "salePrice": 229,
+    "rating": 5.0,
+    "reviews": 1,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/dJwAAeSwQ6RptaWV/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/dJwAAeSwQ6RptaWV/s-l1600.jpg",
+    "summary": "Whom we use is based on the item and your location. Powerful Dual Burners – Two high-output burners for fast and even cooking. Compact & Portable – Lightweight design with a sec...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/126166076244?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Companion%20Proheat%202%20Burner%20with%20FSD%20Stove%20Low%20Pressure",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Companion%20Proheat%202%20Burner%20with%20FSD%20Stove%20Low%20Pressure",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Companion%20Proheat%202%20Burner%20with%20FSD%20Stove%20Low%20Pressure",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Companion%20Proheat%202%20Burner%20with%20FSD%20Stove%20Low%20Pressure",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Companion%20Proheat%202%20Burner%20with%20FSD%20Stove%20Low%20Pressure",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Companion%20Proheat%202%20Burner%20with%20FSD%20Stove%20Low%20Pressure",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|126166076244|0",
+    "sourceLegacyItemId": "126166076244",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/126166076244?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:35:09Z"
+  },
+  {
+    "slug": "jetboil-jetboil-halfgen-basecamp-system-all-in-one-single-burner-camp-stove-halfgen-au",
+    "name": "Jetboil HALFGEN BASECAMP SYSTEM ALL IN ONE SINGLE BURNER CAMP STOVE #HALFGEN-AU",
+    "brand": "Jetboil",
+    "category": "stoves",
+    "categoryName": "Camping Stoves",
+    "price": 390,
+    "salePrice": 370,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/1FQAAOSwZ9Fk2ET6/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/1FQAAOSwZ9Fk2ET6/s-l1600.jpg",
+    "summary": "Built around the award-winning Genesis and HalfGen stoves, the Basecamp systems includes a selection of cookware and accessories to create a versatile camp system. HalfGen Basec...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/225724397633?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Jetboil%20HALFGEN%20BASECAMP%20SYSTEM%20ALL%20IN%20ONE%20SINGLE%20BURNER%20CAMP%20STOVE%20%23HALFGEN-AU",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Jetboil%20HALFGEN%20BASECAMP%20SYSTEM%20ALL%20IN%20ONE%20SINGLE%20BURNER%20CAMP%20STOVE%20%23HALFGEN-AU",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Jetboil%20HALFGEN%20BASECAMP%20SYSTEM%20ALL%20IN%20ONE%20SINGLE%20BURNER%20CAMP%20STOVE%20%23HALFGEN-AU",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Jetboil%20HALFGEN%20BASECAMP%20SYSTEM%20ALL%20IN%20ONE%20SINGLE%20BURNER%20CAMP%20STOVE%20%23HALFGEN-AU",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Jetboil%20HALFGEN%20BASECAMP%20SYSTEM%20ALL%20IN%20ONE%20SINGLE%20BURNER%20CAMP%20STOVE%20%23HALFGEN-AU",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Jetboil%20HALFGEN%20BASECAMP%20SYSTEM%20ALL%20IN%20ONE%20SINGLE%20BURNER%20CAMP%20STOVE%20%23HALFGEN-AU",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|225724397633|0",
+    "sourceLegacyItemId": "225724397633",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/225724397633?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:35:10Z"
+  },
+  {
+    "slug": "jetboil-jetboil-genesis-basecamp-system-all-in-one-2-burner-camp-stove-gnsy-au",
+    "name": "Jetboil GENESIS BASECAMP SYSTEM ALL IN ONE 2 BURNER CAMP STOVE #GNSY-AU",
+    "brand": "Jetboil",
+    "category": "stoves",
+    "categoryName": "Camping Stoves",
+    "price": 700,
+    "salePrice": 630,
+    "rating": 5.0,
+    "reviews": 5,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/3UgAAOSwrzFjvn3p/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/3UgAAOSwrzFjvn3p/s-l1600.jpg",
+    "summary": "Perfect for any car camp or van life setup, the Jetboil Genesis Basecamp System will have you cooking up a storm. GENESIS BASECAMP SYSTEM. Built around the award-winning Genesis...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/325494769360?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Jetboil%20GENESIS%20BASECAMP%20SYSTEM%20ALL%20IN%20ONE%202%20BURNER%20CAMP%20STOVE%20%23GNSY-AU",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Jetboil%20GENESIS%20BASECAMP%20SYSTEM%20ALL%20IN%20ONE%202%20BURNER%20CAMP%20STOVE%20%23GNSY-AU",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Jetboil%20GENESIS%20BASECAMP%20SYSTEM%20ALL%20IN%20ONE%202%20BURNER%20CAMP%20STOVE%20%23GNSY-AU",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Jetboil%20GENESIS%20BASECAMP%20SYSTEM%20ALL%20IN%20ONE%202%20BURNER%20CAMP%20STOVE%20%23GNSY-AU",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Jetboil%20GENESIS%20BASECAMP%20SYSTEM%20ALL%20IN%20ONE%202%20BURNER%20CAMP%20STOVE%20%23GNSY-AU",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Jetboil%20GENESIS%20BASECAMP%20SYSTEM%20ALL%20IN%20ONE%202%20BURNER%20CAMP%20STOVE%20%23GNSY-AU",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|325494769360|0",
+    "sourceLegacyItemId": "325494769360",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/325494769360?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:35:11Z"
+  },
+  {
+    "slug": "hytec-primus-optimus-camp-stove-burner-washers-pack-of-6-large-type-free-postage",
+    "name": "Primus Optimus Camp Stove burner washers - Pack of 6 - LARGE type - FREE POSTAGE",
+    "brand": "HYTEC",
+    "category": "stoves",
+    "categoryName": "Camping Stoves",
+    "price": 6,
+    "salePrice": 6,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/1l0AAOSwxH1UH3J2/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/1l0AAOSwxH1UH3J2/s-l1600.jpg",
+    "summary": "Primus Optimus Camp Stove BURNER WASHERS - large. For the majority of 1.75 and 2 pint stoves such as No: 1,5,45,48 and 50.",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/303303515666?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Primus%20Optimus%20Camp%20Stove%20burner%20washers%20-%20Pack%20of%206%20-%20LARGE%20type%20-%20FREE%20POSTAGE",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Primus%20Optimus%20Camp%20Stove%20burner%20washers%20-%20Pack%20of%206%20-%20LARGE%20type%20-%20FREE%20POSTAGE",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Primus%20Optimus%20Camp%20Stove%20burner%20washers%20-%20Pack%20of%206%20-%20LARGE%20type%20-%20FREE%20POSTAGE",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Primus%20Optimus%20Camp%20Stove%20burner%20washers%20-%20Pack%20of%206%20-%20LARGE%20type%20-%20FREE%20POSTAGE",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Primus%20Optimus%20Camp%20Stove%20burner%20washers%20-%20Pack%20of%206%20-%20LARGE%20type%20-%20FREE%20POSTAGE",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Primus%20Optimus%20Camp%20Stove%20burner%20washers%20-%20Pack%20of%206%20-%20LARGE%20type%20-%20FREE%20POSTAGE",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|303303515666|0",
+    "sourceLegacyItemId": "303303515666",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/303303515666?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:35:12Z"
+  },
+  {
+    "slug": "hytec-primus-optimus-camp-stove-burner-washers-pack-of-6-small-type-free-postage",
+    "name": "Primus Optimus Camp Stove burner washers - Pack of 6 - small type - FREE POSTAGE",
+    "brand": "HYTEC",
+    "category": "stoves",
+    "categoryName": "Camping Stoves",
+    "price": 6,
+    "salePrice": 6,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/eK4AAOSwQItUH2-X/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/eK4AAOSwQItUH2-X/s-l1600.jpg",
+    "summary": "Primus Optimus Camp Stove BURNER WASHERS. For the majority of 1 pint stoves such as Optimus No: 00, Primus NO: 210 and similar Radius, Burmos etc.",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/303303515668?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Primus%20Optimus%20Camp%20Stove%20burner%20washers%20-%20Pack%20of%206%20-%20small%20type%20-%20FREE%20POSTAGE",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Primus%20Optimus%20Camp%20Stove%20burner%20washers%20-%20Pack%20of%206%20-%20small%20type%20-%20FREE%20POSTAGE",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Primus%20Optimus%20Camp%20Stove%20burner%20washers%20-%20Pack%20of%206%20-%20small%20type%20-%20FREE%20POSTAGE",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Primus%20Optimus%20Camp%20Stove%20burner%20washers%20-%20Pack%20of%206%20-%20small%20type%20-%20FREE%20POSTAGE",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Primus%20Optimus%20Camp%20Stove%20burner%20washers%20-%20Pack%20of%206%20-%20small%20type%20-%20FREE%20POSTAGE",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Primus%20Optimus%20Camp%20Stove%20burner%20washers%20-%20Pack%20of%206%20-%20small%20type%20-%20FREE%20POSTAGE",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|303303515668|0",
+    "sourceLegacyItemId": "303303515668",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/303303515668?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:35:12Z"
+  },
+  {
+    "slug": "camp-chef-patio-stove-cover-for-camp-chef-2-burner-waterproof-outdoor-cooking-stoves-cover",
+    "name": "Patio Stove Cover for Camp Chef 2 Burner Waterproof Outdoor Cooking Stoves Cover",
+    "brand": "Camp Chef",
+    "category": "stoves",
+    "categoryName": "Camping Stoves",
+    "price": 72,
+    "salePrice": 72,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/5HIAAeSwZ5lo7PCB/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/5HIAAeSwZ5lo7PCB/s-l1600.jpg",
+    "summary": "Camp Chef 2 burner Cover for 2 Burner Stoves Waterproof Outdoor Cover BBQ Cooking Grill Camping Stoves Cooker Camp Chef PC32 Two-Burner Patio Cover for Camp Chef Explorer 2 Burn...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/406286698583?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Patio%20Stove%20Cover%20for%20Camp%20Chef%202%20Burner%20Waterproof%20Outdoor%20Cooking%20Stoves%20Cover",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Patio%20Stove%20Cover%20for%20Camp%20Chef%202%20Burner%20Waterproof%20Outdoor%20Cooking%20Stoves%20Cover",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Patio%20Stove%20Cover%20for%20Camp%20Chef%202%20Burner%20Waterproof%20Outdoor%20Cooking%20Stoves%20Cover",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Patio%20Stove%20Cover%20for%20Camp%20Chef%202%20Burner%20Waterproof%20Outdoor%20Cooking%20Stoves%20Cover",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Patio%20Stove%20Cover%20for%20Camp%20Chef%202%20Burner%20Waterproof%20Outdoor%20Cooking%20Stoves%20Cover",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Patio%20Stove%20Cover%20for%20Camp%20Chef%202%20Burner%20Waterproof%20Outdoor%20Cooking%20Stoves%20Cover",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|406286698583|0",
+    "sourceLegacyItemId": "406286698583",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/406286698583?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:35:13Z"
+  },
+  {
+    "slug": "camp-chef-patio-cover-cover-for-two-burner-cooking-system-patio-cover-for-camp-stove-f",
+    "name": "Patio Cover Cover for Two-Burner Cooking System - Patio Cover for Camp Stove - f",
+    "brand": "Camp Chef",
+    "category": "stoves",
+    "categoryName": "Camping Stoves",
+    "price": 100,
+    "salePrice": 100,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/ivIAAeSwEYFo7PB9/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/ivIAAeSwEYFo7PB9/s-l1600.jpg",
+    "summary": "Versatile Camp Stove Cover: The Camp Chef Patio Cover works for stove models EX60P, EX60LW, EX60PP, EX60B, EX280LW, EX170LW, YK60LW, YK60LWC12. Protect Your Camp Stove: This cam...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/406286698502?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|406286698502|0",
+    "sourceLegacyItemId": "406286698502",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/406286698502?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:35:14Z"
+  },
+  {
+    "slug": "gasmate-gas-stove-gasmate-turbo-2-burner-camping-portable-cooker-bbq-gas-hose-cs1095",
+    "name": "Gas Stove Gasmate Turbo 2 Burner Camping Portable Cooker BBQ & Gas Hose CS1095",
+    "brand": "Gasmate",
+    "category": "stoves",
+    "categoryName": "Camping Stoves",
+    "price": 113,
+    "salePrice": 113,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/jJAAAeSw63JphDXQ/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/jJAAAeSw63JphDXQ/s-l1600.jpg",
+    "summary": "This convenient & portable 2 burner stove is ideal for camping, caravanning & picnicking. It has a sturdy design yet still folds down to the size of a brief case. 2 Burner Stove.",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/137015025346?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDYfepUU4rN0IHNJUxcUbuBEXz%2BqOQadljXOBBWya8r3p1W4Q1Q%2B7nwrXIa%2Fc3%2FI4oGrrJPTk2XIAu9lZhNO6Nvdp4MdDckYdvaxweNUrfoqjDGMcGvRPlD5Yzd13rqVm0Qsp53x6jkx9IYLeAGkCf0UMg8wGCWfjUlpd3w0ywCOaSMhu2Qz%2F27JpuifXdrATU%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Gas%20Stove%20Gasmate%20Turbo%202%20Burner%20Camping%20Portable%20Cooker%20BBQ%20%26%20Gas%20Hose%20CS1095",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Gas%20Stove%20Gasmate%20Turbo%202%20Burner%20Camping%20Portable%20Cooker%20BBQ%20%26%20Gas%20Hose%20CS1095",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Gas%20Stove%20Gasmate%20Turbo%202%20Burner%20Camping%20Portable%20Cooker%20BBQ%20%26%20Gas%20Hose%20CS1095",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Gas%20Stove%20Gasmate%20Turbo%202%20Burner%20Camping%20Portable%20Cooker%20BBQ%20%26%20Gas%20Hose%20CS1095",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Gas%20Stove%20Gasmate%20Turbo%202%20Burner%20Camping%20Portable%20Cooker%20BBQ%20%26%20Gas%20Hose%20CS1095",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Gas%20Stove%20Gasmate%20Turbo%202%20Burner%20Camping%20Portable%20Cooker%20BBQ%20%26%20Gas%20Hose%20CS1095",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|137015025346|0",
+    "sourceLegacyItemId": "137015025346",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/137015025346?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDYfepUU4rN0IHNJUxcUbuBEXz%2BqOQadljXOBBWya8r3p1W4Q1Q%2B7nwrXIa%2Fc3%2FI4oGrrJPTk2XIAu9lZhNO6Nvdp4MdDckYdvaxweNUrfoqjDGMcGvRPlD5Yzd13rqVm0Qsp53x6jkx9IYLeAGkCf0UMg8wGCWfjUlpd3w0ywCOaSMhu2Qz%2F27JpuifXdrATU%3D",
+    "importedAt": "2026-03-15T21:35:31Z"
+  },
+  {
+    "slug": "gasmate-gas-stove-gasmate-turbo-2-burner-camping-portable-cooker-bbq",
+    "name": "Gas Stove Gasmate Turbo 2 Burner Camping Portable Cooker BBQ",
+    "brand": "Gasmate",
+    "category": "stoves",
+    "categoryName": "Camping Stoves",
+    "price": 109,
+    "salePrice": 109,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/S2oAAeSw-plpb1bT/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/S2oAAeSw-plpb1bT/s-l1600.jpg",
+    "summary": "Gasmate 2 Burner Portable Camping Stove. This convenient & portable 2 burner stove is ideal for camping, caravanning & picnicking. It has a sturdy design yet still folds down to...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/236591391224?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Gas%20Stove%20Gasmate%20Turbo%202%20Burner%20Camping%20Portable%20Cooker%20BBQ",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Gas%20Stove%20Gasmate%20Turbo%202%20Burner%20Camping%20Portable%20Cooker%20BBQ",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Gas%20Stove%20Gasmate%20Turbo%202%20Burner%20Camping%20Portable%20Cooker%20BBQ",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Gas%20Stove%20Gasmate%20Turbo%202%20Burner%20Camping%20Portable%20Cooker%20BBQ",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Gas%20Stove%20Gasmate%20Turbo%202%20Burner%20Camping%20Portable%20Cooker%20BBQ",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Gas%20Stove%20Gasmate%20Turbo%202%20Burner%20Camping%20Portable%20Cooker%20BBQ",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|236591391224|0",
+    "sourceLegacyItemId": "236591391224",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/236591391224?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:35:31Z"
+  },
+  {
+    "slug": "coleman-coleman-outdoor-camping-hiking-lantern-classic-800-lumens-lithium-ion-lantern",
+    "name": "COLEMAN Outdoor Camping/Hiking Lantern Classic 800 Lumens Lithium Ion Lantern",
+    "brand": "COLEMAN",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 184,
+    "salePrice": 162,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/hM8AAeSw~elpaRM4/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/hM8AAeSw~elpaRM4/s-l1600.jpg",
+    "summary": "Brighten your adventures with this essential lantern! Coleman Lantern Classic 800L Lithium Ion Lantern Outdoor Camping. 1 x Coleman Lantern Classic 800L Lithium Ion Lantern Outd...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/336391075380?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=COLEMAN%20Outdoor%20Camping/Hiking%20Lantern%20Classic%20800%20Lumens%20Lithium%20Ion%20Lantern",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=COLEMAN%20Outdoor%20Camping/Hiking%20Lantern%20Classic%20800%20Lumens%20Lithium%20Ion%20Lantern",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=COLEMAN%20Outdoor%20Camping/Hiking%20Lantern%20Classic%20800%20Lumens%20Lithium%20Ion%20Lantern",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=COLEMAN%20Outdoor%20Camping/Hiking%20Lantern%20Classic%20800%20Lumens%20Lithium%20Ion%20Lantern",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=COLEMAN%20Outdoor%20Camping/Hiking%20Lantern%20Classic%20800%20Lumens%20Lithium%20Ion%20Lantern",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=COLEMAN%20Outdoor%20Camping/Hiking%20Lantern%20Classic%20800%20Lumens%20Lithium%20Ion%20Lantern",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|336391075380|0",
+    "sourceLegacyItemId": "336391075380",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/336391075380?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:35:33Z"
+  },
+  {
+    "slug": "coleman-coleman-lantern-250-lumens-swagger-lithium-ion-lantern-outdoor-camping-hiking",
+    "name": "COLEMAN Lantern 250 Lumens Swagger Lithium Ion Lantern Outdoor Camping/Hiking",
+    "brand": "COLEMAN",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 71,
+    "salePrice": 67,
+    "rating": 5.0,
+    "reviews": 1,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/ndgAAeSwhZ9paRJK/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/ndgAAeSwhZ9paRJK/s-l1600.jpg",
+    "summary": "The Coleman Lantern Swagger Lithium Ion Lantern is a versatile and portable lighting solution designed for outdoor enthusiasts and campers. 247 Deals brings you the latest and g...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/236583587450?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=COLEMAN%20Lantern%20250%20Lumens%20Swagger%20Lithium%20Ion%20Lantern%20Outdoor%20Camping/Hiking",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=COLEMAN%20Lantern%20250%20Lumens%20Swagger%20Lithium%20Ion%20Lantern%20Outdoor%20Camping/Hiking",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=COLEMAN%20Lantern%20250%20Lumens%20Swagger%20Lithium%20Ion%20Lantern%20Outdoor%20Camping/Hiking",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=COLEMAN%20Lantern%20250%20Lumens%20Swagger%20Lithium%20Ion%20Lantern%20Outdoor%20Camping/Hiking",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=COLEMAN%20Lantern%20250%20Lumens%20Swagger%20Lithium%20Ion%20Lantern%20Outdoor%20Camping/Hiking",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=COLEMAN%20Lantern%20250%20Lumens%20Swagger%20Lithium%20Ion%20Lantern%20Outdoor%20Camping/Hiking",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|236583587450|0",
+    "sourceLegacyItemId": "236583587450",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/236583587450?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:35:34Z"
+  },
+  {
+    "slug": "ledlenser-ml6-camping-lantern-led-with-microprism-technology",
+    "name": "ML6 Camping Lantern, LED with Microprism Technology",
+    "brand": "Ledlenser",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 239,
+    "salePrice": 239,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/PzMAAeSwB5hpXidB/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/PzMAAeSwB5hpXidB/s-l1600.jpg",
+    "summary": "HAVE LIGHT, WILL TRAVEL: Our all-purpose, go-anywhere outdoor camp lantern features Micro Prism Lens technology to ensure optimal, glare-free light distribution and energy effic...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/187924269082?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xB%2FUb%2B2aB7lsH7Ka8Ja7OtrXEtV2GeYSO2KqX7oAdMTZfYVg2IV2qL3n61Nn9%2BqNMVYLJjchdS61Wnttr1KMDsAPL6YF4sIy8sfZfzBaxwHwMBJj0%2BVLncNyf5selbPdEXn1aps83XM03tLJDsY0XPWYbNHrjJlblzMwzJ7bMYcSHRg1qHq53rtxRJmk%2FbSrHY%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=ML6%20Camping%20Lantern%2C%20LED%20with%20Microprism%20Technology",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=ML6%20Camping%20Lantern%2C%20LED%20with%20Microprism%20Technology",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=ML6%20Camping%20Lantern%2C%20LED%20with%20Microprism%20Technology",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=ML6%20Camping%20Lantern%2C%20LED%20with%20Microprism%20Technology",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=ML6%20Camping%20Lantern%2C%20LED%20with%20Microprism%20Technology",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=ML6%20Camping%20Lantern%2C%20LED%20with%20Microprism%20Technology",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|187924269082|0",
+    "sourceLegacyItemId": "187924269082",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/187924269082?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xB%2FUb%2B2aB7lsH7Ka8Ja7OtrXEtV2GeYSO2KqX7oAdMTZfYVg2IV2qL3n61Nn9%2BqNMVYLJjchdS61Wnttr1KMDsAPL6YF4sIy8sfZfzBaxwHwMBJj0%2BVLncNyf5selbPdEXn1aps83XM03tLJDsY0XPWYbNHrjJlblzMwzJ7bMYcSHRg1qHq53rtxRJmk%2FbSrHY%3D",
+    "importedAt": "2026-03-15T21:35:53Z"
+  },
+  {
+    "slug": "ledlenser-ledlenser-ml4-rechargeable-mini-lantern-300-lumens",
+    "name": "Ledlenser ML4 Rechargeable Mini Lantern (300 Lumens)",
+    "brand": "Ledlenser",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 75,
+    "salePrice": 75,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/j88AAOSwE3xnEF35/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/j88AAOSwE3xnEF35/s-l1600.jpg",
+    "summary": "Utilising nine LEDs with five light functions and featuring a red light mode, this versatile lantern provides the perfect illumination for the tent, caravan, attic, shed or anyw...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/375719694375?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Ledlenser%20ML4%20Rechargeable%20Mini%20Lantern%20%28300%20Lumens%29",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Ledlenser%20ML4%20Rechargeable%20Mini%20Lantern%20%28300%20Lumens%29",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Ledlenser%20ML4%20Rechargeable%20Mini%20Lantern%20%28300%20Lumens%29",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Ledlenser%20ML4%20Rechargeable%20Mini%20Lantern%20%28300%20Lumens%29",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Ledlenser%20ML4%20Rechargeable%20Mini%20Lantern%20%28300%20Lumens%29",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Ledlenser%20ML4%20Rechargeable%20Mini%20Lantern%20%28300%20Lumens%29",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|375719694375|0",
+    "sourceLegacyItemId": "375719694375",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/375719694375?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:35:53Z"
+  },
+  {
+    "slug": "blukar-camping-lantern-rechargeable-blukar-super-bright-led-camping-lights-lamp-with-7",
+    "name": "Camping Lantern Rechargeable, Blukar Super Bright LED Camping Lights Lamp with 7",
+    "brand": "Blukar",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 38,
+    "salePrice": 38,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/GaMAAeSwEVVpthNF/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/GaMAAeSwEVVpthNF/s-l1600.jpg",
+    "summary": "Manufacturer Blukar. Blukar Super Bright & Portable Camping Lantern. 🏕【Multifunctional Camping Light】Dual-purpose design. Folding side light, this light can be used as a portabl...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/358331849678?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBlkYCofBaqWrsRGpifTP%2BXuQNNuEPJ8waPP2t%2BQs6ySOSZlvsXQzLZHEWZdhPxhQEbeqwhZizwTzlpKNtHstFrBj1GWYw2njcqpTuVkTX57cAwp%2BYf3T6xTWjODvAGKkL6nRydGYlGo4U37X6IR1kbsTHxIGpWzAq5zc0BMQzxHl6gM%2B%2Fycvutr3pCrorkHo4%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Camping%20Lantern%20Rechargeable%2C%20Blukar%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Camping%20Lantern%20Rechargeable%2C%20Blukar%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Camping%20Lantern%20Rechargeable%2C%20Blukar%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Camping%20Lantern%20Rechargeable%2C%20Blukar%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Camping%20Lantern%20Rechargeable%2C%20Blukar%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Camping%20Lantern%20Rechargeable%2C%20Blukar%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|358331849678|0",
+    "sourceLegacyItemId": "358331849678",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/358331849678?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBlkYCofBaqWrsRGpifTP%2BXuQNNuEPJ8waPP2t%2BQs6ySOSZlvsXQzLZHEWZdhPxhQEbeqwhZizwTzlpKNtHstFrBj1GWYw2njcqpTuVkTX57cAwp%2BYf3T6xTWjODvAGKkL6nRydGYlGo4U37X6IR1kbsTHxIGpWzAq5zc0BMQzxHl6gM%2B%2Fycvutr3pCrorkHo4%3D",
+    "importedAt": "2026-03-15T21:36:10Z"
+  },
+  {
+    "slug": "blukar-camping-lantern-rechargeable-blukar-super-bright-led-camping-lights-lamp-with-7-2",
+    "name": "Camping Lantern Rechargeable, Blukar Super Bright LED Camping Lights Lamp with 7",
+    "brand": "Blukar",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 63,
+    "salePrice": 63,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/e08AAeSwDrZpiPTb/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/e08AAeSwDrZpiPTb/s-l1600.jpg",
+    "summary": "Manufacturer Blukar. Blukar Super Bright & Portable Camping Lantern. 🏕【Multifunctional Camping Light】Dual-purpose design. Folding side light, this light can be used as a portabl...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/376947032424?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDZHxm4JPAcIrf3rK%2B9Wme%2FJfEMJAMRznBQYpg5XM8zc8X0VCoGc67t9JqevlKqrK8I13PVM0Y8b%2FKMDlDAwgclW%2F0rXjWwzNKgeItg0cMShNHyK9kSXBNBHVlyhVoLPl9%2FsQbcRqRh%2BJtImkRhQ4bjDXRshE95QKxHNEbQ9i5E0UPTVo6MApio61HljLDurR0%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Camping%20Lantern%20Rechargeable%2C%20Blukar%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Camping%20Lantern%20Rechargeable%2C%20Blukar%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Camping%20Lantern%20Rechargeable%2C%20Blukar%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Camping%20Lantern%20Rechargeable%2C%20Blukar%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Camping%20Lantern%20Rechargeable%2C%20Blukar%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Camping%20Lantern%20Rechargeable%2C%20Blukar%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|376947032424|0",
+    "sourceLegacyItemId": "376947032424",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/376947032424?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDZHxm4JPAcIrf3rK%2B9Wme%2FJfEMJAMRznBQYpg5XM8zc8X0VCoGc67t9JqevlKqrK8I13PVM0Y8b%2FKMDlDAwgclW%2F0rXjWwzNKgeItg0cMShNHyK9kSXBNBHVlyhVoLPl9%2FsQbcRqRh%2BJtImkRhQ4bjDXRshE95QKxHNEbQ9i5E0UPTVo6MApio61HljLDurR0%3D",
+    "importedAt": "2026-03-15T21:36:15Z"
+  },
+  {
+    "slug": "modabay-100-lumen-portable-camp-light",
+    "name": "100 Lumen Portable Camp Light",
+    "brand": "Modabay",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 19,
+    "salePrice": 19,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/MwsAAeSwpCVpjquw/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/MwsAAeSwpCVpjquw/s-l1600.jpg",
+    "summary": "Sturdy and durable to use, long service life. Special Features Portable. Water resistance level Not Water Resistant. Shape Irregular Shape. Add to Favorite. Battery life 25 Hour...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/157679001107?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|157679001107|0",
+    "sourceLegacyItemId": "157679001107",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/157679001107?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:36:17Z"
+  },
+  {
+    "slug": "oztrail-100-lumen-portable-camp-light-3",
+    "name": "100 Lumen Portable Camp Light",
+    "brand": "OZtrail",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 19,
+    "salePrice": 19,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/Dd4AAeSwhTxpjZsf/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/Dd4AAeSwhTxpjZsf/s-l1600.jpg",
+    "summary": "Sturdy and durable to use, long service life. Special Features Portable. Water resistance level Not Water Resistant. Shape Irregular Shape. Add to Favorite. Battery life 25 Hour...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/306765731977?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAlawow5kWpKWe1uq9DXnkjTRfT7%2Fh%2FwQlBuvQlTf%2FB3YafnEg8pOnkY186W8O5GPGS8OOIOPTteRsraO%2B%2BJsZ9KfxEUS3zHdcNRmeZhEDjTutyfacT2xF1X4ohJUfQxiaayBrvDNAexUqnLlFMxF4rl7PTlUdb9%2BHeg7wDAG0w2wjjKoAb99HDQfyx8AgbOxA%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|306765731977|0",
+    "sourceLegacyItemId": "306765731977",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/306765731977?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAlawow5kWpKWe1uq9DXnkjTRfT7%2Fh%2FwQlBuvQlTf%2FB3YafnEg8pOnkY186W8O5GPGS8OOIOPTteRsraO%2B%2BJsZ9KfxEUS3zHdcNRmeZhEDjTutyfacT2xF1X4ohJUfQxiaayBrvDNAexUqnLlFMxF4rl7PTlUdb9%2BHeg7wDAG0w2wjjKoAb99HDQfyx8AgbOxA%3D",
+    "importedAt": "2026-03-15T21:36:17Z"
+  },
+  {
+    "slug": "bnn-energizer-ultra-bright-500-lumen-pivoting-folding-lantern",
+    "name": "Energizer Ultra-Bright 500 Lumen Pivoting Folding Lantern",
+    "brand": "BNN",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 44,
+    "salePrice": 44,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/5zcAAOSwNhtmQt-L/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/5zcAAOSwNhtmQt-L/s-l1600.jpg",
+    "summary": "Picture yourself on a serene camping trip in the woods. As you settle into your tent, switch to the amber nightlight mode for just the right amount of low-level illumination. No...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/256510988931?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Energizer%20Ultra-Bright%20500%20Lumen%20Pivoting%20Folding%20Lantern",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Energizer%20Ultra-Bright%20500%20Lumen%20Pivoting%20Folding%20Lantern",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Energizer%20Ultra-Bright%20500%20Lumen%20Pivoting%20Folding%20Lantern",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Energizer%20Ultra-Bright%20500%20Lumen%20Pivoting%20Folding%20Lantern",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Energizer%20Ultra-Bright%20500%20Lumen%20Pivoting%20Folding%20Lantern",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Energizer%20Ultra-Bright%20500%20Lumen%20Pivoting%20Folding%20Lantern",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|256510988931|0",
+    "sourceLegacyItemId": "256510988931",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/256510988931?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:36:18Z"
+  },
+  {
+    "slug": "energizer-energizer-8-led-camping-folding-lantern-fl455-50-lumens-3-light-modes-white",
+    "name": "Energizer 8-LED CAMPING FOLDING LANTERN FL455 50 Lumens 3 Light Modes White",
+    "brand": "Energizer",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 70,
+    "salePrice": 70,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/1jAAAOSwbWNfuhN9/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/1jAAAOSwbWNfuhN9/s-l1600.jpg",
+    "summary": "Featuring a patented pivoting function, the lantern easily folds out for 360 area lighting or retracts for exceptional portability. For power saving, high and low modes provide...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/254785717127?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Energizer%208-LED%20CAMPING%20FOLDING%20LANTERN%20FL455%2050%20Lumens%203%20Light%20Modes%20White",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Energizer%208-LED%20CAMPING%20FOLDING%20LANTERN%20FL455%2050%20Lumens%203%20Light%20Modes%20White",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Energizer%208-LED%20CAMPING%20FOLDING%20LANTERN%20FL455%2050%20Lumens%203%20Light%20Modes%20White",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Energizer%208-LED%20CAMPING%20FOLDING%20LANTERN%20FL455%2050%20Lumens%203%20Light%20Modes%20White",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Energizer%208-LED%20CAMPING%20FOLDING%20LANTERN%20FL455%2050%20Lumens%203%20Light%20Modes%20White",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Energizer%208-LED%20CAMPING%20FOLDING%20LANTERN%20FL455%2050%20Lumens%203%20Light%20Modes%20White",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|254785717127|0",
+    "sourceLegacyItemId": "254785717127",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/254785717127?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:36:18Z"
+  },
+  {
+    "slug": "sea-to-summit-new-sea-to-summit-ultralight-insulated-mat-orange-large",
+    "name": "*NEW* Sea to Summit Ultralight Insulated Mat Orange Large",
+    "brand": "Sea to Summit",
+    "category": "sleep-systems",
+    "categoryName": "Camp Sleep Systems",
+    "price": 195,
+    "salePrice": 195,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/yaUAAOSwULFn9KE4/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/yaUAAOSwULFn9KE4/s-l1600.jpg",
+    "summary": "*NEW* Sea to Summit Ultralight Insulated Mat Orange Large",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/176991190059?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=%2ANEW%2A%20Sea%20to%20Summit%20Ultralight%20Insulated%20Mat%20Orange%20Large",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=%2ANEW%2A%20Sea%20to%20Summit%20Ultralight%20Insulated%20Mat%20Orange%20Large",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=%2ANEW%2A%20Sea%20to%20Summit%20Ultralight%20Insulated%20Mat%20Orange%20Large",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=%2ANEW%2A%20Sea%20to%20Summit%20Ultralight%20Insulated%20Mat%20Orange%20Large",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=%2ANEW%2A%20Sea%20to%20Summit%20Ultralight%20Insulated%20Mat%20Orange%20Large",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=%2ANEW%2A%20Sea%20to%20Summit%20Ultralight%20Insulated%20Mat%20Orange%20Large",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|176991190059|0",
+    "sourceLegacyItemId": "176991190059",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/176991190059?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:36:21Z"
+  },
+  {
+    "slug": "therm-a-rest-therm-a-rest-trail-scout-self-inflating-sleeping-mat-pad-r3-1-new-2022-model",
+    "name": "Therm-a-Rest TRAIL SCOUT SELF INFLATING SLEEPING MAT PAD R3.1 NEW 2022 MODEL",
+    "brand": "Therm-a-Rest",
+    "category": "sleep-systems",
+    "categoryName": "Camp Sleep Systems",
+    "price": 140,
+    "salePrice": 119,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/8E0AAOSw3~difOJN/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/8E0AAOSw3~difOJN/s-l1600.jpg",
+    "summary": "The new generation Trail Scout by Therm-A-Rest® is an excellent mat for people on a budget or looking to step up from a closed cell foam mat. updated 2022 model with low-vis col...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/321841236943?var=514088139920&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Therm-a-Rest%20TRAIL%20SCOUT%20SELF%20INFLATING%20SLEEPING%20MAT%20PAD%20R3.1%20NEW%202022%20MODEL",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Therm-a-Rest%20TRAIL%20SCOUT%20SELF%20INFLATING%20SLEEPING%20MAT%20PAD%20R3.1%20NEW%202022%20MODEL",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Therm-a-Rest%20TRAIL%20SCOUT%20SELF%20INFLATING%20SLEEPING%20MAT%20PAD%20R3.1%20NEW%202022%20MODEL",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Therm-a-Rest%20TRAIL%20SCOUT%20SELF%20INFLATING%20SLEEPING%20MAT%20PAD%20R3.1%20NEW%202022%20MODEL",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Therm-a-Rest%20TRAIL%20SCOUT%20SELF%20INFLATING%20SLEEPING%20MAT%20PAD%20R3.1%20NEW%202022%20MODEL",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Therm-a-Rest%20TRAIL%20SCOUT%20SELF%20INFLATING%20SLEEPING%20MAT%20PAD%20R3.1%20NEW%202022%20MODEL",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|321841236943|514088139920",
+    "sourceLegacyItemId": "321841236943",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/321841236943?var=514088139920&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-15T21:36:23Z"
   }
 ]
