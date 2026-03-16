@@ -252,6 +252,13 @@
     "category": "tents"
   },
   {
+    "slug": "coleman-vs-goal-zero-lanterns",
+    "title": "COLEMAN vs Goal Zero Camping Lanterns: Which Is Better for Australian Campers?",
+    "excerpt": "Compare COLEMAN COLEMAN Lantern 250 Lumens Swagger Lithium Ion Lantern Outdoor Camping/Hiking and Goal Zero Goal Zero Lighthouse 600 Lantern. Prices, ratings, specs and store links for Australian campers.",
+    "type": "comparison",
+    "category": "tents"
+  },
+  {
     "slug": "coleman-vs-helinox-chairs",
     "title": "Coleman vs Helinox Camping Chairs: Which Is Better for Australian Campers?",
     "excerpt": "Compare Coleman 1218360 Quad Deluxe Mesh Event Chair, Grey and Helinox Helinox Ground Chair - Black. Prices, ratings, specs and store links for Australian campers.",
@@ -269,6 +276,13 @@
     "slug": "coleman-vs-ledlenser-lanterns",
     "title": "COLEMAN vs Ledlenser Camping Lanterns: Which Is Better for Australian Campers?",
     "excerpt": "Compare COLEMAN COLEMAN Lantern 250 Lumens Swagger Lithium Ion Lantern Outdoor Camping/Hiking and Ledlenser Ledlenser ML6 LED Lantern Rechargeable Camping Light Power Bank. Prices, ratings, specs and store links for Australian campers.",
+    "type": "comparison",
+    "category": "tents"
+  },
+  {
+    "slug": "coleman-vs-nitecore-lanterns",
+    "title": "COLEMAN vs Nitecore Camping Lanterns: Which Is Better for Australian Campers?",
+    "excerpt": "Compare COLEMAN COLEMAN Lantern 250 Lumens Swagger Lithium Ion Lantern Outdoor Camping/Hiking and Nitecore Nitecore LR60 Lantern. Prices, ratings, specs and store links for Australian campers.",
     "type": "comparison",
     "category": "tents"
   },
@@ -437,6 +451,13 @@
     "slug": "gasmate-genuine-australia-certified-vs-companion-stoves",
     "title": "Gasmate Genuine Australia Certified vs Companion Camping Stoves: Which Is Better for Australian Campers?",
     "excerpt": "Compare Gasmate Genuine Australia Certified Butane Stove Portable Gasmate Single Gas Burner Camp Cooker & Case AGA APPROVED and Companion Companion HIGH OUTPUT 2 BURNER STOVE - 25K BTU W/ WINDSHIELDS + PIEZO IGNITION. Prices, ratings, specs and store links for Australian campers.",
+    "type": "comparison",
+    "category": "stoves"
+  },
+  {
+    "slug": "gasmate-genuine-australia-certified-vs-jetboil-stoves",
+    "title": "Gasmate Genuine Australia Certified vs Jetboil Camping Stoves: Which Is Better for Australian Campers?",
+    "excerpt": "Compare Gasmate Genuine Australia Certified Butane Stove Portable Gasmate Single Gas Burner Camp Cooker & Case AGA APPROVED and Jetboil Jetboil GENESIS BASECAMP SYSTEM ALL IN ONE 2 BURNER CAMP STOVE #GNSY-AU. Prices, ratings, specs and store links for Australian campers.",
     "type": "comparison",
     "category": "stoves"
   },
@@ -644,6 +665,20 @@
     "category": "tents"
   },
   {
+    "slug": "oztrail-vs-sea-to-summit-tents",
+    "title": "OZtrail vs Sea to Summit Camping Tents: Which Is Better for Australian Campers?",
+    "excerpt": "Compare OZtrail OZtrail Easy Fold 1 Person Stretcher Tent - Waterproof Camping Tent and Sea to Summit Sea to Summit Telos TR3 Tent. Prices, ratings, specs and store links for Australian campers.",
+    "type": "comparison",
+    "category": "tents"
+  },
+  {
+    "slug": "oztrail-vs-vango-tents",
+    "title": "OZtrail vs Vango Camping Tents: Which Is Better for Australian Campers?",
+    "excerpt": "Compare OZtrail OZtrail Easy Fold 1 Person Stretcher Tent - Waterproof Camping Tent and Vango Vango Scafell 300 3 Person Camping & Hiking Tent - Pamir (VTE-SC300-N). Prices, ratings, specs and store links for Australian campers.",
+    "type": "comparison",
+    "category": "tents"
+  },
+  {
     "slug": "sea-to-summit-vs-enlightened-equipment-sleep-systems",
     "title": "Sea to Summit vs Enlightened Equipment Sleeping Bags & Mats: Which Is Better for Australian Campers?",
     "excerpt": "Compare Sea to Summit Sea to Summit Altitude AT2 Sleeping Bag and Enlightened Equipment Enlightened Equipment Revelation Quilt. Prices, ratings, specs and store links for Australian campers.",
@@ -707,6 +742,13 @@
     "category": "stoves"
   },
   {
+    "slug": "trangia-vs-gasmate-genuine-australia-certified-stoves",
+    "title": "TRANGIA vs Gasmate Genuine Australia Certified Camping Stoves: Which Is Better for Australian Campers?",
+    "excerpt": "Compare TRANGIA Spirit Burner B25 by TRANGIA and Gasmate Genuine Australia Certified Butane Stove Portable Gasmate Single Gas Burner Camp Cooker & Case AGA APPROVED. Prices, ratings, specs and store links for Australian campers.",
+    "type": "comparison",
+    "category": "stoves"
+  },
+  {
     "slug": "trangia-vs-jetboil-stoves",
     "title": "TRANGIA vs Jetboil Camping Stoves: Which Is Better for Australian Campers?",
     "excerpt": "Compare TRANGIA Spirit Burner B25 by TRANGIA and Jetboil Jetboil GENESIS BASECAMP SYSTEM ALL IN ONE 2 BURNER CAMP STOVE #GNSY-AU. Prices, ratings, specs and store links for Australian campers.",
@@ -717,6 +759,13 @@
     "slug": "vango-vs-hilleberg-tents",
     "title": "Vango vs Hilleberg Camping Tents: Which Is Better for Australian Campers?",
     "excerpt": "Compare Vango Vango Scafell 300 3 Person Camping & Hiking Tent - Pamir (VTE-SC300-N) and Hilleberg Hilleberg Nallo 2 GT Tent. Prices, ratings, specs and store links for Australian campers.",
+    "type": "comparison",
+    "category": "tents"
+  },
+  {
+    "slug": "vango-vs-sea-to-summit-tents",
+    "title": "Vango vs Sea to Summit Camping Tents: Which Is Better for Australian Campers?",
+    "excerpt": "Compare Vango Vango Scafell 300 3 Person Camping & Hiking Tent - Pamir (VTE-SC300-N) and Sea to Summit Sea to Summit Telos TR3 Tent. Prices, ratings, specs and store links for Australian campers.",
     "type": "comparison",
     "category": "tents"
   },
