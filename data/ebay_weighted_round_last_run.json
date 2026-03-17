@@ -13,67 +13,54 @@
     {
       "category": "tents",
       "requested": 44,
-      "added": 14,
-      "brands": {
-        "Coleman": 5,
-        "OZtrail": 5,
-        "BlackWolf": 0,
-        "Sea to Summit": 0,
-        "Darche": 0,
-        "Hilleberg": 0,
-        "The North Face": 0,
-        "Big Agnes": 0,
-        "Vango": 4,
-        "Zempire": 0
-      },
-      "sourceCount": 277,
-      "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
+      "added": 0,
+      "error": "HTTP 503 for https://api.ebay.com/buy/browse/v1/item_summary/search?q=Darche+tent+camping&filter=buyingOptions%3A%7BFIXED_PRICE%7D%2Cconditions%3A%7BNEW%7D%2CdeliveryCountry%3AAU%2CitemLocationCountry%3AAU&sort=newlyListed&limit=100&offset=6100\n\n"
     },
     {
       "category": "chairs",
       "requested": 29,
-      "added": 12,
+      "added": 11,
       "brands": {
-        "Coleman": 1,
+        "Coleman": 3,
         "OZtrail": 3,
         "BlackWolf": 0,
         "Helinox": 3,
-        "Darche": 3,
-        "Sea to Summit": 2,
+        "Darche": 2,
+        "Sea to Summit": 0,
         "Companion": 0,
         "Wanderer": 0,
         "Vango": 0,
         "Zempire": 0
       },
-      "sourceCount": 289,
+      "sourceCount": 315,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
       "category": "coolers",
       "requested": 14,
-      "added": 2,
+      "added": 1,
       "brands": {
         "Coleman": 0,
         "YETI": 0,
-        "Dometic": 1,
+        "Dometic": 0,
         "Engel": 0,
         "Wanderer": 0,
-        "Companion": 1,
+        "Companion": 0,
         "Evakool": 0,
         "Igloo": 0,
-        "Sea to Summit": 0,
+        "Sea to Summit": 1,
         "Zempire": 0
       },
-      "sourceCount": 291,
+      "sourceCount": 316,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
       "category": "stoves",
       "requested": 12,
-      "added": 5,
+      "added": 4,
       "brands": {
         "Coleman": 0,
-        "Companion": 1,
+        "Companion": 0,
         "Jetboil": 0,
         "Primus": 0,
         "MSR": 0,
@@ -83,13 +70,13 @@
         "Trangia": 0,
         "Gasmate": 2
       },
-      "sourceCount": 296,
+      "sourceCount": 320,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
       "category": "lanterns",
       "requested": 12,
-      "added": 7,
+      "added": 6,
       "brands": {
         "Coleman": 2,
         "Black Diamond": 0,
@@ -99,10 +86,10 @@
         "Barebones": 0,
         "Sea to Summit": 2,
         "OZtrail": 2,
-        "Companion": 1,
+        "Companion": 0,
         "Vango": 0
       },
-      "sourceCount": 303,
+      "sourceCount": 326,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -121,9 +108,9 @@
         "Wanderer": 0,
         "Big Agnes": 0
       },
-      "sourceCount": 304,
+      "sourceCount": 327,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     }
   ],
-  "added_total": 41
+  "added_total": 23
 }
