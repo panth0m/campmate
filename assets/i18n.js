@@ -450,7 +450,7 @@
     const ebayOpen = document.getElementById('ebay-open'); if (ebayOpen) ebayOpen.textContent = t('view_on_ebay');
     const asideStrongs = document.querySelectorAll('.price-panel .card strong'); if (asideStrongs[0]) asideStrongs[0].textContent = t('affiliate_note');
     const asideP = document.querySelector('.price-panel .card p'); if (asideP) asideP.textContent = t('affiliate_note_p');
-    const disclosure = document.querySelector('.price-panel .card a[href="disclosure.html"]'); if (disclosure) disclosure.textContent = t('read_disclosure');
+    const disclosure = document.querySelector('.price-panel .card a[href="disclosure.html"], .price-panel .card a[href="/disclosure"]'); if (disclosure) disclosure.textContent = t('read_disclosure');
   }
 
   function translateExactTexts(root){

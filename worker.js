@@ -111,11 +111,28 @@ export default {
       return env.ASSETS.fetch(new Request(assetUrl.toString(), request));
     }
 
+    // Redirect legacy .html guide routes to clean guide URLs.
+    if (url.pathname.startsWith("/guides/") && url.pathname.endsWith(".html")) {
+      const redirectUrl = new URL(url.origin);
+      redirectUrl.pathname = url.pathname.replace(/\.html$/, "");
+      redirectUrl.search = url.search;
+      return Response.redirect(redirectUrl.toString(), 301);
+    }
+
     // Pretty guide routes: /guides/slug -> /guides/slug.html
     if (url.pathname.startsWith("/guides/") && !url.pathname.endsWith(".html")) {
       const assetUrl = new URL(request.url);
       assetUrl.pathname = `${url.pathname}.html`;
+      assetUrl.search = "";
       return env.ASSETS.fetch(new Request(assetUrl.toString(), request));
+    }
+
+    // Redirect legacy .html product routes to clean product URLs.
+    if (url.pathname.startsWith("/products/") && url.pathname.endsWith(".html")) {
+      const redirectUrl = new URL(url.origin);
+      redirectUrl.pathname = url.pathname.replace(/\.html$/, "");
+      redirectUrl.search = url.search;
+      return Response.redirect(redirectUrl.toString(), 301);
     }
 
     // Pretty product routes: /products/slug -> /products/slug.html
