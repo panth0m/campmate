@@ -13,32 +13,45 @@
     {
       "category": "tents",
       "requested": 44,
-      "added": 0,
-      "error": "HTTP 503 for https://api.ebay.com/buy/browse/v1/item_summary/search?q=Darche+tent+camping&filter=buyingOptions%3A%7BFIXED_PRICE%7D%2Cconditions%3A%7BNEW%7D%2CdeliveryCountry%3AAU%2CitemLocationCountry%3AAU&sort=newlyListed&limit=100&offset=6100\n\n"
+      "added": 10,
+      "brands": {
+        "Coleman": 5,
+        "OZtrail": 5,
+        "BlackWolf": 0,
+        "Sea to Summit": 0,
+        "Darche": 0,
+        "Hilleberg": 0,
+        "The North Face": 0,
+        "Big Agnes": 0,
+        "Vango": 0,
+        "Zempire": 0
+      },
+      "sourceCount": 337,
+      "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
       "category": "chairs",
       "requested": 29,
-      "added": 11,
+      "added": 9,
       "brands": {
         "Coleman": 3,
         "OZtrail": 3,
         "BlackWolf": 0,
         "Helinox": 3,
-        "Darche": 2,
+        "Darche": 0,
         "Sea to Summit": 0,
         "Companion": 0,
         "Wanderer": 0,
         "Vango": 0,
         "Zempire": 0
       },
-      "sourceCount": 315,
+      "sourceCount": 346,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
       "category": "coolers",
       "requested": 14,
-      "added": 1,
+      "added": 0,
       "brands": {
         "Coleman": 0,
         "YETI": 0,
@@ -48,29 +61,29 @@
         "Companion": 0,
         "Evakool": 0,
         "Igloo": 0,
-        "Sea to Summit": 1,
+        "Sea to Summit": 0,
         "Zempire": 0
       },
-      "sourceCount": 316,
+      "sourceCount": 346,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
       "category": "stoves",
       "requested": 12,
-      "added": 4,
+      "added": 2,
       "brands": {
         "Coleman": 0,
         "Companion": 0,
         "Jetboil": 0,
         "Primus": 0,
         "MSR": 0,
-        "Camp Chef": 2,
+        "Camp Chef": 0,
         "Weber": 0,
         "Sea to Summit": 0,
         "Trangia": 0,
         "Gasmate": 2
       },
-      "sourceCount": 320,
+      "sourceCount": 348,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -89,7 +102,7 @@
         "Companion": 0,
         "Vango": 0
       },
-      "sourceCount": 326,
+      "sourceCount": 354,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -108,9 +121,9 @@
         "Wanderer": 0,
         "Big Agnes": 0
       },
-      "sourceCount": 327,
+      "sourceCount": 355,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     }
   ],
-  "added_total": 23
+  "added_total": 28
 }
