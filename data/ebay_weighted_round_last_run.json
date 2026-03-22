@@ -13,9 +13,9 @@
     {
       "category": "tents",
       "requested": 44,
-      "added": 9,
+      "added": 5,
       "brands": {
-        "Coleman": 4,
+        "Coleman": 0,
         "OZtrail": 5,
         "BlackWolf": 0,
         "Sea to Summit": 0,
@@ -26,26 +26,26 @@
         "Vango": 0,
         "Zempire": 0
       },
-      "sourceCount": 424,
+      "sourceCount": 444,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
       "category": "chairs",
       "requested": 29,
-      "added": 8,
+      "added": 5,
       "brands": {
-        "Coleman": 1,
-        "OZtrail": 3,
+        "Coleman": 0,
+        "OZtrail": 2,
         "BlackWolf": 0,
         "Helinox": 3,
         "Darche": 0,
         "Sea to Summit": 0,
-        "Companion": 1,
+        "Companion": 0,
         "Wanderer": 0,
         "Vango": 0,
         "Zempire": 0
       },
-      "sourceCount": 432,
+      "sourceCount": 449,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -64,7 +64,7 @@
         "Sea to Summit": 0,
         "Zempire": 0
       },
-      "sourceCount": 432,
+      "sourceCount": 449,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -83,13 +83,13 @@
         "Trangia": 0,
         "Gasmate": 2
       },
-      "sourceCount": 434,
+      "sourceCount": 451,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
       "category": "lanterns",
       "requested": 12,
-      "added": 4,
+      "added": 3,
       "brands": {
         "Coleman": 0,
         "Black Diamond": 0,
@@ -97,12 +97,12 @@
         "BioLite": 0,
         "Ledlenser": 0,
         "Barebones": 0,
-        "Sea to Summit": 2,
+        "Sea to Summit": 1,
         "OZtrail": 2,
         "Companion": 0,
         "Vango": 0
       },
-      "sourceCount": 438,
+      "sourceCount": 454,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -121,9 +121,9 @@
         "Wanderer": 0,
         "Big Agnes": 0
       },
-      "sourceCount": 439,
+      "sourceCount": 455,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     }
   ],
-  "added_total": 24
+  "added_total": 16
 }
