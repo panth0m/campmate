@@ -27589,5 +27589,585 @@
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/264495108737?var=564193287380&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAIdn5NQaVAOhGCNf3VkzGkclWKtalZmg%2F3b5VV9hiRSrDsHFx1cudxSAUPvOGELYnKWgnBTOYQbSrB0RrmOPzpT2cE4TFHTGoULBGnUu%2FxAQKDbV35KtAIpw5g5Uqxfr3O4CvDJ7sOG80x4YwcDeOxc%2FusoCHmbXb3xCkBIjHB5t%2B2IgfckmfDZsG8MXcyxmE%3D",
     "importedAt": "2026-03-23T22:01:02Z"
+  },
+  {
+    "slug": "sea-to-summit-sea-to-summit-alto-tr2-ultralight-2-person-hiking-tent-green-8",
+    "name": "Sea to Summit Alto TR2 Ultralight 2-Person Hiking Tent - Green",
+    "brand": "Sea to Summit",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 750,
+    "salePrice": 692,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "assets/images/categories/tents.svg",
+    "ebayImage": "assets/images/categories/tents.svg",
+    "summary": "Sea to Summit Alto TR2 Ultralight 2-Person Hiking Tent - Green",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/366103179410?_skw=Sea+to+Summit+tent+camping&hash=item553d733092%3Ai%3A366103179410&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10049",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Sea%20to%20Summit%20Alto%20TR2%20Ultralight%202-Person%20Hiking%20Tent%20-%20Green",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Sea%20to%20Summit%20Alto%20TR2%20Ultralight%202-Person%20Hiking%20Tent%20-%20Green",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Sea%20to%20Summit%20Alto%20TR2%20Ultralight%202-Person%20Hiking%20Tent%20-%20Green",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Sea%20to%20Summit%20Alto%20TR2%20Ultralight%202-Person%20Hiking%20Tent%20-%20Green",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Sea%20to%20Summit%20Alto%20TR2%20Ultralight%202-Person%20Hiking%20Tent%20-%20Green",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Sea%20to%20Summit%20Alto%20TR2%20Ultralight%202-Person%20Hiking%20Tent%20-%20Green",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|366103179410|0",
+    "sourceLegacyItemId": "366103179410",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/366103179410?_skw=Sea+to+Summit+tent+camping&hash=item553d733092%3Ai%3A366103179410&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10049",
+    "importedAt": "2026-03-24T21:43:38Z"
+  },
+  {
+    "slug": "helinox-helinox-chair-zero-black-with-blue-frame",
+    "name": "Helinox Chair Zero - Black with Blue Frame",
+    "brand": "Helinox",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 150,
+    "salePrice": 150,
+    "rating": 5.0,
+    "reviews": 1,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/DYEAAOSw5sBmlJ5g/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/DYEAAOSw5sBmlJ5g/s-l1600.jpg",
+    "summary": "Ground To Seat Base: 28cm. In-Use Length: 52cm.",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/227270248725?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Helinox%20Chair%20Zero%20-%20Black%20with%20Blue%20Frame",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Helinox%20Chair%20Zero%20-%20Black%20with%20Blue%20Frame",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Helinox%20Chair%20Zero%20-%20Black%20with%20Blue%20Frame",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Helinox%20Chair%20Zero%20-%20Black%20with%20Blue%20Frame",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Helinox%20Chair%20Zero%20-%20Black%20with%20Blue%20Frame",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Helinox%20Chair%20Zero%20-%20Black%20with%20Blue%20Frame",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|227270248725|0",
+    "sourceLegacyItemId": "227270248725",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/227270248725?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-24T21:51:25Z"
+  },
+  {
+    "slug": "helinox-helinox-ground-chair-black-with-blue-frame",
+    "name": "Helinox Ground Chair - Black With Blue Frame",
+    "brand": "Helinox",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 182,
+    "salePrice": 182,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/J7kAAOSw24BjxmCY/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/J7kAAOSw24BjxmCY/s-l1600.jpg",
+    "summary": "So lightweight and compact, you’ll want to bring your own chair to any adventure or gathering. About Helinox For those who thought they'd never have space for a camp chair, Grou...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/266088904965?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xB3toa9XBiyIdCwNkdP68iWo%2BxLWJlzNieZiTmkEdzHGhlp1IX3cYgUCZIy2YSza4lgYz5Lks8hIoM99e3ZcBYcHtGlBfT0V4Zyeq0NFjmRvJmARX6GDmjDZL%2Fz7E4oyYDWjOEIJgoPxlcQpg1%2BnhKHeujm9E5fnr4fkHI%2FR%2B7Fz8ced6czhsYRSVzqo0xGMcc%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Helinox%20Ground%20Chair%20-%20Black%20With%20Blue%20Frame",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Helinox%20Ground%20Chair%20-%20Black%20With%20Blue%20Frame",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Helinox%20Ground%20Chair%20-%20Black%20With%20Blue%20Frame",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Helinox%20Ground%20Chair%20-%20Black%20With%20Blue%20Frame",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Helinox%20Ground%20Chair%20-%20Black%20With%20Blue%20Frame",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Helinox%20Ground%20Chair%20-%20Black%20With%20Blue%20Frame",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|266088904965|0",
+    "sourceLegacyItemId": "266088904965",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/266088904965?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xB3toa9XBiyIdCwNkdP68iWo%2BxLWJlzNieZiTmkEdzHGhlp1IX3cYgUCZIy2YSza4lgYz5Lks8hIoM99e3ZcBYcHtGlBfT0V4Zyeq0NFjmRvJmARX6GDmjDZL%2Fz7E4oyYDWjOEIJgoPxlcQpg1%2BnhKHeujm9E5fnr4fkHI%2FR%2B7Fz8ced6czhsYRSVzqo0xGMcc%3D",
+    "importedAt": "2026-03-24T21:51:27Z"
+  },
+  {
+    "slug": "helinox-helinox-chair-one-xl-camp-chair-in-black",
+    "name": "Helinox Chair One XL Camp Chair in Black",
+    "brand": "Helinox",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 235,
+    "salePrice": 235,
+    "rating": 5.0,
+    "reviews": 1,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/47QAAeSwQCppwvcm/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/47QAAeSwQCppwvcm/s-l1600.jpg",
+    "summary": "If your derriere requires a bit more room, then the Helinox Chair One XL will keep you comfy without monopolising space and weight in your vehicle. When space and weight are at...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/385354391713?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Helinox%20Chair%20One%20XL%20Camp%20Chair%20in%20Black",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Helinox%20Chair%20One%20XL%20Camp%20Chair%20in%20Black",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Helinox%20Chair%20One%20XL%20Camp%20Chair%20in%20Black",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Helinox%20Chair%20One%20XL%20Camp%20Chair%20in%20Black",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Helinox%20Chair%20One%20XL%20Camp%20Chair%20in%20Black",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Helinox%20Chair%20One%20XL%20Camp%20Chair%20in%20Black",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|385354391713|0",
+    "sourceLegacyItemId": "385354391713",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/385354391713?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-24T21:51:28Z"
+  },
+  {
+    "slug": "darche-darche-260-chair-black-orange-easy-fold-padded-seat-2",
+    "name": "DARCHE 260 CHAIR BLACK/ORANGE - EASY FOLD PADDED SEAT",
+    "brand": "DARCHE",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 74,
+    "salePrice": 74,
+    "rating": 5.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/IIkAAeSwQ6lpwKsn/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/IIkAAeSwQ6lpwKsn/s-l1600.jpg",
+    "summary": "DARCHE 260 CHAIR. Once you’re sitting down in this chair, you won't want to get up again. With plenty of padding you’ll get unparalleled support on the back and the seat, while...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/298151719005?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=DARCHE%20260%20CHAIR%20BLACK/ORANGE%20-%20EASY%20FOLD%20PADDED%20SEAT",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=DARCHE%20260%20CHAIR%20BLACK/ORANGE%20-%20EASY%20FOLD%20PADDED%20SEAT",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=DARCHE%20260%20CHAIR%20BLACK/ORANGE%20-%20EASY%20FOLD%20PADDED%20SEAT",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=DARCHE%20260%20CHAIR%20BLACK/ORANGE%20-%20EASY%20FOLD%20PADDED%20SEAT",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=DARCHE%20260%20CHAIR%20BLACK/ORANGE%20-%20EASY%20FOLD%20PADDED%20SEAT",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=DARCHE%20260%20CHAIR%20BLACK/ORANGE%20-%20EASY%20FOLD%20PADDED%20SEAT",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|298151719005|0",
+    "sourceLegacyItemId": "298151719005",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/298151719005?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-24T21:51:29Z"
+  },
+  {
+    "slug": "darche-darche-eco-xl-relax-folding-chair-2",
+    "name": "Darche ECO XL RELAX FOLDING CHAIR",
+    "brand": "Darche",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 120,
+    "salePrice": 120,
+    "rating": 5.0,
+    "reviews": 1,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/85gAAeSwV2FpwKoO/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/85gAAeSwV2FpwKoO/s-l1600.jpg",
+    "summary": "Experience ultimate outdoor comfort with the Darche ECO Relax Folding Chair XL, designed for those who value relaxation and style on their adventures. Its plush padded seat and...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/298151714269?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Darche%20ECO%20XL%20RELAX%20FOLDING%20CHAIR",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Darche%20ECO%20XL%20RELAX%20FOLDING%20CHAIR",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Darche%20ECO%20XL%20RELAX%20FOLDING%20CHAIR",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Darche%20ECO%20XL%20RELAX%20FOLDING%20CHAIR",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Darche%20ECO%20XL%20RELAX%20FOLDING%20CHAIR",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Darche%20ECO%20XL%20RELAX%20FOLDING%20CHAIR",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|298151714269|0",
+    "sourceLegacyItemId": "298151714269",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/298151714269?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-24T21:51:29Z"
+  },
+  {
+    "slug": "sea-to-summit-rechargeable-camping-lantern-60-led-7-modes-10-hrs-battery-life",
+    "name": "Rechargeable Camping Lantern - 60 LED, 7 Modes, 10+ Hrs Battery Life",
+    "brand": "Sea to Summit",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 43,
+    "salePrice": 43,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/nxAAAeSwSTlpJBO6/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/nxAAAeSwSTlpJBO6/s-l1600.jpg",
+    "summary": "Blukar Super Bright & Portable Camping Lantern. 🏕【7 Lighting Modes】This camping light has 7 modes to choose from: Strong Side Light - Weak Side Light - Bottom High Light - Botto...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/167954247792?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Rechargeable%20Camping%20Lantern%20-%2060%20LED%2C%207%20Modes%2C%2010%2B%20Hrs%20Battery%20Life",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Rechargeable%20Camping%20Lantern%20-%2060%20LED%2C%207%20Modes%2C%2010%2B%20Hrs%20Battery%20Life",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Rechargeable%20Camping%20Lantern%20-%2060%20LED%2C%207%20Modes%2C%2010%2B%20Hrs%20Battery%20Life",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Rechargeable%20Camping%20Lantern%20-%2060%20LED%2C%207%20Modes%2C%2010%2B%20Hrs%20Battery%20Life",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Rechargeable%20Camping%20Lantern%20-%2060%20LED%2C%207%20Modes%2C%2010%2B%20Hrs%20Battery%20Life",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Rechargeable%20Camping%20Lantern%20-%2060%20LED%2C%207%20Modes%2C%2010%2B%20Hrs%20Battery%20Life",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|167954247792|0",
+    "sourceLegacyItemId": "167954247792",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/167954247792?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-24T22:00:07Z"
+  },
+  {
+    "slug": "oztrail-100-lumen-portable-camp-light-19",
+    "name": "100 Lumen Portable Camp Light",
+    "brand": "OZtrail",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 12,
+    "salePrice": 12,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/ARIAAeSwkcppwl7B/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/ARIAAeSwkcppwl7B/s-l1600.jpg",
+    "summary": "Sturdy and durable to use, long service life. Features Portable. Water resistance level Not Water Resistant. Light is designed for maximum mounting versatility. Battery life 25...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/397754300490?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|397754300490|0",
+    "sourceLegacyItemId": "397754300490",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/397754300490?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-24T22:05:04Z"
+  },
+  {
+    "slug": "oztrail-new-oztrail-lumos-mozzie-zapper-lantern-by-anaconda",
+    "name": "NEW OZtrail Lumos Mozzie Zapper Lantern By Anaconda",
+    "brand": "OZtrail",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 54,
+    "salePrice": 54,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/~qkAAeSwb5ZplcIr/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/~qkAAeSwb5ZplcIr/s-l1600.jpg",
+    "summary": "Keep the mosquitoes at bay with the OZtrail Lumos Mozzie Zapper Lantern, with a built-in zapper function to get those pesky bugs before they bite! 2 x Mozzie attractant tablets....",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/297910634607?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=NEW%20OZtrail%20Lumos%20Mozzie%20Zapper%20Lantern%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=NEW%20OZtrail%20Lumos%20Mozzie%20Zapper%20Lantern%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=NEW%20OZtrail%20Lumos%20Mozzie%20Zapper%20Lantern%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=NEW%20OZtrail%20Lumos%20Mozzie%20Zapper%20Lantern%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=NEW%20OZtrail%20Lumos%20Mozzie%20Zapper%20Lantern%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=NEW%20OZtrail%20Lumos%20Mozzie%20Zapper%20Lantern%20By%20Anaconda",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|297910634607|0",
+    "sourceLegacyItemId": "297910634607",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/297910634607?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-24T22:05:04Z"
+  },
+  {
+    "slug": "sea-to-summit-sea-to-summit-ultra-light-insulated-inflatable-mattress",
+    "name": "Sea to Summit Ultra Light Insulated Inflatable Mattress",
+    "brand": "Sea to Summit",
+    "category": "sleep-systems",
+    "categoryName": "Camp Sleep Systems",
+    "price": 169,
+    "salePrice": 169,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/9DwAAOSwA5ViyYF5/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/9DwAAOSwA5ViyYF5/s-l1600.jpg",
+    "summary": "We're redefining lightweight cold-climate sleeping comfort with the Exkin Platinum® and THERMOLITE® insulation system in these mattresses. Think you're sleeping on a spring matt...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/264495108413?var=564193287065&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCQ%2B%2BU1s6%2B9ppUQ8egRYbjyLk5nL%2FoDQgr0LK%2FOCceXhl2RBQ9kwuapIKDa6ad%2FTJC2hgfyt7uoPFRq%2Fsl7Q3hLXOOJm78ApZ%2BcY%2BMsBNihb%2FmEJxlUMVM%2BQkZg5cjuBXD3YabznPgatlrIkpHdXZvmahOgtrUpjVpqkQuHvDo2F8oJkGomCeo54NNqiaiJUks%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Sea%20to%20Summit%20Ultra%20Light%20Insulated%20Inflatable%20Mattress",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Sea%20to%20Summit%20Ultra%20Light%20Insulated%20Inflatable%20Mattress",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Sea%20to%20Summit%20Ultra%20Light%20Insulated%20Inflatable%20Mattress",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Sea%20to%20Summit%20Ultra%20Light%20Insulated%20Inflatable%20Mattress",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Sea%20to%20Summit%20Ultra%20Light%20Insulated%20Inflatable%20Mattress",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Sea%20to%20Summit%20Ultra%20Light%20Insulated%20Inflatable%20Mattress",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|264495108413|564193287065",
+    "sourceLegacyItemId": "264495108413",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/264495108413?var=564193287065&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCQ%2B%2BU1s6%2B9ppUQ8egRYbjyLk5nL%2FoDQgr0LK%2FOCceXhl2RBQ9kwuapIKDa6ad%2FTJC2hgfyt7uoPFRq%2Fsl7Q3hLXOOJm78ApZ%2BcY%2BMsBNihb%2FmEJxlUMVM%2BQkZg5cjuBXD3YabznPgatlrIkpHdXZvmahOgtrUpjVpqkQuHvDo2F8oJkGomCeo54NNqiaiJUks%3D",
+    "importedAt": "2026-03-24T22:05:18Z"
   }
 ]
