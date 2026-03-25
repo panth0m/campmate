@@ -28169,5 +28169,585 @@
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/264495108413?var=564193287065&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCQ%2B%2BU1s6%2B9ppUQ8egRYbjyLk5nL%2FoDQgr0LK%2FOCceXhl2RBQ9kwuapIKDa6ad%2FTJC2hgfyt7uoPFRq%2Fsl7Q3hLXOOJm78ApZ%2BcY%2BMsBNihb%2FmEJxlUMVM%2BQkZg5cjuBXD3YabznPgatlrIkpHdXZvmahOgtrUpjVpqkQuHvDo2F8oJkGomCeo54NNqiaiJUks%3D",
     "importedAt": "2026-03-24T22:05:18Z"
+  },
+  {
+    "slug": "vango-vango-athos-500-5-person-camping-hiking-tent-moroccan-blue-vte-at500-q-2",
+    "name": "Vango Athos 500 5 Person Camping & Hiking Tent - Moroccan Blue (VTE-AT500-Q)",
+    "brand": "Vango",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 390,
+    "salePrice": 390,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/HHAAAeSwV8xpwdn9/s-l225.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/HHAAAeSwV8xpwdn9/s-l225.jpg",
+    "summary": "Vango Athos 500 5 Person Camping & Hiking Tent - Moroccan Blue (VTE-AT500-Q)",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/352974907295?_skw=Vango+tent+camping&hash=item522ef1a79f%3Ag%3AHHAAAeSwV8xpwdn9&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10049",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Vango%20Athos%20500%205%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-AT500-Q%29",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Vango%20Athos%20500%205%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-AT500-Q%29",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Vango%20Athos%20500%205%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-AT500-Q%29",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Vango%20Athos%20500%205%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-AT500-Q%29",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Vango%20Athos%20500%205%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-AT500-Q%29",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Vango%20Athos%20500%205%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Moroccan%20Blue%20%28VTE-AT500-Q%29",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|352974907295|0",
+    "sourceLegacyItemId": "352974907295",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/352974907295?_skw=Vango+tent+camping&hash=item522ef1a79f%3Ag%3AHHAAAeSwV8xpwdn9&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10049",
+    "importedAt": "2026-03-25T21:45:23Z"
+  },
+  {
+    "slug": "helinox-helinox-chair-zero-lightweight-camping-chair",
+    "name": "Helinox Chair Zero Lightweight Camping Chair",
+    "brand": "Helinox",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 200,
+    "salePrice": 200,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://www.wildearth.com.au/assets/full/HX10551R1.jpg?20210318065310",
+    "ebayImage": "https://www.wildearth.com.au/assets/full/HX10551R1.jpg?20210318065310",
+    "summary": "Starting with the basic concept of the iconic Chair One, we shaved 450 grams to produce our lightest chair ever: Chair Zero. At just over 500 grams, Chair Zero weighs less than...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/374406382076?var=644408884730&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Helinox%20Chair%20Zero%20Lightweight%20Camping%20Chair",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Helinox%20Chair%20Zero%20Lightweight%20Camping%20Chair",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Helinox%20Chair%20Zero%20Lightweight%20Camping%20Chair",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Helinox%20Chair%20Zero%20Lightweight%20Camping%20Chair",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Helinox%20Chair%20Zero%20Lightweight%20Camping%20Chair",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Helinox%20Chair%20Zero%20Lightweight%20Camping%20Chair",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|374406382076|644408884730",
+    "sourceLegacyItemId": "374406382076",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/374406382076?var=644408884730&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-25T21:52:26Z"
+  },
+  {
+    "slug": "helinox-helinox-beach-chair",
+    "name": "Helinox Beach Chair",
+    "brand": "Helinox",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 231,
+    "salePrice": 231,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/02gAAOSw8L1lRWnD/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/02gAAOSw8L1lRWnD/s-l1600.jpg",
+    "summary": "Helinox Beach Chair The Helinox Beach Chair is made for taking breaks on the beach between castle building and boogie boarding. Its splayed legs help prevent it from sinking int...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/325414531908?var=514427023056&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Helinox%20Beach%20Chair",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Helinox%20Beach%20Chair",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Helinox%20Beach%20Chair",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Helinox%20Beach%20Chair",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Helinox%20Beach%20Chair",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Helinox%20Beach%20Chair",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|325414531908|514427023056",
+    "sourceLegacyItemId": "325414531908",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/325414531908?var=514427023056&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-25T21:52:26Z"
+  },
+  {
+    "slug": "dometic-dometic-cool-ice-ci-55-icebox",
+    "name": "Dometic Cool Ice CI 55 Icebox",
+    "brand": "Dometic",
+    "category": "coolers",
+    "categoryName": "Coolers & Ice Boxes",
+    "price": 249,
+    "salePrice": 249,
+    "rating": 5.0,
+    "reviews": 2,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/VgsAAeSw9w5pxFgV/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/VgsAAeSw9w5pxFgV/s-l1600.jpg",
+    "summary": "The ergonomic handles make it easy to carry, and you can easily secure your icebox down with the tie down points under the handles. You also have the option to attach separate a...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/386610208409?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Dometic%20Cool%20Ice%20CI%2055%20Icebox",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Dometic%20Cool%20Ice%20CI%2055%20Icebox",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Dometic%20Cool%20Ice%20CI%2055%20Icebox",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Dometic%20Cool%20Ice%20CI%2055%20Icebox",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Dometic%20Cool%20Ice%20CI%2055%20Icebox",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Dometic%20Cool%20Ice%20CI%2055%20Icebox",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|386610208409|0",
+    "sourceLegacyItemId": "386610208409",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/386610208409?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-25T21:54:28Z"
+  },
+  {
+    "slug": "dometic-dometic-cool-ice-ci-85w-icebox",
+    "name": "Dometic Cool Ice CI 85W Icebox",
+    "brand": "Dometic",
+    "category": "coolers",
+    "categoryName": "Coolers & Ice Boxes",
+    "price": 449,
+    "salePrice": 449,
+    "rating": 1.0,
+    "reviews": 1,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/32wAAeSw33ZpxFhr/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/32wAAeSw33ZpxFhr/s-l1600.jpg",
+    "summary": "The Cool Ice 85 is made of UV stabilised food grade polyethylene and uses improved refrigeration grade foam insulation for keeping your haul nice and cold. You never have to str...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/386610208491?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Dometic%20Cool%20Ice%20CI%2085W%20Icebox",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Dometic%20Cool%20Ice%20CI%2085W%20Icebox",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Dometic%20Cool%20Ice%20CI%2085W%20Icebox",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Dometic%20Cool%20Ice%20CI%2085W%20Icebox",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Dometic%20Cool%20Ice%20CI%2085W%20Icebox",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Dometic%20Cool%20Ice%20CI%2085W%20Icebox",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|386610208491|0",
+    "sourceLegacyItemId": "386610208491",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/386610208491?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-25T21:54:46Z"
+  },
+  {
+    "slug": "sea-to-summit-camping-lantern-rechargeable-super-bright-led-camping-lights-lamp-with-7-modes",
+    "name": "Camping Lantern Rechargeable, Super Bright LED Camping Lights Lamp with 7 Modes",
+    "brand": "Sea to Summit",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 38,
+    "salePrice": 38,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/vaAAAeSwnuZpw47Z/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/vaAAAeSwnuZpw47Z/s-l1600.jpg",
+    "summary": "Blukar Super Bright & Portable Camping Lantern. 🏕【7 Lighting Modes】This camping light has 7 modes to choose from: Strong Side Light - Weak Side Light - Bottom High Light - Botto...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/336498949890?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xB%2B2awYWqs1dkFwO1OUII1ZEn3Pc4fcyOpY02m5zP%2FwnHVyQGsGfcE1ae47lwYPlcpxhCu3vl2bbAW6ZWnt2xS6kGrnVqDQeUhOrf4Ti4jmglSZOLT%2BS9OvlJQihViW6NN7zo00qqha4hFUoC6faoGEi6HuxMoW3ZHVoL1%2BiIDg2hRqqlackCXMSUwVmbf4CkA%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Camping%20Lantern%20Rechargeable%2C%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207%20Modes",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Camping%20Lantern%20Rechargeable%2C%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207%20Modes",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Camping%20Lantern%20Rechargeable%2C%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207%20Modes",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Camping%20Lantern%20Rechargeable%2C%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207%20Modes",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Camping%20Lantern%20Rechargeable%2C%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207%20Modes",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Camping%20Lantern%20Rechargeable%2C%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207%20Modes",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|336498949890|0",
+    "sourceLegacyItemId": "336498949890",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/336498949890?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xB%2B2awYWqs1dkFwO1OUII1ZEn3Pc4fcyOpY02m5zP%2FwnHVyQGsGfcE1ae47lwYPlcpxhCu3vl2bbAW6ZWnt2xS6kGrnVqDQeUhOrf4Ti4jmglSZOLT%2BS9OvlJQihViW6NN7zo00qqha4hFUoC6faoGEi6HuxMoW3ZHVoL1%2BiIDg2hRqqlackCXMSUwVmbf4CkA%3D",
+    "importedAt": "2026-03-25T22:00:29Z"
+  },
+  {
+    "slug": "sea-to-summit-rechargeable-led-camping-lantern-super-bright-7-modes-waterproof-portable-10-hr",
+    "name": "Rechargeable LED Camping Lantern Super Bright 7 Modes Waterproof Portable 10+ Hr",
+    "brand": "Sea to Summit",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 39,
+    "salePrice": 39,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/wQsAAeSwfTVog66Z/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/wQsAAeSwfTVog66Z/s-l1600.jpg",
+    "summary": "💡Multiple Lighting Modes – Choose from various settings such as bright, dim, or flashing modes to suit your needs for different activities. Whether you’re camping, hiking, or en...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/376431925361?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCRcV9a2jGFbW8LvSzJEOaOhjxxUvgjnPevEdzNSWXPZOF8w3Jgz1YBX2OzpxyT4Hdtw5%2FqUFZVhb7rXdXVggCvO42E8n0qx9lje%2BTrSVr8m7jHX%2BQmMrdFSyV%2BiAKN0gpX%2Fg%2F5YQ4s9IkZzdJgFBQav1cyrc6L8No5Q50EhRR61%2FgykQipuG6akyaP7%2F7MUBg%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Rechargeable%20LED%20Camping%20Lantern%20Super%20Bright%207%20Modes%20Waterproof%20Portable%2010%2B%20Hr",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Rechargeable%20LED%20Camping%20Lantern%20Super%20Bright%207%20Modes%20Waterproof%20Portable%2010%2B%20Hr",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Rechargeable%20LED%20Camping%20Lantern%20Super%20Bright%207%20Modes%20Waterproof%20Portable%2010%2B%20Hr",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Rechargeable%20LED%20Camping%20Lantern%20Super%20Bright%207%20Modes%20Waterproof%20Portable%2010%2B%20Hr",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Rechargeable%20LED%20Camping%20Lantern%20Super%20Bright%207%20Modes%20Waterproof%20Portable%2010%2B%20Hr",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Rechargeable%20LED%20Camping%20Lantern%20Super%20Bright%207%20Modes%20Waterproof%20Portable%2010%2B%20Hr",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|376431925361|0",
+    "sourceLegacyItemId": "376431925361",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/376431925361?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCRcV9a2jGFbW8LvSzJEOaOhjxxUvgjnPevEdzNSWXPZOF8w3Jgz1YBX2OzpxyT4Hdtw5%2FqUFZVhb7rXdXVggCvO42E8n0qx9lje%2BTrSVr8m7jHX%2BQmMrdFSyV%2BiAKN0gpX%2Fg%2F5YQ4s9IkZzdJgFBQav1cyrc6L8No5Q50EhRR61%2FgykQipuG6akyaP7%2F7MUBg%3D",
+    "importedAt": "2026-03-25T22:00:42Z"
+  },
+  {
+    "slug": "oztrail-new-oztrail-100-lumen-portable-lantern-by-anaconda",
+    "name": "NEW OZtrail 100 Lumen Portable Lantern By Anaconda",
+    "brand": "OZtrail",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 11,
+    "salePrice": 8,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/kHwAAeSwENFpxArU/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/kHwAAeSwENFpxArU/s-l1600.jpg",
+    "summary": "The 15 white LEDs will light up the night while the 9 amber LEDs will help keep the bugs away. Easily transported and a must have for your camping collection. Need a new camping...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/297910636737?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=NEW%20OZtrail%20100%20Lumen%20Portable%20Lantern%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=NEW%20OZtrail%20100%20Lumen%20Portable%20Lantern%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=NEW%20OZtrail%20100%20Lumen%20Portable%20Lantern%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=NEW%20OZtrail%20100%20Lumen%20Portable%20Lantern%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=NEW%20OZtrail%20100%20Lumen%20Portable%20Lantern%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=NEW%20OZtrail%20100%20Lumen%20Portable%20Lantern%20By%20Anaconda",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|297910636737|0",
+    "sourceLegacyItemId": "297910636737",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/297910636737?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-03-25T22:00:43Z"
+  },
+  {
+    "slug": "oztrail-100-lumen-portable-camp-light-20",
+    "name": "100 Lumen Portable Camp Light",
+    "brand": "OZtrail",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 31,
+    "salePrice": 31,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/JW0AAeSwoO5pUSPa/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/JW0AAeSwoO5pUSPa/s-l1600.jpg",
+    "summary": "Sturdy and durable to use, long service life.",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/317706863658?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBDheAtxQk%2F7EI5bqdkHER6gCOJyqXMUlCFpw74TauQkBb1WmBZHD0F3SQI%2BvnNMVXosYgCn9fCGLmqmpuMMr%2FC0%2FFLBP59xVZQSWWG7x5lpofeJK5h3UoSdCAHJPEqzuNWO%2BgV689jqaKmaUtDGaW%2Ffsj0%2F61ZXhHNwUx71ZS4m2e6me3RcD%2BsIVu9zcIo3G4%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|317706863658|0",
+    "sourceLegacyItemId": "317706863658",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/317706863658?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBDheAtxQk%2F7EI5bqdkHER6gCOJyqXMUlCFpw74TauQkBb1WmBZHD0F3SQI%2BvnNMVXosYgCn9fCGLmqmpuMMr%2FC0%2FFLBP59xVZQSWWG7x5lpofeJK5h3UoSdCAHJPEqzuNWO%2BgV689jqaKmaUtDGaW%2Ffsj0%2F61ZXhHNwUx71ZS4m2e6me3RcD%2BsIVu9zcIo3G4%3D",
+    "importedAt": "2026-03-25T22:00:44Z"
+  },
+  {
+    "slug": "sea-to-summit-sea-to-summit-ultralight-sleeping-mat-regular",
+    "name": "Sea to Summit Ultralight Sleeping Mat - Regular",
+    "brand": "Sea to Summit",
+    "category": "sleep-systems",
+    "categoryName": "Camp Sleep Systems",
+    "price": 150,
+    "salePrice": 150,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://www.wildearth.com.au/assets/full/AMULRAS.jpg?20210318044627",
+    "ebayImage": "https://www.wildearth.com.au/assets/full/AMULRAS.jpg?20210318044627",
+    "summary": "The Ultralight range features a single layer of Air-Sprung Cells for lightweight stability and comfort. Size Variation: Regular. Our vision is simple - to inspire, equip, and en...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/362330511959?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBVKUpsxmX1yvJyltg89PAQsFrjahDvbXQjwiDJHc1rvh4Lt4C52rM2Q0p4q1gOugBnaGJERCGkzufFkPeeAw64CwdyuVR9ky2XYD7fFp0pe5ffirW0f%2FgAtfeXuMlhEj0psgner0iMDrHJL7djV1zBjS4lvWjf0ycrGiIi91SNMbHu664lOohqTyqrcgaY0Nk%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Sea%20to%20Summit%20Ultralight%20Sleeping%20Mat%20-%20Regular",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Sea%20to%20Summit%20Ultralight%20Sleeping%20Mat%20-%20Regular",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Sea%20to%20Summit%20Ultralight%20Sleeping%20Mat%20-%20Regular",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Sea%20to%20Summit%20Ultralight%20Sleeping%20Mat%20-%20Regular",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Sea%20to%20Summit%20Ultralight%20Sleeping%20Mat%20-%20Regular",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Sea%20to%20Summit%20Ultralight%20Sleeping%20Mat%20-%20Regular",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|362330511959|0",
+    "sourceLegacyItemId": "362330511959",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/362330511959?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBVKUpsxmX1yvJyltg89PAQsFrjahDvbXQjwiDJHc1rvh4Lt4C52rM2Q0p4q1gOugBnaGJERCGkzufFkPeeAw64CwdyuVR9ky2XYD7fFp0pe5ffirW0f%2FgAtfeXuMlhEj0psgner0iMDrHJL7djV1zBjS4lvWjf0ycrGiIi91SNMbHu664lOohqTyqrcgaY0Nk%3D",
+    "importedAt": "2026-03-25T22:00:56Z"
   }
 ]
