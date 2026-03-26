@@ -3429,8 +3429,8 @@
     "salePrice": 59,
     "rating": 4.3,
     "reviews": 445,
-    "image": "assets/images/products/coleman-onesource-led-lantern.svg",
-    "ebayImage": null,
+    "image": "https://i.ebayimg.com/images/g/HgAAAeSwc~ppxXgL/s-l225.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/HgAAAeSwc~ppxXgL/s-l225.jpg",
     "summary": "Runs on the OneSource rechargeable battery system shared with other Coleman tools.",
     "stores": [
       {
@@ -26933,6 +26933,276 @@
     "categoryName": "Sleeping Bags & Mats",
     "highlights": [],
     "description": "The Ultralight range features a single layer of Air-Sprung Cells for lightweight stability and comfort. Size Variation: Regular. Our vision is simple - to inspire, equip, and en...",
+    "specs": {}
+  },
+  {
+    "slug": "helinox-helinox-chair-zero-high-back-camping-chair-black",
+    "name": "Helinox Chair Zero High-back Camping Chair - Black",
+    "brand": "Helinox",
+    "category": "chairs",
+    "price": 270,
+    "salePrice": 216,
+    "rating": 5.0,
+    "reviews": 1,
+    "image": "https://i.ebayimg.com/images/g/YjkAAeSwVklpxPaJ/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/YjkAAeSwVklpxPaJ/s-l1600.jpg",
+    "summary": "At 667g, the Chair Zero High-Back has unrivaled comfort per grams. UNRIVALED COMFORT PER GRAM. Our vision is simple - to inspire, equip, and enable people with everything needed...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/363938168604?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Helinox%20Chair%20Zero%20High-back%20Camping%20Chair%20-%20Black",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Helinox%20Chair%20Zero%20High-back%20Camping%20Chair%20-%20Black",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Helinox%20Chair%20Zero%20High-back%20Camping%20Chair%20-%20Black",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Helinox%20Chair%20Zero%20High-back%20Camping%20Chair%20-%20Black",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Helinox%20Chair%20Zero%20High-back%20Camping%20Chair%20-%20Black",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Helinox%20Chair%20Zero%20High-back%20Camping%20Chair%20-%20Black",
+        "type": "search"
+      }
+    ],
+    "categoryName": "Camping Chairs",
+    "highlights": [],
+    "description": "At 667g, the Chair Zero High-Back has unrivaled comfort per grams. UNRIVALED COMFORT PER GRAM. Our vision is simple - to inspire, equip, and enable people with everything needed...",
+    "specs": {}
+  },
+  {
+    "slug": "helinox-helinox-chair-one-in-black-cyan",
+    "name": "HELINOX Chair One in Black Cyan",
+    "brand": "HELINOX",
+    "category": "chairs",
+    "price": 145,
+    "salePrice": 145,
+    "rating": 4.0,
+    "reviews": 4,
+    "image": "https://i.ebayimg.com/images/g/QEQAAeSwe3dpxWLz/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/QEQAAeSwe3dpxWLz/s-l1600.jpg",
+    "summary": "It has robust nylon hubs and premium seat fabrics with durable stitching. In this instance, you'll be required to pickup your order from the nearest depot. This one is pretty ob...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/384985029218?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=HELINOX%20Chair%20One%20in%20Black%20Cyan",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=HELINOX%20Chair%20One%20in%20Black%20Cyan",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=HELINOX%20Chair%20One%20in%20Black%20Cyan",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=HELINOX%20Chair%20One%20in%20Black%20Cyan",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=HELINOX%20Chair%20One%20in%20Black%20Cyan",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=HELINOX%20Chair%20One%20in%20Black%20Cyan",
+        "type": "search"
+      }
+    ],
+    "categoryName": "Camping Chairs",
+    "highlights": [],
+    "description": "It has robust nylon hubs and premium seat fabrics with durable stitching. In this instance, you'll be required to pickup your order from the nearest depot. This one is pretty ob...",
+    "specs": {}
+  },
+  {
+    "slug": "sea-to-summit-camping-lantern-rechargeable-super-bright-led-camping-lights-lamp-with-7-light-698",
+    "name": "Camping Lantern Rechargeable, Super Bright LED Camping Lights Lamp with 7 Light",
+    "brand": "Sea to Summit",
+    "category": "lanterns",
+    "price": 42,
+    "salePrice": 42,
+    "rating": 4.2,
+    "reviews": 0,
+    "image": "https://i.ebayimg.com/images/g/FYUAAeSw7SVpxOmo/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/FYUAAeSw7SVpxOmo/s-l1600.jpg",
+    "summary": "Camping Lantern Rechargeable, Super Bright LED Camping Lights Lamp with 7 Light",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/318061713430?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xA2%2FxBOaIUYj686ZmSChgWmiQptYeuhzd%2BND7V8iyzWnR8y7oqdCU6rSdfFmWU%2BQWIiD8IfORkDvV231cVuxn3cRRf3hE58xlK5pc8pmu%2BOa4kZdX%2BZND0UzD60XUT8EtHjn1xsTpStuvwPPXsTWtCIw6xLnM3tbsUKTBzrUYO7tpr1LaLjZhY3XBHAY7Sav%2B8%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Camping%20Lantern%20Rechargeable%2C%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207%20Light",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Camping%20Lantern%20Rechargeable%2C%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Camping%20Lantern%20Rechargeable%2C%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Camping%20Lantern%20Rechargeable%2C%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Camping%20Lantern%20Rechargeable%2C%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Camping%20Lantern%20Rechargeable%2C%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207%20Light",
+        "type": "search"
+      }
+    ],
+    "categoryName": "Camping Lanterns",
+    "highlights": [],
+    "description": "Camping Lantern Rechargeable, Super Bright LED Camping Lights Lamp with 7 Light",
+    "specs": {}
+  },
+  {
+    "slug": "oztrail-oztrail-ignite-rechargeable-speaker-lantern-1000l-free-shipping",
+    "name": "OZtrail Ignite Rechargeable Speaker Lantern 1000L - Free Shipping",
+    "brand": "OZtrail",
+    "category": "lanterns",
+    "price": 60,
+    "salePrice": 60,
+    "rating": 4.2,
+    "reviews": 0,
+    "image": "https://i.ebayimg.com/images/g/CFAAAeSwz5hpxJ4g/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/CFAAAeSwz5hpxJ4g/s-l1600.jpg",
+    "summary": "Oztrail Ignite Rechargeable Speaker Lantern 1000L - Free Shipping",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/198226235225?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=OZtrail%20Ignite%20Rechargeable%20Speaker%20Lantern%201000L%20-%20Free%20Shipping",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=OZtrail%20Ignite%20Rechargeable%20Speaker%20Lantern%201000L%20-%20Free%20Shipping",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=OZtrail%20Ignite%20Rechargeable%20Speaker%20Lantern%201000L%20-%20Free%20Shipping",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=OZtrail%20Ignite%20Rechargeable%20Speaker%20Lantern%201000L%20-%20Free%20Shipping",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=OZtrail%20Ignite%20Rechargeable%20Speaker%20Lantern%201000L%20-%20Free%20Shipping",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=OZtrail%20Ignite%20Rechargeable%20Speaker%20Lantern%201000L%20-%20Free%20Shipping",
+        "type": "search"
+      }
+    ],
+    "categoryName": "Camping Lanterns",
+    "highlights": [],
+    "description": "Oztrail Ignite Rechargeable Speaker Lantern 1000L - Free Shipping",
+    "specs": {}
+  },
+  {
+    "slug": "oztrail-100-lumen-portable-camp-light-21",
+    "name": "100 Lumen Portable Camp Light",
+    "brand": "OZtrail",
+    "category": "lanterns",
+    "price": 17,
+    "salePrice": 17,
+    "rating": 4.2,
+    "reviews": 0,
+    "image": "https://i.ebayimg.com/images/g/CTwAAeSwI0JpT5W8/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/CTwAAeSwI0JpT5W8/s-l1600.jpg",
+    "summary": "Sturdy and durable to use, long service life. Features Portable. Water resistance level Not Water Resistant. Shape Irregular Shape. Light is designed for maximum mounting versat...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/168035439318?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      }
+    ],
+    "categoryName": "Camping Lanterns",
+    "highlights": [],
+    "description": "Sturdy and durable to use, long service life. Features Portable. Water resistance level Not Water Resistant. Shape Irregular Shape. Light is designed for maximum mounting versat...",
     "specs": {}
   }
 ]
