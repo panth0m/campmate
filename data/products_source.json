@@ -31941,5 +31941,469 @@
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/267591874764?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xC0Go8zw7DBoRpGrJi5Q%2FWwmdEwuRr1WF4VNUvXYJQvIk6uzECyvHRyAZeRmCByK8pMbhQgiBebpKj%2FIbYM33J4vBsJN%2BOSA8R2uc8ToyhS4HpUzuBRxHXDKBO8DAEt0kj%2F9T1z2Trntayy8U8s684ME%2FO69F3CrHniBMzNIJhDa%2FLS0fMlUjoUzg5ZMctZF84%3D",
     "importedAt": "2026-04-02T22:07:35Z"
+  },
+  {
+    "slug": "helinox-helinox-sunset-chair-v2-camping-chair-portable-outdoor-free-shipping",
+    "name": "HELINOX Sunset Chair V2 Camping Chair Portable Outdoor Free Shipping",
+    "brand": "HELINOX",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 209,
+    "salePrice": 209,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/tDAAAeSwOchpz5nt/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/tDAAAeSwOchpz5nt/s-l1600.jpg",
+    "summary": "Helinox's Sunset Chair is built with a minimalist approach to maximum comfort. The heart of its design springs from Helinox’s experience with materials, construction, comfort an...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/336516501881?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCX%2FfNxOw4hYlAsvZmEOgs5HU3pkAG0hsJ5DRRpqzZG308hpjqoqlOpvnpTH0yaIthpR5xny60VagP2%2F4EQIqJKiG4pIfgv6Kv3SBC94%2F7U7MyPbt6VsmohIWXnqKfe9I8%2Bqn7qiP9zKIRtARmi5fzZq3aOaKORUiZhSmL6vV7usymgSqdf9iOX3Jb8heKZkNk%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=HELINOX%20Sunset%20Chair%20V2%20Camping%20Chair%20Portable%20Outdoor%20Free%20Shipping",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=HELINOX%20Sunset%20Chair%20V2%20Camping%20Chair%20Portable%20Outdoor%20Free%20Shipping",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=HELINOX%20Sunset%20Chair%20V2%20Camping%20Chair%20Portable%20Outdoor%20Free%20Shipping",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=HELINOX%20Sunset%20Chair%20V2%20Camping%20Chair%20Portable%20Outdoor%20Free%20Shipping",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=HELINOX%20Sunset%20Chair%20V2%20Camping%20Chair%20Portable%20Outdoor%20Free%20Shipping",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=HELINOX%20Sunset%20Chair%20V2%20Camping%20Chair%20Portable%20Outdoor%20Free%20Shipping",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|336516501881|0",
+    "sourceLegacyItemId": "336516501881",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/336516501881?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCX%2FfNxOw4hYlAsvZmEOgs5HU3pkAG0hsJ5DRRpqzZG308hpjqoqlOpvnpTH0yaIthpR5xny60VagP2%2F4EQIqJKiG4pIfgv6Kv3SBC94%2F7U7MyPbt6VsmohIWXnqKfe9I8%2Bqn7qiP9zKIRtARmi5fzZq3aOaKORUiZhSmL6vV7usymgSqdf9iOX3Jb8heKZkNk%3D",
+    "importedAt": "2026-04-03T21:48:15Z"
+  },
+  {
+    "slug": "helinox-helinox-chair-zero-camping-chair-ultralight-portable-outdoor-free-shipping",
+    "name": "Helinox Chair Zero Camping Chair Ultralight Portable Outdoor Free Shipping",
+    "brand": "Helinox",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 146,
+    "salePrice": 146,
+    "rating": 5.0,
+    "reviews": 2,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/Wo8AAeSwzyppz5Zz/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/Wo8AAeSwzyppz5Zz/s-l1600.jpg",
+    "summary": "Its advanced materials, architecture and construction create the precise balance of minimalism and comfort.",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/336516491930?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBFYoYXfPg0hoijwKDBi7mNRO%2BqcJiSK0EqRZhUBOS%2FGQkEvTSGpU92Q7oiehqy6lqZAxCSQ24FPxTN45RLwBqH17hzSmpt0BzM4JBpSofHo89%2FIdvmBdwW9Zbxr0hn%2F8phyosw22y%2FyDQ%2FUgQi3%2BZMoE1Tyse6kiv4%2Fnj%2FBGBaZznxOGT3urFXTHYIyO%2FtJG0%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Helinox%20Chair%20Zero%20Camping%20Chair%20Ultralight%20Portable%20Outdoor%20Free%20Shipping",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Helinox%20Chair%20Zero%20Camping%20Chair%20Ultralight%20Portable%20Outdoor%20Free%20Shipping",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Helinox%20Chair%20Zero%20Camping%20Chair%20Ultralight%20Portable%20Outdoor%20Free%20Shipping",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Helinox%20Chair%20Zero%20Camping%20Chair%20Ultralight%20Portable%20Outdoor%20Free%20Shipping",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Helinox%20Chair%20Zero%20Camping%20Chair%20Ultralight%20Portable%20Outdoor%20Free%20Shipping",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Helinox%20Chair%20Zero%20Camping%20Chair%20Ultralight%20Portable%20Outdoor%20Free%20Shipping",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|336516491930|0",
+    "sourceLegacyItemId": "336516491930",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/336516491930?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBFYoYXfPg0hoijwKDBi7mNRO%2BqcJiSK0EqRZhUBOS%2FGQkEvTSGpU92Q7oiehqy6lqZAxCSQ24FPxTN45RLwBqH17hzSmpt0BzM4JBpSofHo89%2FIdvmBdwW9Zbxr0hn%2F8phyosw22y%2FyDQ%2FUgQi3%2BZMoE1Tyse6kiv4%2Fnj%2FBGBaZznxOGT3urFXTHYIyO%2FtJG0%3D",
+    "importedAt": "2026-04-03T21:48:15Z"
+  },
+  {
+    "slug": "helinox-helinox-savanna-chair-outdoor-camping-portable-lightweight-free-shipping",
+    "name": "Helinox Savanna Chair Outdoor Camping Portable Lightweight Free Shipping",
+    "brand": "Helinox",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 221,
+    "salePrice": 221,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/l1YAAeSwQcxpz5Pb/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/l1YAAeSwQcxpz5Pb/s-l1600.jpg",
+    "summary": "This is possibly Helinox’s most comfortable chair. Think beaches, parks, festivals and campgrounds.",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/336516475671?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDmQpVz9wZk%2FDiLeEYzBIeGm8swQEm%2FNLPo%2FtPP6%2Bveym5KH5TrXMR%2FuhwkJCJOlRsDzwDI%2Fkh8e0F5Q%2BUxKOWpP982%2FMoto%2FwwvUeHeWpDQj4iRYy0Kl5vn1IHv11LRs8T%2BAZy4n7a8%2BGJaooqpoMPh2S8SZp6Z090L4WzxfRZROYhGDR1DN8bP0VMYcuO9R8%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Helinox%20Savanna%20Chair%20Outdoor%20Camping%20Portable%20Lightweight%20Free%20Shipping",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Helinox%20Savanna%20Chair%20Outdoor%20Camping%20Portable%20Lightweight%20Free%20Shipping",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Helinox%20Savanna%20Chair%20Outdoor%20Camping%20Portable%20Lightweight%20Free%20Shipping",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Helinox%20Savanna%20Chair%20Outdoor%20Camping%20Portable%20Lightweight%20Free%20Shipping",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Helinox%20Savanna%20Chair%20Outdoor%20Camping%20Portable%20Lightweight%20Free%20Shipping",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Helinox%20Savanna%20Chair%20Outdoor%20Camping%20Portable%20Lightweight%20Free%20Shipping",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|336516475671|0",
+    "sourceLegacyItemId": "336516475671",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/336516475671?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDmQpVz9wZk%2FDiLeEYzBIeGm8swQEm%2FNLPo%2FtPP6%2Bveym5KH5TrXMR%2FuhwkJCJOlRsDzwDI%2Fkh8e0F5Q%2BUxKOWpP982%2FMoto%2FwwvUeHeWpDQj4iRYy0Kl5vn1IHv11LRs8T%2BAZy4n7a8%2BGJaooqpoMPh2S8SZp6Z090L4WzxfRZROYhGDR1DN8bP0VMYcuO9R8%3D",
+    "importedAt": "2026-04-03T21:48:16Z"
+  },
+  {
+    "slug": "dometic-dometic-go-compact-camp-chair-silt-2",
+    "name": "Dometic GO Compact Camp Chair - Silt",
+    "brand": "Dometic",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 183,
+    "salePrice": 183,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/eHkAAeSwjr1pzv9Z/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/eHkAAeSwjr1pzv9Z/s-l1600.jpg",
+    "summary": "Any such liability imposed by the ACL. Supplier then the Supplier or the Supplier’s. been made;. shall cease;. Acacia Ridge. the Goods or any of them to the Supplier. Services a...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/285212095891?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Dometic%20GO%20Compact%20Camp%20Chair%20-%20Silt",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Dometic%20GO%20Compact%20Camp%20Chair%20-%20Silt",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Dometic%20GO%20Compact%20Camp%20Chair%20-%20Silt",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Dometic%20GO%20Compact%20Camp%20Chair%20-%20Silt",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Dometic%20GO%20Compact%20Camp%20Chair%20-%20Silt",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Dometic%20GO%20Compact%20Camp%20Chair%20-%20Silt",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|285212095891|0",
+    "sourceLegacyItemId": "285212095891",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/285212095891?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-04-03T21:48:48Z"
+  },
+  {
+    "slug": "dometic-dometic-cool-ice-ci-15-cooler-box-camping-outdoor-free-shipping",
+    "name": "Dometic Cool Ice CI 15 Cooler Box Camping Outdoor Free Shipping",
+    "brand": "Dometic",
+    "category": "coolers",
+    "categoryName": "Coolers & Ice Boxes",
+    "price": 109,
+    "salePrice": 109,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/ltwAAeSwqlJpz3ER/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/ltwAAeSwqlJpz3ER/s-l1600.jpg",
+    "summary": "Dometic Cool Ice CI 15 Cooler Box Camping Outdoor Free Shipping",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/336516264595?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDcnvW%2BQJ8njtUHlLoY8T%2BiiaM4NQFgkA2JbIaSuImrPMfbwBa8hAZKtZI5KTbUxv%2FtMNx8VCWYi4loRDjdQoYf4%2BlntLny0np1GQX73PKKdIlIwZbEO0EP7Ak4CvCLnWIQL6e0ifhyHOGRSqZVU0Qc527n7QeLiW5GOYHfXFxU31S2hKGLkKFPgU39GbcQmXI%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Dometic%20Cool%20Ice%20CI%2015%20Cooler%20Box%20Camping%20Outdoor%20Free%20Shipping",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Dometic%20Cool%20Ice%20CI%2015%20Cooler%20Box%20Camping%20Outdoor%20Free%20Shipping",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Dometic%20Cool%20Ice%20CI%2015%20Cooler%20Box%20Camping%20Outdoor%20Free%20Shipping",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Dometic%20Cool%20Ice%20CI%2015%20Cooler%20Box%20Camping%20Outdoor%20Free%20Shipping",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Dometic%20Cool%20Ice%20CI%2015%20Cooler%20Box%20Camping%20Outdoor%20Free%20Shipping",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Dometic%20Cool%20Ice%20CI%2015%20Cooler%20Box%20Camping%20Outdoor%20Free%20Shipping",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|336516264595|0",
+    "sourceLegacyItemId": "336516264595",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/336516264595?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDcnvW%2BQJ8njtUHlLoY8T%2BiiaM4NQFgkA2JbIaSuImrPMfbwBa8hAZKtZI5KTbUxv%2FtMNx8VCWYi4loRDjdQoYf4%2BlntLny0np1GQX73PKKdIlIwZbEO0EP7Ak4CvCLnWIQL6e0ifhyHOGRSqZVU0Qc527n7QeLiW5GOYHfXFxU31S2hKGLkKFPgU39GbcQmXI%3D",
+    "importedAt": "2026-04-03T21:50:12Z"
+  },
+  {
+    "slug": "camp-chef-patio-cover-cover-for-two-burner-cooking-system-patio-cover-for-camp-stove-f-3",
+    "name": "Patio Cover Cover for Two-Burner Cooking System - Patio Cover for Camp Stove - f",
+    "brand": "Camp Chef",
+    "category": "stoves",
+    "categoryName": "Camping Stoves",
+    "price": 104,
+    "salePrice": 104,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/RHcAAeSw8Jdpz~Vf/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/RHcAAeSw8Jdpz~Vf/s-l1600.jpg",
+    "summary": "Versatile Camp Stove Cover: The Camp Chef Patio Cover works for stove models EX60P, EX60LW, EX60PP, EX60B, EX280LW, EX170LW, YK60LW, YK60LWC12. Protect Your Camp Stove: This cam...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/157806495149?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|157806495149|0",
+    "sourceLegacyItemId": "157806495149",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/157806495149?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-04-03T21:53:52Z"
+  },
+  {
+    "slug": "oztrail-100-lumen-portable-camp-light-35",
+    "name": "100 Lumen Portable Camp Light",
+    "brand": "OZtrail",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 17,
+    "salePrice": 17,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/9zkAAeSw~rFpz0Xf/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/9zkAAeSw~rFpz0Xf/s-l1600.jpg",
+    "summary": "Sturdy and durable to use, long service life. Water Resistance Level Not Water Resistant. Light Source Type Light Emitting Diode (LED). Light Source Special Features Insect repe...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/137192127960?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|137192127960|0",
+    "sourceLegacyItemId": "137192127960",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/137192127960?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-04-03T22:04:33Z"
+  },
+  {
+    "slug": "oztrail-100-lumen-portable-camp-light-36",
+    "name": "100 Lumen Portable Camp Light",
+    "brand": "OZtrail",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 25,
+    "salePrice": 25,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/JfAAAeSwjhBppTHT/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/JfAAAeSwjhBppTHT/s-l1600.jpg",
+    "summary": "Sturdy and durable to use, long service life. Special Features Portable. Water resistance level Not Water Resistant. Shape Irregular Shape. Light is designed for maximum mountin...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/177912481587?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|177912481587|0",
+    "sourceLegacyItemId": "177912481587",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/177912481587?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-04-03T22:04:33Z"
   }
 ]
