@@ -13,9 +13,9 @@
     {
       "category": "tents",
       "requested": 44,
-      "added": 0,
+      "added": 2,
       "brands": {
-        "Coleman": 0,
+        "Coleman": 1,
         "OZtrail": 0,
         "BlackWolf": 0,
         "Sea to Summit": 0,
@@ -23,39 +23,39 @@
         "Hilleberg": 0,
         "The North Face": 0,
         "Big Agnes": 0,
-        "Vango": 0,
+        "Vango": 1,
         "Zempire": 0
       },
-      "sourceCount": 543,
+      "sourceCount": 553,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
       "category": "chairs",
       "requested": 29,
-      "added": 4,
+      "added": 0,
       "brands": {
         "Coleman": 0,
         "OZtrail": 0,
         "BlackWolf": 0,
-        "Helinox": 3,
+        "Helinox": 0,
         "Darche": 0,
-        "Sea to Summit": 1,
+        "Sea to Summit": 0,
         "Companion": 0,
         "Wanderer": 0,
         "Vango": 0,
         "Zempire": 0
       },
-      "sourceCount": 547,
+      "sourceCount": 553,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
       "category": "coolers",
       "requested": 14,
-      "added": 1,
+      "added": 0,
       "brands": {
         "Coleman": 0,
         "YETI": 0,
-        "Dometic": 1,
+        "Dometic": 0,
         "Engel": 0,
         "Wanderer": 0,
         "Companion": 0,
@@ -64,32 +64,32 @@
         "Sea to Summit": 0,
         "Zempire": 0
       },
-      "sourceCount": 548,
+      "sourceCount": 553,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
       "category": "stoves",
       "requested": 12,
-      "added": 1,
+      "added": 0,
       "brands": {
         "Coleman": 0,
         "Companion": 0,
         "Jetboil": 0,
         "Primus": 0,
         "MSR": 0,
-        "Camp Chef": 1,
+        "Camp Chef": 0,
         "Weber": 0,
         "Sea to Summit": 0,
         "Trangia": 0,
         "Gasmate": 0
       },
-      "sourceCount": 549,
+      "sourceCount": 553,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
       "category": "lanterns",
       "requested": 12,
-      "added": 2,
+      "added": 3,
       "brands": {
         "Coleman": 0,
         "Black Diamond": 0,
@@ -97,12 +97,12 @@
         "BioLite": 0,
         "Ledlenser": 0,
         "Barebones": 0,
-        "Sea to Summit": 0,
+        "Sea to Summit": 1,
         "OZtrail": 2,
         "Companion": 0,
         "Vango": 0
       },
-      "sourceCount": 551,
+      "sourceCount": 556,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -121,9 +121,9 @@
         "Wanderer": 0,
         "Big Agnes": 0
       },
-      "sourceCount": 551,
+      "sourceCount": 556,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     }
   ],
-  "added_total": 8
+  "added_total": 5
 }
