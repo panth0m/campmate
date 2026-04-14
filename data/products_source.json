@@ -36351,5 +36351,63 @@
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/233044278346?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
     "importedAt": "2026-04-13T22:19:39Z"
+  },
+  {
+    "slug": "oztrail-100-lumen-portable-camp-light-47",
+    "name": "100 Lumen Portable Camp Light",
+    "brand": "OZtrail",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 11,
+    "salePrice": 11,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/vJQAAeSwK7FotvQn/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/vJQAAeSwK7FotvQn/s-l1600.jpg",
+    "summary": "Sturdy and durable to use, long service life. Features Portable. Water resistance level Not Water Resistant. Light is designed for maximum mounting versatility. Battery life 25...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/388917025455?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDV%2F3DwGi5KZ8BMyTMtr7gru9xwJBbP7wrspq5fy0qhLK9fTvW9MI9%2FvFPrIYOIU8eqOkCkKONaHJgZwAN0F6LUomB0UFWHLDMD200SRNmBRZkrOME0iz4rhXtg%2FlfgwmztvMhrKzMFg8aD1qPClGGNgf4OlpVvR%2BHN9NLEJIfi7LEFlr%2BToT%2F5b7jWW4npYu4%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=100%20Lumen%20Portable%20Camp%20Light",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|388917025455|0",
+    "sourceLegacyItemId": "388917025455",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/388917025455?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDV%2F3DwGi5KZ8BMyTMtr7gru9xwJBbP7wrspq5fy0qhLK9fTvW9MI9%2FvFPrIYOIU8eqOkCkKONaHJgZwAN0F6LUomB0UFWHLDMD200SRNmBRZkrOME0iz4rhXtg%2FlfgwmztvMhrKzMFg8aD1qPClGGNgf4OlpVvR%2BHN9NLEJIfi7LEFlr%2BToT%2F5b7jWW4npYu4%3D",
+    "importedAt": "2026-04-14T22:23:19Z"
   }
 ]
