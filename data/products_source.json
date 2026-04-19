@@ -37917,5 +37917,63 @@
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/236473426805?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
     "importedAt": "2026-04-18T21:55:33Z"
+  },
+  {
+    "slug": "vango-vango-alpha-250-2-person-camping-hiking-tent-earth-series-moroccan-blue-16",
+    "name": "Vango Alpha 250 2 Person Camping & Hiking Tent - Earth Series - Moroccan Blue",
+    "brand": "Vango",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 270,
+    "salePrice": 270,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/wKMAAeSw8iBp3J9m/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/wKMAAeSw8iBp3J9m/s-l1600.jpg",
+    "summary": "Vango Alpha 250 2 Person Camping & Hiking Tent - Earth Series - Moroccan Blue",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/256217044553?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Vango%20Alpha%20250%202%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Earth%20Series%20-%20Moroccan%20Blue",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Vango%20Alpha%20250%202%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Earth%20Series%20-%20Moroccan%20Blue",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Vango%20Alpha%20250%202%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Earth%20Series%20-%20Moroccan%20Blue",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Vango%20Alpha%20250%202%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Earth%20Series%20-%20Moroccan%20Blue",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Vango%20Alpha%20250%202%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Earth%20Series%20-%20Moroccan%20Blue",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Vango%20Alpha%20250%202%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Earth%20Series%20-%20Moroccan%20Blue",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|256217044553|0",
+    "sourceLegacyItemId": "256217044553",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/256217044553?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-04-19T21:46:11Z"
   }
 ]
