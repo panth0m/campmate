@@ -26,26 +26,26 @@
         "Vango": 0,
         "Zempire": 0
       },
-      "sourceCount": 680,
+      "sourceCount": 685,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
       "category": "chairs",
       "requested": 29,
-      "added": 4,
+      "added": 2,
       "brands": {
-        "Coleman": 0,
+        "Coleman": 1,
         "OZtrail": 0,
         "BlackWolf": 0,
-        "Helinox": 3,
-        "Darche": 1,
+        "Helinox": 1,
+        "Darche": 0,
         "Sea to Summit": 0,
         "Companion": 0,
         "Wanderer": 0,
         "Vango": 0,
         "Zempire": 0
       },
-      "sourceCount": 684,
+      "sourceCount": 687,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -64,7 +64,7 @@
         "Sea to Summit": 0,
         "Zempire": 0
       },
-      "sourceCount": 684,
+      "sourceCount": 687,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -83,18 +83,18 @@
         "Trangia": 0,
         "Gasmate": 0
       },
-      "sourceCount": 684,
+      "sourceCount": 687,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
       "category": "lanterns",
       "requested": 12,
-      "added": 1,
+      "added": 2,
       "brands": {
         "Coleman": 0,
         "Black Diamond": 0,
         "Goal Zero": 0,
-        "BioLite": 0,
+        "BioLite": 1,
         "Ledlenser": 0,
         "Barebones": 0,
         "Sea to Summit": 1,
@@ -102,7 +102,7 @@
         "Companion": 0,
         "Vango": 0
       },
-      "sourceCount": 685,
+      "sourceCount": 689,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -121,9 +121,9 @@
         "Wanderer": 0,
         "Big Agnes": 0
       },
-      "sourceCount": 685,
+      "sourceCount": 689,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     }
   ],
-  "added_total": 5
+  "added_total": 4
 }
