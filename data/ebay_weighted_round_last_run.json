@@ -13,9 +13,9 @@
     {
       "category": "tents",
       "requested": 44,
-      "added": 2,
+      "added": 1,
       "brands": {
-        "Coleman": 2,
+        "Coleman": 1,
         "OZtrail": 0,
         "BlackWolf": 0,
         "Sea to Summit": 0,
@@ -26,7 +26,7 @@
         "Vango": 0,
         "Zempire": 0
       },
-      "sourceCount": 736,
+      "sourceCount": 741,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -45,7 +45,7 @@
         "Vango": 0,
         "Zempire": 0
       },
-      "sourceCount": 736,
+      "sourceCount": 741,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -64,7 +64,7 @@
         "Sea to Summit": 0,
         "Zempire": 0
       },
-      "sourceCount": 736,
+      "sourceCount": 741,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -83,26 +83,26 @@
         "Trangia": 0,
         "Gasmate": 0
       },
-      "sourceCount": 738,
+      "sourceCount": 743,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
       "category": "lanterns",
       "requested": 12,
-      "added": 2,
+      "added": 0,
       "brands": {
         "Coleman": 0,
         "Black Diamond": 0,
         "Goal Zero": 0,
-        "BioLite": 1,
+        "BioLite": 0,
         "Ledlenser": 0,
         "Barebones": 0,
-        "Sea to Summit": 1,
+        "Sea to Summit": 0,
         "OZtrail": 0,
         "Companion": 0,
         "Vango": 0
       },
-      "sourceCount": 740,
+      "sourceCount": 743,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -121,9 +121,9 @@
         "Wanderer": 0,
         "Big Agnes": 0
       },
-      "sourceCount": 740,
+      "sourceCount": 743,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     }
   ],
-  "added_total": 6
+  "added_total": 3
 }
