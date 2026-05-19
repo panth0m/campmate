@@ -6259,8 +6259,8 @@
     "salePrice": 249,
     "rating": 4.6,
     "reviews": 58,
-    "image": "assets/images/products/exped-synmat-hl-sleeping-mat.svg",
-    "ebayImage": null,
+    "image": "https://i.ebayimg.com/images/g/ItIAAeSwUvhqC~me/s-l225.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/ItIAAeSwUvhqC~me/s-l225.jpg",
     "summary": "Comfortable inflatable mat with good packability for mobile campers.",
     "stores": [
       {
@@ -42107,6 +42107,60 @@
     "categoryName": "Camping Lanterns",
     "highlights": [],
     "description": "🏕【Sufficient Brightness】The camping light adopts 60 high quality LED lamp beads with stable light source. The 360° beam angle gives you bright and soft light to illuminate your...",
+    "specs": {}
+  },
+  {
+    "slug": "sea-to-summit-camping-lantern-rechargeable-super-bright-led-camping-lights-lamp-with-7-light-559",
+    "name": "Camping Lantern Rechargeable, Super Bright LED Camping Lights Lamp with 7 Light",
+    "brand": "Sea to Summit",
+    "category": "lanterns",
+    "price": 49,
+    "salePrice": 49,
+    "rating": 4.2,
+    "reviews": 0,
+    "image": "https://i.ebayimg.com/images/g/7e8AAeSwmrZpj2dV/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/7e8AAeSwmrZpj2dV/s-l1600.jpg",
+    "summary": "Camping Lantern Rechargeable, Super Bright LED Camping Lights Lamp with 7 Light",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/127682856412?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDpwLqvnmCXbVOulXp%2Bf4JbxzRiIloKWnHH6CnPw6juEZcqqDgu1%2Fknpa8bt%2FZAPpum5gy0V8qL41RxZRYXUSNoPbXLfe42sXex0DFuiYTAfyuG5p%2FFAphsOPj6UXwhng4h76OV5gPST1teqspRbm9AV%2B1eDwZ1ntOMxMOwJPe5jeHa%2BV5Napgos2OZItq2%2F8o%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Camping%20Lantern%20Rechargeable%2C%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207%20Light",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Camping%20Lantern%20Rechargeable%2C%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Camping%20Lantern%20Rechargeable%2C%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Camping%20Lantern%20Rechargeable%2C%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Camping%20Lantern%20Rechargeable%2C%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Camping%20Lantern%20Rechargeable%2C%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207%20Light",
+        "type": "search"
+      }
+    ],
+    "categoryName": "Camping Lanterns",
+    "highlights": [],
+    "description": "Camping Lantern Rechargeable, Super Bright LED Camping Lights Lamp with 7 Light",
     "specs": {}
   }
 ]
