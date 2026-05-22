@@ -45400,5 +45400,121 @@
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/178150233346?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDS%2BYHSVxE3fYORujAUTCJ7R7EwEtDzuwWXO9TkhBGiRNHRYGjf1L7JJDC8Q6f%2B%2B6mo5bjQbUbZ%2F7DXnMrqfFQ6HrtYMQpFrkzS4VCfkWoGxNJCMpB7mJiYgZVe4NUQoutytLLrIhak%2BIzHazJH%2Ffl87ZQXkDptaMgQ7ynZV4AYJA0dXKiQOSE1uqjz4VHLV98%3D",
     "importedAt": "2026-05-21T22:38:14Z"
+  },
+  {
+    "slug": "aussie-mart-instant-up-swagger-1-3-person-tent",
+    "name": "Instant up Swagger 1, 3 Person Tent",
+    "brand": "aussie mart",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 283,
+    "salePrice": 283,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/QnYAAeSwTctqDZMw/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/QnYAAeSwTctqDZMw/s-l1600.jpg",
+    "summary": "The Instant 1P Swagger Tent is built for those solo outback slumbers under the stars. A durable 150D polyester construction bears the rough and tumble of outback brutality, whil...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/358576327097?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|358576327097|0",
+    "sourceLegacyItemId": "358576327097",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/358576327097?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-05-22T22:07:54Z"
+  },
+  {
+    "slug": "vango-vango-apex-compact-100-1-person-camping-hiking-tent-pamir-green-14",
+    "name": "Vango Apex Compact 100 1 Person Camping & Hiking Tent - Pamir Green",
+    "brand": "Vango",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 340,
+    "salePrice": 340,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/hxUAAeSw-BhqC8gy/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/hxUAAeSw-BhqC8gy/s-l1600.jpg",
+    "summary": "Vango Apex Compact 100 1 Person Camping & Hiking Tent - Pamir Green",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/355032398268?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Vango%20Apex%20Compact%20100%201%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20Green",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Vango%20Apex%20Compact%20100%201%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20Green",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Vango%20Apex%20Compact%20100%201%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20Green",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Vango%20Apex%20Compact%20100%201%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20Green",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Vango%20Apex%20Compact%20100%201%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20Green",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Vango%20Apex%20Compact%20100%201%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20Green",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|355032398268|0",
+    "sourceLegacyItemId": "355032398268",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/355032398268?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-05-22T22:14:45Z"
   }
 ]
