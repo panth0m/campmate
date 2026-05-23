@@ -4917,8 +4917,8 @@
     "salePrice": 259,
     "rating": 4.6,
     "reviews": 134,
-    "image": "assets/images/products/exped-synmat-hl-sleeping-mat.svg",
-    "ebayImage": null,
+    "image": "https://i.ebayimg.com/images/g/q2oAAeSwldpqEdka/s-l225.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/q2oAAeSwldpqEdka/s-l225.jpg",
     "summary": "Synthetic insulation mat with R-value 3.3. Safe to use in damp conditions unlike down mats.",
     "stores": [
       {
@@ -42539,6 +42539,168 @@
     "categoryName": "Camping Tents",
     "highlights": [],
     "description": "Vango Apex Compact 100 1 Person Camping & Hiking Tent - Pamir Green",
+    "specs": {}
+  },
+  {
+    "slug": "coleman-coleman-2126162-silver-evo-series-4-person-instant-up-camping-tent-full-fly-4p-14",
+    "name": "Coleman 2126162 Silver Evo Series 4 Person Instant Up Camping Tent Full Fly 4P",
+    "brand": "Coleman",
+    "category": "tents",
+    "price": 389,
+    "salePrice": 389,
+    "rating": 5.0,
+    "reviews": 2,
+    "image": "https://i.ebayimg.com/images/g/u6EAAOSw57loCNzU/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/u6EAAOSw57loCNzU/s-l1600.jpg",
+    "summary": "Coleman 2126162 Silver Evo Series 4 Person Instant Up Camping Tent Full Fly 4P",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/313973561872?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Coleman%202126162%20Silver%20Evo%20Series%204%20Person%20Instant%20Up%20Camping%20Tent%20Full%20Fly%204P",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Coleman%202126162%20Silver%20Evo%20Series%204%20Person%20Instant%20Up%20Camping%20Tent%20Full%20Fly%204P",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Coleman%202126162%20Silver%20Evo%20Series%204%20Person%20Instant%20Up%20Camping%20Tent%20Full%20Fly%204P",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Coleman%202126162%20Silver%20Evo%20Series%204%20Person%20Instant%20Up%20Camping%20Tent%20Full%20Fly%204P",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Coleman%202126162%20Silver%20Evo%20Series%204%20Person%20Instant%20Up%20Camping%20Tent%20Full%20Fly%204P",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%202126162%20Silver%20Evo%20Series%204%20Person%20Instant%20Up%20Camping%20Tent%20Full%20Fly%204P",
+        "type": "search"
+      }
+    ],
+    "categoryName": "Camping Tents",
+    "highlights": [],
+    "description": "Coleman 2126162 Silver Evo Series 4 Person Instant Up Camping Tent Full Fly 4P",
+    "specs": {}
+  },
+  {
+    "slug": "oztrail-oztrail-tasman-3v-dome-tent-3-person-camping-tent-lightweight-waterproof",
+    "name": "OZtrail Tasman 3V Dome Tent 3 Person Camping Tent Lightweight Waterproof",
+    "brand": "OZtrail",
+    "category": "tents",
+    "price": 124,
+    "salePrice": 124,
+    "rating": 4.2,
+    "reviews": 0,
+    "image": "https://i.ebayimg.com/images/g/e8kAAeSwN8dqEXj8/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/e8kAAeSwN8dqEXj8/s-l1600.jpg",
+    "summary": "Designed for moderate to warm climates, this tent provides strong ventilation while still protecting you from wind and rain, making it ideal for camping across Australia. Tent i...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/397980352251?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCK5XzQO%2FtC4ORBPKFpHd07bZg1zQP06FdpPSSAbfMOIqIsTWI535JYF%2BtMniGIJCpQHqB4H8Qt6RGo0saf3rkznZU9wBxOiR7gnhIzS4JK28IZSVCfrXhSptlw1iOwnYIMwuEL0rfTjKM1u46Jj7pmfXNI9yqRwsKAq2HwO2Ef3VDRcmNbZhmrVkt4e3GwhQs%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=OZtrail%20Tasman%203V%20Dome%20Tent%203%20Person%20Camping%20Tent%20Lightweight%20Waterproof",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=OZtrail%20Tasman%203V%20Dome%20Tent%203%20Person%20Camping%20Tent%20Lightweight%20Waterproof",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=OZtrail%20Tasman%203V%20Dome%20Tent%203%20Person%20Camping%20Tent%20Lightweight%20Waterproof",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=OZtrail%20Tasman%203V%20Dome%20Tent%203%20Person%20Camping%20Tent%20Lightweight%20Waterproof",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=OZtrail%20Tasman%203V%20Dome%20Tent%203%20Person%20Camping%20Tent%20Lightweight%20Waterproof",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=OZtrail%20Tasman%203V%20Dome%20Tent%203%20Person%20Camping%20Tent%20Lightweight%20Waterproof",
+        "type": "search"
+      }
+    ],
+    "categoryName": "Camping Tents",
+    "highlights": [],
+    "description": "Designed for moderate to warm climates, this tent provides strong ventilation while still protecting you from wind and rain, making it ideal for camping across Australia. Tent i...",
+    "specs": {}
+  },
+  {
+    "slug": "vango-vango-ostro-200-2-person-camping-hiking-tent-terracotta-vte-os200-k-5",
+    "name": "Vango Ostro 200 2 Person Camping & Hiking Tent - Terracotta (VTE-OS200-K)",
+    "brand": "Vango",
+    "category": "tents",
+    "price": 320,
+    "salePrice": 320,
+    "rating": 4.2,
+    "reviews": 0,
+    "image": "https://i.ebayimg.com/images/g/7xoAAOSwbGdfSFcw/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/7xoAAOSwbGdfSFcw/s-l1600.jpg",
+    "summary": "Vango Ostro 200 2 Person Camping & Hiking Tent - Terracotta (VTE-OS200-K)",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/252063271114?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xB9Aei80V7Xjo65dUJxVUsnQlW%2BTPgXfA6oMDTXAqUaunzpaNfRH6goObzIiRRN3zcQAO%2B2M5R3DHjCLa93edC2eNCsLIxLK86aGM7uXBFUPxrw6F%2Fuhgcj056ofQ8TBj9iTQrHc52KLkFJwHfxJVGlF845cwM4W7QtpC1D6O%2B0jyFDHEfQPl9%2F1cqiRlHMDnQ%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Vango%20Ostro%20200%202%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Terracotta%20%28VTE-OS200-K%29",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Vango%20Ostro%20200%202%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Terracotta%20%28VTE-OS200-K%29",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Vango%20Ostro%20200%202%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Terracotta%20%28VTE-OS200-K%29",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Vango%20Ostro%20200%202%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Terracotta%20%28VTE-OS200-K%29",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Vango%20Ostro%20200%202%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Terracotta%20%28VTE-OS200-K%29",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Vango%20Ostro%20200%202%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Terracotta%20%28VTE-OS200-K%29",
+        "type": "search"
+      }
+    ],
+    "categoryName": "Camping Tents",
+    "highlights": [],
+    "description": "Vango Ostro 200 2 Person Camping & Hiking Tent - Terracotta (VTE-OS200-K)",
     "specs": {}
   }
 ]
