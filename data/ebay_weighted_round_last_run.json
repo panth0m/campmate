@@ -13,7 +13,7 @@
     {
       "category": "tents",
       "requested": 44,
-      "added": 2,
+      "added": 0,
       "brands": {
         "Coleman": 0,
         "OZtrail": 0,
@@ -23,10 +23,10 @@
         "Hilleberg": 0,
         "The North Face": 0,
         "Big Agnes": 0,
-        "Vango": 2,
+        "Vango": 0,
         "Zempire": 0
       },
-      "sourceCount": 788,
+      "sourceCount": 791,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -45,7 +45,7 @@
         "Vango": 0,
         "Zempire": 0
       },
-      "sourceCount": 791,
+      "sourceCount": 794,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -64,26 +64,26 @@
         "Sea to Summit": 0,
         "Zempire": 0
       },
-      "sourceCount": 791,
+      "sourceCount": 794,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
       "category": "stoves",
       "requested": 12,
-      "added": 0,
+      "added": 2,
       "brands": {
         "Coleman": 0,
         "Companion": 0,
         "Jetboil": 0,
         "Primus": 0,
         "MSR": 0,
-        "Camp Chef": 0,
+        "Camp Chef": 1,
         "Weber": 0,
         "Sea to Summit": 0,
         "Trangia": 0,
-        "Gasmate": 0
+        "Gasmate": 1
       },
-      "sourceCount": 791,
+      "sourceCount": 796,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -102,7 +102,7 @@
         "Companion": 0,
         "Vango": 0
       },
-      "sourceCount": 791,
+      "sourceCount": 796,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -121,7 +121,7 @@
         "Wanderer": 0,
         "Big Agnes": 0
       },
-      "sourceCount": 791,
+      "sourceCount": 796,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     }
   ],
