@@ -3,126 +3,126 @@
     "tents": {
       "brands": {
         "Coleman": {
-          "offset": 138700,
-          "runs": 1387,
+          "offset": 140700,
+          "runs": 1407,
           "added": 82,
           "emptyPages": 1
         },
         "OZtrail": {
-          "offset": 134900,
-          "runs": 1349,
+          "offset": 136900,
+          "runs": 1369,
           "added": 54,
           "emptyPages": 0
         },
         "BlackWolf": {
-          "offset": 139500,
-          "runs": 1395,
+          "offset": 139600,
+          "runs": 1396,
           "added": 4,
-          "emptyPages": 7
+          "emptyPages": 8
         },
         "Sea to Summit": {
-          "offset": 148700,
-          "runs": 1487,
+          "offset": 150700,
+          "runs": 1507,
           "added": 2,
           "emptyPages": 3
         },
         "Darche": {
-          "offset": 149300,
-          "runs": 1493,
+          "offset": 151300,
+          "runs": 1513,
           "added": 5,
           "emptyPages": 1
         },
         "Hilleberg": {
-          "offset": 7600,
-          "runs": 76,
+          "offset": 7700,
+          "runs": 77,
           "added": 0,
-          "emptyPages": 76
+          "emptyPages": 77
         },
         "The North Face": {
-          "offset": 7600,
-          "runs": 76,
+          "offset": 7700,
+          "runs": 77,
           "added": 0,
-          "emptyPages": 76
+          "emptyPages": 77
         },
         "Big Agnes": {
-          "offset": 149400,
-          "runs": 1494,
+          "offset": 151400,
+          "runs": 1514,
           "added": 2,
           "emptyPages": 3
         },
         "Vango": {
-          "offset": 143800,
-          "runs": 1438,
+          "offset": 145800,
+          "runs": 1458,
           "added": 33,
           "emptyPages": 2
         },
         "Zempire": {
-          "offset": 7600,
-          "runs": 76,
+          "offset": 7700,
+          "runs": 77,
           "added": 0,
-          "emptyPages": 76
+          "emptyPages": 77
         }
       }
     },
     "chairs": {
       "brands": {
         "Coleman": {
-          "offset": 135800,
-          "runs": 1358,
+          "offset": 137800,
+          "runs": 1378,
           "added": 35,
           "emptyPages": 1
         },
         "OZtrail": {
-          "offset": 120200,
-          "runs": 1202,
+          "offset": 122200,
+          "runs": 1222,
           "added": 69,
           "emptyPages": 3
         },
         "BlackWolf": {
-          "offset": 150800,
-          "runs": 1508,
+          "offset": 152800,
+          "runs": 1528,
           "added": 7,
           "emptyPages": 3
         },
         "Helinox": {
-          "offset": 102700,
-          "runs": 1027,
+          "offset": 104700,
+          "runs": 1047,
           "added": 89,
           "emptyPages": 0
         },
         "Darche": {
-          "offset": 140100,
-          "runs": 1401,
+          "offset": 142100,
+          "runs": 1421,
           "added": 23,
           "emptyPages": 6
         },
         "Sea to Summit": {
-          "offset": 146200,
-          "runs": 1462,
+          "offset": 148200,
+          "runs": 1482,
           "added": 14,
           "emptyPages": 2
         },
         "Companion": {
-          "offset": 152400,
-          "runs": 1524,
+          "offset": 154400,
+          "runs": 1544,
           "added": 3,
           "emptyPages": 1
         },
         "Wanderer": {
-          "offset": 152800,
-          "runs": 1528,
+          "offset": 154800,
+          "runs": 1548,
           "added": 1,
           "emptyPages": 1
         },
         "Vango": {
-          "offset": 7700,
-          "runs": 77,
+          "offset": 7800,
+          "runs": 78,
           "added": 0,
-          "emptyPages": 77
+          "emptyPages": 78
         },
         "Zempire": {
-          "offset": 151200,
-          "runs": 1512,
+          "offset": 153200,
+          "runs": 1532,
           "added": 0,
           "emptyPages": 3
         }
@@ -131,62 +131,62 @@
     "coolers": {
       "brands": {
         "Coleman": {
-          "offset": 144700,
-          "runs": 1447,
+          "offset": 146700,
+          "runs": 1467,
           "added": 10,
           "emptyPages": 1
         },
         "YETI": {
-          "offset": 147100,
-          "runs": 1471,
+          "offset": 149100,
+          "runs": 1491,
           "added": 3,
           "emptyPages": 7
         },
         "Dometic": {
-          "offset": 145700,
-          "runs": 1457,
+          "offset": 147700,
+          "runs": 1477,
           "added": 11,
           "emptyPages": 2
         },
         "Engel": {
-          "offset": 7700,
-          "runs": 77,
+          "offset": 7800,
+          "runs": 78,
           "added": 0,
-          "emptyPages": 77
+          "emptyPages": 78
         },
         "Wanderer": {
-          "offset": 151900,
-          "runs": 1519,
+          "offset": 153900,
+          "runs": 1539,
           "added": 3,
           "emptyPages": 2
         },
         "Companion": {
-          "offset": 149500,
-          "runs": 1495,
+          "offset": 151500,
+          "runs": 1515,
           "added": 9,
           "emptyPages": 1
         },
         "Evakool": {
-          "offset": 143200,
-          "runs": 1432,
+          "offset": 145200,
+          "runs": 1452,
           "added": 0,
           "emptyPages": 10
         },
         "Igloo": {
-          "offset": 145600,
-          "runs": 1456,
+          "offset": 147600,
+          "runs": 1476,
           "added": 5,
           "emptyPages": 3
         },
         "Sea to Summit": {
-          "offset": 146500,
-          "runs": 1465,
+          "offset": 148500,
+          "runs": 1485,
           "added": 5,
           "emptyPages": 3
         },
         "Zempire": {
-          "offset": 149100,
-          "runs": 1491,
+          "offset": 151100,
+          "runs": 1511,
           "added": 0,
           "emptyPages": 5
         }
@@ -195,62 +195,62 @@
     "stoves": {
       "brands": {
         "Coleman": {
-          "offset": 152900,
-          "runs": 1529,
+          "offset": 154900,
+          "runs": 1549,
           "added": 1,
           "emptyPages": 1
         },
         "Companion": {
-          "offset": 136200,
-          "runs": 1362,
+          "offset": 136300,
+          "runs": 1363,
           "added": 6,
-          "emptyPages": 8
+          "emptyPages": 9
         },
         "Jetboil": {
-          "offset": 148800,
-          "runs": 1488,
+          "offset": 150800,
+          "runs": 1508,
           "added": 4,
           "emptyPages": 2
         },
         "Primus": {
-          "offset": 148700,
-          "runs": 1487,
+          "offset": 150700,
+          "runs": 1507,
           "added": 4,
           "emptyPages": 1
         },
         "MSR": {
-          "offset": 7700,
-          "runs": 77,
+          "offset": 7800,
+          "runs": 78,
           "added": 0,
-          "emptyPages": 77
+          "emptyPages": 78
         },
         "Camp Chef": {
-          "offset": 127500,
-          "runs": 1275,
+          "offset": 129500,
+          "runs": 1295,
           "added": 42,
           "emptyPages": 0
         },
         "Weber": {
-          "offset": 7700,
-          "runs": 77,
+          "offset": 7800,
+          "runs": 78,
           "added": 0,
-          "emptyPages": 77
+          "emptyPages": 78
         },
         "Sea to Summit": {
-          "offset": 7700,
-          "runs": 77,
+          "offset": 7800,
+          "runs": 78,
           "added": 0,
-          "emptyPages": 77
+          "emptyPages": 78
         },
         "Trangia": {
-          "offset": 150000,
-          "runs": 1500,
+          "offset": 152000,
+          "runs": 1520,
           "added": 1,
           "emptyPages": 5
         },
         "Gasmate": {
-          "offset": 135000,
-          "runs": 1350,
+          "offset": 137000,
+          "runs": 1370,
           "added": 28,
           "emptyPages": 0
         }
@@ -259,128 +259,128 @@
     "lanterns": {
       "brands": {
         "Coleman": {
-          "offset": 138100,
-          "runs": 1381,
+          "offset": 140100,
+          "runs": 1401,
           "added": 22,
           "emptyPages": 1
         },
         "Black Diamond": {
-          "offset": 150300,
-          "runs": 1503,
+          "offset": 152300,
+          "runs": 1523,
           "added": 2,
           "emptyPages": 3
         },
         "Goal Zero": {
-          "offset": 7700,
-          "runs": 77,
+          "offset": 7800,
+          "runs": 78,
           "added": 0,
-          "emptyPages": 77
+          "emptyPages": 78
         },
         "BioLite": {
-          "offset": 99700,
-          "runs": 997,
+          "offset": 101700,
+          "runs": 1017,
           "added": 5,
           "emptyPages": 28
         },
         "Ledlenser": {
-          "offset": 148900,
-          "runs": 1489,
+          "offset": 150900,
+          "runs": 1509,
           "added": 8,
           "emptyPages": 1
         },
         "Barebones": {
-          "offset": 153100,
-          "runs": 1531,
+          "offset": 155100,
+          "runs": 1551,
           "added": 1,
           "emptyPages": 1
         },
         "Sea to Summit": {
-          "offset": 125500,
-          "runs": 1255,
+          "offset": 127500,
+          "runs": 1275,
           "added": 52,
           "emptyPages": 2
         },
         "OZtrail": {
-          "offset": 93700,
-          "runs": 937,
+          "offset": 95700,
+          "runs": 957,
           "added": 65,
           "emptyPages": 1
         },
         "Companion": {
-          "offset": 148500,
-          "runs": 1485,
+          "offset": 150500,
+          "runs": 1505,
           "added": 3,
           "emptyPages": 2
         },
         "Vango": {
-          "offset": 7600,
-          "runs": 76,
+          "offset": 7700,
+          "runs": 77,
           "added": 0,
-          "emptyPages": 76
+          "emptyPages": 77
         }
       }
     },
     "sleep-systems": {
       "brands": {
         "Sea to Summit": {
-          "offset": 128700,
-          "runs": 1287,
+          "offset": 130700,
+          "runs": 1307,
           "added": 13,
           "emptyPages": 1
         },
         "Coleman": {
-          "offset": 7700,
-          "runs": 77,
+          "offset": 7800,
+          "runs": 78,
           "added": 0,
-          "emptyPages": 77
+          "emptyPages": 78
         },
         "Therm-a-Rest": {
-          "offset": 150200,
-          "runs": 1502,
+          "offset": 152200,
+          "runs": 1522,
           "added": 2,
           "emptyPages": 0
         },
         "BlackWolf": {
-          "offset": 7700,
-          "runs": 77,
+          "offset": 7800,
+          "runs": 78,
           "added": 0,
-          "emptyPages": 77
+          "emptyPages": 78
         },
         "Exped": {
-          "offset": 7700,
-          "runs": 77,
+          "offset": 7800,
+          "runs": 78,
           "added": 0,
-          "emptyPages": 77
+          "emptyPages": 78
         },
         "Darche": {
-          "offset": 7700,
-          "runs": 77,
+          "offset": 7800,
+          "runs": 78,
           "added": 0,
-          "emptyPages": 77
+          "emptyPages": 78
         },
         "Companion": {
-          "offset": 7700,
-          "runs": 77,
+          "offset": 7800,
+          "runs": 78,
           "added": 0,
-          "emptyPages": 77
+          "emptyPages": 78
         },
         "OZtrail": {
-          "offset": 152100,
-          "runs": 1521,
+          "offset": 154100,
+          "runs": 1541,
           "added": 1,
           "emptyPages": 1
         },
         "Wanderer": {
-          "offset": 7700,
-          "runs": 77,
+          "offset": 7800,
+          "runs": 78,
           "added": 0,
-          "emptyPages": 77
+          "emptyPages": 78
         },
         "Big Agnes": {
-          "offset": 7700,
-          "runs": 77,
+          "offset": 7800,
+          "runs": 78,
           "added": 0,
-          "emptyPages": 77
+          "emptyPages": 78
         }
       }
     }
