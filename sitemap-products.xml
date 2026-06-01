@@ -1309,6 +1309,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://campmate.kangseyoung7.workers.dev/products/coleman-instant-up-swagger-1-3-person-tent-30</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://campmate.kangseyoung7.workers.dev/products/coleman-instant-up-swagger-1-3-person-tent-4</loc>
     <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -2468,6 +2474,12 @@
   </url>
   <url>
     <loc>https://campmate.kangseyoung7.workers.dev/products/helinox-new-helinox-one-chair-by-anaconda</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://campmate.kangseyoung7.workers.dev/products/helinox-new-helinox-sunset-chair-by-anaconda</loc>
     <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
