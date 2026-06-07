@@ -48185,5 +48185,179 @@
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/168434871023?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
     "importedAt": "2026-06-06T22:19:28Z"
+  },
+  {
+    "slug": "yeti-yeti-tundra-105-hard-cooler-tan",
+    "name": "Yeti Tundra 105 Hard Cooler (Tan)",
+    "brand": "Yeti",
+    "category": "coolers",
+    "categoryName": "Coolers & Ice Boxes",
+    "price": 600,
+    "salePrice": 600,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/JuYAAeSwzcxqJKa1/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/JuYAAeSwzcxqJKa1/s-l1600.jpg",
+    "summary": "Brand new condition. Still in packaging. Opened, but never used. Tan Colour.",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/336624716905?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Yeti%20Tundra%20105%20Hard%20Cooler%20%28Tan%29",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Yeti%20Tundra%20105%20Hard%20Cooler%20%28Tan%29",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Yeti%20Tundra%20105%20Hard%20Cooler%20%28Tan%29",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Yeti%20Tundra%20105%20Hard%20Cooler%20%28Tan%29",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Yeti%20Tundra%20105%20Hard%20Cooler%20%28Tan%29",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Yeti%20Tundra%20105%20Hard%20Cooler%20%28Tan%29",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|336624716905|0",
+    "sourceLegacyItemId": "336624716905",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/336624716905?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-06-07T22:19:03Z"
+  },
+  {
+    "slug": "camp-chef-patio-cover-cover-for-two-burner-cooking-system-patio-cover-for-camp-stove-f-40",
+    "name": "Patio Cover Cover for Two-Burner Cooking System - Patio Cover for Camp Stove - f",
+    "brand": "Camp Chef",
+    "category": "stoves",
+    "categoryName": "Camping Stoves",
+    "price": 76,
+    "salePrice": 76,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/TJsAAeSwmKFqI60X/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/TJsAAeSwmKFqI60X/s-l1600.jpg",
+    "summary": "Versatile Camp Stove Cover: The Camp Chef Patio Cover works for stove models EX60P, EX60LW, EX60PP, EX60B, EX280LW, EX170LW, YK60LW, YK60LWC12. Protect Your Camp Stove: This cam...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/358644477548?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|358644477548|0",
+    "sourceLegacyItemId": "358644477548",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/358644477548?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-06-07T22:22:18Z"
+  },
+  {
+    "slug": "sea-to-summit-camping-lantern-rechargeable-super-bright-led-camping-lights-lamp-with-7-light-473",
+    "name": "Camping Lantern Rechargeable, Super Bright LED Camping Lights Lamp with 7 Light",
+    "brand": "Sea to Summit",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 33,
+    "salePrice": 33,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/yRgAAeSwwplqBIxn/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/yRgAAeSwwplqBIxn/s-l1600.jpg",
+    "summary": "Camping Lantern Rechargeable, Super Bright LED Camping Lights Lamp with 7 Light",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/188378818067?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDpLkLxQdYDKmgJSF53M%2Fu%2BkACgniA0plFAG0u51qGXLyw0a%2BHoGrFod%2BNahsCokfbxg427mYlHziY3k0bJMd9ncVuCXx7ZaLQeSzYtdjsNA7ahCpGKee1nlxt%2Fy596DI%2BApolHwl3R8zpmt8vgsjJA2oLWmG9OUxUtqHMbHIiRgH0jv3%2FcMg0w7hsQrl6%2Bhmo%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Camping%20Lantern%20Rechargeable%2C%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207%20Light",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Camping%20Lantern%20Rechargeable%2C%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Camping%20Lantern%20Rechargeable%2C%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Camping%20Lantern%20Rechargeable%2C%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Camping%20Lantern%20Rechargeable%2C%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Camping%20Lantern%20Rechargeable%2C%20Super%20Bright%20LED%20Camping%20Lights%20Lamp%20with%207%20Light",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|188378818067|0",
+    "sourceLegacyItemId": "188378818067",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/188378818067?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDpLkLxQdYDKmgJSF53M%2Fu%2BkACgniA0plFAG0u51qGXLyw0a%2BHoGrFod%2BNahsCokfbxg427mYlHziY3k0bJMd9ncVuCXx7ZaLQeSzYtdjsNA7ahCpGKee1nlxt%2Fy596DI%2BApolHwl3R8zpmt8vgsjJA2oLWmG9OUxUtqHMbHIiRgH0jv3%2FcMg0w7hsQrl6%2Bhmo%3D",
+    "importedAt": "2026-06-07T22:27:45Z"
   }
 ]
