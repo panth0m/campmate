@@ -48475,5 +48475,585 @@
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/800144593741?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
     "importedAt": "2026-06-08T22:40:32Z"
+  },
+  {
+    "slug": "coleman-instant-up-swagger-1-3-person-tent-32",
+    "name": "Instant up Swagger 1, 3 Person Tent",
+    "brand": "Coleman",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 342,
+    "salePrice": 342,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/IPMAAeSwFkhqJ0Vb/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/IPMAAeSwFkhqJ0Vb/s-l1600.jpg",
+    "summary": "Take convenient camping up a notch with the headroom of a tent and convenience of a swag in the Instant Swagger 3P Tent from Coleman. There are side windows on each side to assi...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/398046155611?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|398046155611|0",
+    "sourceLegacyItemId": "398046155611",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/398046155611?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-06-09T22:24:10Z"
+  },
+  {
+    "slug": "next-wave-instant-up-swagger-1-3-person-tent",
+    "name": "Instant up Swagger 1, 3 Person Tent",
+    "brand": "next wave",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 303,
+    "salePrice": 303,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/cJIAAeSwD3VqKGeE/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/cJIAAeSwD3VqKGeE/s-l1600.jpg",
+    "summary": "Take convenient camping up a notch with the headroom of a tent and convenience of a swag in the Instant Swagger 3P Tent from Coleman. There are side windows on each side to assi...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/306992784919?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|306992784919|0",
+    "sourceLegacyItemId": "306992784919",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/306992784919?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-06-09T22:24:10Z"
+  },
+  {
+    "slug": "aussiesmegamart-instant-up-swagger-1-3-person-tent",
+    "name": "Instant up Swagger 1, 3 Person Tent",
+    "brand": "aussiesmegamart",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 231,
+    "salePrice": 231,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/92cAAeSwoHZqKGdq/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/92cAAeSwoHZqKGdq/s-l1600.jpg",
+    "summary": "The Instant 1P Swagger Tent is built for those solo outback slumbers under the stars. A durable 150D polyester construction bears the rough and tumble of outback brutality, whil...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/227380906536?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|227380906536|0",
+    "sourceLegacyItemId": "227380906536",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/227380906536?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-06-09T22:24:10Z"
+  },
+  {
+    "slug": "next-wave-instant-up-swagger-1-3-person-tent-2",
+    "name": "Instant up Swagger 1, 3 Person Tent",
+    "brand": "next wave",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 271,
+    "salePrice": 271,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/05sAAeSwkh1qKGdf/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/05sAAeSwkh1qKGdf/s-l1600.jpg",
+    "summary": "The Instant 1P Swagger Tent is built for those solo outback slumbers under the stars. A durable 150D polyester construction bears the rough and tumble of outback brutality, whil...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/306992783677?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Instant%20up%20Swagger%201%2C%203%20Person%20Tent",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|306992783677|0",
+    "sourceLegacyItemId": "306992783677",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/306992783677?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-06-09T22:24:11Z"
+  },
+  {
+    "slug": "coleman-coleman-swagger-quad-fold-chair",
+    "name": "Coleman Swagger Quad Fold Chair",
+    "brand": "Coleman",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 86,
+    "salePrice": 86,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/-AMAAeSws65qH-3l/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/-AMAAeSws65qH-3l/s-l1600.jpg",
+    "summary": "Designed with durability and comfort in mind, this quad fold chair is perfect for all your outdoor adventures. With its heavy duty construction, it can support up to 250 kg, mak...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/366452427404?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Coleman%20Swagger%20Quad%20Fold%20Chair",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Coleman%20Swagger%20Quad%20Fold%20Chair",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Coleman%20Swagger%20Quad%20Fold%20Chair",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Coleman%20Swagger%20Quad%20Fold%20Chair",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Coleman%20Swagger%20Quad%20Fold%20Chair",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Swagger%20Quad%20Fold%20Chair",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|366452427404|0",
+    "sourceLegacyItemId": "366452427404",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/366452427404?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-06-09T22:30:30Z"
+  },
+  {
+    "slug": "coleman-coleman-deluxe-mesh-event-camping-chair-grey-brand-new-free-postage",
+    "name": "Coleman Deluxe Mesh Event Camping Chair - Grey -Brand New - Free Postage",
+    "brand": "Coleman",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 36,
+    "salePrice": 36,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/3BgAAeSw~9BqEVc-/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/3BgAAeSw~9BqEVc-/s-l1600.jpg",
+    "summary": "The grey polyester seat is designed for durability and easy cleaning, making it a practical choice for any camping adventure. Low seating position. Fabric: 600D Polyester.",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/366428558648?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xD31fovrxwZ2r9A6XU9%2BsqArw2k8KIy2htYnILSFeLSQ6JX403oS2cE%2BDLobgRMwDp5CwtxPBHiIwULk0ayVvlMceBRJqUxypx1F9Kf0tvTvTuZ7fcJ9gnylf2odUc%2FgBhM%2BeZBKGLaztdDqvpEGZTwzP3aGVJcOyxB0e2yCPLrzlgteuD7zBY5DbXeh%2BaTxhQ%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Coleman%20Deluxe%20Mesh%20Event%20Camping%20Chair%20-%20Grey%20-Brand%20New%20-%20Free%20Postage",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Coleman%20Deluxe%20Mesh%20Event%20Camping%20Chair%20-%20Grey%20-Brand%20New%20-%20Free%20Postage",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Coleman%20Deluxe%20Mesh%20Event%20Camping%20Chair%20-%20Grey%20-Brand%20New%20-%20Free%20Postage",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Coleman%20Deluxe%20Mesh%20Event%20Camping%20Chair%20-%20Grey%20-Brand%20New%20-%20Free%20Postage",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Coleman%20Deluxe%20Mesh%20Event%20Camping%20Chair%20-%20Grey%20-Brand%20New%20-%20Free%20Postage",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Deluxe%20Mesh%20Event%20Camping%20Chair%20-%20Grey%20-Brand%20New%20-%20Free%20Postage",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|366428558648|0",
+    "sourceLegacyItemId": "366428558648",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/366428558648?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xD31fovrxwZ2r9A6XU9%2BsqArw2k8KIy2htYnILSFeLSQ6JX403oS2cE%2BDLobgRMwDp5CwtxPBHiIwULk0ayVvlMceBRJqUxypx1F9Kf0tvTvTuZ7fcJ9gnylf2odUc%2FgBhM%2BeZBKGLaztdDqvpEGZTwzP3aGVJcOyxB0e2yCPLrzlgteuD7zBY5DbXeh%2BaTxhQ%3D",
+    "importedAt": "2026-06-09T22:30:30Z"
+  },
+  {
+    "slug": "coleman-1218360-quad-deluxe-mesh-event-chair-grey-7",
+    "name": "1218360 Quad Deluxe Mesh Event Chair, Grey",
+    "brand": "Coleman",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 38,
+    "salePrice": 38,
+    "rating": 5.0,
+    "reviews": 1,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/Z7kAAeSwrmVqDZUv/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/Z7kAAeSwrmVqDZUv/s-l1600.jpg",
+    "summary": "Model Number:‎1218360.",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/366421248464?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=1218360%20Quad%20Deluxe%20Mesh%20Event%20Chair%2C%20Grey",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=1218360%20Quad%20Deluxe%20Mesh%20Event%20Chair%2C%20Grey",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=1218360%20Quad%20Deluxe%20Mesh%20Event%20Chair%2C%20Grey",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=1218360%20Quad%20Deluxe%20Mesh%20Event%20Chair%2C%20Grey",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=1218360%20Quad%20Deluxe%20Mesh%20Event%20Chair%2C%20Grey",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=1218360%20Quad%20Deluxe%20Mesh%20Event%20Chair%2C%20Grey",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|366421248464|0",
+    "sourceLegacyItemId": "366421248464",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/366421248464?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-06-09T22:30:31Z"
+  },
+  {
+    "slug": "oztrail-oztrail-anywhere-stool-camping-outdoors-adventure-rv-poptop-14",
+    "name": "OZtrail ANYWHERE STOOL CAMPING OUTDOORS ADVENTURE RV POPTOP",
+    "brand": "OZtrail",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 41,
+    "salePrice": 41,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/NNsAAeSwrZJqJ2el/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/NNsAAeSwrZJqJ2el/s-l1600.jpg",
+    "summary": "OZTRAIL ANYWHERE STOOL CAMPING OUTDOORS ADVENTURE RV POPTOP",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/275374321968?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=OZtrail%20ANYWHERE%20STOOL%20CAMPING%20OUTDOORS%20ADVENTURE%20RV%20POPTOP",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=OZtrail%20ANYWHERE%20STOOL%20CAMPING%20OUTDOORS%20ADVENTURE%20RV%20POPTOP",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=OZtrail%20ANYWHERE%20STOOL%20CAMPING%20OUTDOORS%20ADVENTURE%20RV%20POPTOP",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=OZtrail%20ANYWHERE%20STOOL%20CAMPING%20OUTDOORS%20ADVENTURE%20RV%20POPTOP",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=OZtrail%20ANYWHERE%20STOOL%20CAMPING%20OUTDOORS%20ADVENTURE%20RV%20POPTOP",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=OZtrail%20ANYWHERE%20STOOL%20CAMPING%20OUTDOORS%20ADVENTURE%20RV%20POPTOP",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|275374321968|0",
+    "sourceLegacyItemId": "275374321968",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/275374321968?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-06-09T22:31:15Z"
+  },
+  {
+    "slug": "helinox-new-helinox-zero-chair-by-anaconda-2",
+    "name": "NEW Helinox Zero Chair By Anaconda",
+    "brand": "Helinox",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 200,
+    "salePrice": 169,
+    "rating": 5.0,
+    "reviews": 1,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/zGIAAeSwP2tqHSf0/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/zGIAAeSwP2tqHSf0/s-l1600.jpg",
+    "summary": "The Helinox Zero Chair represents the pinnacle of ultralight outdoor seating, designed for adventure seekers who demand maximum performance with minimal weight. Designed with a...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/298397938550?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=NEW%20Helinox%20Zero%20Chair%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=NEW%20Helinox%20Zero%20Chair%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=NEW%20Helinox%20Zero%20Chair%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=NEW%20Helinox%20Zero%20Chair%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=NEW%20Helinox%20Zero%20Chair%20By%20Anaconda",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=NEW%20Helinox%20Zero%20Chair%20By%20Anaconda",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|298397938550|0",
+    "sourceLegacyItemId": "298397938550",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/298397938550?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-06-09T22:31:48Z"
+  },
+  {
+    "slug": "next-wave-camping-light-rechargeable-camping-lantern-2000-lm-ultra-bright-lamp-7-light",
+    "name": "Camping Light, Rechargeable Camping Lantern, 2000 LM Ultra Bright Lamp - 7 Light",
+    "brand": "next wave",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 37,
+    "salePrice": 37,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/9goAAeSw40NqKGcu/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/9goAAeSw40NqKGcu/s-l1600.jpg",
+    "summary": "🏕【Sufficient Brightness】The camping light adopts 60 high quality LED lamp beads with stable light source. The 360° beam angle gives you bright and soft light to illuminate your...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/306992782410?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Camping%20Light%2C%20Rechargeable%20Camping%20Lantern%2C%202000%20LM%20Ultra%20Bright%20Lamp%20-%207%20Light",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Camping%20Light%2C%20Rechargeable%20Camping%20Lantern%2C%202000%20LM%20Ultra%20Bright%20Lamp%20-%207%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Camping%20Light%2C%20Rechargeable%20Camping%20Lantern%2C%202000%20LM%20Ultra%20Bright%20Lamp%20-%207%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Camping%20Light%2C%20Rechargeable%20Camping%20Lantern%2C%202000%20LM%20Ultra%20Bright%20Lamp%20-%207%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Camping%20Light%2C%20Rechargeable%20Camping%20Lantern%2C%202000%20LM%20Ultra%20Bright%20Lamp%20-%207%20Light",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Camping%20Light%2C%20Rechargeable%20Camping%20Lantern%2C%202000%20LM%20Ultra%20Bright%20Lamp%20-%207%20Light",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|306992782410|0",
+    "sourceLegacyItemId": "306992782410",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/306992782410?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-06-09T22:40:33Z"
   }
 ]
