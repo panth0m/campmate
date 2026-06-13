@@ -1,7 +1,7 @@
 {
   "scanned": 42,
-  "touched": 0,
-  "changed": 0,
+  "touched": 1,
+  "changed": 1,
   "limit": 60,
   "refresh_all": false
 }

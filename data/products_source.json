@@ -1769,7 +1769,8 @@
     "description": "Rated 4.1/5 from 345 reviews. The Igloo BMX 52 Roller Cooler is a mid-range coolers from Igloo. Heavy-duty wheels roll across sand and gravel. UV-resistant shell handles harsh outdoor conditions.",
     "specs": {
       "Reference price": "A$139"
-    }
+    },
+    "ebayImage": "https://i.ebayimg.com/images/g/0y8AAeSwvTFqLKLU/s-l225.jpg"
   },
   {
     "slug": "pelican-50qt-elite-cooler",
@@ -49809,5 +49810,63 @@
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/157909436961?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCDp18Wpk4PHgxIZwyvTiIbGrdID3SEnogCMk4ffvW3kn5a%2BCVsWvhvvMHYdq253gQxfr0%2BCijK99vTIrpRwuUWRRNaloMVhOZl1Ekk%2BDdDCMfMGoOKsM7kymrO4d2xbBCSFHrjDkfIj0YE8sGq%2BTwfCL63SXAtYFYEUI0avs%2BJlv%2ByZClzhQ6dKVGXf%2B9pS%2FQ%3D",
     "importedAt": "2026-06-12T22:46:16Z"
+  },
+  {
+    "slug": "camp-chef-patio-cover-cover-for-two-burner-cooking-system-patio-cover-for-camp-stove-f-46",
+    "name": "Patio Cover Cover for Two-Burner Cooking System - Patio Cover for Camp Stove - f",
+    "brand": "Camp Chef",
+    "category": "stoves",
+    "categoryName": "Camping Stoves",
+    "price": 55,
+    "salePrice": 55,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/3-wAAeSwmGpqLPCh/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/3-wAAeSwmGpqLPCh/s-l1600.jpg",
+    "summary": "Versatile Camp Stove Cover: The Camp Chef Patio Cover works for stove models EX60P, EX60LW, EX60PP, EX60B, EX280LW, EX170LW, YK60LW, YK60LWC12. Protect Your Camp Stove: This cam...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/406997094199?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|406997094199|0",
+    "sourceLegacyItemId": "406997094199",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/406997094199?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-06-13T22:18:40Z"
   }
 ]
