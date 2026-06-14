@@ -49868,5 +49868,63 @@
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/406997094199?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
     "importedAt": "2026-06-13T22:18:40Z"
+  },
+  {
+    "slug": "darche-darche-eco-series-low-rise-folding-chair-t050801413-2",
+    "name": "Darche ECO Series Low Rise Folding Chair - T050801413",
+    "brand": "Darche",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 149,
+    "salePrice": 149,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/iS4AAeSwBP1qLV0w/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/iS4AAeSwBP1qLV0w/s-l1600.jpg",
+    "summary": "Darche ECO Series Low Rise Folding Chair - T050801413This is a new quality Darche branded Folding Chair. Get close to nature with the Low Rise Folding Chair from the Darche ECO...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/305505580237?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Darche%20ECO%20Series%20Low%20Rise%20Folding%20Chair%20-%20T050801413",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Darche%20ECO%20Series%20Low%20Rise%20Folding%20Chair%20-%20T050801413",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Darche%20ECO%20Series%20Low%20Rise%20Folding%20Chair%20-%20T050801413",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Darche%20ECO%20Series%20Low%20Rise%20Folding%20Chair%20-%20T050801413",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Darche%20ECO%20Series%20Low%20Rise%20Folding%20Chair%20-%20T050801413",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Darche%20ECO%20Series%20Low%20Rise%20Folding%20Chair%20-%20T050801413",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|305505580237|0",
+    "sourceLegacyItemId": "305505580237",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/305505580237?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-06-14T22:21:54Z"
   }
 ]
