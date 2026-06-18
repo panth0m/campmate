@@ -50216,5 +50216,121 @@
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/389058925186?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
     "importedAt": "2026-06-17T23:10:10Z"
+  },
+  {
+    "slug": "coleman-coleman-plastic-cooler-wheeled-hard-cooler-outdoor-camping-38l-black-grey-18",
+    "name": "COLEMAN Plastic Cooler Wheeled Hard Cooler Outdoor Camping 38L Black/Grey",
+    "brand": "COLEMAN",
+    "category": "coolers",
+    "categoryName": "Coolers & Ice Boxes",
+    "price": 207,
+    "salePrice": 161,
+    "rating": 5.0,
+    "reviews": 1,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/vwkAAOSwyZpmvTUl/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/vwkAAOSwyZpmvTUl/s-l1600.jpg",
+    "summary": "Coleman Plastic Cooler Wheeled Hard Cooler Outdoor Camping 38L Black/Grey",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/116290623505?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCpKJi8KiwHizHmUBgGg64DWLye3VugCODdaFf4TDaFwfi0td9j5xbKeVnukW%2FYryj6NVSxx2icvGXMn%2FTi4Fyv%2BmeEMLsRm3WGzmrA4kAwlgijs83%2BB95eSHp3KfaLlj8u%2F1tywcLw63i9%2FaqLZteqKUtvis%2BBMLPSLDdKSj3Z8fV7qK0Qjb5%2FfK7IwQo%2FxNI%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=COLEMAN%20Plastic%20Cooler%20Wheeled%20Hard%20Cooler%20Outdoor%20Camping%2038L%20Black/Grey",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=COLEMAN%20Plastic%20Cooler%20Wheeled%20Hard%20Cooler%20Outdoor%20Camping%2038L%20Black/Grey",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=COLEMAN%20Plastic%20Cooler%20Wheeled%20Hard%20Cooler%20Outdoor%20Camping%2038L%20Black/Grey",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=COLEMAN%20Plastic%20Cooler%20Wheeled%20Hard%20Cooler%20Outdoor%20Camping%2038L%20Black/Grey",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=COLEMAN%20Plastic%20Cooler%20Wheeled%20Hard%20Cooler%20Outdoor%20Camping%2038L%20Black/Grey",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=COLEMAN%20Plastic%20Cooler%20Wheeled%20Hard%20Cooler%20Outdoor%20Camping%2038L%20Black/Grey",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|116290623505|0",
+    "sourceLegacyItemId": "116290623505",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/116290623505?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCpKJi8KiwHizHmUBgGg64DWLye3VugCODdaFf4TDaFwfi0td9j5xbKeVnukW%2FYryj6NVSxx2icvGXMn%2FTi4Fyv%2BmeEMLsRm3WGzmrA4kAwlgijs83%2BB95eSHp3KfaLlj8u%2F1tywcLw63i9%2FaqLZteqKUtvis%2BBMLPSLDdKSj3Z8fV7qK0Qjb5%2FfK7IwQo%2FxNI%3D",
+    "importedAt": "2026-06-18T23:09:42Z"
+  },
+  {
+    "slug": "camp-chef-patio-cover-cover-for-two-burner-cooking-system-patio-cover-for-camp-stove-f-49",
+    "name": "Patio Cover Cover for Two-Burner Cooking System - Patio Cover for Camp Stove - f",
+    "brand": "Camp Chef",
+    "category": "stoves",
+    "categoryName": "Camping Stoves",
+    "price": 59,
+    "salePrice": 59,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/lGAAAeSwBP9qJlHp/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/lGAAAeSwBP9qJlHp/s-l1600.jpg",
+    "summary": "Versatile Camp Stove Cover: The Camp Chef Patio Cover works for stove models EX60P, EX60LW, EX60PP, EX60B, EX280LW, EX170LW, YK60LW, YK60LWC12. Protect Your Camp Stove: This cam...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/168446712818?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBdFuKy9cFX5d4utqOAa9xIzCLz4X91UFDbbE%2FhSkggIsAP3m%2B8AoXPi6QO%2BkTpKX9NNbohimdD7PbuZR7Q1P8o1A0sLhZeUDLCuA9MpCUofsgz5Cdpno4luRZAcBC6AZMSnl40q0rX%2BMDTEZ%2Fj55TX87QcJ9S5lpCL4W8l8suekEbSrX1jjek1iKFxIjcX6kU%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Patio%20Cover%20Cover%20for%20Two-Burner%20Cooking%20System%20-%20Patio%20Cover%20for%20Camp%20Stove%20-%20f",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|168446712818|0",
+    "sourceLegacyItemId": "168446712818",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/168446712818?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBdFuKy9cFX5d4utqOAa9xIzCLz4X91UFDbbE%2FhSkggIsAP3m%2B8AoXPi6QO%2BkTpKX9NNbohimdD7PbuZR7Q1P8o1A0sLhZeUDLCuA9MpCUofsgz5Cdpno4luRZAcBC6AZMSnl40q0rX%2BMDTEZ%2Fj55TX87QcJ9S5lpCL4W8l8suekEbSrX1jjek1iKFxIjcX6kU%3D",
+    "importedAt": "2026-06-18T23:12:11Z"
   }
 ]

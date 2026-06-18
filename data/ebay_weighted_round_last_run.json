@@ -26,7 +26,7 @@
         "Vango": 0,
         "Zempire": 0
       },
-      "sourceCount": 856,
+      "sourceCount": 858,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -45,15 +45,15 @@
         "Vango": 0,
         "Zempire": 0
       },
-      "sourceCount": 856,
+      "sourceCount": 858,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
       "category": "coolers",
       "requested": 14,
-      "added": 0,
+      "added": 1,
       "brands": {
-        "Coleman": 0,
+        "Coleman": 1,
         "YETI": 0,
         "Dometic": 0,
         "Engel": 0,
@@ -64,7 +64,7 @@
         "Sea to Summit": 0,
         "Zempire": 0
       },
-      "sourceCount": 856,
+      "sourceCount": 859,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -83,13 +83,13 @@
         "Trangia": 0,
         "Gasmate": 0
       },
-      "sourceCount": 857,
+      "sourceCount": 860,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
       "category": "lanterns",
       "requested": 12,
-      "added": 1,
+      "added": 0,
       "brands": {
         "Coleman": 0,
         "Black Diamond": 0,
@@ -97,12 +97,12 @@
         "BioLite": 0,
         "Ledlenser": 0,
         "Barebones": 0,
-        "Sea to Summit": 1,
+        "Sea to Summit": 0,
         "OZtrail": 0,
         "Companion": 0,
         "Vango": 0
       },
-      "sourceCount": 858,
+      "sourceCount": 860,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -121,7 +121,7 @@
         "Wanderer": 0,
         "Big Agnes": 0
       },
-      "sourceCount": 858,
+      "sourceCount": 860,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     }
   ],
