@@ -50448,5 +50448,63 @@
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/351486627148?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xC56awHQBYl6GRnQxnioIjKqpML8sDsJL4aLbxj34uuKK5Uw3Bm%2FRIhCS682iEsiU%2BTJ7UQUvtmFxwPhgtqAX78Q4l%2FkRK%2FwjxHFK1MTJPgsyUeiHWjcHibCPm6B9JQNd3vSqDdYkZLCE3o3HFNfq0R2zW%2BDpCw%2BZ3fo5n%2FHABOj1Ii7R95kw8bhLKUB79rjZI%3D",
     "importedAt": "2026-06-19T22:10:16Z"
+  },
+  {
+    "slug": "vango-vango-scafell-300-3-person-camping-hiking-tent-pamir-vte-sc300p-v-5",
+    "name": "Vango Scafell 300+ 3 Person Camping & Hiking Tent - Pamir (VTE-SC300P-V)",
+    "brand": "Vango",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 519,
+    "salePrice": 380,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/rXwAAeSwREFpoM-m/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/rXwAAeSwREFpoM-m/s-l1600.jpg",
+    "summary": "Vango Scafell 300+ 3 Person Camping & Hiking Tent - Pamir (VTE-SC300P-V)",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/256856339942?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDUGX9cSm%2FTj0xGWBvhBSdEe%2FIkBYG8IcQU6c4%2FgqMkyH3Zf9uPKpcHKvrEsW1Ir2XOiHWi8yyxzAP3qhEXc6z0d6lhtDlCqGJA9Q7fUwBfiq7POB5yY4H5%2FqAQNmjnYtEXP8Zr%2FAjBiIk60qqNc3mVWlSdYzAjJKbd3Jj2zbQNyFu04mHppy15LHKYGfRMcWs%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Vango%20Scafell%20300%2B%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-SC300P-V%29",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Vango%20Scafell%20300%2B%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-SC300P-V%29",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Vango%20Scafell%20300%2B%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-SC300P-V%29",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Vango%20Scafell%20300%2B%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-SC300P-V%29",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Vango%20Scafell%20300%2B%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-SC300P-V%29",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Vango%20Scafell%20300%2B%203%20Person%20Camping%20%26%20Hiking%20Tent%20-%20Pamir%20%28VTE-SC300P-V%29",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|256856339942|0",
+    "sourceLegacyItemId": "256856339942",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/256856339942?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDUGX9cSm%2FTj0xGWBvhBSdEe%2FIkBYG8IcQU6c4%2FgqMkyH3Zf9uPKpcHKvrEsW1Ir2XOiHWi8yyxzAP3qhEXc6z0d6lhtDlCqGJA9Q7fUwBfiq7POB5yY4H5%2FqAQNmjnYtEXP8Zr%2FAjBiIk60qqNc3mVWlSdYzAjJKbd3Jj2zbQNyFu04mHppy15LHKYGfRMcWs%3D",
+    "importedAt": "2026-06-20T22:11:34Z"
   }
 ]
