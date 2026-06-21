@@ -50506,5 +50506,63 @@
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/256856339942?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDUGX9cSm%2FTj0xGWBvhBSdEe%2FIkBYG8IcQU6c4%2FgqMkyH3Zf9uPKpcHKvrEsW1Ir2XOiHWi8yyxzAP3qhEXc6z0d6lhtDlCqGJA9Q7fUwBfiq7POB5yY4H5%2FqAQNmjnYtEXP8Zr%2FAjBiIk60qqNc3mVWlSdYzAjJKbd3Jj2zbQNyFu04mHppy15LHKYGfRMcWs%3D",
     "importedAt": "2026-06-20T22:11:34Z"
+  },
+  {
+    "slug": "camp-chef-two-burner-patio-cover-for-camp-chef-2-burners-stove-and-gas-one-vivicreate-out-3",
+    "name": "Two Burner Patio Cover for Camp Chef 2 Burners Stove and Gas One/Vivicreate /Out",
+    "brand": "Camp Chef",
+    "category": "stoves",
+    "categoryName": "Camping Stoves",
+    "price": 68,
+    "salePrice": 68,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/zckAAeSwFONqNz07/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/zckAAeSwFONqNz07/s-l1600.jpg",
+    "summary": "Reduces condensation-induced rust – critical for Two Burner Patio. Quick installation and cleaning: Two Burner Patio Cover is designed for effortless application and removal, en...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/366493847055?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Two%20Burner%20Patio%20Cover%20for%20Camp%20Chef%202%20Burners%20Stove%20and%20Gas%20One/Vivicreate%20/Out",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Two%20Burner%20Patio%20Cover%20for%20Camp%20Chef%202%20Burners%20Stove%20and%20Gas%20One/Vivicreate%20/Out",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Two%20Burner%20Patio%20Cover%20for%20Camp%20Chef%202%20Burners%20Stove%20and%20Gas%20One/Vivicreate%20/Out",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Two%20Burner%20Patio%20Cover%20for%20Camp%20Chef%202%20Burners%20Stove%20and%20Gas%20One/Vivicreate%20/Out",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Two%20Burner%20Patio%20Cover%20for%20Camp%20Chef%202%20Burners%20Stove%20and%20Gas%20One/Vivicreate%20/Out",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Two%20Burner%20Patio%20Cover%20for%20Camp%20Chef%202%20Burners%20Stove%20and%20Gas%20One/Vivicreate%20/Out",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|366493847055|0",
+    "sourceLegacyItemId": "366493847055",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/366493847055?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-06-21T22:27:15Z"
   }
 ]
