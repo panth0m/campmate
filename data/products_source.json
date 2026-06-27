@@ -51028,5 +51028,63 @@
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/127237194222?_skw=Helinox+camping+chair&hash=item1d9fed81ee%3Ag%3Ak-4AAeSwED9oeFvp&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10049",
     "importedAt": "2026-06-24T22:28:53Z"
+  },
+  {
+    "slug": "coleman-coleman-hiking-camping-travelling-sleeping-tent-canopies-for-2-persons-10",
+    "name": "Coleman Hiking Camping Travelling Sleeping Tent Canopies For 2 Persons",
+    "brand": "Coleman",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 58,
+    "salePrice": 58,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/NTsAAOSwE0JZAClY/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/NTsAAOSwE0JZAClY/s-l1600.jpg",
+    "summary": "Coleman Hiking Camping Travelling Sleeping Tent Canopies For 2 Persons",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/151023086830?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Coleman%20Hiking%20Camping%20Travelling%20Sleeping%20Tent%20Canopies%20For%202%20Persons",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Coleman%20Hiking%20Camping%20Travelling%20Sleeping%20Tent%20Canopies%20For%202%20Persons",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Coleman%20Hiking%20Camping%20Travelling%20Sleeping%20Tent%20Canopies%20For%202%20Persons",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Coleman%20Hiking%20Camping%20Travelling%20Sleeping%20Tent%20Canopies%20For%202%20Persons",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Coleman%20Hiking%20Camping%20Travelling%20Sleeping%20Tent%20Canopies%20For%202%20Persons",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Hiking%20Camping%20Travelling%20Sleeping%20Tent%20Canopies%20For%202%20Persons",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|151023086830|0",
+    "sourceLegacyItemId": "151023086830",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/151023086830?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-06-27T22:03:33Z"
   }
 ]
