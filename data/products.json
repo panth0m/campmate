@@ -47778,5 +47778,59 @@
     "highlights": [],
     "description": "Extreme 25L Keg Cooler Wheeled",
     "specs": {}
+  },
+  {
+    "slug": "vango-vango-beta-550xl-5-person-camping-tent-moroccan-blue-vte-bet550xl-s-13",
+    "name": "Vango Beta 550XL 5 Person Camping Tent - Moroccan Blue (VTE-BET550XL-S)",
+    "brand": "Vango",
+    "category": "tents",
+    "price": 540,
+    "salePrice": 540,
+    "rating": 4.2,
+    "reviews": 0,
+    "image": "https://i.ebayimg.com/images/g/cJcAAeSwt5tqPyKo/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/cJcAAeSwt5tqPyKo/s-l1600.jpg",
+    "summary": "Vango Beta 550XL 5 Person Camping Tent - Moroccan Blue (VTE-BET550XL-S)",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/353584864112?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Vango%20Beta%20550XL%205%20Person%20Camping%20Tent%20-%20Moroccan%20Blue%20%28VTE-BET550XL-S%29",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Vango%20Beta%20550XL%205%20Person%20Camping%20Tent%20-%20Moroccan%20Blue%20%28VTE-BET550XL-S%29",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Vango%20Beta%20550XL%205%20Person%20Camping%20Tent%20-%20Moroccan%20Blue%20%28VTE-BET550XL-S%29",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Vango%20Beta%20550XL%205%20Person%20Camping%20Tent%20-%20Moroccan%20Blue%20%28VTE-BET550XL-S%29",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Vango%20Beta%20550XL%205%20Person%20Camping%20Tent%20-%20Moroccan%20Blue%20%28VTE-BET550XL-S%29",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Vango%20Beta%20550XL%205%20Person%20Camping%20Tent%20-%20Moroccan%20Blue%20%28VTE-BET550XL-S%29",
+        "type": "search"
+      }
+    ],
+    "categoryName": "Camping Tents",
+    "highlights": [],
+    "description": "Vango Beta 550XL 5 Person Camping Tent - Moroccan Blue (VTE-BET550XL-S)",
+    "specs": {}
   }
 ]
