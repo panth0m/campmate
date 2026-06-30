@@ -13,7 +13,7 @@
     {
       "category": "tents",
       "requested": 44,
-      "added": 1,
+      "added": 0,
       "brands": {
         "Coleman": 0,
         "OZtrail": 0,
@@ -23,7 +23,7 @@
         "Hilleberg": 0,
         "The North Face": 0,
         "Big Agnes": 0,
-        "Vango": 1,
+        "Vango": 0,
         "Zempire": 0
       },
       "sourceCount": 875,
@@ -125,5 +125,5 @@
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     }
   ],
-  "added_total": 2
+  "added_total": 1
 }
