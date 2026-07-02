@@ -51318,5 +51318,63 @@
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/236381503398?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
     "importedAt": "2026-07-01T22:31:17Z"
+  },
+  {
+    "slug": "igloo-igloo-85l-maxcold-roller-cooler-portable-ice-box-camping-beach-fishing-cooler-2",
+    "name": "Igloo 85L MaxCold Roller Cooler Portable Ice Box Camping Beach Fishing Cooler",
+    "brand": "Igloo",
+    "category": "coolers",
+    "categoryName": "Coolers & Ice Boxes",
+    "price": 258,
+    "salePrice": 258,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/6BwAAeSwWStplvwp/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/6BwAAeSwWStplvwp/s-l1600.jpg",
+    "summary": "This durable high density polyethylene cooler features ultra therm® insulation to keep your food and drinks cold and compromiser technology for enhanced cooling performance. Max...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/287151504597?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Igloo%2085L%20MaxCold%20Roller%20Cooler%20Portable%20Ice%20Box%20Camping%20Beach%20Fishing%20Cooler",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Igloo%2085L%20MaxCold%20Roller%20Cooler%20Portable%20Ice%20Box%20Camping%20Beach%20Fishing%20Cooler",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Igloo%2085L%20MaxCold%20Roller%20Cooler%20Portable%20Ice%20Box%20Camping%20Beach%20Fishing%20Cooler",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Igloo%2085L%20MaxCold%20Roller%20Cooler%20Portable%20Ice%20Box%20Camping%20Beach%20Fishing%20Cooler",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Igloo%2085L%20MaxCold%20Roller%20Cooler%20Portable%20Ice%20Box%20Camping%20Beach%20Fishing%20Cooler",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Igloo%2085L%20MaxCold%20Roller%20Cooler%20Portable%20Ice%20Box%20Camping%20Beach%20Fishing%20Cooler",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|287151504597|0",
+    "sourceLegacyItemId": "287151504597",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/287151504597?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-07-02T22:17:38Z"
   }
 ]
