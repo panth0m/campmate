@@ -26,18 +26,18 @@
         "Vango": 0,
         "Zempire": 0
       },
-      "sourceCount": 877,
+      "sourceCount": 878,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
       "category": "chairs",
       "requested": 29,
-      "added": 1,
+      "added": 2,
       "brands": {
         "Coleman": 0,
         "OZtrail": 0,
         "BlackWolf": 0,
-        "Helinox": 0,
+        "Helinox": 1,
         "Darche": 1,
         "Sea to Summit": 0,
         "Companion": 0,
@@ -45,13 +45,13 @@
         "Vango": 0,
         "Zempire": 0
       },
-      "sourceCount": 877,
+      "sourceCount": 879,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
       "category": "coolers",
       "requested": 14,
-      "added": 1,
+      "added": 0,
       "brands": {
         "Coleman": 0,
         "YETI": 0,
@@ -60,11 +60,11 @@
         "Wanderer": 0,
         "Companion": 0,
         "Evakool": 0,
-        "Igloo": 1,
+        "Igloo": 0,
         "Sea to Summit": 0,
         "Zempire": 0
       },
-      "sourceCount": 878,
+      "sourceCount": 879,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -83,7 +83,7 @@
         "Trangia": 0,
         "Gasmate": 0
       },
-      "sourceCount": 878,
+      "sourceCount": 879,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -102,7 +102,7 @@
         "Companion": 0,
         "Vango": 0
       },
-      "sourceCount": 878,
+      "sourceCount": 879,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -121,7 +121,7 @@
         "Wanderer": 0,
         "Big Agnes": 0
       },
-      "sourceCount": 878,
+      "sourceCount": 879,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     }
   ],

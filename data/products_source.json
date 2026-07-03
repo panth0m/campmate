@@ -51376,5 +51376,63 @@
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/287151504597?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
     "importedAt": "2026-07-02T22:17:38Z"
+  },
+  {
+    "slug": "helinox-helinox-lightweight-high-back-beach-chair-black-2",
+    "name": "Helinox Lightweight High-Back Beach Chair - Black",
+    "brand": "Helinox",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 260,
+    "salePrice": 260,
+    "rating": 5.0,
+    "reviews": 2,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/mIQAAeSwCMRqJzYA/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/mIQAAeSwCMRqJzYA/s-l1600.jpg",
+    "summary": "Just lean back, take in the view, and let relaxation begin. Beach ready: Low-to-the-ground seating with splayed legs and flat feet to prevent the chair from sinking into the san...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/298475575181?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Helinox%20Lightweight%20High-Back%20Beach%20Chair%20-%20Black",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Helinox%20Lightweight%20High-Back%20Beach%20Chair%20-%20Black",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Helinox%20Lightweight%20High-Back%20Beach%20Chair%20-%20Black",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Helinox%20Lightweight%20High-Back%20Beach%20Chair%20-%20Black",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Helinox%20Lightweight%20High-Back%20Beach%20Chair%20-%20Black",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Helinox%20Lightweight%20High-Back%20Beach%20Chair%20-%20Black",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|298475575181|0",
+    "sourceLegacyItemId": "298475575181",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/298475575181?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-07-03T22:11:38Z"
   }
 ]
