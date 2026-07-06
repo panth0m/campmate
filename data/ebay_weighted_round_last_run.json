@@ -26,7 +26,7 @@
         "Vango": 0,
         "Zempire": 0
       },
-      "sourceCount": 880,
+      "sourceCount": 881,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -45,7 +45,7 @@
         "Vango": 0,
         "Zempire": 0
       },
-      "sourceCount": 880,
+      "sourceCount": 881,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -64,7 +64,7 @@
         "Sea to Summit": 0,
         "Zempire": 0
       },
-      "sourceCount": 880,
+      "sourceCount": 881,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -83,13 +83,13 @@
         "Trangia": 0,
         "Gasmate": 0
       },
-      "sourceCount": 880,
+      "sourceCount": 881,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
       "category": "lanterns",
       "requested": 12,
-      "added": 1,
+      "added": 0,
       "brands": {
         "Coleman": 0,
         "Black Diamond": 0,
@@ -97,7 +97,7 @@
         "BioLite": 0,
         "Ledlenser": 0,
         "Barebones": 0,
-        "Sea to Summit": 1,
+        "Sea to Summit": 0,
         "OZtrail": 0,
         "Companion": 0,
         "Vango": 0
@@ -125,5 +125,5 @@
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     }
   ],
-  "added_total": 2
+  "added_total": 1
 }
