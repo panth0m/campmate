@@ -26,19 +26,19 @@
         "Vango": 0,
         "Zempire": 0
       },
-      "sourceCount": 918,
+      "sourceCount": 922,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
       "category": "chairs",
       "requested": 29,
-      "added": 5,
+      "added": 0,
       "brands": {
         "Coleman": 0,
         "OZtrail": 0,
-        "BlackWolf": 3,
+        "BlackWolf": 0,
         "Helinox": 0,
-        "Darche": 2,
+        "Darche": 0,
         "Sea to Summit": 0,
         "Companion": 0,
         "Wanderer": 0,
@@ -89,7 +89,7 @@
     {
       "category": "lanterns",
       "requested": 12,
-      "added": 0,
+      "added": 1,
       "brands": {
         "Coleman": 0,
         "Black Diamond": 0,
@@ -97,12 +97,12 @@
         "BioLite": 0,
         "Ledlenser": 0,
         "Barebones": 0,
-        "Sea to Summit": 0,
+        "Sea to Summit": 1,
         "OZtrail": 0,
         "Companion": 0,
         "Vango": 0
       },
-      "sourceCount": 922,
+      "sourceCount": 923,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -121,9 +121,9 @@
         "Wanderer": 0,
         "Big Agnes": 0
       },
-      "sourceCount": 922,
+      "sourceCount": 923,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     }
   ],
-  "added_total": 5
+  "added_total": 1
 }
