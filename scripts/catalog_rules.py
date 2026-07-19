@@ -101,6 +101,21 @@ def _trim_trailing_generic(text: str) -> str:
             break
     return ' '.join(tokens)
 
+def _remove_stuffing(text: str) -> str:
+    tokens = text.split()
+    out = []
+    i = 0
+    while i < len(tokens):
+        j = i
+        while j < len(tokens) and re.sub(r'[^a-z0-9&]', '', tokens[j].lower()) in GENERIC_TRAIL:
+            j += 1
+        if j - i >= 3:
+            i = j
+            continue
+        out.append(tokens[i])
+        i += 1
+    return ' '.join(out)
+
 def clean_title(name: str, brand: str = '') -> str:
     text = str(name or '').replace('\u2122', '').replace('\u00ae', '')
     text = re.sub(r'<[^>]+>', ' ', text)
@@ -113,6 +128,7 @@ def clean_title(name: str, brand: str = '') -> str:
     parts = [p.strip() for p in re.split(r'\s*[,|/]\s*', text) if p.strip()]
     if len(parts) >= 4:
         text = ', '.join(parts[:2])
+    text = _remove_stuffing(text)
     text = _collapse_separators(text)
     text = _trim_trailing_generic(text)
     text = _collapse_separators(text)
