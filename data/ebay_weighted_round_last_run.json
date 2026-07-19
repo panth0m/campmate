@@ -26,7 +26,7 @@
         "Vango": 0,
         "Zempire": 0
       },
-      "sourceCount": 926,
+      "sourceCount": 927,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -45,7 +45,7 @@
         "Vango": 0,
         "Zempire": 0
       },
-      "sourceCount": 926,
+      "sourceCount": 927,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -64,13 +64,13 @@
         "Sea to Summit": 0,
         "Zempire": 0
       },
-      "sourceCount": 926,
+      "sourceCount": 927,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
       "category": "stoves",
       "requested": 12,
-      "added": 1,
+      "added": 0,
       "brands": {
         "Coleman": 0,
         "Companion": 0,
@@ -81,7 +81,7 @@
         "Weber": 0,
         "Sea to Summit": 0,
         "Trangia": 0,
-        "Gasmate": 1
+        "Gasmate": 0
       },
       "sourceCount": 927,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
@@ -89,7 +89,7 @@
     {
       "category": "lanterns",
       "requested": 12,
-      "added": 0,
+      "added": 1,
       "brands": {
         "Coleman": 0,
         "Black Diamond": 0,
@@ -97,12 +97,12 @@
         "BioLite": 0,
         "Ledlenser": 0,
         "Barebones": 0,
-        "Sea to Summit": 0,
+        "Sea to Summit": 1,
         "OZtrail": 0,
         "Companion": 0,
         "Vango": 0
       },
-      "sourceCount": 927,
+      "sourceCount": 928,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -121,7 +121,7 @@
         "Wanderer": 0,
         "Big Agnes": 0
       },
-      "sourceCount": 927,
+      "sourceCount": 928,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     }
   ],
