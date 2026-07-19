@@ -1,0 +1,48 @@
+name: Normalize Catalog
+
+on:
+  workflow_dispatch:
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Clean catalog and rebuild products.json
+        run: python scripts/run_catalog_cleanup.py
+
+      - name: Regenerate static category and hub pages
+        run: python scripts/generate_static_catalog_pages.py
+
+      - name: Regenerate static product pages
+        run: python scripts/generate_static_products.py
+
+      - name: Rebuild sitemap files
+        run: python scripts/rebuild_sitemaps.py
+
+      - name: Embed robots and sitemap responses into worker
+        run: python scripts/embed_static_text_routes.py
+
+      - name: Commit and push regenerated catalog
+        run: |
+          git config user.name "CampMate Bot"
+          git config user.email "bot@campmate.au"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Normalize product names (cleaner titles)"
+          git pull --rebase origin main
+          git push origin HEAD:main
