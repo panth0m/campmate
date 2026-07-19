@@ -66,23 +66,61 @@ def guess_brand(product: Dict[str, Any], fallback: str = 'Unbranded') -> str:
     return fallback
 
 
+PROMO_PHRASES = [
+    'free shipping', 'free postage', 'free post', 'free delivery', 'fast shipping', 'fast dispatch',
+    '100% genuine', 'genuine', 'authentic', 'official', 'authorised', 'authorized',
+    'australian stock', 'aussie stock', 'au stock', 'local stock', 'ready stock', 'in stock',
+    'hot sale', 'best seller', 'bestseller', 'new arrival', 'clearance', 'big sale', 'on sale',
+    'limited stock', 'multiple sizes', 'multiple colours', 'multiple colors', 'all sizes',
+    'with free bonus', 'free bonus', 'with bonus', 'with free',
+]
+
+GENERIC_TRAIL = {
+    'camping', 'camp', 'hiking', 'hike', 'outdoor', 'outdoors', 'picnic', 'touring', 'tour', 'travel',
+    'portable', 'foldable', 'folding', 'lightweight', 'ultralight', 'beach', 'garden', 'backyard',
+    'festival', 'adventure', 'gear', 'equipment', 'use', 'for', 'and', 'the', 'new', 'with', '&',
+    'fishing', 'sport', 'sports', 'aussie', 'australia', 'au',
+}
+
+def _strip_promo(text: str) -> str:
+    for ph in PROMO_PHRASES:
+        text = re.sub(r'(?<![a-z0-9])' + re.escape(ph) + r'(?![a-z0-9])', ' ', text, flags=re.I)
+    return text
+
+def _collapse_separators(text: str) -> str:
+    parts = [p.strip() for p in re.split(r'\s+-+\s+', text) if p.strip()]
+    return ' - '.join(parts)
+
+def _trim_trailing_generic(text: str) -> str:
+    tokens = text.split()
+    while len(tokens) > 2:
+        last = re.sub(r'[^a-z0-9&]', '', tokens[-1].lower())
+        if last in GENERIC_TRAIL or last == '':
+            tokens.pop()
+        else:
+            break
+    return ' '.join(tokens)
+
 def clean_title(name: str, brand: str = '') -> str:
-    text = str(name or '').replace('™', '').replace('®', '')
+    text = str(name or '').replace('\u2122', '').replace('\u00ae', '')
     text = re.sub(r'<[^>]+>', ' ', text)
     text = re.sub(r'[_]+', ' ', text)
-    text = re.sub(r'\s+', ' ', text).strip(' -_|,;/')
+    text = _strip_promo(text)
+    text = re.sub(r'\s+', ' ', text).strip(' -_|,;/.')
     if brand:
         b = re.escape(brand)
         text = re.sub(rf'^(?:{b}\s+)+', f'{brand} ', text, flags=re.I).strip()
     parts = [p.strip() for p in re.split(r'\s*[,|/]\s*', text) if p.strip()]
     if len(parts) >= 4:
         text = ', '.join(parts[:2])
-    text = re.sub(r'\s+', ' ', text).strip(' -_|,;/')
+    text = _collapse_separators(text)
+    text = _trim_trailing_generic(text)
+    text = _collapse_separators(text)
+    text = re.sub(r'\s+', ' ', text).strip(' -_|,;/.')
     if len(text) > 110:
         cut = text[:110]
         text = cut.rsplit(' ', 1)[0] or cut
     return text or (brand or 'Camping product')
-
 
 def _phrase_hits(text: str, phrases: List[str]) -> int:
     hits = 0
