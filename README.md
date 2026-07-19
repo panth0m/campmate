@@ -29,3 +29,5 @@ If you do not want live eBay pricing, you can delete:
 - `functions/api/ebay-search.js`
 
 The site still works with store search links only.
+
+Auto-deploy via Cloudflare Workers Builds enabled.
