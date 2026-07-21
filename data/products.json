@@ -301,8 +301,8 @@
     "salePrice": 1499,
     "rating": 4.9,
     "reviews": 44,
-    "image": "assets/images/products/hilleberg-nallo-2-gt-tent.svg",
-    "ebayImage": null,
+    "image": "https://i.ebayimg.com/images/g/Bf8AAeSwMTpqTm4L/s-l225.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/Bf8AAeSwMTpqTm4L/s-l225.jpg",
     "summary": "Swedish-made four-season tent. Used by polar expeditions — overkill for most, but unbeatable in storms.",
     "stores": [
       {
