@@ -94,6 +94,20 @@ function buildAffiliateUrl(name, url, productName) {
       finalUrl = `https://www.amazon.com.au/s?k=${encodeURIComponent(productName || 'camping gear')}&tag=${amazonTag}`;
     }
   }
+
+  const isEbay = lowerName.includes('ebay') || /ebay\.[a-z.]+/i.test(finalUrl);
+  if (isEbay && !/[?&]campid=/.test(finalUrl)) {
+    try {
+      const ep = new URL(finalUrl, window.location.origin);
+      ep.searchParams.set('mkcid','1');
+      ep.searchParams.set('mkrid','705-53470-19255-0');
+      ep.searchParams.set('siteid','15');
+      ep.searchParams.set('campid','5339145146');
+      ep.searchParams.set('toolid','10001');
+      ep.searchParams.set('mkevt','1');
+      finalUrl = ep.toString();
+    } catch (e) {}
+  }
   return finalUrl;
 }
 
