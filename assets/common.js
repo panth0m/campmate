@@ -96,7 +96,9 @@ function buildAffiliateUrl(name, url, productName) {
   }
 
   const isEbay = lowerName.includes('ebay') || /ebay\.[a-z.]+/i.test(finalUrl);
-  if (isEbay && !/[?&]campid=/.test(finalUrl)) {
+  if (isEbay) {
+    finalUrl = finalUrl.replace('campid=%253CePN%253E','campid=5339145146').replace('campid=%3CePN%3E','campid=5339145146').replace('campid=<ePN>','campid=5339145146');
+    if (!/[?&]campid=/.test(finalUrl)) {
     try {
       const ep = new URL(finalUrl, window.location.origin);
       ep.searchParams.set('mkcid','1');
@@ -107,6 +109,7 @@ function buildAffiliateUrl(name, url, productName) {
       ep.searchParams.set('mkevt','1');
       finalUrl = ep.toString();
     } catch (e) {}
+    }
   }
   return finalUrl;
 }
