@@ -184,9 +184,13 @@ def affiliate_url(store_name, url):
     if 'amazon.com.au' in url and 'tag=' not in url:
         join = '&' if '?' in url else '?'
         return f"{url}{join}tag=campmateau20-22"
-    if 'ebay.com' in url and 'campid=' not in url:
-        join = '&' if '?' in url else '?'
-        return f"{url}{join}mkcid=1&mkrid=705-53470-19255-0&siteid=15&campid=5339145146&customid=&toolid=10001&mkevt=1"
+    if 'ebay.com' in url:
+        for ph in ('campid=%253CePN%253E', 'campid=%3CePN%3E', 'campid=<ePN>'):
+            url = url.replace(ph, 'campid=5339145146')
+        if 'campid=' not in url:
+            join = '&' if '?' in url else '?'
+            url = f"{url}{join}mkcid=1&mkrid=705-53470-19255-0&siteid=15&campid=5339145146&customid=&toolid=10001&mkevt=1"
+        return url
     return url
 
 
