@@ -54335,5 +54335,63 @@
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/127985125058?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
     "importedAt": "2026-07-20T22:07:37Z"
+  },
+  {
+    "slug": "oztrail-oztrail-ensuite-225cm-privacy-shower-dressing-toilet-outdoor-camping-duo-tent-20",
+    "name": "OZtrail Ensuite 225cm Privacy Shower Dressing Toilet Outdoor Camping Duo Tent",
+    "brand": "OZtrail",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 143,
+    "salePrice": 143,
+    "rating": 4.7,
+    "reviews": 2,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/ibUAAeSwgvZqW6GB/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/ibUAAeSwgvZqW6GB/s-l1600.jpg",
+    "summary": "Oztrail Ensuite 225cm Privacy Shower Dressing Toilet Outdoor Camping Duo Tent Au",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/236946450221?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAxlBZfZ%2BwFKMBX4DtWZ1%2BMeeB7PaDp1AJZ6KIeZEcEuZuvM%2BRJvJOJdI6rlZjWBE0Pf6lJREt40sRVq04sHD5RvueM0NU2btBfF4G0hT6dmMwVMcvNz4zpg0p2nYthxdjJAuGfhTtnG0XCtYFobUgdgQ8c%2BTDxHzjm6yqq0bMZHOzLvovBRme54F0SHadFTSE%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=OZtrail%20Ensuite%20225cm%20Privacy%20Shower%20Dressing%20Toilet%20Outdoor%20Camping%20Duo%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=OZtrail%20Ensuite%20225cm%20Privacy%20Shower%20Dressing%20Toilet%20Outdoor%20Camping%20Duo%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=OZtrail%20Ensuite%20225cm%20Privacy%20Shower%20Dressing%20Toilet%20Outdoor%20Camping%20Duo%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=OZtrail%20Ensuite%20225cm%20Privacy%20Shower%20Dressing%20Toilet%20Outdoor%20Camping%20Duo%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=OZtrail%20Ensuite%20225cm%20Privacy%20Shower%20Dressing%20Toilet%20Outdoor%20Camping%20Duo%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=OZtrail%20Ensuite%20225cm%20Privacy%20Shower%20Dressing%20Toilet%20Outdoor%20Camping%20Duo%20Tent",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|236946450221|0",
+    "sourceLegacyItemId": "236946450221",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/236946450221?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAxlBZfZ%2BwFKMBX4DtWZ1%2BMeeB7PaDp1AJZ6KIeZEcEuZuvM%2BRJvJOJdI6rlZjWBE0Pf6lJREt40sRVq04sHD5RvueM0NU2btBfF4G0hT6dmMwVMcvNz4zpg0p2nYthxdjJAuGfhTtnG0XCtYFobUgdgQ8c%2BTDxHzjm6yqq0bMZHOzLvovBRme54F0SHadFTSE%3D",
+    "importedAt": "2026-07-22T22:04:43Z"
   }
 ]
