@@ -13,10 +13,10 @@
     {
       "category": "tents",
       "requested": 44,
-      "added": 1,
+      "added": 0,
       "brands": {
         "Coleman": 0,
-        "OZtrail": 1,
+        "OZtrail": 0,
         "BlackWolf": 0,
         "Sea to Summit": 0,
         "Darche": 0,
@@ -32,12 +32,12 @@
     {
       "category": "chairs",
       "requested": 29,
-      "added": 0,
+      "added": 1,
       "brands": {
         "Coleman": 0,
         "OZtrail": 0,
         "BlackWolf": 0,
-        "Helinox": 0,
+        "Helinox": 1,
         "Darche": 0,
         "Sea to Summit": 0,
         "Companion": 0,
@@ -45,7 +45,7 @@
         "Vango": 0,
         "Zempire": 0
       },
-      "sourceCount": 930,
+      "sourceCount": 931,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -64,7 +64,7 @@
         "Sea to Summit": 0,
         "Zempire": 0
       },
-      "sourceCount": 930,
+      "sourceCount": 931,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -83,7 +83,7 @@
         "Trangia": 0,
         "Gasmate": 0
       },
-      "sourceCount": 930,
+      "sourceCount": 931,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -102,7 +102,7 @@
         "Companion": 0,
         "Vango": 0
       },
-      "sourceCount": 930,
+      "sourceCount": 931,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -121,7 +121,7 @@
         "Wanderer": 0,
         "Big Agnes": 0
       },
-      "sourceCount": 930,
+      "sourceCount": 931,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     }
   ],
