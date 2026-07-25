@@ -54451,5 +54451,63 @@
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/326707133409?var=515724677234&mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
     "importedAt": "2026-07-23T22:10:09Z"
+  },
+  {
+    "slug": "black-wolf-black-wolf-cicada-hiking-tent",
+    "name": "Black Wolf Cicada Hiking Tent",
+    "brand": "Black Wolf",
+    "category": "tents",
+    "categoryName": "Camping Tents",
+    "price": 107,
+    "salePrice": 107,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/e4cAAeSwRo9qVcFP/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/e4cAAeSwRo9qVcFP/s-l1600.jpg",
+    "summary": "Plenty of room for 2 x people, plus gear. Headroom at 110cm. Fully seam-tape sealed for water resistance. UVITEX treated fabric to prevent fading from sunlight. 7.9mm aluminium...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/227446749659?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Black%20Wolf%20Cicada%20Hiking%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Black%20Wolf%20Cicada%20Hiking%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Black%20Wolf%20Cicada%20Hiking%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Black%20Wolf%20Cicada%20Hiking%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Black%20Wolf%20Cicada%20Hiking%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Black%20Wolf%20Cicada%20Hiking%20Tent",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|227446749659|0",
+    "sourceLegacyItemId": "227446749659",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/227446749659?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-07-25T21:57:48Z"
   }
 ]

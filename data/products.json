@@ -50856,5 +50856,59 @@
     "highlights": [],
     "description": "AUTHORISED HELINOX® DEALER. A reimagining of the original award-winning Chair One, now featuring (re)Tension Design. Enhanced comfort: Combining (re) Tension Design with repurpo...",
     "specs": {}
+  },
+  {
+    "slug": "black-wolf-black-wolf-cicada-hiking-tent",
+    "name": "Black Wolf Cicada Hiking Tent",
+    "brand": "Black Wolf",
+    "category": "tents",
+    "price": 107,
+    "salePrice": 107,
+    "rating": 4.2,
+    "reviews": 0,
+    "image": "https://i.ebayimg.com/images/g/e4cAAeSwRo9qVcFP/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/e4cAAeSwRo9qVcFP/s-l1600.jpg",
+    "summary": "Plenty of room for 2 x people, plus gear. Headroom at 110cm. Fully seam-tape sealed for water resistance. UVITEX treated fabric to prevent fading from sunlight. 7.9mm aluminium...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/227446749659?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Black%20Wolf%20Cicada%20Hiking%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Black%20Wolf%20Cicada%20Hiking%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Black%20Wolf%20Cicada%20Hiking%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Black%20Wolf%20Cicada%20Hiking%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Black%20Wolf%20Cicada%20Hiking%20Tent",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Black%20Wolf%20Cicada%20Hiking%20Tent",
+        "type": "search"
+      }
+    ],
+    "categoryName": "Camping Tents",
+    "highlights": [],
+    "description": "Plenty of room for 2 x people, plus gear. Headroom at 110cm. Fully seam-tape sealed for water resistance. UVITEX treated fabric to prevent fading from sunlight. 7.9mm aluminium...",
+    "specs": {}
   }
 ]
