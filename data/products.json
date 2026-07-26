@@ -3487,8 +3487,8 @@
     "salePrice": 39,
     "rating": 4.2,
     "reviews": 678,
-    "image": "assets/images/products/coleman-4d-xps-led-lantern.svg",
-    "ebayImage": null,
+    "image": "https://i.ebayimg.com/images/g/UFUAAeSwWEBqZgmG/s-l225.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/UFUAAeSwWEBqZgmG/s-l225.jpg",
     "summary": "Runs on standard D batteries. 350 lumens and up to 75 hours run time.",
     "stores": [
       {
@@ -6432,8 +6432,8 @@
     "salePrice": 1799,
     "rating": 4.8,
     "reviews": 67,
-    "image": "assets/images/products/zempire-instant-up-4p-tent-7.svg",
-    "ebayImage": null,
+    "image": "https://i.ebayimg.com/images/g/vz8AAeSw~gZqZitU/s-l225.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/vz8AAeSw~gZqZitU/s-l225.jpg",
     "summary": "Premium inflatable family tent with great comfort and standing room.",
     "stores": [
       {

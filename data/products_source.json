@@ -3551,7 +3551,8 @@
       "Reference price": "A$39",
       "Brightness": "350 lm",
       "Runtime": "75h"
-    }
+    },
+    "ebayImage": "https://i.ebayimg.com/images/g/UFUAAeSwWEBqZgmG/s-l225.jpg"
   },
   {
     "slug": "fenix-cl26r-camping-lantern",
@@ -6492,7 +6493,8 @@
     "categoryName": "Camping Tents",
     "specs": {
       "Reference price": "A$1799"
-    }
+    },
+    "ebayImage": "https://i.ebayimg.com/images/g/vz8AAeSw~gZqZitU/s-l225.jpg"
   },
   {
     "slug": "darche-vipor-xv-chair",
