@@ -54511,5 +54511,63 @@
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/227446749659?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
     "importedAt": "2026-07-25T21:57:48Z"
+  },
+  {
+    "slug": "coleman-led-lantern-400-lumens-personal-lantern-with-4d-battery",
+    "name": "LED Lantern | 400 Lumens Personal Lantern with 4D Battery",
+    "brand": "Coleman",
+    "category": "lanterns",
+    "categoryName": "Camping Lanterns",
+    "price": 110,
+    "salePrice": 110,
+    "rating": 5.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/fJ0AAeSwbGRo~ytW/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/fJ0AAeSwbGRo~ytW/s-l1600.jpg",
+    "summary": "Included Components LANTERN 4D CLASSIC PERSONAL 400L. Take the water-resistant Coleman Classic LED Lantern anywhere you need extra light. The large bail handle makes it easy to...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/406325529895?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xB1Y%2FI7qVOWVojXubMI2h9X4%2FUhFCubBC3FL1rrYbi9ivswCLpqfQJ1uOj8CgASVLj8z8cdmw74JmNvB6ebZYNg%2F0V7gRiwa0T4RNpYo76B%2BwnEEVLqnTNvRY3D2%2FdyNswaPaV3Ld7SPR5mR7dtHRuMHX9bZLXL4V6rZzNMydrnSmScReKfZTLWNJGwKwHBnuA%3D",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=LED%20Lantern%20%7C%20400%20Lumens%20Personal%20Lantern%20with%204D%20Battery",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=LED%20Lantern%20%7C%20400%20Lumens%20Personal%20Lantern%20with%204D%20Battery",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=LED%20Lantern%20%7C%20400%20Lumens%20Personal%20Lantern%20with%204D%20Battery",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=LED%20Lantern%20%7C%20400%20Lumens%20Personal%20Lantern%20with%204D%20Battery",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=LED%20Lantern%20%7C%20400%20Lumens%20Personal%20Lantern%20with%204D%20Battery",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=LED%20Lantern%20%7C%20400%20Lumens%20Personal%20Lantern%20with%204D%20Battery",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|406325529895|0",
+    "sourceLegacyItemId": "406325529895",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/406325529895?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xB1Y%2FI7qVOWVojXubMI2h9X4%2FUhFCubBC3FL1rrYbi9ivswCLpqfQJ1uOj8CgASVLj8z8cdmw74JmNvB6ebZYNg%2F0V7gRiwa0T4RNpYo76B%2BwnEEVLqnTNvRY3D2%2FdyNswaPaV3Ld7SPR5mR7dtHRuMHX9bZLXL4V6rZzNMydrnSmScReKfZTLWNJGwKwHBnuA%3D",
+    "importedAt": "2026-07-27T22:19:03Z"
   }
 ]

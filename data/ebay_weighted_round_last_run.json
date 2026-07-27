@@ -89,9 +89,9 @@
     {
       "category": "lanterns",
       "requested": 12,
-      "added": 0,
+      "added": 1,
       "brands": {
-        "Coleman": 0,
+        "Coleman": 1,
         "Black Diamond": 0,
         "Goal Zero": 0,
         "BioLite": 0,
@@ -102,7 +102,7 @@
         "Companion": 0,
         "Vango": 0
       },
-      "sourceCount": 932,
+      "sourceCount": 933,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -121,9 +121,9 @@
         "Wanderer": 0,
         "Big Agnes": 0
       },
-      "sourceCount": 932,
+      "sourceCount": 933,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     }
   ],
-  "added_total": 0
+  "added_total": 1
 }
