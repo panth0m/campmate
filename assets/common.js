@@ -361,7 +361,7 @@ function categoryCard(cat, count, products = []) {
   const startPrice = subset.length ? Math.min(...subset.map(item => Number(item.salePrice) || 0).filter(Boolean)) : 0;
   return `
   <article class="hub-card">
-    <a href="${categoryLink(cat)}"><img src="assets/images/categories/${cat.slug}.svg" alt="${escapeHtml(cat.name)}" data-category="${cat.slug}"></a>
+    <a href="${categoryLink(cat)}"><img src="${subset[0] ? normalizeImage(subset[0]) : `assets/images/categories/${cat.slug}.svg`}" alt="${escapeHtml(cat.name)}" data-category="${cat.slug}"></a>
     <div>
       <div class="metric-row"><span class="badge">${count} compare pages</span>${startPrice ? `<span class="soft-badge">From ${currency(startPrice)}</span>` : ''}</div>
       <a class="title" style="font-size:1.25rem;margin-top:10px" href="${categoryLink(cat)}">${escapeHtml(cat.name)}</a>
