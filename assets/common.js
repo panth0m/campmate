@@ -244,7 +244,12 @@ function savingsPercent(product) {
   if (!price || !sale || sale >= price) return 0;
   return Math.round((price - sale) / price * 100);
 }
+const JUNK_LISTING_PATTERN = /faulty|not\s*working|doesn'?t\s*work|no\s*power|spares?\s*(or|and)?\s*repair|for\s*parts|parts\s*only|broken|damaged|cracked\s*screen|dead\s*pixel|water\s*damage|as[\s-]is\b/i;
+function isJunkListing(product) {
+  return JUNK_LISTING_PATTERN.test(`${product.name || ''} ${product.summary || ''}`);
+}
 function reviewScore(product) {
+  if (isJunkListing(product)) return -1;
   return ((Number(product.rating) || 0) * 100) + Math.log10((Number(product.reviews) || 1) + 1) * 18;
 }
 function getPrimarySpecs(product) {
