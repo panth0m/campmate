@@ -25,6 +25,10 @@ BANNED = {
     # damaged/non-working listings shouldn't become the "hero" product photo either
     "faulty", "not working", "broken", "damaged", "no power",
     "as is", "as-is", "untested", "for parts",
+    # backstop for the NEW-condition API filter (in case condition metadata is wrong/missing) -
+    # used-item titles usually flag themselves even when mis-tagged as new
+    "used", "pre-owned", "preowned", "pre owned", "second hand", "secondhand",
+    "open box", "openbox", "refurbished", "renewed", "graded",
 }
 CATEGORY_HINTS = {
     "tents": ["tent", "swag", "shelter", "gazebo"],
@@ -89,9 +93,11 @@ def get_google_credentials():
 
 
 def browse_search(token: str, query: str, limit: int = 6):
+    # NEW-condition only: used/pre-owned listing photos are real customer photos of one
+    # specific worn/dirty unit, not the clean product shot we want as the catalogue image.
     url = (
         "https://api.ebay.com/buy/browse/v1/item_summary/search?"
-        + urllib.parse.urlencode({"q": query, "limit": limit, "filter": "buyingOptions:{FIXED_PRICE}"})
+        + urllib.parse.urlencode({"q": query, "limit": limit, "filter": "buyingOptions:{FIXED_PRICE},conditions:{NEW}"})
     )
     req = urllib.request.Request(
         url,
