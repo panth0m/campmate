@@ -22,6 +22,9 @@ BANNED = {
     "sticker", "decal", "logo", "patch", "spare", "replacement", "parts", "part", "peg",
     "pole", "strap", "zipper", "repair", "cap", "lid", "cup", "pot", "cover", "bag",
     "case", "adapter", "hose", "burner only", "valve", "sleeve", "lanyard", "badge",
+    # damaged/non-working listings shouldn't become the "hero" product photo either
+    "faulty", "not working", "broken", "damaged", "no power",
+    "as is", "as-is", "untested", "for parts",
 }
 CATEGORY_HINTS = {
     "tents": ["tent", "swag", "shelter", "gazebo"],
@@ -76,6 +79,15 @@ def get_token():
     return payload["access_token"]
 
 
+def get_google_credentials():
+    env = {**load_env(ROOT / ".env"), **os.environ}
+    api_key = env.get("GOOGLE_API_KEY")
+    cse_id = env.get("GOOGLE_CSE_ID")
+    if not api_key or not cse_id:
+        return None
+    return api_key, cse_id
+
+
 def browse_search(token: str, query: str, limit: int = 6):
     url = (
         "https://api.ebay.com/buy/browse/v1/item_summary/search?"
@@ -92,8 +104,24 @@ def browse_search(token: str, query: str, limit: int = 6):
         return json.load(res).get("itemSummaries", [])
 
 
-def score_item(product: dict, item: dict):
-    title = str(item.get("title") or "")
+def google_image_search(api_key: str, cse_id: str, query: str, limit: int = 6):
+    """Web-wide product photo search (not limited to eBay listings), via Google Custom
+    Search JSON API in image mode. Requires a Custom Search Engine configured for image
+    search (see README_이미지검색설정.md near the caller)."""
+    url = "https://www.googleapis.com/customsearch/v1?" + urllib.parse.urlencode({
+        "key": api_key,
+        "cx": cse_id,
+        "q": query,
+        "searchType": "image",
+        "num": min(max(limit, 1), 10),
+        "safe": "active",
+    })
+    req = urllib.request.Request(url)
+    with urllib.request.urlopen(req, timeout=30) as res:
+        return json.load(res).get("items", [])
+
+
+def score_item(product: dict, title: str, has_image: bool, has_price: bool):
     title_words = set(norm_words(title))
     product_words = set(norm_words(product.get("name") or ""))
     brand = str(product.get("brand") or "").lower()
@@ -109,11 +137,24 @@ def score_item(product: dict, item: dict):
     lower = title.lower()
     if any(bad in lower for bad in BANNED):
         score -= 40
-    if item.get("image", {}).get("imageUrl"):
+    if has_image:
         score += 4
-    if item.get("price", {}).get("value"):
+    if has_price:
         score += 1
     return score
+
+
+def score_ebay_item(product: dict, item: dict):
+    title = str(item.get("title") or "")
+    has_image = bool(item.get("image", {}).get("imageUrl"))
+    has_price = bool(item.get("price", {}).get("value"))
+    return score_item(product, title, has_image, has_price)
+
+
+def score_google_item(product: dict, item: dict):
+    title = str(item.get("title") or "")
+    # Google image results are already "has an image" by definition; no price signal.
+    return score_item(product, title, has_image=True, has_price=False)
 
 
 def should_refresh(product: dict, refresh_all: bool):
@@ -126,6 +167,45 @@ def should_refresh(product: dict, refresh_all: bool):
     return image2.endswith(".svg") or not image2
 
 
+def find_best_image(product: dict, token: str, google_creds):
+    """Try eBay listing photos first (specific to the exact product, usually most accurate
+    for exact models); fall back to a general web image search when eBay has no good match
+    (useful for brand-new/rare products or ones with only stock-photo-free listings)."""
+    query = f'{product.get("brand", "")} {product.get("name", "")}'.strip()
+    if not query:
+        return None, None
+
+    try:
+        items = browse_search(token, query, limit=6)
+    except Exception as e:
+        print(f"  eBay search failed for {product.get('name')}: {e}")
+        items = []
+    if items:
+        ranked = sorted(items, key=lambda item: score_ebay_item(product, item), reverse=True)
+        best = ranked[0]
+        if score_ebay_item(product, best) >= 6:
+            image = best.get("image", {}).get("imageUrl")
+            if image:
+                return image, "ebay"
+
+    if google_creds:
+        api_key, cse_id = google_creds
+        try:
+            items = google_image_search(api_key, cse_id, query, limit=6)
+        except Exception as e:
+            print(f"  Google image search failed for {product.get('name')}: {e}")
+            items = []
+        if items:
+            ranked = sorted(items, key=lambda item: score_google_item(product, item), reverse=True)
+            best = ranked[0]
+            if score_google_item(product, best) >= 6:
+                image = best.get("link")
+                if image:
+                    return image, "google"
+
+    return None, None
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--limit", type=int, default=40)
@@ -135,9 +215,14 @@ def main():
 
     products = json.loads(SOURCE.read_text(encoding="utf-8"))
     token = get_token()
+    google_creds = get_google_credentials()
+    if not google_creds:
+        print("Note: GOOGLE_API_KEY/GOOGLE_CSE_ID not set - only searching eBay listing photos. "
+              "See README_이미지검색설정.md to enable web-wide image search.")
     touched = 0
     scanned = 0
     changed = 0
+    source_counts = {"ebay": 0, "google": 0}
 
     for product in products:
         if scanned >= args.limit:
@@ -145,34 +230,20 @@ def main():
         if not should_refresh(product, args.refresh_all):
             continue
         scanned += 1
-        query = f'{product.get("brand", "")} {product.get("name", "")}'.strip()
-        if not query:
-            continue
-        try:
-            items = browse_search(token, query, limit=6)
-        except Exception as e:
-            print(f"Skip {product.get('name')}: {e}")
-            time.sleep(args.delay)
-            continue
-        if not items:
-            time.sleep(args.delay)
-            continue
-        ranked = sorted(items, key=lambda item: score_item(product, item), reverse=True)
-        best = ranked[0]
-        best_score = score_item(product, best)
-        if best_score < 6:
-            time.sleep(args.delay)
-            continue
-        image = best.get("image", {}).get("imageUrl")
+
+        image, source = find_best_image(product, token, google_creds)
         if not image:
             time.sleep(args.delay)
             continue
+
         old = product.get("ebayImage") or product.get("image") or ""
         product["ebayImage"] = image
+        product["imageSource"] = source
         touched += 1
+        source_counts[source] = source_counts.get(source, 0) + 1
         if old != image:
             changed += 1
-            print(f"[{changed}] {product.get('name')} -> image synced")
+            print(f"[{changed}] {product.get('name')} -> image synced ({source})")
         time.sleep(args.delay)
 
     SOURCE.write_text(json.dumps(products, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -181,11 +252,13 @@ def main():
         "scanned": scanned,
         "touched": touched,
         "changed": changed,
+        "sources": source_counts,
         "limit": args.limit,
         "refresh_all": args.refresh_all,
+        "google_enabled": bool(google_creds),
     }
     REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Done. scanned={scanned} touched={touched} changed={changed}")
+    print(f"Done. scanned={scanned} touched={touched} changed={changed} sources={source_counts}")
     print(f"Saved report to {REPORT}")
 
 

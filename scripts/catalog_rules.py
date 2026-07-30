@@ -17,6 +17,10 @@ COMMON_JUNK_TERMS = {
     'bag only','carry bag','storage bag','tent bag','footprint','groundsheet','ground sheet',
     'inner tent','flysheet','rainfly','rain fly','mesh wall','screen room add-on',
     'cars','car sticker','truck','trucks','motorcycle','bike decal','4wd parts','ute',
+    # damaged/non-working listings - real hardware but not something we want ranked as a "pick"
+    'faulty','not working',"doesn't work",'does not work','no power',
+    'broken','damaged','cracked','dead pixel','water damage','water damaged',
+    'as is','as-is','untested','fault found',
 }
 
 CATEGORY_POSITIVES = {
