@@ -34,7 +34,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Coleman%20Instant%20Up%208P%20Gold%20Tent",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -94,7 +95,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=OZtrail%20Bungalow%209%20Family%20Dome%20Tent",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -155,7 +157,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=OZtrail%20Hightower%209%20Loft%20Tent",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -213,7 +216,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Blackwolf%20Turbo%20300%20Tent",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -269,7 +273,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Blackwolf%20Turbo%20Lite%20200%20Tent",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -325,7 +330,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Hilleberg%20Nallo%202%20GT%20Tent",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -384,7 +390,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=MSR%20Hubba%20Hubba%202%20Tent",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -446,7 +453,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Sea%20to%20Summit%20Telos%20TR2%20Tent",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -506,7 +514,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Vango%20Blade%20200%20Tent",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -562,7 +571,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Darche%20Kozi%209%20Family%20Dome%20Tent",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -622,7 +632,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Anaconda%20Getaway%204P%20Tent",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -680,7 +691,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Primus%20Aisen%203%20Tent",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -738,7 +750,10 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Naturehike%20Cloud-Up%202%20Tent",
-        "type": "search"
+        "type": "search",
+        "price": 269.9,
+        "matchedUrl": "https://www.snowys.com.au/cloud-up-2-person-lightweight-backpacking-tent-light-greyred-mat",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -799,7 +814,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Teton%20Sports%20Mountain%20Ultra%20Tent",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -859,7 +875,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Helinox%20Chair%20One",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -919,7 +936,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Helinox%20Chair%20Two",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -979,7 +997,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Helinox%20Sunset%20Chair",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -1039,7 +1058,10 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=OZtrail%20Festival%205%20Position%20Chair",
-        "type": "search"
+        "type": "search",
+        "price": 44.99,
+        "matchedUrl": "https://www.snowys.com.au/festival-arm-chair",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -1096,7 +1118,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=KingCamp%20Heavy%20Duty%20Camping%20Chair",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -1156,7 +1179,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Cascade%20Mountain%20Tech%20Camp%20Chair",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -1214,7 +1238,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Snow%20Peak%20Take!%20Chair%20Short",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -1272,7 +1297,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Kijaro%20Dual%20Lock%20Chair",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -1332,7 +1358,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=GCI%20Outdoor%20Freestyle%20Rocker%20Chair",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -1390,7 +1417,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Dune%204WD%20Ironman%20Camp%20Chair",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -1450,7 +1478,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=YETI%20Tundra%2045%20Hard%20Cooler",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -1511,7 +1540,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Coleman%20Xtreme%205%20Wheeled%20Cooler%2062QT",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -1572,7 +1602,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Dometic%20CFX3%2055%20Portable%20Fridge",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -1631,7 +1662,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Engel%2040L%20Portable%20Fridge%20Freezer",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -1691,7 +1723,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=ARB%20Elements%20Fridge%2047L",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",
@@ -1750,7 +1783,8 @@
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Igloo%20BMX%2052%20Roller%20Cooler",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-07-30T23:39:33Z"
       },
       {
         "name": "Tentworld",

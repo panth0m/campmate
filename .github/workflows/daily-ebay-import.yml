@@ -60,6 +60,13 @@ jobs:
         run: |
           python scripts/sync_product_images_ebay.py             --limit ${{ github.event.inputs.image_limit || '60' }}
 
+      # ── 2.5단계: 실시간 매장 가격 매칭 (현재 Snowys만 구현) ──
+      # 상품 카테고리 접미사·인원수/사이즈 숫자까지 일치해야 매칭 확정(오매칭 방지),
+      # 확실하지 않으면 그냥 검색 링크로 남겨둠 - 매칭률보다 정확도 우선
+      - name: Scrape live store prices
+        run: |
+          python scripts/scrape_live_prices.py --limit 40
+
       # ── 3단계: products.json 재생성 ───────────────────
       - name: Clean source catalog and rebuild products.json
         run: |
@@ -69,14 +76,14 @@ jobs:
       - name: Check for changes
         id: check
         run: |
-          git diff --quiet             data/products_source.json             data/products.json             data/ebay_incremental_state.json             data/ebay_weighted_round_last_run.json             data/image_sync_last_run.json             && echo "changed=false" >> $GITHUB_OUTPUT             || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --quiet             data/products_source.json             data/products.json             data/ebay_incremental_state.json             data/ebay_weighted_round_last_run.json             data/image_sync_last_run.json             data/live_price_last_run.json             && echo "changed=false" >> $GITHUB_OUTPUT             || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push updated products
         if: steps.check.outputs.changed == 'true'
         run: |
           git config user.name "CampMate Bot"
           git config user.email "bot@campmate.au"
-          git add             data/products_source.json             data/products.json             data/ebay_incremental_state.json             data/ebay_weighted_round_last_run.json             data/image_sync_last_run.json
+          git add             data/products_source.json             data/products.json             data/ebay_incremental_state.json             data/ebay_weighted_round_last_run.json             data/image_sync_last_run.json             data/live_price_last_run.json
 
           if git diff --cached --quiet; then
             echo "No product changes to commit"

@@ -278,13 +278,17 @@ function normalizeStores(product) {
     const key = slugify(name);
     if (seen.has(key)) return null;
     seen.add(key);
-    const url = buildAffiliateUrl(name, store.url || '#', product.name || '');
+    // A live-matched price (see scripts/scrape_live_prices.py) points at the specific
+    // product page; otherwise fall back to the safe generic search link.
+    const hasLivePrice = typeof store.price === 'number' && store.price > 0;
+    const targetUrl = hasLivePrice && store.matchedUrl ? store.matchedUrl : (store.url || '#');
+    const url = buildAffiliateUrl(name, targetUrl, product.name || '');
     const lower = name.toLowerCase();
     let note = 'Search results';
     if (/ebay/.test(lower)) note = 'Marketplace listings';
     if (/amazon/.test(lower)) note = 'Store search';
     if (/bcf|anaconda|snowys|tentworld|wild earth/.test(lower)) note = 'Retail search';
-    return { name, url, note };
+    return { name, url, note, price: hasLivePrice ? store.price : null };
   }).filter(Boolean);
   return list;
 }

@@ -1,0 +1,10 @@
+{
+  "scanned": 30,
+  "matched": 2,
+  "failed": 0,
+  "stores": [
+    "Snowys"
+  ],
+  "limit": 30,
+  "refresh_all": true
+}
