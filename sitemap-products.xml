@@ -763,7 +763,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://campmate.kangseyoung7.workers.dev/products/coleman-1218360-quad-deluxe-mesh-event-chair-grey-6</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://campmate.kangseyoung7.workers.dev/products/coleman-1218360-quad-deluxe-mesh-event-chair-grey-7</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://campmate.kangseyoung7.workers.dev/products/coleman-1218360-quad-deluxe-mesh-event-chair-grey-9</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1676,6 +1688,12 @@
   </url>
   <url>
     <loc>https://campmate.kangseyoung7.workers.dev/products/coleman-quad-fyrefly-illumi-bug-chair-kids-2</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://campmate.kangseyoung7.workers.dev/products/coleman-quad-fyrefly-illumi-bug-chair-kids-3</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -5299,6 +5317,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://campmate.kangseyoung7.workers.dev/products/vango-vango-apex-compact-300-3-person-tent-pamir-green-3</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://campmate.kangseyoung7.workers.dev/products/vango-vango-athos-500-5-person-camping-hiking-tent-moroccan-blue-vte-at500-q-2</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -5372,6 +5396,12 @@
   </url>
   <url>
     <loc>https://campmate.kangseyoung7.workers.dev/products/vango-vango-kruger-300-3-person-camping-hiking-tent-moroccan-blue-vte-kr300-q</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://campmate.kangseyoung7.workers.dev/products/vango-vango-mirage-pro-200-2-person-tent-pamir-vte-mir200-n-3</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
