@@ -6,10 +6,12 @@ making the shopper click through to each store.
 Each retailer needs its own small scraper function added to STORE_SCRAPERS below, since
 every site has a different HTML/API shape. Retailers investigated so far:
   - Snowys: works (server-rendered product cards, real price in the HTML)
-  - BCF: product grid loads via a separate API call after page load - not implemented yet
-  - JB Hi-Fi / The Good Guys / Wild Earth: block plain HTTP requests (403) - would need a
-    real browser (Selenium/Playwright) to even attempt, not implemented yet
-  - Anaconda: redirect loop on this URL pattern - needs investigation
+  - BCF: works (Salesforce Commerce Cloud - real price/name/id in a GTM analytics JSON
+    blob on the product card; paired to the product URL by item id, not position)
+  - Wild Earth: blocks plain HTTP requests (403) - would need a real browser
+    (Selenium/Playwright) to even attempt, not implemented
+  - Anaconda: redirect loop on this URL pattern - needs further investigation
+  - Amazon AU, Tentworld: not investigated yet
 
 Usage:
   python scrape_live_prices.py --limit 40                 # scan next 40 unpriced products
@@ -73,13 +75,58 @@ def scrape_snowys(query, limit=8):
     return out
 
 
+BCF_GTM_PATTERN = re.compile(r'data-gtm="([^"]*add_to_cart[^"]*)"')
+BCF_HREF_PATTERN = re.compile(r'class="name-link" href="([^"]+)"')
+
+
+def scrape_bcf(query, limit=8):
+    """BCF (Salesforce Commerce Cloud) server-renders a GTM analytics JSON payload per
+    product card (name/brand/price/id) inside the Add-to-Cart button's data-gtm attribute.
+    Pair it to the product's real URL by item id (not position - the two lists can be
+    different lengths when some cards lack an add-to-cart button, e.g. out of stock)."""
+    url = "https://www.bcf.com.au/search?q=" + urllib.parse.quote(query)
+    html = fetch(url)
+    hrefs = BCF_HREF_PATTERN.findall(html)
+    href_by_id = {}
+    for href in hrefs:
+        m = re.search(r"/(\d+)\.html", href)
+        if m:
+            href_by_id[m.group(1)] = href
+    out = []
+    for blob in BCF_GTM_PATTERN.findall(html)[:limit * 2]:
+        try:
+            data = json.loads(urllib.parse.unquote(blob))
+            item = data["ecommerce"]["items"][0]
+            item_id = str(item.get("item_id"))
+            price = float(item.get("price"))
+        except Exception:
+            continue
+        href = href_by_id.get(item_id)
+        if not href or price <= 0:
+            continue
+        out.append({"name": str(item.get("item_name") or ""), "price": price, "url": "https://www.bcf.com.au" + href})
+        if len(out) >= limit:
+            break
+    return out
+
+
 STORE_SCRAPERS = {
     "Snowys": scrape_snowys,
+    "BCF": scrape_bcf,
 }
+
+
+STOPWORDS = {"the", "and", "with", "for", "of", "in", "to", "a", "an"}
 
 
 def norm_words(text):
     return set(w for w in re.findall(r"[a-z0-9]+", str(text).lower()) if len(w) > 1)
+
+
+def core_words(text):
+    """norm_words minus filler words - these are the tokens that actually distinguish one
+    product from another (model names like 'MiniMo' vs 'Stash', not 'the'/'with')."""
+    return norm_words(text) - STOPWORDS
 
 
 def size_tokens(text):
@@ -103,7 +150,15 @@ def score_match(product, candidate):
     if any(term in text for term in JUNK_MATCH_TERMS):
         return -100
     product_name = product.get("name", "")
-    score = len(norm_words(product_name) & norm_words(candidate.get("name", ""))) * 5
+    candidate_words = norm_words(candidate.get("name", ""))
+    # Hard gate: every distinctive word in OUR product name must appear in the candidate,
+    # not just "most of them". Model names (Jetboil "MiniMo" vs "The Stash") are exactly the
+    # kind of single differentiating word that a fuzzy overlap score lets slip through even
+    # when brand + category words all line up - so require full containment, not a ratio.
+    missing = core_words(product_name) - candidate_words
+    if missing:
+        return -100
+    score = len(norm_words(product_name) & candidate_words) * 5
     brand = str(product.get("brand") or "").lower()
     if brand and brand in text:
         score += 10
@@ -117,7 +172,7 @@ def score_match(product, candidate):
     # Same guard for product type: "Tent" matching only an "Awning"/"Shade"/"Footprint"
     # listing for the same product line is a different physical item, not a size variant.
     type_word = product_type_word(product_name)
-    if type_word and type_word not in norm_words(candidate.get("name", "")):
+    if type_word and type_word not in candidate_words:
         score -= 50
     return score
 
