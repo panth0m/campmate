@@ -65,7 +65,7 @@ jobs:
       # 확실하지 않으면 그냥 검색 링크로 남겨둠 - 매칭률보다 정확도 우선
       - name: Scrape live store prices
         run: |
-          python scripts/scrape_live_prices.py --limit 40
+          python scripts/scrape_live_prices.py --limit 80
 
       # ── 3단계: products.json 재생성 ───────────────────
       - name: Clean source catalog and rebuild products.json
