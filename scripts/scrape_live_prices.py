@@ -8,15 +8,27 @@ every site has a different HTML/API shape. Retailers investigated so far:
   - Snowys: works (server-rendered product cards, real price in the HTML)
   - BCF: works (Salesforce Commerce Cloud - real price/name/id in a GTM analytics JSON
     blob on the product card; paired to the product URL by item id, not position)
-  - Wild Earth: blocks plain HTTP requests (403) - would need a real browser
-    (Selenium/Playwright) to even attempt, not implemented
-  - Anaconda: redirect loop on this URL pattern - needs further investigation
-  - Tentworld: client-rendered React app, raw HTML has no product data - would need to
-    find its underlying JSON API (like BCF's GTM blob) or a real browser, not implemented
+  - Tentworld: works via Selenium (checked 2026-08-04) - client-rendered app, raw HTML has
+    zero product data with no findable underlying API (tried Accept: application/json and
+    X-Requested-With headers, no luck), but it's an ordinary SPA with no bot-blocking, so a
+    real browser is a legitimate way to read it. Product card class names are webpack
+    CSS-module hashes that rotate on redeploy - matched by stable prefix, not full class.
+  - Wild Earth: actively bot-protected, not just "blocks requests" - the site serves
+    Cloudflare's JS challenge page ("Just a moment...") to non-browser clients. Not
+    implementing: solving that challenge would be circumventing bot detection, not just
+    working around a missing header.
+  - Anaconda: also actively bot-protected - the real search URL (see below) redirects
+    through Queue-It (a waiting-room/bot-gate service), which is what caused the "infinite
+    redirect loop" seen earlier. Same reasoning as Wild Earth: not implementing.
   - Amazon AU: plain requests actually returns real product/price data (checked 2026-08-04,
     no CAPTCHA), but robots.txt explicitly disallows ClaudeBot site-wide - not implementing
     this one out of respect for that, even though the User-Agent used here isn't literally
     "ClaudeBot"
+
+Note for future reference: Anaconda's actual search URL needs the locale prefix
+(/en-au/search?q=..., not /search?q=...) - the missing prefix is likely *why* the old
+attempt saw a redirect loop instead of reaching the Queue-It gate cleanly. Doesn't change
+the outcome (still bot-gated) but worth knowing if revisiting this.
 
 Scans a rotating window of the catalog (state in data/live_price_scan_state.json) so a run
 of consecutive no-match products can't permanently block progress past them - each run
@@ -122,9 +134,67 @@ def scrape_bcf(query, limit=8):
     return out
 
 
+_tentworld_driver = None
+
+
+def _get_tentworld_driver():
+    """Tentworld's storefront renders product data entirely client-side (no data in the raw
+    HTML, confirmed by curl - even with Accept/X-Requested-With tricks) - a plain GET can't
+    see prices there, so this is the one store that genuinely needs a real browser. Kept as
+    a lazy singleton so the whole run reuses one browser instead of paying Chrome's ~2s
+    startup cost per product."""
+    global _tentworld_driver
+    if _tentworld_driver is None:
+        from selenium import webdriver
+        from selenium.webdriver.chrome.options import Options
+        opts = Options()
+        opts.add_argument("--headless=new")
+        opts.add_argument("--no-sandbox")
+        opts.add_argument("--disable-dev-shm-usage")
+        opts.add_argument(f"--user-agent={USER_AGENT}")
+        _tentworld_driver = webdriver.Chrome(options=opts)
+    return _tentworld_driver
+
+
+def scrape_tentworld(query, limit=8):
+    """Product card class names are webpack CSS-module hashes that rotate on every deploy
+    (e.g. "productCard-10L") - matched by stable prefix (productCard-/name-/price-) via
+    [class*=...] instead of the full hashed class, so a redeploy doesn't silently break this."""
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.support.ui import WebDriverWait
+    from selenium.webdriver.support import expected_conditions as EC
+
+    driver = _get_tentworld_driver()
+    driver.get("https://www.tentworld.com.au/search?query=" + urllib.parse.quote(query))
+    try:
+        WebDriverWait(driver, 20).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, '[class*="productCard-"], [class*="noResults-"]'))
+        )
+    except Exception:
+        return []  # neither results nor a recognizable "no results" state showed up in time
+
+    out = []
+    for card in driver.find_elements(By.CSS_SELECTOR, '[class*="productCard-"]')[:limit]:
+        try:
+            name_el = card.find_element(By.CSS_SELECTOR, 'a[class*="name-"]')
+            price_el = card.find_element(By.CSS_SELECTOR, '[class*="price-"]')
+        except Exception:
+            continue
+        price_match = re.search(r"\$([\d,]+\.\d{2})", price_el.text)
+        if not price_match:
+            continue
+        out.append({
+            "name": name_el.text.strip(),
+            "price": float(price_match.group(1).replace(",", "")),
+            "url": name_el.get_attribute("href"),
+        })
+    return out
+
+
 STORE_SCRAPERS = {
     "Snowys": scrape_snowys,
     "BCF": scrape_bcf,
+    "Tentworld": scrape_tentworld,
 }
 
 
@@ -289,6 +359,9 @@ def main():
             time.sleep(args.delay)
         if touched:
             scanned += 1
+
+    if _tentworld_driver is not None:
+        _tentworld_driver.quit()
 
     SOURCE.write_text(json.dumps(products, ensure_ascii=False, indent=2), encoding="utf-8")
     rebuild_products()
