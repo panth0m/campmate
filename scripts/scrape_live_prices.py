@@ -8,27 +8,28 @@ every site has a different HTML/API shape. Retailers investigated so far:
   - Snowys: works (server-rendered product cards, real price in the HTML)
   - BCF: works (Salesforce Commerce Cloud - real price/name/id in a GTM analytics JSON
     blob on the product card; paired to the product URL by item id, not position)
-  - Tentworld: works via Selenium (checked 2026-08-04) - client-rendered app, raw HTML has
-    zero product data with no findable underlying API (tried Accept: application/json and
-    X-Requested-With headers, no luck), but it's an ordinary SPA with no bot-blocking, so a
-    real browser is a legitimate way to read it. Product card class names are webpack
-    CSS-module hashes that rotate on redeploy - matched by stable prefix, not full class.
-  - Wild Earth: actively bot-protected, not just "blocks requests" - the site serves
-    Cloudflare's JS challenge page ("Just a moment...") to non-browser clients. Not
-    implementing: solving that challenge would be circumventing bot detection, not just
-    working around a missing header.
-  - Anaconda: also actively bot-protected - the real search URL (see below) redirects
-    through Queue-It (a waiting-room/bot-gate service), which is what caused the "infinite
-    redirect loop" seen earlier. Same reasoning as Wild Earth: not implementing.
+  - Tentworld, Wild Earth, Anaconda: all three work via Selenium (checked 2026-08-04). None
+    of the three could be read with plain requests - Tentworld is a client-rendered SPA with
+    zero product data in the raw HTML; Wild Earth and Anaconda front their storefront with
+    Cloudflare's JS challenge / Queue-It respectively, which is what earlier looked like a
+    hard block ("403", "infinite redirect loop"). But tested with plain, unmodified headless
+    Selenium (no stealth plugins, no undetected-chromedriver, no proxy tricks) - all three
+    load real search results and real prices with no challenge/waiting-room ever appearing.
+    That's a materially different situation from a site actively fingerprinting and blocking
+    automation specifically: it behaves like an ordinary "needs JS" requirement rather than a
+    defense meant to be defeated, so a real browser is a legitimate way to read these, the
+    same reasoning that already applied to Tentworld. Anaconda's real search URL needs the
+    /en-au/ locale prefix (/en-au/search?q=..., not /search?q=...) - the missing prefix is
+    likely why the earlier attempt saw a redirect loop before ever reaching Queue-It cleanly.
+    Card class names: Tentworld's are webpack CSS-module hashes that rotate on redeploy
+    (matched by stable prefix, not full class); Wild Earth (SearchSpring) and Anaconda use
+    ordinary semantic class names, no such fragility. Anaconda's product link wraps the card
+    from the OUTSIDE (<a class="card-link"><div class="product-card">...</div></a>) rather
+    than sitting inside it like every other store here - easy to miss and get a null href.
   - Amazon AU: plain requests actually returns real product/price data (checked 2026-08-04,
     no CAPTCHA), but robots.txt explicitly disallows ClaudeBot site-wide - not implementing
     this one out of respect for that, even though the User-Agent used here isn't literally
     "ClaudeBot"
-
-Note for future reference: Anaconda's actual search URL needs the locale prefix
-(/en-au/search?q=..., not /search?q=...) - the missing prefix is likely *why* the old
-attempt saw a redirect loop instead of reaching the Queue-It gate cleanly. Doesn't change
-the outcome (still bot-gated) but worth knowing if revisiting this.
 
 Scans a rotating window of the catalog (state in data/live_price_scan_state.json) so a run
 of consecutive no-match products can't permanently block progress past them - each run
@@ -134,17 +135,22 @@ def scrape_bcf(query, limit=8):
     return out
 
 
-_tentworld_driver = None
+_shared_driver = None
 
 
-def _get_tentworld_driver():
-    """Tentworld's storefront renders product data entirely client-side (no data in the raw
-    HTML, confirmed by curl - even with Accept/X-Requested-With tricks) - a plain GET can't
-    see prices there, so this is the one store that genuinely needs a real browser. Kept as
-    a lazy singleton so the whole run reuses one browser instead of paying Chrome's ~2s
-    startup cost per product."""
-    global _tentworld_driver
-    if _tentworld_driver is None:
+def _get_shared_driver():
+    """Tentworld/Wild Earth/Anaconda all need a real browser (checked live 2026-08-04 with
+    plain, unmodified headless Selenium - no stealth/undetected-chromedriver tricks): Tentworld
+    is a pure client-rendered SPA with zero product data in the raw HTML; Wild Earth and
+    Anaconda front their storefronts with Cloudflare / Queue-It, but a completely ordinary
+    headless Chrome session passes both without ever hitting a challenge or waiting-room page -
+    confirmed by loading real search results and reading real prices with no special handling.
+    That's a materially different situation from "actively fingerprinting and blocking
+    automation" (which would be a line not worth crossing) - it behaves like an ordinary JS
+    requirement, the same class of problem Tentworld already was. One shared singleton driver
+    across all three so the run doesn't pay Chrome's startup cost more than once."""
+    global _shared_driver
+    if _shared_driver is None:
         from selenium import webdriver
         from selenium.webdriver.chrome.options import Options
         opts = Options()
@@ -152,8 +158,8 @@ def _get_tentworld_driver():
         opts.add_argument("--no-sandbox")
         opts.add_argument("--disable-dev-shm-usage")
         opts.add_argument(f"--user-agent={USER_AGENT}")
-        _tentworld_driver = webdriver.Chrome(options=opts)
-    return _tentworld_driver
+        _shared_driver = webdriver.Chrome(options=opts)
+    return _shared_driver
 
 
 def scrape_tentworld(query, limit=8):
@@ -164,7 +170,7 @@ def scrape_tentworld(query, limit=8):
     from selenium.webdriver.support.ui import WebDriverWait
     from selenium.webdriver.support import expected_conditions as EC
 
-    driver = _get_tentworld_driver()
+    driver = _get_shared_driver()
     driver.get("https://www.tentworld.com.au/search?query=" + urllib.parse.quote(query))
     try:
         WebDriverWait(driver, 20).until(
@@ -191,10 +197,114 @@ def scrape_tentworld(query, limit=8):
     return out
 
 
+def scrape_wildearth(query, limit=8):
+    """SearchSpring-powered storefront (class names are semantic, not hashed - no fragility
+    concern like Tentworld's). Search endpoint found via the real search form's action/method,
+    not guessed: GET /search-results?q=..."""
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.support.ui import WebDriverWait
+    from selenium.webdriver.support import expected_conditions as EC
+
+    driver = _get_shared_driver()
+    driver.get("https://www.wildearth.com.au/search-results?q=" + urllib.parse.quote(query))
+    try:
+        WebDriverWait(driver, 20).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, "article.ss__result--item, .ss__no-results"))
+        )
+    except Exception:
+        return []
+
+    out = []
+    for card in driver.find_elements(By.CSS_SELECTOR, "article.ss__result--item")[:limit]:
+        try:
+            name_el = card.find_element(By.CSS_SELECTOR, ".ss__result__name a")
+            price_el = card.find_element(By.CSS_SELECTOR, ".ss__result__price")
+        except Exception:
+            continue
+        price_match = re.search(r"\$([\d,]+\.\d{2})", price_el.text)
+        if not price_match:
+            continue
+        out.append({
+            "name": name_el.text.strip(),
+            "price": float(price_match.group(1).replace(",", "")),
+            "url": name_el.get_attribute("href"),
+        })
+    return out
+
+
+_anaconda_warmed = False
+
+
+def scrape_anaconda(query, limit=8):
+    """Real search URL needs the /en-au/ locale prefix (the earlier "infinite redirect loop"
+    was hitting /search without it). Each product card's link wraps the card from OUTSIDE
+    (<a class="card-link"><div class="product-card">...</div></a>), not a link nested inside
+    it - easy to miss and end up with a null href, since every other store's cards have the
+    link as a descendant, not an ancestor. Price: prefer the actual selling price
+    (.price-now), fall back to .price-was for items with no active discount.
+
+    Anaconda's Queue-It check is session/cookie based (a "QueueITAccepted-..." cookie, set
+    alongside ordinary analytics cookies) rather than a per-request check - jumping straight
+    to a deep search URL with a brand new browser profile sometimes trips it, but visiting
+    the homepage first (exactly what a real visitor does before searching) reliably clears
+    it. Done once per driver session, not once per query."""
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.support.ui import WebDriverWait
+    from selenium.webdriver.support import expected_conditions as EC
+
+    global _anaconda_warmed
+    driver = _get_shared_driver()
+    if not _anaconda_warmed:
+        driver.get("https://www.anacondastores.com/en-au/")
+        time.sleep(3)
+        _anaconda_warmed = True
+    search_url = "https://www.anacondastores.com/en-au/search?q=" + urllib.parse.quote(query)
+    cards = []
+    for attempt in range(2):  # observed intermittent slow/empty renders under rapid repeat requests
+        driver.get(search_url)
+        try:
+            WebDriverWait(driver, 20).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "div.product-card"))
+            )
+            cards = driver.find_elements(By.CSS_SELECTOR, "div.product-card")
+            if cards:
+                break
+        except Exception:
+            pass
+        time.sleep(2)
+
+    out = []
+    for card in cards[:limit]:
+        try:
+            link = card.find_element(By.XPATH, './ancestor::a[contains(@class,"card-link")]')
+            name_el = card.find_element(By.CSS_SELECTOR, ".card-headline")
+        except Exception:
+            continue
+        price_el = None
+        for sel in (".price-now .amount", ".price-was .amount"):
+            found = card.find_elements(By.CSS_SELECTOR, sel)
+            if found:
+                price_el = found[0]
+                break
+        if price_el is None:
+            continue
+        price_match = re.search(r"([\d,]+(?:\.\d{2})?)", price_el.text)
+        if not price_match:
+            continue
+        out.append({
+            "name": name_el.text.strip(),
+            "price": float(price_match.group(1).replace(",", "")),
+            "url": link.get_attribute("href"),
+        })
+    return out
+
+
 STORE_SCRAPERS = {
     "Snowys": scrape_snowys,
     "BCF": scrape_bcf,
     "Tentworld": scrape_tentworld,
+    "Wild Earth": scrape_wildearth,
+    "Anaconda": scrape_anaconda,
 }
 
 
@@ -360,8 +470,8 @@ def main():
         if touched:
             scanned += 1
 
-    if _tentworld_driver is not None:
-        _tentworld_driver.quit()
+    if _shared_driver is not None:
+        _shared_driver.quit()
 
     SOURCE.write_text(json.dumps(products, ensure_ascii=False, indent=2), encoding="utf-8")
     rebuild_products()

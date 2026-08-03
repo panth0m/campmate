@@ -60,7 +60,7 @@ jobs:
         run: |
           python scripts/sync_product_images_ebay.py             --limit ${{ github.event.inputs.image_limit || '60' }}
 
-      # ── 2.5단계: 실시간 매장 가격 매칭 (Snowys/BCF는 requests, Tentworld는 Selenium) ──
+      # ── 2.5단계: 실시간 매장 가격 매칭 (Snowys/BCF는 requests, Tentworld/Wild Earth/Anaconda는 Selenium) ──
       # 상품 카테고리 접미사·인원수/사이즈 숫자까지 일치해야 매칭 확정(오매칭 방지),
       # 확실하지 않으면 그냥 검색 링크로 남겨둠 - 매칭률보다 정확도 우선
       - name: Set up Chrome (for Tentworld scraper)
