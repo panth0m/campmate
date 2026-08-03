@@ -11,10 +11,21 @@ every site has a different HTML/API shape. Retailers investigated so far:
   - Wild Earth: blocks plain HTTP requests (403) - would need a real browser
     (Selenium/Playwright) to even attempt, not implemented
   - Anaconda: redirect loop on this URL pattern - needs further investigation
-  - Amazon AU, Tentworld: not investigated yet
+  - Tentworld: client-rendered React app, raw HTML has no product data - would need to
+    find its underlying JSON API (like BCF's GTM blob) or a real browser, not implemented
+  - Amazon AU: plain requests actually returns real product/price data (checked 2026-08-04,
+    no CAPTCHA), but robots.txt explicitly disallows ClaudeBot site-wide - not implementing
+    this one out of respect for that, even though the User-Agent used here isn't literally
+    "ClaudeBot"
+
+Scans a rotating window of the catalog (state in data/live_price_scan_state.json) so a run
+of consecutive no-match products can't permanently block progress past them - each run
+starts where the previous one left off and wraps around, instead of always starting at
+index 0 (that was a real bug: with 0 matches, index 0-79 got rescanned every day and the
+other ~860 products were never even attempted).
 
 Usage:
-  python scrape_live_prices.py --limit 40                 # scan next 40 unpriced products
+  python scrape_live_prices.py --limit 40                 # scan next 40 products (rotating)
   python scrape_live_prices.py --limit 20 --store Snowys   # only this store
   python scrape_live_prices.py --refresh-all --limit 40    # re-check even already-priced ones
 """
@@ -31,6 +42,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data" / "products_source.json"
 REPORT = ROOT / "data" / "live_price_last_run.json"
+SCAN_STATE = ROOT / "data" / "live_price_scan_state.json"
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 if str(SCRIPT_DIR) not in sys.path:
@@ -197,6 +209,20 @@ def needs_price(store, refresh_all):
     return refresh_all or not store.get("price")
 
 
+def load_offset(total):
+    if total <= 0:
+        return 0
+    try:
+        state = json.loads(SCAN_STATE.read_text(encoding="utf-8"))
+        return int(state.get("offset", 0)) % total
+    except (FileNotFoundError, json.JSONDecodeError, ValueError):
+        return 0
+
+
+def save_offset(offset):
+    SCAN_STATE.write_text(json.dumps({"offset": offset}), encoding="utf-8")
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--limit", type=int, default=40, help="Max products to scan this run")
@@ -213,9 +239,18 @@ def main():
     failed = 0
     now = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
 
-    for product in products:
+    # Start where the previous run left off instead of always index 0 - otherwise a run of
+    # products that never find a price match (needs_price stays true forever) permanently
+    # blocks the scan window from ever reaching the rest of the catalog.
+    offset = load_offset(len(products))
+    order = list(range(offset, len(products))) + list(range(0, offset))
+    last_index = offset - 1
+
+    for idx in order:
         if scanned >= args.limit:
             break
+        last_index = idx
+        product = products[idx]
         stores = product.get("stores") or []
         touched = False
         for store in stores:
@@ -257,6 +292,8 @@ def main():
 
     SOURCE.write_text(json.dumps(products, ensure_ascii=False, indent=2), encoding="utf-8")
     rebuild_products()
+    new_offset = (last_index + 1) % len(products) if products else 0
+    save_offset(new_offset)
     report = {
         "scanned": scanned,
         "matched": matched,
@@ -264,6 +301,7 @@ def main():
         "stores": active_stores,
         "limit": args.limit,
         "refresh_all": args.refresh_all,
+        "next_offset": new_offset,
     }
     REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Done. scanned={scanned} matched={matched} failed={failed}")

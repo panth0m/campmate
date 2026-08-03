@@ -1,11 +1,12 @@
 {
-  "scanned": 80,
+  "scanned": 15,
   "matched": 0,
   "failed": 0,
   "stores": [
     "Snowys",
     "BCF"
   ],
-  "limit": 80,
-  "refresh_all": false
+  "limit": 15,
+  "refresh_all": false,
+  "next_offset": 15
 }

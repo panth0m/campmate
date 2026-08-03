@@ -76,14 +76,14 @@ jobs:
       - name: Check for changes
         id: check
         run: |
-          git diff --quiet             data/products_source.json             data/products.json             data/ebay_incremental_state.json             data/ebay_weighted_round_last_run.json             data/image_sync_last_run.json             data/live_price_last_run.json             && echo "changed=false" >> $GITHUB_OUTPUT             || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --quiet             data/products_source.json             data/products.json             data/ebay_incremental_state.json             data/ebay_weighted_round_last_run.json             data/image_sync_last_run.json             data/live_price_last_run.json             data/live_price_scan_state.json             && echo "changed=false" >> $GITHUB_OUTPUT             || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push updated products
         if: steps.check.outputs.changed == 'true'
         run: |
           git config user.name "CampMate Bot"
           git config user.email "bot@campmate.au"
-          git add             data/products_source.json             data/products.json             data/ebay_incremental_state.json             data/ebay_weighted_round_last_run.json             data/image_sync_last_run.json             data/live_price_last_run.json
+          git add             data/products_source.json             data/products.json             data/ebay_incremental_state.json             data/ebay_weighted_round_last_run.json             data/image_sync_last_run.json             data/live_price_last_run.json             data/live_price_scan_state.json
 
           if git diff --cached --quiet; then
             echo "No product changes to commit"
