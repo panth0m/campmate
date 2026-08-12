@@ -791,12 +791,13 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Naturehike%20Cloud-Up%202%20Tent",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:00:04Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Naturehike%20Cloud-Up%202%20Tent",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
@@ -809,12 +810,14 @@
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Naturehike%20Cloud-Up%202%20Tent",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Naturehike%20Cloud-Up%202%20Tent",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Tents",
@@ -856,28 +859,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Teton%20Sports%20Mountain%20Ultra%20Tent",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:00:04Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Teton%20Sports%20Mountain%20Ultra%20Tent",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Teton%20Sports%20Mountain%20Ultra%20Tent",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:00:04Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Teton%20Sports%20Mountain%20Ultra%20Tent",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Teton%20Sports%20Mountain%20Ultra%20Tent",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Tents",
@@ -918,28 +924,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Helinox%20Chair%20One",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:00:04Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Helinox%20Chair%20One",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Helinox%20Chair%20One",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:00:04Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Helinox%20Chair%20One",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Helinox%20Chair%20One",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Chairs",
@@ -980,28 +989,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Helinox%20Chair%20Two",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Helinox%20Chair%20Two",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Helinox%20Chair%20Two",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Helinox%20Chair%20Two",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Helinox%20Chair%20Two",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Chairs",
@@ -1042,28 +1054,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Helinox%20Sunset%20Chair",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Helinox%20Sunset%20Chair",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Helinox%20Sunset%20Chair",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Helinox%20Sunset%20Chair",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Helinox%20Sunset%20Chair",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Chairs",
@@ -1104,28 +1119,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=OZtrail%20Festival%205%20Position%20Chair",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=OZtrail%20Festival%205%20Position%20Chair",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=OZtrail%20Festival%205%20Position%20Chair",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=OZtrail%20Festival%205%20Position%20Chair",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=OZtrail%20Festival%205%20Position%20Chair",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Chairs",
@@ -1163,28 +1181,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=KingCamp%20Heavy%20Duty%20Camping%20Chair",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=KingCamp%20Heavy%20Duty%20Camping%20Chair",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=KingCamp%20Heavy%20Duty%20Camping%20Chair",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=KingCamp%20Heavy%20Duty%20Camping%20Chair",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=KingCamp%20Heavy%20Duty%20Camping%20Chair",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Chairs",
@@ -1225,28 +1246,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Cascade%20Mountain%20Tech%20Camp%20Chair",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Cascade%20Mountain%20Tech%20Camp%20Chair",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Cascade%20Mountain%20Tech%20Camp%20Chair",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Cascade%20Mountain%20Tech%20Camp%20Chair",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Cascade%20Mountain%20Tech%20Camp%20Chair",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Chairs",
@@ -1285,28 +1309,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Snow%20Peak%20Take!%20Chair%20Short",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Snow%20Peak%20Take!%20Chair%20Short",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Snow%20Peak%20Take!%20Chair%20Short",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Snow%20Peak%20Take!%20Chair%20Short",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Snow%20Peak%20Take!%20Chair%20Short",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Chairs",
@@ -1345,28 +1372,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Kijaro%20Dual%20Lock%20Chair",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Kijaro%20Dual%20Lock%20Chair",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Kijaro%20Dual%20Lock%20Chair",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Kijaro%20Dual%20Lock%20Chair",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Kijaro%20Dual%20Lock%20Chair",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Chairs",
@@ -1407,28 +1437,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=GCI%20Outdoor%20Freestyle%20Rocker%20Chair",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=GCI%20Outdoor%20Freestyle%20Rocker%20Chair",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=GCI%20Outdoor%20Freestyle%20Rocker%20Chair",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=GCI%20Outdoor%20Freestyle%20Rocker%20Chair",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=GCI%20Outdoor%20Freestyle%20Rocker%20Chair",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Chairs",
@@ -1467,28 +1500,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Dune%204WD%20Ironman%20Camp%20Chair",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Dune%204WD%20Ironman%20Camp%20Chair",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Dune%204WD%20Ironman%20Camp%20Chair",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Dune%204WD%20Ironman%20Camp%20Chair",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Dune%204WD%20Ironman%20Camp%20Chair",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Chairs",
@@ -1529,28 +1565,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=YETI%20Tundra%2045%20Hard%20Cooler",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=YETI%20Tundra%2045%20Hard%20Cooler",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=YETI%20Tundra%2045%20Hard%20Cooler",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=YETI%20Tundra%2045%20Hard%20Cooler",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=YETI%20Tundra%2045%20Hard%20Cooler",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Coolers & Ice Boxes",
@@ -1592,28 +1631,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Coleman%20Xtreme%205%20Wheeled%20Cooler%2062QT",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Coleman%20Xtreme%205%20Wheeled%20Cooler%2062QT",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Coleman%20Xtreme%205%20Wheeled%20Cooler%2062QT",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Coleman%20Xtreme%205%20Wheeled%20Cooler%2062QT",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Xtreme%205%20Wheeled%20Cooler%2062QT",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Coolers & Ice Boxes",
@@ -1655,28 +1697,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Dometic%20CFX3%2055%20Portable%20Fridge",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Dometic%20CFX3%2055%20Portable%20Fridge",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Dometic%20CFX3%2055%20Portable%20Fridge",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Dometic%20CFX3%2055%20Portable%20Fridge",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Dometic%20CFX3%2055%20Portable%20Fridge",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Coolers & Ice Boxes",
@@ -1716,28 +1761,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Engel%2040L%20Portable%20Fridge%20Freezer",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Engel%2040L%20Portable%20Fridge%20Freezer",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Engel%2040L%20Portable%20Fridge%20Freezer",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Engel%2040L%20Portable%20Fridge%20Freezer",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Engel%2040L%20Portable%20Fridge%20Freezer",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Coolers & Ice Boxes",
@@ -1778,28 +1826,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=ARB%20Elements%20Fridge%2047L",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=ARB%20Elements%20Fridge%2047L",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=ARB%20Elements%20Fridge%2047L",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=ARB%20Elements%20Fridge%2047L",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=ARB%20Elements%20Fridge%2047L",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Coolers & Ice Boxes",
@@ -1839,28 +1890,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Igloo%20BMX%2052%20Roller%20Cooler",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Igloo%20BMX%2052%20Roller%20Cooler",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Igloo%20BMX%2052%20Roller%20Cooler",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Igloo%20BMX%2052%20Roller%20Cooler",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Igloo%20BMX%2052%20Roller%20Cooler",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Coolers & Ice Boxes",
@@ -1899,28 +1953,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Pelican%2050QT%20Elite%20Cooler",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Pelican%2050QT%20Elite%20Cooler",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Pelican%2050QT%20Elite%20Cooler",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Pelican%2050QT%20Elite%20Cooler",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Pelican%2050QT%20Elite%20Cooler",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Coolers & Ice Boxes",
@@ -1960,28 +2017,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=OZtrail%20Chilly%20Bin%2030L",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=OZtrail%20Chilly%20Bin%2030L",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=OZtrail%20Chilly%20Bin%2030L",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=OZtrail%20Chilly%20Bin%2030L",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=OZtrail%20Chilly%20Bin%2030L",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Coolers & Ice Boxes",
@@ -2020,28 +2080,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Canyon%20Coolers%20Outfitter%2055",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Canyon%20Coolers%20Outfitter%2055",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Canyon%20Coolers%20Outfitter%2055",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Canyon%20Coolers%20Outfitter%2055",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Canyon%20Coolers%20Outfitter%2055",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Coolers & Ice Boxes",
@@ -2082,28 +2145,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Rtic%2045%20Hard%20Cooler",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Rtic%2045%20Hard%20Cooler",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Rtic%2045%20Hard%20Cooler",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Rtic%2045%20Hard%20Cooler",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Rtic%2045%20Hard%20Cooler",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Coolers & Ice Boxes",
@@ -2144,28 +2210,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Ozark%20Trail%2073QT%20High%20Performance%20Cooler",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Ozark%20Trail%2073QT%20High%20Performance%20Cooler",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Ozark%20Trail%2073QT%20High%20Performance%20Cooler",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Ozark%20Trail%2073QT%20High%20Performance%20Cooler",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Ozark%20Trail%2073QT%20High%20Performance%20Cooler",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Coolers & Ice Boxes",
@@ -2206,28 +2275,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=National%20Luna%20Twin%2040%20Fridge%20Freezer",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=National%20Luna%20Twin%2040%20Fridge%20Freezer",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=National%20Luna%20Twin%2040%20Fridge%20Freezer",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=National%20Luna%20Twin%2040%20Fridge%20Freezer",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=National%20Luna%20Twin%2040%20Fridge%20Freezer",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Coolers & Ice Boxes",
@@ -2265,28 +2337,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Waeco%20CoolFreeze%20CFX%2050W",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Waeco%20CoolFreeze%20CFX%2050W",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Waeco%20CoolFreeze%20CFX%2050W",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Waeco%20CoolFreeze%20CFX%2050W",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Waeco%20CoolFreeze%20CFX%2050W",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Coolers & Ice Boxes",
@@ -2324,28 +2399,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=BCF%20Voyager%2060L%20Wheeled%20Cooler",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=BCF%20Voyager%2060L%20Wheeled%20Cooler",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=BCF%20Voyager%2060L%20Wheeled%20Cooler",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=BCF%20Voyager%2060L%20Wheeled%20Cooler",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=BCF%20Voyager%2060L%20Wheeled%20Cooler",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Coolers & Ice Boxes",
@@ -2385,28 +2463,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Anaconda%20Titan%2055QT%20Cooler",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Anaconda%20Titan%2055QT%20Cooler",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Anaconda%20Titan%2055QT%20Cooler",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Anaconda%20Titan%2055QT%20Cooler",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Anaconda%20Titan%2055QT%20Cooler",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Coolers & Ice Boxes",
@@ -2447,28 +2528,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Jetboil%20Flash%20Cooking%20System",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Jetboil%20Flash%20Cooking%20System",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Jetboil%20Flash%20Cooking%20System",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Jetboil%20Flash%20Cooking%20System",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Jetboil%20Flash%20Cooking%20System",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Stoves",
@@ -2508,28 +2592,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Jetboil%20MiniMo%20Cooking%20System",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Jetboil%20MiniMo%20Cooking%20System",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Jetboil%20MiniMo%20Cooking%20System",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Jetboil%20MiniMo%20Cooking%20System",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Jetboil%20MiniMo%20Cooking%20System",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Stoves",
@@ -2570,28 +2657,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=MSR%20PocketRocket%202%20Stove",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=MSR%20PocketRocket%202%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=MSR%20PocketRocket%202%20Stove",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=MSR%20PocketRocket%202%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=MSR%20PocketRocket%202%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Stoves",
@@ -2631,28 +2721,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=MSR%20WindBurner%20Personal%20Stove%20System",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=MSR%20WindBurner%20Personal%20Stove%20System",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=MSR%20WindBurner%20Personal%20Stove%20System",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=MSR%20WindBurner%20Personal%20Stove%20System",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=MSR%20WindBurner%20Personal%20Stove%20System",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Stoves",
@@ -2691,28 +2784,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Coleman%202-Burner%20Classic%20Propane%20Stove",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Coleman%202-Burner%20Classic%20Propane%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Coleman%202-Burner%20Classic%20Propane%20Stove",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Coleman%202-Burner%20Classic%20Propane%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%202-Burner%20Classic%20Propane%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Stoves",
@@ -2752,28 +2848,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Coleman%20Classic%202-Burner%20Camp%20Stove",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Coleman%20Classic%202-Burner%20Camp%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Coleman%20Classic%202-Burner%20Camp%20Stove",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Coleman%20Classic%202-Burner%20Camp%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Classic%202-Burner%20Camp%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Stoves",
@@ -2813,28 +2912,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Camp%20Chef%20Everest%202-Burner%20Stove",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Camp%20Chef%20Everest%202-Burner%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Camp%20Chef%20Everest%202-Burner%20Stove",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Camp%20Chef%20Everest%202-Burner%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Camp%20Chef%20Everest%202-Burner%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Stoves",
@@ -2876,28 +2978,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Snow%20Peak%20LiteMax%20Titanium%20Stove",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Snow%20Peak%20LiteMax%20Titanium%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Snow%20Peak%20LiteMax%20Titanium%20Stove",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Snow%20Peak%20LiteMax%20Titanium%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Snow%20Peak%20LiteMax%20Titanium%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Stoves",
@@ -2937,28 +3042,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Trangia%2025-1%20UL%20Spirit%20Stove%20Set",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Trangia%2025-1%20UL%20Spirit%20Stove%20Set",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Trangia%2025-1%20UL%20Spirit%20Stove%20Set",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Trangia%2025-1%20UL%20Spirit%20Stove%20Set",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Trangia%2025-1%20UL%20Spirit%20Stove%20Set",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Stoves",
@@ -2999,28 +3107,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=OZtrail%20Ironside%202-Burner%20Stove",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=OZtrail%20Ironside%202-Burner%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=OZtrail%20Ironside%202-Burner%20Stove",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=OZtrail%20Ironside%202-Burner%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=OZtrail%20Ironside%202-Burner%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Stoves",
@@ -3060,28 +3171,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Gasmate%20Turbo%202-Burner%20Stove",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Gasmate%20Turbo%202-Burner%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Gasmate%20Turbo%202-Burner%20Stove",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Gasmate%20Turbo%202-Burner%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Gasmate%20Turbo%202-Burner%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Stoves",
@@ -3122,28 +3236,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Solo%20Stove%20Lite",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Solo%20Stove%20Lite",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Solo%20Stove%20Lite",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Solo%20Stove%20Lite",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Solo%20Stove%20Lite",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Stoves",
@@ -3184,28 +3301,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Iwatani%20Cassette%20Feu%20CB-ABR-2%20Stove",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Iwatani%20Cassette%20Feu%20CB-ABR-2%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Iwatani%20Cassette%20Feu%20CB-ABR-2%20Stove",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Iwatani%20Cassette%20Feu%20CB-ABR-2%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Iwatani%20Cassette%20Feu%20CB-ABR-2%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Stoves",
@@ -3246,28 +3366,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Soto%20Windmaster%20Stove",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Soto%20Windmaster%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Soto%20Windmaster%20Stove",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Soto%20Windmaster%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Soto%20Windmaster%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Stoves",
@@ -3308,28 +3431,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=BCF%202-Burner%20Stove%20with%20Cover",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=BCF%202-Burner%20Stove%20with%20Cover",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=BCF%202-Burner%20Stove%20with%20Cover",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=BCF%202-Burner%20Stove%20with%20Cover",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=BCF%202-Burner%20Stove%20with%20Cover",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Stoves",
@@ -3368,28 +3494,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Anatton%20Camping%20Stove%20Single%20Burner",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Anatton%20Camping%20Stove%20Single%20Burner",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Anatton%20Camping%20Stove%20Single%20Burner",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Anatton%20Camping%20Stove%20Single%20Burner",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Anatton%20Camping%20Stove%20Single%20Burner",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Stoves",
@@ -3429,28 +3558,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Zempire%20Revo%202%20Stove",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Zempire%20Revo%202%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Zempire%20Revo%202%20Stove",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Zempire%20Revo%202%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Zempire%20Revo%202%20Stove",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Stoves",
@@ -3490,28 +3622,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Goal%20Zero%20Lighthouse%20600%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Goal%20Zero%20Lighthouse%20600%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Goal%20Zero%20Lighthouse%20600%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Goal%20Zero%20Lighthouse%20600%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Goal%20Zero%20Lighthouse%20600%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Lanterns",
@@ -3553,28 +3688,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Coleman%20Quad%20Pro%20LED%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Coleman%20Quad%20Pro%20LED%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Coleman%20Quad%20Pro%20LED%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Coleman%20Quad%20Pro%20LED%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Quad%20Pro%20LED%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Lanterns",
@@ -3615,28 +3753,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Coleman%20OneSource%20LED%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Coleman%20OneSource%20LED%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Coleman%20OneSource%20LED%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Coleman%20OneSource%20LED%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20OneSource%20LED%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Lanterns",
@@ -3677,28 +3818,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Coleman%204D%20XPS%20LED%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Coleman%204D%20XPS%20LED%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Coleman%204D%20XPS%20LED%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Coleman%204D%20XPS%20LED%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%204D%20XPS%20LED%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Lanterns",
@@ -3740,28 +3884,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Fenix%20CL26R%20Camping%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Fenix%20CL26R%20Camping%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Fenix%20CL26R%20Camping%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Fenix%20CL26R%20Camping%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Fenix%20CL26R%20Camping%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Lanterns",
@@ -3803,28 +3950,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=BioLite%20SiteLight%2080%20Solar%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=BioLite%20SiteLight%2080%20Solar%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=BioLite%20SiteLight%2080%20Solar%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=BioLite%20SiteLight%2080%20Solar%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=BioLite%20SiteLight%2080%20Solar%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Lanterns",
@@ -3864,28 +4014,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Luci%20Solar%20Inflatable%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Luci%20Solar%20Inflatable%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Luci%20Solar%20Inflatable%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Luci%20Solar%20Inflatable%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Luci%20Solar%20Inflatable%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Lanterns",
@@ -3926,28 +4079,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Ust%2030-Day%20Duro%20LED%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Ust%2030-Day%20Duro%20LED%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Ust%2030-Day%20Duro%20LED%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Ust%2030-Day%20Duro%20LED%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Ust%2030-Day%20Duro%20LED%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Lanterns",
@@ -3986,28 +4142,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Nitecore%20LR60%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Nitecore%20LR60%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Nitecore%20LR60%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Nitecore%20LR60%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Nitecore%20LR60%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Lanterns",
@@ -4050,28 +4209,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=LuminAID%20PackLite%20Nova%20Solar%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=LuminAID%20PackLite%20Nova%20Solar%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=LuminAID%20PackLite%20Nova%20Solar%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=LuminAID%20PackLite%20Nova%20Solar%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=LuminAID%20PackLite%20Nova%20Solar%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Lanterns",
@@ -4112,28 +4274,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=OZtrail%2010W%20LED%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=OZtrail%2010W%20LED%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=OZtrail%2010W%20LED%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=OZtrail%2010W%20LED%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=OZtrail%2010W%20LED%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Lanterns",
@@ -4173,28 +4338,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Streamlight%20The%20Siege%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Streamlight%20The%20Siege%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Streamlight%20The%20Siege%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Streamlight%20The%20Siege%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Streamlight%20The%20Siege%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Lanterns",
@@ -4235,28 +4403,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Brunton%20Hydrogen%20Reactor%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Brunton%20Hydrogen%20Reactor%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Brunton%20Hydrogen%20Reactor%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Brunton%20Hydrogen%20Reactor%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Brunton%20Hydrogen%20Reactor%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Lanterns",
@@ -4296,28 +4467,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Lander%20Cascade%20800%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Lander%20Cascade%20800%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Lander%20Cascade%20800%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Lander%20Cascade%20800%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Lander%20Cascade%20800%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Lanterns",
@@ -4358,28 +4532,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Ledlenser%20ML6%20Compact%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Ledlenser%20ML6%20Compact%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Ledlenser%20ML6%20Compact%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Ledlenser%20ML6%20Compact%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Ledlenser%20ML6%20Compact%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Lanterns",
@@ -4419,28 +4596,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=BCF%20Rechargeable%20LED%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=BCF%20Rechargeable%20LED%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=BCF%20Rechargeable%20LED%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=BCF%20Rechargeable%20LED%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=BCF%20Rechargeable%20LED%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Lanterns",
@@ -4479,28 +4659,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Energizer%20LED%20Collapsible%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Energizer%20LED%20Collapsible%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Energizer%20LED%20Collapsible%20Lantern",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Energizer%20LED%20Collapsible%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Energizer%20LED%20Collapsible%20Lantern",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camping Lanterns",
@@ -4539,28 +4722,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Sea%20to%20Summit%20Spark%20SP1%20Sleeping%20Bag",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Sea%20to%20Summit%20Spark%20SP1%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Sea%20to%20Summit%20Spark%20SP1%20Sleeping%20Bag",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Sea%20to%20Summit%20Spark%20SP1%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Sea%20to%20Summit%20Spark%20SP1%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camp Sleep Systems",
@@ -4603,28 +4789,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Sea%20to%20Summit%20Altitude%20AT2%20Sleeping%20Bag",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Sea%20to%20Summit%20Altitude%20AT2%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Sea%20to%20Summit%20Altitude%20AT2%20Sleeping%20Bag",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Sea%20to%20Summit%20Altitude%20AT2%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Sea%20to%20Summit%20Altitude%20AT2%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camp Sleep Systems",
@@ -4663,28 +4852,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Sea%20to%20Summit%20Ether%20Light%20XT%20Sleeping%20Mat",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Sea%20to%20Summit%20Ether%20Light%20XT%20Sleeping%20Mat",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Sea%20to%20Summit%20Ether%20Light%20XT%20Sleeping%20Mat",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Sea%20to%20Summit%20Ether%20Light%20XT%20Sleeping%20Mat",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Sea%20to%20Summit%20Ether%20Light%20XT%20Sleeping%20Mat",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camp Sleep Systems",
@@ -4724,28 +4916,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Therm-a-Rest%20Trail%20Scout%20Sleeping%20Pad",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Therm-a-Rest%20Trail%20Scout%20Sleeping%20Pad",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Therm-a-Rest%20Trail%20Scout%20Sleeping%20Pad",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Therm-a-Rest%20Trail%20Scout%20Sleeping%20Pad",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Therm-a-Rest%20Trail%20Scout%20Sleeping%20Pad",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camp Sleep Systems",
@@ -4787,28 +4982,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Coleman%20Brazos%20Cold%20Weather%20Sleeping%20Bag",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Coleman%20Brazos%20Cold%20Weather%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Coleman%20Brazos%20Cold%20Weather%20Sleeping%20Bag",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Coleman%20Brazos%20Cold%20Weather%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Brazos%20Cold%20Weather%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camp Sleep Systems",
@@ -4848,28 +5046,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Coleman%20Kompact%207C%20Sleeping%20Bag",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Coleman%20Kompact%207C%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Coleman%20Kompact%207C%20Sleeping%20Bag",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Coleman%20Kompact%207C%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Kompact%207C%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camp Sleep Systems",
@@ -4908,28 +5109,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Blackwolf%20Element%200%20Sleeping%20Bag",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Blackwolf%20Element%200%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Blackwolf%20Element%200%20Sleeping%20Bag",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Blackwolf%20Element%200%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Blackwolf%20Element%200%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camp Sleep Systems",
@@ -4969,28 +5173,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Blackwolf%20Comfort%20Plus%205%20Sleeping%20Bag",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Blackwolf%20Comfort%20Plus%205%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Blackwolf%20Comfort%20Plus%205%20Sleeping%20Bag",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Blackwolf%20Comfort%20Plus%205%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Blackwolf%20Comfort%20Plus%205%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camp Sleep Systems",
@@ -5030,28 +5237,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=OZtrail%20Kakadu%200%20Sleeping%20Bag",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=OZtrail%20Kakadu%200%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=OZtrail%20Kakadu%200%20Sleeping%20Bag",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=OZtrail%20Kakadu%200%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=OZtrail%20Kakadu%200%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camp Sleep Systems",
@@ -5090,28 +5300,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Western%20Mountaineering%20Megalite%20Sleeping%20Bag",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Western%20Mountaineering%20Megalite%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Western%20Mountaineering%20Megalite%20Sleeping%20Bag",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Western%20Mountaineering%20Megalite%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Western%20Mountaineering%20Megalite%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camp Sleep Systems",
@@ -5152,28 +5365,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Exped%20SynMat%20HL%20Sleeping%20Mat",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Exped%20SynMat%20HL%20Sleeping%20Mat",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Exped%20SynMat%20HL%20Sleeping%20Mat",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Exped%20SynMat%20HL%20Sleeping%20Mat",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Exped%20SynMat%20HL%20Sleeping%20Mat",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camp Sleep Systems",
@@ -5214,28 +5430,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Klymit%20Static%20V2%20Sleeping%20Pad",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Klymit%20Static%20V2%20Sleeping%20Pad",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Klymit%20Static%20V2%20Sleeping%20Pad",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Klymit%20Static%20V2%20Sleeping%20Pad",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Klymit%20Static%20V2%20Sleeping%20Pad",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camp Sleep Systems",
@@ -5275,28 +5494,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Nemo%20Disco%2015%20Sleeping%20Bag",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Nemo%20Disco%2015%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Nemo%20Disco%2015%20Sleeping%20Bag",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Nemo%20Disco%2015%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Nemo%20Disco%2015%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camp Sleep Systems",
@@ -5337,28 +5559,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Enlightened%20Equipment%20Revelation%20Quilt",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Enlightened%20Equipment%20Revelation%20Quilt",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Enlightened%20Equipment%20Revelation%20Quilt",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Enlightened%20Equipment%20Revelation%20Quilt",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Enlightened%20Equipment%20Revelation%20Quilt",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camp Sleep Systems",
@@ -5399,28 +5624,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Darche%20Nebula%20-5%20Sleeping%20Bag",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Darche%20Nebula%20-5%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Darche%20Nebula%20-5%20Sleeping%20Bag",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Darche%20Nebula%20-5%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Darche%20Nebula%20-5%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camp Sleep Systems",
@@ -5460,28 +5688,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=BCF%20Journey%20-5%20Sleeping%20Bag",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=BCF%20Journey%20-5%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=BCF%20Journey%20-5%20Sleeping%20Bag",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=BCF%20Journey%20-5%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=BCF%20Journey%20-5%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camp Sleep Systems",
@@ -5520,28 +5751,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Anaconda%20Trail%20Blazer%20Sleeping%20Bag",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Anaconda%20Trail%20Blazer%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Anaconda%20Trail%20Blazer%20Sleeping%20Bag",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Anaconda%20Trail%20Blazer%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Anaconda%20Trail%20Blazer%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camp Sleep Systems",
@@ -5580,28 +5814,31 @@
         "name": "BCF",
         "url": "https://www.bcf.com.au/search?q=Vango%20Nitestar%20Alpha%20250%20Sleeping%20Bag",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "url": "https://www.anacondastores.com/search?text=Vango%20Nitestar%20Alpha%20250%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Vango%20Nitestar%20Alpha%20250%20Sleeping%20Bag",
         "type": "search",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Tentworld",
         "url": "https://www.tentworld.com.au/Search.aspx?q=Vango%20Nitestar%20Alpha%20250%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Wild Earth",
         "url": "https://www.wildearth.com.au/search?type=product&q=Vango%20Nitestar%20Alpha%20250%20Sleeping%20Bag",
-        "type": "search"
+        "type": "search",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "categoryName": "Camp Sleep Systems",
@@ -5640,12 +5877,13 @@
         "name": "BCF",
         "type": "search",
         "url": "https://www.bcf.com.au/search?q=BioLite%20SiteLight%2080%20String%20Lantern",
-        "priceCheckedAt": "2026-08-03T15:01:28Z"
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       },
       {
         "name": "Anaconda",
         "type": "search",
-        "url": "https://www.anacondastores.com/search?text=BioLite%20SiteLight%2080%20String%20Lantern"
+        "url": "https://www.anacondastores.com/search?text=BioLite%20SiteLight%2080%20String%20Lantern",
+        "priceCheckedAt": "2026-08-12T22:01:53Z"
       }
     ],
     "description": "Rated 4.3/5 from 67 reviews. The BioLite SiteLight 80 String Lantern is a budget lanterns from BioLite. Packable area-light option for soft campsite ambiance and tent-zone visibility.",
@@ -60940,5 +61178,179 @@
     "marketplace": "EBAY_AU",
     "sourceUrl": "https://www.ebay.com.au/itm/376840492551?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBX%2FWS3nGb56xC12APAchvhFxFTs%2FPv7jxcMAmnsxLi1Tp6w%2FMU9K%2B918WOc1zKizwwOMuCORCYViGMGEIpLZCpq%2FIpkzQU8dOgcJ%2FBtgnsg5x0WCeNQVAUlwTH19l8SOaDbHckkxFwzpWnBokOHajO5nCcqAeOhDrHe9tIV6p%2BY4WZeo6Ls9NGezYqey45qtk%3D",
     "importedAt": "2026-08-11T22:01:13Z"
+  },
+  {
+    "slug": "coleman-coleman-equipment-chair-quad-kids-fyrefly-illumi-bug-green",
+    "name": "Coleman Equipment Chair Quad Kids Fyrefly Illumi Bug Green",
+    "brand": "Coleman",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 45,
+    "salePrice": 44,
+    "rating": 0.0,
+    "reviews": 0,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/HdAAAeSw1fRpaQ9G/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/HdAAAeSw1fRpaQ9G/s-l1600.jpg",
+    "summary": "With its sturdy construction and playful design, this chair ensures kids can relax in style while enjoying nature. Coleman Chair Quad Kids Fyrefly Illumi Bug Green Camping Outdo...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/336391055831?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Coleman%20Equipment%20Chair%20Quad%20Kids%20Fyrefly%20Illumi%20Bug%20Green",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Coleman%20Equipment%20Chair%20Quad%20Kids%20Fyrefly%20Illumi%20Bug%20Green",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Coleman%20Equipment%20Chair%20Quad%20Kids%20Fyrefly%20Illumi%20Bug%20Green",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Coleman%20Equipment%20Chair%20Quad%20Kids%20Fyrefly%20Illumi%20Bug%20Green",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Coleman%20Equipment%20Chair%20Quad%20Kids%20Fyrefly%20Illumi%20Bug%20Green",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Equipment%20Chair%20Quad%20Kids%20Fyrefly%20Illumi%20Bug%20Green",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|336391055831|0",
+    "sourceLegacyItemId": "336391055831",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/336391055831?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-08-12T21:49:29Z"
+  },
+  {
+    "slug": "coleman-coleman-accessories-equipment-chair-flat-fold-5-position-padded-classic",
+    "name": "Coleman Accessories/Equipment Chair Flat Fold 5 Position Padded Classic",
+    "brand": "Coleman",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 203,
+    "salePrice": 175,
+    "rating": 4.8,
+    "reviews": 10,
+    "ratingSource": "ebay_primaryProductReviewRating",
+    "image": "https://i.ebayimg.com/images/g/sS0AAeSwhYZpaQ8O/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/sS0AAeSwhYZpaQ8O/s-l1600.jpg",
+    "summary": "247 Deals brings you the latest and greatest products, at competitive prices. The Coleman Chair Flat Fold 5 Position Padded with Glass Panel is designed for ultimate comfort and...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/336391055832?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=Coleman%20Accessories/Equipment%20Chair%20Flat%20Fold%205%20Position%20Padded%20Classic",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=Coleman%20Accessories/Equipment%20Chair%20Flat%20Fold%205%20Position%20Padded%20Classic",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=Coleman%20Accessories/Equipment%20Chair%20Flat%20Fold%205%20Position%20Padded%20Classic",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=Coleman%20Accessories/Equipment%20Chair%20Flat%20Fold%205%20Position%20Padded%20Classic",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=Coleman%20Accessories/Equipment%20Chair%20Flat%20Fold%205%20Position%20Padded%20Classic",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=Coleman%20Accessories/Equipment%20Chair%20Flat%20Fold%205%20Position%20Padded%20Classic",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|336391055832|0",
+    "sourceLegacyItemId": "336391055832",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/336391055832?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-08-12T21:49:30Z"
+  },
+  {
+    "slug": "coleman-coleman-equipment-chair-quad-kids-fyrefly-illumi-bug-pink",
+    "name": "COLEMAN Equipment Chair Quad Kids Fyrefly Illumi-Bug Pink",
+    "brand": "COLEMAN",
+    "category": "chairs",
+    "categoryName": "Camping Chairs",
+    "price": 45,
+    "salePrice": 44,
+    "rating": 4.2,
+    "reviews": 0,
+    "ratingSource": "fallback_default",
+    "image": "https://i.ebayimg.com/images/g/lfkAAeSwQ8FpaQ7R/s-l1600.jpg",
+    "ebayImage": "https://i.ebayimg.com/images/g/lfkAAeSwQ8FpaQ7R/s-l1600.jpg",
+    "summary": "The Coleman Chair Quad Kids Fyrefly Illumi-Bug in vibrant pink is designed for comfort and fun, perfect for outdoor adventures or backyard camping. Featuring a whimsical bug des...",
+    "stores": [
+      {
+        "name": "eBay AU",
+        "url": "https://www.ebay.com.au/itm/336391055837?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+        "type": "listing"
+      },
+      {
+        "name": "Amazon AU",
+        "url": "https://www.amazon.com.au/s?k=COLEMAN%20Equipment%20Chair%20Quad%20Kids%20Fyrefly%20Illumi-Bug%20Pink",
+        "type": "search"
+      },
+      {
+        "name": "BCF",
+        "url": "https://www.bcf.com.au/search?q=COLEMAN%20Equipment%20Chair%20Quad%20Kids%20Fyrefly%20Illumi-Bug%20Pink",
+        "type": "search"
+      },
+      {
+        "name": "Anaconda",
+        "url": "https://www.anacondastores.com/search?text=COLEMAN%20Equipment%20Chair%20Quad%20Kids%20Fyrefly%20Illumi-Bug%20Pink",
+        "type": "search"
+      },
+      {
+        "name": "Snowys",
+        "url": "https://www.snowys.com.au/search?q=COLEMAN%20Equipment%20Chair%20Quad%20Kids%20Fyrefly%20Illumi-Bug%20Pink",
+        "type": "search"
+      },
+      {
+        "name": "Tentworld",
+        "url": "https://www.tentworld.com.au/Search.aspx?q=COLEMAN%20Equipment%20Chair%20Quad%20Kids%20Fyrefly%20Illumi-Bug%20Pink",
+        "type": "search"
+      },
+      {
+        "name": "Wild Earth",
+        "url": "https://www.wildearth.com.au/search?type=product&q=COLEMAN%20Equipment%20Chair%20Quad%20Kids%20Fyrefly%20Illumi-Bug%20Pink",
+        "type": "search"
+      }
+    ],
+    "source": "ebay",
+    "sourceItemId": "v1|336391055837|0",
+    "sourceLegacyItemId": "336391055837",
+    "marketplace": "EBAY_AU",
+    "sourceUrl": "https://www.ebay.com.au/itm/336391055837?mkevt=1&mkcid=1&mkrid=705-53470-19255-0&campid=%253CePN%253E&customid=campmate&toolid=10050",
+    "importedAt": "2026-08-12T21:49:30Z"
   }
 ]
