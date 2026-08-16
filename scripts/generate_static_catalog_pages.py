@@ -27,6 +27,18 @@ def currency(n):
         return 'A$0'
 
 
+def live_price(product):
+    prices = []
+    for store in product.get('stores') or []:
+        try:
+            price = float(store.get('price') or 0)
+        except Exception:
+            price = 0
+        if price > 0:
+            prices.append(price)
+    return min(prices) if prices else 0
+
+
 def review_score(p):
     try:
         rating = float(p.get('rating') or 0)
@@ -156,8 +168,9 @@ def category_product_row(product):
       <div class="dw-row-meta">{' '.join(meta)}</div>
     </div>
     <div class="dw-row-price">
-      <div class="sale-price">{currency(product.get('salePrice') or product.get('price'))}</div>
-      {f'<div class="orig-price">{currency(product.get("price"))}</div>' if product.get('price') and product.get('price') != product.get('salePrice') else ''}
+      <div class="sale-price">{currency(live_price(product) or product.get('salePrice') or product.get('price'))}</div>
+      <div class="price-source">{('Lowest verified store price' if live_price(product) else 'Reference price')}</div>
+      {f'<div class="orig-price">{currency(product.get("salePrice") or product.get("price"))}</div>' if live_price(product) and product.get('salePrice') and live_price(product) != product.get('salePrice') else ''}
       <div class="dw-row-stores">{''.join(stores)}</div>
       <a class="dw-row-compare-btn" href="{product_link(product)}">Compare →</a>
     </div>
@@ -171,7 +184,7 @@ def category_card(cat, count, products):
         if brand not in top_brands:
             top_brands.append(brand)
     top_brands = top_brands[:4]
-    prices = [float(p.get('salePrice') or p.get('price') or 0) for p in subset if float(p.get('salePrice') or p.get('price') or 0) > 0]
+    prices = [live_price(p) or float(p.get('salePrice') or p.get('price') or 0) for p in subset if live_price(p) or float(p.get('salePrice') or p.get('price') or 0) > 0]
     start_price = min(prices) if prices else 0
     badges = ''.join(f'<span class="soft-badge">{esc(brand)}</span>' for brand in top_brands)
     return f'''
@@ -199,7 +212,7 @@ def popular_row(product, index):
         <a class="title" style="margin:8px 0 6px" href="{product_link(product)}">{esc(product.get('name'))}</a>
         <div class="tiny">{esc(soft)}</div>
       </div>
-      <div class="price-stack"><strong>{currency(product.get('salePrice') or product.get('price'))}</strong><span class="tiny">Reference</span></div>
+      <div class="price-stack"><strong>{currency(live_price(product) or product.get('salePrice') or product.get('price'))}</strong><span class="tiny">{('Lowest verified store price' if live_price(product) else 'Reference')}</span></div>
       <div class="tiny">{stars_html(product.get('rating'))}<br>{int(product.get('reviews') or 0)} reviews</div>
       <div><a class="btn small" href="{product_link(product)}">Compare</a></div>
     </article>'''

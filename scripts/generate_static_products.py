@@ -220,6 +220,18 @@ def build_page(p, all_products):
     saving = pct(sale, full)
     ptype = infer_type(p)
     store_count = len(stores)
+    live_stores = []
+    for store in stores:
+        try:
+            live_price = float(store.get('price') or 0)
+        except Exception:
+            live_price = 0
+        if live_price > 0:
+            live_stores.append((store, live_price))
+    live_stores.sort(key=lambda item: item[1])
+    lowest_live = live_stores[0][1] if live_stores else 0
+    display_price = lowest_live or sale
+    live_checked = live_stores[0][0].get('priceCheckedAt') if live_stores else ''
 
     all_specs = {
         'Reference price': currency(sale),
@@ -228,6 +240,10 @@ def build_page(p, all_products):
         'Type': ptype,
         'Store options': f'{store_count} stores',
     }
+    if lowest_live:
+        all_specs['Lowest verified store price'] = currency(lowest_live)
+        all_specs['Live price matches'] = f'{len(live_stores)} stores'
+
     for key, val in specs.items():
         if key == 'Reference price':
             continue
@@ -247,9 +263,17 @@ def build_page(p, all_products):
     store_pills = ''
     for s in stores:
         sname = esc(s.get('name', 'Store'))
-        surl = esc(affiliate_url(s.get('name', ''), s.get('url', '#')))
-        note = 'Marketplace listings' if 'ebay' in sname.lower() else 'Store search'
-        offer_rows += f'<div class="offer-row"><div><strong>{sname}</strong></div><div class="muted">{note} for this product</div><div><a class="btn secondary small" target="_blank" rel="noopener sponsored" href="{surl}">Open</a></div></div>'
+        raw_url = s.get('matchedUrl') or s.get('url') or '#'
+        surl = esc(affiliate_url(s.get('name', ''), raw_url))
+        note = 'New listings only' if 'ebay' in sname.lower() else 'Verified retailer price'
+        try:
+            store_price = float(s.get('price') or 0)
+        except Exception:
+            store_price = 0
+        price_cell = f'<strong class="offer-price">{currency(store_price)}</strong>' if store_price > 0 else '<span class="muted">Price not verified</span>'
+        checked = esc(str(s.get('priceCheckedAt') or '')[:10]) if store_price > 0 else '—'
+        best = ' <span class="best-price">LOWEST</span>' if lowest_live and store_price == lowest_live else ''
+        offer_rows += f'<div class="offer-row"><div><strong>{sname}</strong>{best}</div><div>{price_cell}</div><div class="muted">{checked}</div><div><a class="btn secondary small" target="_blank" rel="noopener sponsored" href="{surl}">Open</a></div></div>'
         store_pills += f'<a class="store-pill small secondary" target="_blank" rel="noopener sponsored" href="{surl}">{sname}</a>'
 
     hl_chips = ''.join(f'<span class="spec-chip">{esc(h)}</span>' for h in highlights)
@@ -361,9 +385,10 @@ def build_page(p, all_products):
           <h1 id="product-title" style="margin:0">{esc(name)}</h1>
           <p id="product-summary" class="muted">{esc(summary)}</p>
           <div class="price-row">
-            <span class="sale" id="sale-price">{currency(sale)}</span>
-            <span class="old" id="old-price">{currency(full) if full != sale else ''}</span>
+            <span class="sale" id="sale-price">{currency(display_price)}</span>
+            <span class="old" id="old-price">{currency(sale) if lowest_live and sale != lowest_live else (currency(full) if full != sale else '')}</span>
           </div>
+          <div class="price-note">{('Lowest verified Australian store price' + (f' · checked {esc(str(live_checked)[:10])}' if live_checked else '')) if lowest_live else 'Reference price — live retailer price not verified yet'}</div>
           <div class="score-board" id="score-board">{score_board}</div>
           <div class="spec-row" id="headline-specs">{hl_chips}</div>
           <div id="quick-store-buttons" class="hero-actions">{store_pills}</div>
@@ -379,8 +404,9 @@ def build_page(p, all_products):
       </section>
       <section class="page-panel">
         <div class="badge gold">Compare merchants</div>
-        <h2 style="margin:14px 0 10px">Store paths</h2>
-        <div class="offer-head"><div>Store</div><div>How to use it</div><div>Open</div></div>
+        <h2 style="margin:14px 0 10px">Live store prices</h2>
+        <p class="muted" style="margin:0 0 12px">Only verified prices are shown. Unpriced stores remain available as search links.</p>
+        <div class="offer-head"><div>Store</div><div>Price</div><div>Checked</div><div>Open</div></div>
         <div id="offer-table" class="offer-table">{offer_rows}</div>
       </section>
     </div>
