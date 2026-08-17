@@ -187,7 +187,7 @@ async function handleEbaySearch(request, env) {
     const searchUrl = new URL("https://api.ebay.com/buy/browse/v1/item_summary/search");
     searchUrl.searchParams.set("q", q);
     searchUrl.searchParams.set("limit", "10");
-    searchUrl.searchParams.set("filter", "deliveryCountry:AU");
+    searchUrl.searchParams.set("filter", "deliveryCountry:AU,conditionIds:{1000},buyingOptions:{FIXED_PRICE}");
 
     const ebayRes = await fetch(searchUrl.toString(), {
       headers: {
@@ -204,14 +204,18 @@ async function handleEbaySearch(request, env) {
     }
 
     const products = Array.isArray(ebayData.itemSummaries)
-      ? ebayData.itemSummaries.map((item) => ({
-          title: item.title || "",
-          price: item.price?.value || "",
-          currency: item.price?.currency || "AUD",
-          image: item.image?.imageUrl || "",
-          link: item.itemWebUrl || "",
-          condition: item.condition || "",
-        }))
+      ? ebayData.itemSummaries
+          .filter((item) => item.conditionId === "1000" || String(item.condition || "").toLowerCase() === "new")
+          .filter((item) => Array.isArray(item.buyingOptions) && item.buyingOptions.includes("FIXED_PRICE"))
+          .map((item) => ({
+            title: item.title || "",
+            price: item.price?.value || "",
+            currency: item.price?.currency || "AUD",
+            image: item.image?.imageUrl || "",
+            link: item.itemWebUrl || "",
+            condition: item.condition || "New",
+            buyingOptions: item.buyingOptions || [],
+          }))
       : [];
 
     return new Response(JSON.stringify({ products, total: products.length, query: q }), { status: 200, headers });
