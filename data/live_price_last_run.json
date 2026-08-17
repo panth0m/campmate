@@ -1,15 +1,11 @@
 {
-  "scanned": 80,
+  "scanned": 10,
   "matched": 0,
   "failed": 0,
   "stores": [
-    "Snowys",
-    "BCF",
-    "Tentworld",
-    "Wild Earth",
-    "Anaconda"
+    "Snowys"
   ],
-  "limit": 80,
+  "limit": 10,
   "refresh_all": false,
-  "next_offset": 492
+  "next_offset": 502
 }
