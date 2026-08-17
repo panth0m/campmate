@@ -66,7 +66,7 @@ USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 
 JUNK_MATCH_TERMS = {
     "sticker", "decal", "spare", "replacement", "part", "repair kit", "cover only",
-    "bag only", "footprint", "groundsheet", "pole", "peg", "guy rope",
+    "groundsheet", "ground sheet", "bag only", "footprint", "pole", "peg", "guy rope",
 }
 
 
@@ -108,9 +108,19 @@ def scrape_bcf(query, limit=8):
     """BCF (Salesforce Commerce Cloud) server-renders a GTM analytics JSON payload per
     product card (name/brand/price/id) inside the Add-to-Cart button's data-gtm attribute.
     Pair it to the product's real URL by item id (not position - the two lists can be
-    different lengths when some cards lack an add-to-cart button, e.g. out of stock)."""
+    different lengths when some cards lack an add-to-cart button, e.g. out of stock).
+
+    BCF sometimes returns HTTP 403 to a plain request even though the same public search
+    result is available in an ordinary browser session. In that case we use the existing
+    plain Selenium driver as a conservative rendering fallback; no stealth, proxy, or
+    challenge-bypass behavior is used."""
     url = "https://www.bcf.com.au/search?q=" + urllib.parse.quote(query)
-    html = fetch(url)
+    try:
+        html = fetch(url)
+    except urllib.error.HTTPError as exc:
+        if exc.code == 403:
+            return scrape_bcf_browser(query, limit)
+        raise
     hrefs = BCF_HREF_PATTERN.findall(html)
     href_by_id = {}
     for href in hrefs:
@@ -132,6 +142,76 @@ def scrape_bcf(query, limit=8):
         out.append({"name": str(item.get("item_name") or ""), "price": price, "url": "https://www.bcf.com.au" + href})
         if len(out) >= limit:
             break
+    return out
+
+
+def scrape_bcf_browser(query, limit=8):
+    """Read BCF's publicly rendered search/PDP view with a normal headless browser.
+    The parser accepts both a search card and the single-result PDP layout observed on
+    BCF, and leaves exact-product validation to find_best_match()."""
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.support.ui import WebDriverWait
+    from selenium.webdriver.support import expected_conditions as EC
+
+    driver = _get_shared_driver()
+    driver.get("https://www.bcf.com.au/search?q=" + urllib.parse.quote(query))
+    try:
+        WebDriverWait(driver, 20).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, "#pdpMain, [data-gtm*='add_to_cart'], a.name-link"))
+        )
+    except Exception:
+        return []
+
+    out = []
+    # Single-result/product-detail layout.
+    pdp = driver.find_elements(By.CSS_SELECTOR, "#pdpMain")
+    if pdp:
+        root = pdp[0]
+        try:
+            name = root.find_element(By.CSS_SELECTOR, "h1").text.strip()
+        except Exception:
+            name = ""
+        price_text = root.text
+        price_match = re.search(r"\$([\d,]+(?:\.\d{2})?)", price_text)
+        href = driver.current_url
+        if name and price_match and href.startswith("https://www.bcf.com.au/"):
+            out.append({
+                "name": name,
+                "price": float(price_match.group(1).replace(",", "")),
+                "url": href,
+            })
+
+    # Search-card layout, when BCF does not redirect to a PDP.
+    if len(out) < limit:
+        cards = driver.find_elements(By.CSS_SELECTOR, "[data-gtm*='add_to_cart']")
+        for card in cards[:limit]:
+            try:
+                item_name = card.get_attribute("data-gtm") or ""
+                data = json.loads(urllib.parse.unquote(item_name))
+                item = data["ecommerce"]["items"][0]
+                price = float(item.get("price"))
+            except Exception:
+                continue
+            if price <= 0:
+                continue
+            parent = card
+            href = ""
+            for _ in range(5):
+                links = parent.find_elements(By.CSS_SELECTOR, "a[href]")
+                if links:
+                    href = links[0].get_attribute("href") or ""
+                    if href:
+                        break
+                try:
+                    parent = parent.find_element(By.XPATH, "..")
+                except Exception:
+                    break
+            if href.startswith("/"):
+                href = "https://www.bcf.com.au" + href
+            if href.startswith("https://www.bcf.com.au/"):
+                out.append({"name": str(item.get("item_name") or ""), "price": price, "url": href})
+            if len(out) >= limit:
+                break
     return out
 
 
