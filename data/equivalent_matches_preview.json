@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-08-17T00:00:00Z",
+  "matches": [
+    {
+      "retailer": "snowys",
+      "listing": {
+        "title": "Coleman 3 Burner Eventemp Stove",
+        "price": "249.00",
+        "condition": "New (retailer stock)",
+        "url": "/3-burner-eventemp-stove",
+        "image": "https://cdn.snowys.com.au/content/images/thumbs/1238674_3-burner-eventemp-stove_250.jpeg"
+      },
+      "productSlug": "coleman-2-burner-classic-propane-stove",
+      "productName": "Coleman 2-Burner Classic Propane Stove",
+      "matchType": "equivalent",
+      "score": 1.0,
+      "evidence": [
+        "burner",
+        "coleman"
+      ]
+    },
+    {
+      "retailer": "snowys",
+      "listing": {
+        "title": "Trangia 27−7 Small UL HA Aluminium Stove",
+        "price": "179.90",
+        "condition": "New (retailer stock)",
+        "url": "/27-7-small-ul-ha-aluminium-stove",
+        "image": "https://cdn.snowys.com.au/content/images/thumbs/1269009_27-7-small-ul-ha-aluminium-stove_250.jpeg"
+      },
+      "productSlug": "trangia-spirit-burner-b25-by-trangia",
+      "productName": "Spirit Burner B25 by TRANGIA",
+      "matchType": "equivalent",
+      "score": 0.761,
+      "evidence": [
+        "27",
+        "small",
+        "trangia"
+      ]
+    }
+  ]
+}

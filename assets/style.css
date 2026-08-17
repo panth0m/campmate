@@ -164,3 +164,7 @@ h1,h2,h3{font-family:var(--font-display);letter-spacing:-.005em;font-weight:700}
 @media(max-width:900px){.dw-row-item{grid-template-columns:100px 1fr 160px}.dw-row-info{padding:10px 10px}.dw-row-price{padding:10px 10px}.dw-product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:640px){.dw-row-item{grid-template-columns:80px 1fr;grid-template-rows:auto auto}.dw-row-price{grid-column:1/-1;border-left:none;border-top:1px solid var(--line);grid-template-columns:auto auto 1fr;align-items:center;padding:8px 10px;gap:8px}.dw-row-price .dw-row-stores{display:none}.dw-row-compare-btn{display:none}.dw-product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}}
 /* ====== END DANAWA FULL-WIDTH ====== */
+
+/* Equivalent alternative price rows: visually separate comparable products from exact live-store matches. */
+.equivalent-section{margin-top:18px;padding-top:16px;border-top:1px dashed var(--line);background:linear-gradient(180deg,#fffdf5 0%,#fff 100%)}.equivalent-section h3{margin:10px 0 6px;font-size:1rem}.equivalent-section .offer-row{background:#fffaf0}.equivalent-label{display:inline-flex;margin-left:7px;padding:3px 6px;border-radius:999px;background:#fff0bf;color:#8a5a00;font-size:.64rem;font-weight:800}.equivalent-offer small{display:block;margin-top:4px;line-height:1.35}.equivalent-section .offer-price{color:#8a5a00}
+@media (max-width:680px){.equivalent-section .offer-row{align-items:start}.equivalent-label{display:block;width:max-content;margin:4px 0 0}.equivalent-offer small{font-size:.7rem}}

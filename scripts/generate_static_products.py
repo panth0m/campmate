@@ -5,6 +5,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 PRODUCTS_DIR = ROOT / "products"
 DATA_FILE = ROOT / "data" / "products.json"
+EQUIV_FILE = ROOT / "data" / "equivalent_matches_preview.json"
+EQUIV_INDEX = {}
 VER = "20260316"
 BASE_URL = "https://campmate.kangseyoung7.workers.dev"
 
@@ -276,6 +278,23 @@ def build_page(p, all_products):
         offer_rows += f'<div class="offer-row"><div><strong>{sname}</strong>{best}</div><div>{price_cell}</div><div class="muted">{checked}</div><div><a class="btn secondary small" target="_blank" rel="noopener sponsored" href="{surl}">Open</a></div></div>'
         store_pills += f'<a class="store-pill small secondary" target="_blank" rel="noopener sponsored" href="{surl}">{sname}</a>'
 
+    equivalent_rows = EQUIV_INDEX.get(slug, [])
+    equivalent_offer_rows = ''
+    for item in equivalent_rows:
+        listing = item.get('listing') or {}
+        retailer = esc(item.get('retailer') or 'Retailer')
+        listing_title = esc(listing.get('title') or 'Equivalent alternative')
+        match_label = 'Equivalent alternative' if item.get('matchType') == 'equivalent' else 'Exact match'
+        raw_market_url = str(listing.get('url') or '#')
+        if raw_market_url.startswith('/') and str(item.get('retailer')).lower() == 'snowys':
+            raw_market_url = 'https://www.snowys.com.au' + raw_market_url
+        price_text = currency(listing.get('price')) if listing.get('price') else 'Price not verified'
+        checked = esc(str(listing.get('priceCheckedAt') or '2026-08-17')[:10])
+        equivalent_offer_rows += f'<div class="offer-row equivalent-offer"><div><strong>{retailer}</strong><span class="equivalent-label">{esc(match_label)}</span><small class="muted">{listing_title}</small></div><div><strong class="offer-price">{price_text}</strong></div><div class="muted">{checked}</div><div><a class="btn secondary small" target="_blank" rel="noopener sponsored" href="{esc(raw_market_url)}">Open</a></div></div>'
+    equivalent_section = ''
+    if equivalent_offer_rows:
+        equivalent_section = f'<div class="equivalent-section"><div class="badge">Comparable alternatives</div><h3>Similar products at verified prices</h3><p class="muted">These are not the exact same model. They are grouped by category and compatible use or core specifications.</p><div class="offer-head"><div>Retailer / match</div><div>Price</div><div>Checked</div><div>Open</div></div><div class="offer-table">{equivalent_offer_rows}</div></div>'
+
     hl_chips = ''.join(f'<span class="spec-chip">{esc(h)}</span>' for h in highlights)
     save_html = f'<strong>{saving}%</strong><span class="tiny">Saving vs full price</span>' if saving else '<strong>—</strong><span class="tiny">Saving vs full price</span>'
     score_board = (
@@ -408,6 +427,7 @@ def build_page(p, all_products):
         <p class="muted" style="margin:0 0 12px">Only verified prices are shown. Unpriced stores remain available as search links.</p>
         <div class="offer-head"><div>Store</div><div>Price</div><div>Checked</div><div>Open</div></div>
         <div id="offer-table" class="offer-table">{offer_rows}</div>
+        {equivalent_section}
       </section>
     </div>
 
@@ -443,8 +463,13 @@ def build_page(p, all_products):
 
 
 def main():
+    global EQUIV_INDEX
     PRODUCTS_DIR.mkdir(exist_ok=True)
     products = json.load(open(DATA_FILE, 'r', encoding='utf-8'))
+    if EQUIV_FILE.exists():
+        equiv = json.load(open(EQUIV_FILE, 'r', encoding='utf-8'))
+        for row in equiv.get('matches', []):
+            EQUIV_INDEX.setdefault(row.get('productSlug'), []).append(row)
     for product in products:
         out = PRODUCTS_DIR / f"{product['slug']}.html"
         out.write_text(build_page(product, products), encoding='utf-8')
