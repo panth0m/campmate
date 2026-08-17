@@ -439,3 +439,45 @@ async function loadEbayImagesForCards(products) {
     await new Promise(r => setTimeout(r, 180));
   }
 }
+
+// Live eBay AU price contract: only New + Fixed Price listings may populate the
+// comparison row; otherwise the safe static/search-link state remains visible.
+async function setupLiveEbayPrice(){
+  const table = document.querySelector('#offer-table');
+  if (!table) return;
+  const heading = document.querySelector('main h1, h1');
+  const query = heading?.textContent?.trim();
+  const ebayRow = [...table.querySelectorAll('.offer-row')].find(row => /eBay AU/i.test(row.textContent || ''));
+  if (!query || !ebayRow || !ebayRow.children[1] || !ebayRow.children[2]) return;
+  const link = ebayRow.querySelector('a[href]');
+  try {
+    const response = await fetch(`/api/ebay-search?q=${encodeURIComponent(query)}&limit=20`, { headers: { Accept: 'application/json' } });
+    if (!response.ok) return;
+    const data = await response.json();
+    const listings = (Array.isArray(data.products) ? data.products : [])
+      .filter(item => String(item.condition || '').toLowerCase() === 'new')
+      .filter(item => Array.isArray(item.buyingOptions) && item.buyingOptions.includes('FIXED_PRICE'))
+      .filter(item => Number.isFinite(Number(item.price)) && Number(item.price) > 0)
+      .sort((a, b) => Number(a.price) - Number(b.price));
+    const best = listings[0];
+    if (!best) return;
+    ebayRow.children[1].innerHTML = `<strong>${currency(best.price)}</strong><span class="soft-badge" style="margin-left:8px">Live · New · Buy It Now</span>`;
+    ebayRow.children[2].textContent = 'Just now';
+    if (link) {
+      link.href = best.link || link.href;
+      link.textContent = 'Buy on eBay';
+    }
+    ebayRow.dataset.livePrice = String(best.price);
+    ebayRow.dataset.condition = 'New';
+    ebayRow.dataset.buyingOption = 'FIXED_PRICE';
+    ebayRow.classList.add('live-offer', 'lowest-offer');
+  } catch (error) {
+    console.warn('Live eBay price unavailable', error);
+  }
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', setupLiveEbayPrice, { once: true });
+} else {
+  setupLiveEbayPrice();
+}
