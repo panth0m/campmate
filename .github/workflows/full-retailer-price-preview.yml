@@ -1,0 +1,93 @@
+name: Full Retailer Price Preview
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "상품 수 (기본 994)"
+        required: false
+        default: "994"
+      branch:
+        description: "결과를 반영할 미리보기 브랜치"
+        required: false
+        default: "price-preview-20260819"
+
+concurrency:
+  group: full-retailer-price-preview
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  scrape:
+    strategy:
+      fail-fast: false
+      matrix:
+        store: [Snowys, BCF, Tentworld, "Wild Earth", Anaconda]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout preview branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.branch || 'price-preview-20260819' }}
+          fetch-depth: 1
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Set up Chrome
+        uses: browser-actions/setup-chrome@v1
+      - name: Install Selenium
+        run: pip install selenium
+      - name: Scrape one retailer
+        env:
+          STORE: ${{ matrix.store }}
+          LIMIT: ${{ inputs.limit || '994' }}
+        run: |
+          python scripts/scrape_live_prices.py --limit "$LIMIT" --store "$STORE"
+      - name: Upload retailer result
+        uses: actions/upload-artifact@v4
+        with:
+          name: retailer-${{ matrix.store }}
+          path: |
+            data/products_source.json
+            data/live_price_last_run.json
+            data/live_price_scan_state.json
+          retention-days: 7
+
+  merge:
+    needs: scrape
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout preview branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.branch || 'price-preview-20260819' }}
+          fetch-depth: 0
+      - name: Download retailer results
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+          pattern: retailer-*
+          merge-multiple: false
+      - name: Merge verified prices and rebuild preview
+        run: |
+          python scripts/merge_retailer_preview_artifacts.py
+          python scripts/build_products_json.py
+          python scripts/generate_static_catalog_pages.py
+          python scripts/generate_static_products.py
+          python scripts/rebuild_sitemaps.py
+          python scripts/embed_static_text_routes.py
+      - name: Commit preview only
+        run: |
+          git config user.name "CampMate Preview Bot"
+          git config user.email "bot@campmate.au"
+          git add data/products_source.json data/products.json data/live_price_last_run.json data/live_price_scan_state.json products/ tents.html chairs.html coolers.html stoves.html sleeping-bags.html lanterns.html categories.html popular.html sitemap.xml sitemap-main.xml sitemap-guides.xml sitemap-products.xml worker.js
+          if git diff --cached --quiet; then
+            echo "No verified retailer price changes"
+            exit 0
+          fi
+          git commit -m "Build full retailer price preview"
+          git push origin HEAD:${{ inputs.branch || 'price-preview-20260819' }}
