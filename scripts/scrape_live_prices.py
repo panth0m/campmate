@@ -234,11 +234,17 @@ def _get_shared_driver():
         from selenium import webdriver
         from selenium.webdriver.chrome.options import Options
         opts = Options()
+        # Public retailer pages can stall indefinitely when a JS challenge or queue page
+        # never finishes loading. Use eager navigation and bounded timeouts so one product
+        # cannot block the rotating catalog scan forever.
+        opts.page_load_strategy = "eager"
         opts.add_argument("--headless=new")
         opts.add_argument("--no-sandbox")
         opts.add_argument("--disable-dev-shm-usage")
         opts.add_argument(f"--user-agent={USER_AGENT}")
         _shared_driver = webdriver.Chrome(options=opts)
+        _shared_driver.set_page_load_timeout(30)
+        _shared_driver.set_script_timeout(30)
     return _shared_driver
 
 
