@@ -451,7 +451,7 @@ async function loadEbayImagesForCards(products) {
 // Category rows show verified store prices as links; live eBay may replace the
 // eBay row and re-rank the lowest verified offer without inventing prices.
 async function setupCategoryLiveEbayPrices(){
-  const rows = [...document.querySelectorAll('.dw-row-item[data-product-query]')];
+  const rows = [...document.querySelectorAll('.dw-row-item[data-product-query]')].slice(0, 24);
   for (const row of rows) {
     const query = row.dataset.productQuery;
     const ebayStore = [...row.querySelectorAll('.dw-row-store')].find(item => /eBay AU/i.test(item.textContent || ''));
@@ -532,12 +532,36 @@ async function setupLiveEbayPrice(){
   }
 }
 
+function observeCategoryLivePrices(){
+  const target = document.querySelector('#category-results');
+  if (!target || typeof MutationObserver === 'undefined') return;
+  let running = false;
+  const observer = new MutationObserver(() => {
+    if (running || !target.querySelector('.dw-row-item[data-product-query]')) return;
+    running = true;
+    observer.disconnect();
+    setupCategoryLiveEbayPrices().finally(() => {
+      running = false;
+      observer.observe(target, { childList: true, subtree: true });
+    });
+  });
+  observer.observe(target, { childList: true, subtree: true });
+  if (target.querySelector('.dw-row-item[data-product-query]')) {
+    running = true;
+    observer.disconnect();
+    setupCategoryLiveEbayPrices().finally(() => {
+      running = false;
+      observer.observe(target, { childList: true, subtree: true });
+    });
+  }
+}
+
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', () => {
     setupLiveEbayPrice();
-    setupCategoryLiveEbayPrices();
+    observeCategoryLivePrices();
   }, { once: true });
 } else {
   setupLiveEbayPrice();
-  setupCategoryLiveEbayPrices();
+  observeCategoryLivePrices();
 }
