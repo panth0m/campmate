@@ -204,6 +204,9 @@ function setupSearchForm(){
   });
 }
 
+const ACCESSORY_LISTING_PATTERN = /ground\s*sheet|seat\s*cover|chair\s*cover|replacement|spare|repair|parts?\s*only|foot\s*rest|cup\s*holder|padded\s*seat|carry\s*bag|storage\s*bag|case\b|cushion|fabric\s*seat/i;
+function isAccessoryListing(item) { return ACCESSORY_LISTING_PATTERN.test(String(item?.title || '')); }
+
 // Live eBay AU price contract: only New + Fixed Price listings may populate the
 // comparison row; otherwise the safe static/search-link state remains visible.
 async function setupLiveEbayPrice(){
@@ -222,6 +225,7 @@ async function setupLiveEbayPrice(){
       .filter(item => String(item.condition || '').toLowerCase() === 'new')
       .filter(item => Array.isArray(item.buyingOptions) && item.buyingOptions.includes('FIXED_PRICE'))
       .filter(item => Number.isFinite(Number(item.price)) && Number(item.price) > 0)
+      .filter(item => !isAccessoryListing(item))
       .sort((a, b) => Number(a.price) - Number(b.price));
     const best = listings[0];
     if (!best) return;

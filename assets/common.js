@@ -245,6 +245,8 @@ function savingsPercent(product) {
   return Math.round((price - sale) / price * 100);
 }
 const JUNK_LISTING_PATTERN = /faulty|not\s*working|doesn'?t\s*work|no\s*power|spares?\s*(or|and)?\s*repair|for\s*parts|parts\s*only|broken|damaged|cracked\s*screen|dead\s*pixel|water\s*damage|as[\s-]is\b/i;
+const ACCESSORY_LISTING_PATTERN = /ground\s*sheet|seat\s*cover|chair\s*cover|replacement|spare|repair|parts?\s*only|foot\s*rest|cup\s*holder|padded\s*seat|carry\s*bag|storage\s*bag|case\b|cushion|fabric\s*seat/i;
+function isAccessoryListing(item) { return ACCESSORY_LISTING_PATTERN.test(String(item?.title || '')); }
 function isJunkListing(product) {
   return JUNK_LISTING_PATTERN.test(`${product.name || ''} ${product.summary || ''}`);
 }
@@ -464,6 +466,7 @@ async function setupCategoryLiveEbayPrices(){
         .filter(item => String(item.condition || '').toLowerCase() === 'new')
         .filter(item => Array.isArray(item.buyingOptions) && item.buyingOptions.includes('FIXED_PRICE'))
         .filter(item => Number.isFinite(Number(item.price)) && Number(item.price) > 0)
+        .filter(item => !isAccessoryListing(item))
         .sort((a, b) => Number(a.price) - Number(b.price));
       const bestEbay = listings[0];
       if (!bestEbay?.link) continue;
@@ -514,6 +517,7 @@ async function setupLiveEbayPrice(){
       .filter(item => String(item.condition || '').toLowerCase() === 'new')
       .filter(item => Array.isArray(item.buyingOptions) && item.buyingOptions.includes('FIXED_PRICE'))
       .filter(item => Number.isFinite(Number(item.price)) && Number(item.price) > 0)
+        .filter(item => !isAccessoryListing(item))
       .sort((a, b) => Number(a.price) - Number(b.price));
     const best = listings[0];
     if (!best) return;

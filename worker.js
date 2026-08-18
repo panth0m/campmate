@@ -157,6 +157,10 @@ function corsHeaders() {
   };
 }
 
+function isAccessoryListingTitle(title) {
+  return /ground\s*sheet|seat\s*cover|chair\s*cover|replacement|spare|repair|parts?\s*only|foot\s*rest|cup\s*holder|padded\s*seat|carry\s*bag|storage\s*bag|case\b|cushion|fabric\s*seat/i.test(String(title || ''));
+}
+
 async function handleEbaySearch(request, env) {
   const headers = corsHeaders();
   try {
@@ -207,6 +211,7 @@ async function handleEbaySearch(request, env) {
       ? ebayData.itemSummaries
           .filter((item) => item.conditionId === "1000" || String(item.condition || "").toLowerCase() === "new")
           .filter((item) => Array.isArray(item.buyingOptions) && item.buyingOptions.includes("FIXED_PRICE"))
+          .filter((item) => !isAccessoryListingTitle(item.title))
           .map((item) => ({
             title: item.title || "",
             price: item.price?.value || "",
