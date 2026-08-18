@@ -27,16 +27,28 @@ def currency(n):
         return 'A$0'
 
 
+def store_price(store):
+    try:
+        value = float(store.get('price') or 0)
+        return value if value > 0 else 0
+    except Exception:
+        return 0
+
+
 def live_price(product):
-    prices = []
-    for store in product.get('stores') or []:
-        try:
-            price = float(store.get('price') or 0)
-        except Exception:
-            price = 0
-        if price > 0:
-            prices.append(price)
+    prices = [store_price(store) for store in product.get('stores') or []]
+    prices = [price for price in prices if price > 0]
     return min(prices) if prices else 0
+
+
+def lowest_store(product):
+    verified = [store for store in product.get('stores') or [] if store_price(store) > 0]
+    return min(verified, key=store_price) if verified else None
+
+
+def store_price_label(store):
+    price = store_price(store)
+    return currency(price) if price else 'Price not verified'
 
 
 def review_score(p):
@@ -143,9 +155,20 @@ def stars_html(rating):
 
 def category_product_row(product):
     stores = []
+    best = lowest_store(product)
+    best_name = str(best.get('name') or '') if best else ''
     for store in (product.get('stores') or [])[:3]:
+        name = str(store.get('name') or '')
+        price = store_price(store)
+        url = build_affiliate_url(name, store.get('matchedUrl') or store.get('url'))
+        is_best = price > 0 and best and abs(price - store_price(best)) < 0.005
+        price_markup = (
+            f'<a class="store-price-link" data-store="{esc(name)}" data-price="{price:.2f}" target="_blank" rel="noopener sponsored" href="{esc(url)}">{store_price_label(store)} ↗</a>'
+            if price > 0 and url != '#'
+            else f'<span class="store-price-unverified" data-store="{esc(name)}">{store_price_label(store)}</span>'
+        )
         stores.append(
-            f'<div class="dw-row-store"><span>{esc(store.get("name"))}</span><a target="_blank" rel="noopener sponsored" href="{esc(build_affiliate_url(store.get("name"), store.get("url")))}">Open ↗</a></div>'
+            f'<div class="dw-row-store{" is-lowest" if is_best else ""}"><span>{esc(name)}</span>{price_markup}</div>'
         )
     highlights = ''.join(f'<span class="dw-row-hl">{esc(h)}</span>' for h in infer_specs(product))
     meta = []
@@ -153,7 +176,7 @@ def category_product_row(product):
         meta.append(f'<span class="stars">{stars_html(product.get("rating"))}</span> {float(product.get("rating") or 0):.1f}')
     if product.get('reviews'):
         meta.append(f'<span>{int(product.get("reviews") or 0)} reviews</span>')
-    return f'''<article class="dw-row-item">
+    return f'''<article class="dw-row-item" data-product-query="{esc(product.get('name'))}">
     <a class="dw-row-img" href="{product_link(product)}">
       <img src="{esc(normalize_image(product))}?v={VER}" alt="{esc(product.get('name'))}" loading="lazy" data-category="{esc(product.get('category'))}">
     </a>
@@ -168,8 +191,8 @@ def category_product_row(product):
       <div class="dw-row-meta">{' '.join(meta)}</div>
     </div>
     <div class="dw-row-price">
-      <div class="sale-price">{currency(live_price(product) or product.get('salePrice') or product.get('price'))}</div>
-      <div class="price-source">{('Lowest verified store price' if live_price(product) else 'Reference price')}</div>
+      {f'<a class="sale-price lowest-price-link" target="_blank" rel="noopener sponsored" href="{esc(build_affiliate_url(best_name, best.get("matchedUrl") or best.get("url")))}">{currency(store_price(best))} ↗</a>' if best and (best.get("matchedUrl") or best.get("url")) else f'<div class="sale-price">{currency(live_price(product) or product.get("salePrice") or product.get("price"))}</div>'}
+      <div class="price-source">{(f'Lowest verified price · {esc(best_name)}' if best else 'Reference price')}</div>
       {f'<div class="orig-price">{currency(product.get("salePrice") or product.get("price"))}</div>' if live_price(product) and product.get('salePrice') and live_price(product) != product.get('salePrice') else ''}
       <div class="dw-row-stores">{''.join(stores)}</div>
       <a class="dw-row-compare-btn" href="{product_link(product)}">Compare →</a>

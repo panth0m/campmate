@@ -440,6 +440,54 @@ async function loadEbayImagesForCards(products) {
   }
 }
 
+// Category rows show verified store prices as links; live eBay may replace the
+// eBay row and re-rank the lowest verified offer without inventing prices.
+async function setupCategoryLiveEbayPrices(){
+  const rows = [...document.querySelectorAll('.dw-row-item[data-product-query]')];
+  for (const row of rows) {
+    const query = row.dataset.productQuery;
+    const ebayStore = [...row.querySelectorAll('.dw-row-store')].find(item => /eBay AU/i.test(item.textContent || ''));
+    if (!query || !ebayStore) continue;
+    try {
+      const response = await fetch(`/api/ebay-search?q=${encodeURIComponent(query)}&limit=20`, { headers: { Accept: 'application/json' } });
+      if (!response.ok) continue;
+      const data = await response.json();
+      const listings = (Array.isArray(data.products) ? data.products : [])
+        .filter(item => String(item.condition || '').toLowerCase() === 'new')
+        .filter(item => Array.isArray(item.buyingOptions) && item.buyingOptions.includes('FIXED_PRICE'))
+        .filter(item => Number.isFinite(Number(item.price)) && Number(item.price) > 0)
+        .sort((a, b) => Number(a.price) - Number(b.price));
+      const bestEbay = listings[0];
+      if (!bestEbay?.link) continue;
+      ebayStore.classList.add('live-offer');
+      ebayStore.classList.remove('is-lowest');
+      ebayStore.innerHTML = `<span>eBay AU</span><a class="store-price-link" data-store="eBay AU" data-price="${Number(bestEbay.price).toFixed(2)}" target="_blank" rel="noopener sponsored" href="${bestEbay.link}">${currency(bestEbay.price)} ↗</a>`;
+      const offers = [...row.querySelectorAll('.store-price-link')]
+        .map(link => ({ link, price: Number(link.dataset.price) }))
+        .filter(item => Number.isFinite(item.price) && item.price > 0)
+        .sort((a, b) => a.price - b.price);
+      const lowest = offers[0];
+      row.querySelectorAll('.dw-row-store').forEach(store => store.classList.remove('is-lowest'));
+      if (lowest) {
+        lowest.link.closest('.dw-row-store')?.classList.add('is-lowest');
+        const price = row.querySelector('.lowest-price-link') || row.querySelector('.sale-price');
+        if (price) {
+          price.textContent = `${currency(lowest.price)} ↗`;
+          price.classList.add('lowest-price-link');
+          price.href = lowest.link.href;
+          price.target = '_blank';
+          price.rel = 'noopener sponsored';
+          const source = row.querySelector('.price-source');
+          if (source) source.textContent = `Lowest verified price · ${lowest.link.dataset.store || lowest.link.closest('.dw-row-store')?.querySelector('span')?.textContent || 'store'}`;
+        }
+      }
+    } catch (error) {
+      console.warn('Category eBay price unavailable', error);
+    }
+    await new Promise(resolve => setTimeout(resolve, 120));
+  }
+}
+
 // Live eBay AU price contract: only New + Fixed Price listings may populate the
 // comparison row; otherwise the safe static/search-link state remains visible.
 async function setupLiveEbayPrice(){
@@ -477,7 +525,11 @@ async function setupLiveEbayPrice(){
 }
 
 if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', setupLiveEbayPrice, { once: true });
+  document.addEventListener('DOMContentLoaded', () => {
+    setupLiveEbayPrice();
+    setupCategoryLiveEbayPrices();
+  }, { once: true });
 } else {
   setupLiveEbayPrice();
+  setupCategoryLiveEbayPrices();
 }

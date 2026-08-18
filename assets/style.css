@@ -145,6 +145,12 @@ h1,h2,h3{font-family:var(--font-display);letter-spacing:-.005em;font-weight:700}
 .dw-row-store span{font-size:.76rem;font-weight:600;color:#444}
 .dw-row-store a{display:inline-flex;padding:4px 10px;border-radius:4px;background:#fff;border:1px solid var(--accent);color:var(--accent2);font-size:.74rem;font-weight:700;text-decoration:none;transition:background .14s;white-space:nowrap}
 .dw-row-store a:hover{background:#eaf6ee}
+.dw-row-store.is-lowest{border-color:#159447;background:#effaf2}
+.dw-row-store.is-lowest .store-price-link{color:#087b3d;border-color:#159447}
+.store-price-link{font-variant-numeric:tabular-nums}
+.store-price-unverified{color:var(--muted);font-size:.72rem;font-weight:600;white-space:nowrap}
+.lowest-price-link{color:var(--accent2);text-decoration:none}
+.lowest-price-link:hover{text-decoration:underline}
 .dw-row-compare-btn{display:flex;padding:8px 0;border-radius:4px;background:var(--accent);color:#fff;font-size:.82rem;font-weight:700;text-decoration:none;text-align:center;justify-content:center;transition:background .14s}
 .dw-row-compare-btn:hover{background:var(--accent2)}
 .dw-product-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
