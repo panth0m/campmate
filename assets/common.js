@@ -523,6 +523,19 @@ async function setupLiveEbayPrice(){
       link.href = best.link || link.href;
       link.textContent = 'Buy on eBay';
     }
+    const summaryPrice = document.querySelector('#sale-price');
+    if (summaryPrice) {
+      const summaryLink = document.createElement('a');
+      summaryLink.id = 'sale-price';
+      summaryLink.className = `${summaryPrice.className || 'sale'} live-lowest-price`;
+      summaryLink.href = best.link || link?.href || '#';
+      summaryLink.target = '_blank';
+      summaryLink.rel = 'noopener sponsored';
+      summaryLink.textContent = currency(best.price);
+      summaryPrice.replaceWith(summaryLink);
+    }
+    const summaryNote = document.querySelector('.price-note');
+    if (summaryNote) summaryNote.textContent = 'Lowest verified price · eBay AU · New · Buy It Now · Just now';
     ebayRow.dataset.livePrice = String(best.price);
     ebayRow.dataset.condition = 'New';
     ebayRow.dataset.buyingOption = 'FIXED_PRICE';
