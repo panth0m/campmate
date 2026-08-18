@@ -280,7 +280,7 @@ function normalizeStores(product) {
     seen.add(key);
     // A live-matched price (see scripts/scrape_live_prices.py) points at the specific
     // product page; otherwise fall back to the safe generic search link.
-    const hasLivePrice = typeof store.price === 'number' && store.price > 0;
+    const hasLivePrice = Number.isFinite(Number(store.price)) && Number(store.price) > 0;
     const targetUrl = hasLivePrice && store.matchedUrl ? store.matchedUrl : (store.url || '#');
     const url = buildAffiliateUrl(name, targetUrl, product.name || '');
     const lower = name.toLowerCase();
@@ -288,7 +288,7 @@ function normalizeStores(product) {
     if (/ebay/.test(lower)) note = 'Marketplace listings';
     if (/amazon/.test(lower)) note = 'Store search';
     if (/bcf|anaconda|snowys|tentworld|wild earth/.test(lower)) note = 'Retail search';
-    return { name, url, note, price: hasLivePrice ? store.price : null };
+    return { name, url, note, price: hasLivePrice ? Number(store.price) : null, matchedUrl: store.matchedUrl || null };
   }).filter(Boolean);
   return list;
 }
@@ -331,13 +331,21 @@ function compareRow(product) {
   const specs = getPrimarySpecs(product).map(v => `<span class="dw-row-spec">${escapeHtml(v)}</span>`).join('');
   const highlights = (product.highlights || []).slice(0,3).map(v => `<span class="dw-row-hl">${escapeHtml(v)}</span>`).join('');
   const saving = savingsPercent(product);
-  const stores = normalizeStores(product).slice(0, 3).map(store =>
-    `<div class="dw-row-store"><span>${escapeHtml(store.name)}</span><a target="_blank" rel="noopener sponsored" href="${escapeAttribute(store.url)}">Open ↗</a></div>`
-  ).join('');
+  const stores = normalizeStores(product).slice(0, 3);
+  const verified = stores.filter(store => Number(store.price) > 0).sort((a, b) => Number(a.price) - Number(b.price));
+  const lowest = verified[0] || null;
+  const storeMarkup = stores.map(store => {
+    const price = Number(store.price);
+    const isLowest = lowest && price === Number(lowest.price);
+    const value = Number.isFinite(price) && price > 0
+      ? `<a class="store-price-link" data-store="${escapeAttribute(store.name)}" data-price="${price.toFixed(2)}" target="_blank" rel="noopener sponsored" href="${escapeAttribute(store.url)}">${currency(price)} ↗</a>`
+      : `<span class="store-price-unverified">Price not verified</span>`;
+    return `<div class="dw-row-store${isLowest ? ' is-lowest' : ''}"><span>${escapeHtml(store.name)}</span>${value}</div>`;
+  }).join('');
   const ratingVal = Number(product.rating) || 0;
   const starsHtml = ratingVal ? `<span class="stars">${'★'.repeat(Math.round(ratingVal))}${'☆'.repeat(5-Math.round(ratingVal))}</span> ${ratingVal.toFixed(1)}` : '';
   return `
-  <article class="dw-row-item">
+  <article class="dw-row-item" data-product-query="${escapeAttribute(product.name)}">
     <a class="dw-row-img" href="${productLink(product)}">
       <img src="${normalizeImage(product)}" alt="${escapeHtml(product.name)}" loading="lazy" data-category="${product.category}">
     </a>
@@ -356,9 +364,9 @@ function compareRow(product) {
       </div>
     </div>
     <div class="dw-row-price">
-      <div class="sale-price">${currency(product.salePrice)}</div>
+      ${lowest?.url && lowest.url !== '#' ? `<a class="sale-price lowest-price-link" target="_blank" rel="noopener sponsored" href="${escapeAttribute(lowest.url)}">${currency(lowest.price)} ↗</a><div class="price-source">Lowest verified price · ${escapeHtml(lowest.name)}</div>` : `<div class="sale-price">${currency(product.salePrice)}</div><div class="price-source">Reference price</div>`}
       ${product.price && product.price !== product.salePrice ? `<div class="orig-price">${currency(product.price)}</div>` : ''}
-      <div class="dw-row-stores">${stores}</div>
+      <div class="dw-row-stores">${storeMarkup}</div>
       <a class="dw-row-compare-btn" href="${productLink(product)}">Compare →</a>
     </div>
   </article>`;
