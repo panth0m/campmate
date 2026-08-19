@@ -186,13 +186,13 @@ def parse_detail_page(html, url):
                 node = soup.select_one(selector)
                 if not node:
                     continue
-                match = re.search(r"(?:A\\$|\\$)\\s*([0-9][0-9,]*(?:\\.[0-9]{1,2})?)", node.get_text(" ", strip=True))
+                match = re.search(r"(?:A\$|\$)\s*([0-9][0-9,]*(?:\.[0-9]{1,2})?)", node.get_text(" ", strip=True))
                 if match:
                     price = float(match.group(1).replace(",", ""))
                     break
     if not soup:
         # Standard-library fallback for clean GitHub runners where bs4 is unavailable.
-        scripts = re.findall(r'<script[^>]+type=["\\\']application/ld\\+json["\\\'][^>]*>(.*?)</script>', html, re.I | re.S)
+        scripts = re.findall(r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>', html, re.I | re.S)
         for raw in scripts:
             try:
                 payload = json.loads(html_lib.unescape(raw.strip()))
@@ -228,7 +228,7 @@ def parse_detail_page(html, url):
             h1 = re.search(r'<h1[^>]*>(.*?)</h1>', html, re.I | re.S)
             title = re.sub(r'<[^>]+>', ' ', h1.group(1)).strip() if h1 else ''
         if price is None:
-            meta = re.search(r'<meta[^>]+itemprop=["\\\']price["\\\'][^>]+content=["\\\']([^"\\\']+)', html, re.I)
+            meta = re.search(r'<meta[^>]+itemprop=["\']price["\'][^>]+content=["\']([^"\']+)', html, re.I)
             if meta:
                 try:
                     price = float(meta.group(1).replace(',', ''))
