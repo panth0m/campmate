@@ -431,6 +431,11 @@ def scrape_bcf(query, limit=8):
         out.append({"name": str(item.get("item_name") or ""), "price": price, "url": "https://www.bcf.com.au" + href})
         if len(out) >= limit:
             break
+    if not out:
+        try:
+            return scrape_bcf_browser(query, limit)
+        except Exception:
+            return []
     return out
 
 
