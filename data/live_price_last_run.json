@@ -1,9 +1,9 @@
 {
-  "scanned": 958,
-  "matched": 3,
+  "scanned": 994,
+  "matched": 0,
   "failed": 0,
   "stores": [
-    "Snowys"
+    "BCF"
   ],
   "limit": 994,
   "refresh_all": false,
