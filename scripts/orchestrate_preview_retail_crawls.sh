@@ -5,6 +5,7 @@ BRANCH="${1:-price-preview-20260819}"
 BATCH="${2:-80}"
 TOTAL="${3:-994}"
 LOG="${4:-data/full-retailer-orchestration.log}"
+START_STORE="${5:-}"
 mkdir -p "$(dirname "$LOG")"
 
 stores=(Snowys BCF Tentworld "Wild Earth" Anaconda)
@@ -27,7 +28,14 @@ run_batch() {
   log "started store=$store limit=$limit run=$run_id"
   while true; do
     local state
-    state=$(gh run view "$run_id" --json status,conclusion --jq '[.status,.conclusion] | @tsv')
+    state=$(gh run view "$run_id" --json status,conclusion --jq '[.status,.conclusion] | @tsv') || {
+      log "GitHub API/auth check failed store=$store run=$run_id"
+      return 1
+    }
+    if [[ -z "$state" ]]; then
+      log "empty GitHub run state store=$store run=$run_id"
+      return 1
+    fi
     log "state store=$store run=$run_id $state"
     case "$state" in
       completed$'\tsuccess')
@@ -44,7 +52,10 @@ run_batch() {
 }
 
 log "begin branch=$BRANCH batch=$BATCH total=$TOTAL"
+started=0
 for store in "${stores[@]}"; do
+  if [[ -n "$START_STORE" && "$store" == "$START_STORE" ]]; then started=1; fi
+  if [[ -n "$START_STORE" && "$started" -eq 0 ]]; then continue; fi
   remaining="$TOTAL"
   batch_no=0
   while (( remaining > 0 )); do

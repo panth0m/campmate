@@ -232,9 +232,11 @@
       },
       {
         "name": "Snowys",
-        "url": "https://www.snowys.com.au/search?q=Blackwolf%20Turbo%20300%20Tent",
-        "type": "search",
-        "priceCheckedAt": "2026-08-18T15:43:49Z"
+        "url": "https://www.snowys.com.au/turbo-tent-300",
+        "type": "product",
+        "priceCheckedAt": "2026-08-19T14:01:15Z",
+        "price": 1349.99,
+        "matchMethod": "manual-exact-base-model"
       },
       {
         "name": "Tentworld",
@@ -938,15 +940,19 @@
       },
       {
         "name": "Snowys",
-        "url": "https://www.snowys.com.au/search?q=Helinox%20Chair%20One",
-        "type": "search",
-        "priceCheckedAt": "2026-08-18T15:46:41Z"
+        "url": "https://www.snowys.com.au/chair-one?c=Black%20Cyan",
+        "type": "product",
+        "priceCheckedAt": "2026-08-19T14:01:15Z",
+        "price": 144.9,
+        "matchMethod": "manual-exact-base-model"
       },
       {
         "name": "Tentworld",
-        "url": "https://www.tentworld.com.au/Search.aspx?q=Helinox%20Chair%20One",
-        "type": "search",
-        "priceCheckedAt": "2026-08-18T23:11:29Z"
+        "url": "https://www.tentworld.com.au/buy-sale/helinox-chair-one-black-with-blue-frame",
+        "type": "product",
+        "priceCheckedAt": "2026-08-19T14:01:15Z",
+        "price": 134.99,
+        "matchMethod": "manual-exact-base-model-variant"
       },
       {
         "name": "Wild Earth",
@@ -1129,9 +1135,11 @@
       },
       {
         "name": "Snowys",
-        "url": "https://www.snowys.com.au/search?q=OZtrail%20Festival%205%20Position%20Chair",
-        "type": "search",
-        "priceCheckedAt": "2026-08-18T15:46:41Z"
+        "url": "https://www.snowys.com.au/festival-arm-chair",
+        "type": "product",
+        "priceCheckedAt": "2026-08-19T14:01:15Z",
+        "price": 44.99,
+        "matchMethod": "manual-exact-base-model-title-normalised"
       },
       {
         "name": "Tentworld",
@@ -1560,9 +1568,11 @@
       },
       {
         "name": "BCF",
-        "url": "https://www.bcf.com.au/search?q=YETI%20Tundra%2045%20Hard%20Cooler",
-        "type": "search",
-        "priceCheckedAt": "2026-08-18T21:02:10Z"
+        "url": "https://www.bcf.com.au/p/yeti-tundra-45-hard-cooler-charcoal/667683.html",
+        "type": "product",
+        "priceCheckedAt": "2026-08-19T14:01:15Z",
+        "price": 475.0,
+        "matchMethod": "manual-exact-base-model-variant"
       },
       {
         "name": "Anaconda",
