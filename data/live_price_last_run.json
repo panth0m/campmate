@@ -1,11 +1,11 @@
 {
-  "scanned": 994,
+  "scanned": 1,
   "matched": 0,
   "failed": 0,
   "stores": [
     "BCF"
   ],
-  "limit": 994,
+  "limit": 1,
   "refresh_all": false,
-  "next_offset": 4
+  "next_offset": 25
 }
