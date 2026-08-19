@@ -43,8 +43,10 @@ Usage:
   python scrape_live_prices.py --refresh-all --limit 40    # re-check even already-priced ones
 """
 import argparse
+import html as html_lib
 import json
 import re
+import subprocess
 import sys
 import time
 import urllib.error
@@ -72,8 +74,182 @@ JUNK_MATCH_TERMS = {
 
 def fetch(url):
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=15) as res:
-        return res.read().decode("utf-8", errors="ignore")
+    last_error = None
+    for attempt in range(2):
+        try:
+            with urllib.request.urlopen(req, timeout=15) as res:
+                return res.read().decode("utf-8", errors="ignore")
+        except (urllib.error.URLError, TimeoutError) as exc:
+            last_error = exc
+            time.sleep(1.0 + attempt)
+    # Some retailer edges intermittently terminate Python TLS connections. curl uses
+    # the runner's normal TLS stack as a bounded public-page fallback.
+    try:
+        result = subprocess.run(
+            ["curl", "-L", "--http1.1", "-A", USER_AGENT, "--max-time", "25", "-sS", url],
+            check=True, capture_output=True, text=True, timeout=30,
+        )
+        if result.stdout:
+            return result.stdout
+    except Exception:
+        pass
+    # Final fallback: ordinary headless Chrome, without stealth or challenge bypassing.
+    try:
+        driver = _get_shared_driver()
+        driver.get(url)
+        return driver.page_source
+    except Exception:
+        if last_error:
+            raise last_error
+        raise
+
+DETAIL_REJECT_TERMS = {
+    "ground sheet", "groundsheet", "footprint", "replacement", "spare", "cover only",
+    "carry bag", "cup holder", "latch", "pad for", "accessory", "repair kit",
+}
+
+def _jsonld_nodes(value):
+    if isinstance(value, list):
+        for item in value:
+            yield from _jsonld_nodes(item)
+    elif isinstance(value, dict):
+        if "@graph" in value:
+            yield from _jsonld_nodes(value["@graph"])
+        else:
+            yield value
+
+def _first_offer(offers):
+    if isinstance(offers, list):
+        offers = offers[0] if offers else {}
+    return offers if isinstance(offers, dict) else {}
+
+def parse_detail_page(html, url):
+    """Extract the canonical product identity and current offer from one detail page.
+    JSON-LD is preferred; visible/meta price is only a bounded fallback."""
+    title = ""
+    price = None
+    currency = "AUD"
+    availability = ""
+    condition = ""
+    sku = ""
+    brand = ""
+    try:
+        from bs4 import BeautifulSoup
+        soup = BeautifulSoup(html, "html.parser")
+    except Exception:
+        soup = None
+    if soup:
+        for script in soup.select('script[type="application/ld+json"]'):
+            raw = script.string or script.get_text()
+            try:
+                payload = json.loads(html_lib.unescape(raw))
+            except Exception:
+                continue
+            for node in _jsonld_nodes(payload):
+                types = node.get("@type", [])
+                if isinstance(types, str):
+                    types = [types]
+                if "Product" not in types and "ProductGroup" not in types:
+                    continue
+                title = str(node.get("name") or title).strip()
+                raw_brand = node.get("brand")
+                if isinstance(raw_brand, dict):
+                    raw_brand = raw_brand.get("name")
+                brand = str(raw_brand or brand).strip()
+                sku = str(node.get("sku") or node.get("mpn") or sku).strip()
+                offer = _first_offer(node.get("offers"))
+                raw_price = offer.get("price") or offer.get("lowPrice")
+                try:
+                    if raw_price is not None:
+                        price = float(str(raw_price).replace(",", ""))
+                except (TypeError, ValueError):
+                    pass
+                currency = str(offer.get("priceCurrency") or currency).upper()
+                availability = str(offer.get("availability") or "").lower()
+                condition = str(offer.get("itemCondition") or "").lower()
+                if title and price is not None:
+                    break
+            if title and price is not None:
+                break
+        if not title:
+            h1 = soup.find("h1")
+            title = h1.get_text(" ", strip=True) if h1 else (soup.title.get_text(" ", strip=True) if soup.title else "")
+        if price is None:
+            meta = soup.select_one('meta[itemprop="price"]')
+            if meta and meta.get("content"):
+                try:
+                    price = float(meta["content"].replace(",", ""))
+                except ValueError:
+                    pass
+        if price is None:
+            for selector in (".price", ".product-price", "[class*='price']"):
+                node = soup.select_one(selector)
+                if not node:
+                    continue
+                match = re.search(r"(?:A\\$|\\$)\\s*([0-9][0-9,]*(?:\\.[0-9]{1,2})?)", node.get_text(" ", strip=True))
+                if match:
+                    price = float(match.group(1).replace(",", ""))
+                    break
+    return {
+        "name": title,
+        "price": price,
+        "currency": currency,
+        "availability": availability,
+        "condition": condition,
+        "brand": brand,
+        "sku": sku,
+        "url": url,
+    }
+
+def verify_detail_candidate(store, product, candidate):
+    url = candidate.get("url") or candidate.get("matchedUrl")
+    if not url:
+        return None
+    try:
+        if store == "Snowys":
+            html = fetch(url)
+        else:
+            # BCF, Tentworld, Wild Earth and Anaconda may return a storefront
+            # denial shell to plain HTTP; read the public PDP through ordinary Chrome.
+            driver = _get_shared_driver()
+            driver.get(url)
+            html = driver.page_source
+    except Exception as exc:
+        print(f"  detail failed {store} {url}: {exc}")
+        return None
+    detail = parse_detail_page(html, url)
+    name = detail.get("name", "")
+    lower = name.lower()
+    if not name or any(term in lower for term in DETAIL_REJECT_TERMS):
+        return None
+    if detail.get("price") is None or detail.get("price") <= 0 or detail.get("currency") not in {"AUD", "AU"}:
+        return None
+    if any(flag in detail.get("availability", "") for flag in ("outofstock", "soldout", "discontinued")):
+        return None
+    detail_for_score = dict(detail)
+    detail_for_score["name"] = " ".join(part for part in (detail.get("brand"), detail.get("name")) if part)
+    score = score_match(product, detail_for_score)
+    # Retailers sometimes omit an otherwise non-distinctive seating-position label
+    # from the PDP title (e.g. catalogue “5 Position Chair” -> “Festival Arm Chair”).
+    # Allow that one title-normalisation only when brand, type, and all numeric size/model
+    # tokens still match; never relax model, capacity, or generation tokens.
+    if score < 12 and "position" in product.get("name", "").lower():
+        relaxed = dict(product)
+        relaxed["name"] = re.sub(r"\b\d+\s*position\s*", "", product.get("name", ""), flags=re.I)
+        score = score_match(relaxed, detail_for_score)
+    if score < 12:
+        return None
+    detail["matchedUrl"] = url
+    detail["matchMethod"] = "detail-page-jsonld-or-dom"
+    return detail
+
+def verify_candidates(product, store, candidates, max_candidates=4):
+    ranked = sorted(candidates or [], key=lambda c: score_match(product, c), reverse=True)
+    for candidate in ranked[:max_candidates]:
+        verified = verify_detail_candidate(store, product, candidate)
+        if verified:
+            return verified
+    return None
 
 
 SNOWYS_PATTERN = re.compile(
@@ -541,13 +717,13 @@ def main():
             # match adds `price`/`matchedUrl` on top; the frontend shows those when present
             # and falls back to the plain "Open search" link otherwise. This way a bad/no
             # match can never leave a stale wrong product link sitting on the safe field.
-            best = find_best_match(product, candidates)
+            best = verify_candidates(product, name, candidates)
             if best:
                 store["price"] = best["price"]
-                store["matchedUrl"] = best["url"]
+                store["matchedUrl"] = best.get("matchedUrl") or best.get("url")
                 store["priceCheckedAt"] = now
                 matched += 1
-                print(f"[{matched}] {name}: {product.get('name')} -> ${best['price']}")
+                print(f"[{matched}] {name}: {product.get('name')} -> ${best['price']} ({best.get('matchMethod', 'detail-page')})")
             else:
                 store.pop("price", None)
                 store.pop("matchedUrl", None)

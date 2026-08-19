@@ -39,8 +39,8 @@ jobs:
           python-version: "3.11"
       - name: Set up Chrome
         uses: browser-actions/setup-chrome@v1
-      - name: Install Selenium
-        run: pip install selenium
+      - name: Install browser parsing dependencies
+        run: pip install selenium beautifulsoup4
       - name: Scrape one retailer
         env:
           STORE: ${{ matrix.store }}
