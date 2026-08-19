@@ -190,6 +190,51 @@ def parse_detail_page(html, url):
                 if match:
                     price = float(match.group(1).replace(",", ""))
                     break
+    if not soup:
+        # Standard-library fallback for clean GitHub runners where bs4 is unavailable.
+        scripts = re.findall(r'<script[^>]+type=["\\\']application/ld\\+json["\\\'][^>]*>(.*?)</script>', html, re.I | re.S)
+        for raw in scripts:
+            try:
+                payload = json.loads(html_lib.unescape(raw.strip()))
+            except Exception:
+                continue
+            for node in _jsonld_nodes(payload):
+                types = node.get("@type", [])
+                if isinstance(types, str):
+                    types = [types]
+                if "Product" not in types and "ProductGroup" not in types:
+                    continue
+                title = str(node.get("name") or title).strip()
+                raw_brand = node.get("brand")
+                if isinstance(raw_brand, dict):
+                    raw_brand = raw_brand.get("name")
+                brand = str(raw_brand or brand).strip()
+                sku = str(node.get("sku") or node.get("mpn") or sku).strip()
+                offer = _first_offer(node.get("offers"))
+                raw_price = offer.get("price") or offer.get("lowPrice")
+                try:
+                    if raw_price is not None:
+                        price = float(str(raw_price).replace(",", ""))
+                except (TypeError, ValueError):
+                    pass
+                currency = str(offer.get("priceCurrency") or currency).upper()
+                availability = str(offer.get("availability") or "").lower()
+                condition = str(offer.get("itemCondition") or "").lower()
+                if title and price is not None:
+                    break
+            if title and price is not None:
+                break
+        if not title:
+            h1 = re.search(r'<h1[^>]*>(.*?)</h1>', html, re.I | re.S)
+            title = re.sub(r'<[^>]+>', ' ', h1.group(1)).strip() if h1 else ''
+        if price is None:
+            meta = re.search(r'<meta[^>]+itemprop=["\\\']price["\\\'][^>]+content=["\\\']([^"\\\']+)', html, re.I)
+            if meta:
+                try:
+                    price = float(meta.group(1).replace(',', ''))
+                except ValueError:
+                    pass
+
     return {
         "name": title,
         "price": price,
