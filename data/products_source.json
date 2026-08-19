@@ -231,7 +231,9 @@
         "name": "Snowys",
         "url": "https://www.snowys.com.au/search?q=Blackwolf%20Turbo%20300%20Tent",
         "type": "search",
-        "priceCheckedAt": "2026-08-19T15:44:54Z"
+        "priceCheckedAt": "2026-08-19T15:47:10Z",
+        "price": 1349.99,
+        "matchedUrl": "https://www.snowys.com.au/turbo-tent-300"
       },
       {
         "name": "Tentworld",
