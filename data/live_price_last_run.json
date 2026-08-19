@@ -1,11 +1,11 @@
 {
-  "scanned": 1,
-  "matched": 1,
+  "scanned": 958,
+  "matched": 3,
   "failed": 0,
   "stores": [
     "Snowys"
   ],
-  "limit": 1,
+  "limit": 994,
   "refresh_all": false,
   "next_offset": 4
 }
