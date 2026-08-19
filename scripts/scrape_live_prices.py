@@ -311,9 +311,7 @@ SNOWYS_PATTERN = re.compile(
 )
 
 
-def scrape_snowys(query, limit=8):
-    url = "https://www.snowys.com.au/search?q=" + urllib.parse.quote(query)
-    html = fetch(url)
+def _parse_snowys_search_html(html, limit=8):
     out = []
     for path, brand, rest, price_raw in SNOWYS_PATTERN.findall(html)[:limit]:
         name = f"{brand} {rest}".strip()
@@ -323,8 +321,25 @@ def scrape_snowys(query, limit=8):
             continue
         if price <= 0:
             continue
-        out.append({"name": name, "price": price, "url": "https://www.snowys.com.au" + path})
+        full_url = urllib.parse.urljoin("https://www.snowys.com.au", path)
+        out.append({"name": name, "price": price, "url": full_url})
     return out
+
+def scrape_snowys(query, limit=8):
+    url = "https://www.snowys.com.au/search?q=" + urllib.parse.quote(query)
+    html = fetch(url)
+    out = _parse_snowys_search_html(html, limit)
+    if out:
+        return out
+    # Public Snowys search can return a consent/edge shell to a clean runner even
+    # though the same search is visible in a normal browser. Re-read the public page
+    # with ordinary Chrome; the PDP verifier still performs the final price check.
+    try:
+        driver = _get_shared_driver()
+        driver.get(url)
+        return _parse_snowys_search_html(driver.page_source, limit)
+    except Exception:
+        return []
 
 
 BCF_GTM_PATTERN = re.compile(r'data-gtm="([^"]*add_to_cart[^"]*)"')
