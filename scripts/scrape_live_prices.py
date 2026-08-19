@@ -325,6 +325,42 @@ def _parse_snowys_search_html(html, limit=8):
         out.append({"name": name, "price": price, "url": full_url})
     return out
 
+def _scrape_snowys_browser(query, limit=8):
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.support.ui import WebDriverWait
+    from selenium.webdriver.support import expected_conditions as EC
+    url = "https://www.snowys.com.au/search?q=" + urllib.parse.quote(query)
+    driver = _get_shared_driver()
+    driver.get(url)
+    try:
+        WebDriverWait(driver, 20).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, "h3.product-title, .product-title, .product-card"))
+        )
+    except Exception:
+        pass
+    out = []
+    cards = driver.find_elements(By.CSS_SELECTOR, "h3.product-title, .product-card, article.product")
+    for card in cards[:limit]:
+        try:
+            link = card.find_element(By.CSS_SELECTOR, "a[href]")
+            href = link.get_attribute("href") or ""
+            name = link.text.strip() or card.text.split("\\n")[0].strip()
+            price_node = card.find_elements(By.CSS_SELECTOR, "[content], .product-price, [class*='price']")
+            price = None
+            for node in price_node:
+                raw = node.get_attribute("content") or node.text
+                m = re.search(r"(?:A\$|\$)?\s*([0-9][0-9,]*(?:\.[0-9]{1,2})?)", raw or "")
+                if m:
+                    price = float(m.group(1).replace(",", ""))
+                    break
+            if href and name and price and "snowys.com.au" in href:
+                out.append({"name": name, "price": price, "url": href})
+        except Exception:
+            continue
+    if out:
+        return out
+    return _parse_snowys_search_html(driver.page_source, limit)
+
 def scrape_snowys(query, limit=8):
     url = "https://www.snowys.com.au/search?q=" + urllib.parse.quote(query)
     html = fetch(url)
@@ -333,11 +369,9 @@ def scrape_snowys(query, limit=8):
         return out
     # Public Snowys search can return a consent/edge shell to a clean runner even
     # though the same search is visible in a normal browser. Re-read the public page
-    # with ordinary Chrome; the PDP verifier still performs the final price check.
+    # with ordinary Chrome and inspect the rendered product cards.
     try:
-        driver = _get_shared_driver()
-        driver.get(url)
-        return _parse_snowys_search_html(driver.page_source, limit)
+        return _scrape_snowys_browser(query, limit)
     except Exception:
         return []
 
