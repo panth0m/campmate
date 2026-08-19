@@ -252,7 +252,7 @@ def parse_detail_page(html, url):
         "url": url,
     }
 
-def verify_detail_candidate(store, product, candidate):
+def verify_detail_candidate(store, product, candidate, debug=False):
     url = candidate.get("url") or candidate.get("matchedUrl")
     if not url:
         return None
@@ -271,11 +271,16 @@ def verify_detail_candidate(store, product, candidate):
     detail = parse_detail_page(html, url)
     name = detail.get("name", "")
     lower = name.lower()
+    if debug:
+        print(f"DETAIL DEBUG store={store} url={url} detail={json.dumps(detail, ensure_ascii=False)}")
     if not name or any(term in lower for term in DETAIL_REJECT_TERMS):
+        if debug: print(f"DETAIL REJECT reason=name-or-junk url={url}")
         return None
     if detail.get("price") is None or detail.get("price") <= 0 or detail.get("currency") not in {"AUD", "AU"}:
+        if debug: print(f"DETAIL REJECT reason=price-or-currency url={url}")
         return None
     if any(flag in detail.get("availability", "") for flag in ("outofstock", "soldout", "discontinued")):
+        if debug: print(f"DETAIL REJECT reason=availability url={url}")
         return None
     detail_for_score = dict(detail)
     detail_for_score["name"] = " ".join(part for part in (detail.get("brand"), detail.get("name")) if part)
@@ -289,15 +294,16 @@ def verify_detail_candidate(store, product, candidate):
         relaxed["name"] = re.sub(r"\b\d+\s*position\s*", "", product.get("name", ""), flags=re.I)
         score = score_match(relaxed, detail_for_score)
     if score < 12:
+        if debug: print(f"DETAIL REJECT reason=score score={score} url={url}")
         return None
     detail["matchedUrl"] = url
     detail["matchMethod"] = "detail-page-jsonld-or-dom"
     return detail
 
-def verify_candidates(product, store, candidates, max_candidates=4):
+def verify_candidates(product, store, candidates, max_candidates=4, debug=False):
     ranked = sorted(candidates or [], key=lambda c: score_match(product, c), reverse=True)
     for candidate in ranked[:max_candidates]:
-        verified = verify_detail_candidate(store, product, candidate)
+        verified = verify_detail_candidate(store, product, candidate, debug=debug)
         if verified:
             return verified
     return None
@@ -822,7 +828,7 @@ def main():
             # match adds `price`/`matchedUrl` on top; the frontend shows those when present
             # and falls back to the plain "Open search" link otherwise. This way a bad/no
             # match can never leave a stale wrong product link sitting on the safe field.
-            best = verify_candidates(product, name, candidates)
+            best = verify_candidates(product, name, candidates, debug=args.debug)
             if args.debug:
                 print(f"DEBUG store={name} product={product.get('name')} candidates={json.dumps(candidates[:4], ensure_ascii=False)} verified={json.dumps(best, ensure_ascii=False) if best else None}")
             if best:
