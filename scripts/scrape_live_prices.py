@@ -511,8 +511,18 @@ def scrape_bcf_browser(query, limit=8):
 
 _shared_driver = None
 
+def _reset_shared_driver():
+    global _shared_driver
+    if _shared_driver is not None:
+        try:
+            _shared_driver.quit()
+        except Exception:
+            pass
+    _shared_driver = None
+    return _get_shared_driver()
 
 def _get_shared_driver():
+
     """Tentworld/Wild Earth/Anaconda all need a real browser (checked live 2026-08-04 with
     plain, unmodified headless Selenium - no stealth/undetected-chromedriver tricks): Tentworld
     is a pure client-rendered SPA with zero product data in the raw HTML; Wild Earth and
@@ -551,7 +561,12 @@ def scrape_tentworld(query, limit=8):
     from selenium.webdriver.support import expected_conditions as EC
 
     driver = _get_shared_driver()
-    driver.get("https://www.tentworld.com.au/search?query=" + urllib.parse.quote(query))
+    search_url = "https://www.tentworld.com.au/search?query=" + urllib.parse.quote(query)
+    try:
+        driver.get(search_url)
+    except Exception:
+        driver = _reset_shared_driver()
+        driver.get(search_url)
     try:
         WebDriverWait(driver, 20).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, '[class*="productCard-"], [class*="noResults-"]'))
@@ -586,7 +601,12 @@ def scrape_wildearth(query, limit=8):
     from selenium.webdriver.support import expected_conditions as EC
 
     driver = _get_shared_driver()
-    driver.get("https://www.wildearth.com.au/search-results?q=" + urllib.parse.quote(query))
+    search_url = "https://www.wildearth.com.au/search-results?q=" + urllib.parse.quote(query)
+    try:
+        driver.get(search_url)
+    except Exception:
+        driver = _reset_shared_driver()
+        driver.get(search_url)
     try:
         WebDriverWait(driver, 20).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, "article.ss__result--item, .ss__no-results"))
