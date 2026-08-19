@@ -70,6 +70,12 @@ JUNK_MATCH_TERMS = {
     "sticker", "decal", "spare", "replacement", "part", "repair kit", "cover only",
     "groundsheet", "ground sheet", "bag only", "footprint", "pole", "peg", "guy rope",
 }
+# Variant markers that must not appear only on the retailer PDP. This prevents a
+# generic overlap such as catalogue "Turbo 300" -> "Turbo BLK Lite Plus 300".
+VARIANT_MARKERS = {
+    "lite", "plus", "blk", "evo", "deluxe", "cabin", "premium", "pro", "air",
+    "compact", "xl", "xxl", "mk2", "mk3", "ii", "iii", "low", "high", "front", "rear",
+}
 
 
 def fetch(url):
@@ -650,6 +656,10 @@ def score_match(product, candidate):
         return -100
     product_name = product.get("name", "")
     candidate_words = norm_words(candidate.get("name", ""))
+    product_words = core_words(product_name)
+    extra_variants = (candidate_words & VARIANT_MARKERS) - product_words
+    if extra_variants:
+        return -100
     # Hard gate: every distinctive word in OUR product name must appear in the candidate,
     # not just "most of them". Model names (Jetboil "MiniMo" vs "The Stash") are exactly the
     # kind of single differentiating word that a fuzzy overlap score lets slip through even
