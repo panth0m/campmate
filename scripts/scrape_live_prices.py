@@ -269,6 +269,13 @@ def verify_detail_candidate(store, product, candidate, debug=False):
         print(f"  detail failed {store} {url}: {exc}")
         return None
     detail = parse_detail_page(html, url)
+    if store == "Snowys" and (not detail.get("name") or detail.get("price") is None):
+        try:
+            driver = _get_shared_driver()
+            driver.get(url)
+            detail = parse_detail_page(driver.page_source, url)
+        except Exception as exc:
+            if debug: print(f"DETAIL browser fallback failed url={url}: {exc}")
     name = detail.get("name", "")
     lower = name.lower()
     if debug:
