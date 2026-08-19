@@ -18,6 +18,10 @@ on:
         description: '특정 판매처만 확인하려면 이름 입력 (Snowys/BCF/Tentworld/Wild Earth/Anaconda)'
         required: false
         default: ''
+      debug:
+        description: '상세 후보와 검증 결과를 로그에 출력'
+        required: false
+        default: 'false'
 
 jobs:
   public-store-prices:
@@ -44,9 +48,12 @@ jobs:
 
       - name: Scrape public store prices
         run: |
+          DEBUG_FLAG=""
+          if [ "${{ github.event.inputs.debug || 'false' }}" = "true" ]; then DEBUG_FLAG="--debug"; fi
           python scripts/scrape_live_prices.py \
             --limit "${{ github.event.inputs.limit || '80' }}" \
-            ${{ github.event.inputs.store && format('--store "{0}"', github.event.inputs.store) || '' }}
+            ${{ github.event.inputs.store && format('--store "{0}"', github.event.inputs.store) || '' }} \
+            $DEBUG_FLAG
 
       - name: Rebuild product data
         run: python scripts/run_catalog_cleanup.py

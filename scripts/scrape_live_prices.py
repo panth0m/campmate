@@ -741,6 +741,7 @@ def main():
     parser.add_argument("--store", default=None, help="Only scrape this one store (default: all implemented)")
     parser.add_argument("--delay", type=float, default=1.5, help="Seconds between requests (politeness)")
     parser.add_argument("--refresh-all", action="store_true")
+    parser.add_argument("--debug", action="store_true", help="Print detail-crawl candidates and validation results")
     args = parser.parse_args()
 
     active_stores = [args.store] if args.store else list(STORE_SCRAPERS.keys())
@@ -788,6 +789,8 @@ def main():
             # and falls back to the plain "Open search" link otherwise. This way a bad/no
             # match can never leave a stale wrong product link sitting on the safe field.
             best = verify_candidates(product, name, candidates)
+            if args.debug:
+                print(f"DEBUG store={name} product={product.get('name')} candidates={json.dumps(candidates[:4], ensure_ascii=False)} verified={json.dumps(best, ensure_ascii=False) if best else None}")
             if best:
                 store["price"] = best["price"]
                 store["matchedUrl"] = best.get("matchedUrl") or best.get("url")
