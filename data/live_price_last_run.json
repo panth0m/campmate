@@ -1,9 +1,9 @@
 {
-  "scanned": 940,
+  "scanned": 965,
   "matched": 0,
-  "failed": 2,
+  "failed": 0,
   "stores": [
-    "Tentworld"
+    "Wild Earth"
   ],
   "limit": 994,
   "refresh_all": false,
