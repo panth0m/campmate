@@ -22,6 +22,10 @@ on:
         description: '상세 후보와 검증 결과를 로그에 출력'
         required: false
         default: 'false'
+      category:
+        description: '특정 카테고리만 확인하려면 입력 (예: tents)'
+        required: false
+        default: ''
 
 jobs:
   public-store-prices:
@@ -50,9 +54,12 @@ jobs:
         run: |
           DEBUG_FLAG=""
           if [ "${{ github.event.inputs.debug || 'false' }}" = "true" ]; then DEBUG_FLAG="--debug"; fi
+          CATEGORY_FLAG=""
+          if [ -n "${{ github.event.inputs.category || '' }}" ]; then CATEGORY_FLAG="--category ${{ github.event.inputs.category }}"; fi
           python scripts/scrape_live_prices.py \
             --limit "${{ github.event.inputs.limit || '80' }}" \
             ${{ github.event.inputs.store && format('--store "{0}"', github.event.inputs.store) || '' }} \
+            $CATEGORY_FLAG \
             $DEBUG_FLAG
 
       - name: Rebuild product data
