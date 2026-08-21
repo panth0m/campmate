@@ -814,10 +814,13 @@ def main():
     parser.add_argument("--delay", type=float, default=1.5, help="Seconds between requests (politeness)")
     parser.add_argument("--refresh-all", action="store_true")
     parser.add_argument("--debug", action="store_true", help="Print detail-crawl candidates and validation results")
+    parser.add_argument("--category", default=None, help="Only scan products in this category, e.g. tents")
     args = parser.parse_args()
-
     active_stores = [args.store] if args.store else list(STORE_SCRAPERS.keys())
     products = json.loads(SOURCE.read_text(encoding="utf-8"))
+    if args.category:
+        products = [p for p in products if p.get("category") == args.category]
+
 
     scanned = 0
     matched = 0
@@ -889,6 +892,7 @@ def main():
         "matched": matched,
         "failed": failed,
         "stores": active_stores,
+        "category": args.category,
         "limit": args.limit,
         "refresh_all": args.refresh_all,
         "next_offset": new_offset,
