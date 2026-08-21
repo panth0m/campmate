@@ -1,11 +1,12 @@
 {
-  "scanned": 20,
+  "scanned": 5,
   "matched": 0,
   "failed": 0,
   "stores": [
-    "Anaconda"
+    "Snowys"
   ],
-  "limit": 20,
+  "category": "tents",
+  "limit": 5,
   "refresh_all": false,
-  "next_offset": 45
+  "next_offset": 50
 }
