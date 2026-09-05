@@ -32,9 +32,9 @@
     {
       "category": "chairs",
       "requested": 29,
-      "added": 0,
+      "added": 1,
       "brands": {
-        "Coleman": 0,
+        "Coleman": 1,
         "OZtrail": 0,
         "BlackWolf": 0,
         "Helinox": 0,
@@ -125,5 +125,5 @@
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     }
   ],
-  "added_total": 1
+  "added_total": 2
 }
