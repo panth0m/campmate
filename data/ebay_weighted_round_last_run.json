@@ -26,16 +26,16 @@
         "Vango": 0,
         "Zempire": 0
       },
-      "sourceCount": 1061,
+      "sourceCount": 1062,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
       "category": "chairs",
       "requested": 29,
-      "added": 3,
+      "added": 2,
       "brands": {
         "Coleman": 0,
-        "OZtrail": 1,
+        "OZtrail": 0,
         "BlackWolf": 0,
         "Helinox": 2,
         "Darche": 0,
@@ -125,5 +125,5 @@
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     }
   ],
-  "added_total": 3
+  "added_total": 2
 }
