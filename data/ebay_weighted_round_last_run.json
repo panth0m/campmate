@@ -89,7 +89,7 @@
     {
       "category": "lanterns",
       "requested": 12,
-      "added": 1,
+      "added": 2,
       "brands": {
         "Coleman": 0,
         "Black Diamond": 0,
@@ -98,11 +98,11 @@
         "Ledlenser": 0,
         "Barebones": 0,
         "Sea to Summit": 0,
-        "OZtrail": 1,
+        "OZtrail": 2,
         "Companion": 0,
         "Vango": 0
       },
-      "sourceCount": 1066,
+      "sourceCount": 1067,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -121,9 +121,9 @@
         "Wanderer": 0,
         "Big Agnes": 0
       },
-      "sourceCount": 1066,
+      "sourceCount": 1067,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     }
   ],
-  "added_total": 3
+  "added_total": 4
 }
