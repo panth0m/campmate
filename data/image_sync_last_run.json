@@ -1,9 +1,9 @@
 {
   "scanned": 19,
-  "touched": 0,
-  "changed": 0,
+  "touched": 2,
+  "changed": 2,
   "sources": {
-    "ebay": 0,
+    "ebay": 2,
     "google": 0
   },
   "limit": 60,
