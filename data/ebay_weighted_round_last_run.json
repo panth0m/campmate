@@ -13,21 +13,8 @@
     {
       "category": "tents",
       "requested": 44,
-      "added": 1,
-      "brands": {
-        "Coleman": 0,
-        "OZtrail": 0,
-        "BlackWolf": 0,
-        "Sea to Summit": 0,
-        "Darche": 0,
-        "Hilleberg": 0,
-        "The North Face": 1,
-        "Big Agnes": 0,
-        "Vango": 0,
-        "Zempire": 0
-      },
-      "sourceCount": 1073,
-      "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
+      "added": 0,
+      "error": "Network error for https://api.ebay.com/buy/browse/v1/item_summary/search?q=Zempire+tent+camping&filter=buyingOptions%3A%7BFIXED_PRICE%7D%2Cconditions%3A%7BNEW%7D%2CdeliveryCountry%3AAU%2CitemLocationCountry%3AAU&sort=newlyListed&limit=100&offset=75800: <urlopen error [Errno 104] Connection reset by peer>"
     },
     {
       "category": "chairs",
@@ -125,5 +112,5 @@
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     }
   ],
-  "added_total": 1
+  "added_total": 0
 }
