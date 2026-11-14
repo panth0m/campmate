@@ -1,5 +1,5 @@
 {
-  "scanned": 80,
+  "scanned": 3,
   "matched": 0,
   "failed": 0,
   "stores": [
@@ -9,7 +9,8 @@
     "Wild Earth",
     "Anaconda"
   ],
-  "limit": 80,
+  "category": null,
+  "limit": 3,
   "refresh_all": false,
-  "next_offset": 375
+  "next_offset": 378
 }
