@@ -1,6 +1,6 @@
 {
-  "scanned": 80,
-  "matched": 4,
+  "scanned": 3,
+  "matched": 0,
   "failed": 0,
   "stores": [
     "Snowys",
@@ -10,7 +10,7 @@
     "Anaconda"
   ],
   "category": null,
-  "limit": 80,
+  "limit": 3,
   "refresh_all": false,
-  "next_offset": 458
+  "next_offset": 461
 }
