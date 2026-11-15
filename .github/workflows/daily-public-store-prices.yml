@@ -31,6 +31,13 @@ jobs:
         with:
           fetch-depth: 0
 
+      # 실행이 concurrency 대기열에서 기다리는 동안(최대 1시간) 다른 워크플로가 main을
+      # 앞서 밀어놓을 수 있다. 이 실행이 붙잡은 SHA 대신 지금의 main에서 시작한다.
+      - name: Sync to latest main
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -39,8 +46,8 @@ jobs:
       - name: Set up Chrome
         uses: browser-actions/setup-chrome@v1
 
-      - name: Install Selenium
-        run: pip install selenium
+      - name: Install browser parsing dependencies
+        run: pip install selenium beautifulsoup4
 
       - name: Scrape public store prices
         run: |
@@ -61,48 +68,77 @@ jobs:
             data/live_price_scan_state.json \
             || echo "changed=true" >> "$GITHUB_OUTPUT"
 
+      # 스크래핑에 1시간 30분이 걸리는 사이 다른 워크플로가 같은 파일을 커밋하면
+      # git pull --rebase 는 내용 충돌로 죽는다. 가격은 'slug + 매장' 단위 값이므로
+      # 최신 main 위에 가격 필드만 다시 얹는다(파일 통째 병합을 하지 않는다).
       - name: Commit updated public store prices
         if: steps.check.outputs.changed == 'true'
         run: |
+          set -euo pipefail
           git config user.name "CampMate Bot"
           git config user.email "bot@campmate.au"
-          git add \
-            data/products_source.json \
-            data/products.json \
-            data/live_price_last_run.json \
-            data/live_price_scan_state.json
+          DATA="data/products_source.json data/products.json"
+          STATE="data/live_price_last_run.json data/live_price_scan_state.json"
+          git add $DATA $STATE
           if git diff --cached --quiet; then
             echo "No public store price changes"
             exit 0
           fi
           git commit -m "Update public retailer prices $(date +%Y-%m-%d)"
-          BRANCH="${GITHUB_REF_NAME:-main}"
-          git pull --rebase origin "$BRANCH"
-          git push origin HEAD:"$BRANCH"
 
-      - name: Generate static pages
-        run: |
-          python scripts/generate_static_catalog_pages.py
-          python scripts/generate_static_products.py
-          python scripts/rebuild_sitemaps.py
-          python scripts/embed_static_text_routes.py
+          mkdir -p "$RUNNER_TEMP/ours"
+          cp data/products_source.json data/live_price_last_run.json data/live_price_scan_state.json "$RUNNER_TEMP/ours/"
 
-      - name: Commit regenerated pages
+          BRANCH="main"
+          git fetch origin "$BRANCH"
+          if git rebase "origin/$BRANCH"; then
+            git push origin HEAD:"$BRANCH"
+          else
+            echo "rebase conflicted - re-applying price fields onto latest $BRANCH"
+            git rebase --abort || true
+            git reset --hard "origin/$BRANCH"
+            cp "$RUNNER_TEMP/ours/live_price_last_run.json" data/live_price_last_run.json
+            cp "$RUNNER_TEMP/ours/live_price_scan_state.json" data/live_price_scan_state.json
+            python scripts/merge_price_results.py \
+              --scraped "$RUNNER_TEMP/ours/products_source.json" \
+              --target data/products_source.json
+            python scripts/run_catalog_cleanup.py
+            git add $DATA $STATE
+            git commit -m "Update public retailer prices $(date +%Y-%m-%d)"
+            git push origin HEAD:"$BRANCH"
+          fi
+
+      # 생성 파일(정적 페이지·사이트맵·worker)은 합칠 필요가 없다. 최신 main에서 다시 만들고
+      # 그 사이 또 밀린 게 있으면 몇 번 다시 시도한다.
+      - name: Generate and push static pages
         run: |
+          set -euo pipefail
           git config user.name "CampMate Bot"
           git config user.email "bot@campmate.au"
-          git add \
-            products/ tents.html chairs.html coolers.html stoves.html lanterns.html \
-            sleeping-bags.html categories.html popular.html sitemap.xml sitemap-main.xml \
-            sitemap-guides.xml sitemap-products.xml worker.js
-          if git diff --cached --quiet; then
-            echo "No static page changes"
-            exit 0
-          fi
-          git commit -m "Rebuild pages with public retailer prices $(date +%Y-%m-%d)"
-          BRANCH="${GITHUB_REF_NAME:-main}"
-          git pull --rebase origin "$BRANCH"
-          git push origin HEAD:"$BRANCH"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/generate_static_catalog_pages.py
+            python scripts/generate_static_products.py
+            python scripts/rebuild_sitemaps.py
+            python scripts/embed_static_text_routes.py
+            git add \
+              products/ tents.html chairs.html coolers.html stoves.html lanterns.html sleeping-bags.html \
+              categories.html popular.html sitemap.xml sitemap-main.xml \
+              sitemap-guides.xml sitemap-products.xml worker.js
+            if git diff --cached --quiet; then
+              echo "No static page changes"
+              exit 0
+            fi
+            git commit -m "Rebuild pages with public retailer prices $(date +%Y-%m-%d)"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "push rejected (attempt $attempt) - rebuilding on newest main"
+            sleep 10
+          done
+          echo "::error::static page push kept being rejected"
+          exit 1
 
       - name: Log summary
         if: always()
