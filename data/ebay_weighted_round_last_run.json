@@ -51,7 +51,7 @@
     {
       "category": "coolers",
       "requested": 14,
-      "added": 0,
+      "added": 1,
       "brands": {
         "Coleman": 0,
         "YETI": 0,
@@ -62,9 +62,9 @@
         "Evakool": 0,
         "Igloo": 0,
         "Sea to Summit": 0,
-        "Zempire": 0
+        "Zempire": 1
       },
-      "sourceCount": 1074,
+      "sourceCount": 1075,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -83,7 +83,7 @@
         "Trangia": 0,
         "Gasmate": 0
       },
-      "sourceCount": 1074,
+      "sourceCount": 1075,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -102,7 +102,7 @@
         "Companion": 0,
         "Vango": 0
       },
-      "sourceCount": 1074,
+      "sourceCount": 1075,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     },
     {
@@ -121,9 +121,9 @@
         "Wanderer": 0,
         "Big Agnes": 0
       },
-      "sourceCount": 1074,
+      "sourceCount": 1075,
       "stateFile": "/home/runner/work/campmate/campmate/data/ebay_incremental_state.json"
     }
   ],
-  "added_total": 0
+  "added_total": 1
 }
