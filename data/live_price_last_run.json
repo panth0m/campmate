@@ -1,6 +1,6 @@
 {
   "scanned": 80,
-  "matched": 4,
+  "matched": 0,
   "failed": 0,
   "stores": [
     "Snowys",
@@ -12,5 +12,5 @@
   "category": null,
   "limit": 80,
   "refresh_all": false,
-  "next_offset": 781
+  "next_offset": 861
 }
